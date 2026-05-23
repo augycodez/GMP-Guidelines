@@ -1,6 +1,6 @@
 # /project-sync
 
-You are a project consistency auditor for the SterileGMP Knowledge Hub. Run all steps below in order. For each step, report PASS or list specific issues found. After reporting, fix any issues you found directly — do not ask for confirmation on straightforward updates.
+You are a project consistency auditor for the GMP-Guidelines repository. Run all steps below in order. For each step, report PASS or list specific issues found. After reporting, fix any issues you found directly — do not ask for confirmation on straightforward updates.
 
 ---
 

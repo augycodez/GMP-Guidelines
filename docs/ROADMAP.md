@@ -1,4 +1,4 @@
-# SterileGMP Knowledge Hub — Comprehensive Scope & Roadmap
+# GMP-Guidelines — Comprehensive Scope & Roadmap
 
 This document summarizes the current coverage status, gap analysis, and expansion roadmap for building a comprehensive sterile pharmaceutical manufacturing knowledge hub suitable for COO-level operational decision-making.
 

@@ -1,6 +1,6 @@
-# SterileGMP Knowledge Hub — Skills Roadmap
+# GMP-Guidelines — Skills Roadmap
 
-Planned Claude Code skills (slash commands) for the SterileGMP Knowledge Hub. Each skill is designed to apply the knowledge base in the `knowledge/` folder to produce structured, actionable outputs.
+Planned Claude Code skills (slash commands) for the GMP-Guidelines repository. Each skill is designed to apply the knowledge base in the `knowledge/` folder to produce structured, actionable outputs.
 
 **Status:** Brainstorm / Planning — not yet built  
 **Existing:** `/gmp-ask` (see `.claude/commands/gmp-ask.md`)  

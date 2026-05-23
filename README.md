@@ -1,4 +1,4 @@
-# SterileGMP Knowledge Hub
+# GMP-Guidelines
 
 A multi-source GMP knowledge base for sterile pharmaceutical manufacturing — combining human-readable HTML educational guides with a chatbot-ready Markdown knowledge base and a Claude Code skill for conversational access.
 

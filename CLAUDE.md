@@ -1,4 +1,4 @@
-# SterileGMP Knowledge Hub — Project Rules
+# GMP-Guidelines — Project Rules
 
 Multi-source GMP knowledge base covering PDA, ISPE, FDA, PIC/S, ICH, USP, ISO, and ECA. Each source uses its own folder prefix (e.g., `ISPE/ISPE-Vol5/`, `FDA/FDA-Aseptic/`).
 

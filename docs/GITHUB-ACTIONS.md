@@ -2,6 +2,9 @@
 
 設定日期：2026-04-09
 
+> **Note:** The three GitHub Actions workflows described below (, , ) were removed during migration to  to allow clean publishing without a  token scope. They can be re-added from the original  repo if needed.
+
+
 ---
 
 ## 概覽
@@ -78,7 +81,7 @@
 - Commit 合併結果回 repo（`output/*-Complete.html`、`knowledge/` 更新）
 - Deploy 到 GitHub Pages（`gh-pages` branch）
 
-**GitHub Pages 網址**：`https://eaglemamba.github.io/SterileGMP-Knowledge-Hub/`
+**GitHub Pages 網址**：`https://augycodez.github.io/GMP-Guidelines/`
 
 ---
 

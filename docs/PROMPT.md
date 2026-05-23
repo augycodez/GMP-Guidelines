@@ -1,4 +1,4 @@
-# SterileGMP Knowledge Hub — Bilingual Educational Material Generator
+# GMP-Guidelines — Bilingual Educational Material Generator
 
 ## MISSION
 
