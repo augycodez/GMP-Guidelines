@@ -3425,18 +3425,7 @@
       "summary": "",
       "pages": "",
       "figures": 0,
-      "section_map": [
-        {
-          "files": [
-            "section-00-intro.html"
-          ],
-          "id": "sec0",
-          "num": "0",
-          "label_en": "Introduction",
-          "label_zh": "",
-          "pages": "p1-p5"
-        }
-      ],
+      "section_map": [],
       "figures_count": 0
     },
     "PtC-1": {
@@ -3739,18 +3728,7 @@
       "summary": "",
       "pages": "",
       "figures": 0,
-      "section_map": [
-        {
-          "files": [
-            "section-00-intro.html"
-          ],
-          "id": "sec0",
-          "num": "0",
-          "label_en": "Introduction",
-          "label_zh": "",
-          "pages": "p1-p5"
-        }
-      ],
+      "section_map": [],
       "figures_count": 11,
       "tables_count": 7
     },
@@ -6384,18 +6362,7 @@
       "summary": "",
       "pages": "",
       "figures": 0,
-      "section_map": [
-        {
-          "files": [
-            "section-00-intro.html"
-          ],
-          "id": "sec0",
-          "num": "0",
-          "label_en": "Introduction",
-          "label_zh": "",
-          "pages": "p1-p5"
-        }
-      ],
+      "section_map": [],
       "figures_count": 0
     },
     "TR86": {

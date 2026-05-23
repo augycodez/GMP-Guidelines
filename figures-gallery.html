@@ -225,7 +225,7 @@ function updateCarousel(){
   scrollThumbIntoView();
 }
 function scrollThumbIntoView(){var s=document.getElementById('thumbStrip');if(!s)return;var a=s.querySelector('.thumb.active');if(a)a.scrollIntoView({behavior:'smooth',block:'nearest',inline:'center'});}
-function openLightboxIdx(idx){if(event)event.stopPropagation();lbIdx=idx;updateLightbox();document.getElementById('lightbox').classList.add('open');document.body.style.overflow='hidden';}
+function openLightboxIdx(idx,ev){ev=ev||window.event;if(ev&&ev.stopPropagation)ev.stopPropagation();lbIdx=idx;updateLightbox();document.getElementById('lightbox').classList.add('open');document.body.style.overflow='hidden';}
 function updateLightbox(){var item=currentItems[lbIdx];if(!item)return;document.getElementById('lightboxImg').src=item.src;var info=item.label;if(item.caption)info+=' \u2014 '+item.caption;info+='  ('+(lbIdx+1)+'/'+currentItems.length+')';document.getElementById('lightboxInfo').textContent=info;}
 function lbNav(dir){var n=lbIdx+dir;if(n<0||n>=currentItems.length)return;lbIdx=n;updateLightbox();}
 function closeLightbox(){document.getElementById('lightbox').classList.remove('open');document.body.style.overflow='';if(lbIdx>=0&&currentView==='carousel'){currentIdx=lbIdx;renderDocView();}}

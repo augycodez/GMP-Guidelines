@@ -1,5 +1,12 @@
 __pycache__/
+*.pyc
+*.backup.json
+*.pre-*.json
 .DS_Store
 **/.DS_Store
 _audit_report.md
 _anchor_analysis.md
+Raw pdfs/
+.vscode/
+.idea/
+node_modules/
