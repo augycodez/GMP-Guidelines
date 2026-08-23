@@ -9,13 +9,13 @@ data = json.loads(RJ.read_text(encoding='utf-8'))
 TR74 = {
     "report_title_en": "PDA Technical Report No. 74 (Revised 2026)",
     "report_subtitle_en": "Reprocessing and Reworking of Biologicals",
-    "report_subtitle_zh": "生物製劑的再處理與返工 完整教學版",
+    "report_subtitle_zh": " ",
     "output_filename": "TR74-Complete.html",
     "footer_text": "PDA Technical Report No. 74 (Revised 2026): Reprocessing and Reworking of Biologicals",
     "chapter_label": "Section",
     "date": "2026-04-27",
     "title": "PDA TR74: Reprocessing and Reworking of Biologicals (Revised 2026)",
-    "titleZh": "PDA TR74:生物製劑的再處理與返工",
+    "titleZh": "PDA TR74:",
     "source": "PDA TR74",
     "source_color": {
         "bg": "#1e3a5f",
@@ -33,7 +33,7 @@ TR74 = {
         "AEX Chromatography",
         "Filtration"
     ],
-    "summary": "TR74 (2026修訂版) 系統性闡述生物製劑再處理 (reprocessing) 與返工 (reworking) 的決策框架、法規定位、品質風險評估、變更控制與案例研究。涵蓋主動/被動取向、CMC 變更分類、Risk Knowledge Infinity Cycle、AEX 層析再處理 FMEA 範例與過濾再過濾案例，共7個章節含附錄。",
+    "summary": "TR74 (2026)  (reprocessing)  (reworking) 、、、。/、CMC 、Risk Knowledge Infinity Cycle、AEX  FMEA ，7。",
     "pages": "p1-p77",
     "figures": 0,
     "section_map": [
@@ -42,7 +42,7 @@ TR74 = {
             "id": "sec1",
             "num": "1",
             "label_en": "Introduction",
-            "label_zh": "導論",
+            "label_zh": "",
             "pages": "p1-p2"
         },
         {
@@ -50,7 +50,7 @@ TR74 = {
             "id": "sec2",
             "num": "2",
             "label_en": "Glossary and Abbreviations",
-            "label_zh": "術語與縮寫",
+            "label_zh": "",
             "pages": "p3-p6"
         },
         {
@@ -58,7 +58,7 @@ TR74 = {
             "id": "sec3",
             "num": "3",
             "label_en": "Reprocessing Considerations",
-            "label_zh": "再處理考量",
+            "label_zh": "",
             "pages": "p7-p22"
         },
         {
@@ -66,7 +66,7 @@ TR74 = {
             "id": "sec4",
             "num": "4",
             "label_en": "Regulatory Framework",
-            "label_zh": "法規架構",
+            "label_zh": "",
             "pages": "p23-p29"
         },
         {
@@ -74,7 +74,7 @@ TR74 = {
             "id": "sec5",
             "num": "5",
             "label_en": "Introduction to Reworking",
-            "label_zh": "返工概論",
+            "label_zh": "",
             "pages": "p30-p54"
         },
         {
@@ -82,7 +82,7 @@ TR74 = {
             "id": "sec6",
             "num": "6",
             "label_en": "Appendix I: AEX Reprocessing Case Study",
-            "label_zh": "附錄一:陰離子交換層析再處理案例",
+            "label_zh": ":",
             "pages": "p55-p74"
         },
         {
@@ -90,7 +90,7 @@ TR74 = {
             "id": "sec7",
             "num": "7",
             "label_en": "Appendix II: Filtration Case Studies",
-            "label_zh": "附錄二:過濾再過濾案例",
+            "label_zh": ":",
             "pages": "p75-p77"
         }
     ]

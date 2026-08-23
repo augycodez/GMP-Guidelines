@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ICH Q14 — Section 4: Multivariate Procedures, RTRT &amp; Submission | 多變量、RTRT與申報</title>
+<title>ICH Q14 — Section 4: Multivariate Procedures, RTRT &amp; Submission | 、RTRT</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { font-family: 'Segoe UI', Arial, sans-serif; font-size: 15px; background: #f4f6f8; color: #1a1a2e; }
@@ -66,7 +66,7 @@
 
 <div class="section-header">
   <div class="section-badge">ICH Q14 — Section 4 of 4</div>
-  <h1>Section 4: Multivariate Procedures, RTRT &amp; Submission｜多變量分析、RTRT與申報框架</h1>
+  <h1>Section 4: Multivariate Procedures, RTRT &amp; Submission｜、RTRT</h1>
   <p>Covers §8 (Multivariate AP), §9 (RTRT), §10 (Submission), §11 (Glossary)  ·  Pages 25–40</p>
 </div>
 
@@ -94,50 +94,50 @@
     <p>Monitoring can trigger model rebuilding (recalibration) as part of continual improvement. When updating the model, new data may need to be included and old non-relevant data may be removed.</p>
   </div>
   <div class="col-zh">
-    <h2>§8 多變量分析方法的開發</h2>
+    <h2>§8 </h2>
     <div class="concept-box">
-      <div class="box-title">多變量分析方法的本質</div>
-      <p><strong>多變量分析方法</strong>：通過使用多於一個輸入變量的校正模型來確定結果的分析方法。</p>
-      <p style="margin-top:6px;"><strong>典型範例</strong>：NIR（近紅外）光譜分析、拉曼光譜分析、多波長 UV 分析</p>
-      <p style="margin-top:6px;">核心原理：測量多個頻率/波長的吸光度（多個輸入變量）→ 通過數學模型（PLS、PCR 等） → 預測目標品質屬性（輸出）</p>
+      <div class="box-title"></div>
+      <p><strong></strong>：。</p>
+      <p style="margin-top:6px;"><strong></strong>：NIR（）、、 UV </p>
+      <p style="margin-top:6px;">：/（）→ （PLS、PCR ） → （）</p>
     </div>
     <div class="concept-box">
-      <div class="box-title">樣品選擇策略：代表性的關鍵</div>
-      <p>多變量模型的性能上限由校正集（calibration set）的樣品多樣性決定。樣品選擇的三個層次：</p>
+      <div class="box-title">：</div>
+      <p>（calibration set）。：</p>
       </div>
     <div class="note-box">
-      <div class="box-title">潛在變量數目（Latent Variables）：多但不過</div>
-      <p>潛在變量數目是多變量模型開發中最關鍵的決策之一：</p>
+      <div class="box-title">（Latent Variables）：</div>
+      <p>：</p>
       <ul style="margin:6px 0 0 16px;">
-        <li><strong>太少</strong>：模型欠擬合（under-fitting），預測精度不足</li>
-        <li><strong>太多</strong>：模型過擬合（over-fitting），記住了噪音而非真實信號 → 穩健性下降，需更頻繁重新校正</li>
-        <li><strong>最佳數目</strong>：在校正集和驗證集上均有良好預測性能的最小數目</li>
+        <li><strong></strong>：（under-fitting），</li>
+        <li><strong></strong>：（over-fitting）， → ，</li>
+        <li><strong></strong>：</li>
       </ul>
-      <p style="margin-top:6px;">Q14 要求提供最終選擇的潛在變量數目的合理性說明，並可使用軟體提供的診斷圖（如 cross-validation plots）支持。</p>
+      <p style="margin-top:6px;">Q14 ，（ cross-validation plots）。</p>
     </div>
     <div class="concept-box">
-      <div class="box-title">模型維護的觸發條件（事件驅動 + 定期）</div>
-      <p>模型性能確認需在以下時機進行：</p>
+      <div class="box-title">（ + ）</div>
+      <p>：</p>
       <ul style="margin:6px 0 0 16px;">
-        <li><strong>定期（periodic）</strong>：按預定頻率使用參考樣品比較模型預測值與已知值</li>
-        <li><strong>事件驅動（event-driven）</strong>：
+        <li><strong>（periodic）</strong>：</li>
+        <li><strong>（event-driven）</strong>：
           <ul style="margin:4px 0 0 12px;">
-            <li>新的已知製程變異（如原料供應商更換）</li>
-            <li>意外製程事件</li>
-            <li>排定的儀器維護（可能影響光源、光路）</li>
+            <li>（）</li>
+            <li></li>
+            <li>（、）</li>
           </ul>
         </li>
       </ul>
     </div>
     <div class="analogy-box">
-      <div class="box-title">模型生命週期三階段（圖3）</div>
-      <p>ICH Q14 圖3 描述了多變量模型的生命週期：</p>
+      <div class="box-title">（3）</div>
+      <p>ICH Q14 3 ：</p>
       <ol style="margin:6px 0 0 16px;">
-        <li><strong>模型建立</strong>：樣品選擇 → 數據採集 → 校正 → 內部測試 → 驗證（獨立數據）→ 維護計畫</li>
-        <li><strong>例行使用</strong>：每次量測使用異常值診斷 → 定期/事件驅動確認</li>
-        <li><strong>模型維護</strong>：發現不可接受性能 → 模型重新評估 → 可能需要重新開發或修改維護計畫</li>
+        <li><strong></strong>： →  →  →  → （）→ </li>
+        <li><strong></strong>： → /</li>
+        <li><strong></strong>： →  → </li>
       </ol>
-      <p style="margin-top:6px;">這是一個迭代的生命週期循環，允許模型隨著更多製程知識的積累而持續優化。</p>
+      <p style="margin-top:6px;">，。</p>
     </div>
   </div>
 </div>
@@ -156,66 +156,66 @@
     <p>Quantitative RTRT results should be expressed in the same units as those for traditional testing.</p>
   </div>
   <div class="col-zh">
-    <h2>§9 即時放行試驗（RTRT）分析方法的開發</h2>
+    <h2>§9 （RTRT）</h2>
     <div class="concept-box">
-      <div class="box-title">RTRT 的核心定義</div>
-      <p><strong>RTRT（Real Time Release Testing）</strong>（來自 ICH Q8）：</p>
-      <p style="margin-top:6px;">基於製程數據（通常包括測量的物料屬性和製程控制的有效組合）來評估和確保中間製程和/或最終產品品質的能力。</p>
-      <p style="margin-top:6px;"><strong>關鍵特點</strong>：</p>
+      <div class="box-title">RTRT </div>
+      <p><strong>RTRT（Real Time Release Testing）</strong>（ ICH Q8）：</p>
+      <p style="margin-top:6px;">（）/。</p>
+      <p style="margin-top:6px;"><strong></strong>：</p>
       <ul style="margin:6px 0 0 16px;">
-        <li>RTRT <strong>不是獨立的</strong>，必須與整個產品控制策略的所有元素協同工作</li>
-        <li>RTRT 可應用於 DS（藥物物質）、中間體（intermediates）和 DP（藥品）</li>
-        <li>必須對目標 CQAs 具有<strong>充分的專一性</strong></li>
+        <li>RTRT <strong></strong>，</li>
+        <li>RTRT  DS（）、（intermediates） DP（）</li>
+        <li> CQAs <strong></strong></li>
       </ul>
     </div>
     <div class="note-box">
-      <div class="box-title">RTRT 的驗證要求</div>
-      <p>RTRT 分析方法必須依照 <strong>ICH Q2</strong> 進行驗證（與傳統方法相同的要求），並且需要額外證明：</p>
+      <div class="box-title">RTRT </div>
+      <p>RTRT  <strong>ICH Q2</strong> （），：</p>
       <ul style="margin:6px 0 0 16px;">
-        <li>製程量測對目標品質屬性具有適當的專一性</li>
-        <li>量測點能代表整個被處理物料（不是局部取樣）</li>
-        <li>樣品介面在整個製造週期保持一致，對製程和環境變化穩健</li>
+        <li></li>
+        <li>（）</li>
+        <li>，</li>
       </ul>
     </div>
     <div class="concept-box">
-      <div class="box-title">RTRT 需納入產品規格的要求</div>
-      <p>依 ICH Q6A/Q6B，RTRT 方法需納入產品規格，包含：</p>
+      <div class="box-title">RTRT </div>
+      <p> ICH Q6A/Q6B，RTRT ，：</p>
       <ul style="margin:6px 0 0 16px;">
-        <li>分析方法的參考（reference to the analytical procedure）</li>
-        <li>相關的驗收標準</li>
-        <li>定量結果的表達單位（必須與傳統試驗相同）</li>
+        <li>（reference to the analytical procedure）</li>
+        <li></li>
+        <li>（）</li>
       </ul>
-      <p style="margin-top:6px;"><strong>替代控制策略的要求</strong>：若申請資料包含 RTRT 的「已登記替代控制策略」（如 PAT 設備不可用時的傳統試驗），相關分析方法和適用情況也必須在規格中說明。</p>
+      <p style="margin-top:6px;"><strong></strong>： RTRT 「」（ PAT ），。</p>
     </div>
     <div class="analogy-box">
-      <div class="box-title">RTRT 在 CM（連續製造）中的應用</div>
-      <p>RTRT 在 CM 中特別重要（見 ICH Q13 §4.2）：</p>
+      <div class="box-title">RTRT  CM（）</div>
+      <p>RTRT  CM （ ICH Q13 §4.2）：</p>
       <ul style="margin:6px 0 0 16px;">
-        <li>CM 的連續物料流使傳統的批次終點測試難以應用</li>
-        <li>NIR 等線上/在線方法可在製造過程中持續監控 CQAs（如含量均一性、水分）</li>
-        <li>RTRT 方法的開發和驗證需遵循 Q14 §8（多變量）+ §9（RTRT）的雙重要求</li>
+        <li>CM </li>
+        <li>NIR / CQAs（、）</li>
+        <li>RTRT  Q14 §8（）+ §9（RTRT）</li>
       </ul>
     </div>
     <div class="practice-box-q">
-      <div class="box-title">整合思考問題</div>
-      <p>一個錠劑製造商想用壓片機進料框架的 NIR 方法取代傳統的成品含量均一性測試（content uniformity, CU）。此方法需滿足哪些開發和驗證要求？</p>
+      <div class="box-title"></div>
+      <p> NIR （content uniformity, CU）。？</p>
     </div>
     <div class="practice-box-a">
-      <div class="box-title">解答</div>
-      <p>此 NIR 方法屬於「多變量分析方法用於 RTRT」，需滿足 §8 和 §9 的雙重要求：</p>
-      <p style="margin-top:6px;"><strong>開發要求（§8 多變量）：</strong></p>
+      <div class="box-title"></div>
+      <p> NIR 「 RTRT」， §8  §9 ：</p>
+      <p style="margin-top:6px;"><strong>（§8 ）：</strong></p>
       <ul style="margin:4px 0 0 12px;">
-        <li>樣品選擇：涵蓋商業規模製造的所有預期含量變異（90–110% label claim）</li>
-        <li>參考方法：使用驗證的 HPLC 含量方法確定校正樣品的真實值</li>
-        <li>模型開發：確定最佳潛在變量數目；定義波長範圍；建立維護計畫</li>
+        <li>：（90–110% label claim）</li>
+        <li>： HPLC </li>
+        <li>：；；</li>
       </ul>
-      <p style="margin-top:6px;"><strong>RTRT 特殊要求（§9）：</strong></p>
+      <p style="margin-top:6px;"><strong>RTRT （§9）：</strong></p>
       <ul style="margin:4px 0 0 12px;">
-        <li>量測點代表性：NIR 探頭需代表整個批次的物料，非只是局部</li>
-        <li>專一性驗證：方法需對含量（vs. 顏色、水分等干擾）具有充分選擇性</li>
-        <li>樣品介面穩健性：探頭在整個製造週期（包括長時間 CM 運行）保持一致</li>
-        <li>納入規格：在 DP 規格中列出 NIR RTRT 方法和驗收標準（與傳統測試相同單位）</li>
-        <li>備援策略：PAT 故障時的傳統終點測試方案需在規格中說明</li>
+        <li>：NIR ，</li>
+        <li>：（vs. 、）</li>
+        <li>：（ CM ）</li>
+        <li>： DP  NIR RTRT （）</li>
+        <li>：PAT </li>
       </ul>
     </div>
   </div>
@@ -257,24 +257,24 @@
     </ul>
   </div>
   <div class="col-zh">
-    <h2>§10 分析方法相關資訊的申報</h2>
+    <h2>§10 </h2>
     <div class="concept-box">
-      <div class="box-title">分析方法資訊的 CTD 位置總整理</div>
+      <div class="box-title"> CTD </div>
       </div>
     <div class="note-box">
-      <div class="box-title">ECs vs. 支持性資訊的區分義務</div>
-      <p>若申請包含 ECs，必須在申請資料中<strong>明確區分</strong> ECs 和支持性資訊（supportive information）。</p>
-      <p style="margin-top:6px;">這對應 ICH Q12 的相同要求，確保審查員能清楚了解哪些條件是法規綁定的（ECs），哪些只是背景資訊。</p>
+      <div class="box-title">ECs vs. </div>
+      <p> ECs，<strong></strong> ECs （supportive information）。</p>
+      <p style="margin-top:6px;"> ICH Q12 ，（ECs），。</p>
     </div>
     <div class="concept-box">
-      <div class="box-title">多變量模型驗證的特殊申報要求（§10.3）</div>
-      <p>用於規格（包括 RTRT）的多變量模型的驗證描述，需包含五個額外元素：</p>
+      <div class="box-title">（§10.3）</div>
+      <p>（ RTRT），：</p>
       <ol style="margin:6px 0 0 16px;">
-        <li><strong>獨立驗證集的描述</strong>：說明驗證集樣品的選擇策略和代表性</li>
-        <li><strong>模型驗證的性能標準</strong>：具體的性能標準（如 RMSEP、SEP）</li>
-        <li><strong>模型驗證結果評估</strong>：實際驗證結果與性能標準的對照</li>
-        <li><strong>模型性能標準與規格限度的關係</strong>：解釋模型的預測精度如何支持規格判定</li>
-        <li><strong>PQS 模型監控和維護要素的高層概述</strong>：異常值診斷方法；異常值發生時的處理程序</li>
+        <li><strong></strong>：</li>
+        <li><strong></strong>：（ RMSEP、SEP）</li>
+        <li><strong></strong>：</li>
+        <li><strong></strong>：</li>
+        <li><strong>PQS </strong>：；</li>
       </ol>
     </div>
   </div>
@@ -286,45 +286,45 @@
     <h2>§11 Key Glossary Terms <span class="page-ref">p16–22</span></h2>
     </div>
   <div class="col-zh">
-    <h2>§11 詞彙精要：Q14 vs. Q2(R2) 的術語對照</h2>
+    <h2>§11 ：Q14 vs. Q2(R2) </h2>
     <div class="concept-box">
-      <div class="box-title">Q14 新引入術語 vs. Q2(R2) 既有術語</div>
+      <div class="box-title">Q14  vs. Q2(R2) </div>
       </div>
     <div class="note-box">
-      <div class="box-title">重要術語區分：AP Attribute vs. Performance Characteristic</div>
-      <p><strong>AP Attribute（分析方法屬性）</strong>：技術特有（technology-specific）<br>
-      例：HPLC 的「解析度 Rs」只有在色譜分析中才有意義。</p>
-      <p style="margin-top:6px;"><strong>Performance Characteristic（性能特性）</strong>：技術無關（technology-independent）<br>
-      例：「準確度（accuracy）」對 HPLC、NIR、GC 等所有方法都適用。</p>
-      <p style="margin-top:6px;">→ 這個區分讓 ATP 可以用技術無關的語言定義要求（性能特性），而 SST 用技術特有的指標（AP attributes）來驗證在具體技術上的達成情況。</p>
+      <div class="box-title">：AP Attribute vs. Performance Characteristic</div>
+      <p><strong>AP Attribute（）</strong>：（technology-specific）<br>
+      ：HPLC 「 Rs」。</p>
+      <p style="margin-top:6px;"><strong>Performance Characteristic（）</strong>：（technology-independent）<br>
+      ：「（accuracy）」 HPLC、NIR、GC 。</p>
+      <p style="margin-top:6px;">→  ATP （）， SST （AP attributes）。</p>
     </div>
     <div class="practice-box-q">
-      <div class="box-title">Q14 綜合總結問題</div>
-      <p>一家公司採用 Enhanced approach 開發了一個 HPLC 有關物質分析方法，並建立了 PAR 和 MODR，提交了 ATP 和 ECs。上市後，因儀器升級需要更換 HPLC 系統（相同方法原理，新廠牌儀器）。請描述完整的變更管理路徑。</p>
+      <div class="box-title">Q14 </div>
+      <p> Enhanced approach  HPLC ， PAR  MODR， ATP  ECs。， HPLC （，）。。</p>
     </div>
     <div class="practice-box-a">
-      <div class="box-title">解答</div>
-      <p><strong>1. 變更識別和風險評估：</strong></p>
+      <div class="box-title"></div>
+      <p><strong>1. ：</strong></p>
       <ul style="margin:4px 0 0 12px;">
-        <li>屬於「同一原理內的變更」（Table 2）</li>
-        <li>評估新儀器對原已批准的 PAR/MODR 的影響</li>
-        <li>評估已批准的 SST 是否仍能在新儀器上有效偵測性能問題</li>
+        <li>「」（Table 2）</li>
+        <li> PAR/MODR </li>
+        <li> SST </li>
       </ul>
-      <p style="margin-top:8px;"><strong>2. 確認申報類別（依原提交的 EC 申報類別）：</strong></p>
+      <p style="margin-top:8px;"><strong>2. （ EC ）：</strong></p>
       <ul style="margin:4px 0 0 12px;">
-        <li>若「儀器廠牌」不是 EC → 此變更不需法規溝通，在 PQS 管理</li>
-        <li>若「儀器廠牌」是 EC → 依原定申報類別（可能為通知）</li>
+        <li>「」 EC → ， PQS </li>
+        <li>「」 EC → （）</li>
       </ul>
-      <p style="margin-top:8px;"><strong>3. 橋接研究（依 Table 2，同一原理內的變更）：</strong></p>
+      <p style="margin-top:8px;"><strong>3. （ Table 2，）：</strong></p>
       <ul style="margin:4px 0 0 12px;">
-        <li>驗證 SST 在新儀器上的性能（系統精密度等）</li>
-        <li>比較分析（代表性樣品在新舊系統上的結果比較）</li>
-        <li>確認原 PAR/MODR 在新儀器上仍然有效</li>
+        <li> SST （）</li>
+        <li>（）</li>
+        <li> PAR/MODR </li>
       </ul>
-      <p style="margin-top:8px;"><strong>4. 記錄和後續：</strong></p>
+      <p style="margin-top:8px;"><strong>4. ：</strong></p>
       <ul style="margin:4px 0 0 12px;">
-        <li>在 PQS 記錄此變更（無論是否需要申報）</li>
-        <li>更新分析方法描述，反映新儀器</li>
+        <li> PQS （）</li>
+        <li>，</li>
       </ul>
     </div>
   </div>

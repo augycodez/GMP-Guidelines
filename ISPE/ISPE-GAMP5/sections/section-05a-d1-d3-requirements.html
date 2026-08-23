@@ -244,26 +244,26 @@ tr:nth-child(even) { background: #f7fafc; }
 <!-- SECTION HEADER -->
 <div class="header">
 <h1>Appendices D1–D3: Specifying Requirements, Configuration &amp; Design</h1>
-<div class="subtitle">需求規格、配置與設計附錄</div>
+<div class="subtitle">、</div>
 <div class="page-info">ISPE GAMP 5 Second Edition | Appendix D1 (p183–p196), D2 (Retired), D3 (p199–p205)</div>
 </div>
 <div class="main-content">
 <!-- LEARNING OBJECTIVES -->
 <div class="learning-objectives">
-<h3>Learning Objectives — 學習目標</h3>
+<h3>Learning Objectives — </h3>
 <ol>
-<li>Understand the purpose and structure of a Requirements Specification (RS) and when multiple levels of specification are needed. — 理解需求規格書 (RS) 的目的與結構，並判斷何時需要多層級規格。</li>
-<li>Apply the SMART criteria to write requirements that are verifiable and unambiguous. — 運用 SMART 原則撰寫可驗證、無歧義的需求條款。</li>
-<li>Distinguish what belongs in a Requirements Specification versus what belongs in a Configuration/Design Specification. — 區分需求規格書與配置／設計規格書各自的職責範疇。</li>
-<li>Recognize the difference between a Configuration Specification (CS) for COTS/configured software and a Design Specification (DS) for custom applications. — 辨別 COTS 商業軟體的配置規格 (CS) 與客製軟體的設計規格 (DS) 之差異。</li>
-<li>Explain how traceability from requirements through design becomes the backbone of a validation plan. — 說明從需求到設計的可追溯性如何成為驗證計畫的骨幹。</li>
-<li>Identify common CDMO pitfalls in requirements capture and how to avoid scope creep. — 識別 CDMO 環境中需求捕捉的常見陷阱，並掌握防止範圍蔓延的方法。</li>
+<li>Understand the purpose and structure of a Requirements Specification (RS) and when multiple levels of specification are needed. —  (RS) ，。</li>
+<li>Apply the SMART criteria to write requirements that are verifiable and unambiguous. —  SMART 、。</li>
+<li>Distinguish what belongs in a Requirements Specification versus what belongs in a Configuration/Design Specification. — ／。</li>
+<li>Recognize the difference between a Configuration Specification (CS) for COTS/configured software and a Design Specification (DS) for custom applications. —  COTS  (CS)  (DS) 。</li>
+<li>Explain how traceability from requirements through design becomes the backbone of a validation plan. — 。</li>
+<li>Identify common CDMO pitfalls in requirements capture and how to avoid scope creep. —  CDMO ，。</li>
 </ol>
 </div>
 <!-- ============================================================ -->
 <!-- SECTION 1: Appendix D1 Introduction & Scope -->
 <!-- ============================================================ -->
-<h2 class="section-title"><strong>Appendix D1 — Specifying Requirements: Introduction &amp; Scope Appendix D1 — 需求規格：簡介與範圍</strong></h2>
+<h2 class="section-title"><strong>Appendix D1 — Specifying Requirements: Introduction &amp; Scope Appendix D1 — ：</strong></h2>
 <div class="two-column">
 <div class="left-column">
 <h2>D1.1 Introduction</h2>
@@ -281,33 +281,33 @@ tr:nth-child(even) { background: #f7fafc; }
 <p>This appendix provides general guidance on the development of requirements for a wide range of computerized systems. It also provides specific guidance on the typical contents of an RS where this is in the form of a document. These principles also apply where requirements exist as records within a tool rather than a document.</p>
 </div>
 <div class="right-column">
-<h2>中文解說：需求規格的層級架構</h2>
+<h2>：</h2>
 <div class="concept-box">
-<h4>需求層級架構：從 URS 到 CS/DS</h4>
-<p>GAMP 5 第二版把原本的 URS + FRS 合併成單一的 <strong>Requirements Specification (RS)</strong>，但實務上理解層級仍很重要：</p>
+<h4>： URS  CS/DS</h4>
+<p>GAMP 5  URS + FRS  <strong>Requirements Specification (RS)</strong>，：</p>
 <ul>
-<li><strong>URS（使用者需求規格）</strong>：「我需要系統能做什麼」—— 業務語言，不涉及技術實作。例：「系統需記錄每批培養基的配製人員與配製時間。」</li>
-<li><strong>FRS（功能需求規格）</strong>：「系統如何滿足上述需求」的功能描述 —— 說明輸入、輸出、計算邏輯。例：「配製記錄需包含欄位：日期/時間（系統自動戳記）、操作員 ID（從 LDAP 取得）、批號。」</li>
-<li><strong>CS/DS（配置/設計規格）</strong>：「技術上怎麼配置或設計實現」—— 詳見 Appendix D3。</li>
+<li><strong>URS（）</strong>：「」—— ，。：「。」</li>
+<li><strong>FRS（）</strong>：「」 —— 、、。：「：/（）、 ID（ LDAP ）、。」</li>
+<li><strong>CS/DS（/）</strong>：「」——  Appendix D3。</li>
 </ul>
 </div>
 <div class="analogy-box">
-<h4>比喻：蓋廠房的類比</h4>
-<p>URS = 業主說「我要一棟 ISO 5 無菌室，能容納 10 條灌裝線」。</p>
-<p>FRS = 建築師說「需要 12 換氣次數/時，溫濕度控制在 18–22°C，40–60% RH」。</p>
-<p>DS = 機電工程師說「選用 XXX 品牌 AHU，配置 HEPA H14 濾網，管路尺寸 DN200」。</p>
-<p>規格層級不能混淆：業主不該在 URS 裡指定 AHU 型號；工程師也不應在 DS 裡重新定義業務目標。</p>
+<h4>：</h4>
+<p>URS = 「 ISO 5 ， 10 」。</p>
+<p>FRS = 「 12 /， 18–22°C，40–60% RH」。</p>
+<p>DS = 「 XXX  AHU， HEPA H14 ， DN200」。</p>
+<p>： URS  AHU ； DS 。</p>
 </div>
 <div class="note-box">
-<h4>CDMO 實務重點</h4>
-<p>許多 CDMO 在 LIMS、EBR 或 MES 專案中，直接跳進系統選型而沒有先完成 RS。結果是：需求由供應商的 demo 決定，而非由業務流程決定。審計時監管機構會問：「你的系統是否符合你的業務需求？」——如果沒有書面的 RS，這個問題無法回答。</p>
+<h4>CDMO </h4>
+<p> CDMO  LIMS、EBR  MES ， RS。： demo ，。：「？」—— RS，。</p>
 </div>
 </div>
 </div>
 <!-- ============================================================ -->
 <!-- SECTION 2: General Guidelines & SMART Requirements -->
 <!-- ============================================================ -->
-<h2 class="section-title"><strong>D1.3.1 General Guidelines &amp; Requirements Good Practice (SMART) D1.3.1 一般準則與需求良好實務 (SMART)</strong></h2>
+<h2 class="section-title"><strong>D1.3.1 General Guidelines &amp; Requirements Good Practice (SMART) D1.3.1  (SMART)</strong></h2>
 <div class="two-column">
 <div class="left-column">
 <h2>General Guidelines</h2>
@@ -354,32 +354,32 @@ tr:nth-child(even) { background: #f7fafc; }
 </ul>
 </div>
 <div class="right-column">
-<h2>中文解說：好的需求 vs. 壞的需求</h2>
+<h2>： vs. </h2>
 <div class="concept-box">
-<h4>SMART 原則：可測試性是核心</h4>
-<p>五個 SMART 標準中，<strong>Testable（可測試）</strong>是最關鍵的。一條需求如果無法被測試，它就等於沒有意義——你不知道系統是否達標，也無法在驗證報告中引用它。</p>
+<h4>SMART ：</h4>
+<p> SMART ，<strong>Testable（）</strong>。，——，。</p>
 </div>
 <div class="analogy-box">
-<h4>CDMO LIMS 專案：URS 需求範例拆解</h4>
-<p>假設你的 CDMO 要導入 LIMS 管理環境監控 (EM) 數據：</p>
+<h4>CDMO LIMS ：URS </h4>
+<p> CDMO  LIMS  (EM) ：</p>
 <ul>
-<li><strong>URS-EM-001（業務需求）</strong>：LIMS 應記錄所有 ISO 5 潔淨室的 viable particle 監控結果，並支援趨勢分析以識別超標警示。</li>
-<li><strong>URS-EM-002（安全需求）</strong>：環境監控數據一旦由 QC 人員審核簽核，不得被任何使用者修改或刪除。</li>
-<li><strong>URS-EM-003（介面需求）</strong>：LIMS 應能自動接收來自 Biotest RCS 採樣器的數字輸出，無需手動鍵入。</li>
-<li><strong>URS-EM-004（法規需求）</strong>：系統應符合 EU GMP Annex 1 (2022) 第 9.35 條對 EM 記錄保存的要求，資料保存期限不少於產品有效期後 1 年。</li>
+<li><strong>URS-EM-001（）</strong>：LIMS  ISO 5  viable particle ，。</li>
+<li><strong>URS-EM-002（）</strong>： QC ，。</li>
+<li><strong>URS-EM-003（）</strong>：LIMS  Biotest RCS ，。</li>
+<li><strong>URS-EM-004（）</strong>： EU GMP Annex 1 (2022)  9.35  EM ， 1 。</li>
 </ul>
-<p>注意：每條需求都可以獨立被測試，並追溯到法規要求。</p>
+<p>：，。</p>
 </div>
 <div class="note-box">
-<h4>「符合 Part 11」不是需求</h4>
-<p>這是 CDMO 最常見的錯誤。「系統應符合 21 CFR Part 11」是一個合規聲明，不是需求。監管機構真正要看的是：你的系統<em>具體</em>實作了哪些功能來達成合規？要把合規要求拆解成可驗證的功能需求，才能在 OQ/PQ 中逐條測試。</p>
+<h4>「 Part 11」</h4>
+<p> CDMO 。「 21 CFR Part 11」，。：<em></em>？， OQ/PQ 。</p>
 </div>
 </div>
 </div>
 <!-- ============================================================ -->
 <!-- SECTION 3: Contents of RS -->
 <!-- ============================================================ -->
-<h2 class="section-title"><strong>D1.3.3 Contents of the Requirements Specification D1.3.3 需求規格書內容</strong></h2>
+<h2 class="section-title"><strong>D1.3.3 Contents of the Requirements Specification D1.3.3 </strong></h2>
 <div class="two-column">
 <div class="left-column">
 <h2>RS Structure: Key Sections</h2>
@@ -424,41 +424,41 @@ tr:nth-child(even) { background: #f7fafc; }
 </ul>
 </div>
 <div class="right-column">
-<h2>中文解說：RS 內容架構</h2>
+<h2>：RS </h2>
 <div class="concept-box">
-<h4>RS 的核心問題：「系統需要做什麼」</h4>
-<p>RS（需求規格書）只回答一個問題：<strong>系統需要做什麼？</strong> 不回答「怎麼做」。這個界線至關重要：</p>
+<h4>RS ：「」</h4>
+<p>RS（）：<strong>？</strong> 「」。：</p>
 <ul>
-<li>RS 說：「系統需在批次生產完成後 24 小時內，自動發送 QC 審查通知給指定審查員。」</li>
-<li>CS/DS 說：「使用 SMTP 服務透過 Exchange Server 發送 HTML 格式通知郵件，觸發條件為批次狀態欄位變更為 'Released'。」</li>
+<li>RS ：「 24 ， QC 。」</li>
+<li>CS/DS ：「 SMTP  Exchange Server  HTML ， 'Released'。」</li>
 </ul>
 </div>
 <div class="note-box">
-<h4>CDMO 常見陷阱：RS 裡塞入設計細節</h4>
-<p>許多 CDMO 的 URS 會寫：「系統應使用 Oracle Database 18c 作為後端資料庫。」這是設計細節，不是需求。正確的需求應該是：「系統資料庫應支援多用戶並發存取，回應時間不超過 2 秒，並提供完整的備份還原機制。」</p>
-<p>指定特定技術的問題：萬一供應商不用 Oracle？你的需求立刻排除了所有其他合格供應商，且這個限制毫無業務理由。</p>
+<h4>CDMO ：RS </h4>
+<p> CDMO  URS ：「 Oracle Database 18c 。」，。：「， 2 ，。」</p>
+<p>： Oracle？，。</p>
 </div>
 <div class="concept-box">
-<h4>稽核軌跡需求：具體範例</h4>
-<p>「稽核軌跡」通常在 RS 中被空泛地要求。一個合格的數據需求應該這樣寫：</p>
+<h4>：</h4>
+<p>「」 RS 。：</p>
 <ul>
-<li>哪些欄位需要稽核軌跡（全部？只有 GMP critical？）</li>
-<li>稽核軌跡記錄應包含：原始值、新值、修改人 ID、時間戳記（UTC+時區）、修改原因（強制輸入）</li>
-<li>稽核軌跡記錄應不可被任何使用者修改或刪除（包含系統管理員）</li>
-<li>稽核軌跡應可被 QA 獨立查閱，不需要技術支援</li>
+<li>（？ GMP critical？）</li>
+<li>：、、 ID、（UTC+）、（）</li>
+<li>（）</li>
+<li> QA ，</li>
 </ul>
-<p>這四個子項目都可以在 OQ 測試中逐一驗證。</p>
+<p> OQ 。</p>
 </div>
 </div>
 </div>
 <div class="practice-box">
-<h4>CDMO LIMS 需求分類練習</h4>
-<p>下列項目應歸入哪個需求類別？</p>
+<h4>CDMO LIMS </h4>
+<p>？</p>
 </div>
 <!-- ============================================================ -->
 <!-- SECTION 4: Requirements Capture & Ownership -->
 <!-- ============================================================ -->
-<h2 class="section-title"><strong>D1.3.2 &amp; D1.4 — Ownership and Requirements Capture D1.3.2 &amp; D1.4 — 所有權與需求蒐集</strong></h2>
+<h2 class="section-title"><strong>D1.3.2 &amp; D1.4 — Ownership and Requirements Capture D1.3.2 &amp; D1.4 — </strong></h2>
 <div class="two-column">
 <div class="left-column">
 <h2>Ownership</h2>
@@ -494,31 +494,31 @@ tr:nth-child(even) { background: #f7fafc; }
 </ul>
 </div>
 <div class="right-column">
-<h2>中文解說：需求捕捉實務</h2>
+<h2>：</h2>
 <div class="concept-box">
-<h4>業務流程擁有者：最重要的人</h4>
-<p>GAMP 5 強調：需求的所有權屬於<strong>業務流程擁有者（business process owner）</strong>，不是 IT 部門，也不是供應商。在 CDMO 場景中：</p>
+<h4>：</h4>
+<p>GAMP 5 ：<strong>（business process owner）</strong>， IT ，。 CDMO ：</p>
 <ul>
-<li>LIMS 需求 → QC 主管或 QA 主管</li>
-<li>EBR/MES 需求 → 生產主管或工藝開發</li>
-<li>環境監控系統 → 設施工程 + QA</li>
+<li>LIMS  → QC  QA </li>
+<li>EBR/MES  → </li>
+<li> →  + QA</li>
 </ul>
-<p>IT 部門的角色是技術顧問，確保需求在技術上可行，但不應主導業務需求的內容。</p>
+<p>IT ，，。</p>
 </div>
 <div class="analogy-box">
-<h4>「今天的流程不是最佳解」</h4>
-<p>這是需求捕捉中最容易被忽視的一點。許多專案在訪談時詢問「現在怎麼做」，然後就把現有的紙本流程直接轉成系統需求。</p>
-<p>但現有的流程可能充滿了「因為以前沒有系統才這樣做」的手動步驟。導入 LIMS 的機會，是重新設計流程，而不是把不良習慣數位化。</p>
-<p>好的問題應該是：「如果你能從零開始設計這個流程，你會怎麼做？」而不是「你現在怎麼做？」</p>
+<h4>「」</h4>
+<p>。「」，。</p>
+<p>「」。 LIMS ，，。</p>
+<p>：「，？」「？」</p>
 </div>
 <div class="note-box">
-<h4>CDMO 常見陷阱：範圍蔓延 (Scope Creep)</h4>
-<p>需求捕捉階段最常見的問題是範圍蔓延。每位利益關係人都想把自己的「nice to have」加入 RS。防止方法：</p>
+<h4>CDMO ： (Scope Creep)</h4>
+<p>。「nice to have」 RS。：</p>
 <ul>
-<li>每條需求標記優先級：Mandatory / Beneficial / Nice to have</li>
-<li>在 RS 批准後，任何新增需求必須走正式的 Change Control</li>
-<li>記錄哪個利益關係人提出了哪個需求（可追溯性）</li>
-<li>定期做 RS Review，確認沒有悄悄新增未批准的需求</li>
+<li>：Mandatory / Beneficial / Nice to have</li>
+<li> RS ， Change Control</li>
+<li>（）</li>
+<li> RS Review，</li>
 </ul>
 </div>
 </div>
@@ -526,7 +526,7 @@ tr:nth-child(even) { background: #f7fafc; }
 <!-- ============================================================ -->
 <!-- SECTION 5: Appendix D2 (Retired) -->
 <!-- ============================================================ -->
-<h2 class="section-title"><strong>Appendix D2 — Functional Specifications (Retired) Appendix D2 — 功能規格（已廢止）</strong></h2>
+<h2 class="section-title"><strong>Appendix D2 — Functional Specifications (Retired) Appendix D2 — （）</strong></h2>
 <div class="two-column">
 <div class="left-column">
 <div class="retired-box">
@@ -536,19 +536,19 @@ tr:nth-child(even) { background: #f7fafc; }
 </div>
 </div>
 <div class="right-column">
-<h2>中文解說：D2 退役的意義</h2>
+<h2>：D2 </h2>
 <div class="concept-box">
-<h4>為什麼廢除 FRS 獨立附錄？</h4>
-<p>第一版 GAMP 5 將 URS 和 FRS 分為兩個獨立附錄，實務中造成了一個問題：許多公司搞不清楚一條需求應該放在 URS 還是 FRS，導致文件重複、需求散落兩份文件，維護困難。</p>
-<p>第二版的做法更實用：<strong>需求統一放在 RS</strong>，只要結構清晰（業務需求、功能需求、數據需求、技術需求等分節），就能服務所有目的。</p>
-<p>對 CDMO 的實際影響：如果你現有的 SOP 規定要同時產出 URS 和 FRS，可以考慮合併成一份結構完整的 RS。但若已有 validated 系統使用舊格式，不需要強制升級——監管機構更在意的是需求是否完整、可追溯，而不是文件叫什麼名字。</p>
+<h4> FRS ？</h4>
+<p> GAMP 5  URS  FRS ，： URS  FRS，、，。</p>
+<p>：<strong> RS</strong>，（、、、），。</p>
+<p> CDMO ： SOP  URS  FRS， RS。 validated ，——、，。</p>
 </div>
 </div>
 </div>
 <!-- ============================================================ -->
 <!-- SECTION 6: Appendix D3 — Configuration and Design Overview -->
 <!-- ============================================================ -->
-<h2 class="section-title"><strong>Appendix D3 — Configuration and Design: Introduction &amp; Overview Appendix D3 — 組態與設計：簡介與概述</strong></h2>
+<h2 class="section-title"><strong>Appendix D3 — Configuration and Design: Introduction &amp; Overview Appendix D3 — ：</strong></h2>
 <div class="two-column">
 <div class="left-column">
 <h2>D3.1 Introduction</h2>
@@ -572,35 +572,35 @@ tr:nth-child(even) { background: #f7fafc; }
 <p>All specifications should be structured in a way that <strong>supports traceability through the life cycle</strong> from individual requirements to associated testing.</p>
 </div>
 <div class="right-column">
-<h2>中文解說：CS vs. DS — COTS 與客製軟體</h2>
+<h2>：CS vs. DS — COTS </h2>
 <div class="concept-box">
-<h4>配置規格 (CS) vs. 設計規格 (DS)</h4>
-<p>這是 Appendix D3 最核心的區分：</p>
+<h4> (CS) vs.  (DS)</h4>
+<p> Appendix D3 ：</p>
 <ul>
-<li><strong>Configuration Specification (CS)</strong>：用於已存在的商業軟體 (COTS) 或可配置產品。你不修改原始碼，只設定參數。CS 記錄「我把這個設定設為什麼值，以及為什麼這樣設。」</li>
-<li><strong>Design Specification (DS)</strong>：用於客製化軟體開發。你要設計模組、定義數據結構、撰寫邏輯。DS 記錄「軟體怎麼被建構的。」</li>
+<li><strong>Configuration Specification (CS)</strong>： (COTS) 。，。CS 「，。」</li>
+<li><strong>Design Specification (DS)</strong>：。、、。DS 「。」</li>
 </ul>
 </div>
 <div class="analogy-box">
-<h4>比喻：LIMS 配置 vs. 客製系統設計</h4>
-<p><strong>COTS LIMS（例如 LabWare）</strong>：不需要 DS。你需要的是 CS，記錄：哪個樣品類型啟用了哪些欄位？哪個工作流程啟用了電子簽名？稽核軌跡的保存設定是多少天？</p>
-<p><strong>客製開發的 MES 模組</strong>：需要 DS。詳述：批次記錄的資料庫 schema、每個功能模組的邏輯流程圖、各模組之間的 API 介面定義。</p>
-<p>關鍵：如果你無法修改軟體的原始碼（COTS），就不需要 DS——因為軟體的設計由供應商負責，你的責任是配置正確並驗證配置符合你的需求。</p>
+<h4>：LIMS  vs. </h4>
+<p><strong>COTS LIMS（ LabWare）</strong>： DS。 CS，：？？？</p>
+<p><strong> MES </strong>： DS。： schema、、 API 。</p>
+<p>：（COTS）， DS——，。</p>
 </div>
 <div class="note-box">
-<h4>CDMO 陷阱：過度指定 COTS 系統的需求</h4>
-<p>這是 CDMO 採購標準 LIMS 時的常見問題：在 RS 裡寫入非常詳細的配置細節，例如「稽核軌跡畫面需要有特定的欄位排列順序」。</p>
-<p>問題在於：COTS 軟體的 UI 是固定的，你無法改變。如果 RS 要求不可能實現的配置，要麼你的 RS 永遠無法被滿足，要麼你需要不斷地 justify deviation。</p>
-<p>正確做法：RS 描述業務需求（能查詢稽核軌跡），CS 記錄系統提供的實際配置（稽核軌跡在 Admin &gt; Reports &gt; Audit Trail 模組），並確認它滿足業務需求。</p>
+<h4>CDMO ： COTS </h4>
+<p> CDMO  LIMS ： RS ，「」。</p>
+<p>：COTS  UI ，。 RS ， RS ， justify deviation。</p>
+<p>：RS （），CS （ Admin &gt; Reports &gt; Audit Trail ），。</p>
 </div>
 <div class="practice-box">
-<h4>SaaS / 雲端系統的特殊考量</h4>
-<p>當使用雲端 SaaS 系統（例如 Veeva Vault QMS）時：</p>
+<h4>SaaS / </h4>
+<p> SaaS （ Veeva Vault QMS）：</p>
 <ul>
-<li>CS/DS 通常由服務供應商維護</li>
-<li>CDMO 應要求供應商提供系統配置文件，並在質量協議中明確要求</li>
-<li>CDMO 需要產出「補充配置規格」，記錄你在 SaaS 系統中做的客戶端配置（如工作流程、角色權限、自定義欄位）</li>
-<li>供應商的基礎設施驗證（IQ）由供應商承擔，但你需要確認他們有適當的 SOC 2 或等效認證</li>
+<li>CS/DS </li>
+<li>CDMO ，</li>
+<li>CDMO 「」， SaaS （、、）</li>
+<li>（IQ）， SOC 2 </li>
 </ul>
 </div>
 </div>
@@ -608,7 +608,7 @@ tr:nth-child(even) { background: #f7fafc; }
 <!-- ============================================================ -->
 <!-- SECTION 7: D3.3.3 Configuration Content -->
 <!-- ============================================================ -->
-<h2 class="section-title"><strong>D3.3.3 Configuration Specification Content D3.3.3 組態規格內容</strong></h2>
+<h2 class="section-title"><strong>D3.3.3 Configuration Specification Content D3.3.3 </strong></h2>
 <div class="two-column">
 <div class="left-column">
 <h2>Configuration Specification</h2>
@@ -634,24 +634,24 @@ tr:nth-child(even) { background: #f7fafc; }
 <p>The overview should briefly describe the configuration and/or design as defined in the document, including the storage and in some cases, location of the records and the involved systems. The overview may be illustrated using diagrams. The overview should not contain detailed design information.</p>
 </div>
 <div class="right-column">
-<h2>中文解說：CS 的關鍵要素</h2>
+<h2>：CS </h2>
 <div class="note-box">
-<h4>配置管理：設定不能隨便改</h4>
-<p>一旦系統通過驗證（已核准的配置基準 Configuration Baseline），任何配置更改都需要走 Change Control 程序，重新評估影響並進行再驗證。</p>
-<p>常見問題：IT 管理員在維護時「順手」改了某個系統參數（例如把 Session 逾時從 30 分鐘改成 120 分鐘），沒有走 Change Control。這在稽核時是重大缺失，因為已驗證狀態（Validated State）已被破壞。</p>
+<h4>：</h4>
+<p>（ Configuration Baseline）， Change Control ，。</p>
+<p>：IT 「」（ Session  30  120 ）， Change Control。，（Validated State）。</p>
 </div>
 </div>
 </div>
 <div class="concept-box">
-<h4>CS 最重要的欄位：「為什麼這樣設定」</h4>
-<p>一份合格的配置規格不只記錄「設定值是什麼」，更要記錄「為什麼這樣設定」——並連結到 RS 中對應的需求 ID。</p>
-<p>例如：</p>
-<p>這個追溯結構，讓驗證測試人員在撰寫 OQ/PQ 測試案例時，能直接對應到 CS 中的配置，再對應到 RS 中的需求。</p>
+<h4>CS ：「」</h4>
+<p>「」，「」—— RS  ID。</p>
+<p>：</p>
+<p>， OQ/PQ ， CS ， RS 。</p>
 </div>
 <!-- ============================================================ -->
 <!-- SECTION 8: D3.3.4 Hardware Design -->
 <!-- ============================================================ -->
-<h2 class="section-title"><strong>D3.3.4 Hardware Design Specification D3.3.4 硬體設計規格</strong></h2>
+<h2 class="section-title"><strong>D3.3.4 Hardware Design Specification D3.3.4 </strong></h2>
 <div class="two-column">
 <div class="left-column">
 <h2>Hardware Design</h2>
@@ -672,23 +672,23 @@ tr:nth-child(even) { background: #f7fafc; }
 <p>The operating environment for hardware should define: temperature, humidity, external interference, physical security, shielding against RF/EMI/UV, hardening against dust or vibration, and location. Electrical supply requirements should address: filtering, loading, grounding protection, UPS, and power consumption/heat emission for HVAC capacity calculations.</p>
 </div>
 <div class="right-column">
-<h2>中文解說：硬體設計規格</h2>
+<h2>：</h2>
 <div class="concept-box">
-<h4>哪種系統需要硬體 DS？</h4>
-<p>並非所有電腦化系統都需要硬體 DS。以下是判斷指南：</p>
+<h4> DS？</h4>
+<p> DS。：</p>
 <ul>
-<li><strong>需要 HDS</strong>：客製化嵌入式控制系統（如灌裝機 PLC 控制盤）、客製化硬體整合（如特殊感測器介面）、複雜的網路架構設計</li>
-<li><strong>通常不需要 HDS</strong>：標準 COTS 軟體執行在供應商提供的伺服器上、SaaS 系統（硬體由雲端供應商管理）、標準 PC 工作站執行 LIMS 用戶端</li>
+<li><strong> HDS</strong>：（ PLC ）、（）、</li>
+<li><strong> HDS</strong>： COTS 、SaaS （）、 PC  LIMS </li>
 </ul>
 </div>
 <div class="note-box">
-<h4>CDMO 實務：環境條件需求</h4>
-<p>在無菌製藥 CDMO 環境中，硬體設計需特別注意：</p>
+<h4>CDMO ：</h4>
+<p> CDMO ，：</p>
 <ul>
-<li>潔淨室內的觸控螢幕：IP 防護等級（通常需要 IP65+）、易清潔表面設計</li>
-<li>電磁干擾 (EMI)：灌裝設備的電機可能影響附近的 PLC 訊號，需要適當屏蔽</li>
-<li>UPS 需求：批次記錄系統在停電時必須有足夠時間完成資料儲存</li>
-<li>嵌入式系統（灌裝機）：必須有硬體設計文件（P&amp;ID、電氣圖）才能進行 IQ</li>
+<li>：IP （ IP65+）、</li>
+<li> (EMI)： PLC ，</li>
+<li>UPS ：</li>
+<li>（）：（P&amp;ID、） IQ</li>
 </ul>
 </div>
 </div>
@@ -696,7 +696,7 @@ tr:nth-child(even) { background: #f7fafc; }
 <!-- ============================================================ -->
 <!-- SECTION 9: D3.3.5 Software Design -->
 <!-- ============================================================ -->
-<h2 class="section-title"><strong>D3.3.5 Software Design Specification D3.3.5 軟體設計規格</strong></h2>
+<h2 class="section-title"><strong>D3.3.5 Software Design Specification D3.3.5 </strong></h2>
 <div class="two-column">
 <div class="left-column">
 <h2>Software Design</h2>
@@ -731,54 +731,54 @@ tr:nth-child(even) { background: #f7fafc; }
 </ul>
 </div>
 <div class="right-column">
-<h2>中文解說：軟體設計規格與可追溯性</h2>
+<h2>：</h2>
 <div class="concept-box">
-<h4>追溯性：從需求到設計，再到測試</h4>
-<p>DS 不只是技術文件，它是驗證計畫的骨架。完整的追溯矩陣結構：</p>
+<h4>：，</h4>
+<p>DS ，。：</p>
 <div style="background:#f0fff4;padding:0.75rem;border-radius:6px;font-family:monospace;font-size:0.85rem;">
-                RS 需求 ID → CS/DS 設計章節 → 驗證測試案例 ID → 測試結果
+                RS  ID → CS/DS  →  ID → 
             </div>
-<p>例如：</p>
+<p>：</p>
 <ul>
-<li>RS-SEC-003（密碼最短 8 字元）→ CS 第 4.2 節（密碼策略配置）→ OQ-TC-015（密碼長度驗證測試）→ PASS</li>
-<li>RS-AUDIT-007（批次數據修改記錄稽核軌跡）→ DS 模組 3.4（稽核軌跡引擎設計）→ OQ-TC-042（稽核軌跡完整性測試）→ PASS</li>
+<li>RS-SEC-003（ 8 ）→ CS  4.2 （）→ OQ-TC-015（）→ PASS</li>
+<li>RS-AUDIT-007（）→ DS  3.4（）→ OQ-TC-042（）→ PASS</li>
 </ul>
-<p>沒有追溯矩陣，驗證測試就是「測了什麼東西」，而不是「證明了系統滿足了哪些需求」。</p>
+<p>，「」，「」。</p>
 </div>
 <div class="application-box concept-box application">
-<h4>設計審查 (Design Review)：不只是文件審查</h4>
-<p>Appendix M5 更詳細地涵蓋設計審查。但 D3 中的核心訊息是：設計審查是確保 CS/DS 正確的關鍵步驟。</p>
-<p><strong>誰需要參加設計審查？</strong></p>
+<h4> (Design Review)：</h4>
+<p>Appendix M5 。 D3 ： CS/DS 。</p>
+<p><strong>？</strong></p>
 <ul>
-<li>系統擁有者（System Owner）</li>
-<li>業務流程擁有者（Business Process Owner）</li>
-<li>IT 代表（確認技術可行性）</li>
-<li>QA 代表（確認 GxP 合規性）</li>
-<li>驗證工程師（確認可驗證性）</li>
+<li>（System Owner）</li>
+<li>（Business Process Owner）</li>
+<li>IT （）</li>
+<li>QA （ GxP ）</li>
+<li>（）</li>
 </ul>
-<p><strong>設計審查要檢查什麼？</strong></p>
+<p><strong>？</strong></p>
 <ul>
-<li>每個 RS 需求都有對應的 CS/DS 章節嗎？（完整性）</li>
-<li>配置/設計是否確實滿足了需求？（充分性）</li>
-<li>配置/設計是否引入了 RS 中未提及的功能？（範圍控制）</li>
-<li>所有 GxP critical 需求都有對應的驗證測試案例嗎？</li>
+<li> RS  CS/DS ？（）</li>
+<li>/？（）</li>
+<li>/ RS ？（）</li>
+<li> GxP critical ？</li>
 </ul>
 </div>
 <div class="note-box">
-<h4>CDMO 陷阱：不做設計審查</h4>
-<p>許多 CDMO 跳過設計審查，直接進入 OQ 測試。結果是在 OQ 時才發現設計（或配置）與需求不符，需要重做配置並重新測試，浪費大量時間。</p>
-<p>設計審查的成本永遠低於驗證後的返工。一般規則：在開始 IQ/OQ 之前，CS/DS 必須已完成設計審查並核准。</p>
+<h4>CDMO ：</h4>
+<p> CDMO ， OQ 。 OQ （），，。</p>
+<p>。： IQ/OQ ，CS/DS 。</p>
 </div>
 <div class="analogy-box">
-<h4>多租戶 SaaS：數據隔離的重要性</h4>
-<p>當 CDMO 使用多租戶 SaaS 系統（例如 Veeva Vault）時，DS 必須清楚說明各租戶的數據如何隔離。這對 CDMO 尤其重要，因為你可能同時為多個客戶（Sponsor）管理數據，必須確保客戶 A 的數據不可被客戶 B 存取。這項需求通常需要在供應商的安全架構審查中確認，並記錄在質量協議中。</p>
+<h4> SaaS：</h4>
+<p> CDMO  SaaS （ Veeva Vault），DS 。 CDMO ，（Sponsor）， A  B 。，。</p>
 </div>
 </div>
 </div>
 <!-- ============================================================ -->
 <!-- SECTION 10: Traceability Summary -->
 <!-- ============================================================ -->
-<h2 class="section-title"><strong>The Traceability Chain: Requirements → Design → Testing 追溯鏈：需求 → 設計 → 測試</strong></h2>
+<h2 class="section-title"><strong>The Traceability Chain: Requirements → Design → Testing ： →  → </strong></h2>
 <div class="two-column">
 <div class="left-column">
 <h2>Complete Lifecycle Traceability</h2>
@@ -800,33 +800,33 @@ tr:nth-child(even) { background: #f7fafc; }
 <p>Further information on design review and traceability is provided in Appendix M5. The design review process is the formal mechanism through which the traceability chain is verified — confirming that the CS/DS adequately addresses all requirements in the RS before proceeding to testing.</p>
 </div>
 <div class="right-column">
-<h2>中文解說：可追溯性是驗證計畫的骨幹</h2>
+<h2>：</h2>
 <div class="formula-box">
-<h4>完整追溯鏈結構</h4>
+<h4></h4>
 <pre>
-業務流程需求
-    ↓
-RS 需求 ID（例：RS-GMP-007）
-    ↓
-法規依據（例：EU GMP Annex 11 §9）
-    ↓
-CS/DS 章節（例：CS 第 5.3 節：電子簽名配置）
-    ↓
-驗證測試案例 ID（例：OQ-TC-023）
-    ↓
-測試結果 + 通過/失敗 + 測試人員簽名
 
-全部整合於「追溯矩陣（Traceability Matrix）」
+    ↓
+RS  ID（：RS-GMP-007）
+    ↓
+（：EU GMP Annex 11 §9）
+    ↓
+CS/DS （：CS  5.3 ：）
+    ↓
+ ID（：OQ-TC-023）
+    ↓
+ + / + 
+
+「（Traceability Matrix）」
             </pre>
 </div>
 <div class="concept-box">
-<h4>追溯矩陣的實際用途</h4>
-<p>追溯矩陣不是一份「做給查核員看的」文件，它在專案中有實際的工程用途：</p>
+<h4></h4>
+<p>「」，：</p>
 <ul>
-<li><strong>計畫驗證範疇</strong>：所有 GMP critical 需求都需要測試——追溯矩陣讓你確保沒有遺漏</li>
-<li><strong>評估變更影響</strong>：系統變更時，快速識別哪些需求、哪些測試案例需要重新評估</li>
-<li><strong>稽核準備</strong>：查核員要求「請給我看稽核軌跡需求如何被驗證」——追溯矩陣一秒找到答案</li>
-<li><strong>偏差調查</strong>：系統出現異常時，快速追溯到相關的設計決策和驗證依據</li>
+<li><strong></strong>： GMP critical ——</li>
+<li><strong></strong>：，、</li>
+<li><strong></strong>：「」——</li>
+<li><strong></strong>：，</li>
 </ul>
 </div>
 </div>
@@ -835,14 +835,14 @@ CS/DS 章節（例：CS 第 5.3 節：電子簽名配置）
 <!-- SECTION SUMMARY -->
 <!-- ============================================================ -->
 <div class="section-summary">
-<h2>Section Summary — 章節總結</h2>
+<h2>Section Summary — </h2>
 <ul>
-<li><strong>RS is the "what," CS/DS is the "how."</strong> A Requirements Specification defines business needs independent of technical solutions. Configuration and Design Specifications explain how those needs will be implemented. Never mix the two. — RS 是「要做什麼」，CS/DS 是「怎麼做」。兩者的界線是驗證邏輯的基礎。</li>
-<li><strong>SMART requirements enable validation.</strong> A requirement that cannot be tested cannot be validated. The most common failure is writing compliance statements instead of testable functional requirements. — 可測試性是 SMART 的核心。「符合 Part 11」不是需求——具體的密碼策略、稽核軌跡欄位才是。</li>
-<li><strong>The requirements hierarchy flows top-down.</strong> URS (business) → FRS (functional) → CS/DS (implementation). Each level derives from the one above and must remain traceable to it. — 需求從業務到技術層層細化，每層都可追溯到上一層。</li>
-<li><strong>CS for COTS, DS for custom.</strong> Configured commercial software needs a Configuration Specification recording parameters and their business justification. Custom-developed software needs a full Design Specification including module architecture, data structures, and algorithms. — COTS 軟體用 CS（記錄配置參數與理由），客製軟體用 DS（設計模組與邏輯）。</li>
-<li><strong>Traceability is the backbone of validation.</strong> Every requirement should trace forward to a design decision and a test case. The Traceability Matrix is the instrument that makes this explicit, supports impact assessment, and provides evidence for regulatory review. — 追溯矩陣不是裝飾品，是變更控制和稽核防禦的核心工具。</li>
-<li><strong>Two critical CDMO pitfalls: over-specifying COTS and under-specifying URS.</strong> Over-specifying COTS creates requirements that cannot be met (you can't configure what the software doesn't allow). Under-specifying URS leads to scope creep and a system that doesn't meet business needs. — 對 COTS 過度規格化 → 無法實現的需求；對 URS 規格不足 → 範圍蔓延。兩者都是系統驗證專案失敗的常見原因。</li>
+<li><strong>RS is the "what," CS/DS is the "how."</strong> A Requirements Specification defines business needs independent of technical solutions. Configuration and Design Specifications explain how those needs will be implemented. Never mix the two. — RS 「」，CS/DS 「」。。</li>
+<li><strong>SMART requirements enable validation.</strong> A requirement that cannot be tested cannot be validated. The most common failure is writing compliance statements instead of testable functional requirements. —  SMART 。「 Part 11」——、。</li>
+<li><strong>The requirements hierarchy flows top-down.</strong> URS (business) → FRS (functional) → CS/DS (implementation). Each level derives from the one above and must remain traceable to it. — ，。</li>
+<li><strong>CS for COTS, DS for custom.</strong> Configured commercial software needs a Configuration Specification recording parameters and their business justification. Custom-developed software needs a full Design Specification including module architecture, data structures, and algorithms. — COTS  CS（）， DS（）。</li>
+<li><strong>Traceability is the backbone of validation.</strong> Every requirement should trace forward to a design decision and a test case. The Traceability Matrix is the instrument that makes this explicit, supports impact assessment, and provides evidence for regulatory review. — ，。</li>
+<li><strong>Two critical CDMO pitfalls: over-specifying COTS and under-specifying URS.</strong> Over-specifying COTS creates requirements that cannot be met (you can't configure what the software doesn't allow). Under-specifying URS leads to scope creep and a system that doesn't meet business needs. —  COTS  → ； URS  → 。。</li>
 </ul>
 </div>
 </div><!-- /.main-content -->

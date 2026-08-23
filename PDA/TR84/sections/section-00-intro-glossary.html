@@ -439,7 +439,7 @@ body {
     font-size: 0.92rem !important;
 }
 
-/* ===== ANALOGY BOX (Yellow) - 比喻說明 ===== */
+/* ===== ANALOGY BOX (Yellow) -  ===== */
 .analogy-box,
 .concept-box[class*="analogy"],
 .concept-box.analogy,
@@ -453,7 +453,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #856404 !important;
 }
 
-/* ===== TERM/CONCEPT BOX (Green) - 核心概念 ===== */
+/* ===== TERM/CONCEPT BOX (Green) -  ===== */
 .term-box,
 .key-term-box,
 .concept-box:not([class*="analogy"]):not([class*="note"]):not([class*="formula"]):not([class*="practice"]):not([class*="highlight"]):not(.analogy):not(.application) {
@@ -468,7 +468,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #2e7d32 !important;
 }
 
-/* ===== NOTE/HIGHLIGHT BOX (Orange) - 重點提示 ===== */
+/* ===== NOTE/HIGHLIGHT BOX (Orange) -  ===== */
 .note-box,
 .key-note,
 .key-point-box,
@@ -487,7 +487,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #c65102 !important;
 }
 
-/* ===== FORMULA BOX (Purple) - 公式計算 ===== */
+/* ===== FORMULA BOX (Purple) -  ===== */
 .formula-box,
 .concept-box[class*="formula"] {
     background: var(--purple-bg) !important;
@@ -522,7 +522,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #1565c0 !important;
 }
 
-/* ===== PRACTICE BOX (Blue dashed) - 練習思考 ===== */
+/* ===== PRACTICE BOX (Blue dashed) -  ===== */
 .practice-box {
     background: linear-gradient(135deg, #e8f4fd 0%, #d1e9ff 100%) !important;
     border: 2px dashed #3182ce !important;
@@ -989,7 +989,7 @@ tr:nth-child(even) {
 
 <!-- ===== PAGE HEADER ===== -->
 <div class="header">
-    <h1>Section 0: Introduction &amp; Glossary / 導論與術語詞彙表</h1>
+    <h1>Section 0: Introduction &amp; Glossary / </h1>
     <div class="subtitle">PDA Technical Report No. 84 — Data Integrity Management System for Pharmaceutical Manufacturing and Packaging Operations</div>
     <div class="page-info">p1 – p5  |  Sections 1.0, 1.1, 1.2, 2.0, 2.1</div>
 </div>
@@ -999,18 +999,18 @@ tr:nth-child(even) {
 
     <!-- ===== LEARNING OBJECTIVES ===== -->
     <div class="learning-objectives">
-        <h3>本節學習目標 Learning Objectives</h3>
+        <h3> Learning Objectives</h3>
         <ol>
-            <li>理解資料完整性（Data Integrity）的核心定義，以及 ALCOA+ 原則（可歸屬性、可辨識性、同步性、原始性、準確性，加上完整性、一致性、持久性、可用性）在製藥製造中的實際意義。</li>
-            <li>掌握 TR84 的適用範圍——僅涵蓋製造與包裝作業，並區分其與實驗室（TR80）及品質管理系統資料完整性文件的差異。</li>
-            <li>能夠正確使用並解釋本章關鍵術語：Audit Trail（稽核軌跡）、Data Lifecycle（資料生命週期）、Hybrid System（混合系統）、True Copy（真實副本）、Data Vulnerability（資料脆弱性）等。</li>
-            <li>了解主要監管機構（FDA、MHRA、WHO）對資料完整性定義的異同，以及以風險為基礎（QRM）方法在建立資料完整性控制措施上的重要性。</li>
+            <li>（Data Integrity）， ALCOA+ （、、、、，、、、）。</li>
+            <li> TR84 ——，（TR80）。</li>
+            <li>：Audit Trail（）、Data Lifecycle（）、Hybrid System（）、True Copy（）、Data Vulnerability（）。</li>
+            <li>（FDA、MHRA、WHO），（QRM）。</li>
         </ol>
     </div>
 
     <!-- ===== TABLE OF CONTENTS ===== -->
     <div class="toc">
-        <h3>本節內容索引</h3>
+        <h3></h3>
         <div class="toc-grid">
             <a href="#sec-10">1.0 Introduction</a>
             <a href="#sec-11">1.1 Purpose</a>
@@ -1026,7 +1026,7 @@ tr:nth-child(even) {
         <div class="chapter-divider">
             <div class="chapter-badge">1.0</div>
             <div class="chapter-info">
-                <h2>Introduction and Scope / 導論與範疇</h2>
+                <h2>Introduction and Scope / </h2>
                 <p>PDA TR84 — p1</p>
             </div>
         </div>
@@ -1048,48 +1048,48 @@ tr:nth-child(even) {
 
                 <!-- RIGHT: Chinese commentary -->
                 <div class="right-column">
-                    <h3 class="column-header">中文解析與應用</h3>
+                    <h3 class="column-header"></h3>
 
                     <div class="concept-box">
-                        <h4>核心概念：資料完整性 (Data Integrity)</h4>
-                        <p>TR84 開宗明義：資料完整性是「確立並維持對產品品質與病患安全信心」的基石。換言之，沒有可信賴的資料，GMP 合規就是空話。</p>
-                        <p>資料完整性的現代定義已從早期的 ALCOA 擴展為 <strong>ALCOA+</strong>：</p>
+                        <h4>： (Data Integrity)</h4>
+                        <p>TR84 ：「」。，，GMP 。</p>
+                        <p> ALCOA  <strong>ALCOA+</strong>：</p>
                         <ul>
-                            <li><strong>A</strong>ttributable（可歸屬性）— 可識別執行者</li>
-                            <li><strong>L</strong>egible（可辨識性）— 清楚可讀</li>
-                            <li><strong>C</strong>ontemporaneous（同步性）— 即時記錄</li>
-                            <li><strong>O</strong>riginal（原始性）— 第一手記錄</li>
-                            <li><strong>A</strong>ccurate（準確性）— 正確無誤</li>
-                            <li>+ <strong>C</strong>omplete（完整性）、<strong>C</strong>onsistent（一致性）、<strong>E</strong>nduring（持久性）、<strong>A</strong>vailable（可用性）</li>
+                            <li><strong>A</strong>ttributable（）— </li>
+                            <li><strong>L</strong>egible（）— </li>
+                            <li><strong>C</strong>ontemporaneous（）— </li>
+                            <li><strong>O</strong>riginal（）— </li>
+                            <li><strong>A</strong>ccurate（）— </li>
+                            <li>+ <strong>C</strong>omplete（）、<strong>C</strong>onsistent（）、<strong>E</strong>nduring（）、<strong>A</strong>vailable（）</li>
                         </ul>
                     </div>
 
                     <div class="note-box">
-                        <h4>監管重點：所有違規均須調查</h4>
+                        <h4>：</h4>
                         <p>「All breaches of data integrity, whether <strong>intentional or unintentional</strong>, must be investigated.」</p>
-                        <p>這句話至關重要——不論是人員疏失還是蓄意造假，都必須啟動調查。許多公司誤以為「無意的錯誤」可以不調查，這本身就是 GMP 違規。</p>
+                        <p>——，。「」， GMP 。</p>
                     </div>
 
                     <div class="analogy-box">
-                        <h4>比喻：資料像工廠的「DNA」</h4>
-                        <p>想像一個無菌充填廠，每一批次的生產記錄就像是那批藥品的 DNA。若這個 DNA 有缺陷（資料不完整、被竄改），你就無法証明這批藥是安全的——不管藥品本身多好。</p>
-                        <p>資料完整性控制措施，就是保護這份「生產 DNA」從誕生到保存期滿，始終真實可信。</p>
+                        <h4>：「DNA」</h4>
+                        <p>， DNA。 DNA （、），——。</p>
+                        <p>，「 DNA」，。</p>
                     </div>
 
                     <div class="concept-box">
-                        <h4>風險導向 (Risk-based) 方法的必要性</h4>
-                        <p>TR84 明確指出：「一刀切」的資料完整性控制在今日不可行。隨著：</p>
+                        <h4> (Risk-based) </h4>
+                        <p>TR84 ：「」。：</p>
                         <ul>
-                            <li>電子資料爆炸性成長</li>
-                            <li>記憶體成本大幅降低</li>
-                            <li>混合系統 (Hybrid System) 普及</li>
+                            <li></li>
+                            <li></li>
+                            <li> (Hybrid System) </li>
                         </ul>
-                        <p>必須以 <strong>QRM（品質風險管理）</strong>為基礎，依資料的「關鍵性」與「脆弱性」決定控制強度。</p>
+                        <p> <strong>QRM（）</strong>，「」「」。</p>
                     </div>
 
                     <div class="practice-box" style="border-style:solid; background:linear-gradient(135deg,#f0fdf4,#dcfce7); border-color:#22c55e;">
-                        <h4>CDMO 實務情境</h4>
-                        <p>您的廠區正在使用紙本批次記錄（BPR），同時部分設備已配備電子記錄系統（如環境監控 BMS）。這就是典型的「混合系統 (Hybrid System)」。TR84 的資料完整性控制原則同樣適用——不能因為「這部分是紙本」就降低要求。</p>
+                        <h4>CDMO </h4>
+                        <p>（BPR），（ BMS）。「 (Hybrid System)」。TR84 ——「」。</p>
                     </div>
                 </div>
 
@@ -1102,7 +1102,7 @@ tr:nth-child(even) {
         <div class="chapter-divider">
             <div class="chapter-badge">1.1</div>
             <div class="chapter-info">
-                <h2>Purpose / 目的</h2>
+                <h2>Purpose / </h2>
                 <p>PDA TR84 — p1–2</p>
             </div>
         </div>
@@ -1124,50 +1124,50 @@ tr:nth-child(even) {
 
                 <!-- RIGHT -->
                 <div class="right-column">
-                    <h3 class="column-header">中文解析與應用</h3>
+                    <h3 class="column-header"></h3>
 
                     <div class="concept-box">
-                        <h4>TR84 的三大目的</h4>
+                        <h4>TR84 </h4>
                         <ol>
-                            <li><strong>診斷問題</strong>：協助業界識別每個製造步驟的資料完整性風險</li>
-                            <li><strong>提供工具</strong>：以 QRM（品質風險管理）框架評估各步驟所需的控制強度</li>
-                            <li><strong>建立最佳實踐</strong>：整合來自全球業界與監管機構的專家意見，提供最佳實務指引</li>
+                            <li><strong></strong>：</li>
+                            <li><strong></strong>： QRM（）</li>
+                            <li><strong></strong>：，</li>
                         </ol>
                     </div>
 
                     <div class="note-box">
-                        <h4>業界普遍的困惑點</h4>
-                        <p>TR84 坦承：「many companies continue to struggle」——許多公司知道資料要準確完整，<strong>但不清楚每個步驟需要多少控制</strong>。</p>
-                        <p>這正是本報告的核心價值：提供一個系統化的 QRM 方法，讓決策有依據，而非靠感覺。</p>
+                        <h4></h4>
+                        <p>TR84 ：「many companies continue to struggle」——，<strong></strong>。</p>
+                        <p>： QRM ，，。</p>
                     </div>
 
                     <div class="analogy-box">
-                        <h4>比喻：QRM 就像保險精算</h4>
-                        <p>QRM（品質風險管理）用於資料完整性，就像保險公司做精算：不是每個風險都要買最高保額，而是根據「發生機率 × 嚴重度 × 可偵測性」來決定保多少。</p>
-                        <p>例如：無菌充填的關鍵製程參數記錄，風險高 → 需要電子稽核軌跡；倉儲搬運的非關鍵記錄，風險低 → 紙本雙人確認可能已足夠。</p>
+                        <h4>：QRM </h4>
+                        <p>QRM（），：，「 ×  × 」。</p>
+                        <p>：， → ；， → 。</p>
                     </div>
 
                     <div class="concept-box">
-                        <h4>資料完整性是組織責任，不只是 QA 的事</h4>
-                        <p>TR84 明確說明：<strong>所有人</strong>都有責任——</p>
+                        <h4>， QA </h4>
+                        <p>TR84 ：<strong></strong>——</p>
                         <ul>
-                            <li>管理者（Managers）</li>
-                            <li>品保人員（QA personnel）</li>
-                            <li>操作員（Operators）</li>
-                            <li>技術員（Technicians）</li>
-                            <li>支援人員（Support staff）</li>
+                            <li>（Managers）</li>
+                            <li>（QA personnel）</li>
+                            <li>（Operators）</li>
+                            <li>（Technicians）</li>
+                            <li>（Support staff）</li>
                         </ul>
-                        <p>這不是 QA 部門的獨立責任；資料完整性需要全廠文化的支持。</p>
+                        <p> QA ；。</p>
                     </div>
 
                     <div class="practice-box">
-                        <h4>思考問題</h4>
-                        <p>在您的 CDMO 廠區，目前是否有一份文件明確列出每個製造步驟的資料完整性控制要求（包含控制類型與審查頻率）？若無，TR84 的 QRM 方法可作為建立此文件的起點。</p>
+                        <h4></h4>
+                        <p> CDMO ，（）？，TR84  QRM 。</p>
                     </div>
 
                     <div class="practice-box" style="border-style:solid; background:linear-gradient(135deg,#f0fdf4,#dcfce7); border-color:#22c55e;">
-                        <h4>CDMO 應用情境</h4>
-                        <p>適用範圍涵蓋 APIs、固體口服劑型、<strong>無菌注射劑</strong>、生物製劑及疫苗。作為無菌充填 CDMO，TR84 的每一條原則都直接適用於您的日常作業——從充填機的製程參數記錄，到滅菌紀錄的電子稽核軌跡管理。</p>
+                        <h4>CDMO </h4>
+                        <p> APIs、、<strong></strong>、。 CDMO，TR84 ——，。</p>
                     </div>
                 </div>
 
@@ -1180,7 +1180,7 @@ tr:nth-child(even) {
         <div class="chapter-divider">
             <div class="chapter-badge">1.2</div>
             <div class="chapter-info">
-                <h2>Scope / 適用範圍</h2>
+                <h2>Scope / </h2>
                 <p>PDA TR84 — p2</p>
             </div>
         </div>
@@ -1200,49 +1200,49 @@ tr:nth-child(even) {
 
                 <!-- RIGHT -->
                 <div class="right-column">
-                    <h3 class="column-header">中文解析與應用</h3>
+                    <h3 class="column-header"></h3>
 
                     <div class="concept-box">
-                        <h4>TR84 適用範圍：製造與包裝作業</h4>
-                        <p>TR84 的涵蓋範圍包括：</p>
+                        <h4>TR84 ：</h4>
+                        <p>TR84 ：</p>
                         <ul>
-                            <li>製造作業（Manufacturing operations）</li>
-                            <li>物料管理（Materials）</li>
-                            <li>廠房與設備（Facilities &amp; equipment）</li>
-                            <li>生產記錄（Production）</li>
-                            <li>包裝與標示（Packaging &amp; labeling）</li>
-                            <li>製程中控制（In-process controls）</li>
-                            <li>製程分析檢測（Process analytical testing）</li>
+                            <li>（Manufacturing operations）</li>
+                            <li>（Materials）</li>
+                            <li>（Facilities &amp; equipment）</li>
+                            <li>（Production）</li>
+                            <li>（Packaging &amp; labeling）</li>
+                            <li>（In-process controls）</li>
+                            <li>（Process analytical testing）</li>
                         </ul>
                     </div>
 
                     <div class="note-box">
-                        <h4>重要排除項：TR84 不涵蓋實驗室</h4>
-                        <p>TR84 <strong>不</strong>涵蓋：</p>
+                        <h4>：TR84 </h4>
+                        <p>TR84 <strong></strong>：</p>
                         <ul>
-                            <li>實驗室/QC 的資料完整性 → 請參閱 <strong>PDA TR80</strong></li>
-                            <li>臨床試驗的資料完整性管理</li>
-                            <li>品質管理系統（QMS）的資料完整性（規劃於未來報告）</li>
+                            <li>/QC  →  <strong>PDA TR80</strong></li>
+                            <li></li>
+                            <li>（QMS）（）</li>
                         </ul>
-                        <p>稽核時，若查驗員問起實驗室 OOS 記錄的資料完整性，應引用 TR80 而非 TR84。</p>
+                        <p>， OOS ， TR80  TR84。</p>
                     </div>
 
                     <div class="analogy-box">
-                        <h4>比喻：TR84 是「生產線上的指南」</h4>
-                        <p>把 PDA 的資料完整性系列想成一套工具箱——TR84 是專門給「生產線現場」使用的工具，TR80 是給「實驗室」的工具。兩套工具設計原理相同（ALCOA+），但應用場景不同，不能混用。</p>
+                        <h4>：TR84 「」</h4>
+                        <p> PDA ——TR84 「」，TR80 「」。（ALCOA+），，。</p>
                     </div>
 
                     <div class="practice-box" style="border-style:solid; background:linear-gradient(135deg,#f0fdf4,#dcfce7); border-color:#22c55e;">
-                        <h4>CDMO 實務對照</h4>
-                        <p>身為無菌充填 CDMO，TR84 直接適用於以下作業：</p>
+                        <h4>CDMO </h4>
+                        <p> CDMO，TR84 ：</p>
                         <ul>
-                            <li>充填機操作記錄（電子或紙本 BPR）</li>
-                            <li>高壓蒸氣滅菌器的滅菌循環電子記錄</li>
-                            <li>環境監控（BMS/DeltaV 系統）的資料管理</li>
-                            <li>包裝線的批號標示驗証記錄</li>
-                            <li>製程中重量/體積檢查的紀錄</li>
+                            <li>（ BPR）</li>
+                            <li></li>
+                            <li>（BMS/DeltaV ）</li>
+                            <li></li>
+                            <li>/</li>
                         </ul>
-                        <p>而 QC 實驗室的 HPLC、微生物測試等記錄，則由 TR80 規範。</p>
+                        <p> QC  HPLC、， TR80 。</p>
                     </div>
                 </div>
 
@@ -1255,7 +1255,7 @@ tr:nth-child(even) {
         <div class="chapter-divider">
             <div class="chapter-badge">2.0</div>
             <div class="chapter-info">
-                <h2>Glossary and Abbreviations / 術語詞彙表與縮寫</h2>
+                <h2>Glossary and Abbreviations / </h2>
                 <p>PDA TR84 — p2–5</p>
             </div>
         </div>
@@ -1440,115 +1440,115 @@ tr:nth-child(even) {
 
                 <!-- RIGHT: Chinese Commentary for Glossary -->
                 <div class="right-column">
-                    <h3 class="column-header">中文解析與應用</h3>
+                    <h3 class="column-header"></h3>
 
                     <div class="concept-box">
-                        <h4>稽核軌跡 (Audit Trail) — 監管核心</h4>
-                        <p>三大監管機構（FDA、MHRA、WHO）定義的核心一致：</p>
+                        <h4> (Audit Trail) — </h4>
+                        <p>（FDA、MHRA、WHO）：</p>
                         <ul>
-                            <li>安全、防竄改</li>
-                            <li>時間戳記（time-stamped）</li>
-                            <li>記錄「誰、什麼、何時、為何」（who, what, when, why）</li>
-                            <li>不得覆蓋原始記錄</li>
+                            <li>、</li>
+                            <li>（time-stamped）</li>
+                            <li>「、、、」（who, what, when, why）</li>
+                            <li></li>
                         </ul>
-                        <p>MHRA 版本最完整，強調「who, what, when and why」四要素，是稽核員最常引用的標準。</p>
+                        <p>MHRA ，「who, what, when and why」，。</p>
                     </div>
 
                     <div class="note-box">
-                        <h4>ATRA — 稽核軌跡審查評估</h4>
-                        <p>ATRA（Audit Trail Review Assessment）是 TR84 引入的實用工具，解決了一個常見問題：<strong>「我需要審查稽核軌跡中的哪些內容？多久審查一次？」</strong></p>
-                        <p>很多公司開啟了電子稽核軌跡，卻沒有定期、有系統地審查，這在 FDA/MHRA 稽查中是一個常見的觀察缺失。</p>
+                        <h4>ATRA — </h4>
+                        <p>ATRA（Audit Trail Review Assessment） TR84 ，：<strong>「？？」</strong></p>
+                        <p>，、， FDA/MHRA 。</p>
                     </div>
 
                     <div class="analogy-box">
-                        <h4>比喻：Contemporaneous 就像監視錄影</h4>
-                        <p>「同步性」要求事發當下即時記錄，不能事後回憶補填。就像交通事故——監視器錄下的是真實情況，但事後憑記憶寫的陳述書，即使誠實，法律效力也低得多。</p>
-                        <p>在製藥製造中，補填批次記錄（back-dating entries）是最常見的資料完整性違規之一。</p>
+                        <h4>：Contemporaneous </h4>
+                        <p>「」，。——，，，。</p>
+                        <p>，（back-dating entries）。</p>
                     </div>
 
                     <div class="concept-box">
-                        <h4>CP / CPP / CQA — 製藥製造三角關係</h4>
-                        <p>理解這三個概念的層次關係，對資料完整性的風險評估至關重要：</p>
+                        <h4>CP / CPP / CQA — </h4>
+                        <p>，：</p>
                         <div class="hierarchy-diagram">
                             <div class="hierarchy-level">
-                                <span class="hierarchy-box level-1">CQA 關鍵品質屬性<br><small>（產品品質目標）</small></span>
+                                <span class="hierarchy-box level-1">CQA <br><small>（）</small></span>
                             </div>
-                            <div class="arrow-down">↑ 影響</div>
+                            <div class="arrow-down">↑ </div>
                             <div class="hierarchy-level">
-                                <span class="hierarchy-box level-2">CP 關鍵製程<br><small>（影響 CQA 的製程）</small></span>
+                                <span class="hierarchy-box level-2">CP <br><small>（ CQA ）</small></span>
                             </div>
-                            <div class="arrow-down">↑ 控制</div>
+                            <div class="arrow-down">↑ </div>
                             <div class="hierarchy-level">
-                                <span class="hierarchy-box level-3">CPP 關鍵製程參數<br><small>（需監控的參數）</small></span>
+                                <span class="hierarchy-box level-3">CPP <br><small>（）</small></span>
                             </div>
                         </div>
-                        <p>CPP 的資料記錄，因為直接影響 CQA（產品品質），需要最嚴格的資料完整性控制。</p>
+                        <p>CPP ， CQA（），。</p>
                     </div>
 
                     <div class="note-box">
-                        <h4>資料完整性控制 (Data Integrity Controls) — 雙重目的</h4>
-                        <p>TR84 明確定義資料完整性控制有兩種目的：</p>
+                        <h4> (Data Integrity Controls) — </h4>
+                        <p>TR84 ：</p>
                         <ol>
-                            <li><strong>預防（Prevention）</strong>：最小化資料完整性問題發生的可能性</li>
-                            <li><strong>偵測（Detection）</strong>：若問題發生，提高被發現的機率</li>
+                            <li><strong>（Prevention）</strong>：</li>
+                            <li><strong>（Detection）</strong>：，</li>
                         </ol>
-                        <p>這與 QRM 中的「風險控制」思維一致：優先預防，但也要有能力偵測。</p>
+                        <p> QRM 「」：，。</p>
                     </div>
 
                     <div class="concept-box">
-                        <h4>資料生命週期 (Data Lifecycle) — 從生到終</h4>
-                        <p>MHRA 定義（較簡潔）：從初始產生 → 記錄 → 處理 → 使用 → 保留 → 歸檔/取用 → 銷毀</p>
-                        <p>WHO 定義（較完整）：強調應有<strong>「計劃性的方法」</strong>來評估、監控並管理資料及其風險——要與病患安全、產品品質及決策可靠性的影響相稱。</p>
+                        <h4> (Data Lifecycle) — </h4>
+                        <p>MHRA （）： →  →  →  →  → / → </p>
+                        <p>WHO （）：<strong>「」</strong>、——、。</p>
                     </div>
 
                     <div class="note-box">
-                        <h4>Looped Memory — 高風險陷阱</h4>
-                        <p>「循環記憶體（Looped Memory）」是許多老舊設備（如老型充填機、天平）的內建儲存方式：儲滿了就自動覆蓋最舊的資料。</p>
-                        <p>這直接違反 ALCOA+ 的「Enduring（持久性）」要求。解決方案：</p>
+                        <h4>Looped Memory — </h4>
+                        <p>「（Looped Memory）」（、）：。</p>
+                        <p> ALCOA+ 「Enduring（）」。：</p>
                         <ul>
-                            <li>定期下載並儲存到受控系統</li>
-                            <li>或升級為具備更大容量或即時傳輸能力的設備</li>
+                            <li></li>
+                            <li></li>
                         </ul>
                     </div>
 
                     <div class="concept-box">
-                        <h4>True Copy（真實副本）— 必須保留內容與意義</h4>
-                        <p>三大監管機構的共識：真實副本必須保留原始記錄的<strong>全部內容與意義</strong>。</p>
-                        <p>對電子記錄特別重要：</p>
+                        <h4>True Copy（）— </h4>
+                        <p>：<strong></strong>。</p>
+                        <p>：</p>
                         <ul>
-                            <li>必須包含所有必要的 metadata</li>
-                            <li>必須保留靜態或動態格式（如 PDF 列印紙本不等同於原始電子檔）</li>
-                            <li>電子副本需透過驗證流程產生，或有日期簽核</li>
+                            <li> metadata</li>
+                            <li>（ PDF ）</li>
+                            <li>，</li>
                         </ul>
                     </div>
 
                     <div class="analogy-box">
-                        <h4>比喻：Gemba Walk 就是「走動管理」</h4>
-                        <p>Gemba Walk 源自日文「現場」，是管理者親自到生產現場觀察的方法。在資料完整性管理中，Gemba Walk 是發現「書面 SOP 和實際操作差距」的最有效手段。</p>
-                        <p>很多資料完整性問題不是政策層面的問題，而是現場執行的習慣問題——只有走到現場才能看到。</p>
+                        <h4>：Gemba Walk 「」</h4>
+                        <p>Gemba Walk 「」，。，Gemba Walk 「 SOP 」。</p>
+                        <p>，——。</p>
                     </div>
 
                     <div class="practice-box" style="border-style:solid; background:linear-gradient(135deg,#f0fdf4,#dcfce7); border-color:#22c55e;">
-                        <h4>CDMO 應用情境 — Historian 系統</h4>
-                        <p>Historian（歷史資料庫）在 CDMO 中通常是 DCS（如 DeltaV）或 SCADA 系統的一部分，自動記錄：</p>
+                        <h4>CDMO  — Historian </h4>
+                        <p>Historian（） CDMO  DCS（ DeltaV） SCADA ，：</p>
                         <ul>
-                            <li>充填機的填充重量趨勢</li>
-                            <li>高壓蒸氣滅菌器的溫度/壓力曲線</li>
-                            <li>環境控制系統（BMS）的溫濕度數據</li>
+                            <li></li>
+                            <li>/</li>
+                            <li>（BMS）</li>
                         </ul>
-                        <p>Historian 系統本身也必須納入 CSV（電腦系統驗證）範疇，確保其記錄的資料完整性。</p>
+                        <p>Historian  CSV（），。</p>
                     </div>
 
                     <div class="practice-box">
-                        <h4>思考問題</h4>
-                        <p>在您廠區的製造系統中，哪些設備可能存在「Looped Memory（循環記憶體）」問題？這些資料目前是如何確保在覆蓋前被完整保存的？</p>
+                        <h4></h4>
+                        <p>，「Looped Memory（）」？？</p>
                     </div>
                 </div>
 
             </div>
         <div class="concept-box">
-                        <h4>資料完整性 (Data Integrity) — 三大監管機構定義比較</h4>
-                        <p>MHRA 和 WHO 的定義比 FDA 更廣泛，強調「整個資料生命週期」和「品質風險管理系統」。全球 CDMO 應以最嚴格的要求為準。</p>
+                        <h4> (Data Integrity) — </h4>
+                        <p>MHRA  WHO  FDA ，「」「」。 CDMO 。</p>
                     </div>
 
                     </div>
@@ -1559,7 +1559,7 @@ tr:nth-child(even) {
         <div class="chapter-divider">
             <div class="chapter-badge">2.1</div>
             <div class="chapter-info">
-                <h2>Abbreviations / 縮寫對照表</h2>
+                <h2>Abbreviations / </h2>
                 <p>PDA TR84 — p5</p>
             </div>
         </div>
@@ -1573,57 +1573,57 @@ tr:nth-child(even) {
 
                 <!-- RIGHT -->
                 <div class="right-column">
-                    <h3 class="column-header">中文解析與應用</h3>
+                    <h3 class="column-header"></h3>
 
                     <div class="concept-box">
-                        <h4>CDMO 人員必懂縮寫</h4>
-                        <p>以下縮寫在 TR84 全文反覆出現，須熟記其含義：</p>
+                        <h4>CDMO </h4>
+                        <p> TR84 ，：</p>
                         <ul>
-                            <li><strong>ALCOA</strong>：資料完整性核心原則縮寫，加 + 號為 ALCOA+</li>
-                            <li><strong>BPR</strong>（批次生產記錄）：製造作業的核心文件</li>
-                            <li><strong>EBR</strong>（電子批次記錄）：BPR 的電子化版本</li>
-                            <li><strong>BMS</strong>（建築管理系統）：廠房溫濕度、壓差等環境監控系統</li>
-                            <li><strong>MES</strong>（製造執行系統）：整合生產排程、批次記錄的中介系統</li>
-                            <li><strong>HMI</strong>（人機介面）：設備操作介面，常見於充填機、滅菌器</li>
-                            <li><strong>PLC</strong>（可程式化邏輯控制器）：設備自動化控制核心，其記錄需 CSV</li>
-                            <li><strong>QRM</strong>（品質風險管理）：TR84 的核心評估方法論</li>
+                            <li><strong>ALCOA</strong>：， +  ALCOA+</li>
+                            <li><strong>BPR</strong>（）：</li>
+                            <li><strong>EBR</strong>（）：BPR </li>
+                            <li><strong>BMS</strong>（）：、</li>
+                            <li><strong>MES</strong>（）：、</li>
+                            <li><strong>HMI</strong>（）：，、</li>
+                            <li><strong>PLC</strong>（）：， CSV</li>
+                            <li><strong>QRM</strong>（）：TR84 </li>
                         </ul>
                     </div>
 
                     <div class="note-box">
-                        <h4>監管機構縮寫 — 全球視野</h4>
-                        <p>TR84 是國際性文件，引用的監管機構包括：</p>
+                        <h4> — </h4>
+                        <p>TR84 ，：</p>
                         <ul>
-                            <li><strong>FDA</strong>（美國）— 21 CFR Part 11、211 等</li>
-                            <li><strong>MHRA</strong>（英國）— Data Integrity Guidance 業界公認最詳細</li>
-                            <li><strong>WHO</strong>（世界衛生組織）— 適用於開發中國家市場</li>
-                            <li><strong>TGA</strong>（澳洲）</li>
-                            <li><strong>NMPA</strong>（中國）— 大陸市場合規需額外注意</li>
-                            <li><strong>PIC/S</strong> — 歐洲藥廠互查協定，歐盟 GMP 框架基礎</li>
+                            <li><strong>FDA</strong>（）— 21 CFR Part 11、211 </li>
+                            <li><strong>MHRA</strong>（）— Data Integrity Guidance </li>
+                            <li><strong>WHO</strong>（）— </li>
+                            <li><strong>TGA</strong>（）</li>
+                            <li><strong>NMPA</strong>（）— </li>
+                            <li><strong>PIC/S</strong> — ， GMP </li>
                         </ul>
-                        <p>作為 CDMO，您的客戶可能來自不同市場，需同時符合多個監管機構要求。</p>
+                        <p> CDMO，，。</p>
                     </div>
 
                     <div class="analogy-box">
-                        <h4>比喻：MES vs EBR vs BMS</h4>
-                        <p>這三個系統的層級關係：</p>
+                        <h4>：MES vs EBR vs BMS</h4>
+                        <p>：</p>
                         <ul>
-                            <li><strong>BMS</strong>：記錄廠房環境（溫濕度、壓差）— 就像「氣象站」</li>
-                            <li><strong>EBR</strong>：記錄批次生產過程（投料、操作、檢查）— 就像「航行日誌」</li>
-                            <li><strong>MES</strong>：整合兩者並管理生產排程 — 就像「指揮艦橋」</li>
+                            <li><strong>BMS</strong>：（、）— 「」</li>
+                            <li><strong>EBR</strong>：（、、）— 「」</li>
+                            <li><strong>MES</strong>： — 「」</li>
                         </ul>
-                        <p>三者的資料完整性控制要求各有不同，都需納入 CSV 驗證範疇。</p>
+                        <p>， CSV 。</p>
                     </div>
 
                     <div class="practice-box" style="border-style:solid; background:linear-gradient(135deg,#f0fdf4,#dcfce7); border-color:#22c55e;">
-                        <h4>CDMO 盤點建議</h4>
-                        <p>建議您的 IT/QA 團隊建立一份「系統清單」，列出廠區中每個涉及資料記錄的系統（HMI、BMS、Historian、EBR、LIMS 等），並標示：</p>
+                        <h4>CDMO </h4>
+                        <p> IT/QA 「」，（HMI、BMS、Historian、EBR、LIMS ），：</p>
                         <ul>
-                            <li>是否已完成 CSV 驗證</li>
-                            <li>Audit Trail 是否已啟用並定期審查</li>
-                            <li>資料保存期限與備份機制</li>
+                            <li> CSV </li>
+                            <li>Audit Trail </li>
+                            <li></li>
                         </ul>
-                        <p>這份清單是建立資料完整性程序的起點，也是稽查時的關鍵文件。</p>
+                        <p>，。</p>
                     </div>
                 </div>
 
@@ -1636,56 +1636,56 @@ tr:nth-child(even) {
         <div class="chapter-divider">
             <div class="chapter-badge">∑</div>
             <div class="chapter-info">
-                <h2>Section Summary / 本節總結</h2>
-                <p>關鍵概念整合回顧</p>
+                <h2>Section Summary / </h2>
+                <p></p>
             </div>
         </div>
         <div class="chapter-body">
 
             <div class="concept-box" style="margin-bottom:1.5rem;">
-                <h4>本節核心要點總整理</h4>
-                <p><strong>1. 資料完整性是 GMP 的基石</strong><br>
-                TR84 第一句話就點明：資料完整性（Data Integrity）是確立並維持對產品品質與病患安全信心的基石。所有資料完整性違規，無論有意或無意，都必須調查。</p>
+                <h4></h4>
+                <p><strong>1.  GMP </strong><br>
+                TR84 ：（Data Integrity）。，，。</p>
 
-                <p><strong>2. ALCOA+ 是九項原則，不只五項</strong><br>
-                ALCOA（可歸屬性、可辨識性、同步性、原始性、準確性）是基礎，加上 Complete（完整性）、Consistent（一致性）、Enduring（持久性）、Available（可用性）構成 ALCOA+。每一項都有其特定的控制要求。</p>
+                <p><strong>2. ALCOA+ ，</strong><br>
+                ALCOA（、、、、）， Complete（）、Consistent（）、Enduring（）、Available（） ALCOA+。。</p>
 
-                <p><strong>3. TR84 的範疇是製造與包裝，不包含實驗室</strong><br>
-                實驗室的資料完整性管理由 PDA TR80 規範。兩份文件合讀，才能覆蓋整個藥廠的資料完整性管理需求。</p>
+                <p><strong>3. TR84 ，</strong><br>
+                 PDA TR80 。，。</p>
 
-                <p><strong>4. 混合系統（Hybrid System）是常態，需特別管理</strong><br>
-                大多數藥廠仍在紙本與電子系統的過渡期，混合系統的資料完整性控制是 TR84 的重點之一。過渡期間不能以「我們還沒全電子化」為藉口降低要求。</p>
+                <p><strong>4. （Hybrid System），</strong><br>
+                ， TR84 。「」。</p>
 
-                <p><strong>5. QRM（品質風險管理）是評估框架</strong><br>
-                資料完整性控制的強度應與資料的「關鍵性」和「脆弱性」相稱。QRM 是 TR84 全文的核心評估方法，避免「一刀切」的過度或不足控制。</p>
+                <p><strong>5. QRM（）</strong><br>
+                「」「」。QRM  TR84 ，「」。</p>
             </div>
 
             <div class="note-box" style="margin-bottom:1.5rem;">
-                <h4>稽查高頻問題預警</h4>
-                <p>FDA/MHRA 稽查員在製造作業中最常問的資料完整性問題：</p>
+                <h4></h4>
+                <p>FDA/MHRA ：</p>
                 <ul>
-                    <li>您的稽核軌跡（Audit Trail）是否已啟用？審查頻率是多少？（ATRA 評估是否存在）</li>
-                    <li>操作員的電腦登入帳號是否共用？（Attributable 要求）</li>
-                    <li>是否有設備因 Looped Memory 導致資料被覆蓋的風險？</li>
-                    <li>紙本批次記錄的修改是否符合「單線劃除、簽名、日期、原因」原則？</li>
-                    <li>電子記錄的備份機制是否驗證過？True Copy 是否符合監管定義？</li>
+                    <li>（Audit Trail）？？（ATRA ）</li>
+                    <li>？（Attributable ）</li>
+                    <li> Looped Memory ？</li>
+                    <li>「、、、」？</li>
+                    <li>？True Copy ？</li>
                 </ul>
             </div>
 
             <div class="practice-box" style="border-style:solid; background:linear-gradient(135deg,#f0fdf4,#dcfce7); border-color:#22c55e; margin-bottom:1.5rem;">
-                <h4>本節學後行動 — CDMO 實踐建議</h4>
+                <h4> — CDMO </h4>
                 <ol>
-                    <li><strong>做系統盤點</strong>：列出廠區所有產生 GMP 記錄的系統（電子 + 紙本），確認每個系統的資料完整性控制狀態。</li>
-                    <li><strong>驗證 Audit Trail 啟用狀態</strong>：確認所有電子系統的稽核軌跡已啟用，並建立 ATRA（稽核軌跡審查評估）程序。</li>
-                    <li><strong>識別 Looped Memory 設備</strong>：找出廠區中使用循環記憶體的老舊設備，建立資料定期備份程序。</li>
-                    <li><strong>宣導「資料完整性是全員責任」</strong>：確保操作員到管理階層都理解 ALCOA+ 要求，特別是「Contemporaneous（同步性）」——不得事後補填記錄。</li>
+                    <li><strong></strong>： GMP （ + ），。</li>
+                    <li><strong> Audit Trail </strong>：， ATRA（）。</li>
+                    <li><strong> Looped Memory </strong>：，。</li>
+                    <li><strong>「」</strong>： ALCOA+ ，「Contemporaneous（）」——。</li>
                 </ol>
             </div>
 
             <div class="analogy-box">
-                <h4>最後比喻：資料完整性就像建築的地基</h4>
-                <p>無論你的製程技術多先進、設備多新穎，若資料完整性這塊「地基」不穩，整棟 GMP 大樓就可能倒塌。FDA Warning Letter 和進口禁令，許多不是因為產品本身有問題，而是因為記錄無法被信任——監管機構無法確認那批藥是否真的按照 GMP 製造。</p>
-                <p>TR84 的核心訊息：<strong>資料的可信度，決定了產品的可信度。</strong></p>
+                <h4>：</h4>
+                <p>、，「」， GMP 。FDA Warning Letter ，，—— GMP 。</p>
+                <p>TR84 ：<strong>，。</strong></p>
             </div>
 
         </div>

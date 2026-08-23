@@ -354,19 +354,19 @@ tr:nth-child(even) { background: #f7faf7; }
 
     <!-- LEARNING OBJECTIVES -->
     <div class="learning-objectives">
-        <h3>📚 本節學習目標 Learning Objectives</h3>
+        <h3>📚  Learning Objectives</h3>
         <ol>
-            <li>理解 C&amp;Q 測試的整體方法與範疇——從設計階段起始、以系統驗收結束，靜態與動態測試的分工。</li>
-            <li>掌握七大測試原則（工程驅動、預定義標準、培訓、見證要求、供應商評估、變更管理、偏差管理），並能在實務中套用。</li>
-            <li>理解品保單位（Quality Unit）在 CDE 測試文件中的四種監督模式，以及多功能 C&amp;Q 團隊的四個角色定位。</li>
-            <li>掌握移交文件包（TOP）的目的、15 項典型內容與格式要求，以及「先期交貨檢查（PDI）」的時機與價值。</li>
-            <li>能運用 Table 7.2 判斷不同設備類型（高壓滅菌器、HVAC、凍乾機、秤量器、WFI 製造/分配）應採用哪些測試/檢查文件組合。</li>
+            <li> C&amp;Q ——、，。</li>
+            <li>（、、、、、、），。</li>
+            <li>（Quality Unit） CDE ， C&amp;Q 。</li>
+            <li>（TOP）、15 ，「（PDI）」。</li>
+            <li> Table 7.2 （、HVAC、、、WFI /）/。</li>
         </ol>
     </div>
 
     <!-- TOC -->
     <div class="toc">
-        <h3>本節目錄</h3>
+        <h3></h3>
         <div class="toc-grid">
             <a href="#sec71">7.1 Introduction</a>
             <a href="#sec711">7.1.1 Approach &amp; Scope</a>
@@ -405,15 +405,15 @@ tr:nth-child(even) { background: #f7faf7; }
                     <p>Although this chapter provides some general guidance on the safety aspects (e.g., pre-start-up checks), the specific requirements for safety aspects and any local requirements (e.g., signage, access control, equipment protection, Material Safety Data Sheets) are outside the scope of this Guide. It is the responsibility of the system designer to produce a system that is compliant with any related local regulations.</p>
                 </div>
                 <div class="right-column">
-                    <div class="column-header">中文解說 Commentary</div>
+                    <div class="column-header"> Commentary</div>
                     <div class="concept-box">
-                        <h4>📌 核心目標</h4>
-                        <p>本章聚焦於「測試與檢查」本身及其記錄文件。終極目標簡潔明確：<strong>確認系統已按規範安裝，且能按要求運作</strong>。</p>
-                        <p>安全面向（如標示、門禁、MSDS）屬各地法規管轄，不在本指南討論範圍內——這是 ISPE 指南常見的「範疇劃定」做法，讀者應特別留意。</p>
+                        <h4>📌 </h4>
+                        <p>「」。：<strong>，</strong>。</p>
+                        <p>（、、MSDS），—— ISPE 「」，。</p>
                     </div>
                     <div class="analogy-box">
-                        <h4>💡 比喻說明</h4>
-                        <p>C&amp;Q 測試就像新房屋的「竣工驗收」——水電管線有沒有接對、門窗能不能關緊、消防設備是否達標。「安裝符合規範」是 IQ 的任務，「運作符合要求」是 OQ/PQ 的任務，兩者都要有書面記錄才算完成。</p>
+                        <h4>💡 </h4>
+                        <p>C&amp;Q 「」——、、。「」 IQ ，「」 OQ/PQ ，。</p>
                     </div>
                 </div>
             </div>
@@ -442,36 +442,36 @@ tr:nth-child(even) { background: #f7faf7; }
                     <p>Testing activities and rigor will depend on the type of system (e.g., manufacturing, automated, utilities), potential to impact product quality, and on the project (e.g., green field, brown field, relocation, stick-built, modular, off-the-shelf system).</p>
                 </div>
                 <div class="right-column">
-                    <div class="column-header">中文解說 Commentary</div>
+                    <div class="column-header"> Commentary</div>
                     <div class="concept-box">
-                        <h4>📐 靜態 vs 動態測試</h4>
+                        <h4>📐  vs </h4>
                         <ul>
-                            <li><strong>靜態測試（Static Testing）</strong>：文件審查、圖面核對、材料符合性驗證——設備「靜止」狀態下的確認。</li>
-                            <li><strong>動態測試（Dynamic Testing）</strong>：設備實際運轉，測試功能表現與最壞情境——設備「動起來」的確認。</li>
+                            <li><strong>（Static Testing）</strong>：、、——「」。</li>
+                            <li><strong>（Dynamic Testing）</strong>：，——「」。</li>
                         </ul>
-                        <p>兩者都是 C&amp;Q 的一部分，不可偏廢。</p>
+                        <p> C&amp;Q ，。</p>
                     </div>
                     <div class="note-box">
-                        <h4>⚠️ 重點：避免重複測試</h4>
-                        <p>計劃階段預先定義測試要求，是節省成本的關鍵。但以下情況<strong>必須</strong>重新測試：</p>
+                        <h4>⚠️ ：</h4>
+                        <p>，。<strong></strong>：</p>
                         <ul>
-                            <li>FAT 後設備拆解出廠（斷開自控系統）</li>
-                            <li>現場公用設施規格與原設計不符</li>
-                            <li>任何可能影響測試結果的後續變更</li>
+                            <li>FAT （）</li>
+                            <li></li>
+                            <li></li>
                         </ul>
                     </div>
                     <div class="concept-box">
-                        <h4>🔗 整合系統測試</h4>
-                        <p>WFI 分配系統（機械管路 + 電氣 + SCADA）必須作為一個整體來測試，不能只驗機械部分，因為控制邏輯才是實際運作的核心。ISPE 特別強調此點，因為工廠往往分包機械承包商與自動化承包商，容易出現「各自測試、整合漏洞」的問題。</p>
+                        <h4>🔗 </h4>
+                        <p>WFI （ +  + SCADA），，。ISPE ，，「、」。</p>
                     </div>
                     <div class="analogy-box">
                         <h4>💡 Green field vs Brown field</h4>
                         <ul>
-                            <li><strong>Green field</strong>（綠地）：全新廠址，從零開始建設</li>
-                            <li><strong>Brown field</strong>（棕地）：既有廠址改建或擴建，舊有設備與新建工程並存</li>
-                            <li><strong>Modular / Off-the-shelf</strong>：模組化採購或現成設備，測試深度相對較低</li>
+                            <li><strong>Green field</strong>（）：，</li>
+                            <li><strong>Brown field</strong>（）：，</li>
+                            <li><strong>Modular / Off-the-shelf</strong>：，</li>
                         </ul>
-                        <p>專案類型直接影響測試嚴格程度（rigor）的設定。</p>
+                        <p>（rigor）。</p>
                     </div>
                 </div>
             </div>
@@ -514,48 +514,48 @@ tr:nth-child(even) { background: #f7faf7; }
                     <p>Other documentation required to support acceptance and release (e.g., drawings and procedures) is managed through other processes (see Chapter 8).</p>
                 </div>
                 <div class="right-column">
-                    <div class="column-header">中文解說 Commentary</div>
+                    <div class="column-header"> Commentary</div>
                     <div class="concept-box">
-                        <h4>📋 七大 C&amp;Q 測試原則</h4>
+                        <h4>📋  C&amp;Q </h4>
                         <ol>
-                            <li><strong>工程驅動（Engineering Driven）</strong>：測試是工程活動，產生文件化證據——不是品保「事後審查」，而是工程實作的一部分。</li>
-                            <li><strong>預定義文件標準</strong>：測試前必須確立文件規範（格式、簽名要求等），防止後期補救。</li>
-                            <li><strong>培訓先行</strong>：執行測試前，相關人員需完成文件標準的培訓。</li>
-                            <li><strong>見證與通知要求預定義</strong>：哪些測試需要 QA/客戶見證？通知期多長？都要事先書面規定。</li>
-                            <li><strong>供應商評估（Vendor Assessment）</strong>：若採用廠商數據支持驗證，需先評估廠商能力（見第 10 章）。</li>
-                            <li><strong>工程變更管理</strong>：設計批准後的所有更動，必須走正式的工程變更管理流程。</li>
-                            <li><strong>偏差管理流程預定義</strong>：測試失敗的處理程序需在執行前明確規定（見 7.4 節）。</li>
+                            <li><strong>（Engineering Driven）</strong>：，——「」，。</li>
+                            <li><strong></strong>：（、），。</li>
+                            <li><strong></strong>：，。</li>
+                            <li><strong></strong>： QA/？？。</li>
+                            <li><strong>（Vendor Assessment）</strong>：，（ 10 ）。</li>
+                            <li><strong></strong>：，。</li>
+                            <li><strong></strong>：（ 7.4 ）。</li>
                         </ol>
                     </div>
 
                     <div class="note-box">
-                        <h4>⚠️ Table 7.1 解讀：三層監督架構</h4>
-                        <p>ISPE 用三種「監督深度」區分文件類型：</p>
+                        <h4>⚠️ Table 7.1 ：</h4>
+                        <p>ISPE 「」：</p>
                         <ul>
-                            <li><strong>文件審查</strong>（Document Review）：最基本，確認做了且有記錄</li>
-                            <li><strong>FAT/SAT</strong>：需要廠商參與 + 技術監督</li>
-                            <li><strong>資格確認（Qualification）</strong>：需要品保單位監督——這是法規要求的核心</li>
+                            <li><strong></strong>（Document Review）：，</li>
+                            <li><strong>FAT/SAT</strong>： + </li>
+                            <li><strong>（Qualification）</strong>：——</li>
                         </ul>
-                        <p>監督層級越高，代表對產品品質影響越直接（CDE 越重要）。</p>
+                        <p>，（CDE ）。</p>
                     </div>
 
                     <div class="application-box">
-                        <h4>🏭 Table 7.2 實務應用指南</h4>
-                        <p>這張表是 CDMO 採購/驗證規劃的實用參考工具：</p>
+                        <h4>🏭 Table 7.2 </h4>
+                        <p> CDMO /：</p>
                         <ul>
-                            <li><strong>高壓滅菌器 &amp; 凍乾機</strong>：複雜設備，兩個選項都需要 FAT + PQ；Option 2 以 「Installation and Operational Testing Summary」整合 SAT 功能。</li>
-                            <li><strong>HVAC（AHU 至末端過濾器）</strong>：不一定需要正式 SAT/PQ，以 Turnover Package + Testing and Balancing Report 為主。</li>
-                            <li><strong>秤量器（Scale）</strong>：最簡單，Receipt Inspection + Calibration 即可，不需 FAT。</li>
-                            <li><strong>WFI 製造系統</strong>：Option 2 可省略 FAT（若廠商能在廠內預先完成 SAT）。</li>
-                            <li><strong>WFI 分配系統</strong>：以 TOP 為核心；Option 2 增加 Receipt Inspection 和 Operational Testing Summary，適合較複雜的迴路設計。</li>
+                            <li><strong> &amp; </strong>：， FAT + PQ；Option 2  「Installation and Operational Testing Summary」 SAT 。</li>
+                            <li><strong>HVAC（AHU ）</strong>： SAT/PQ， Turnover Package + Testing and Balancing Report 。</li>
+                            <li><strong>（Scale）</strong>：，Receipt Inspection + Calibration ， FAT。</li>
+                            <li><strong>WFI </strong>：Option 2  FAT（ SAT）。</li>
+                            <li><strong>WFI </strong>： TOP ；Option 2  Receipt Inspection  Operational Testing Summary，。</li>
                         </ul>
-                        <p><em>關鍵點：「哪個選項都可以」——重要的是在 C&amp;Q Plan 中提前決定並文件化。</em></p>
+                        <p><em>：「」—— C&amp;Q Plan 。</em></p>
                     </div>
 
                     <div class="analogy-box">
-                        <h4>💡 GEP（良好工程實踐）</h4>
-                        <p>GEP = Good Engineering Practice，是 ISPE 的核心概念。它不是一份標準文件，而是業界認可的「工程常識」——確保系統設計、安裝、測試兼顧功能、成本、合規與文件品質。</p>
-                        <p>可參考 ISPE GPG: Good Engineering Practice 專刊（文中注 [22]）。</p>
+                        <h4>💡 GEP（）</h4>
+                        <p>GEP = Good Engineering Practice， ISPE 。，「」——、、、、。</p>
+                        <p> ISPE GPG: Good Engineering Practice （ [22]）。</p>
                     </div>
                 </div>
             </div>
@@ -591,37 +591,37 @@ tr:nth-child(even) { background: #f7faf7; }
                     </ul>
                 </div>
                 <div class="right-column">
-                    <div class="column-header">中文解說 Commentary</div>
+                    <div class="column-header"> Commentary</div>
                     <div class="concept-box">
-                        <h4>📊 品保單位監督 CDE 測試的四種模式</h4>
-                        <p>ISPE 明確提供四種不同深度的 QA 介入方式，企業可依組織規模與系統風險選擇：</p>
+                        <h4>📊  CDE </h4>
+                        <p>ISPE  QA ，：</p>
                         <ol>
                             <li>
-                                <strong>模式一：程序預核（GEP SOP + 測試腳本預批准）</strong><br>
-                                QA 事先批准定義 GEP 的 SOP，以及標準測試程序（test scripts）與結果模板。測試期間 QA 不需逐一參與，事後審核結果即可。<br>
-                                <span class="badge green">適用：成熟廠房，已建立標準化測試程序的組織</span>
+                                <strong>：（GEP SOP + ）</strong><br>
+                                QA  GEP  SOP，（test scripts）。 QA ，。<br>
+                                <span class="badge green">：，</span>
                             </li>
                             <li>
-                                <strong>模式二：C&amp;Q Plan 批准 + 摘要報告審核</strong><br>
-                                QA 批准 C&amp;Q Plan（含測試策略與接受標準），之後審核 C&amp;Q 摘要報告中的結果。<br>
-                                <span class="badge blue">適用：中型專案，QA 資源有限，希望分散介入時間點</span>
+                                <strong>：C&amp;Q Plan  + </strong><br>
+                                QA  C&amp;Q Plan（）， C&amp;Q 。<br>
+                                <span class="badge blue">：，QA ，</span>
                             </li>
                             <li>
-                                <strong>模式三：獨立 IOQ 協議（前後審批）</strong><br>
-                                針對 SRA 識別的 CDE，單獨寫成 IOQ Protocol，QA 執行前批准、執行後審核。最傳統的驗證路徑。<br>
-                                <span class="badge yellow">適用：直接影響系統，法規審查風險較高的場合</span>
+                                <strong>： IOQ （）</strong><br>
+                                 SRA  CDE， IOQ Protocol，QA 、。。<br>
+                                <span class="badge yellow">：，</span>
                             </li>
                             <li>
-                                <strong>模式四：標記法（Marking up）</strong><br>
-                                在工程測試記錄上直接標注哪些測試涵蓋哪個 CDE，或將 CDE 相關測試集中於子章節，供 QA 前後批准。最輕量的整合模式。<br>
-                                <span class="badge orange">適用：商業化廠商設備，測試記錄已相當完整</span>
+                                <strong>：（Marking up）</strong><br>
+                                 CDE， CDE ， QA 。。<br>
+                                <span class="badge orange">：，</span>
                             </li>
                         </ol>
                     </div>
                     <div class="note-box">
-                        <h4>⚠️ 重點提醒</h4>
-                        <p>四種模式並非互斥——同一個專案中，不同系統可採用不同模式。關鍵是在 C&amp;Q Plan 中明確說明選擇哪種模式以及理由。</p>
-                        <p>「整合團隊（integrated team）」的概念貫穿本章：QA 不是在測試完成後才出現的「審判者」，而是從文件生成階段就參與的夥伴。</p>
+                        <h4>⚠️ </h4>
+                        <p>——，。 C&amp;Q Plan 。</p>
+                        <p>「（integrated team）」：QA 「」，。</p>
                     </div>
                 </div>
             </div>
@@ -657,15 +657,15 @@ tr:nth-child(even) { background: #f7faf7; }
                     <p>The <strong>Quality Unit representative</strong> provides oversight to ensure that all CAs/CDEs identified in the System Risk Assessment are tested.</p>
                 </div>
                 <div class="right-column">
-                    <div class="column-header">中文解說 Commentary</div>
+                    <div class="column-header"> Commentary</div>
                     <div class="analogy-box">
-                        <h4>💡 角色彈性：小專案 vs 大專案</h4>
-                        <p>ISPE 特別說明：小型專案中，Testing Coordinator 與 System Owner 可以是同一人。這體現了指南的務實精神——強調職責被履行，而非強制要求人員分設。</p>
-                        <p>在 CDMO 場景中，測試協調員通常由驗證工程師（Validation Engineer）或專案工程師擔任，而 Production User 則由製造部門的製程工程師代表。</p>
+                        <h4>💡 ： vs </h4>
+                        <p>ISPE ：，Testing Coordinator  System Owner 。——，。</p>
+                        <p> CDMO ，（Validation Engineer）， Production User 。</p>
                     </div>
                     <div class="note-box">
-                        <h4>⚠️ 第三方執行測試時的注意事項</h4>
-                        <p>當廠商或第三方執行測試時，必須以書面定義雙方責任範圍（例如：誰簽名、誰見證、誰發現問題由誰負責 CAPA）。這通常寫入合約或測試計劃（Test Plan）的 Roles &amp; Responsibilities 章節中。</p>
+                        <h4>⚠️ </h4>
+                        <p>，（：、、 CAPA）。（Test Plan） Roles &amp; Responsibilities 。</p>
                     </div>
                 </div>
             </div>
@@ -690,10 +690,10 @@ tr:nth-child(even) { background: #f7faf7; }
                     <p>This section describes the activities that should be completed prior to execution of C&amp;Q testing.</p>
                 </div>
                 <div class="right-column">
-                    <div class="column-header">中文解說 Commentary</div>
+                    <div class="column-header"> Commentary</div>
                     <div class="concept-box">
-                        <h4>📋 測試前提條件概覽</h4>
-                        <p>7.2 節涵蓋五項前提條件：計劃（7.2.1）、培訓（7.2.2）、設計審查/設計確認（7.2.3）、廠商文件運用（7.2.4）、變更管理（7.2.5）。這五項缺一不可，任何一項未完成都可能導致測試結果無效或需要重做。</p>
+                        <h4>📋 </h4>
+                        <p>7.2 ：（7.2.1）、（7.2.2）、/（7.2.3）、（7.2.4）、（7.2.5）。，。</p>
                     </div>
                 </div>
             </div>
@@ -720,23 +720,23 @@ tr:nth-child(even) { background: #f7faf7; }
                     <p>See Chapter 6 for details regarding C&amp;Q planning.</p>
                 </div>
                 <div class="right-column">
-                    <div class="column-header">中文解說 Commentary</div>
+                    <div class="column-header"> Commentary</div>
                     <div class="concept-box">
-                        <h4>🎯 「最佳測試策略」的核心邏輯</h4>
-                        <p>計劃階段的目標是設計一套能<strong>最小化重複測試</strong>的策略。關鍵工具是 PDI 和 FAT——在廠商廠房完成的測試，若有適當核准，可以作為現場資格確認的依據，不需要到現場重做。</p>
+                        <h4>🎯 「」</h4>
+                        <p><strong></strong>。 PDI  FAT——，，，。</p>
                     </div>
                     <div class="note-box">
-                        <h4>⚠️ 「不需重複」的前提條件</h4>
-                        <p>PDI/FAT 數據可替代現場測試，必須滿足：</p>
+                        <h4>⚠️ 「」</h4>
+                        <p>PDI/FAT ，：</p>
                         <ol>
-                            <li>測試執行前取得適當批准（appropriate approvals prior to execution）</li>
-                            <li>有書面理由說明：後續作業（如拆解運輸、現場重新組裝）不會影響已測試的功能</li>
+                            <li>（appropriate approvals prior to execution）</li>
+                            <li>：（、）</li>
                         </ol>
-                        <p>若設備拆解出廠，功能性測試通常需要在現場重做。</p>
+                        <p>，。</p>
                     </div>
                     <div class="application-box">
-                        <h4>🏭 CDMO 採購實務應用</h4>
-                        <p>在採購合約中，應明確要求廠商提供 PDI 機會，並列明哪些項目可以在 PDI 期間完成驗證。這能節省現場啟動時間——在廠商廠房發現問題，修復成本遠低於設備到現場後才發現。</p>
+                        <h4>🏭 CDMO </h4>
+                        <p>， PDI ， PDI 。——，。</p>
                     </div>
                 </div>
             </div>
@@ -776,45 +776,45 @@ tr:nth-child(even) { background: #f7faf7; }
                     <p>See Chapter 12 for details regarding change management.</p>
                 </div>
                 <div class="right-column">
-                    <div class="column-header">中文解說 Commentary</div>
+                    <div class="column-header"> Commentary</div>
 
                     <div class="concept-box">
-                        <h4>🎓 7.2.2 培訓要求</h4>
-                        <p>「適當的培訓與經驗」是執行 C&amp;Q 測試的基本前提。培訓範圍包含：</p>
+                        <h4>🎓 7.2.2 </h4>
+                        <p>「」 C&amp;Q 。：</p>
                         <ul>
-                            <li>特定系統的設置與操作（設備相關）</li>
-                            <li>安全事項（safety）</li>
-                            <li>文件標準（documentation standards）</li>
+                            <li>（）</li>
+                            <li>（safety）</li>
+                            <li>（documentation standards）</li>
                         </ul>
-                        <p>在法規稽查中，稽查員常會要求查看「執行測試人員的培訓記錄」。這是基本的文件要求，不可輕忽。</p>
+                        <p>，「」。，。</p>
                     </div>
 
                     <div class="analogy-box">
-                        <h4>💡 7.2.3 DR/DQ 為變更管理的基準點</h4>
-                        <p>DR（Design Review）＝ 設計審查（工程內部）<br>DQ（Design Qualification）＝ 設計確認（品保介入，適用直接影響系統）</p>
-                        <p>批准的設計文件是「基準線（baseline）」——此後所有變更都必須對照這份文件，走工程變更管理（ECM）程序。</p>
-                        <p><strong>快速軌道（Fast Track）風險</strong>：若在設計批准前就開始採購或施工（「at risk」執行），組織必須清楚定義風險由誰承擔，且直接影響系統需 QA 批准。</p>
+                        <h4>💡 7.2.3 DR/DQ </h4>
+                        <p>DR（Design Review）＝ （）<br>DQ（Design Qualification）＝ （，）</p>
+                        <p>「（baseline）」——，（ECM）。</p>
+                        <p><strong>（Fast Track）</strong>：（「at risk」），， QA 。</p>
                     </div>
 
                     <div class="note-box">
-                        <h4>⚠️ 7.2.4 廠商文件的可接受條件</h4>
-                        <p>廠商可以用自己的格式進行並記錄測試，但必須滿足：</p>
+                        <h4>⚠️ 7.2.4 </h4>
+                        <p>，：</p>
                         <ol>
-                            <li>廠商的文件標準是可接受的（需事先評估）</li>
-                            <li>協議/測試計劃在測試開始<strong>前</strong>由業主和廠商雙方審核批准</li>
-                            <li>若必要，QA 也需批准（依 7.1.3 的四種模式判斷）</li>
+                            <li>（）</li>
+                            <li>/<strong></strong></li>
+                            <li>，QA （ 7.1.3 ）</li>
                         </ol>
-                        <p>「事後補簽」是稽查常見缺失，應極力避免。</p>
+                        <p>「」，。</p>
                     </div>
 
                     <div class="concept-box">
-                        <h4>🔄 7.2.5 測試前的變更審查</h4>
-                        <p>執行測試前，必須回顧：</p>
+                        <h4>🔄 7.2.5 </h4>
+                        <p>，：</p>
                         <ul>
-                            <li><strong>系統風險評估（SRA）</strong>：確認 CDE 清單是否有更新</li>
-                            <li><strong>變更管理記錄</strong>：確認實際安裝的系統與測試文件所描述的一致</li>
+                            <li><strong>（SRA）</strong>： CDE </li>
+                            <li><strong></strong>：</li>
                         </ul>
-                        <p>這一步驟防止「測試文件版本落後於實際安裝狀態」的常見問題。</p>
+                        <p>「」。</p>
                     </div>
                 </div>
             </div>
@@ -846,20 +846,20 @@ tr:nth-child(even) { background: #f7faf7; }
                     <p>See Chapter 8 for information on the review and closure of testing documentation.</p>
                 </div>
                 <div class="right-column">
-                    <div class="column-header">中文解說 Commentary</div>
+                    <div class="column-header"> Commentary</div>
                     <div class="concept-box">
-                        <h4>📋 階段轉換的彈性原則</h4>
-                        <p>ISPE 允許在前一階段未完全結束時就進入下一階段（例如：安裝測試有少數未完項目，但可以先開始操作測試），前提是：</p>
+                        <h4>📋 </h4>
+                        <p>ISPE （：，），：</p>
                         <ol>
-                            <li><strong>所有未完項目</strong>必須被記錄並設定完成期限</li>
-                            <li><strong>書面確認</strong>：這些未完項目不會影響後續工作</li>
-                            <li><strong>直接影響系統</strong>：上述確認需 QA 批准</li>
+                            <li><strong></strong></li>
+                            <li><strong></strong>：</li>
+                            <li><strong></strong>： QA </li>
                         </ol>
-                        <p>這體現了 ISPE 的風險基礎思維——不是教條式的「一定要完成才能繼續」，而是「有理由、有文件」地管理風險。</p>
+                        <p> ISPE ——「」，「、」。</p>
                     </div>
                     <div class="note-box">
-                        <h4>⚠️ 「Punch List」管理</h4>
-                        <p>未完成項目通常記錄在「Punch List（缺失清單）」中。CDMO 常見實務：分為「關鍵缺失（Critical）」和「非關鍵缺失（Non-Critical）」兩類——關鍵缺失須在下一階段開始前解決，非關鍵缺失可設定後續完成日期。</p>
+                        <h4>⚠️ 「Punch List」</h4>
+                        <p>「Punch List（）」。CDMO ：「（Critical）」「（Non-Critical）」——，。</p>
                     </div>
                 </div>
             </div>
@@ -924,40 +924,40 @@ tr:nth-child(even) { background: #f7faf7; }
                     <p>System vendors typically have their own format for TOPs, but the owner organization should clearly define a standardized format that aligns with their document control processes. This can help to ensure consistency between the various TOPs that are submitted. The owner organization can propose a standard format or accept the vendor format if it meets internal requirements. The format might be system-based. The format of TOPs should ensure that they are user friendly with tabulated sections. TOPs should be obtained for all operating systems. To facilitate storage, electronic versions of these documents are often required by the owner organization.</p>
                 </div>
                 <div class="right-column">
-                    <div class="column-header">中文解說 Commentary</div>
+                    <div class="column-header"> Commentary</div>
                     <div class="concept-box">
-                        <h4>📦 TOP（移交文件包）是什麼？</h4>
-                        <p>TOP 是系統從承包商/廠商移交給業主時所附帶的完整文件集合。它記錄了系統在移交當下的完整狀態，是系統全生命週期（安裝、操作、維護、變更、除役）的重要參考基礎。</p>
-                        <p>TOP 的核心價值：</p>
+                        <h4>📦 TOP（）？</h4>
+                        <p>TOP /。，（、、、、）。</p>
+                        <p>TOP ：</p>
                         <ul>
-                            <li><strong>驗證基礎</strong>：As-built 圖面是 IQ 的重要依據</li>
-                            <li><strong>維護支援</strong>：備品清單、維護要求讓 PM 部門有所依循</li>
-                            <li><strong>變更管理</strong>：設備更改時，TOP 是基準文件</li>
-                            <li><strong>法規合規</strong>：材料符合性證書（CoC）支持法規申報</li>
+                            <li><strong></strong>：As-built  IQ </li>
+                            <li><strong></strong>：、 PM </li>
+                            <li><strong></strong>：，TOP </li>
+                            <li><strong></strong>：（CoC）</li>
                         </ul>
                     </div>
 
                     <div class="note-box">
-                        <h4>⚠️ 關鍵實務：合約下單前確認 TOP 內容</h4>
-                        <p>原文明確指出：「TOP 內容應在下訂單前清楚確定並由各方同意」。這是非常重要的採購管理原則：</p>
+                        <h4>⚠️ ： TOP </h4>
+                        <p>：「TOP 」。：</p>
                         <ul>
-                            <li>若等到設備快要交貨才要求廠商補充文件，往往面臨廠商不配合、文件不完整或延遲交付的問題</li>
-                            <li>建議：在 RFQ（報價邀請書）中即列出 TOP 文件清單作為合約要求</li>
-                            <li>付款條款可與 TOP 文件完整性掛鉤</li>
+                            <li>，、</li>
+                            <li>： RFQ（） TOP </li>
+                            <li> TOP </li>
                         </ul>
                     </div>
 
                     <div class="analogy-box">
-                        <h4>💡 Loop Calibration（迴路校正）是什麼？</h4>
-                        <p>Loop = 一個完整的量測/控制迴路，例如：溫度感測器 → 傳輸器 → DCS 訊號輸入卡 → 顯示值。</p>
-                        <p>Loop Calibration 驗證的是這整個迴路的準確性，而非只是感測器本身。這對 CDE（如 WFI 系統溫度、高壓滅菌器壓力）尤其重要，因為任何環節的誤差都可能導致製程失控。</p>
+                        <h4>💡 Loop Calibration（）？</h4>
+                        <p>Loop = /，： →  → DCS  → 。</p>
+                        <p>Loop Calibration ，。 CDE（ WFI 、），。</p>
                     </div>
                 </div>
             </div>
         <div class="application-box">
-                        <h4>🏭 TOP 15 項清單：CDMO 採購合約必備</h4>
-                        <p>下表整理 TOP 典型內容，建議列入採購合約的「Document Requirements」章節：</p>
-                        <p><em>注意：原文清單共 13 項條目（部分合併計算），總體涵蓋上述所有面向。</em></p>
+                        <h4>🏭 TOP 15 ：CDMO </h4>
+                        <p> TOP ，「Document Requirements」：</p>
+                        <p><em>： 13 （），。</em></p>
                     </div>
 
                     </div>
@@ -983,10 +983,10 @@ tr:nth-child(even) { background: #f7faf7; }
                     <p>Cleaning of any systems that will be moved into a classified area should be performed to prevent contamination.</p>
                 </div>
                 <div class="right-column">
-                    <div class="column-header">中文解說 Commentary</div>
+                    <div class="column-header"> Commentary</div>
                     <div class="note-box">
-                        <h4>⚠️ 進入潔淨區系統的特別注意</h4>
-                        <p>移入潔淨區的設備，必須事先進行清潔以防止污染——這不只是文件要求，也是防止整個潔淨區受損的預防措施。此要求應反映在「移入程序（Move-in Procedure）」中，並記錄清潔活動。</p>
+                        <h4>⚠️ </h4>
+                        <p>，——，。「（Move-in Procedure）」，。</p>
                     </div>
                 </div>
             </div>
@@ -1041,43 +1041,43 @@ tr:nth-child(even) { background: #f7faf7; }
                     </ul>
                 </div>
                 <div class="right-column">
-                    <div class="column-header">中文解說 Commentary</div>
+                    <div class="column-header"> Commentary</div>
                     <div class="concept-box">
-                        <h4>🏗️ 安裝測試三大範疇</h4>
-                        <p>安裝測試（Installation Testing）覆蓋三個面向，缺一不可：</p>
+                        <h4>🏗️ </h4>
+                        <p>（Installation Testing），：</p>
                         <ul>
-                            <li><strong>機械面（Mechanical）</strong>：管線連接、坡度驗證、壓力測試——確認「裝好了」</li>
-                            <li><strong>施工記錄面（Construction Records）</strong>：建築完成度、焊接記錄、材料符合性——確認「裝得對」</li>
-                            <li><strong>自動化/電氣面（Automation &amp; Electrical）</strong>：軟體、接線、警報、資料完整性——確認「控制系統正確」</li>
+                            <li><strong>（Mechanical）</strong>：、、——「」</li>
+                            <li><strong>（Construction Records）</strong>：、、——「」</li>
+                            <li><strong>/（Automation &amp; Electrical）</strong>：、、、——「」</li>
                         </ul>
                     </div>
 
                     <div class="note-box">
-                        <h4>⚠️ 自動化 10 項清單重點解析</h4>
+                        <h4>⚠️  10 </h4>
                         <ul>
-                            <li><strong>軟體版本與備份</strong>：必須記錄版本號並建立備份，這是 GAMP 5 的基本要求</li>
-                            <li><strong>Hard-wired alarm and interlock testing</strong>：硬接線警報（如超溫切斷）必須獨立於軟體測試，確認即使 PLC 故障也能動作</li>
-                            <li><strong>Power/Communication loss and recovery</strong>：停電或通訊中斷後的系統恢復行為，是製藥設備的關鍵安全測試</li>
-                            <li><strong>資料完整性 &amp; 稽核追蹤（Audit Trail）</strong>：FDA/EMA 法規重點，任何人工輸入或系統事件都必須有不可篡改的記錄</li>
+                            <li><strong></strong>：， GAMP 5 </li>
+                            <li><strong>Hard-wired alarm and interlock testing</strong>：（）， PLC </li>
+                            <li><strong>Power/Communication loss and recovery</strong>：，</li>
+                            <li><strong> &amp; （Audit Trail）</strong>：FDA/EMA ，</li>
                         </ul>
                     </div>
 
                     <div class="analogy-box">
-                        <h4>💡 Audit Trail（稽核追蹤）是什麼？</h4>
-                        <p>Audit Trail 是系統自動記錄的操作日誌，例如：「2026-01-15 14:32, 操作員 A 將溫度設定值從 121°C 改為 123°C」。</p>
-                        <p>FDA 21 CFR Part 11 與 EMA Annex 11 都要求：</p>
+                        <h4>💡 Audit Trail（）？</h4>
+                        <p>Audit Trail ，：「2026-01-15 14:32,  A  121°C  123°C」。</p>
+                        <p>FDA 21 CFR Part 11  EMA Annex 11 ：</p>
                         <ul>
-                            <li>記錄不可刪除或修改（只能新增，不能覆蓋）</li>
-                            <li>記錄應包含：時間戳記、使用者 ID、舊值、新值、變更原因（若有）</li>
-                            <li>測試時必須驗證 Audit Trail 功能正確運作且防止篡改</li>
+                            <li>（，）</li>
+                            <li>：、 ID、、、（）</li>
+                            <li> Audit Trail </li>
                         </ul>
                     </div>
 
                     </div>
             </div>
         <div class="application-box">
-                        <h4>🏭 FAT vs SAT vs Commissioning vs Qualification 的關係</h4>
-                        <p>安裝測試可以整合在一份文件中，也可以分散於各階段——由 C&amp;Q Plan 決定。</p>
+                        <h4>🏭 FAT vs SAT vs Commissioning vs Qualification </h4>
+                        <p>，—— C&amp;Q Plan 。</p>
                     </div>
                 </div>
     </div>
@@ -1100,38 +1100,38 @@ tr:nth-child(even) { background: #f7faf7; }
                     <p><span class="key-term">PDIs</span> are construction checks (inspection and testing) of systems or major system components before delivery to the owner site. These are typically done to verify construction progress and quality standards and to ensure delivery as scheduled. PDIs include inspection of parts (e.g., <em>baffles in a heating jacket</em>) that would not be able to be inspected during FAT or where a FAT cannot be performed for the system. This allows for remedy of any failings and avoids the delays to schedule (and associated costs) that would result from discovering problems later on-site.</p>
                 </div>
                 <div class="right-column">
-                    <div class="column-header">中文解說 Commentary</div>
+                    <div class="column-header"> Commentary</div>
                     <div class="concept-box">
-                        <h4>🔍 PDI（交貨前檢查）：為什麼要去廠商工廠？</h4>
-                        <p>PDI 的核心邏輯是：<strong>「在問題最容易解決的地方發現問題」</strong>。</p>
-                        <p>在廠商廠房發現缺陷：</p>
+                        <h4>🔍 PDI（）：？</h4>
+                        <p>PDI ：<strong>「」</strong>。</p>
+                        <p>：</p>
                         <ul>
-                            <li>修復成本低（廠商設備、工具、人員齊全）</li>
-                            <li>不影響現場施工進度</li>
-                            <li>可以檢查「交貨後就看不到」的隱藏部件（如加熱夾套內的擋板）</li>
+                            <li>（、、）</li>
+                            <li></li>
+                            <li>「」（）</li>
                         </ul>
-                        <p>等設備到現場才發現問題：</p>
+                        <p>：</p>
                         <ul>
-                            <li>可能需要拆機返廠（高成本）</li>
-                            <li>佔用現場空間與進度</li>
-                            <li>可能拖延整個廠房啟動計劃</li>
+                            <li>（）</li>
+                            <li></li>
+                            <li></li>
                         </ul>
                     </div>
 
                     <div class="analogy-box">
-                        <h4>💡 比喻：PDI 像汽車出廠前的「出廠檢驗」</h4>
-                        <p>就像汽車在離開組裝線前進行全車品質檢驗，PDI 讓業主有機會在「設備出廠前」確認品質。差別在於：製藥設備往往是定製品，廠商不會庫存同型號備品，一旦出廠後發現問題，修復時間和成本都遠高於汽車行業。</p>
+                        <h4>💡 ：PDI 「」</h4>
+                        <p>，PDI 「」。：，，，。</p>
                     </div>
 
                     <div class="practice-box">
-                        <h4>🤔 思考題：PDI 的價值何時最高？</h4>
-                        <p>以下哪種情況最值得安排 PDI？</p>
+                        <h4>🤔 ：PDI ？</h4>
+                        <p> PDI？</p>
                         <ol>
-                            <li>採購一台現成的蠕動泵（off-the-shelf peristaltic pump）</li>
-                            <li>訂製一套 10,000L WFI 蒸餾水機（multi-column still，需定製設計）</li>
-                            <li>採購標準 316L 不鏽鋼管件和閥門</li>
+                            <li>（off-the-shelf peristaltic pump）</li>
+                            <li> 10,000L WFI （multi-column still，）</li>
+                            <li> 316L </li>
                         </ol>
-                        <p><em>答案：情況 2 最值得安排 PDI。定製複雜設備的製造偏差風險高，且交貨後發現問題的修復成本極高。標準現成品（情況 1、3）風險相對低，PDI 的邊際效益較小。</em></p>
+                        <p><em>： 2  PDI。，。（ 1、3），PDI 。</em></p>
                     </div>
                 </div>
             </div>
@@ -1142,16 +1142,16 @@ tr:nth-child(even) { background: #f7faf7; }
          SECTION SUMMARY
     ========================================================== -->
     <div class="section-summary" id="summary">
-        <h3>本節摘要 Section Summary (Chapter 7, Part 1: pp. 49–56)</h3>
+        <h3> Section Summary (Chapter 7, Part 1: pp. 49–56)</h3>
         <ul>
-            <li><strong>C&amp;Q 測試定義</strong>：從設計到系統驗收的完整測試過程，涵蓋靜態測試（文件審查）與動態測試（實際運作），並以整合系統的方式進行（機械+電氣+自動化）。</li>
-            <li><strong>七大測試原則</strong>：工程驅動、預定義文件標準、培訓、見證要求預定義、廠商評估、變更管理、偏差管理程序預定義。</li>
-            <li><strong>Table 7.1 &amp; 7.2</strong>：提供不同系統類型（高壓滅菌器、HVAC、凍乾機、秤量器、WFI）所需測試/檢查文件組合的參考選項——靈活選擇，重要的是在 C&amp;Q Plan 中預先定義。</li>
-            <li><strong>QU 監督四種模式</strong>：程序預核、C&amp;Q Plan 批准+摘要報告審核、IOQ 協議前後審批、標記法整合工程記錄——依系統風險與組織能力靈活選用。</li>
-            <li><strong>C&amp;Q 團隊四角色</strong>：測試協調員（進度管理）、生產使用者（系統所有人）、技術專家（SME 支援）、品保代表（CDE 確認監督）。</li>
-            <li><strong>測試前提條件</strong>：計劃先行（PDI/FAT 策略）、培訓完成、DR/DQ 批准、廠商文件策略確認、SRA 和變更記錄審查——五項缺一不可。</li>
-            <li><strong>TOP 移交文件包</strong>：系統生命週期基礎文件，13 類典型內容應在合約下訂前確認；Loop Calibration 文件是 CDE 驗證的重要支持。</li>
-            <li><strong>PDI（交貨前檢查）</strong>：在廠商廠房提前發現問題，可避免現場啟動延誤和高額修復成本；尤其對定製複雜設備（如 WFI 系統）效益最高。</li>
+            <li><strong>C&amp;Q </strong>：，（）（），（++）。</li>
+            <li><strong></strong>：、、、、、、。</li>
+            <li><strong>Table 7.1 &amp; 7.2</strong>：（、HVAC、、、WFI）/——， C&amp;Q Plan 。</li>
+            <li><strong>QU </strong>：、C&amp;Q Plan +、IOQ 、——。</li>
+            <li><strong>C&amp;Q </strong>：（）、（）、（SME ）、（CDE ）。</li>
+            <li><strong></strong>：（PDI/FAT ）、、DR/DQ 、、SRA ——。</li>
+            <li><strong>TOP </strong>：，13 ；Loop Calibration  CDE 。</li>
+            <li><strong>PDI（）</strong>：，；（ WFI ）。</li>
         </ul>
     </div>
 
@@ -1159,7 +1159,7 @@ tr:nth-child(even) { background: #f7faf7; }
 
 <!-- FOOTER -->
 <!-- BACK TO TOP -->
-<button class="back-to-top" id="backToTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="回到頂端">↑</button>
+<button class="back-to-top" id="backToTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="">↑</button>
 
 <script>
 // Back to top button visibility

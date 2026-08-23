@@ -438,7 +438,7 @@ body {
     font-size: 0.92rem !important;
 }
 
-/* ===== ANALOGY BOX (Yellow) - 比喻說明 ===== */
+/* ===== ANALOGY BOX (Yellow) -  ===== */
 .analogy-box,
 .concept-box[class*="analogy"],
 .concept-box.analogy,
@@ -452,7 +452,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #856404 !important;
 }
 
-/* ===== TERM/CONCEPT BOX (Green) - 核心概念 ===== */
+/* ===== TERM/CONCEPT BOX (Green) -  ===== */
 .term-box,
 .key-term-box,
 .concept-box:not([class*="analogy"]):not([class*="note"]):not([class*="formula"]):not([class*="practice"]):not([class*="highlight"]):not(.analogy):not(.application) {
@@ -467,7 +467,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #2e7d32 !important;
 }
 
-/* ===== NOTE/HIGHLIGHT BOX (Orange) - 重點提示 ===== */
+/* ===== NOTE/HIGHLIGHT BOX (Orange) -  ===== */
 .note-box,
 .key-note,
 .key-point-box,
@@ -486,7 +486,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #c65102 !important;
 }
 
-/* ===== FORMULA BOX (Purple) - 公式計算 ===== */
+/* ===== FORMULA BOX (Purple) -  ===== */
 .formula-box,
 .concept-box[class*="formula"] {
     background: var(--purple-bg) !important;
@@ -521,7 +521,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #1565c0 !important;
 }
 
-/* ===== PRACTICE BOX (Blue dashed) - 練習思考 ===== */
+/* ===== PRACTICE BOX (Blue dashed) -  ===== */
 .practice-box {
     background: linear-gradient(135deg, #e8f4fd 0%, #d1e9ff 100%) !important;
     border: 2px dashed #3182ce !important;
@@ -931,7 +931,7 @@ tr:nth-child(even) {
 
 <div class="header">
     <h1>Sections 1–2: Introduction &amp; Glossary</h1>
-    <div class="subtitle">導論與術語表</div>
+    <div class="subtitle"></div>
     <div class="page-info">PDA Technical Report No. 62 (2013) | p1–p5</div>
 </div>
 
@@ -939,13 +939,13 @@ tr:nth-child(even) {
 
     <!-- Learning Objectives -->
     <div class="learning-objectives">
-        <h3>本章學習目標</h3>
+        <h3></h3>
         <ul>
-            <li>能夠定義 Manual Aseptic Processing (MAP) 的範疇，並說明其與自動化無菌製程的核心差異。</li>
-            <li>能夠識別 MAP 的三大獨特風險：操作人員績效變異性、長時間間隔後的 performance drift，以及個別操作人員的資格認證要求。</li>
-            <li>能夠列舉 TR62 適用的作業類型（疫苗製備、細胞培養、基因治療、IND/IMP 製造、藥局調配等）及其排除範圍。</li>
-            <li>能夠對應四個主要法規依據（FDA 2004 Aseptic Guidance、EU GMP Annex 1、Ph Eur 5.1.1、USP &lt;797&gt; 與 &lt;823&gt;）各自的適用情境。</li>
-            <li>能夠正確翻譯並解釋 Section 2.0 術語表中的關鍵術語，包括 APA、APS、RABS、UDAF、isolator、intervention 等。</li>
+            <li> Manual Aseptic Processing (MAP) ，。</li>
+            <li> MAP ：、 performance drift，。</li>
+            <li> TR62 （、、、IND/IMP 、）。</li>
+            <li>（FDA 2004 Aseptic Guidance、EU GMP Annex 1、Ph Eur 5.1.1、USP &lt;797&gt;  &lt;823&gt;）。</li>
+            <li> Section 2.0 ， APA、APS、RABS、UDAF、isolator、intervention 。</li>
         </ul>
     </div>
 
@@ -992,69 +992,69 @@ tr:nth-child(even) {
 
         <!-- RIGHT: Chinese Commentary on Section 1.0 -->
         <div class="right-column">
-            <h2>第一節解析：導論</h2>
+            <h2>：</h2>
 
             <!-- Concept Box: What is MAP -->
             <div class="concept-box">
-                <h4>核心概念：何謂 Manual Aseptic Processing (MAP)？</h4>
-                <p><strong>MAP（手動無菌製程）</strong>是指由人工操作員執行全部或部分無菌製程步驟的製造作業，包含至少容器或封蓋的移動。部分半自動化設備可能參與其中，但整體製程並非完全自動化。</p>
-                <p><strong>與自動化製程的核心差異：</strong></p>
+                <h4>： Manual Aseptic Processing (MAP)？</h4>
+                <p><strong>MAP（）</strong>，。，。</p>
+                <p><strong>：</strong></p>
                 <ul>
-                    <li>自動化製程：機器執行關鍵操作，人員干預較少，製程重現性高</li>
-                    <li>MAP：人員是製程的主要執行者，績效高度依賴個人技術與訓練</li>
-                    <li>MAP 的污染主要來源是操作人員本身及其行為</li>
+                    <li>：，，</li>
+                    <li>MAP：，</li>
+                    <li>MAP </li>
                 </ul>
-                <p>TR62 第 1.1 節的精神：MAP 不只是「自動化製程的簡化版」，而是具有完全不同的風險特徵與評估需求的獨立類別。</p>
+                <p>TR62  1.1 ：MAP 「」，。</p>
             </div>
 
             <!-- Analogy Box -->
             <div class="analogy-box">
-                <h4>比喻：手術刀 vs 手術機器人</h4>
-                <p>將 MAP 與自動化無菌製程的差異，比擬為心臟外科手術中「外科醫師親手操刀」與「達文西機器人輔助手術」的區別：</p>
+                <h4>： vs </h4>
+                <p> MAP ，「」「」：</p>
                 <ul>
-                    <li><strong>機器人手術（自動化製程）：</strong>動作精準一致、不受疲勞影響、每次重現性高</li>
-                    <li><strong>親手操刀（MAP）：</strong>需要更高超的個人技術、更嚴格的訓練認證、結果受操作者當日狀態影響</li>
-                    <li>即使是同一位外科醫師，在連續長時間手術後與剛開始時的精準度也可能不同——這正是 TR62 所指的 <strong>performance drift（績效漂移）</strong></li>
+                    <li><strong>（）：</strong>、、</li>
+                    <li><strong>（MAP）：</strong>、、</li>
+                    <li>，—— TR62  <strong>performance drift（）</strong></li>
                 </ul>
-                <p>這也是為什麼 MAP 需要比自動化製程更嚴謹的個別人員資格認證（individual operator qualification）。</p>
+                <p> MAP （individual operator qualification）。</p>
             </div>
 
             <!-- Note Box: MAP Unique Risks -->
             <div class="note-box">
-                <h4>重點提示：MAP 獨有的三大風險</h4>
+                <h4>：MAP </h4>
                 <ol>
-                    <li><strong>操作人員績效變異性（Operator Performance Variability）：</strong>不同操作員的無菌技術水準各異，無法假設其績效一致。TR62 要求每位操作員必須個別完成資格認證（individually qualified）。</li>
-                    <li><strong>績效漂移（Performance Drift）：</strong>即使是合格操作員，若兩次無菌操作之間的間隔時間過長，其技術熟練度可能下滑。這在低頻率生產（如 IND 臨床試驗批次）中尤為顯著。</li>
-                    <li><strong>複雜性與疲勞效應：</strong>任務複雜度越高、操作持續時間越長、操作速率越快，操作失誤風險越高。</li>
+                    <li><strong>（Operator Performance Variability）：</strong>，。TR62 （individually qualified）。</li>
+                    <li><strong>（Performance Drift）：</strong>，，。（ IND ）。</li>
+                    <li><strong>：</strong>、、，。</li>
                 </ol>
-                <p>這三點決定了 APS（Aseptic Process Simulation，無菌製程模擬）的設計必須充分涵蓋這些人為因素。</p>
+                <p> APS（Aseptic Process Simulation，）。</p>
             </div>
 
             <!-- Regulatory Context Box -->
             <!-- Application Box: CDMO Context -->
             <div class="concept-box application">
-                <h4>應用情境：CDMO 提供 MAP 服務時，TR62 要求建立什麼？</h4>
-                <p>當一家 CDMO 為客戶提供<strong>手動無菌灌裝臨床批次</strong>或小量特殊產品時，在啟動生產前，TR62 要求其建立：</p>
+                <h4>：CDMO  MAP ，TR62 ？</h4>
+                <p> CDMO <strong></strong>，，TR62 ：</p>
                 <ul>
-                    <li><strong>個別操作員資格認證計畫：</strong>每位可執行 MAP 的操作員須完成初始 APS（media fill）認證，取得書面資格紀錄</li>
-                    <li><strong>再認證頻率計畫：</strong>定義操作間隔時間上限，超過則需重新認證以避免 performance drift</li>
-                    <li><strong>環境監控計畫：</strong>符合 ISO 5 的作業環境，具備微粒與微生物監控程序</li>
-                    <li><strong>人員訓練紀錄：</strong>無菌技術訓練（aseptic technique）、更衣資格（gowning qualification）</li>
-                    <li><strong>最差情況 APS 設計：</strong>模擬實際生產中最困難的 MAP 操作條件（worst case）</li>
+                    <li><strong>：</strong> MAP  APS（media fill），</li>
+                    <li><strong>：</strong>， performance drift</li>
+                    <li><strong>：</strong> ISO 5 ，</li>
+                    <li><strong>：</strong>（aseptic technique）、（gowning qualification）</li>
+                    <li><strong> APS ：</strong> MAP （worst case）</li>
                 </ul>
             </div>
 
             <!-- Scope Exclusion Note -->
             <div class="note-box">
-                <h4>範圍排除：TR62 不涵蓋哪些情況？</h4>
-                <p>TR62 <strong>明確排除</strong>以下情境——即在自動化灌裝線上偶發的、短暫的人工介入：</p>
+                <h4>：TR62 ？</h4>
+                <p>TR62 <strong></strong>——、：</p>
                 <ul>
-                    <li>伸手取出倒下的玻璃瓶（reach-in to remove toppled vial）</li>
-                    <li>取容器進行灌裝重量確認（fill-weight check）</li>
-                    <li>設備設定時的無菌連接（aseptic connections during set-up）</li>
-                    <li>線路停機時的修正操作</li>
+                    <li>（reach-in to remove toppled vial）</li>
+                    <li>（fill-weight check）</li>
+                    <li>（aseptic connections during set-up）</li>
+                    <li></li>
                 </ul>
-                <p>上述操作應納入<strong>自動化製程本身的 APS</strong>（如 TR22 所述）。TR62 的對象是「製程本身就是手動的」情況，而非「自動化製程中偶爾需要人工介入」的情況。</p>
+                <p><strong> APS</strong>（ TR22 ）。TR62 「」，「」。</p>
             </div>
         </div>
     </div>
@@ -1071,47 +1071,47 @@ tr:nth-child(even) {
 
         <!-- RIGHT: Chinese Commentary on Section 2.0 -->
         <div class="right-column">
-            <h2>第二節解析：術語表中文導讀</h2>
+            <h2>：</h2>
 
             <!-- Key Terms Translation Table -->
             <!-- Note Box: ISO Classification Clarification -->
             <div class="note-box">
-                <h4>重點提示：ISO 潔淨室分級對照</h4>
-                <p>術語表列出了三個 ISO 分級，與 MAP 作業直接相關：</p>
+                <h4>：ISO </h4>
+                <p> ISO ， MAP ：</p>
                 <ul>
-                    <li><strong>ISO 5（≈ Grade A / Class 100）：</strong>MAP 關鍵操作的<strong>最低要求</strong>環境，需提供單向氣流（UDAF）保護。所有暴露於無菌物料的操作均須在此執行。</li>
-                    <li><strong>ISO 7（≈ Grade B / Class 10,000）：</strong>通常作為 ISO 5 區域的支援背景環境（background environment），人員更衣室常設計為此等級。</li>
-                    <li><strong>ISO 8（≈ Grade C/D / Class 100,000）：</strong>一般用於準備區或較低風險的非關鍵操作區域。</li>
+                    <li><strong>ISO 5（≈ Grade A / Class 100）：</strong>MAP <strong></strong>，（UDAF）。。</li>
+                    <li><strong>ISO 7（≈ Grade B / Class 10,000）：</strong> ISO 5 （background environment），。</li>
+                    <li><strong>ISO 8（≈ Grade C/D / Class 100,000）：</strong>。</li>
                 </ul>
             </div>
 
             <!-- Practice Questions -->
             <div class="practice-box">
-                <h4>練習思考題</h4>
+                <h4></h4>
                 <ol>
                     <li>
-                        <strong>題目一（範圍辨別）：</strong>某無菌灌裝線上，操作員在自動化線正常運轉中伸手取出一個倒下的玻璃瓶，此操作是否屬於 TR62 的適用範圍？請說明理由，並指出應依照哪份指引處理此干預。
-                        <br><em>（提示：TR62 第 1.0 節有明確的排除聲明；自動化製程的干預應參考 TR22）</em>
+                        <strong>（）：</strong>，， TR62 ？，。
+                        <br><em>（：TR62  1.0 ； TR22）</em>
                     </li>
                     <li>
-                        <strong>題目二（風險識別）：</strong>某 CDMO 每半年只生產一批 IND 臨床試驗產品（MAP 手動灌裝）。試分析此情境中 performance drift 的具體風險，並說明 TR62 會建議採取什麼措施來管控此風險。
-                        <br><em>（提示：考慮操作間隔時間與 APS 再認證頻率的關係）</em>
+                        <strong>（）：</strong> CDMO  IND （MAP ）。 performance drift ， TR62 。
+                        <br><em>（： APS ）</em>
                     </li>
                     <li>
-                        <strong>題目三（法規適用）：</strong>一家醫院藥局藥師手動配製供靜脈注射的抗生素溶液，此操作適用哪些法規文件？若同一藥師配製的是 PET 放射性顯影劑，適用法規有何不同？
-                        <br><em>（提示：USP &lt;797&gt; vs USP &lt;823&gt;，以及 FDA 2004 Aseptic Guidance 的通用性）</em>
+                        <strong>（）：</strong>，？ PET ，？
+                        <br><em>（：USP &lt;797&gt; vs USP &lt;823&gt;， FDA 2004 Aseptic Guidance ）</em>
                     </li>
                 </ol>
             </div>
 
             <!-- Analogy: APS vs Final Exam -->
             <div class="analogy-box">
-                <h4>比喻：APS 如同外科醫師的執照考試</h4>
-                <p>MAP 操作員需個別通過 APS（media fill）認證，才能從事無菌製程操作——這類似於外科醫師必須通過執照考試才能獨立執刀。</p>
+                <h4>：APS </h4>
+                <p>MAP  APS（media fill），——。</p>
                 <ul>
-                    <li><strong>初次認證（Initial Qualification）：</strong>如同取得醫師執照——操作員首次完成 APS，證明具備基本無菌技術能力</li>
-                    <li><strong>再認證（Requalification）：</strong>如同醫師的繼續教育學分——確保操作員維持技術水準，避免 performance drift</li>
-                    <li><strong>最差情況設計（Worst Case APS）：</strong>如同考試中包含最難的臨床情境——確保操作員能應對實際生產中最具挑戰性的操作</li>
+                    <li><strong>（Initial Qualification）：</strong>—— APS，</li>
+                    <li><strong>（Requalification）：</strong>——， performance drift</li>
+                    <li><strong>（Worst Case APS）：</strong>——</li>
                 </ul>
             </div>
         </div>
@@ -1119,19 +1119,19 @@ tr:nth-child(even) {
 
     <!-- Section Summary -->
     <div style="background: white; border-radius: 10px; padding: 1.5rem; box-shadow: 0 2px 8px rgba(0,0,0,0.07); margin-bottom: 1.5rem;">
-        <h3 style="color: var(--primary-blue); margin-bottom: 1rem; font-size: 1.05rem; border-bottom: 2px solid #e2e8f0; padding-bottom: 0.5rem;">本章重點摘要</h3>
+        <h3 style="color: var(--primary-blue); margin-bottom: 1rem; font-size: 1.05rem; border-bottom: 2px solid #e2e8f0; padding-bottom: 0.5rem;"></h3>
         <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1rem;">
             <div style="background: #e8f5e9; border-radius: 8px; padding: 1rem; border-left: 4px solid #4caf50;">
-                <div style="font-weight: 600; color: #2e7d32; margin-bottom: 0.4rem; font-size: 0.9rem;">MAP 的本質</div>
-                <div style="font-size: 0.88rem; color: #333;">人員是執行主體，也是主要污染來源。無法以機器的標準要求人員，因此需要特別的評估框架。</div>
+                <div style="font-weight: 600; color: #2e7d32; margin-bottom: 0.4rem; font-size: 0.9rem;">MAP </div>
+                <div style="font-size: 0.88rem; color: #333;">，。，。</div>
             </div>
             <div style="background: #fff3e0; border-radius: 8px; padding: 1rem; border-left: 4px solid #ff9800;">
-                <div style="font-weight: 600; color: #c65102; margin-bottom: 0.4rem; font-size: 0.9rem;">核心挑戰</div>
-                <div style="font-size: 0.88rem; color: #333;">Performance drift + 個別差異 + 操作複雜性，三者疊加使得 MAP 的 APS 設計遠比自動化製程複雜。</div>
+                <div style="font-weight: 600; color: #c65102; margin-bottom: 0.4rem; font-size: 0.9rem;"></div>
+                <div style="font-size: 0.88rem; color: #333;">Performance drift +  + ， MAP  APS 。</div>
             </div>
             <div style="background: #e3f2fd; border-radius: 8px; padding: 1rem; border-left: 4px solid #1976d2;">
-                <div style="font-weight: 600; color: #1565c0; margin-bottom: 0.4rem; font-size: 0.9rem;">法規基礎</div>
-                <div style="font-size: 0.88rem; color: #333;">FDA + Annex 1 + USP &lt;797&gt;/&lt;823&gt; 共同構成 MAP 的法規基礎，TR62 作為補充性指南將這些要求具體化。</div>
+                <div style="font-weight: 600; color: #1565c0; margin-bottom: 0.4rem; font-size: 0.9rem;"></div>
+                <div style="font-size: 0.88rem; color: #333;">FDA + Annex 1 + USP &lt;797&gt;/&lt;823&gt;  MAP ，TR62 。</div>
             </div>
         </div>
     </div>

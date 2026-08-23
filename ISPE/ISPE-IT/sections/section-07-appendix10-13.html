@@ -439,7 +439,7 @@ body {
     font-size: 0.92rem !important;
 }
 
-/* ===== ANALOGY BOX (Yellow) - 比喻說明 ===== */
+/* ===== ANALOGY BOX (Yellow) -  ===== */
 .analogy-box,
 .concept-box[class*="analogy"],
 .concept-box.analogy,
@@ -453,7 +453,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #856404 !important;
 }
 
-/* ===== TERM/CONCEPT BOX (Green) - 核心概念 ===== */
+/* ===== TERM/CONCEPT BOX (Green) -  ===== */
 .term-box,
 .key-term-box,
 .concept-box:not([class*="analogy"]):not([class*="note"]):not([class*="formula"]):not([class*="practice"]):not([class*="highlight"]):not(.analogy):not(.application) {
@@ -468,7 +468,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #2e7d32 !important;
 }
 
-/* ===== NOTE/HIGHLIGHT BOX (Orange) - 重點提示 ===== */
+/* ===== NOTE/HIGHLIGHT BOX (Orange) -  ===== */
 .note-box,
 .key-note,
 .key-point-box,
@@ -487,7 +487,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #c65102 !important;
 }
 
-/* ===== FORMULA BOX (Purple) - 公式計算 ===== */
+/* ===== FORMULA BOX (Purple) -  ===== */
 .formula-box,
 .concept-box[class*="formula"] {
     background: var(--purple-bg) !important;
@@ -522,7 +522,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #1565c0 !important;
 }
 
-/* ===== PRACTICE BOX (Blue dashed) - 練習思考 ===== */
+/* ===== PRACTICE BOX (Blue dashed) -  ===== */
 .practice-box {
     background: linear-gradient(135deg, #e8f4fd 0%, #d1e9ff 100%) !important;
     border: 2px dashed #3182ce !important;
@@ -933,21 +933,21 @@ tr:nth-child(even) {
 <!-- SECTION HEADER -->
 <div class="header">
     <h1>Appendices 10–13: Client Management, Network Management, Glossary &amp; References</h1>
-    <div class="subtitle">附錄十至十三：用戶端管理、網路管理、術語表與參考文獻</div>
+    <div class="subtitle">：、、</div>
     <div class="page-info">ISPE GAMP Good Practice Guide: IT Infrastructure Control and Compliance | App. 10–13 (p106–p126)</div>
 </div>
 
 <!-- LEARNING OBJECTIVES -->
 <div class="main-content">
 <div class="learning-objectives">
-    <h3>本章學習目標</h3>
+    <h3></h3>
     <ul>
-        <li>區分三種用戶端類型（非限制／限制／受控），理解 GxP 環境為何需要「受控 PC」</li>
-        <li>了解標準化映像檔部署如何降低資格確認負擔，同時確保一致性</li>
-        <li>掌握網路運作中心（NOC）的職責與 SLA 監控機制</li>
-        <li>認識 SNMP、Syslog、RMON 三種網路協議的功能及 GxP 合規應用</li>
-        <li>熟悉 App. 12 術語表中的關鍵概念區分：評估 vs. 稽核、資格確認 vs. 驗證</li>
-        <li>了解本指南核心參考文獻的層次：GAMP 4 為基礎，PIC/S 與 ISO 17799 為安全基準</li>
+        <li>（／／）， GxP 「 PC」</li>
+        <li>，</li>
+        <li>（NOC） SLA </li>
+        <li> SNMP、Syslog、RMON  GxP </li>
+        <li> App. 12 ： vs. 、 vs. </li>
+        <li>：GAMP 4 ，PIC/S  ISO 17799 </li>
     </ul>
 </div>
 
@@ -955,30 +955,30 @@ tr:nth-child(even) {
 <!-- APPENDIX 10: CLIENT MANAGEMENT -->
 <!-- ============================================================ -->
 
-<div class="section-title">Appendix 10 — Client Management（用戶端管理）</div>
+<div class="section-title">Appendix 10 — Client Management（）</div>
 
 <!-- App 10 Section 1: Client Types -->
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text — App. 10 §1 Client Types</h2>
+        <h2> Original Text — App. 10 §1 Client Types</h2>
         <p>Personal Computers (PCs) in the form of stationary PC units, laptops, or 'hand-helds' are used by companies in a variety of roles with distinctly different <span class="key-term">risk profiles</span> depending upon their use. Those that are connected to the company's network may be prepared and maintained according to a set of client types, e.g., <span class="key-term">unrestricted</span>, <span class="key-term">restricted</span>, or <span class="key-term">controlled</span> as described in Section 5 of this Guide.</p>
         <p>As part of the client preparation process, companies may choose to prepare and verify <span class="key-term">installation scripts</span>, or use an <span class="key-term">image-generating tool</span>, which mirrors an image of a released software configuration onto PCs.</p>
     </div>
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
         <div class="concept-box">
-            <h4>核心概念：三種用戶端類型</h4>
-            <p><strong>Unrestricted PC（非限制型）：</strong>使用者可自由安裝軟體、修改設定。適用於一般行政辦公場景，風險較低。</p>
-            <p><strong>Restricted PC（限制型）：</strong>限制部分操作，例如不允許安裝未核准軟體。適用於非直接 GxP 環境。</p>
-            <p><strong>Controlled PC（受控型）：</strong>完全鎖定——使用者無法修改設定、安裝任何軟體。GxP 應用通常要求此類型，因為必須保證資料完整性，符合 21 CFR Part 11 的電子記錄要求。</p>
+            <h4>：</h4>
+            <p><strong>Unrestricted PC（）：</strong>、。，。</p>
+            <p><strong>Restricted PC（）：</strong>，。 GxP 。</p>
+            <p><strong>Controlled PC（）：</strong>——、。GxP ，， 21 CFR Part 11 。</p>
         </div>
         <div class="note-box">
-            <h4>重點提示 — 為何 GxP 要求受控 PC？</h4>
-            <p>21 CFR Part 11 要求電子記錄不能被未授權方式修改。若使用者能自行更改 PC 設定或安裝非核准軟體，就無法保證資料的準確性與可追溯性。「受控 PC」等同於在電子記錄鏈中插入了一道防火牆。</p>
+            <h4> —  GxP  PC？</h4>
+            <p>21 CFR Part 11 。 PC ，。「 PC」。</p>
         </div>
         <div class="analogy-box">
-            <h4>比喻說明</h4>
-            <p>想像醫院手術室（受控）vs. 護理站（限制）vs. 行政辦公室（非限制）。進入手術室的設備必須完全符合規範，任何未經授權的器械都不得帶入——GxP PC 也一樣。</p>
+            <h4></h4>
+            <p>（）vs. （）vs. （）。，——GxP PC 。</p>
         </div>
     </div>
 </div>
@@ -986,7 +986,7 @@ tr:nth-child(even) {
 <!-- App 10 Section 2: Client Management Responsibilities -->
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text — App. 10 §2 Client Management</h2>
+        <h2> Original Text — App. 10 §2 Client Management</h2>
         <p>The <span class="key-term">Client Management group</span> or designated individual maintains the expertise and resources required to provide adequate client management services to the company. Some of the main responsibilities of the unit are:</p>
         <ul>
             <li>to acquire formal approval by QA and management representatives of significant changes</li>
@@ -1012,25 +1012,25 @@ tr:nth-child(even) {
         </ul>
     </div>
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
         <div class="concept-box">
-            <h4>核心概念：用戶端管理群組的雙重職責</h4>
-            <p>Client Management Group 同時扮演兩個角色：</p>
+            <h4>：</h4>
+            <p>Client Management Group ：</p>
             <ul>
-                <li><strong>技術維運角色</strong>：安裝、測試、修補漏洞、防毒掃描</li>
-                <li><strong>合規角色</strong>：取得 QA 核准、執行變更控制、維護文件</li>
+                <li><strong></strong>：、、、</li>
+                <li><strong></strong>： QA 、、</li>
             </ul>
-            <p>這兩個職責的結合，使其成為 IT GxP 合規架構中的關鍵節點。</p>
+            <p>， IT GxP 。</p>
         </div>
         <div class="note-box">
-            <h4>重點提示 — 系統時間管理</h4>
-            <p>列表中看似平凡的一項——「管理系統時間」——在 GxP 環境極為重要。電子記錄的時間戳記必須準確，否則批次記錄的時序無法被稽核員信任。若 PC 時鐘偏移，可能使整批次記錄受質疑。</p>
+            <h4> — </h4>
+            <p>——「」—— GxP 。，。 PC ，。</p>
         </div>
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>若一台受控 PC 上的使用者自行安裝了未核准的辦公軟體，哪些 GxP 風險會被觸發？</li>
-                <li>Client Management Group 在執行安全性修補程式前，為何需要先取得 QA 核准？</li>
+                <li> PC ， GxP ？</li>
+                <li>Client Management Group ， QA ？</li>
             </ol>
         </div>
     </div>
@@ -1039,7 +1039,7 @@ tr:nth-child(even) {
 <!-- App 10 Sections 3–5: PC Platforms, OS, User Modifications -->
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text — App. 10 §3–5 Platforms &amp; User Modifications</h2>
+        <h2> Original Text — App. 10 §3–5 Platforms &amp; User Modifications</h2>
         <h3>3 PC Platforms</h3>
         <p>PCs should possess enough computing power and connectivity to run the client software and other software that is required by the applications. The company will usually have some basic requirements for specific hardware as a result of long term commercial agreements with specific suppliers. Care should be taken to ensure that the chosen PC brands conform to standards for protection against <span class="key-term">Radio Frequency Interference (RFI)</span> and <span class="key-term">Electromagnetic Compatibility (EMC)</span> and other applicable codes.</p>
 
@@ -1057,24 +1057,24 @@ tr:nth-child(even) {
         <p>PCs running <span class="key-term">thin client</span> software are less prone to causing data modifications or availability problems, e.g., when using Web-based client technology.</p>
     </div>
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
         <div class="concept-box">
-            <h4>核心概念：OS 組態的三類參數</h4>
-            <p>這三類劃分也適用於伺服器，是 Configuration Management（組態管理）的基礎框架：</p>
+            <h4>：OS </h4>
+            <p>， Configuration Management（）：</p>
             <ul>
-                <li><strong>預設不變參數</strong>：廠商設定，維持原狀</li>
-                <li><strong>調整型參數</strong>：為公司需求修改，需記錄原始值與修改原因</li>
-                <li><strong>空白待填參數</strong>：公司必須主動填入，否則系統無法運作</li>
+                <li><strong></strong>：，</li>
+                <li><strong></strong>：，</li>
+                <li><strong></strong>：，</li>
             </ul>
-            <p>每次變更任何一類，都必須透過正式變更控制流程。</p>
+            <p>，。</p>
         </div>
         <div class="analogy-box">
-            <h4>比喻說明 — Thick vs. Thin Client</h4>
-            <p><strong>Thick Client（厚用戶端）</strong>像是自帶廚房的餐廳包廂——食材、烹調都在現場，改動容易影響整體。<strong>Thin Client（薄用戶端）</strong>像是只有桌椅的外賣取餐點——核心處理全在廚房（伺服器端），本地端幾乎沒有可動手腳的地方，GxP 風險自然較低。</p>
+            <h4> — Thick vs. Thin Client</h4>
+            <p><strong>Thick Client（）</strong>——、，。<strong>Thin Client（）</strong>——（），，GxP 。</p>
         </div>
         <div class="note-box">
-            <h4>重點提示 — EMC/RFI 在製藥廠的重要性</h4>
-            <p>製藥廠的生產環境中往往有大型馬達、高頻設備，會產生電磁干擾。未符合 EMC 標準的 PC 可能出現資料錯誤或系統當機，直接影響批次記錄完整性。</p>
+            <h4> — EMC/RFI </h4>
+            <p>、，。 EMC  PC ，。</p>
         </div>
     </div>
 </div>
@@ -1082,7 +1082,7 @@ tr:nth-child(even) {
 <!-- App 10 Sections 6–7: Images & Patch Management -->
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text — App. 10 §6–7 Images &amp; Patch Management</h2>
+        <h2> Original Text — App. 10 §6–7 Images &amp; Patch Management</h2>
         <h3>6 Images or Installation Scripts</h3>
         <p>Client management often includes the creation and maintenance of <span class="key-term">images</span> or <span class="key-term">standard installation scripts</span> or both. This ensures easier management of client preparation processes and demonstration of control.</p>
         <p>Besides the operating system and standard office packages, an image could include the company's most used client software rendering subsequent requests for installations unnecessary. This approach would improve reinstallation time, but require more time supporting the image, and although user accounts would not be created on a default basis, security policies could be violated.</p>
@@ -1093,26 +1093,26 @@ tr:nth-child(even) {
         <p>Besides test requirements, security patch information from the supplier should be made available to the organization. This will ensure awareness of the process and allow owners of critical business applications outside the scope of the PC management group to conduct tests before rollout (see Appendix 6 of this Guide).</p>
     </div>
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
         <div class="concept-box">
-            <h4>核心概念：映像檔部署的合規優勢</h4>
-            <p><strong>映像檔（Image）</strong>是一個已經通過測試的完整系統快照。部署到新 PC 時，每台電腦的起始狀態完全一致，大幅降低「每台 PC 都需要個別資格確認」的工作量。這就是「<strong>資格確認重用（Qualification Reuse）</strong>」的概念——同一份 IQ/OQ 記錄，可以涵蓋所有由同一映像檔建立的 PC。</p>
+            <h4>：</h4>
+            <p><strong>（Image）</strong>。 PC ，，「 PC 」。「<strong>（Qualification Reuse）</strong>」—— IQ/OQ ， PC。</p>
         </div>
         <div class="note-box">
-            <h4>重點提示 — 修補程式管理的 GxP 風險</h4>
-            <p>安全修補程式有時會改變系統行為，導致已驗證的 GxP 應用程式出現問題。正確的流程是：<br>
-            <strong>測試實驗室驗證</strong> → <strong>試點部署</strong> → <strong>全面推送</strong><br>
-            跳過任何步驟都可能讓已驗證系統的狀態失效（out of validated state），需要啟動重新驗證程序。</p>
+            <h4> —  GxP </h4>
+            <p>， GxP 。：<br>
+            <strong></strong> → <strong></strong> → <strong></strong><br>
+            （out of validated state），。</p>
         </div>
         <div class="analogy-box">
-            <h4>比喻說明 — 映像檔 vs. 逐台安裝</h4>
-            <p>映像檔部署就像連鎖餐廳的中央廚房出品——所有分店的醬汁配方完全一致，品質可預期。逐台手動安裝則像每家分店各自熬製醬汁——難以保證一致性，稽核時也說不清楚「哪台 PC 安裝了什麼」。</p>
+            <h4> —  vs. </h4>
+            <p>——，。——，「 PC 」。</p>
         </div>
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>一個已核准的映像檔，如果加入了新軟體，需要經過哪些步驟才能再次發布使用？</li>
-                <li>為什麼安全修補程式需要在「不影響生產的環境」中先行試點，而不能直接推送？</li>
+                <li>，，？</li>
+                <li>「」，？</li>
             </ol>
         </div>
     </div>
@@ -1122,12 +1122,12 @@ tr:nth-child(even) {
 <!-- APPENDIX 11: NETWORK MANAGEMENT -->
 <!-- ============================================================ -->
 
-<div class="section-title">Appendix 11 — Network Management（網路管理）</div>
+<div class="section-title">Appendix 11 — Network Management（）</div>
 
 <!-- App 11 Sections 1–3: Introduction, Goal, Network Management -->
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text — App. 11 §1–3 Introduction &amp; Goal</h2>
+        <h2> Original Text — App. 11 §1–3 Introduction &amp; Goal</h2>
         <h3>1 Introduction</h3>
         <p>The current dominating network technology is based on internet standards, including the protocols: <span class="key-term">Internet Protocol (IP)</span> and <span class="key-term">Transmission Control Protocol (TCP)</span>. Consequently, this Appendix focuses on providing recommendations based on those standards.</p>
         <p>All quantitative measures provided in this Appendix are derived from actual situations and are meant to assist companies, and not to prescribe certain absolutes.</p>
@@ -1160,23 +1160,23 @@ tr:nth-child(even) {
         </ul>
     </div>
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
         <div class="concept-box">
-            <h4>核心概念：網路管理的兩大階段</h4>
-            <p>本節將網路管理活動清楚分為兩個階段：</p>
+            <h4>：</h4>
+            <p>：</p>
             <ul>
-                <li><strong>佈建與安裝（Provisioning）</strong>：一次性的規劃、設計、安裝工作</li>
-                <li><strong>運維（Operations）</strong>：持續性的日常管理，由 NOC 主導</li>
+                <li><strong>（Provisioning）</strong>：、、</li>
+                <li><strong>（Operations）</strong>：， NOC </li>
             </ul>
-            <p>從 GxP 合規角度，「運維」階段是最關鍵的——因為它關係到系統是否持續處於受控狀態（maintained in a controlled state）。</p>
+            <p> GxP ，「」——（maintained in a controlled state）。</p>
         </div>
         <div class="note-box">
-            <h4>重點提示 — 量化指標僅供參考</h4>
-            <p>本附錄特別聲明：所提供的數值來自實際案例，僅作指導，並非強制標準。公司應依據自身業務規模、網路架構與 GxP 風險評估，制定適合自己的 SLA 指標。</p>
+            <h4> — </h4>
+            <p>：，，。、 GxP ， SLA 。</p>
         </div>
         <div class="analogy-box">
-            <h4>比喻說明 — NOC 的角色</h4>
-            <p>NOC（網路運作中心）就像機場的塔台管制中心——所有飛機（資料封包）的起降（傳輸）都在監控範圍內，任何異常立即通報，確保飛行安全（系統可用性）不中斷。</p>
+            <h4> — NOC </h4>
+            <p>NOC（）——（）（），，（）。</p>
         </div>
     </div>
 </div>
@@ -1184,7 +1184,7 @@ tr:nth-child(even) {
 <!-- App 11 Sections 4–5: Provisioning & NOC -->
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text — App. 11 §4–5 Provisioning &amp; NOC</h2>
+        <h2> Original Text — App. 11 §4–5 Provisioning &amp; NOC</h2>
         <h3>4 Network Provisioning and Installation</h3>
         <p>Network provisioning involves the following tasks:</p>
         <ul>
@@ -1207,27 +1207,27 @@ tr:nth-child(even) {
         </ul>
     </div>
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
         <div class="concept-box">
-            <h4>核心概念：NOC 的六大核心職能</h4>
+            <h4>：NOC </h4>
             <ul>
-                <li><strong>監控（Monitoring）</strong>：即時掌握網路狀態</li>
-                <li><strong>記錄分析（Log Analysis）</strong>：Syslog 匯集，追蹤異常</li>
-                <li><strong>組態備份（Config Backup）</strong>：所有設備設定均有備份與變更紀錄</li>
-                <li><strong>KPI 報告（Reporting）</strong>：定期提供 SLA 達成率給管理層</li>
-                <li><strong>安全存取控制（Access Control）</strong>：追蹤所有網路存取</li>
-                <li><strong>故障恢復（Fault Recovery）</strong>：快速復原服務，降低停機時間</li>
+                <li><strong>（Monitoring）</strong>：</li>
+                <li><strong>（Log Analysis）</strong>：Syslog ，</li>
+                <li><strong>（Config Backup）</strong>：</li>
+                <li><strong>KPI （Reporting）</strong>： SLA </li>
+                <li><strong>（Access Control）</strong>：</li>
+                <li><strong>（Fault Recovery）</strong>：，</li>
             </ul>
         </div>
         <div class="note-box">
-            <h4>重點提示 — GxP 角度下的組態備份</h4>
-            <p>「具備所有網路設備的最新組態備份，以及所有組態變更的文件化追蹤」——這句話直接對應 GxP 的組態管理要求。稽核員可能會要求查看：某台路由器去年何時做了什麼設定變更、由誰核准、備份在哪裡。NOC 若無法回答，即視為合規缺陷。</p>
+            <h4> — GxP </h4>
+            <p>「，」—— GxP 。：、、。NOC ，。</p>
         </div>
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>NOC 的 SLA 報告應包含哪些關鍵指標才能讓 QA 滿意？</li>
-                <li>若一台核心網路交換機的組態遭到未授權修改，NOC 應如何察覺並回應？</li>
+                <li>NOC  SLA  QA ？</li>
+                <li>，NOC ？</li>
             </ol>
         </div>
     </div>
@@ -1236,7 +1236,7 @@ tr:nth-child(even) {
 <!-- App 11 Section 6: Common Protocols -->
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text — App. 11 §6 Common Network Protocols</h2>
+        <h2> Original Text — App. 11 §6 Common Network Protocols</h2>
         <h3>6.1 Simple Network Management Protocol (SNMP/RFC1157)</h3>
         <p>Network management system contains two primary elements:</p>
         <ol>
@@ -1257,36 +1257,36 @@ tr:nth-child(even) {
         <p>RMON also appears as a software capability that is added to the software of certain network equipment, as well as software applications that could run on servers or clients. Despite the variety of these approaches, the RMON capability serves as a dedicated network management resource available for activities ranging from long-term data collection and analysis or for ad-hoc fire fighting.</p>
     </div>
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
         <div class="concept-box">
-            <h4>核心概念：三大網路協議速覽</h4>
-            <p><strong>SNMP（簡單網路管理協議）</strong>：主動查詢設備狀態。Manager 向 Agents 發出查詢，取得路由器、交換機等設備的運行參數（CPU 使用率、錯誤計數等）。設備異常時，Agent 主動發出「Trap（警報）」通知 Manager。</p>
-            <p><strong>Syslog（系統日誌協議）</strong>：被動收集事件訊息。各設備將自身的事件日誌傳送至中央 Syslog 伺服器，管理員可一站式查閱所有設備的異常記錄。</p>
-            <p><strong>RMON（遠端監控）</strong>：針對網路流量本身的深度分析。可部署至每個網路區段，長期收集封包層級的統計資料，用於趨勢分析與問題排查。</p>
+            <h4>：</h4>
+            <p><strong>SNMP（）</strong>：。Manager  Agents ，、（CPU 、）。，Agent 「Trap（）」 Manager。</p>
+            <p><strong>Syslog（）</strong>：。 Syslog ，。</p>
+            <p><strong>RMON（）</strong>：。，，。</p>
         </div>
         <div class="formula-box">
-            <h4>三種協議的功能比較</h4>
+            <h4></h4>
             <pre>
-SNMP   → 設備狀態管理（Manager ↔ Agent）
-         主動查詢 + Trap 警報
+SNMP   → （Manager ↔ Agent）
+          + Trap 
          RFC 1157
 
-Syslog → 事件日誌傳輸（設備 → Syslog Server）
-         被動彙集，集中儲存
+Syslog → （ → Syslog Server）
+         ，
          RFC 3164
 
-RMON   → 網路流量分析（Probe → 分析平台）
-         每段網路一個探針
+RMON   → （Probe → ）
+         
          RFC 1757
             </pre>
         </div>
         <div class="note-box">
-            <h4>重點提示 — GxP 合規中的協議選擇</h4>
-            <p>在 GxP 網路環境中，Syslog 最直接支援審計追蹤（Audit Trail）需求——所有網路事件均有時間戳記並集中儲存，供稽核員查閱。SNMP 則支援 SLA 監控所需的即時效能資料。RMON 適合在懷疑有網路效能問題時進行深度調查。</p>
+            <h4> — GxP </h4>
+            <p> GxP ，Syslog （Audit Trail）——，。SNMP  SLA 。RMON 。</p>
         </div>
         <div class="analogy-box">
-            <h4>比喻說明</h4>
-            <p>SNMP 像是護士定時量血壓（主動檢查設備）；Syslog 像是病房的事件記錄本（任何異常自動寫入）；RMON 像是心電圖機（持續記錄細部波形，供需要時回放分析）。</p>
+            <h4></h4>
+            <p>SNMP （）；Syslog （）；RMON （，）。</p>
         </div>
     </div>
 </div>
@@ -1294,7 +1294,7 @@ RMON   → 網路流量分析（Probe → 分析平台）
 <!-- App 11 Section 7: Network Performance Metrics -->
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text — App. 11 §7 Network Performance Metrics</h2>
+        <h2> Original Text — App. 11 §7 Network Performance Metrics</h2>
         <p>Table A11.1 represents actual settings for a network segment and may be used as guidance for a company to decide on its own metrics and limits.</p>
 
         <div style="overflow-x:auto;">
@@ -1302,38 +1302,38 @@ RMON   → 網路流量分析（Probe → 分析平台）
         <p>A monitoring frequency of one to four times a month should be considered; in larger organizations, monitoring would be automated and run almost continuously.</p>
     </div>
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
         <div class="concept-box">
-            <h4>核心概念：Alert vs. Action 雙層門檻</h4>
-            <p>表格採用兩層門檻設計：</p>
+            <h4>：Alert vs. Action </h4>
+            <p>：</p>
             <ul>
-                <li><strong>Alert Limit（警示限）</strong>：超過此值需記錄並持續觀察，但不一定立即介入</li>
-                <li><strong>Action Limit（行動限）</strong>：超過此值必須立即採取矯正措施</li>
+                <li><strong>Alert Limit（）</strong>：，</li>
+                <li><strong>Action Limit（）</strong>：</li>
             </ul>
-            <p>這與 GxP 製程監控中的「警戒限／行動限」概念完全一致，是品質管理思維在 IT 基礎設施層面的延伸。</p>
+            <p> GxP 「／」， IT 。</p>
         </div>
         <div class="note-box">
-            <h4>重點提示 — 遺失封包（Discards）在 GxP 的意涵</h4>
-            <p>網路封包遺失不只是效能問題——在 GxP 環境中，若資料傳輸過程中有封包遺失，可能導致電子記錄不完整或時序錯亂。行動限 &gt;0.5% 看起來很小，但在高頻資料採集的場景（如批次製程監控）中，0.5% 的遺失率已可能導致資料缺口。</p>
+            <h4> — （Discards） GxP </h4>
+            <p>—— GxP ，，。 &gt;0.5% ，（），0.5% 。</p>
         </div>
         <div class="formula-box">
-            <h4>監控頻率建議</h4>
+            <h4></h4>
             <pre>
-小型組織：每月 1–4 次人工檢查
-大型組織：自動化持續監控（接近即時）
+： 1–4 
+：（）
 
-建議配置：
-  SNMP polling  → 每 5 分鐘
-  Syslog        → 即時收集
-  RMON 報告     → 每日/每週彙總
-  SLA 報告      → 每月提交管理層
+：
+  SNMP polling  →  5 
+  Syslog        → 
+  RMON      → /
+  SLA       → 
             </pre>
         </div>
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>若 Switch CPU-load 連續三天超過 Alert Limit（&gt;50%），你應採取哪些步驟？</li>
-                <li>如何向非技術背景的 QA 主管解釋「封包遺失率」與資料完整性的關聯？</li>
+                <li> Switch CPU-load  Alert Limit（&gt;50%），？</li>
+                <li> QA 「」？</li>
             </ol>
         </div>
     </div>
@@ -1343,35 +1343,35 @@ RMON   → 網路流量分析（Probe → 分析平台）
 <!-- APPENDIX 12: GLOSSARY -->
 <!-- ============================================================ -->
 
-<div class="section-title">Appendix 12 — Glossary（術語表）</div>
+<div class="section-title">Appendix 12 — Glossary（）</div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text — App. 12 §1 Definitions</h2>
+        <h2> Original Text — App. 12 §1 Definitions</h2>
 
         </div>
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
         <div class="concept-box">
-            <h4>核心概念：三組容易混淆的術語</h4>
-            <p><strong>Assessment（評估）vs. Audit（稽核）</strong><br>
-            最關鍵的差異在於「獨立性」：評估可由內部主題專家執行（不要求獨立）；稽核必須是系統性、獨立且有文件的。一個部門不能稽核自己——但可以自我評估。</p>
-            <p><strong>Qualification（資格確認）vs. Validation（驗證）</strong><br>
-            資格確認針對「設備/系統能否達到預期功能」；驗證針對「製程能否持續生產符合規格的產品」。資格確認（IQ/OQ/PQ）通常是驗證的前提條件。</p>
-            <p><strong>Building Block（建構組件）vs. Computerized System（電腦化系統）</strong><br>
-            Building Block 是以「最大化重用」為目的設計的標準化組件群；Computerized System 是滿足特定使用者需求的整體系統。路由器、交換機等標準基礎設施組件不被視為 Computerized System，因此其合規要求較輕。</p>
+            <h4>：</h4>
+            <p><strong>Assessment（）vs. Audit（）</strong><br>
+            「」：（）；、。——。</p>
+            <p><strong>Qualification（）vs. Validation（）</strong><br>
+            「/」；「」。（IQ/OQ/PQ）。</p>
+            <p><strong>Building Block（）vs. Computerized System（）</strong><br>
+            Building Block 「」；Computerized System 。、 Computerized System，。</p>
         </div>
         <div class="note-box">
-            <h4>重點提示 — Periodic Review（定期審查）</h4>
-            <p>定期審查的頻率取決於三個因素：複雜性、關鍵性、變更率。GxP 應用系統通常每年執行一次；基礎設施系統可能每兩年一次。審查的目的是確認系統仍處於「已驗證狀態（validated state）」，若發現偏離，必須啟動再驗證。</p>
+            <h4> — Periodic Review（）</h4>
+            <p>：、、。GxP ；。「（validated state）」，，。</p>
         </div>
         <div class="note-box">
-            <h4>重點提示 — Privileged Access（特權存取）</h4>
-            <p>特權存取（系統管理員帳號）在 GxP 系統中屬於高風險控制點。任何特權存取操作都應被記錄、核准，並納入定期審查。21 CFR Part 11 要求審計追蹤包括「誰」在「何時」做了「什麼」——特權帳號的操作記錄尤為重要。</p>
+            <h4> — Privileged Access（）</h4>
+            <p>（） GxP 。、，。21 CFR Part 11 「」「」「」——。</p>
         </div>
         <div class="analogy-box">
-            <h4>比喻說明 — Assessment vs. Audit</h4>
-            <p>評估（Assessment）就像主廚試吃自己餐廳的菜色後記錄改善點；稽核（Audit）就像米其林評審匿名前來，依據標準作客觀評判——前者可以自己做，後者必須來自外部或獨立的人。</p>
+            <h4> — Assessment vs. Audit</h4>
+            <p>（Assessment）；（Audit），——，。</p>
         </div>
     </div>
 </div>
@@ -1379,32 +1379,32 @@ RMON   → 網路流量分析（Probe → 分析平台）
 <!-- App 12 Section 2: Acronyms -->
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text — App. 12 §2 Acronyms and Abbreviations</h2>
+        <h2> Original Text — App. 12 §2 Acronyms and Abbreviations</h2>
         <div style="overflow-x:auto;">
             </div>
     </div>
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
         <div class="concept-box">
-            <h4>核心概念：縮寫背後的重要性分層</h4>
-            <p>這份縮寫表反映了本指南所涉及的多個合規層面，幾個值得特別注意的縮寫：</p>
+            <h4>：</h4>
+            <p>，：</p>
             <ul>
-                <li><strong>CSV（電腦化系統驗證）</strong>：整份指南存在的根本原因，確保電腦化系統符合 GxP 要求</li>
-                <li><strong>IQ / OQ / PQ</strong>：資格確認三階段，任何 GxP 系統上線前的必經程序</li>
-                <li><strong>CAPA</strong>：矯正預防措施，偏差發生後的正式回應機制</li>
-                <li><strong>IDS</strong>：入侵偵測系統，資安控制的重要組件</li>
-                <li><strong>UPS</strong>：不斷電系統，GxP 系統可用性保障的硬體基礎</li>
+                <li><strong>CSV（）</strong>：， GxP </li>
+                <li><strong>IQ / OQ / PQ</strong>：， GxP </li>
+                <li><strong>CAPA</strong>：，</li>
+                <li><strong>IDS</strong>：，</li>
+                <li><strong>UPS</strong>：，GxP </li>
             </ul>
         </div>
         <div class="note-box">
-            <h4>重點提示 — GxP 中的 x</h4>
-            <p>GxP 中的「x」代表 Clinical（臨床）、Distribution（配銷）、Laboratory（實驗室）、Manufacturing（製造）四個領域。作為 CDMO，你的作業橫跨 GMP（製造）與 GLP（實驗室），因此 IT 系統必須同時符合兩者的要求。</p>
+            <h4> — GxP  x</h4>
+            <p>GxP 「x」 Clinical（）、Distribution（）、Laboratory（）、Manufacturing（）。 CDMO， GMP（） GLP（）， IT 。</p>
         </div>
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>一個 LIMS 系統同時屬於哪幾個縮寫所代表的範疇（CSV、GxP Application、Computerized System）？</li>
-                <li>UPS 在 GxP 資料完整性框架中扮演什麼角色？</li>
+                <li> LIMS （CSV、GxP Application、Computerized System）？</li>
+                <li>UPS  GxP ？</li>
             </ol>
         </div>
     </div>
@@ -1414,11 +1414,11 @@ RMON   → 網路流量分析（Probe → 分析平台）
 <!-- APPENDIX 13: REFERENCES -->
 <!-- ============================================================ -->
 
-<div class="section-title">Appendix 13 — References（參考文獻）</div>
+<div class="section-title">Appendix 13 — References（）</div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text — App. 13 References</h2>
+        <h2> Original Text — App. 13 References</h2>
         <ol>
             <li><span class="key-term">GAMP 4</span>, GAMP Guide for Validation of Automated Systems, ISPE (Publishers), 2001.</li>
             <li>GAMP Good Practice Guide: A Risk-Based Approach to Compliant Electronic Records and Signatures, ISPE (Publishers), 2005.</li>
@@ -1440,41 +1440,41 @@ RMON   → 網路流量分析（Probe → 分析平台）
         </ol>
     </div>
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
         <div class="concept-box">
-            <h4>核心概念：文獻層次架構</h4>
-            <p>這17份參考文獻可以依重要性分為三層：</p>
-            <p><strong>第一層：製藥行業 GxP 核心文件</strong></p>
+            <h4>：</h4>
+            <p>17：</p>
+            <p><strong>： GxP </strong></p>
             <ul>
-                <li><strong>GAMP 4（文獻1）</strong>：整份 ISPE GAMP IT 指南的基礎。所有 IT 系統驗證策略均源於此。即使 GAMP 5 已發布，GAMP 4 仍是本指南寫作時的規範性引用。</li>
-                <li><strong>PIC/S PI011-2（文獻4）</strong>：製藥監管機構（如 FDA、EU、TGA）接受的電腦化系統 GxP 最佳實務指引，對 CDMO 出口客戶市場的合規尤為重要。</li>
-                <li><strong>GAMP 電子記錄指南（文獻2）</strong>：21 CFR Part 11 合規的具體操作指引。</li>
+                <li><strong>GAMP 4（1）</strong>： ISPE GAMP IT 。 IT 。 GAMP 5 ，GAMP 4 。</li>
+                <li><strong>PIC/S PI011-2（4）</strong>：（ FDA、EU、TGA） GxP ， CDMO 。</li>
+                <li><strong>GAMP （2）</strong>：21 CFR Part 11 。</li>
             </ul>
-            <p><strong>第二層：資安與組態管理標準</strong></p>
+            <p><strong>：</strong></p>
             <ul>
-                <li><strong>ISO/IEC 17799:2000（文獻6）</strong>：資訊安全管理的國際基準（現已升版為 ISO/IEC 27002）。GxP 系統的資安控制措施通常參照此標準。</li>
-                <li><strong>ISO 10007:2003（文獻5）</strong>：組態管理指引，本指南多次提及的 Configuration Management 實踐依據。</li>
-                <li><strong>NIST SP 800-30（文獻12）</strong>：IT 風險管理的量化框架，提供風險評估方法論。</li>
+                <li><strong>ISO/IEC 17799:2000（6）</strong>：（ ISO/IEC 27002）。GxP 。</li>
+                <li><strong>ISO 10007:2003（5）</strong>：， Configuration Management 。</li>
+                <li><strong>NIST SP 800-30（12）</strong>：IT ，。</li>
             </ul>
-            <p><strong>第三層：基礎設施技術標準</strong></p>
+            <p><strong>：</strong></p>
             <ul>
-                <li><strong>ISO/IEC 11801（文獻9）</strong>：網路佈線標準，附錄10提到的網路認證依據。</li>
-                <li><strong>ITIL（文獻13）</strong>：IT 服務管理的最佳實務框架，NOC 運作模式的參考。</li>
+                <li><strong>ISO/IEC 11801（9）</strong>：，10。</li>
+                <li><strong>ITIL（13）</strong>：IT ，NOC 。</li>
             </ul>
         </div>
         <div class="note-box">
-            <h4>重點提示 — GAMP 4 vs. GAMP 5</h4>
-            <p>本指南（ISPE GAMP IT Infrastructure）出版時引用 GAMP 4。GAMP 5 於 2008 年發布，引入了更強的風險評估導向。若今日在 CDMO 執行 IT 系統驗證，應同時參考 GAMP 5 的方法論，但本指南的框架仍然適用——兩者並不衝突。</p>
+            <h4> — GAMP 4 vs. GAMP 5</h4>
+            <p>（ISPE GAMP IT Infrastructure） GAMP 4。GAMP 5  2008 ，。 CDMO  IT ， GAMP 5 ，——。</p>
         </div>
         <div class="analogy-box">
-            <h4>比喻說明 — 參考文獻的層次</h4>
-            <p>GAMP 4 就像無菌製造的基礎法規（Annex 1）；PIC/S PI011-2 就像官方查廠指引；ISO 17799 就像資安版的 ISO 9000——它們共同構成一個互相支撐的合規框架，缺少任一層都會讓整體架構不完整。</p>
+            <h4> — </h4>
+            <p>GAMP 4 （Annex 1）；PIC/S PI011-2 ；ISO 17799  ISO 9000——，。</p>
         </div>
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>若你的 CDMO 正接受 FDA 查廠，稽核員問及電腦化系統的安全控制依據，你應引用哪幾份文獻？</li>
-                <li>ISO/IEC 17799 與 NIST SP 800-30 在 IT 風險管理中各負責哪個面向？</li>
+                <li> CDMO  FDA ，，？</li>
+                <li>ISO/IEC 17799  NIST SP 800-30  IT ？</li>
             </ol>
         </div>
     </div>
@@ -1482,12 +1482,12 @@ RMON   → 網路流量分析（Probe → 分析平台）
 
 <!-- SECTION SUMMARY -->
 <div class="learning-objectives" style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);">
-    <h3>本節重點回顧 Section Summary</h3>
+    <h3> Section Summary</h3>
     <ul>
-        <li><strong>附錄 10</strong>：三種 PC 類型（非限制／限制／受控）決定合規控制程度；GxP 應用需要受控 PC；映像檔部署是降低資格確認負擔的關鍵策略；修補程式必須先在測試環境驗證再推送。</li>
-        <li><strong>附錄 11</strong>：NOC 是網路 GxP 合規的運維核心，負責 SLA 監控、安全存取控制、組態備份與故障恢復；SNMP 管理設備狀態、Syslog 彙集事件日誌、RMON 分析流量深度資料。</li>
-        <li><strong>附錄 12</strong>：關鍵術語區分——評估（可由內部執行）vs. 稽核（必須獨立）；資格確認（IQ/OQ/PQ，針對設備能力）vs. 驗證（針對製程一致性）；Building Block 的設計目標是最大化重用。</li>
-        <li><strong>附錄 13</strong>：GAMP 4 是整份指南的基礎性文件；PIC/S PI011-2 是監管機構認可的電腦化系統 GxP 指引；ISO/IEC 17799 是資訊安全管理基準；NIST SP 800-30 提供 IT 風險評估方法論。</li>
+        <li><strong> 10</strong>： PC （／／）；GxP  PC；；。</li>
+        <li><strong> 11</strong>：NOC  GxP ， SLA 、、；SNMP 、Syslog 、RMON 。</li>
+        <li><strong> 12</strong>：——（）vs. （）；（IQ/OQ/PQ，）vs. （）；Building Block 。</li>
+        <li><strong> 13</strong>：GAMP 4 ；PIC/S PI011-2  GxP ；ISO/IEC 17799 ；NIST SP 800-30  IT 。</li>
     </ul>
 </div>
 

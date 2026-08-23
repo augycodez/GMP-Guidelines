@@ -439,7 +439,7 @@ body {
     font-size: 0.92rem !important;
 }
 
-/* ===== ANALOGY BOX (Yellow) - 比喻說明 ===== */
+/* ===== ANALOGY BOX (Yellow) -  ===== */
 .analogy-box,
 .concept-box[class*="analogy"],
 .concept-box.analogy,
@@ -453,7 +453,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #856404 !important;
 }
 
-/* ===== TERM/CONCEPT BOX (Green) - 核心概念 ===== */
+/* ===== TERM/CONCEPT BOX (Green) -  ===== */
 .term-box,
 .key-term-box,
 .concept-box:not([class*="analogy"]):not([class*="note"]):not([class*="formula"]):not([class*="practice"]):not([class*="highlight"]):not(.analogy):not(.application) {
@@ -468,7 +468,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #2e7d32 !important;
 }
 
-/* ===== NOTE/HIGHLIGHT BOX (Orange) - 重點提示 ===== */
+/* ===== NOTE/HIGHLIGHT BOX (Orange) -  ===== */
 .note-box,
 .key-note,
 .key-point-box,
@@ -487,7 +487,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #c65102 !important;
 }
 
-/* ===== FORMULA BOX (Purple) - 公式計算 ===== */
+/* ===== FORMULA BOX (Purple) -  ===== */
 .formula-box,
 .concept-box[class*="formula"] {
     background: var(--purple-bg) !important;
@@ -522,7 +522,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #1565c0 !important;
 }
 
-/* ===== PRACTICE BOX (Blue dashed) - 練習思考 ===== */
+/* ===== PRACTICE BOX (Blue dashed) -  ===== */
 .practice-box {
     background: linear-gradient(135deg, #e8f4fd 0%, #d1e9ff 100%) !important;
     border: 2px dashed #3182ce !important;
@@ -1186,18 +1186,18 @@ tr:nth-child(even) {
 
     <!-- ===== LEARNING OBJECTIVES ===== -->
     <div class="learning-objectives">
-        <h3>學習目標 Learning Objectives</h3>
+        <h3> Learning Objectives</h3>
         <ol>
-            <li>列舉 TR13 所定義的 16 項環境監控先決條件，並說明各條件在 EM 程序啟動前的必要性與角色分工。</li>
-            <li>說明培養基選擇的原則：SCDM/TSA 作為廣效基礎培養基的依據、中和劑的使用時機，以及 SDA 或厭氧培養基的輔助條件。</li>
-            <li>理解雙溫培養策略（30–35°C / 20–25°C）的科學基礎與行業調查結論，並能比較不同培育方案的敏感度差異。</li>
-            <li>掌握 8.0 參考文獻的架構分類：PDA 技術報告群、國際法規指引、ISO 標準及各國藥典，作為 EM 知識體系溯源的依據。</li>
+            <li> TR13  16 ， EM 。</li>
+            <li>：SCDM/TSA 、， SDA 。</li>
+            <li>（30–35°C / 20–25°C），。</li>
+            <li> 8.0 ：PDA 、、ISO ， EM 。</li>
         </ol>
     </div>
 
     <!-- ===== TOC ===== -->
     <div class="toc">
-        <h3>本頁內容索引 Contents</h3>
+        <h3> Contents</h3>
         <div class="toc-grid">
             <a href="#sec-70">7.0 Prerequisites Overview</a>
             <a href="#sec-71">7.1 Facility Design</a>
@@ -1292,32 +1292,32 @@ tr:nth-child(even) {
             </div>
         </div>
         <div class="right-column">
-            <h2>解讀與應用</h2>
-            <h3>為什麼先決條件如此重要？</h3>
-            <p>環境監控不是「裝好設備就開始採樣」這麼簡單。TR13 明確列出 16 項前提作業，強調 EM 程序必須建立在完整的設施驗證、培養基資格確認、人員訓練等基礎之上，方能確保監控數據具有科學意義。</p>
+            <h2></h2>
+            <h3>？</h3>
+            <p>「」。TR13  16 ， EM 、、，。</p>
 
             <div class="analogy-box">
-                <h4>比喻：蓋房子的地基</h4>
-                <p>16 項先決條件就如同蓋房子的地基工程。若地基不穩（如培養基未通過 GPT、採樣設備未校正、分析員訓練不足），後續的 EM 數據猶如建在沙上的建物——表面上有數據，但無法代表真實的環境狀況，更無法通過查廠審查。</p>
+                <h4>：</h4>
+                <p>16 。（ GPT、、）， EM ——，，。</p>
             </div>
 
-            <h3>色碼分類解讀</h3>
-            <p>16 項先決條件可依性質分為四類：</p>
+            <h3></h3>
+            <p>16 ：</p>
             <ul>
-                <li><strong style="color:#b71c1c;">設施基礎（紅）</strong>：廠房設計、HVAC IQ/OQ、HEPA 驗證、氣流量測、PQ（第 1、10、11、14、15、16 項）</li>
-                <li><strong style="color:#e65100;">培養基與菌株（橘）</strong>：供應商稽核、培養基選擇/放行/保存期、菌種選擇與維護（第 2–7 項）</li>
-                <li><strong style="color:#2e7d32;">採樣作業流程（綠）</strong>：樣品保存運輸、培育策略驗證（第 8–9 項）</li>
-                <li><strong style="color:#1565c0;">設備與人員（藍）</strong>：設備資格確認、分析員訓練（第 12–13 項）</li>
+                <li><strong style="color:#b71c1c;">（）</strong>：、HVAC IQ/OQ、HEPA 、、PQ（ 1、10、11、14、15、16 ）</li>
+                <li><strong style="color:#e65100;">（）</strong>：、//、（ 2–7 ）</li>
+                <li><strong style="color:#2e7d32;">（）</strong>：、（ 8–9 ）</li>
+                <li><strong style="color:#1565c0;">（）</strong>：、（ 12–13 ）</li>
             </ul>
 
             <div class="note-box">
-                <h4>查廠常見缺失</h4>
-                <p>FDA 483 觀察項目中，EM 先決條件相關缺失最常見的包括：</p>
+                <h4></h4>
+                <p>FDA 483 ，EM ：</p>
                 <ul>
-                    <li>培養基 GPT 未使用環境分離株（僅用 ATCC 標準菌株）</li>
-                    <li>樣品運輸時間/溫度未經保存研究驗證</li>
-                    <li>採樣設備（如撞擊式空浮採樣器）未定期校正流量</li>
-                    <li>分析員資格確認記錄不完整或未定期重新訓練</li>
+                    <li> GPT （ ATCC ）</li>
+                    <li>/</li>
+                    <li>（）</li>
+                    <li></li>
                 </ul>
             </div>
         </div>
@@ -1345,27 +1345,27 @@ tr:nth-child(even) {
             </div>
         </div>
         <div class="right-column">
-            <h2>解讀與應用</h2>
-            <h3>7.1 廠房設計：EM 的物理基礎</h3>
-            <p>廠房設計決定了潔淨室能達到的環境等級上限。再好的 EM 程序，也無法補救設計缺陷造成的結構性污染風險。</p>
+            <h2></h2>
+            <h3>7.1 ：EM </h3>
+            <p>。 EM ，。</p>
 
             <div class="note-box">
-                <h4>重要標準更新</h4>
-                <p><strong>ISO 14698</strong>（潔淨室生物污染控制）已被 <strong>BS EN 17141:2020</strong> 取代。新舊版本的核心監控原則一致，但 17141:2020 更強調風險評估驅動的採樣計畫設計，與 TR13 整體精神相符。</p>
+                <h4></h4>
+                <p><strong>ISO 14698</strong>（） <strong>BS EN 17141:2020</strong> 。， 17141:2020 ， TR13 。</p>
             </div>
 
-            <h3>廠房設計的 EM 相關要素</h3>
+            <h3> EM </h3>
             <ul>
-                <li><strong>壓差梯度</strong>：由高等級往低等級方向正壓，防止外部污染侵入</li>
-                <li><strong>HEPA 過濾效率</strong>：ISO 5 / Grade A 區域須達 H14 等級（≥99.995%）</li>
-                <li><strong>換氣次數（ACH）</strong>：決定了空氣污染的稀釋與移除速率</li>
-                <li><strong>氣流型態</strong>：層流（laminar flow）vs. 亂流（turbulent flow）直接影響 EM 採樣點的代表性</li>
-                <li><strong>表面材質</strong>：可清潔性（cleanability）影響表面 EM 回收率</li>
+                <li><strong></strong>：，</li>
+                <li><strong>HEPA </strong>：ISO 5 / Grade A  H14 （≥99.995%）</li>
+                <li><strong>（ACH）</strong>：</li>
+                <li><strong></strong>：（laminar flow）vs. （turbulent flow） EM </li>
+                <li><strong></strong>：（cleanability） EM </li>
             </ul>
 
             <div class="analogy-box">
-                <h4>實務提示</h4>
-                <p>新廠啟用前，ISPE Baseline Guide Vol. 3 的 commissioning &amp; qualification (C&amp;Q) 流程與 TR13 的 16 項先決條件形成完整閉環：廠房設計文件 → 建造驗收 → IQ/OQ/PQ → 基線採樣 → 正式 EM 程序啟動。</p>
+                <h4></h4>
+                <p>，ISPE Baseline Guide Vol. 3  commissioning &amp; qualification (C&amp;Q)  TR13  16 ： →  → IQ/OQ/PQ →  →  EM 。</p>
             </div>
         </div>
     </div>
@@ -1404,31 +1404,31 @@ tr:nth-child(even) {
             </ul>
         </div>
         <div class="right-column">
-            <h2>解讀與應用</h2>
-            <h3>7.2 培養基選擇：EM 數據品質的核心</h3>
-            <p>培養基的選擇與資格確認，直接決定了 EM 能偵測到的微生物種類與回收率。使用不適當的培養基，等同於用有盲點的探測器監測環境。</p>
+            <h2></h2>
+            <h3>7.2 ：EM </h3>
+            <p>， EM 。，。</p>
 
             <div class="note-box">
-                <h4>SCDM vs. SDA — 何時需要兩者並用？</h4>
-                <p>TR13 指出 SCDM 本身已能支持酵母菌與黴菌生長。因此 <strong>SDA 僅作為補充選項</strong>，適用於懷疑特定真菌污染時。若藥廠常規上同時使用 SCDM 和 SDA，應在 SOP 中提供科學依據，並說明哪些情況下啟用 SDA。</p>
-                <p>若無特殊理由，<strong>避免在所有 EM 採樣點都使用雙培養基</strong>，因為這會大幅增加培養基成本與培育作業量。</p>
+                <h4>SCDM vs. SDA — ？</h4>
+                <p>TR13  SCDM 。 <strong>SDA </strong>，。 SCDM  SDA， SOP ， SDA。</p>
+                <p>，<strong> EM </strong>，。</p>
             </div>
 
-            <h3>中和劑（Neutralizers）的必要性</h3>
-            <p>表面採樣（接觸碟或棉棒）時，消毒劑殘留（如 IPA、quaternary ammonium、過氧化氫等）可能抑制微生物生長，導致假陰性結果。因此：</p>
+            <h3>（Neutralizers）</h3>
+            <p>（），（ IPA、quaternary ammonium、），。：</p>
             <ul>
-                <li>表面監控培養基<strong>應添加適當中和劑</strong>（如 lecithin + polysorbate 80 組合）</li>
-                <li>中和劑本身需驗證：<strong>不抑制目標微生物、不殘留毒性</strong></li>
-                <li>中和劑的選擇應與現場實際使用的消毒劑品項相對應</li>
+                <li><strong></strong>（ lecithin + polysorbate 80 ）</li>
+                <li>：<strong>、</strong></li>
+                <li></li>
             </ul>
 
             <div class="application-box">
-                <h4>培養基 GPT 的實務要求</h4>
-                <p>TR13 強調 GPT 應使用「低接種量」（low levels）——通常為 &lt;100 CFU，以模擬實際環境中微生物數量極低的情境。若以高接種量（&gt;1000 CFU）進行 GPT，即使培養基效能不足，也可能得到表面上通過的結果。</p>
-                <p>GPT 菌株組合應包含：</p>
+                <h4> GPT </h4>
+                <p>TR13  GPT 「」（low levels）—— &lt;100 CFU，。（&gt;1000 CFU） GPT，，。</p>
+                <p>GPT ：</p>
                 <ul>
-                    <li>藥典要求的標準參考菌株（ATCC/NCTC）</li>
-                    <li>該廠環境分離株（environmental isolates）——需定期更新，反映當前菌相</li>
+                    <li>（ATCC/NCTC）</li>
+                    <li>（environmental isolates）——，</li>
                 </ul>
             </div>
         </div>
@@ -1454,24 +1454,24 @@ tr:nth-child(even) {
             </div>
         </div>
         <div class="right-column">
-            <h2>解讀與應用</h2>
-            <h3>7.3 促生長微生物的選擇</h3>
-            <p>GPT 菌株清單並非一次設定後永久不變。TR13 明確要求依據 <strong>趨勢報告（trending reports）</strong> 定期重新評估環境分離株的代表性。</p>
+            <h2></h2>
+            <h3>7.3 </h3>
+            <p>GPT 。TR13  <strong>（trending reports）</strong> 。</p>
 
             <div class="application-box">
-                <h4>GPT 菌株管理的生命週期</h4>
+                <h4>GPT </h4>
                 <ul>
-                    <li><strong>建立期</strong>：使用藥典標準菌株 + 潔淨室資格確認時分離的菌株</li>
-                    <li><strong>穩定期</strong>：依據例行 EM 趨勢，每年或每季評估是否需要更新環境分離株</li>
-                    <li><strong>更新觸發點</strong>：出現新型菌種、環境分離株菌相改變、或超出 Action Level 的調查結果</li>
-                    <li><strong>傳代管理</strong>：依 USP &lt;1117&gt; 記錄每次傳代次數，避免菌株特性漂移（strain drift）</li>
+                    <li><strong></strong>： + </li>
+                    <li><strong></strong>： EM ，</li>
+                    <li><strong></strong>：、、 Action Level </li>
+                    <li><strong></strong>： USP &lt;1117&gt; ，（strain drift）</li>
                 </ul>
             </div>
 
             <div class="note-box">
-                <h4>常見缺失：只用藥典菌株</h4>
-                <p>部分藥廠的 GPT SOP 僅列出 ATCC 標準菌株（如 <em>Staphylococcus aureus</em> ATCC 6538、<em>Aspergillus brasiliensis</em> ATCC 16404），而未納入環境分離株。</p>
-                <p>這不符合 TR13 和 USP &lt;61&gt; 的要求，在 FDA 查廠中屬於常見 483 觀察項目。原因是標準菌株不能代表廠房中實際存在的環境微生物對培養基的敏感性。</p>
+                <h4>：</h4>
+                <p> GPT SOP  ATCC （ <em>Staphylococcus aureus</em> ATCC 6538、<em>Aspergillus brasiliensis</em> ATCC 16404），。</p>
+                <p> TR13  USP &lt;61&gt; ， FDA  483 。。</p>
             </div>
         </div>
     </div>
@@ -1493,23 +1493,23 @@ tr:nth-child(even) {
             </div>
         </div>
         <div class="right-column">
-            <h2>解讀與應用</h2>
-            <h3>7.4 樣品保存研究與運輸</h3>
-            <p>採樣結束到培育開始的這段時間，是 EM 數據完整性的潛在漏洞。若未進行保存研究驗證，無法確保採樣時捕獲的微生物，在培育前仍保持存活且可計數。</p>
+            <h2></h2>
+            <h3>7.4 </h3>
+            <p>， EM 。，，。</p>
 
             <div class="note-box">
-                <h4>保存研究的設計要點</h4>
+                <h4></h4>
                 <ul>
-                    <li><strong>研究範圍</strong>：從「採樣結束」到「進入培育箱」的完整鏈路，包括在無菌室內的等待時間、通過氣閘時間、運輸至實驗室的時間</li>
-                    <li><strong>溫度條件</strong>：應模擬最差情境（worst case），如夏季室溫或特殊生產區的高溫環境</li>
-                    <li><strong>最長持有時間</strong>：應等同或超過實際作業中可能發生的最長間隔</li>
-                    <li><strong>接受標準</strong>：樣品持有後的計數不應顯著低於立即培育的對照組</li>
+                    <li><strong></strong>：「」「」，、、</li>
+                    <li><strong></strong>：（worst case），</li>
+                    <li><strong></strong>：</li>
+                    <li><strong></strong>：</li>
                 </ul>
             </div>
 
             <div class="analogy-box">
-                <h4>UV 氣閘的潛在風險</h4>
-                <p>部分廠房的物料傳遞氣閘配備 UV 燈，用以對進出物料表面滅菌。TR13 特別警示：EM 培養基通過此類氣閘時，UV 輻射可能殺滅已捕獲的微生物，導致假陰性結果。應評估是否設計替代通道或在傳遞時關閉 UV 燈。</p>
+                <h4>UV </h4>
+                <p> UV ，。TR13 ：EM ，UV ，。 UV 。</p>
             </div>
         </div>
     </div>
@@ -1537,39 +1537,39 @@ tr:nth-child(even) {
             </div>
         </div>
         <div class="right-column">
-            <h2>解讀與應用</h2>
-            <h3>7.5 培育策略：業界最爭議的 EM 議題之一</h3>
-            <p>培育溫度與時間的設計，直接影響 EM 偵測的靈敏度。業界目前存在多種不同做法，TR13 並不強制規定單一方案，而是要求「科學驗證」。</p>
+            <h2></h2>
+            <h3>7.5 ： EM </h3>
+            <p>， EM 。，TR13 ，「」。</p>
 
             <div class="note-box">
-                <h4>雙溫培育策略：為何先低溫後高溫？</h4>
-                <p>行業調查顯示，多數公司採用「<strong>先 20–25°C（5–7 天）後 30–35°C（48–72 小時）</strong>」的順序。這樣做的科學依據：</p>
+                <h4>：？</h4>
+                <p>，「<strong> 20–25°C（5–7 ） 30–35°C（48–72 ）</strong>」。：</p>
                 <ul>
-                    <li>潔淨室環境中，酵母菌與黴菌通常比細菌更難偵測（生長較慢、菌落較小）</li>
-                    <li>先在低溫讓真菌充分生長，再升溫促進細菌生長，可降低細菌菌落覆蓋真菌的風險</li>
-                    <li>若先高溫後低溫，快速生長的細菌可能在培育盤上形成優勢，掩蓋真菌菌落</li>
+                    <li>，（、）</li>
+                    <li>，，</li>
+                    <li>，，</li>
                 </ul>
             </div>
 
             <div class="analogy-box">
-                <h4>In Vitro vs. In Situ 的重要差異</h4>
-                <p>Gordon et al. (Ref. 37) 的研究提醒我們：實驗室培育條件下的最佳化結果，不一定能直接預測現場環境樣品的表現。原因包括：</p>
+                <h4>In Vitro vs. In Situ </h4>
+                <p>Gordon et al. (Ref. 37) ：，。：</p>
                 <ul>
-                    <li>環境微生物可能處於受損或亞致死（sublethally injured）狀態</li>
-                    <li>環境條件（消毒劑殘留、乾燥效應）影響菌株活力</li>
-                    <li>實驗室菌株（ATCC）活力通常優於實際環境分離株</li>
+                    <li>（sublethally injured）</li>
+                    <li>（、）</li>
+                    <li>（ATCC）</li>
                 </ul>
-                <p>因此，培育驗證研究建議同時納入「受壓力條件下的環境分離株」作為挑戰。</p>
+                <p>，「」。</p>
             </div>
 
             <div class="concept-box">
-                <h4>培育策略驗證的文件要求</h4>
-                <p>無論採用何種培育方案，均需以驗證研究報告支持，並在 EM SOP 或方法驗證文件中記錄：</p>
+                <h4></h4>
+                <p>，， EM SOP ：</p>
                 <ul>
-                    <li>所選溫度/時間組合的科學依據</li>
-                    <li>與替代方案的比較數據</li>
-                    <li>敏感度評估（能偵測到的最低菌量）</li>
-                    <li>變更管理：任何培育條件的修改都需重新驗證</li>
+                    <li>/</li>
+                    <li></li>
+                    <li>（）</li>
+                    <li>：</li>
                 </ul>
             </div>
         </div>
@@ -1591,33 +1591,33 @@ tr:nth-child(even) {
             </ul>
         </div>
         <div class="right-column">
-            <h2>解讀與應用</h2>
-            <h3>7.6 EM 設備資格確認</h3>
-            <p>EM 設備資格確認（qualification）確保採集到的數據是可信的、可重現的，且可溯源至已知標準。</p>
+            <h2></h2>
+            <h3>7.6 EM </h3>
+            <p>EM （qualification）、，。</p>
 
             <div class="concept-box">
-                <h4>關鍵設備資格確認重點</h4>
-                <p><strong>主動式空浮採樣器（Active Air Samplers）</strong></p>
+                <h4></h4>
+                <p><strong>（Active Air Samplers）</strong></p>
                 <ul>
-                    <li>採樣流量（通常 100 L/min）需定期以校正過的流量計（NIST 溯源）校正</li>
-                    <li>校正頻率應依使用頻率與製造商建議設定（通常每 6–12 個月）</li>
-                    <li>流量不準確 = 實際採樣體積不正確 = CFU/m³ 數值失真</li>
+                    <li>（ 100 L/min）（NIST ）</li>
+                    <li>（ 6–12 ）</li>
+                    <li> =  = CFU/m³ </li>
                 </ul>
-                <p><strong>粒子計數器（Particle Counters）</strong></p>
+                <p><strong>（Particle Counters）</strong></p>
                 <ul>
-                    <li>採樣管（isokinetic probe）長度影響粒子計數準確性</li>
-                    <li>過長或彎曲過多的管路會造成大粒子沉積，導致計數偏低</li>
-                    <li>ISO 21501-4 規定了粒子計數器的校正要求</li>
+                    <li>（isokinetic probe）</li>
+                    <li>，</li>
+                    <li>ISO 21501-4 </li>
                 </ul>
             </div>
 
             <div class="note-box">
-                <h4>數據完整性要求</h4>
-                <p>現代 EM 系統越來越多採用電子數據採集與自動傳輸。TR13 特別提及 data collection, transmission, storage 和 alarm conditions，呼應 FDA 數據完整性指引（2018）的要求：</p>
+                <h4></h4>
+                <p> EM 。TR13  data collection, transmission, storage  alarm conditions， FDA （2018）：</p>
                 <ul>
-                    <li>電子記錄不可刪除或覆蓋（audit trail 必須啟用）</li>
-                    <li>警報條件（Alert/Action Level 觸發）應有自動記錄</li>
-                    <li>資料備份策略應列入 EM 系統驗證範圍</li>
+                    <li>（audit trail ）</li>
+                    <li>（Alert/Action Level ）</li>
+                    <li> EM </li>
                 </ul>
             </div>
         </div>
@@ -1639,28 +1639,28 @@ tr:nth-child(even) {
             </div>
         </div>
         <div class="right-column">
-            <h2>解讀與應用</h2>
-            <h3>7.7 分析員訓練與資格確認</h3>
-            <p>人員（analyst/operator）是 EM 最重要、也最容易被忽略的變數。再完善的培養基、設備和培育策略，都無法彌補採樣技術不當所引入的人為誤差。</p>
+            <h2></h2>
+            <h3>7.7 </h3>
+            <p>（analyst/operator） EM 、。、，。</p>
 
             <div class="concept-box">
-                <h4>EM 分析員資格確認程序</h4>
+                <h4>EM </h4>
                 <ul>
-                    <li><strong>初始訓練</strong>：EM 原理 → 各採樣方法 SOP → 設備操作 → 無菌技術</li>
-                    <li><strong>更衣資格確認（Gowning Qualification）</strong>：在無菌區域採樣前，必須通過無菌更衣技術評估（包含 fingertip / glove impression plates）</li>
-                    <li><strong>採樣技術確認</strong>：實際觀察採樣操作，確認技術符合 SOP（例如接觸碟的施力、棉棒採樣區域、設備放置位置）</li>
-                    <li><strong>定期再訓練</strong>：建議每年重新評估，或在程序變更後觸發再訓練</li>
-                    <li><strong>記錄保存</strong>：訓練矩陣（training matrix）需完整記錄，並可供查廠稽核</li>
+                    <li><strong></strong>：EM  →  SOP →  → </li>
+                    <li><strong>（Gowning Qualification）</strong>：，（ fingertip / glove impression plates）</li>
+                    <li><strong></strong>：， SOP（、、）</li>
+                    <li><strong></strong>：，</li>
+                    <li><strong></strong>：（training matrix），</li>
                 </ul>
             </div>
 
             <div class="note-box">
-                <h4>微生物學家的「風險意識」</h4>
-                <p>TR13 特別強調分析員需理解「不遵守程序的品質風險與影響」。這不只是被動執行 SOP，而是主動理解每個步驟的 GMP 背景——例如：</p>
+                <h4>「」</h4>
+                <p>TR13 「」。 SOP， GMP ——：</p>
                 <ul>
-                    <li>為何採樣後不能讓培養基在室溫下放置超過規定時間？</li>
-                    <li>接觸碟打開的瞬間，無菌技術不當可能引入什麼污染？</li>
-                    <li>超出 Action Level 時，第一時間應採取什麼行動？</li>
+                    <li>？</li>
+                    <li>，？</li>
+                    <li> Action Level ，？</li>
                 </ul>
             </div>
         </div>
@@ -1739,15 +1739,15 @@ tr:nth-child(even) {
             </div>
         </div>
         <div class="right-column">
-            <h2>解讀與應用</h2>
-            <h3>8.0 參考文獻的架構意義</h3>
-            <p>TR13 的 37 篇參考文獻勾勒出 EM 知識體系的完整輪廓。理解文獻的分類，有助於快速定位特定問題的規範依據。</p>
+            <h2></h2>
+            <h3>8.0 </h3>
+            <p>TR13  37  EM 。，。</p>
 
             <div class="concept-box">
-                <h4>EM 知識體系的文獻層次</h4>
+                <h4>EM </h4>
                 <div class="hierarchy-diagram">
                     <div class="hierarchy-level">
-                        <div class="hierarchy-box level-1">法規 / 強制要求</div>
+                        <div class="hierarchy-box level-1"> / </div>
                     </div>
                     <div class="arrow-down">↓</div>
                     <div class="hierarchy-level">
@@ -1755,7 +1755,7 @@ tr:nth-child(even) {
                     </div>
                     <div class="arrow-down">↓</div>
                     <div class="hierarchy-level">
-                        <div class="hierarchy-box level-3">技術指引 / 最佳實務</div>
+                        <div class="hierarchy-box level-3"> / </div>
                     </div>
                     <div class="arrow-down">↓</div>
                     <div class="hierarchy-level">
@@ -1763,7 +1763,7 @@ tr:nth-child(even) {
                     </div>
                     <div class="arrow-down">↓</div>
                     <div class="hierarchy-level">
-                        <div class="hierarchy-box level-3">測試方法 / 標準</div>
+                        <div class="hierarchy-box level-3"> / </div>
                     </div>
                     <div class="arrow-down">↓</div>
                     <div class="hierarchy-level">
@@ -1773,29 +1773,29 @@ tr:nth-child(even) {
             </div>
 
             <div class="note-box">
-                <h4>TR13 引用的 PDA 姊妹報告</h4>
-                <p>TR13 廣泛引用其他 PDA 技術報告，形成相互支撐的知識網絡：</p>
+                <h4>TR13  PDA </h4>
+                <p>TR13  PDA ，：</p>
                 <ul>
-                    <li><strong>TR70</strong>：清潔與消毒程序（EM 培養基中和劑選擇的背景）</li>
-                    <li><strong>TR44</strong>：無菌製程風險管理（EM 採樣計畫的風險評估框架）</li>
-                    <li><strong>TR80</strong>：數據完整性管理（EM 電子記錄與 audit trail）</li>
-                    <li><strong>TR59</strong>：統計方法（EM 趨勢分析的統計基礎）</li>
-                    <li><strong>TR33</strong>：快速微生物學方法（替代 EM 方法的驗證依據）</li>
+                    <li><strong>TR70</strong>：（EM ）</li>
+                    <li><strong>TR44</strong>：（EM ）</li>
+                    <li><strong>TR80</strong>：（EM  audit trail）</li>
+                    <li><strong>TR59</strong>：（EM ）</li>
+                    <li><strong>TR33</strong>：（ EM ）</li>
                 </ul>
             </div>
 
             <div class="analogy-box">
-                <h4>實務建議：建立 EM SOP 的文獻矩陣</h4>
-                <p>建議藥廠在撰寫或修訂 EM SOP 時，對照 TR13 的參考文獻建立「依據文獻矩陣」，確保每項關鍵決策（培養基選擇、培育條件、警示標準設定等）都能溯源至具體的法規或技術指引條文。這在查廠時能有效展示程序的科學性與合規性。</p>
+                <h4>： EM SOP </h4>
+                <p> EM SOP ， TR13 「」，（、、）。。</p>
             </div>
 
             <div class="application-box">
-                <h4>Gordon et al. (Ref. 37) 的實踐含義</h4>
-                <p>這篇 2014 年 PDA Journal 論文比較了不同培育條件對 EM 結果的影響，是 Section 7.5 最重要的科學依據之一。其核心發現提醒業界：</p>
+                <h4>Gordon et al. (Ref. 37) </h4>
+                <p> 2014  PDA Journal  EM ， Section 7.5 。：</p>
                 <ul>
-                    <li>培育驗證不能只做體外實驗（in vitro）——現場樣品（in situ）的微生物狀態不同</li>
-                    <li>行業間培育條件差異大，沒有絕對「正確」方案，需個別驗證</li>
-                    <li>驗證報告應涵蓋最差情境（worst-case organism + worst-case media exposure condition）</li>
+                    <li>（in vitro）——（in situ）</li>
+                    <li>，「」，</li>
+                    <li>（worst-case organism + worst-case media exposure condition）</li>
                 </ul>
             </div>
         </div>
@@ -1803,31 +1803,31 @@ tr:nth-child(even) {
 
     <!-- ===== SECTION SUMMARY ===== -->
     <div class="section-summary" id="sec-summary">
-        <h3>TR13 Section 7–8 重點總結 / Key Takeaways</h3>
+        <h3>TR13 Section 7–8  / Key Takeaways</h3>
         <div class="summary-grid">
             <div class="summary-col">
-                <h4>Section 7 — EM 先決條件</h4>
+                <h4>Section 7 — EM </h4>
                 <ul>
-                    <li>16 項先決條件是 EM 程序的系統性基礎，缺一不可；第 14–16 項（HVAC IQ/OQ、HEPA 驗證、氣流量測）為預資格確認活動，本節不再詳述。</li>
-                    <li>7.1 廠房設計：設施設計決定 EM 能達到的監控品質上限；BS EN 17141:2020 已取代 ISO 14698，更強調風險評估驅動的污染控制。</li>
-                    <li>7.2 培養基選擇：SCDM/TSA 為廣效標準基礎；表面採樣需添加中和劑；SDA 與厭氧培養基僅在特定情況下使用；每批培養基需進行 GPT 並使用環境分離株。</li>
-                    <li>7.3 促生長微生物：GPT 菌株需同時涵蓋藥典標準菌株（USP &lt;61&gt;）與廠房環境分離株；菌株維護應依 USP &lt;1117&gt; 管控傳代。</li>
-                    <li>7.4 樣品保存：從採樣結束到培育開始的完整鏈路需以保存研究驗證；UV 氣閘可能損傷樣品中的目標微生物。</li>
-                    <li>7.5 培育策略：雙溫方案（20–25°C → 30–35°C）為業界主流；多種方案均可接受，但需科學驗證；in vitro 結果不等於 in situ 表現。</li>
-                    <li>7.6 設備資格確認：採樣流量準確性與採樣管長度是關鍵參數；電子數據採集系統需納入驗證範圍並啟用 audit trail。</li>
-                    <li>7.7 分析員訓練：訓練不僅是 SOP 執行，更需培養對品質影響的風險意識；更衣資格確認與採樣技術評估應定期進行。</li>
+                    <li>16  EM ，； 14–16 （HVAC IQ/OQ、HEPA 、），。</li>
+                    <li>7.1 ： EM ；BS EN 17141:2020  ISO 14698，。</li>
+                    <li>7.2 ：SCDM/TSA ；；SDA ； GPT 。</li>
+                    <li>7.3 ：GPT （USP &lt;61&gt;）； USP &lt;1117&gt; 。</li>
+                    <li>7.4 ：；UV 。</li>
+                    <li>7.5 ：（20–25°C → 30–35°C）；，；in vitro  in situ 。</li>
+                    <li>7.6 ：； audit trail。</li>
+                    <li>7.7 ： SOP ，；。</li>
                 </ul>
             </div>
             <div class="summary-col">
-                <h4>Section 8 — 參考文獻架構</h4>
+                <h4>Section 8 — </h4>
                 <ul>
-                    <li>TR13 引用 37 篇文獻，涵蓋 PDA 技術報告群、國際法規（FDA/EU/WHO/ICH）、ISO 標準（14644/14698 系列）及各國藥典（USP/EP/JP）。</li>
-                    <li>法規層次：FDA Aseptic Guide 2004 和 EU GMP Annex 1 是最高層強制依據；ICH Q9 提供風險管理框架。</li>
-                    <li>PDA 生態系：TR13 與 TR44、TR70、TR80、TR59、TR33 等相互引用，形成無菌製造知識體系的完整網絡。</li>
-                    <li>藥典方法：USP &lt;61&gt; 規定 GPT 菌株要求；USP &lt;1116&gt; 為 EM 環境監控的核心藥典章；USP &lt;1117&gt; 規範微生物實驗室最佳實務。</li>
-                    <li>關鍵科學論文：Gordon et al. (2014, Ref. 37) 是 7.5 培育策略的核心科學依據；Marshall et al. (1998, Ref. 34) 提供不同培育條件對酵母/黴菌回收率的比較數據。</li>
-                    <li>建議實務：建立 EM SOP 文獻矩陣，確保每項決策均可溯源至 TR13 所引用的具體法規或技術指引。</li>
-                    <li>BS EN 17141:2020：此新標準取代了原有 ISO 14698 系列，是廠房設計與潔淨室生物污染控制的最新 ISO 層級依據。</li>
+                    <li>TR13  37 ， PDA 、（FDA/EU/WHO/ICH）、ISO （14644/14698 ）（USP/EP/JP）。</li>
+                    <li>：FDA Aseptic Guide 2004  EU GMP Annex 1 ；ICH Q9 。</li>
+                    <li>PDA ：TR13  TR44、TR70、TR80、TR59、TR33 ，。</li>
+                    <li>：USP &lt;61&gt;  GPT ；USP &lt;1116&gt;  EM ；USP &lt;1117&gt; 。</li>
+                    <li>：Gordon et al. (2014, Ref. 37)  7.5 ；Marshall et al. (1998, Ref. 34) /。</li>
+                    <li>： EM SOP ， TR13 。</li>
+                    <li>BS EN 17141:2020： ISO 14698 ， ISO 。</li>
                 </ul>
             </div>
         </div>

@@ -439,7 +439,7 @@ body {
     font-size: 0.92rem !important;
 }
 
-/* ===== ANALOGY BOX (Yellow) - 比喻說明 ===== */
+/* ===== ANALOGY BOX (Yellow) -  ===== */
 .analogy-box,
 .concept-box[class*="analogy"],
 .concept-box.analogy,
@@ -453,7 +453,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #856404 !important;
 }
 
-/* ===== TERM/CONCEPT BOX (Green) - 核心概念 ===== */
+/* ===== TERM/CONCEPT BOX (Green) -  ===== */
 .term-box,
 .key-term-box,
 .concept-box:not([class*="analogy"]):not([class*="note"]):not([class*="formula"]):not([class*="practice"]):not([class*="highlight"]):not(.analogy):not(.application) {
@@ -468,7 +468,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #2e7d32 !important;
 }
 
-/* ===== NOTE/HIGHLIGHT BOX (Orange) - 重點提示 ===== */
+/* ===== NOTE/HIGHLIGHT BOX (Orange) -  ===== */
 .note-box,
 .key-note,
 .key-point-box,
@@ -487,7 +487,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #c65102 !important;
 }
 
-/* ===== FORMULA BOX (Purple) - 公式計算 ===== */
+/* ===== FORMULA BOX (Purple) -  ===== */
 .formula-box,
 .concept-box[class*="formula"] {
     background: var(--purple-bg) !important;
@@ -522,7 +522,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #1565c0 !important;
 }
 
-/* ===== PRACTICE BOX (Blue dashed) - 練習思考 ===== */
+/* ===== PRACTICE BOX (Blue dashed) -  ===== */
 .practice-box {
     background: linear-gradient(135deg, #e8f4fd 0%, #d1e9ff 100%) !important;
     border: 2px dashed #3182ce !important;
@@ -951,7 +951,7 @@ tr:nth-child(even) {
 
 <!-- SECTION HEADER -->
 <div class="header">
-    <h1>Section 4 (Part B): PFS Human Factors Engineering 人因工程（下）</h1>
+    <h1>Section 4 (Part B): PFS Human Factors Engineering （）</h1>
     <div class="subtitle">PDA Technical Report No. 73 (2015)</div>
     <div class="page-info">Subsections 4.5–4.9 | PDF p23–p30 (Print p16–p23)</div>
 </div>
@@ -959,78 +959,78 @@ tr:nth-child(even) {
 <!-- LEARNING OBJECTIVES -->
 <div class="main-content">
 <div class="learning-objectives">
-    <h3>本章學習目標（Part B）</h3>
+    <h3>（Part B）</h3>
     <ul>
-        <li>理解設計需求（Design Requirements）如何從使用者需求轉化為可量化、可驗證的工程規格</li>
-        <li>掌握使用相關風險管理（Use-Related Risk Management）的完整流程：危害識別、風險分析、緩解策略</li>
-        <li>區分形成性評估（Formative Evaluation）與總結性/驗證性測試（Summative/Validation Testing）的目的與方法</li>
-        <li>說明標籤（Labeling）在人因工程中的角色及其對使用安全的影響</li>
-        <li>辨別必要任務（Essential Tasks）與安全關鍵任務（Safety-Critical Tasks）的差異及其在驗證測試中的意義</li>
+        <li>（Design Requirements）、</li>
+        <li>（Use-Related Risk Management）：、、</li>
+        <li>（Formative Evaluation）/（Summative/Validation Testing）</li>
+        <li>（Labeling）</li>
+        <li>（Essential Tasks）（Safety-Critical Tasks）</li>
     </ul>
 </div>
 
 <!-- ==================== SECTION 4.5 ==================== -->
-<div class="section-title"><strong>4.5 Design Requirements 設計需求</strong></div>
+<div class="section-title"><strong>4.5 Design Requirements </strong></div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
         <p>To enable the product design process, <span class="key-term">user requirements</span> are translated into <span class="key-term">engineering design requirements</span>. Design requirements are comprehensive, clear, quantifiable, and verifiable. For example, a user requirement might state, "The user needs to be able to remove the needle cap." This might correspond to a specific design input requirement specifying the use of a suitable cap removal force or cap/syringe geometry. Design requirements related to the user-device interface may be derived from a range of sources, including anthropometric size and strength data or product-specific industry guidelines and standards.</p>
         <p>Once a design prototype has been developed, requirements may be further refined through a process of iterative usability evaluation and <span class="key-term">risk analysis</span>. In most cases, such evaluations should include early <span class="key-term">formative testing</span> with users (Section 4.7) in which the suitability of the design input requirement may be assessed and adapted as necessary.</p>
     </div>
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>User Requirements（使用者需求）vs. Design Requirements（設計需求）：</strong>使用者需求描述「使用者想做什麼」（例：能拔除針帽），設計需求則將其轉化為「裝置必須達到什麼規格」（例：針帽拔除力 ≤ X Newton、幾何尺寸符合人體工學）。</p>
-            <p><strong>Anthropometric data（人體測量數據）：</strong>來自於目標使用族群的手部尺寸、握力等統計數據，用於設定設計參數上下限。</p>
+            <h4> Key Concepts</h4>
+            <p><strong>User Requirements（）vs. Design Requirements（）：</strong>「」（：），「」（： ≤ X Newton、）。</p>
+            <p><strong>Anthropometric data（）：</strong>、，。</p>
         </div>
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>設計需求的轉化過程，就像建築師把客戶說「我要一個採光好的客廳」，轉化成「南向窗戶面積 ≥ 地板面積的 15%、玻璃透光率 ≥ 70%」。模糊的需求變成可以量測、可以驗收的工程規格。</p>
+            <h4> Analogy</h4>
+            <p>，「」，「 ≥  15%、 ≥ 70%」。、。</p>
         </div>
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p>設計需求必須是 <strong>quantifiable（可量化）</strong> 且 <strong>verifiable（可驗證）</strong>。在 CDMO 環境中，這意味著每一條設計需求都必須有對應的驗收方法（test method）——否則在 DMF/MAA 審查時無法自圓其說。</p>
+            <h4> Key Notes</h4>
+            <p> <strong>quantifiable（）</strong>  <strong>verifiable（）</strong>。 CDMO ，（test method）—— DMF/MAA 。</p>
         </div>
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>請舉一個 PFS 設計需求的實例，說明它如何從使用者需求衍生，以及如何驗證。</li>
-                <li>若使用者族群涵蓋老年患者與醫護人員，人體測量數據應如何涵蓋這兩個群體的差異？</li>
+                <li> PFS ，，。</li>
+                <li>，？</li>
             </ol>
         </div>
     </div>
 </div>
 
 <!-- ==================== SECTION 4.6 ==================== -->
-<div class="section-title"><strong>4.6 Risk Management 風險管理</strong></div>
+<div class="section-title"><strong>4.6 Risk Management </strong></div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
         <p><span class="key-term">Use-related risk management</span> is an integral part of the HFE process in the development of medical devices and combination products. This includes <span class="key-term">use-related hazard identification</span>, <span class="key-term">risk analysis</span>, identification and implementation of <span class="key-term">mitigation strategies</span>. For further information on risk evaluation, analysis, and management refer to PDA Technical Report No. 54: Implementation of Quality Risk Management for Pharmaceutical and Biotechnology Manufacturing Operations.</p>
     </div>
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>Use-Related Risk Management（使用相關風險管理）：</strong>不同於製程風險管理（QRM），此處聚焦於「人-裝置介面」本身可能造成的傷害。核心框架來自 ISO 14971（醫療器材風險管理）。</p>
-            <p>三大支柱：危害識別 → 風險分析 → 緩解策略實施。每個步驟均需書面記錄。</p>
+            <h4> Key Concepts</h4>
+            <p><strong>Use-Related Risk Management（）：</strong>（QRM），「-」。 ISO 14971（）。</p>
+            <p>： →  → 。。</p>
         </div>
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p>對 CDMO 而言，combination product（藥械組合產品，如藥廠委託充填的 PFS+自動注射器）同時適用 FDA 21 CFR Part 4 及 HFE 要求。風險管理檔案（Risk Management File）是 NDA/BLA 遞交的必要組成。</p>
+            <h4> Key Notes</h4>
+            <p> CDMO ，combination product（， PFS+） FDA 21 CFR Part 4  HFE 。（Risk Management File） NDA/BLA 。</p>
         </div>
     </div>
 </div>
 
 <!-- ==================== SECTION 4.6.1 ==================== -->
-<div class="section-title"><strong>4.6.1 Hazard Identification 危害識別</strong></div>
+<div class="section-title"><strong>4.6.1 Hazard Identification </strong></div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
         <p>A <span class="key-term">hazard</span> is a potential source of harm. Use errors and difficulties related to the product/user-interface design can lead to <span class="key-term">hazardous situations</span>. All known and foreseeable use-related hazards associated with products are typically identified and documented within the <span class="key-term">use-related risk analysis</span> (see Section 4.6.2). Early in the design process, it is best practice to identify and investigate potential hazards based on a systematic review of all known information related to the type of product under development. This information is typically acquired through literature searches, empirical research, and analytical methods.</p>
 
         <h3>4.6.1.1 Literature Search</h3>
@@ -1059,46 +1059,46 @@ tr:nth-child(even) {
         <p>Analytical methods are useful in assessing user interfaces and key components of use-related risk analysis. A common analytical method is <span class="key-term">Hierarchical Task Analysis (HTA)</span>. This method systematically decomposes the steps necessary to attain the overall goal of the user into sub-goals and ultimately to the lowest-level tasks deemed appropriate for analysis. HTA suggests how to organize related tasks, identifies sequence of specific tasks, and generates a clear structure for risk analysis.</p>
     </div>
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>Hazard（危害）vs. Harm（傷害）vs. Risk（風險）：</strong></p>
+            <h4> Key Concepts</h4>
+            <p><strong>Hazard（）vs. Harm（）vs. Risk（）：</strong></p>
             <ul>
-                <li>Hazard = 潛在傷害來源（例：針帽不易移除）</li>
-                <li>Hazardous Situation = 危害暴露情境（使用者強行扯拔針帽）</li>
-                <li>Harm = 實際造成的傷害（針頭損毀、藥液外洩）</li>
-                <li>Risk = 傷害嚴重度 × 發生機率</li>
+                <li>Hazard = （：）</li>
+                <li>Hazardous Situation = （）</li>
+                <li>Harm = （、）</li>
+                <li>Risk =  × </li>
             </ul>
-            <p><strong>MAUDE 資料庫：</strong>FDA 維護的醫療器材不良事件報告系統，是文獻查找的核心資源，可識別市售同類器材已知的使用問題。</p>
+            <p><strong>MAUDE ：</strong>FDA ，，。</p>
         </div>
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>Hierarchical Task Analysis (HTA，階層式任務分析)：</strong>將使用情境分解為「目標 → 子目標 → 具體任務」的樹狀結構。例如：「自行注射生物製劑」可分解為準備 → 組裝 → 給藥 → 廢棄等層級，每個末端任務再評估潛在使用錯誤。</p>
+            <h4> Key Concepts</h4>
+            <p><strong>Hierarchical Task Analysis (HTA，)：</strong>「 →  → 」。：「」 →  →  → ，。</p>
         </div>
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>危害識別的三條路徑，就像醫院感染管控的情報來源：文獻查找 = 查閱文獻與疾管署報告；實證研究 = 到病房直接觀察護理師操作；分析方法 = 用 FMEA 系統拆解每個護理步驟的潛在失效點。三管齊下，才能涵蓋全部已知與可預見的風險。</p>
+            <h4> Analogy</h4>
+            <p>，： = ； = ； =  FMEA 。，。</p>
         </div>
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p>Contextual inquiry（情境詢問法）強調在「真實使用環境」中觀察，不是在實驗室。對 CDMO 來說，若客戶計畫讓患者居家自行注射，則實地觀察（home-use study）是必要的，而非只做模擬注射台研究。</p>
+            <h4> Key Notes</h4>
+            <p>Contextual inquiry（）「」，。 CDMO ，，（home-use study），。</p>
         </div>
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>MAUDE 資料庫的查找結果，如何用於指導新 PFS 的設計需求？</li>
-                <li>對一個需居家自行注射的單株抗體 PFS，contextual inquiry 應在哪些場域進行？</li>
+                <li>MAUDE ， PFS ？</li>
+                <li> PFS，contextual inquiry ？</li>
             </ol>
         </div>
     </div>
 </div>
 
 <!-- ==================== SECTION 4.6.2 ==================== -->
-<div class="section-title"><strong>4.6.2 Use-Related Risk Analysis 使用相關風險分析</strong></div>
+<div class="section-title"><strong>4.6.2 Use-Related Risk Analysis </strong></div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
         <p>Employ a <span class="key-term">use-related risk analysis</span> to systematically assess all of the steps involved in using the device, the errors that users might commit or the tasks users might fail to perform, potential negative clinical consequences of use errors and task failures, risk-mitigation strategies to reduce any moderate or high risks to acceptable levels, and the method of validating the risk-mitigation strategies.</p>
         <p>The potential use errors can be assessed for <span class="key-term">severity</span>, <span class="key-term">occurrence</span>, and <span class="key-term">detectability</span> as described below:</p>
         <ul>
@@ -1116,46 +1116,46 @@ tr:nth-child(even) {
         <p>Formative evaluations and human factors summative/validation testing are methods that demonstrate the effectiveness of the implemented risk mitigation strategies. Justification for residual risks may take into account whether to eliminate these risks, or if eliminating/reducing these risks is highly impractical and the residual risk is clearly outweighed by the benefits of the device.</p>
     </div>
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>使用相關 FMEA（Use-FMEA）：</strong>與傳統製程 FMEA 相同框架（Severity × Occurrence × Detectability），但分析對象是「使用者操作行為」而非「製程步驟」。RPN 高者優先處理。</p>
-            <p>關鍵差異：傳統 FMEA 中 detectability 是指製造檢查能否發現缺陷；Use-FMEA 中 detectability 是指使用者能否察覺危害正在發生。</p>
+            <h4> Key Concepts</h4>
+            <p><strong> FMEA（Use-FMEA）：</strong> FMEA （Severity × Occurrence × Detectability），「」「」。RPN 。</p>
+            <p>： FMEA  detectability ；Use-FMEA  detectability 。</p>
         </div>
         <div class="formula-box">
-            <h4>公式與概念 Risk Priority</h4>
+            <h4> Risk Priority</h4>
             <pre>
-風險優先度（RPN）= Severity × Occurrence × Detectability
+（RPN）= Severity × Occurrence × Detectability
 
-緩解策略優先順序：
-1st: 設計消除危害（Eliminate by design）
-2nd: 設計防錯/容錯（Error-resistant / tolerant UI）
-3rd: 標籤警示（Labeling / IFU alert）
-4th: 訓練與操作規程（Training / SOP）
+：
+1st: （Eliminate by design）
+2nd: /（Error-resistant / tolerant UI）
+3rd: （Labeling / IFU alert）
+4th: （Training / SOP）
 
-注意：訓練是最後手段，不能替代設計改善。
+：，。
             </pre>
         </div>
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p>FDA HFE Guidance（2016）明確指出：Severity 是判斷使用錯誤關鍵性的主要指標，因為 Occurrence 在上市前難以精確估計。因此，嚴重度高的使用錯誤，即使發生率看似低，也必須優先處理。</p>
+            <h4> Key Notes</h4>
+            <p>FDA HFE Guidance（2016）：Severity ， Occurrence 。，，，。</p>
         </div>
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>「針頭刺傷自己」這個危害，其 Severity、Occurrence、Detectability 各應如何評估？</li>
-                <li>若緩解策略是在 IFU 上加警語，為何這被列為第三優先而非第一優先？</li>
+                <li>「」， Severity、Occurrence、Detectability ？</li>
+                <li> IFU ，？</li>
             </ol>
         </div>
     </div>
 </div>
 
 <!-- ==================== SECTION 4.6.2.1 ==================== -->
-<div class="section-title"><strong>4.6.2.1 Essential and Safety-Critical Task Identification 必要任務與安全關鍵任務識別</strong></div>
+<div class="section-title"><strong>4.6.2.1 Essential and Safety-Critical Task Identification </strong></div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
         <p>Employ the use-related risk analysis to identify <span class="key-term">essential tasks</span> and <span class="key-term">safety-critical tasks</span>. Essential tasks are those that are necessary for successful use of the device for its intended purposes. Examples of typical essential tasks are removing a PFS from packaging, removing a needle shield or cap, inserting a needle into an injection site, and fully depressing the plunger. Safety-critical tasks are those that, if omitted or the user performs incorrectly, could have a negative clinical impact. A task may be both safety-critical and essential simultaneously. Examples of safety-critical tasks typically include full depression of the syringe plunger rod and activation of the safety needle-device mechanism. In addition, user understanding of all safety-critical warnings and caution statements in the device labeling is essential.</p>
         <p>Each task is assessed for <span class="key-term">device dependency</span>:</p>
         <ul>
@@ -1164,57 +1164,57 @@ tr:nth-child(even) {
         </ul>
     </div>
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>Essential Task（必要任務）：</strong>成功完成裝置預期使用所必須完成的任務。缺一不可。</p>
-            <p><strong>Safety-Critical Task（安全關鍵任務）：</strong>若遺漏或執行錯誤，會對患者產生負面臨床影響的任務。是 summative testing 的測試重點。</p>
-            <p><strong>Device-Dependent Task（裝置相依任務）：</strong>任務的成功與否由裝置設計直接控制，因此是設計驗證的核心對象。</p>
+            <h4> Key Concepts</h4>
+            <p><strong>Essential Task（）：</strong>。。</p>
+            <p><strong>Safety-Critical Task（）：</strong>，。 summative testing 。</p>
+            <p><strong>Device-Dependent Task（）：</strong>，。</p>
         </div>
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>想像一臺自動提款機（ATM）：「插入金融卡」是 essential task（必要）；「輸入正確密碼」是 safety-critical（輸錯有害）且 essential；「找到最近的 ATM」是 device-independent ancillary task（準備動作，ATM 本身不控制）。HFE 的重點是讓 ATM 介面本身協助使用者正確完成 device-dependent tasks。</p>
+            <h4> Analogy</h4>
+            <p>（ATM）：「」 essential task（）；「」 safety-critical（） essential；「 ATM」 device-independent ancillary task（，ATM ）。HFE  ATM  device-dependent tasks。</p>
         </div>
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p>在 summative/validation testing 中，device-dependent 且 safety-critical 的任務必須全數納入測試情境（test scenarios）。Device-independent tasks 則通常透過標籤理解度評估（labeling comprehension assessment）來驗證。</p>
+            <h4> Key Notes</h4>
+            <p> summative/validation testing ，device-dependent  safety-critical （test scenarios）。Device-independent tasks （labeling comprehension assessment）。</p>
         </div>
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>「啟動針頭安全裝置」是 essential、safety-critical、device-dependent，三者皆是嗎？請說明理由。</li>
-                <li>「核對藥品有效期限」是哪類任務？如何在 validation 中驗證？</li>
+                <li>「」 essential、safety-critical、device-dependent，？。</li>
+                <li>「」？ validation ？</li>
             </ol>
         </div>
     </div>
 </div>
 
 <!-- ==================== SECTION 4.6.2.2 - intro text OUTSIDE table ==================== -->
-<div class="section-title"><strong>4.6.2.2 Common PFS Use-Related Hazards 常見 PFS 使用相關危害</strong></div>
+<div class="section-title"><strong>4.6.2.2 Common PFS Use-Related Hazards  PFS </strong></div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
         <p>Table 4.6.2.2-1 offers several examples of common use-related hazards and harm associated with PFS use. The table is not intended to be exhaustive, and certain hazards and harms may not apply to all situations. Once use-related hazards have been comprehensively identified, the risks associated with those hazards are assessed. It is the manufacturer's responsibility to identify, implement, and validate risk mitigation strategies that effectively minimize risk (refer to Section 4.6.2 for the priority order of risk controls).</p>
         <p>See Table 4.6.2.2-1 below for a structured list of common PFS use-related hazards.</p>
     </div>
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p>此表格提供 PFS 最常見的使用錯誤情境與潛在傷害，是 Use-FMEA 的起點參考。重要認識：</p>
+            <h4> Key Concepts</h4>
+            <p> PFS ， Use-FMEA 。：</p>
             <ul>
-                <li>同一使用錯誤可能導致多種傷害（如「不完整活塞押注」→ 劑量不足 → 療效下降）</li>
-                <li>部分危害源自使用者合理但錯誤的行為（如針頭重新蓋帽 recapping）</li>
+                <li>（「」→  → ）</li>
+                <li>（ recapping）</li>
             </ul>
         </div>
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p>製造商必須針對每一條危害，評估其對應的風險緩解策略是否落實並經驗證。此責任不因委外（CDMO 生產）而轉移——MAH（上市許可持有人）最終負責，但 CDMO 的設計輸入與製程控制直接影響這些風險能否被有效緩解。</p>
+            <h4> Key Notes</h4>
+            <p>，。（CDMO ）——MAH（）， CDMO 。</p>
         </div>
         <div class="figure-container">
             <img src="../figures/tbl-p27-1.png" alt="Table 4.6.2.2-1: Examples of Common Use-Related Hazards (PDF p27)" style="max-width:100%; border-radius:8px; border:1px solid #e2e8f0;">
-            <p class="figure-caption">Table 4.6.2.2-1 (PDF p27): 原始圖像供對照參考</p>
+            <p class="figure-caption">Table 4.6.2.2-1 (PDF p27): </p>
         </div>
     </div>
 </div>
@@ -1225,9 +1225,9 @@ tr:nth-child(even) {
     <table>
         <thead>
             <tr>
-                <th>Use Error 使用錯誤</th>
-                <th>Example of a Hazard 危害示例</th>
-                <th>Example of Harm(s) 傷害示例</th>
+                <th>Use Error </th>
+                <th>Example of a Hazard </th>
+                <th>Example of Harm(s) </th>
             </tr>
         </thead>
         <tbody>
@@ -1311,53 +1311,53 @@ tr:nth-child(even) {
 </div>
 
 <!-- ==================== SECTION 4.7 ==================== -->
-<div class="section-title"><strong>4.7 Formative Usability Evaluation 形成性使用性評估</strong></div>
+<div class="section-title"><strong>4.7 Formative Usability Evaluation </strong></div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
         <p>After the user and design requirements have been defined and the risk management documentation process has been initiated, the user interface design is integrated into the product design and then implemented. <span class="key-term">Formative human factors evaluations</span> assess the usability and use safety of the device, its packaging, labeling (including instructions for use), and training programs using product prototypes. The intent of formative usability studies is to optimize the user interface by "designing out" any usability problems or potential use-related hazards during the development of the product. The type and number of formative evaluations varies depending on the development effort and on the use-related risk analyses. The goal of this stage is to reduce use-related risks as much as is reasonably possible before the implementation of the design verification and summative/validation stage of development.</p>
         <p>A written study protocol and report provides the necessary documentation for each formative human factors evaluation. Typical content for the protocol includes a description of the scope and objectives of the study, as well as a description of the participants, use environment, and prototype product. In addition, the formative study report provides a description and evaluation of any variants (e.g., different rigid needle shields or different versions of the instructions for use) along with any actionable conclusions from the study noted. Using the results and analyses from the formative study report, the use-related risk analysis is updated accordingly to ensure that any new risks and risk mitigations are appropriately captured.</p>
         <p>According to human factors best practices, a formative human factors study typically includes a minimum of <span class="key-term">five to eight participants</span>.</p>
     </div>
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>Formative Usability Evaluation（形成性使用性評估）：</strong>在產品開發中期，使用原型（prototype）進行的迭代測試，目的是「設計優化」——找出問題並修正設計。</p>
-            <p>關鍵輸入：Use-FMEA 識別的高風險任務<br>
-            關鍵輸出：設計修改建議 + 更新的 Use-FMEA</p>
-            <p>每次形成性研究須有書面研究協議（study protocol）及研究報告（study report）。</p>
+            <h4> Key Concepts</h4>
+            <p><strong>Formative Usability Evaluation（）：</strong>，（prototype），「」——。</p>
+            <p>：Use-FMEA <br>
+            ： +  Use-FMEA</p>
+            <p>（study protocol）（study report）。</p>
         </div>
         <div class="analogy-box">
-            <h4>比喻說明 Analogy — CDMO 視角</h4>
-            <p>形成性評估 vs. 總結性測試，就像 CDMO 的 <strong>試製批（pilot run）vs. 製程驗證批（PPQ batch）</strong>：</p>
+            <h4> Analogy — CDMO </h4>
+            <p> vs. ， CDMO  <strong>（pilot run）vs. （PPQ batch）</strong>：</p>
             <ul>
-                <li><strong>Formative（形成性）</strong> = pilot run：反覆試做、反覆調整，目的是「找問題」並改善設計，允許失敗與迭代。測試對象是原型或早期樣品，最少 5–8 人。</li>
-                <li><strong>Summative（總結性）</strong> = PPQ batch：設計凍結後的正式驗證，目的是「證明設計可行」，結果須達到預設合格標準，使用正式生產等效品，每個使用族群 ≥ 15 人。</li>
+                <li><strong>Formative（）</strong> = pilot run：、，「」，。， 5–8 。</li>
+                <li><strong>Summative（）</strong> = PPQ batch：，「」，，， ≥ 15 。</li>
             </ul>
-            <p>試製批失敗可調整，PPQ 失敗則需偏差調查與重新驗證——代價截然不同。</p>
+            <p>，PPQ ——。</p>
         </div>
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p>形成性研究的參與者最少 5–8 人（業界慣例），但應涵蓋代表性使用族群。每次研究結束後，Use-FMEA 必須更新，以反映新識別的風險或已有效緩解的風險。</p>
+            <h4> Key Notes</h4>
+            <p> 5–8 （），。，Use-FMEA ，。</p>
         </div>
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>若形成性研究發現 60% 受試者無法正確啟動針頭安全裝置，下一步應採取什麼行動？</li>
-                <li>形成性研究的書面協議中，至少需包含哪些要素？</li>
+                <li> 60% ，？</li>
+                <li>，？</li>
             </ol>
         </div>
     </div>
 </div>
 
 <!-- ==================== SECTION 4.8 ==================== -->
-<div class="section-title"><strong>4.8 Summative/Validation Testing 總結性／驗證性測試</strong></div>
+<div class="section-title"><strong>4.8 Summative/Validation Testing ／</strong></div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
         <p>The <span class="key-term">summative/validation test</span> is intended to be the culmination of all prior HFE analyses and formative testing. At this point, modifications to the user interface and product design are complete based on the results of iterative testing. The product is ready for validation testing.</p>
         <p>With the appropriate design, execution, and acceptable results, the human factors summative/validation test provides evidence that the device is safe and effective for intended use. This decision is based on the following two considerations:</p>
         <ol>
@@ -1380,104 +1380,104 @@ tr:nth-child(even) {
         </ul>
     </div>
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>Summative/Validation Testing（總結性/驗證性測試）：</strong>設計凍結後的最終人因驗證，相當於 IQ/OQ/PQ 中的 PQ 概念——在最接近實際使用條件下，確認裝置可安全有效使用。</p>
-            <p>兩個關鍵判斷標準：</p>
+            <h4> Key Concepts</h4>
+            <p><strong>Summative/Validation Testing（/）：</strong>， IQ/OQ/PQ  PQ ——，。</p>
+            <p>：</p>
             <ul>
-                <li>代表性使用者成功完成所有必要任務與安全關鍵任務</li>
-                <li>不存在源於設計缺陷的使用錯誤模式</li>
+                <li></li>
+                <li></li>
             </ul>
         </div>
         <div class="analogy-box">
-            <h4>比喻說明 Analogy — PPQ 比喻延伸</h4>
-            <p>Summative testing 使用「生產等效品（production equivalent devices）」，就像 PPQ 批必須使用正式生產設備與工藝——不能用實驗室樣品替代。若測試期間發現缺陷並修改設計，就必須重新驗證，就如同 PPQ 批失敗後需調查根因、修正製程、重新執行 PPQ。</p>
+            <h4> Analogy — PPQ </h4>
+            <p>Summative testing 「（production equivalent devices）」， PPQ ——。，， PPQ 、、 PPQ。</p>
         </div>
         <div class="formula-box">
-            <h4>關鍵數字 Key Numbers</h4>
+            <h4> Key Numbers</h4>
             <pre>
-最低樣本數：
-  每個獨立使用族群 n ≥ 15 人
-  （例：患者族群 ≥ 15 人 + 護理師族群 ≥ 15 人）
+：
+   n ≥ 15 
+  （： ≥ 15  +  ≥ 15 ）
 
-訓練衰退期（Training Decay）：
-  每日使用裝置：≥ 30 分鐘
-  低頻使用裝置：≥ 1 天（或更長，模擬實際使用間隔）
+（Training Decay）：
+  ：≥ 30 
+  ：≥ 1 （，）
 
-Use Error 定義：
-  與製造商預期行為不符且可導致患者傷害的行為
-  或「不作為」（lack of action）
+Use Error ：
+  
+  「」（lack of action）
             </pre>
         </div>
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p><strong>Training Decay（訓練衰退）</strong>是 summative testing 設計的重要考量。若實際使用者收到訓練後幾週才開始注射，測試中讓受試者接受訓練後立即測試，會低估真實使用錯誤率，導致驗證結果失真。</p>
-            <p>Objective data = 觀察者直接記錄的任務完成行為；Subjective data = 受試者事後對自己行為的解釋（root cause analysis 的重要來源）。</p>
+            <h4> Key Notes</h4>
+            <p><strong>Training Decay（）</strong> summative testing 。，，，。</p>
+            <p>Objective data = ；Subjective data = （root cause analysis ）。</p>
         </div>
         <div class="concept-box application">
-            <h4>實務應用 CDMO Application</h4>
-            <p>對 CDMO 而言，summative testing 通常由客戶（MAH）委託 HFE 顧問執行，CDMO 的責任是確保提供給測試的 PFS 樣品是「production equivalent」——即使用正式生產管線、正式組件、正式充填工藝生產，並通過所有放行檢驗。若 CDMO 提供非代表性樣品（如試製批），會使測試結果無效。</p>
+            <h4> CDMO Application</h4>
+            <p> CDMO ，summative testing （MAH） HFE ，CDMO  PFS 「production equivalent」——、、，。 CDMO （），。</p>
         </div>
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>若 summative testing 中 15 位患者有 3 位無法完成「完整活塞押注」，應如何判斷該結果是否可接受？</li>
-                <li>測試報告中「詳細根因分析」對後續監管審查有何意義？</li>
+                <li> summative testing  15  3 「」，？</li>
+                <li>「」？</li>
             </ol>
         </div>
     </div>
 </div>
 
 <!-- ==================== SECTION 4.9 ==================== -->
-<div class="section-title"><strong>4.9 Labeling 標籤</strong></div>
+<div class="section-title"><strong>4.9 Labeling </strong></div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
         <p><span class="key-term">Labeling</span> includes device labels, instructions for use, information provided on the device, package inserts, package labels, and any accompanying informational materials. Labeling is considered part of the <span class="key-term">product user interface</span>. As with the device design, labeling development starts with characterization of the user and use environment. It is important to consider the physical and cognitive abilities of users, as well as the limitations of the environment during label development, especially for self-administered devices. The workload or stress level of the user population should be a consideration because these can limit users' ability to understand and remember complex, multistep instructions.</p>
         <p>Consider using several best-practice principles when developing instructional materials to ensure that the layout, content, and organization support safe and effective use of the device. <span class="key-term">Use short, declarative, active-voice sentences</span> to describe specific tasks for users. Enhance user instructions further with additional graphics or diagrams.</p>
         <p>The use of formative evaluations can ensure that product labeling is ready for validation. As previously noted in Section 4.7, this can include expert reviews as well as testing with representative users. Warnings and other risk mitigations implemented as part of labeling can also be evaluated. Finally, labeling represents a part of the user interface and is included in summative/validation testing to confirm safe and effective use. Information such as warnings and precautions are considered <span class="key-term">critical tasks</span> and tested through assessments of users' ability to read and understand the information.</p>
     </div>
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>Labeling（標籤）的廣義定義：</strong>不只是瓶身標籤，而是涵蓋所有使用者可接觸到的資訊介面：</p>
+            <h4> Key Concepts</h4>
+            <p><strong>Labeling（）：</strong>，：</p>
             <ul>
-                <li>Device label（裝置標籤）</li>
-                <li>Instructions for Use, IFU（使用說明書）</li>
-                <li>Package insert（仿單）</li>
-                <li>Package label（外盒標籤）</li>
-                <li>附帶資訊材料（如快速參考卡）</li>
+                <li>Device label（）</li>
+                <li>Instructions for Use, IFU（）</li>
+                <li>Package insert（）</li>
+                <li>Package label（）</li>
+                <li>（）</li>
             </ul>
-            <p>標籤是使用者介面（User Interface）的一部分，同樣需要 HFE 方法設計與驗證。</p>
+            <p>（User Interface）， HFE 。</p>
         </div>
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>藥品標籤就像飛機的緊急逃生說明卡：必須在高壓、慌亂的情境下讓從未操作過的人能立即理解並執行。若說明太複雜、字體太小、缺乏圖示，使用者在緊急情況下根本無法遵循——設計再好的裝置也救不了誤讀說明書造成的錯誤。</p>
+            <h4> Analogy</h4>
+            <p>：、。、、，——。</p>
         </div>
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p>標籤撰寫的最佳實踐：<strong>短句 + 主動語態 + 具體動作詞</strong>。例如：「用拇指和食指握住針管」優於「確保注射器以適當方式持握」。</p>
-            <p>警語（warnings）和注意事項（precautions）在 summative testing 中被視為「critical tasks」，測試方式是評估使用者閱讀後是否能正確理解並說出其含義（labeling comprehension assessment）。</p>
+            <h4> Key Notes</h4>
+            <p>：<strong> +  + </strong>。：「」「」。</p>
+            <p>（warnings）（precautions） summative testing 「critical tasks」，（labeling comprehension assessment）。</p>
         </div>
         <div class="concept-box application">
-            <h4>實務應用 CDMO Application</h4>
-            <p>CDMO 在確認 artwork（版稿）及 IFU 時，應確認：</p>
+            <h4> CDMO Application</h4>
+            <p>CDMO  artwork（） IFU ，：</p>
             <ul>
-                <li>字體大小符合可讀性要求（尤其老年患者族群）</li>
-                <li>步驟圖示清晰且與實際操作對應</li>
-                <li>警語位置顯著，不被其他資訊淹沒</li>
-                <li>標籤內容是否已通過 formative evaluation 或 labeling comprehension testing</li>
+                <li>（）</li>
+                <li></li>
+                <li>，</li>
+                <li> formative evaluation  labeling comprehension testing</li>
             </ul>
-            <p>這些要求應納入 CDMO 與客戶的技術協議（Technical Agreement）中明確分工。</p>
+            <p> CDMO （Technical Agreement）。</p>
         </div>
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>一個居家自行注射的類風濕性關節炎患者，其標籤設計需特別考慮哪些認知與生理限制？</li>
-                <li>若 summative testing 中有受試者未注意到關鍵警語，這對標籤設計意味著什麼？</li>
+                <li>，？</li>
+                <li> summative testing ，？</li>
             </ol>
         </div>
     </div>
@@ -1485,14 +1485,14 @@ Use Error 定義：
 
 <!-- SECTION SUMMARY -->
 <div class="learning-objectives" style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);">
-    <h3>本節重點回顧 Section 4 (Part B) Summary</h3>
+    <h3> Section 4 (Part B) Summary</h3>
     <ul>
-        <li><strong>4.5 設計需求：</strong>使用者需求必須轉化為可量化、可驗證的工程設計需求；數據來源包括人體測量數據及產品標準。</li>
-        <li><strong>4.6 風險管理：</strong>使用相關風險分析（Use-FMEA）涵蓋危害識別（文獻/實證/分析三路徑）、嚴重度/發生率/可偵測性評估，以及依優先順序選擇緩解策略。</li>
-        <li><strong>4.6.2.1 任務分類：</strong>必要任務（Essential）與安全關鍵任務（Safety-Critical）是 summative testing 的核心測試對象；裝置相依任務由設計直接控制。</li>
-        <li><strong>4.7 形成性評估：</strong>使用原型、反覆迭代、最少 5–8 人；目的是「設計優化」，類比 CDMO 的 pilot run。</li>
-        <li><strong>4.8 總結性測試：</strong>設計凍結後用生產等效品進行正式驗證；每使用族群 n ≥ 15 人；結果驅動 Use-FMEA 最終版本，類比 CDMO 的 PPQ。</li>
-        <li><strong>4.9 標籤：</strong>標籤是使用者介面的組成部分，需 HFE 方法設計；警語理解度是 summative testing 中的 critical task。</li>
+        <li><strong>4.5 ：</strong>、；。</li>
+        <li><strong>4.6 ：</strong>（Use-FMEA）（//）、//，。</li>
+        <li><strong>4.6.2.1 ：</strong>（Essential）（Safety-Critical） summative testing ；。</li>
+        <li><strong>4.7 ：</strong>、、 5–8 ；「」， CDMO  pilot run。</li>
+        <li><strong>4.8 ：</strong>； n ≥ 15 ； Use-FMEA ， CDMO  PPQ。</li>
+        <li><strong>4.9 ：</strong>， HFE ； summative testing  critical task。</li>
     </ul>
 </div>
 

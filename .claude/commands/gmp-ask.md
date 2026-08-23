@@ -11,15 +11,15 @@ The user has asked: **$ARGUMENTS**
 Before searching, analyse the user's question:
 
 **A) Translate lay terms to technical terms** if needed:
-- "過濾器有沒有破損 / filter broken / filter leak" → "integrity test", "bubble point", "diffusive flow"
-- "培養基充填 / 無菌製程模擬 / media fill / APS" → "media fill", "APS", "aseptic process simulation"
-- "如何證明製程穩定 / 製程驗證" → "process validation", "CPV", "continued process verification"
-- "一次性 / 拋棄式系統" → "single-use", "SUS", "disposable"
-- "隔離器 / 屏障系統 / RABS" → "RABS", "isolator", "barrier system"
-- "預充填針 / 預填充注射器" → "prefilled syringe"
-- "細胞治療 / 基因治療 / 先進療法" → "ATMP", "cell therapy", "gene therapy"
-- "優良運銷規範 / 配送管理" → "GDP", "good distribution practices", "cold chain"
-- "污染控制策略" → "CCS", "contamination control strategy"
+- " / filter broken / filter leak" → "integrity test", "bubble point", "diffusive flow"
+- " /  / media fill / APS" → "media fill", "APS", "aseptic process simulation"
+- " / " → "process validation", "CPV", "continued process verification"
+- " / " → "single-use", "SUS", "disposable"
+- " /  / RABS" → "RABS", "isolator", "barrier system"
+- " / " → "prefilled syringe"
+- " /  / " → "ATMP", "cell therapy", "gene therapy"
+- " / " → "GDP", "good distribution practices", "cold chain"
+- "" → "CCS", "contamination control strategy"
 - Apply this reasoning to any other lay language the user uses.
 
 **B) Classify the question type:**
@@ -121,7 +121,7 @@ After answering, check: was this question's topic found in `knowledge/INDEX-rout
 
 **If NOT found** AND the answer drew from 2+ reports:
 1. Add a new row to the appropriate category table in `knowledge/INDEX-router.md`, with ★★★/★★ reports and section hints
-2. Also add a Cross-Report Topic entry to `knowledge/INDEX.md` following the existing format: `**Topic (中文)** → Report ★★★ (angle) | Report ★★ (angle)`
+2. Also add a Cross-Report Topic entry to `knowledge/INDEX.md` following the existing format: `**Topic ()** → Report ★★★ (angle) | Report ★★ (angle)`
 3. Notify the user: `Added to router: "[topic]" → [reports with section hints].`
 
 Keep entries concise. Use the same ★★★/★★/★ rating convention as existing entries.

@@ -71,6 +71,6 @@ git add ISPE/ISPE-XXX/ reports.json knowledge/ && git commit -m "Add ISPE-XXX: [
 
 ## Notes
 
-- **ISPE-Vol5** has two PDFs: English original (`ISPE volume 5 Commissioning & Qualification 2nd Edition(正).pdf`) and a Chinese translation (`ISPE Baseline Guide vol5 2nd edition C and Q translated by 426.pdf`). Use Chinese translation as a reference aid for generating Chinese commentary — do not use it as primary source.
+- **ISPE-Vol5** has two PDFs: English original (`ISPE volume 5 Commissioning & Qualification 2nd Edition().pdf`) and a Chinese translation (`ISPE Baseline Guide vol5 2nd edition C and Q translated by 426.pdf`). Use Chinese translation as a reference aid for generating Chinese commentary — do not use it as primary source.
 - **ISPE-Vol3** has two PDFs: the main Baseline Vol.3 and a 2011 version (`ISPE Sterile product manufacturing facilities_2011.pdf`). Use the main version; 2011 version is for historical reference.
 - **ISPE-GAMP5**: 2nd edition (2022) obtained and in progress.

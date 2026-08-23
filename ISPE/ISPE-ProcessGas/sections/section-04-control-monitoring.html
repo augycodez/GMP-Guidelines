@@ -439,7 +439,7 @@ body {
     font-size: 0.92rem !important;
 }
 
-/* ===== ANALOGY BOX (Yellow) - 比喻說明 ===== */
+/* ===== ANALOGY BOX (Yellow) -  ===== */
 .analogy-box,
 .concept-box[class*="analogy"],
 .concept-box.analogy,
@@ -453,7 +453,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #856404 !important;
 }
 
-/* ===== TERM/CONCEPT BOX (Green) - 核心概念 ===== */
+/* ===== TERM/CONCEPT BOX (Green) -  ===== */
 .term-box,
 .key-term-box,
 .concept-box:not([class*="analogy"]):not([class*="note"]):not([class*="formula"]):not([class*="practice"]):not([class*="highlight"]):not(.analogy):not(.application) {
@@ -468,7 +468,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #2e7d32 !important;
 }
 
-/* ===== NOTE/HIGHLIGHT BOX (Orange) - 重點提示 ===== */
+/* ===== NOTE/HIGHLIGHT BOX (Orange) -  ===== */
 .note-box,
 .key-note,
 .key-point-box,
@@ -487,7 +487,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #c65102 !important;
 }
 
-/* ===== FORMULA BOX (Purple) - 公式計算 ===== */
+/* ===== FORMULA BOX (Purple) -  ===== */
 .formula-box,
 .concept-box[class*="formula"] {
     background: var(--purple-bg) !important;
@@ -522,7 +522,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #1565c0 !important;
 }
 
-/* ===== PRACTICE BOX (Blue dashed) - 練習思考 ===== */
+/* ===== PRACTICE BOX (Blue dashed) -  ===== */
 .practice-box {
     background: linear-gradient(135deg, #e8f4fd 0%, #d1e9ff 100%) !important;
     border: 2px dashed #3182ce !important;
@@ -947,29 +947,29 @@ tr:nth-child(even) {
 <!-- SECTION HEADER -->
 <div class="header">
     <h1>Chapter 6: Design Options — Control &amp; Monitoring Systems</h1>
-    <div class="subtitle">第六章：管控與監測系統設計選項</div>
+    <div class="subtitle">：</div>
     <div class="page-info">ISPE Good Practice Guide: Process Gases | p69–p80</div>
 </div>
 
 <!-- LEARNING OBJECTIVES -->
 <div class="main-content">
 <div class="learning-objectives">
-    <h3>本章學習目標</h3>
+    <h3></h3>
     <ul>
-        <li>理解製程氣體管控系統的三大類別：壓縮空氣系統、鋼瓶系統、現場產氣與槽儲系統，及各自的控制邏輯</li>
-        <li>掌握品質監測的核心參數：壓力、露點（水分）、微生物、微粒、碳氫化合物，並了解每項參數為何對藥廠製程至關重要</li>
-        <li>了解取樣策略設計原則：POU取樣位置、過濾器前後的選擇依據，以及樣品代表性的確認方法</li>
-        <li>熟悉各種水分監測技術（冷鏡、電解、阻抗、高分子薄膜）的原理與適用場合</li>
-        <li>連結CDMO實務：製程氣體OOS事件如何觸發批次偏差調查，並影響放行決策</li>
+        <li>：、、，</li>
+        <li>：、（）、、、，</li>
+        <li>：POU、，</li>
+        <li>（、、、）</li>
+        <li>CDMO：OOS，</li>
     </ul>
 </div>
 
 <!-- ==================== 6.1 INTRODUCTION ==================== -->
-<div class="section-title">6.1 Introduction — 導論</div>
+<div class="section-title">6.1 Introduction — </div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text <span class="source-badge">ISPE</span></h2>
+        <h2> Original Text <span class="source-badge">ISPE</span></h2>
 
         <p><span class="key-term">Control and monitoring systems</span> may act as a risk mitigation tool in process gas systems.</p>
 
@@ -977,40 +977,40 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>管控與監測系統 (Control and Monitoring Systems):</strong> 這章的核心主張是：監測系統本身就是風險緩解工具。換言之，即便氣體品質偶爾波動，只要能即時偵測並觸發響應（自動關閥、發出警報、啟動備用設備），就能防止不合規氣體流入製程。</p>
-            <p><strong>所有權差異的重要性：</strong> 壓縮空氣系統由工廠自有，儀器校正、維護、文件都在廠內GMP體系下管理。製程氣體（N₂、CO₂、Ar）通常租自氣體供應商——他們有自己的控制系統，但廠方仍須確保這些系統的告警信號能接入廠內監控。</p>
+            <h4> Key Concepts</h4>
+            <p><strong> (Control and Monitoring Systems):</strong> ：。，，（、、），。</p>
+            <p><strong>：</strong> ，、、GMP。（N₂、CO₂、Ar）——，。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>這個所有權區分就像大樓的電力系統（工廠自有、自管）vs 外租的備用發電機（廠商維護，但你需要知道它的電量與故障信號）。兩者都要能接入你的中央控制室，才能完整掌握廠務安全。</p>
+            <h4> Analogy</h4>
+            <p>（、）vs （，）。，。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p>當製程氣體由外部供應商提供時，廠方可能需要<strong>複製安裝監測儀表</strong>（duplicate monitoring instruments），目的是：(1) 讓氣體供應商用他自己的標準儀器；(2) 廠方用自己管理校正的儀器，確保數據符合GMP文件要求。兩套儀器並行，不互相依賴。</p>
+            <h4> Key Notes</h4>
+            <p>，<strong></strong>（duplicate monitoring instruments），：(1) ；(2) ，GMP。，。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>如果氣體供應商的控制系統發出警報，但廠方BMS沒有接收到信號，可能的後果是什麼？</li>
-                <li>為什麼廠方要自行管理監測儀表的校正，而不完全依賴氣體供應商的數據？</li>
+                <li>，BMS，？</li>
+                <li>，？</li>
             </ol>
         </div>
     </div>
 </div>
 
 <!-- ==================== 6.2 CONTROL SYSTEMS ==================== -->
-<div class="section-title">6.2 Control Systems — 管控系統</div>
+<div class="section-title">6.2 Control Systems — </div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text <span class="source-badge">ISPE</span></h2>
+        <h2> Original Text <span class="source-badge">ISPE</span></h2>
 
         <p>There are three categories of system which are controlled:</p>
         <ul>
@@ -1052,60 +1052,60 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>三類系統的管控邏輯差異：</strong></p>
+            <h4> Key Concepts</h4>
+            <p><strong>：</strong></p>
             <ul>
-                <li><strong>壓縮空氣系統：</strong> 廠方完整擁有，從壓縮機到乾燥機到配管都需納入GMP體系。控制邏輯以「維持最低出口壓力」為核心。</li>
-                <li><strong>鋼瓶系統：</strong> 最簡單——人工切換或自動切換。管理重點是確保備用鋼瓶在位、壓力低點告警能傳遞到值班人員或BMS。</li>
-                <li><strong>現場產氣/大型槽儲：</strong> 複雜度最高，通常由氣體公司遠程監控，廠方需整合其告警信號到自己的BMS或DCS。</li>
+                <li><strong>：</strong> ，GMP。「」。</li>
+                <li><strong>：</strong> ——。、BMS。</li>
+                <li><strong>/：</strong> ，，BMSDCS。</li>
             </ul>
         </div>
 
         <div class="concept-box">
-            <h4>露點控制換向 vs 計時換向</h4>
-            <p>乾燥機雙塔切換有兩種邏輯：</p>
+            <h4> vs </h4>
+            <p>：</p>
             <ul>
-                <li><strong>計時換向（Timer-based）：</strong> 固定時間切換，簡單但不考慮實際乾燥效果，可能提前切換（浪費能源）或延遲切換（露點惡化）。</li>
-                <li><strong>露點換向（Dewpoint-controlled）：</strong> 偵測出口露點，只在實際需要時才切換，更節能、更穩定。ISPE明確指出此方式更佳。</li>
+                <li><strong>（Timer-based）：</strong> ，，（）（）。</li>
+                <li><strong>（Dewpoint-controlled）：</strong> ，，、。ISPE。</li>
             </ul>
-            <p>關鍵安全邏輯：若露點監測器發出警報，應自動關閉下游閥門，防止潮濕空氣進入配管。</p>
+            <p>：，，。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>手動換鋼瓶就像手動加油站——你要自己去確認油量低了再換。自動切換系統則像現代汽車油箱：油位低自動亮燈，且在舊桶用完前就已切換到備用桶，不間斷供應。對於藥廠的連續製程，自動切換是基本要求，否則氣體中斷可能直接造成批次失敗。</p>
+            <h4> Analogy</h4>
+            <p>——。：，，。，，。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes — LEL 爆炸下限</h4>
-            <p><strong>Lower Explosive Limit (LEL，爆炸下限)：</strong> 可燃性氣體（如氫氣）在空氣中達到某濃度時才會爆炸，LEL是最低引爆濃度。例如氫氣LEL約4%（v/v）。</p>
-            <p>N₂和CO₂本身不可燃，但高濃度會造成<strong>缺氧窒息</strong>危害，需要氧氣不足警報（O₂ deficiency alarm）而非LEL警報。這是CDMO安全管理上的常見誤解——必須根據氣體特性選擇正確的安全監測類型。</p>
+            <h4> Key Notes — LEL </h4>
+            <p><strong>Lower Explosive Limit (LEL，)：</strong> （），LEL。LEL4%（v/v）。</p>
+            <p>N₂CO₂，<strong></strong>，（O₂ deficiency alarm）LEL。CDMO——。</p>
         </div>
 
         <div class="practice-box" style="border-style:solid; background:linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-color:#22c55e;">
-            <h4>實務應用 CDMO Application</h4>
-            <p>在CDMO的無菌充填廠，N₂覆蓋（nitrogen blanketing）用於防止配方氧化。若N₂鋼瓶採用手動切換且未及時更換，導致N₂供應中斷，充填腔體可能進入空氣，造成O₂濃度上升、產品氧化降解——這是一個直接影響批次品質的OOS事件，需要完整偏差調查。</p>
+            <h4> CDMO Application</h4>
+            <p>CDMO，N₂（nitrogen blanketing）。N₂，N₂，，O₂、——OOS，。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>在設計階段未考慮BMS整合，日後要補接氣體系統告警信號，會面臨哪些驗證文件上的挑戰？</li>
-                <li>露點換向乾燥機（dewpoint-controlled）和計時換向乾燥機在GMP文件記錄上有何差異？哪種更容易舉證合規？</li>
+                <li>BMS，，？</li>
+                <li>（dewpoint-controlled）GMP？？</li>
             </ol>
         </div>
     </div>
 </div>
 
 <!-- ==================== 6.3 MONITORING - OPERATIONAL PARAMETERS ==================== -->
-<div class="section-title">6.3.1 Operational Parameter Monitoring — 操作參數監測</div>
+<div class="section-title">6.3.1 Operational Parameter Monitoring — </div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text <span class="source-badge">ISPE</span></h2>
+        <h2> Original Text <span class="source-badge">ISPE</span></h2>
 
         <p><span class="key-term">Pressure</span> is often categorized as a <span class="key-term">CPP (Critical Process Parameter)</span> for a process gas system, usually introducing a concomitant calibration and monitoring regime.</p>
 
@@ -1127,54 +1127,54 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>壓力：是CPP還是工程參數？</strong> 這是ISPE提出的一個重要觀點。傳統上許多廠房把供氣幹管壓力列為CPP，配上嚴格的校正計畫。但ISPE認為，幹管壓力只是「大方向」指標，真正重要的是<strong>每個使用點（POU, Point of Use）</strong>的入口壓力。</p>
-            <p><strong>邏輯推論：</strong> 幹管壓力正常，不代表最遠端POU的壓力足夠（因為有壓降）。因此，真正的關鍵是在設備入口安裝壓力開關，直接監測設備可用的氣體壓力。</p>
+            <h4> Key Concepts</h4>
+            <p><strong>：CPP？</strong> ISPE。CPP，。ISPE，「」，<strong>（POU, Point of Use）</strong>。</p>
+            <p><strong>：</strong> ，POU（）。，，。</p>
         </div>
 
         <div class="formula-box">
-            <h4>公式與計算 Formula</h4>
+            <h4> Formula</h4>
             <pre>
-壓力分配設計邏輯：
+：
 
-幹管設計壓力 = 最遠端POU需求壓力
-             + 管路壓降（由流量、管徑計算）
-             + 安全裕度
+ = POU
+             + （、）
+             + 
 
-Peak usage 壓降需以最大同時使用量計算
-（diversity factor 多樣性係數）
+Peak usage 
+（diversity factor ）
             </pre>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>幹管壓力就像城市自來水主幹管的水壓——市政局知道主幹壓力正常，但你家頂層浴室的水壓夠不夠，要看你家的供水設計。製程氣體也一樣：關鍵在於每個設備「入口」的壓力，而非系統層面的幹管壓力。</p>
+            <h4> Analogy</h4>
+            <p>——，，。：「」，。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p>ISPE這個建議具有實質的成本含義：把幹管壓力降級為「工程參數」，可以減少校正負擔（calibration burden）和文件要求。但這需要在URS（用戶需求規格）中明確說明，並在DQ/IQ/OQ文件中留下完整的風險評估理由。若監管機構在查廠時提問，廠方需能清楚說明為何不將幹管壓力視為CPP。</p>
+            <h4> Key Notes</h4>
+            <p>ISPE：「」，（calibration burden）。URS（），DQ/IQ/OQ。，CPP。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>如果你的無菌充填機需要最低5 bar N₂入口壓力，你會在哪個位置安裝壓力開關？警報下限設在幾bar比較合理？</li>
-                <li>在peak usage期間（多台設備同時用氣），如何確認幹管壓力不會因壓降過大而影響最遠端設備？</li>
+                <li>5 bar N₂，？bar？</li>
+                <li>peak usage（），？</li>
             </ol>
         </div>
     </div>
 </div>
 
 <!-- ==================== 6.3.2 QUALITY MONITORING ==================== -->
-<div class="section-title">6.3.2 Quality Monitoring — 品質監測</div>
+<div class="section-title">6.3.2 Quality Monitoring — </div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text <span class="source-badge">ISPE</span></h2>
+        <h2> Original Text <span class="source-badge">ISPE</span></h2>
 
         <p><span class="key-term">Quality monitoring</span> is required at POUs located in controlled room environments. Regulations require that the particulate and microbiological quality of the compressed gas be equal to or better than that of the air in the environment into which the gas is introduced (at rest). (See Eudralex Volume 4 Annex-1, 2004; 21 CFR Part 210.)</p>
 
@@ -1194,60 +1194,60 @@ Peak usage 壓降需以最大同時使用量計算
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>品質等同原則（Quality Equivalence Principle）：</strong> 製程氣體進入潔淨室時，其微粒與微生物品質必須<strong>等於或優於</strong>所在潔淨室的靜態等級。例如在ISO 5 / EU Grade A環境下操作，送入的N₂品質也必須達到ISO 5等級。這是Annex 1和21 CFR Part 210的明確要求。</p>
-            <p><strong>Water Activity (水活性, aw):</strong> 表示系統中可供微生物利用的「自由水」量。aw = 1 為純水，aw &lt; 0.6 幾乎沒有生物能存活。乾燥氣體（低露點）的aw接近0，理論上不利於微生物生長——但這不等於無菌！</p>
+            <h4> Key Concepts</h4>
+            <p><strong>（Quality Equivalence Principle）：</strong> ，<strong></strong>。ISO 5 / EU Grade A，N₂ISO 5。Annex 121 CFR Part 210。</p>
+            <p><strong>Water Activity (, aw):</strong> 「」。aw = 1 ，aw &lt; 0.6 。（）aw0，——！</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes — 內孢子的威脅</h4>
-            <p><strong>Endospores (內孢子/芽孢)：</strong> 這是理解乾燥氣體微生物風險的關鍵。芽孢桿菌（Bacillus）等細菌在惡劣環境下形成芽孢，可在極端乾燥、高溫、輻射條件下存活數十年。</p>
-            <p>換言之：乾燥氣體可以<strong>抑制微生物生長</strong>，但無法<strong>殺滅</strong>芽孢。一旦氣體到達有水分、有營養的環境（如產品），芽孢可能復活。這就是為何產品接觸型氣體必須使用0.2 µm滅菌級過濾器，而不能僅靠低露點來保證微生物安全。</p>
+            <h4> Key Notes — </h4>
+            <p><strong>Endospores (/)：</strong> 。（Bacillus），、、。</p>
+            <p>：<strong></strong>，<strong></strong>。、（），。0.2 µm，。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>芽孢就像植物的種子：在沙漠裡（乾燥氣體中）靜止不動，一旦遇水（產品中的水分）就會發芽生長。乾燥的管路好比沙漠，種子在裡面不生長，但並未消失。0.2 µm過濾器才是真正的「擋種子」屏障。</p>
+            <h4> Analogy</h4>
+            <p>：（），（）。，，。0.2 µm「」。</p>
         </div>
 
         <div class="formula-box">
-            <h4>微生物生長界限 Water Activity Thresholds</h4>
+            <h4> Water Activity Thresholds</h4>
             <pre>
-aw &lt; 0.60  →  黴菌、酵母菌無法生長（Molds &amp; Yeasts）
-aw &lt; 0.85  →  一般細菌無法生長（Most Bacteria）
-aw &lt; 0.91  →  大部分致病菌無法生長
+aw &lt; 0.60  →  、（Molds &amp; Yeasts）
+aw &lt; 0.85  →  （Most Bacteria）
+aw &lt; 0.91  →  
 
-關係換算：
+：
 RH (%) = aw × 100
-aw = 0.6 約等於 RH 60%
-極低露點（如 -40°C dp）→ RH &lt;1% → aw &lt;&lt; 0.01
+aw = 0.6  RH 60%
+（ -40°C dp）→ RH &lt;1% → aw &lt;&lt; 0.01
             </pre>
         </div>
 
         <div class="practice-box" style="border-style:solid; background:linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-color:#22c55e;">
-            <h4>實務應用 CDMO Application</h4>
-            <p>在無菌充填線（aseptic filling line）的N₂覆蓋設計中：最終使用點（POU）應安裝0.2 µm滅菌過濾器，並定期進行完整性測試（integrity test）。微生物監測取樣點應設在過濾器上游（pre-filter），因為過濾器後取樣可能因取樣行為本身引入污染風險（暴露了已滅菌的流路）。這與ISPE 6.3.2的取樣策略討論直接對應。</p>
+            <h4> CDMO Application</h4>
+            <p>（aseptic filling line）N₂：（POU）0.2 µm，（integrity test）。（pre-filter），（）。ISPE 6.3.2。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>你的廠使用N₂進行無菌充填的氣體覆蓋，且依賴低露點（-60°C）控制微生物風險。FDA查廠官員問你「你如何確保芽孢不會污染產品？」你如何回答？</li>
-                <li>非無菌口服液製程中的CO₂充填用氣，需要監測微生物嗎？如果需要，監測哪類微生物？</li>
+                <li>N₂，（-60°C）。FDA「？」？</li>
+                <li>CO₂，？，？</li>
             </ol>
         </div>
     </div>
 </div>
 
 <!-- ==================== 6.3.2.1 TEST METHOD CONSIDERATIONS ==================== -->
-<div class="section-title">6.3.2.1 Test Method Considerations — 測試方法考量</div>
+<div class="section-title">6.3.2.1 Test Method Considerations — </div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text <span class="source-badge">ISPE</span></h2>
+        <h2> Original Text <span class="source-badge">ISPE</span></h2>
 
         <p>Test method(s) normally depend on the types of microorganisms that are desired to be detected. Factors that should be considered include the:</p>
         <ul>
@@ -1283,67 +1283,67 @@ aw = 0.6 約等於 RH 60%
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>取樣位置策略（Sampling Location Strategy）：</strong> ISPE的關鍵建議是將取樣點設在最終滅菌過濾器「上游」（before the final sterile filter）。原因有二：</p>
+            <h4> Key Concepts</h4>
+            <p><strong>（Sampling Location Strategy）：</strong> ISPE「」（before the final sterile filter）。：</p>
             <ul>
-                <li>過濾器上游的氣體品質 = 過濾器下游的品質（因為0.2 µm過濾器截留所有微粒和微生物）</li>
-                <li>在過濾器下游取樣，每次取樣都會打開已滅菌流路，引入外部污染風險——這是重複性的製程風險，不可接受。</li>
+                <li> = （0.2 µm）</li>
+                <li>，，——，。</li>
             </ul>
-            <p><strong>最長管路（Longest Pipe Run）：</strong> 封閉管路系統的污染主要來自管路內部（管材、焊接點、滯留液體），因此最長管路的終端最可能累積問題，是最具挑戰性的取樣點。</p>
+            <p><strong>（Longest Pipe Run）：</strong> （、、），，。</p>
         </div>
 
         <div class="concept-box">
-            <h4>好氧 vs 厭氧微生物監測</h4>
-            <p>這是容易忽視的細節：</p>
+            <h4> vs </h4>
+            <p>：</p>
             <ul>
-                <li><strong>壓縮空氣、O₂供應：</strong> 環境含氧，監測<strong>好氧菌（aerobic microorganisms）</strong></li>
-                <li><strong>N₂、CO₂、Ar供應：</strong> 低氧環境，監測<strong>厭氧菌（anaerobic microorganisms）</strong></li>
-                <li>ISPE特別指出：性能測試期間若確認無好氧菌，常規監測可只看厭氧菌（低氧氣體系統）。這是科學化的降負荷設計，但需要文件支持。</li>
+                <li><strong>、O₂：</strong> ，<strong>（aerobic microorganisms）</strong></li>
+                <li><strong>N₂、CO₂、Ar：</strong> ，<strong>（anaerobic microorganisms）</strong></li>
+                <li>ISPE：，（）。，。</li>
             </ul>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes — 取樣體積</h4>
-            <p>ISO 14644-1規定ISO 5環境的微粒取樣體積為0.7 m³。製程氣體品質需達到ISO 5等級的系統，應以相同體積取樣，確保統計可信度。</p>
-            <p>注意：ISO 8573-7（壓縮空氣微生物標準）建議用1 m³，但業界實際採用並不廣泛。對於日常監測，較小體積（如1立方英尺）也被接受，但初始驗證測試應使用較大體積。</p>
+            <h4> Key Notes — </h4>
+            <p>ISO 14644-1ISO 50.7 m³。ISO 5，，。</p>
+            <p>：ISO 8573-7（）1 m³，。，（1），。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>在最終過濾器後取樣就像：醫護人員剛完成手術器械滅菌，然後打開包裝來「檢驗」是否無菌——每次開包就是一次污染機會。正確做法是在滅菌前確認品質，以及定期對過濾器本身做完整性測試，而非在使用中反覆取樣。</p>
+            <h4> Analogy</h4>
+            <p>：，「」——。，，。</p>
         </div>
 
         <div class="practice-box" style="border-style:solid; background:linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-color:#22c55e;">
-            <h4>實務應用 CDMO Application — OOS事件處理</h4>
-            <p>假設你的N₂微生物監測在最長管路取樣點偵測到厭氧菌超出行動限（Action Limit），CDMO的標準響應流程：</p>
+            <h4> CDMO Application — OOS</h4>
+            <p>N₂（Action Limit），CDMO：</p>
             <ol>
-                <li><strong>立即隔離：</strong> 停止使用該管路氣體，評估批次衝擊</li>
-                <li><strong>根本原因調查：</strong> 檢查過濾器完整性、管路死角、最近維護記錄</li>
-                <li><strong>批次衝擊評估：</strong> 問「是否有產品接觸到此氣體？」、「過濾器是否在位且完好？」</li>
-                <li><strong>整改：</strong> 管路消毒/清洗、過濾器更換，並重新取樣確認</li>
-                <li><strong>文件：</strong> 完整偏差報告、CAPA，必要時報告給客戶和監管機構</li>
+                <li><strong>：</strong> ，</li>
+                <li><strong>：</strong> 、、</li>
+                <li><strong>：</strong> 「？」、「？」</li>
+                <li><strong>：</strong> /、，</li>
+                <li><strong>：</strong> 、CAPA，</li>
             </ol>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>你廠有三條N₂使用點管路，長度分別為10m、50m、120m。常規微生物監測應重點監測哪條管路？為什麼？</li>
-                <li>製程氣體配管系統「未進行環境等級分類」這句話的實際意涵是什麼？代表可以放寬監測要求嗎？</li>
+                <li>N₂，10m、50m、120m。？？</li>
+                <li>「」？？</li>
             </ol>
         </div>
     </div>
 </div>
 
 <!-- ==================== 6.3.2.2 MICROBIAL MONITORING ==================== -->
-<div class="section-title">6.3.2.2 Microbial Monitoring — 微生物監測方法</div>
+<div class="section-title">6.3.2.2 Microbial Monitoring — </div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text <span class="source-badge">ISPE</span></h2>
+        <h2> Original Text <span class="source-badge">ISPE</span></h2>
 
         <p>Methods existing for monitoring environments may be extended to monitor process gases. The recovery medium for the microorganisms should include the growth media used in the environmental monitoring program for room air, surfaces, and personnel (PDA Technical Report No. 13), as a minimum. The medium should include the demonstrated ability to support the growth of a variety of bacteria and fungi.</p>
 
@@ -1380,40 +1380,40 @@ aw = 0.6 約等於 RH 60%
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p><strong>明膠膜（Gelatin membrane filter）不適用壓縮氣體：</strong> 明膠遇到乾燥高壓氣流會脆化甚至破裂，造成取樣失敗或假陰性，這是一個必須避免的選材錯誤。在驗證取樣方法時，應明確確認所用濾材對目標菌種無抑制作用（菌回收率驗證, recovery validation）。</p>
-            <p><strong>0.45 µm vs 0.2 µm：</strong> 環境微生物監測用0.45 µm（截留細菌），而不是0.2 µm——因為0.2 µm流阻大，取樣流量低，取樣時間過長。</p>
+            <h4> Key Notes</h4>
+            <p><strong>（Gelatin membrane filter）：</strong> ，，。，（, recovery validation）。</p>
+            <p><strong>0.45 µm vs 0.2 µm：</strong> 0.45 µm（），0.2 µm——0.2 µm，，。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>四種方法就像四種捕魚方式：衝擊法（撒大網）效率高但設備笨重；離心法（捕魚桶）輕巧靈活；過濾法（魚網）便宜可批量部署；液體衝擊法（魚缸過濾）可捕捉最脆弱的魚（vegetative cells），但玻璃設備易破。選擇哪種，取決於你要捕的「魚」種類和取樣點數量。</p>
+            <h4> Analogy</h4>
+            <p>：（）；（）；（）；（）（vegetative cells），。，「」。</p>
         </div>
 
         <div class="practice-box" style="border-style:solid; background:linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-color:#22c55e;">
-            <h4>實務應用 CDMO Application</h4>
-            <p>對CDMO來說，過濾法（filtration method）通常最實際：多客戶產品、多取樣點、需要靈活部署。但在無菌充填廠（aseptic filling facility）的N₂取樣，可能需要能蒸汽滅菌的衝擊取樣器——因為取樣本身不能污染系統，設備必須能完全滅菌，且取樣操作必須在RABS或隔離器環境中執行。</p>
+            <h4> CDMO Application</h4>
+            <p>CDMO，（filtration method）：、、。（aseptic filling facility）N₂，——，，RABS。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>你要同時監測工廠的10個N₂使用點，預算有限。你會選擇哪種取樣方法？理由是什麼？</li>
-                <li>取樣方法驗證（method validation）中，「回收率」測試的目的是什麼？如何設計此測試？</li>
+                <li>10N₂，。？？</li>
+                <li>（method validation），「」？？</li>
             </ol>
         </div>
     </div>
 </div>
 
 <!-- ==================== 6.3.2.3 PARTICULATE MONITORING ==================== -->
-<div class="section-title">6.3.2.3 Particulate Monitoring — 微粒監測</div>
+<div class="section-title">6.3.2.3 Particulate Monitoring — </div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text <span class="source-badge">ISPE</span></h2>
+        <h2> Original Text <span class="source-badge">ISPE</span></h2>
 
         <p>There are several methods and a variety of instrumentation available for detecting, sizing, and quantifying particulates in compressed gases.</p>
 
@@ -1430,46 +1430,46 @@ aw = 0.6 約等於 RH 60%
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>雷射微粒計數器（Laser Particle Counter, LPC）：</strong> 製程氣體微粒監測的主流技術。原理是讓氣體流過雷射光束，微粒散射光被偵測並計數/分級（通常為≥0.5 µm 和 ≥5.0 µm）。藥廠常用，符合ISO 8573-4和ISO 14644標準。</p>
-            <p><strong>高壓取樣的挑戰：</strong> 製程氣體通常在6-8 bar以上輸送，但LPC的感測器設計在大氣壓附近，高壓氣體直接進入會損壞儀器。必須使用流量限制器（flow restrictor）或稀釋裝置（diluter），讓超量氣體安全排放。</p>
+            <h4> Key Concepts</h4>
+            <p><strong>（Laser Particle Counter, LPC）：</strong> 。，/（≥0.5 µm  ≥5.0 µm）。，ISO 8573-4ISO 14644。</p>
+            <p><strong>：</strong> 6-8 bar，LPC，。（flow restrictor）（diluter），。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes — 水霧干擾計數</h4>
-            <p>液態水滴（moisture droplets）在LPC中會被計為「微粒」，造成假性計數升高。這是一個系統性誤差來源，必須通過：</p>
+            <h4> Key Notes — </h4>
+            <p>（moisture droplets）LPC「」，。，：</p>
             <ul>
-                <li>確保氣體露點遠低於取樣環境溫度（避免凝結）</li>
-                <li>取樣管線保溫或加熱</li>
-                <li>使用疏水性材料的取樣管</li>
+                <li>（）</li>
+                <li></li>
+                <li></li>
             </ul>
-            <p>低壓側的反向問題是：若氣體流量不足，環境空氣可能透過取樣孔進入（文氏效應），造成環境微粒污染取樣讀值——即「負壓引入外氣」現象。</p>
+            <p>：，（），——「」。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>對LPC進行高壓製程氣體監測就像用一般血壓計量液壓機的壓力——你需要先用减壓閥把壓力降到儀器可接受範圍，讓超量壓力安全排出，儀器才能正確測量。取樣管線就像血壓計的充氣管，必須不脫落材質（non-shedding），否則管線自身的微粒會污染讀值。</p>
+            <h4> Analogy</h4>
+            <p>LPC——，，。，（non-shedding），。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>你的N₂供氣壓力為7 bar，環境溫度20°C，露點-40°C。在取樣時，你是否需要擔心水霧干擾微粒計數？為什麼？</li>
-                <li>取樣管線的材質選用有何要求？為什麼要「盡可能短」？</li>
+                <li>N₂7 bar，20°C，-40°C。，？？</li>
+                <li>？「」？</li>
             </ol>
         </div>
     </div>
 </div>
 
 <!-- ==================== 6.3.2.4 MOISTURE MONITORING ==================== -->
-<div class="section-title">6.3.2.4 Moisture Monitoring — 水分監測</div>
+<div class="section-title">6.3.2.4 Moisture Monitoring — </div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text <span class="source-badge">ISPE</span></h2>
+        <h2> Original Text <span class="source-badge">ISPE</span></h2>
 
         <p>Moisture in process gases is usually measured as <span class="key-term">dewpoint</span> or <span class="key-term">pressure dewpoint</span>. Methods usually include condensation devices, e.g.:</p>
         <ul>
@@ -1499,54 +1499,54 @@ aw = 0.6 約等於 RH 60%
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>露點（Dewpoint）vs 壓力露點（Pressure Dewpoint）：</strong></p>
+            <h4> Key Concepts</h4>
+            <p><strong>（Dewpoint）vs （Pressure Dewpoint）：</strong></p>
             <ul>
-                <li><strong>露點：</strong> 氣體在大氣壓下降溫至凝露的溫度，例如 -40°C dp</li>
-                <li><strong>壓力露點：</strong> 氣體在管線實際壓力（如7 bar）下的露點。同一批氣體，在高壓管線中的壓力露點比大氣露點高約20-25°C（因為壓縮使水分相對濃度升高）</li>
+                <li><strong>：</strong> ， -40°C dp</li>
+                <li><strong>：</strong> （7 bar）。，20-25°C（）</li>
             </ul>
-            <p>比對規格書時必須注意：供應商通常標示大氣露點，但你的設備可能需要的是大氣壓下使用（降壓後），應正確換算。</p>
+            <p>：，（），。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p><strong>露點監測的雙重意義：</strong></p>
+            <h4> Key Notes</h4>
+            <p><strong>：</strong></p>
             <ul>
-                <li><strong>產品保護：</strong> 許多藥品（粉末、凍乾品）對水分敏感，氣體帶入水分會影響產品穩定性和CQA。</li>
-                <li><strong>系統保護：</strong> 高水分會造成配管腐蝕、過濾器堵塞、微生物繁殖。乾燥機失效→露點升高→下游問題連鎖。</li>
+                <li><strong>：</strong> （、），CQA。</li>
+                <li><strong>：</strong> 、、。→→。</li>
             </ul>
-            <p>電解法（P₂O₅法）被PhEur和USP收載為官方方法，代表在監管文件中具有最強的公信力，但操作技術要求高，廠方人員需培訓。</p>
+            <p>（P₂O₅）PhEurUSP，，，。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>冷鏡式露點計就像黃金標準的精密天秤——精確但昂貴且嬌貴。高分子薄膜傳感器就像電子秤——便宜、耐用、精度夠用，適合日常在線監測。選擇哪種，就像選擇計量工具：關鍵應用用天秤，日常監控用電子秤。</p>
+            <h4> Analogy</h4>
+            <p>——。——、、，。，：，。</p>
         </div>
 
         <div class="practice-box" style="border-style:solid; background:linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-color:#22c55e;">
-            <h4>實務應用 CDMO Application</h4>
-            <p>在CDMO的凍乾製程（lyophilization）中，腔體充填N₂前必須確認N₂露點達到規格（例如≤-40°C dp）。推薦策略：在N₂進入腔體的POU安裝在線阻抗式或高分子薄膜傳感器做連續監測，並定期用可攜式冷鏡式露點計進行比對校驗（calibration check）。若在線傳感器偏離，立即觸發OOS調查，並評估近期批次是否受影響。</p>
+            <h4> CDMO Application</h4>
+            <p>CDMO（lyophilization），N₂N₂（≤-40°C dp）。：N₂POU，（calibration check）。，OOS，。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>你的N₂乾燥機在6 bar壓力下的壓力露點規格為 -20°C pp dp。降壓到大氣壓後，理論大氣露點大約是多少？（提示：壓縮比約7倍，需換算）</li>
-                <li>為什麼電解式露點計「操作要求比其他方法更高」？你認為在校正計畫中需要特別注意什麼？</li>
+                <li>N₂6 bar -20°C pp dp。，？（：7，）</li>
+                <li>「」？？</li>
             </ol>
         </div>
     </div>
 </div>
 
 <!-- ==================== 6.3.2.5 HYDROCARBONS MONITORING ==================== -->
-<div class="section-title">6.3.2.5 Hydrocarbons Monitoring — 碳氫化合物監測</div>
+<div class="section-title">6.3.2.5 Hydrocarbons Monitoring — </div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text <span class="source-badge">ISPE</span></h2>
+        <h2> Original Text <span class="source-badge">ISPE</span></h2>
 
         <p>Compressed air and other process gas systems intended for pharmaceutical applications should be designed and constructed with <span class="key-term">oil free compressors</span> and hygienic piping. The installation of systems should include the concept of <span class="key-term">"build clean"</span> where the equipment and piping are supplied in a clean condition and installed in a manner to prevent contamination.</p>
 
@@ -1566,45 +1566,45 @@ aw = 0.6 約等於 RH 60%
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>THC vs TVHC：兩種不同的碳氫污染：</strong></p>
+            <h4> Key Concepts</h4>
+            <p><strong>THC vs TVHC：：</strong></p>
             <ul>
-                <li><strong>THC（Total Hydrocarbons / Oil Mist）：</strong> 液態油霧，來自壓縮機潤滑油、軸封洩漏等。即便使用無油壓縮機，進氣端的油霧污染也可能殘留。用指示管（indicator tubes）即時偵測。</li>
-                <li><strong>TVHC（Total Volatile Hydrocarbons）：</strong> 揮發性氣態碳氫化合物，如汽油蒸氣、溶劑蒸氣，來自壓縮機進氣口周圍的環境空氣（停車場、鍋爐房、實驗室廢氣）。用ppb/ppm儀器偵測，以甲烷當量表達。</li>
+                <li><strong>THC（Total Hydrocarbons / Oil Mist）：</strong> ，、。，。（indicator tubes）。</li>
+                <li><strong>TVHC（Total Volatile Hydrocarbons）：</strong> ，、，（、、）。ppb/ppm，。</li>
             </ul>
-            <p><strong>指示管（Indicator tubes）：</strong> 單次使用的比色試管，成本低、現場快速測定，但精度有限，適合定性/半定量用途。</p>
+            <p><strong>（Indicator tubes）：</strong> ，、，，/。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes — 進氣口設計</h4>
-            <p>壓縮機進氣口位置是系統設計中最常被忽視的安全細節之一。正確選址原則：</p>
+            <h4> Key Notes — </h4>
+            <p>。：</p>
             <ul>
-                <li>遠離停車場、裝卸區、發電機排氣管</li>
-                <li>高度應高於地面（減少地面塵埃和廢氣吸入）</li>
-                <li>設置空氣過濾器（空氣品質差的地區考慮活性炭前處理）</li>
-                <li>定期採樣確認進氣口空氣品質</li>
+                <li>、、</li>
+                <li>（）</li>
+                <li>（）</li>
+                <li></li>
             </ul>
-            <p>若廠址附近有新開幕的停車場或施工工地，需重新評估是否需要增加TVHC例行監測頻率。</p>
+            <p>，TVHC。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>油霧（THC）就像肉眼幾乎看不到的廚房油煙，直接來自設備本身；揮發性碳氫化合物（TVHC）就像鄰居燒烤的煙——來自外部環境，從窗戶（進氣口）飄入。前者靠選用無油壓縮機預防，後者靠選對進氣口位置和持續環境監測。</p>
+            <h4> Analogy</h4>
+            <p>（THC），；（TVHC）——，（）。，。</p>
         </div>
 
         <div class="practice-box" style="border-style:solid; background:linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-color:#22c55e;">
-            <h4>實務應用 CDMO Application</h4>
-            <p>在CDMO資格確認（qualification）流程中，壓縮空氣的碳氫化合物測試通常在IQ/OQ階段執行，目的是確認系統安裝時未引入油污。但ISPE指出：若廠房附近環境空氣品質差（如位於工業區、鄰近停車場），需要納入<strong>常規監測</strong>計畫，而非僅做一次性資格確認。這是CDMO在廠房選址或改建時需要預先評估的風險。</p>
+            <h4> CDMO Application</h4>
+            <p>CDMO（qualification），IQ/OQ，。ISPE：（、），<strong></strong>，。CDMO。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>你的廠剛完成壓縮空氣系統安裝，驗收測試顯示THC（油霧）讀值高於規格。可能的根本原因有哪些？如何逐一排除？</li>
-                <li>TVHCs監測結果以「ppm calculated as methane」表達，這種表達方式有何意涵？當監測對象是複合有機溶劑蒸氣時，此方法有什麼局限性？</li>
+                <li>，THC（）。？？</li>
+                <li>TVHCs「ppm calculated as methane」，？，？</li>
             </ol>
         </div>
     </div>
@@ -1612,16 +1612,16 @@ aw = 0.6 約等於 RH 60%
 
 <!-- SECTION SUMMARY -->
 <div class="learning-objectives" style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);">
-    <h3>本章重點回顧 Chapter Summary</h3>
+    <h3> Chapter Summary</h3>
     <ul>
-        <li><strong>管控系統三類：</strong> 壓縮空氣（廠方自有，露點控制切換）、鋼瓶（自動切換+BMS整合）、現場產氣（供應商控制，廠方需複製儀表管理校正）。設計階段即需規劃整合。</li>
-        <li><strong>壓力非CPP的ISPE立場：</strong> 幹管壓力是工程參數，真正的關鍵監測點在各POU入口，設備自帶的壓力開關才是關鍵儀表。</li>
-        <li><strong>品質等同原則：</strong> 製程氣體進入潔淨室，微粒和微生物品質必須≥所在室的靜態等級（Annex 1 / 21 CFR Part 210要求）。</li>
-        <li><strong>低露點不等於無菌：</strong> 乾燥可抑制微生物生長，但芽孢（endospores）在極乾環境下仍可長期存活。唯一可靠的屏障是0.2 µm滅菌級POU過濾器。</li>
-        <li><strong>取樣位置策略：</strong> 取樣應在最終過濾器上游進行，最長管路末端是最具代表性的風險點；過濾器下游取樣風險大，每次取樣都可能污染已滅菌流路。</li>
-        <li><strong>水分監測選型：</strong> 冷鏡（最精準但貴）、電解（PhEur/USP認可）、阻抗（穩定在線）、高分子薄膜（低成本、耐微粒）——根據應用精度和預算選擇；露點vs壓力露點需正確換算。</li>
-        <li><strong>碳氫化合物雙重風險：</strong> THC（油霧，來自設備）靠無油壓縮機和指示管監測；TVHC（揮發性碳氫，來自外部環境）靠進氣口選址和持續環境監測管控。</li>
-        <li><strong>CDMO OOS連接：</strong> 任何製程氣體品質OOS事件都必須觸發偏差調查，評估批次衝擊，並決定放行、隔離或報廢——氣體品質數據是批次記錄的一部分。</li>
+        <li><strong>：</strong> （，）、（+BMS）、（，）。。</li>
+        <li><strong>CPPISPE：</strong> ，POU，。</li>
+        <li><strong>：</strong> ，≥（Annex 1 / 21 CFR Part 210）。</li>
+        <li><strong>：</strong> ，（endospores）。0.2 µmPOU。</li>
+        <li><strong>：</strong> ，；，。</li>
+        <li><strong>：</strong> （）、（PhEur/USP）、（）、（、）——；vs。</li>
+        <li><strong>：</strong> THC（，）；TVHC（，）。</li>
+        <li><strong>CDMO OOS：</strong> OOS，，、——。</li>
     </ul>
 </div>
 

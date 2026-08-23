@@ -229,7 +229,7 @@ tr:nth-child(even) { background: #f7fafc; }
 <!-- SECTION HEADER -->
 <div class="header">
     <h1>GAMP 5 (2nd Ed.) — Appendices D6–D9: System Descriptions, Data Migration, Agile Development &amp; Software Tools</h1>
-    <div class="subtitle">系統描述、資料遷移、敏捷開發與軟體工具</div>
+    <div class="subtitle">、、</div>
     <div class="page-info">ISPE GAMP 5 Second Edition | Appendix D6–D9 | p235–p256</div>
 </div>
 
@@ -237,19 +237,19 @@ tr:nth-child(even) { background: #f7fafc; }
 
 <!-- LEARNING OBJECTIVES -->
 <div class="learning-objectives">
-    <h3>Learning Objectives — 學習目標</h3>
+    <h3>Learning Objectives — </h3>
     <ol>
-        <li>Explain the purpose and required content of a System Description under EU GMP Annex 11 and its role as a regulatory-facing document. ／解釋系統描述的目的、必要內容及其作為法規面向文件的角色。</li>
-        <li>Identify the key risk categories and quality management controls required for compliant data migration in a GxP environment. ／辨識GxP環境中合規資料遷移所需的主要風險類別與品質管理控制措施。</li>
-        <li>Describe the data migration plan structure, including data mapping, verification strategies, rollback planning, and reporting requirements. ／描述資料遷移計畫的架構，包括資料映射、驗證策略、回滾計畫與報告要求。</li>
-        <li>Explain how Agile/Scrum methodology can be implemented in a GxP regulated environment while maintaining compliance and quality. ／說明Agile/Scrum方法論如何在GxP法規環境中實施，同時維持合規與品質。</li>
-        <li>Apply the Agile quality concepts (Definition of Done, sprint testing, DevOps/CI/CD) within a CDMO computer validation context. ／在CDMO電腦驗證情境中應用Agile品質概念。</li>
-        <li>Determine the appropriate level of control for software tools (GAMP Category 1) versus GxP-regulated business applications, and apply risk-based management accordingly. ／判斷軟體工具（GAMP第1類）與GxP法規業務應用程式的適當控制等級，並據此應用風險基礎管理。</li>
+        <li>Explain the purpose and required content of a System Description under EU GMP Annex 11 and its role as a regulatory-facing document. ／、。</li>
+        <li>Identify the key risk categories and quality management controls required for compliant data migration in a GxP environment. ／GxP。</li>
+        <li>Describe the data migration plan structure, including data mapping, verification strategies, rollback planning, and reporting requirements. ／，、、。</li>
+        <li>Explain how Agile/Scrum methodology can be implemented in a GxP regulated environment while maintaining compliance and quality. ／Agile/ScrumGxP，。</li>
+        <li>Apply the Agile quality concepts (Definition of Done, sprint testing, DevOps/CI/CD) within a CDMO computer validation context. ／CDMOAgile。</li>
+        <li>Determine the appropriate level of control for software tools (GAMP Category 1) versus GxP-regulated business applications, and apply risk-based management accordingly. ／（GAMP1）GxP，。</li>
     </ol>
 </div>
 
 <!-- ===================== APPENDIX D6 ===================== -->
-<h2 class="section-title" id="d6">Appendix D6 — System Descriptions / 系統描述</h2>
+<h2 class="section-title" id="d6">Appendix D6 — System Descriptions / </h2>
 
 <div class="two-column">
     <div class="left-column">
@@ -321,65 +321,65 @@ tr:nth-child(even) { background: #f7fafc; }
     </div>
 
     <div class="right-column">
-        <h2>D6 中文解析：系統描述</h2>
+        <h2>D6 ：</h2>
 
         <div class="analogy-box">
-            <h4>比喻：系統描述是GxP系統的「護照」</h4>
-            <p>就像護照一樣，系統描述必須在系統「出關」（上線投入GxP使用）之前就備齊。它用非技術語言說明這個系統是誰、做什麼、跟誰連線、誰能進入。</p>
-            <p>法規查核官員（稽核員）第一眼看的往往就是這份文件——他們想快速理解這個系統的「邊界在哪裡」、「管到哪些資料」。護照沒更新，就是問題所在。</p>
+            <h4>：GxP「」</h4>
+            <p>，「」（GxP）。、、、。</p>
+            <p>（）——「」、「」。，。</p>
         </div>
 
         <div class="concept-box">
-            <h4>EU GMP Annex 11 的明確要求</h4>
-            <p>Annex 11 明文規定「關鍵系統」必須有up-to-date的系統描述，涵蓋：</p>
+            <h4>EU GMP Annex 11 </h4>
+            <p>Annex 11 「」up-to-date，：</p>
             <ul>
-                <li>實體與邏輯架構（Physical &amp; Logical arrangements）</li>
-                <li>資料流與介面（Data flows &amp; interfaces）</li>
-                <li>硬體/軟體先決條件（Prerequisites）</li>
-                <li>安全措施（Security measures）</li>
+                <li>（Physical &amp; Logical arrangements）</li>
+                <li>（Data flows &amp; interfaces）</li>
+                <li>/（Prerequisites）</li>
+                <li>（Security measures）</li>
             </ul>
-            <p>這不只是「最好有」，而是法規硬性要求。很多公司在稽核時才發現系統描述已過期三年，這是常見的483觀察項來源。</p>
+            <p>「」，。，483。</p>
         </div>
 
         <div class="key-point-box">
-            <h4>CDMO實務要點：什麼時候需要獨立的系統描述？</h4>
-            <p>GAMP 5說複雜系統（如ERP、MES）才需要獨立文件；簡單系統可以把描述放進URS或其他規格文件中。</p>
-            <p>在CDMO環境，以下系統通常需要獨立的系統描述：</p>
+            <h4>CDMO：？</h4>
+            <p>GAMP 5（ERP、MES）；URS。</p>
+            <p>CDMO，：</p>
             <ul>
                 <li>LIMS（Laboratory Information Management System）</li>
                 <li>MES（Manufacturing Execution System）</li>
-                <li>EBR/eBatch系統</li>
-                <li>跨廠區共用的ERP模組</li>
+                <li>EBR/eBatch</li>
+                <li>ERP</li>
             </ul>
-            <p>SCADA或獨立HMI通常可以將系統描述整合進IQ/OQ文件。</p>
+            <p>SCADAHMIIQ/OQ。</p>
         </div>
 
         <div class="note-box">
-            <h4>稽核現場重點：邊界定義</h4>
-            <p>稽核員在查電腦化系統時，最重要的問題之一是：「這個系統的邊界在哪裡？」系統描述必須清楚回答：</p>
+            <h4>：</h4>
+            <p>，：「？」：</p>
             <ul>
-                <li>哪些資料在系統內部管理</li>
-                <li>哪些介面連到外部系統</li>
-                <li>誰負責哪個部分（系統擁有者 vs 供應商）</li>
+                <li></li>
+                <li></li>
+                <li>（ vs ）</li>
             </ul>
-            <p>邊界不清楚 = 責任不清楚 = 稽核風險。</p>
+            <p> =  = 。</p>
         </div>
 
         <div class="highlight-box">
-            <h4>Change Control + Periodic Review 的重要性</h4>
-            <p>系統描述必須受到變更管制並定期審查。常見的失效模式：系統已升版（例如從v8升到v9），但系統描述還停在舊版架構。這在稽核中會被認定為「documented system不符合實際運作狀態」。</p>
-            <p>建議：每次系統重大變更（infrastructure change、interface增減）必須觸發系統描述審查。</p>
+            <h4>Change Control + Periodic Review </h4>
+            <p>。：（v8v9），。「documented system」。</p>
+            <p>：（infrastructure change、interface）。</p>
         </div>
     </div>
 </div>
 
 <div class="concept-box">
-            <h4>系統描述 vs. 其他驗證文件</h4>
-            <p>系統描述是「門面文件」——它不重複其他規格的細節，但提供整合性的概覽。</p>
+            <h4> vs. </h4>
+            <p>「」——，。</p>
         </div>
 
         <!-- ===================== APPENDIX D7 ===================== -->
-<h2 class="section-title" id="d7">Appendix D7 — Data Migration / 資料遷移</h2>
+<h2 class="section-title" id="d7">Appendix D7 — Data Migration / </h2>
 
 <div class="two-column">
     <div class="left-column">
@@ -480,80 +480,80 @@ tr:nth-child(even) { background: #f7fafc; }
     </div>
 
     <div class="right-column">
-        <h2>D7 中文解析：資料遷移</h2>
+        <h2>D7 ：</h2>
 
         <div class="analogy-box">
-            <h4>比喻：資料遷移是「搬家」，不只是「搬箱子」</h4>
-            <p>很多人以為資料遷移就是把資料庫的資料複製過去。但GAMP 5提醒我們：搬家時不只要搬家具（資料），還要確保：</p>
+            <h4>：「」，「」</h4>
+            <p>。GAMP 5：（），：</p>
             <ul>
-                <li>家具到了新家還能用（可用性）</li>
-                <li>鑰匙、門禁也要跟著設定好（metadata、存取權限）</li>
-                <li>搬家過程有完整紀錄（稽核軌跡）</li>
-                <li>搬錯了能搬回來（rollback strategy）</li>
+                <li>（）</li>
+                <li>、（metadata、）</li>
+                <li>（）</li>
+                <li>（rollback strategy）</li>
             </ul>
         </div>
 
         <div class="note-box">
-            <h4>CDMO最常踩的坑：從紙本或舊LIMS遷移到新系統</h4>
-            <p>CDMO環境中最常見的資料遷移場景是：更換LIMS（舊系統 → 新系統），或將紙本批次記錄數位化後匯入EBR系統。</p>
-            <p>這種情況特別棘手，因為：</p>
+            <h4>CDMO：LIMS</h4>
+            <p>CDMO：LIMS（ → ），EBR。</p>
+            <p>，：</p>
             <ul>
-                <li>舊系統的「資料可靠性」難以確認（有沒有audit trail？）</li>
-                <li>紙本資料沒有audit trail，遷移後要怎麼交代稽核軌跡的起始點</li>
-                <li>資料格式不統一（例如舊系統用文字儲存數值，新系統需要數字型別）</li>
-                <li>業主覺得「copy-paste就好」，低估了驗證工作量</li>
+                <li>「」（audit trail？）</li>
+                <li>audit trail，</li>
+                <li>（，）</li>
+                <li>「copy-paste」，</li>
             </ul>
         </div>
 
         <div class="key-point-box">
-            <h4>三環境架構：Source → Staging → Target</h4>
-            <p>GAMP 5明確建議使用staging area（暫存環境）作為中間緩衝：</p>
+            <h4>：Source → Staging → Target</h4>
+            <p>GAMP 5staging area（）：</p>
             <ul>
-                <li><strong>Source system</strong>：原始資料，在整個遷移期間不得有無關的系統變更</li>
-                <li><strong>Staging area</strong>：資料清理、格式轉換、規則應用的工作區</li>
-                <li><strong>Target system</strong>：最終生產環境，只有驗證通過的資料才進入</li>
+                <li><strong>Source system</strong>：，</li>
+                <li><strong>Staging area</strong>：、、</li>
+                <li><strong>Target system</strong>：，</li>
             </ul>
-            <p>三個環境都要在configuration management控制下。Rollback計畫要在遷移開始前就準備好。</p>
+            <p>configuration management。Rollback。</p>
         </div>
 
         <div class="concept-box">
-            <h4>驗證策略：測試環境 vs 正式環境</h4>
-            <p><strong>測試環境驗證</strong>：先用少量資料（例如100筆）在test環境跑一次完整遷移流程，並進行100%比對驗證。目的是確認工具和流程可行，取得evidence before go-live。</p>
-            <p><strong>正式環境驗證</strong>：資料量龐大，通常需要自動化工具進行100%比對（或統計抽樣加checksum）。自動化驗證工具本身的適用性也需要評估。</p>
-            <p>Checksum驗證的原理：計算來源資料的記錄數量與特定欄位的加總值，遷移後再次計算，兩個值相符才代表沒有漏筆或資料損失。</p>
+            <h4>： vs </h4>
+            <p><strong></strong>：（100）test，100%。，evidence before go-live。</p>
+            <p><strong></strong>：，100%（checksum）。。</p>
+            <p>Checksum：，，。</p>
         </div>
 
         <div class="highlight-box">
-            <h4>稽核軌跡的棘手問題</h4>
-            <p>如果舊系統沒有audit trail，資料遷移到有audit trail的新系統後，稽核員會問：「這些記錄在遷移之前誰改過？」</p>
-            <p>GAMP 5的建議：在遷移計畫中明確記載「遷移前的稽核軌跡不存在」，並在每筆遷移記錄中標記migration date作為audit trail的起始點。若能在遷移過程中產生computer-generated log，更佳。</p>
+            <h4></h4>
+            <p>audit trail，audit trail，：「？」</p>
+            <p>GAMP 5：「」，migration dateaudit trail。computer-generated log，。</p>
         </div>
 
         <div class="practice-box">
-            <h4>CDMO資料遷移計畫的最低清單</h4>
+            <h4>CDMO</h4>
             <ul>
-                <li>遷移範疇與系統描述</li>
-                <li>風險評估（source data reliability + tool risk）</li>
-                <li>Data mapping table（含轉換規則）</li>
-                <li>三環境架構說明（source / staging / target）</li>
-                <li>驗證策略（test run + production run）</li>
-                <li>Cutover計畫（誰負責通知使用者、系統停機窗口）</li>
-                <li>Rollback計畫（何時觸發、如何恢復）</li>
-                <li>遷移報告範本（成功/失敗判準）</li>
-                <li>QA批准（流程擁有者、系統擁有者、QA、SME）</li>
+                <li></li>
+                <li>（source data reliability + tool risk）</li>
+                <li>Data mapping table（）</li>
+                <li>（source / staging / target）</li>
+                <li>（test run + production run）</li>
+                <li>Cutover（、）</li>
+                <li>Rollback（、）</li>
+                <li>（/）</li>
+                <li>QA（、、QA、SME）</li>
             </ul>
         </div>
     </div>
 </div>
 
 <div class="concept-box">
-            <h4>資料映射表（Data Mapping Table）：必備交付物</h4>
-            <p>即使使用自動化遷移工具，也必須建立data mapping table，說明：</p>
-            <p>這份表格要放進遷移計畫，並獲得QA批准。</p>
+            <h4>（Data Mapping Table）：</h4>
+            <p>，data mapping table，：</p>
+            <p>，QA。</p>
         </div>
 
         <!-- ===================== APPENDIX D8 ===================== -->
-<h2 class="section-title" id="d8">Appendix D8 — Agile Software Development / 敏捷軟體開發</h2>
+<h2 class="section-title" id="d8">Appendix D8 — Agile Software Development / </h2>
 
 <div class="two-column">
     <div class="left-column">
@@ -639,80 +639,80 @@ tr:nth-child(even) { background: #f7fafc; }
     </div>
 
     <div class="right-column">
-        <h2>D8 中文解析：敏捷軟體開發</h2>
+        <h2>D8 ：</h2>
 
         <div class="analogy-box">
-            <h4>核心張力：Agile的速度 vs GxP的文件要求</h4>
-            <p>Agile宣言說「Working software over comprehensive documentation」，但GxP說「沒有文件就等於沒發生」。這難道是根本矛盾嗎？</p>
-            <p>GAMP 5的回答是：<strong>No</strong>。關鍵在於「文件的形式可以改變」——工具裡的backlog記錄、test run的audit trail、sprint report，這些都是合法的GxP evidence。重點是可追溯性和完整性，而不是紙本或PDF的數量。</p>
+            <h4>：Agile vs GxP</h4>
+            <p>Agile「Working software over comprehensive documentation」，GxP「」。？</p>
+            <p>GAMP 5：<strong>No</strong>。「」——backlog、test runaudit trail、sprint report，GxP evidence。，PDF。</p>
         </div>
 
         <div class="key-point-box">
-            <h4>CDMO如何落地：Sprint文件策略</h4>
-            <p>在CDMO的電腦驗證專案（例如新LIMS、MES）中採用Agile，建議的文件策略：</p>
+            <h4>CDMO：Sprint</h4>
+            <p>CDMO（LIMS、MES）Agile，：</p>
             <ul>
-                <li><strong>Sprint Planning</strong>：產出backlog item list（含GxP影響評估）→ 等同於傳統的功能規格片段</li>
-                <li><strong>Sprint Execution</strong>：在工具中記錄user story完成狀態、test results、defect resolution</li>
-                <li><strong>Sprint Review</strong>：產出sprint summary report（誰測了什麼、通過/失敗、未解決的問題）→ 等同於測試記錄</li>
-                <li><strong>Sprint Retrospective</strong>：流程改善記錄 → 持續品質改善的evidence</li>
-                <li><strong>Release</strong>：所有sprint的cumulative backlog + DoD verification = 驗證總結報告的基礎</li>
+                <li><strong>Sprint Planning</strong>：backlog item list（GxP）→ </li>
+                <li><strong>Sprint Execution</strong>：user story、test results、defect resolution</li>
+                <li><strong>Sprint Review</strong>：sprint summary report（、/、）→ </li>
+                <li><strong>Sprint Retrospective</strong>： → evidence</li>
+                <li><strong>Release</strong>：sprintcumulative backlog + DoD verification = </li>
             </ul>
         </div>
 
         <div class="concept-box">
-            <h4>Definition of Done (DoD) 與 GxP合規</h4>
-            <p>DoD是Agile中最重要的品質控制機制。在GxP系統中，DoD應包含：</p>
+            <h4>Definition of Done (DoD)  GxP</h4>
+            <p>DoDAgile。GxP，DoD：</p>
             <ul>
-                <li>功能已開發完成（code complete）</li>
-                <li>單元測試通過（unit test pass rate &gt; X%）</li>
-                <li>Regression testing通過（不影響之前sprint的功能）</li>
-                <li>GxP影響評估已完成（如有資料完整性影響，已記錄）</li>
-                <li>Defect已close或risk-accepted（附justification）</li>
-                <li>User acceptance已確認（業主簽核或工具狀態記錄）</li>
+                <li>（code complete）</li>
+                <li>（unit test pass rate &gt; X%）</li>
+                <li>Regression testing（sprint）</li>
+                <li>GxP（，）</li>
+                <li>Defectcloserisk-accepted（justification）</li>
+                <li>User acceptance（）</li>
             </ul>
-            <p>一個未通過DoD的user story不能計為「完成」，也不能進入下一個sprint作為基礎。</p>
+            <p>DoDuser story「」，sprint。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>INVEST標準：寫好User Story的關鍵</h4>
-            <p>如果user story寫得不好（太大、太模糊、無法測試），整個Agile流程都會出問題。INVEST是一個自我檢查框架：</p>
+            <h4>INVEST：User Story</h4>
+            <p>user story（、、），Agile。INVEST：</p>
             <ul>
-                <li><strong>I (Independent)</strong>：這個story可以獨立開發，不依賴未完成的其他story</li>
-                <li><strong>N (Negotiable)</strong>：細節可以討論，不是不可更改的契約</li>
-                <li><strong>V (Valuable)</strong>：對使用者或業務有明確價值</li>
-                <li><strong>E (Estimable)</strong>：團隊能夠估算開發工作量</li>
-                <li><strong>S (Small)</strong>：一個sprint內可完成（通常1-3天開發量）</li>
-                <li><strong>T (Testable)</strong>：有清楚的acceptance criteria，知道怎麼測試</li>
+                <li><strong>I (Independent)</strong>：story，story</li>
+                <li><strong>N (Negotiable)</strong>：，</li>
+                <li><strong>V (Valuable)</strong>：</li>
+                <li><strong>E (Estimable)</strong>：</li>
+                <li><strong>S (Small)</strong>：sprint（1-3）</li>
+                <li><strong>T (Testable)</strong>：acceptance criteria，</li>
             </ul>
         </div>
 
         <div class="note-box">
-            <h4>電子簽名的誤解：Agile中的approval不等於21 CFR Part 11</h4>
-            <p>很多GxP從業者看到Agile工具的「approve」按鈕就緊張：這需要符合21 CFR Part 11嗎？</p>
-            <p>GAMP 5明確回答：<strong>不需要</strong>（除非是SaMD或醫療器材嵌入軟體）。軟體生命週期文件（user story approval、sprint sign-off）的「批准」不等於法規上需要具法律效力的電子簽名。工具的audit trail（誰、何時、做了什麼）就足夠作為acceptance evidence。</p>
+            <h4>：Agileapproval21 CFR Part 11</h4>
+            <p>GxPAgile「approve」：21 CFR Part 11？</p>
+            <p>GAMP 5：<strong></strong>（SaMD）。（user story approval、sprint sign-off）「」。audit trail（、、）acceptance evidence。</p>
         </div>
 
         <div class="concept-box">
-            <h4>DevOps + CI/CD 在GxP環境的適用性</h4>
-            <p>DevOps將開發與維運整合到同一個團隊，CI/CD實現自動化測試和部署。這在GxP環境聽起來很可怕（「系統每天都在變？」），但實際上可行的前提是：</p>
+            <h4>DevOps + CI/CD GxP</h4>
+            <p>DevOps，CI/CD。GxP（「？」），：</p>
             <ul>
-                <li>每次change都有risk assessment（高風險GxP功能需要更嚴格的評估）</li>
-                <li>CI pipeline包含自動化regression testing</li>
-                <li>部署需要DoD + change control gate</li>
-                <li>Compliance accountability在DevOps團隊內部，不是外部的人在審批</li>
+                <li>changerisk assessment（GxP）</li>
+                <li>CI pipelineregression testing</li>
+                <li>DoD + change control gate</li>
+                <li>Compliance accountabilityDevOps，</li>
             </ul>
-            <p>在CDMO中，這種模式適合SaaS-based系統（如cloud LIMS）的持續更新管理。</p>
+            <p>CDMO，SaaS-based（cloud LIMS）。</p>
         </div>
     </div>
 </div>
 
 <div class="concept-box">
-            <h4>Scrum在GxP環境的角色對應</h4>
-            <p>注意：QA在Agile環境中的角色是「嵌入式夥伴」，不是最後的守門員。這需要QA思維轉型。</p>
+            <h4>ScrumGxP</h4>
+            <p>：QAAgile「」，。QA。</p>
         </div>
 
         <!-- ===================== APPENDIX D9 ===================== -->
-<h2 class="section-title" id="d9">Appendix D9 — Software Tools / 軟體工具</h2>
+<h2 class="section-title" id="d9">Appendix D9 — Software Tools / </h2>
 
 <div class="two-column">
     <div class="left-column">
@@ -773,77 +773,77 @@ tr:nth-child(even) { background: #f7fafc; }
     </div>
 
     <div class="right-column">
-        <h2>D9 中文解析：軟體工具</h2>
+        <h2>D9 ：</h2>
 
         <div class="analogy-box">
-            <h4>關鍵問題：Excel macro需要驗證嗎？</h4>
-            <p>這是CDMO環境中最常遇到的問題之一。答案取決於Excel的用途：</p>
+            <h4>：Excel macro？</h4>
+            <p>CDMO。Excel：</p>
             <ul>
-                <li><strong>用Excel執行GxP計算（例如OOS計算、環境監控趨勢分析）</strong>：Excel本身是工具（Category 1），但這個特定的macro/workbook是在執行GxP業務流程 → 需要CSV（Computerized System Validation）</li>
-                <li><strong>用Excel管理驗證測試的test scripts（不含GxP記錄）</strong>：這是開發工具用途 → 不需要validation，但需要基本risk assessment + change control</li>
-                <li><strong>用Excel自動生成validation protocol的模板</strong>：生命週期工具 → Category 1，不需要validation</li>
+                <li><strong>ExcelGxP（OOS、）</strong>：Excel（Category 1），macro/workbookGxP → CSV（Computerized System Validation）</li>
+                <li><strong>Exceltest scripts（GxP）</strong>： → validation，risk assessment + change control</li>
+                <li><strong>Excelvalidation protocol</strong>： → Category 1，validation</li>
             </ul>
-            <p>關鍵判斷標準：工具輸出的記錄是不是直接支援product life cycle的GxP記錄？</p>
+            <p>：product life cycleGxP？</p>
         </div>
 
         <div class="key-point-box">
-            <h4>EU GMP Annex 11的工具要求</h4>
-            <p>Annex 11明確要求：automated testing tools和test environments必須有documented adequacy assessment。這不等於要validation，但必須有書面評估說明這個工具夠不夠好、是否適合其用途。</p>
-            <p>實務上的最低要求：</p>
+            <h4>EU GMP Annex 11</h4>
+            <p>Annex 11：automated testing toolstest environmentsdocumented adequacy assessment。validation，、。</p>
+            <p>：</p>
             <ul>
-                <li>工具識別與用途描述</li>
-                <li>Adequacy assessment（SME判斷：工具是否適合intended use）</li>
-                <li>使用者訓練記錄</li>
-                <li>基本access control</li>
-                <li>納入CMDB（配置管理資料庫）</li>
+                <li></li>
+                <li>Adequacy assessment（SME：intended use）</li>
+                <li></li>
+                <li>access control</li>
+                <li>CMDB（）</li>
             </ul>
         </div>
 
         <div class="concept-box">
-            <h4>工具風險評估的關鍵考量</h4>
-            <p>GAMP 5提供了九個風險評估考量點。在CDMO環境，最重要的是：</p>
+            <h4></h4>
+            <p>GAMP 5。CDMO，：</p>
             <ul>
-                <li><strong>工具儲存的記錄性質</strong>：如果工具存有test results或system requirements，這些記錄雖非GxP records，但支援validated status → 需要integrity controls</li>
-                <li><strong>雲端工具的資料保留</strong>：如果工具是SaaS（例如雲端Jira、GitHub Enterprise），須確保記錄在retention period內可取用</li>
-                <li><strong>工具失效的影響</strong>：若工具當機，是否影響已上線的GxP系統？（例如監控工具失效可能影響環境監控的警報）</li>
-                <li><strong>資安風險</strong>：開源工具的下載來源是否可信？工具是否可能引入惡意軟體？</li>
+                <li><strong></strong>：test resultssystem requirements，GxP records，validated status → integrity controls</li>
+                <li><strong></strong>：SaaS（Jira、GitHub Enterprise），retention period</li>
+                <li><strong></strong>：，GxP？（）</li>
+                <li><strong></strong>：？？</li>
             </ul>
         </div>
 
         <div class="note-box">
-            <h4>「工具記錄不要複製進GxP文件」的重要原則</h4>
-            <p>很多驗證工程師習慣把Jira/TestRail的測試結果截圖後貼進Word文件再上傳到文件管理系統。GAMP 5說：<strong>這樣做沒有品質效益，而且有風險</strong>——工具裡的記錄和文件裡的截圖可能不同步（工具裡的defect已close，但文件還沒更新）。</p>
-            <p>更好的做法：在驗證報告中引用工具的report（例如：「詳細測試結果見TestRail Report #TR-2026-042」），並確保稽核前能展示工具的原始記錄。</p>
+            <h4>「GxP」</h4>
+            <p>Jira/TestRailWord。GAMP 5：<strong>，</strong>——（defectclose，）。</p>
+            <p>：report（：「TestRail Report #TR-2026-042」），。</p>
         </div>
 
         <div class="practice-box">
-            <h4>稽核應對：檢查官要求看工具記錄</h4>
-            <p>GAMP 5提醒：法規檢查官可能要求看工具裡的記錄（例如system requirements、test results）。CDMO需要事先準備：</p>
+            <h4>：</h4>
+            <p>GAMP 5：（system requirements、test results）。CDMO：</p>
             <ul>
-                <li>知道哪些工具存有哪些系統的life cycle記錄</li>
-                <li>能夠快速從工具中產生特定系統的GxP功能測試結果報告</li>
-                <li>如果工具是第三方SaaS，確認在audit期間能取得資料存取權</li>
-                <li>工具的access log能顯示誰在何時存取了哪些記錄</li>
+                <li>life cycle</li>
+                <li>GxP</li>
+                <li>SaaS，audit</li>
+                <li>access log</li>
             </ul>
-            <p>不要等稽核當天才發現「那個tool的管理員已離職，帳號停用了」。</p>
+            <p>「tool，」。</p>
         </div>
 
         <div class="highlight-box">
-            <h4>工具生命週期管理：被忽視的維護義務</h4>
-            <p>工具需要有designated owner（不是IT全負責，也不是驗證團隊全負責，要有明確的single point of contact）。工具的退役計畫同樣重要：</p>
+            <h4>：</h4>
+            <p>designated owner（IT，，single point of contact）。：</p>
             <ul>
-                <li>工具退役前，確認其中儲存的記錄已轉移或存檔</li>
-                <li>確保記錄在regulatory retention period內（通常10年以上）仍可讀取</li>
-                <li>版本升級需要change control + 確認不影響既有記錄</li>
+                <li>，</li>
+                <li>regulatory retention period（10）</li>
+                <li>change control + </li>
             </ul>
-            <p>Cloud-based工具特別要注意：vendor若停止服務，你的test records在哪裡？</p>
+            <p>Cloud-based：vendor，test records？</p>
         </div>
     </div>
 </div>
 
 <!-- ===================== SECTION SUMMARY ===================== -->
 <div class="summary-section">
-    <h2>Section Summary — 本節總結</h2>
+    <h2>Section Summary — </h2>
     <p>Appendices D6–D9 of GAMP 5 (2nd Edition) address four practical topics that bridge the gap between theoretical GxP compliance requirements and modern software engineering practice.</p>
     <ul>
         <li><strong>D6 System Descriptions</strong> — A regulatory-facing document required by EU GMP Annex 11 for critical systems. It serves as the "passport" of a computerized system, describing its purpose, architecture, interfaces, access controls, and electronic records in non-technical language. Must be subject to change control and periodic review; must be complete before system goes live.</li>
@@ -853,7 +853,7 @@ tr:nth-child(even) { background: #f7fafc; }
     </ul>
 
     <p style="margin-top:1rem; font-style:italic; color:rgba(255,255,255,0.75);">
-        核心思維：GxP合規不在於文件數量，而在於可追溯性、完整性、以及整個生命週期中維持受控狀態（state of control）。Agile和現代工具鏈恰恰能夠以更有效率的方式實現這些目標——前提是要有正確的mindset和適當的治理機制。
+        ：GxP，、、（state of control）。Agile——mindset。
     </p>
 </div>
 

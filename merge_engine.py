@@ -13,7 +13,7 @@ Usage in a report's merge.py:
             section_map=SECTION_MAP,
             report_title_en="PDA TR26 (Revised 2025)",
             report_subtitle_en="Sterilizing Filtration of Liquids",
-            report_subtitle_zh="液體除菌過濾 完整教學版",
+            report_subtitle_zh=" ",
             output_filename="TR26-Complete.html",
             footer_text="PDA Technical Report No. 26 (Revised 2025): Sterilizing Filtration of Liquids",
             chapter_label="Section",
@@ -464,10 +464,10 @@ def _filter_original_only(md: str) -> str:
     # Keywords that identify tutorial-only headings (Chinese and English variants)
     REMOVE_KEYWORDS = (
         # Chinese
-        '導師解析', '本章學習目標', '本節目錄', '本節內容索引',
-        '本節內容導覽', '本節重點回顧', '核心概念解析', '核心概念',
-        '比喻說明', '重點提示', '重點警示', '練習思考', '實務應用',
-        '法規背景', '圖表解讀', '圖表索引', '範圍解析',
+        '', '', '', '',
+        '', '', '', '',
+        '', '', '', '', '',
+        '', '', '', '',
         # English variants used in some sections
         'Tutorial Commentary', 'Core Concepts', 'Key Concepts',
         'Analogy', 'Key Notes', 'Critical Warning', 'Practice Questions',
@@ -475,7 +475,7 @@ def _filter_original_only(md: str) -> str:
         'Regulatory Context', 'Scope Analysis', 'Table Analysis',
     )
     # Heading labels to silently drop (content beneath is kept)
-    STRIP_LABEL_ONLY = ('原文內容 Original Text', 'Original Text',)
+    STRIP_LABEL_ONLY = (' Original Text', 'Original Text',)
 
     # Regex matching CJK Unified Ideographs + common CJK punctuation
     CJK_RE = re.compile(
@@ -510,7 +510,7 @@ def _filter_original_only(md: str) -> str:
             if any(text.startswith(label) for label in STRIP_LABEL_ONLY):
                 continue
 
-            # Strip CJK from mixed headings (e.g. "# Section 3: How Filters Work 濾膜原理")
+            # Strip CJK from mixed headings (e.g. "# Section 3: How Filters Work ")
             cleaned = CJK_RE.sub('', text).strip()
             cleaned = re.sub(r'\s{2,}', ' ', cleaned)  # collapse double spaces
             line = '#' * depth + ' ' + cleaned
@@ -730,7 +730,7 @@ def run_merge(
 </main>
 
     <footer class="main-footer">
-        <p>SterileGMP Knowledge Hub — 僅供學習參考</p>
+        <p>SterileGMP Knowledge Hub — </p>
     </footer>
 
     <button class="back-to-top" id="backToTop" onclick="window.scrollTo({{top:0,behavior:'smooth'}})">&#8679;</button>

@@ -9,11 +9,11 @@
       "id": 1,
       "type": "open",
       "topic": "VHP pre-validation requirement",
-      "question": "在隔離器 APS 執行前，VHP 去污周期是否可以納入 APS 一起執行？請說明理由。",
+      "question": "Before performing an isolator APS, can the VHP decontamination cycle be included and run as part of the APS? Explain why.",
       "key_points": [
-        "不可以合併執行",
-        "VHP 周期必須在獨立研究中使用生物指示劑（BI）完成確效",
-        "APS 不用於驗證 VHP 去污周期——兩者各有獨立的確效責任"
+        "They cannot be combined",
+        "The VHP cycle must be validated in an independent study using biological indicators (BI)",
+        "APS is not used to validate the VHP decontamination cycle; each has a separate validation responsibility"
       ],
       "reference": "PDA PtC-Isolators Topic 8-QS-8",
       "max": 10
@@ -22,15 +22,15 @@
       "id": 2,
       "type": "mcq",
       "topic": "Minimum APS unit count — isolator",
-      "question": "商業批次規模為 8,000 支。依規範，該次 Isolator APS 至少需灌填多少支培養基？",
+      "question": "The commercial batch size is 8,000 units. According to the guidance, how many units must be filled with media at minimum for this isolator APS?",
       "options": {
-        "A": "5,000 支",
-        "B": "8,000 支",
-        "C": "10,000 支",
-        "D": "5,000–10,000 支（取中間值即可）"
+        "A": "5,000 units",
+        "B": "8,000 units",
+        "C": "10,000 units",
+        "D": "5,000–10,000 units (any value in between)"
       },
       "correct": "C",
-      "explanation": "隔離器 APS 建議 ≥ 10,000 filled, integral units，不建議低於此值，即使商業批次只有 8,000 支。",
+      "explanation": "An isolator APS is recommended to include at least 10,000 filled, integral units. Going below this number is not recommended, even when the commercial batch contains only 8,000 units.",
       "reference": "PDA TR22 §4.3.3",
       "max": 10
     },
@@ -38,15 +38,15 @@
       "id": 3,
       "type": "mcq",
       "topic": "Type 1 vs Type 2 Intervention",
-      "question": "下列哪項屬於隔離器 APS 中必須模擬的 Type 1 Inherent Intervention？",
+      "question": "Which of the following is a Type 1 Inherent Intervention that must be simulated in an isolator APS?",
       "options": {
-        "A": "生產中途因機械異常手動調整充填針",
-        "B": "透過手套口更換 EM 板",
-        "C": "操作員輪班交接",
-        "D": "灌填速度從低速切換至高速"
+        "A": "Manually adjusting the filling needle because of a mechanical fault during production",
+        "B": "Replacing an EM plate through a glove port",
+        "C": "Operator shift handover",
+        "D": "Switching the filling speed from low to high"
       },
       "correct": "B",
-      "explanation": "Type 1 為常規操作不可避免的一部分，包括透過手套口更換 EM 板、零組件補充、RTP 傳遞等。A 為 Type 2 矯正性介入；C 在隔離器外的輪班交接不需納入；D 為製程參數設定。",
+      "explanation": "Type 1 interventions are unavoidable parts of routine operations and include replacing EM plates through a glove port, replenishing components, and RTP transfers. A is a Type 2 corrective intervention; C is a shift handover outside the isolator and need not be included; D is a process parameter setting.",
       "reference": "PDA TR22 §4.1.3.1; PDA PtC-Isolators Topic 8-QS-4",
       "max": 10
     },
@@ -54,15 +54,15 @@
       "id": 4,
       "type": "mcq",
       "topic": "Isolator worst-case — counter-intuitive",
-      "question": "關於隔離器 APS 最壞情況判斷，哪個陳述正確？",
+      "question": "Which statement is correct regarding worst-case determination for an isolator APS?",
       "options": {
-        "A": "隔離器外的房間人數越多，污染風險越高，應納入最壞情況",
-        "B": "輪班交接發生於隔離器外，屬於最壞情況條件",
-        "C": "某些情況下，操作員人數較少反而可能是更高風險的最壞情況",
-        "D": "灌填速度越快，對所有容器類型都構成最壞情況"
+        "A": "The more people in the room outside the isolator, the higher the contamination risk, so this should be included as a worst case",
+        "B": "A shift handover outside the isolator is a worst-case condition",
+        "C": "In some situations, fewer operators may represent a higher-risk worst case",
+        "D": "A faster filling speed is the worst case for every container type"
       },
       "correct": "C",
-      "explanation": "較少操作員執行同樣介入時，動作幅度更大、速度更快，對關鍵區域擾動可能更高。真正最壞情況需透過風險評估決定，而非直接假設人多就是最壞情況。A/B 因物理屏障不適用；D 最慢速度才是最大容器（開口暴露最長）的最壞情況。",
+      "explanation": "When fewer operators perform the same interventions, their movements may be larger and faster, potentially causing greater disturbance to critical areas. The true worst case must be determined through risk assessment rather than assuming that more people is automatically the worst case. A and B do not apply because of the physical barrier; the slowest speed is the worst case for the largest container, which has the longest opening exposure.",
       "reference": "PDA TR22 §4.3.3; PDA PtC-Isolators Topic 8-QS-7",
       "max": 10
     },
@@ -70,15 +70,15 @@
       "id": 5,
       "type": "mcq",
       "topic": "Pre-incubation unit exclusion criteria",
-      "question": "APS 灌填後、進培養箱前，哪種情況下應將容器從培養批次中剔除？",
+      "question": "After APS filling and before incubation, in which situation should a container be excluded from the incubation batch?",
       "options": {
-        "A": "培養基有輕微顆粒懸浮",
-        "B": "灌填體積偏低（不足滿瓶）",
-        "C": "瓶塞扎入不完整（不密封）",
-        "D": "目視外觀有輕微瓶壁刮傷"
+        "A": "The media contains slight suspended particles",
+        "B": "The fill volume is low (the container is not full)",
+        "C": "The stopper is incompletely inserted (not sealed)",
+        "D": "There is a minor visible scratch on the container wall"
       },
       "correct": "C",
-      "explanation": "只能剔除 non-integral containers（密封不完整），包括玻璃破裂、瓶塞缺失、壓蓋不良、空瓶。體積偏低、顆粒、外觀缺陷均不能作為剔除理由——否則可能掩蓋真正的污染。",
+      "explanation": "Only non-integral containers may be excluded, including broken glass, missing stoppers, poor crimping, and empty containers. Low volume, particles, and cosmetic defects cannot be used as exclusion reasons because doing so could conceal genuine contamination.",
       "reference": "PDA TR22 §7.13",
       "max": 10
     },
@@ -86,15 +86,15 @@
       "id": 6,
       "type": "scenario",
       "topic": "APS failure response",
-      "question": "某次 Isolator APS 培養結束後發現 3 支濁化。調查後確認根本原因為操作員手套破損，與無菌製程直接相關。最適當的下一步是什麼？",
+      "question": "Three turbid units are found after incubation of an isolator APS. The investigation confirms that the root cause was a damaged operator glove, directly related to the aseptic process. What is the most appropriate next step?",
       "options": {
-        "A": "剔除該操作員參與的批次，其餘批次 pass",
-        "B": "宣告 APS 失敗，執行 RCA，通常需要額外 3 次 APS",
-        "C": "若污染數量少於 0.1%，可接受",
-        "D": "立即重新執行一次 APS，上一次結果無效不計"
+        "A": "Exclude the batches involving that operator and pass the remaining batches",
+        "B": "Declare the APS a failure, perform an RCA, and usually conduct three additional APS runs",
+        "C": "Accept the result if contamination is below 0.1%",
+        "D": "Immediately repeat the APS and disregard the previous result"
       },
       "correct": "B",
-      "explanation": "只有污染原因與所模擬的無菌製程無關時才可能接受結果。手套破損直接屬於無菌製程，因此此次 APS 失敗，需完整 RCA + 通常額外 3 次全數通過。接受標準永遠是 zero contaminated units，無百分比容許值。",
+      "explanation": "The result may be accepted only when the cause of contamination is unrelated to the simulated aseptic process. A damaged glove is directly related to the aseptic process, so this APS fails and requires a complete RCA plus, typically, three additional successful runs. The acceptance criterion is always zero contaminated units; there is no percentage allowance.",
       "reference": "PDA TR22 §9.0; PDA PtC-Isolators Topic 8-QS-2",
       "max": 10
     },
@@ -102,12 +102,12 @@
       "id": 7,
       "type": "open",
       "topic": "Lyo APS chamber pressure",
-      "question": "進行 Lyo 產品 APS 時，模擬凍乾機抽真空步驟，腔室壓力應維持在什麼範圍？請說明為什麼不能低於此值。",
+      "question": "When performing an APS for a lyophilized product and simulating the lyophilizer vacuum step, what chamber pressure range should be maintained? Explain why the pressure must not be lower than this value.",
       "key_points": [
         "100–200 mbar",
-        "不能低於培養基在裝載溫度下的平衡蒸氣壓（例：水在 25°C = 32 mbar）",
-        "低於此值培養基會突沸（flash evaporation），影響培養基效能",
-        "凍結同樣會抑制微生物生長，導致 APS invalid"
+        "It must not be lower than the equilibrium vapor pressure of the media at the loading temperature (for example, water at 25°C = 32 mbar)",
+        "Below this value, the media may undergo flash evaporation, affecting media performance",
+        "Freezing would also inhibit microbial growth and make the APS invalid"
       ],
       "reference": "PDA TR22 §4.2.2",
       "max": 10
@@ -116,15 +116,15 @@
       "id": 8,
       "type": "mcq",
       "topic": "Growth promotion testing outcomes",
-      "question": "Growth Promotion Testing 結果為通過（pass），但 APS 培養結束後發現有污染單位。此次 APS 結果為何？",
+      "question": "Growth Promotion Testing passes, but contaminated units are found after APS incubation. What is the result of this APS?",
       "options": {
-        "A": "APS 無效（invalid）",
-        "B": "APS 通過（pass）",
-        "C": "APS 失敗（fail）",
-        "D": "需重新執行 growth promotion testing 才能判定"
+        "A": "APS invalid",
+        "B": "APS pass",
+        "C": "APS fail",
+        "D": "Repeat growth promotion testing before making a determination"
       },
       "correct": "C",
-      "explanation": "Growth Promotion pass 代表培養基有效、能支持微生物生長，強化了污染判定的效力。有污染 = APS 失敗。只有 Growth Promotion fail 時，整個 APS 才會被判為 invalid（無效），不計入正式失敗記錄。",
+      "explanation": "A Growth Promotion pass shows that the media is effective and can support microbial growth, strengthening the validity of the contamination finding. Contamination means the APS fails. Only a Growth Promotion failure makes the entire APS invalid and excluded from the formal failure record.",
       "reference": "PDA TR22 §7.17",
       "max": 10
     },
@@ -132,12 +132,12 @@
       "id": 9,
       "type": "open",
       "topic": "Isolator L-3 personnel qualification",
-      "question": "隔離器操作員的 L-3 人員資格認定（初始認證），與傳統無菌充填線操作員的主要差異是什麼？",
+      "question": "What is the main difference between initial L-3 qualification of an isolator operator and qualification of an operator on a traditional aseptic filling line?",
       "key_points": [
-        "不一定需要透過 APS 參與來完成 L-3 初始認證",
-        "可透過其他訓練活動（如 media manipulation exercises）展示無菌技術熟練度",
-        "資格認定方式為 risk-based",
-        "強調在受限隔離器空間內、透過手套口執行動作的能力"
+        "Participation in an APS is not necessarily required for initial L-3 qualification",
+        "Aseptic technique proficiency can be demonstrated through other training activities, such as media manipulation exercises",
+        "Qualification is risk-based",
+        "The focus is on performing actions through glove ports within the restricted isolator space"
       ],
       "reference": "PDA TR22 §8.0–§8.4; PDA PtC-Isolators Topic 8-QS-5",
       "max": 10
@@ -146,15 +146,15 @@
       "id": 10,
       "type": "mcq",
       "topic": "Piggyback APS limitation",
-      "question": "「Piggyback APS」最大的限制是什麼？",
+      "question": "What is the greatest limitation of a piggyback APS?",
       "options": {
-        "A": "Piggyback APS 只能在隔離器上執行，傳統線不適用",
-        "B": "Piggyback APS 無法單獨作為確效工具，必須搭配其他模擬（涵蓋充填開始階段）",
-        "C": "Piggyback APS 的灌填單數不能超過 5,000 支",
-        "D": "Piggyback APS 中的 Type 2 介入次數不計入 APS 總介入記錄"
+        "A": "A piggyback APS can be performed only on an isolator and is not applicable to a traditional line",
+        "B": "A piggyback APS cannot serve as a standalone validation tool and must be combined with another simulation covering the start of filling",
+        "C": "A piggyback APS cannot contain more than 5,000 filled units",
+        "D": "Type 2 interventions in a piggyback APS are not counted in the total APS intervention record"
       },
       "correct": "B",
-      "explanation": "Piggyback APS 只模擬充填結束階段，無法涵蓋充填開始階段（line setup、初始零組件裝載等高風險環節），因此不能單獨作為確效工具，必須搭配涵蓋開始階段的 APS 模擬。",
+      "explanation": "A piggyback APS simulates only the end of filling and cannot cover high-risk activities at the start of filling, such as line setup and initial component loading. It therefore cannot serve as a standalone validation tool and must be combined with an APS simulation covering the start of filling.",
       "reference": "PDA TR22 §4.3.3",
       "max": 10
     }

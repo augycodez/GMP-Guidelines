@@ -6,7 +6,7 @@ Planned Claude Code skills (slash commands) for the GMP-Guidelines repository. E
 **Existing:** `/gmp-ask` (see `.claude/commands/gmp-ask.md`)  
 **Last updated:** 2026-04-01
 
-**Department codes:** QA=品保 | QC=品管 | MG=生產 | EN=工程 | TS=技術 | WH=倉儲 | RA=法規 | BD=業務開發 | BT=資訊
+**Department codes:** QA= | QC= | MG= | EN= | TS= | WH= | RA= | BD= | BT=
 
 **Column notes:**
 - **Initiating Dept** — who typically starts the workflow (discovers the event, submits the request, writes the first draft)

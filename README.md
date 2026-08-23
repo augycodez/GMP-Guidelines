@@ -233,7 +233,7 @@ In Claude Code, from the repo directory:
 ```
 /gmp-ask What does ISPE Vol.5 say about IQ/OQ/PQ scope?
 /gmp-ask What are the filter integrity test requirements in TR26?
-/gmp-ask 無菌模擬充填的判定標準是什麼？
+/gmp-ask ？
 /gmp-ask How does Annex 1 (2022) change the requirements for RABS vs isolators?
 /gmp-ask Compare PDA TR90 and ISPE Annex 1 on contamination control strategy
 ```

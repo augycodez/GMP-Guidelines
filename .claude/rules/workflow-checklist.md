@@ -13,21 +13,21 @@ Add a new report entry to the `reports` object:
   "TRXX": {
     "report_title_en": "PDA Technical Report No. XX (Year)",
     "report_subtitle_en": "Full English Subtitle",
-    "report_subtitle_zh": "中文副標題 完整教學版",
+    "report_subtitle_zh": " ",
     "output_filename": "TRXX-Complete.html",
     "footer_text": "PDA Technical Report No. XX (Year): Full English Subtitle",
     "chapter_label": "Section",
     "date": "2026-03-20",
     "title": "PDA TRXX: Short Dashboard Title",
-    "titleZh": "中文標題",
+    "titleZh": "",
     "source": "PDA TRXX",
     "source_color": { "bg": "#...", "text": "#...", "bar": "#...", "short": "TRXX" },
     "tags": ["Tag1", "Tag2", "Tag3"],
-    "summary": "中文摘要（1-2句）",
+    "summary": "（1-2）",
     "pages": "p1-p100",
     "figures": 0,
     "section_map": [
-      { "files": ["section-00-intro.html"], "id": "sec0", "num": "0", "label_en": "Introduction", "label_zh": "導論", "pages": "p1-p5" }
+      { "files": ["section-00-intro.html"], "id": "sec0", "num": "0", "label_en": "Introduction", "label_zh": "", "pages": "p1-p5" }
     ]
   }
 }

@@ -439,7 +439,7 @@ body {
     font-size: 0.92rem !important;
 }
 
-/* ===== ANALOGY BOX (Yellow) - 比喻說明 ===== */
+/* ===== ANALOGY BOX (Yellow) -  ===== */
 .analogy-box,
 .concept-box[class*="analogy"],
 .concept-box.analogy,
@@ -453,7 +453,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #856404 !important;
 }
 
-/* ===== TERM/CONCEPT BOX (Green) - 核心概念 ===== */
+/* ===== TERM/CONCEPT BOX (Green) -  ===== */
 .term-box,
 .key-term-box,
 .concept-box:not([class*="analogy"]):not([class*="note"]):not([class*="formula"]):not([class*="practice"]):not([class*="highlight"]):not(.analogy):not(.application) {
@@ -468,7 +468,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #2e7d32 !important;
 }
 
-/* ===== NOTE/HIGHLIGHT BOX (Orange) - 重點提示 ===== */
+/* ===== NOTE/HIGHLIGHT BOX (Orange) -  ===== */
 .note-box,
 .key-note,
 .key-point-box,
@@ -487,7 +487,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #c65102 !important;
 }
 
-/* ===== FORMULA BOX (Purple) - 公式計算 ===== */
+/* ===== FORMULA BOX (Purple) -  ===== */
 .formula-box,
 .concept-box[class*="formula"] {
     background: var(--purple-bg) !important;
@@ -522,7 +522,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #1565c0 !important;
 }
 
-/* ===== PRACTICE BOX (Blue dashed) - 練習思考 ===== */
+/* ===== PRACTICE BOX (Blue dashed) -  ===== */
 .practice-box {
     background: linear-gradient(135deg, #e8f4fd 0%, #d1e9ff 100%) !important;
     border: 2px dashed #3182ce !important;
@@ -933,29 +933,29 @@ tr:nth-child(even) {
 <!-- SECTION HEADER -->
 <div class="header">
     <h1>Chapters 1–2: Introduction, Key Concepts &amp; User Requirements Documentation</h1>
-    <div class="subtitle">第一至二章：導論、關鍵概念與用戶需求文件</div>
+    <div class="subtitle">：、</div>
     <div class="page-info">ISPE Good Practice Guide: Process Gases | p1–p20</div>
 </div>
 
 <!-- LEARNING OBJECTIVES -->
 <div class="main-content">
 <div class="learning-objectives">
-    <h3>本章學習目標</h3>
+    <h3></h3>
     <ul>
-        <li>理解製程氣體（Process Gas）在製藥環境中的定義與範疇，明確哪些氣體屬於GxP管制對象</li>
-        <li>掌握五種關鍵製程氣體（N₂、O₂、Ar、CO₂、壓縮空氣）的用途與純度要求差異</li>
-        <li>了解用戶需求規格書（URS）在氣體系統設計流程中的核心地位，以及為何必須先於設備選型</li>
-        <li>識別URS的關鍵要素：純度、流量、壓力、交付點品質、監控警報，以及各利害關係人的責任分工</li>
-        <li>在CDMO情境下，判斷哪些氣體參數屬於CQA/CPP，哪些屬於業務需求或期望屬性</li>
+        <li>（Process Gas），GxP</li>
+        <li>（N₂、O₂、Ar、CO₂、）</li>
+        <li>（URS），</li>
+        <li>URS：、、、、，</li>
+        <li>CDMO，CQA/CPP，</li>
     </ul>
 </div>
 
 <!-- ==================== SECTION 1: PREFACE & PURPOSE ==================== -->
-<div class="section-title">1.1 Purpose &amp; Scope — 目的與範疇</div>
+<div class="section-title">1.1 Purpose &amp; Scope — </div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
         <p><span class="key-term">Preface</span></p>
         <p>The purpose of the ISPE Good Practice Guide: Process Gases is to document accepted good processes and procedures within pharmaceutical manufacturing applications. The Guide promotes <span class="key-term">science- and risk-based methods</span> for the design, construction, commissioning, and qualification processes for gas systems used to support production.</p>
         <p>This Guide considers those gases that come into <span class="key-term">direct contact with the biopharmaceutical and pharmaceutical manufacturing process streams</span>; these include:</p>
@@ -1000,65 +1000,65 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 — 什麼是「製程氣體」？</h4>
-            <p><strong>Process Gas（製程氣體）</strong>的定義關鍵在於「直接接觸」：這些氣體與產品本身、或產品接觸面（product-contacting surfaces）有直接物理接觸。這就是為什麼它們需要GxP管制。</p>
-            <p>五種核心氣體：</p>
+            <h4> — 「」？</h4>
+            <p><strong>Process Gas（）</strong>「」：、（product-contacting surfaces）。GxP。</p>
+            <p>：</p>
             <ul>
-                <li><strong>Nitrogen (N₂，氮氣)</strong>：惰性覆蓋、tank blanket、無氧傳輸</li>
-                <li><strong>Oxygen (O₂，氧氣)</strong>：細胞培養充氣、氧化反應</li>
-                <li><strong>Argon (Ar，氬氣)</strong>：惰性保護（比N₂更惰）</li>
-                <li><strong>Carbon Dioxide (CO₂，二氧化碳)</strong>：pH調節、細胞培養</li>
-                <li><strong>Compressed Air（壓縮空氣）</strong>：儀器控制、氣動設備、乾燥</li>
+                <li><strong>Nitrogen (N₂，)</strong>：、tank blanket、</li>
+                <li><strong>Oxygen (O₂，)</strong>：、</li>
+                <li><strong>Argon (Ar，)</strong>：（N₂）</li>
+                <li><strong>Carbon Dioxide (CO₂，)</strong>：pH、</li>
+                <li><strong>Compressed Air（）</strong>：、、</li>
             </ul>
-            <p>明確排除在外：醫療氣體（如呼吸用空氣）、蒸汽——這些有其他法規管制。</p>
+            <p>：（）、——。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 — 餐廳廚房的食材接觸</h4>
-            <p>想像一家餐廳：廚房裡使用的各種器具（刀具、砧板、容器）必須符合食品安全標準，因為它們直接接觸食材。但餐廳外面的送貨車輛，雖然也很重要，並不需要符合同樣的食品安全規定。</p>
-            <p>製程氣體就像廚房器具——因為它們與「產品」（藥物）直接接觸，必須受到GMP管制。非製程氣體（如設施暖通空調的空氣）則像送貨車輛，有其他安全標準，但不在同一個GMP框架內。</p>
+            <h4> — </h4>
+            <p>：（、、），。，，。</p>
+            <p>——「」（），GMP。（），，GMP。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 — GxP觸發條件</h4>
-            <p><strong>判斷一個氣體是否需要GxP管制，問一個問題：「它有沒有接觸到產品或產品接觸面？」</strong></p>
-            <p>若答案是「是」，則該氣體屬於製程氣體，需要：設計確認、IQ/OQ/PQ、持續監控、偏差處理程序。</p>
-            <p>若答案是「否」（如廠務公用氣體），則屬於GEP（Good Engineering Practice，良好工程規範）範疇，管制要求較低。</p>
-            <p>此本指南與ICH Q9（品質風險管理）和ASTM E2500-07（驗證框架）對齊，這是近年業界的主流方向。</p>
+            <h4> — GxP</h4>
+            <p><strong>GxP，：「？」</strong></p>
+            <p>「」，，：、IQ/OQ/PQ、、。</p>
+            <p>「」（），GEP（Good Engineering Practice，），。</p>
+            <p>ICH Q9（）ASTM E2500-07（），。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>在無菌充填線上，用來推動活塞泵的壓縮空氣是否屬於「製程氣體」？如何判斷？</li>
-                <li>如果N₂被用來對空的儲罐進行blanket（覆蓋保護），但該儲罐稍後才會放入藥液，此時N₂算不算製程氣體？</li>
+                <li>，「」？？</li>
+                <li>N₂blanket（），，N₂？</li>
             </ol>
         </div>
     </div>
 </div>
 
 <!-- ==================== SECTION 2: KEY CONCEPTS ==================== -->
-<div class="section-title">1.5 Key Concepts — 五大關鍵概念</div>
+<div class="section-title">1.5 Key Concepts — </div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
         <p>This Guide aims to promote a science- and risk-based approach to provide an effective basis for the planning, design, and execution of gas system projects.</p>
         <p>Five key concepts are applied throughout this Guide:</p>
 
-        <p><strong>1. Product and Process Understanding（產品與製程理解）</strong></p>
+        <p><strong>1. Product and Process Understanding（）</strong></p>
         <p>An understanding of the supported process is fundamental to determining system requirements. Product and process understanding is the basis for making science- and risk-based decisions to ensure that the system is <span class="key-term">fit for its intended use</span>. Efforts to ensure fitness for intended use should focus on those aspects that are critical to patient safety and product quality. These critical aspects should be identified, specified, and verified.</p>
         <p>Systems within the scope of this Guide support the manufacture and preservation of materials used in many applications including but not limited to clinical trials, commercial production of API and final products. For some manufacturing systems, process requirements depend on a thorough understanding of product characteristics, identification of <span class="key-term">Critical Quality Attributes (CQAs)</span> and related <span class="key-term">Critical Process Parameters (CPPs)</span>, which enable process requirements to be accurately defined.</p>
         <p>Specification of requirements should be focused on critical aspects. The extent and detail of requirement specification should be commensurate with associated risk, complexity, and novelty of the system.</p>
 
-        <p><strong>2. Life Cycle Approach within a Quality Management System（品質管理系統內的生命週期方法）</strong></p>
+        <p><strong>2. Life Cycle Approach within a Quality Management System（）</strong></p>
         <p>Adopting a system life cycle approach entails defining activities in a systematic way from system conception to retirement. This enables the optimization of the management control process. The life cycle should form a fundamental part of the organization's <span class="key-term">Quality Management System (QMS)</span>, which should be maintained up to date as new ways of working are developed.</p>
         <p>As experience is gained in system use, the QMS should enable <span class="key-term">continuous process and system improvements</span> based on periodic review and evaluation, operational and performance data, and root-cause analysis of failures. Identified improvements and corrective actions should follow change management.</p>
 
-        <p><strong>3. Scaleable Life Cycle Activities（可擴展的生命週期活動）</strong></p>
+        <p><strong>3. Scaleable Life Cycle Activities（）</strong></p>
         <p>Life cycle activities should be scaled according to:</p>
         <ul>
             <li>system impact on patient safety, product quality, and data integrity (risk assessment)</li>
@@ -1068,74 +1068,74 @@ tr:nth-child(even) {
         </ul>
         <p>Potential business risk also may influence the scaling of life cycle activities. The strategy should be clearly defined in a plan and follow established and approved policies and procedures.</p>
 
-        <p><strong>4. Science-Based Quality Risk Management（科學導向的品質風險管理）</strong></p>
+        <p><strong>4. Science-Based Quality Risk Management（）</strong></p>
         <p><span class="key-term">Quality Risk Management</span> is a systematic process for the assessment, control, communication, and review of risks. Application of Quality Risk Management enables effort to be focused on critical aspects of a system in a controlled and justified manner.</p>
         <p>Quality Risk Management should be based on clear process understanding and potential impact on patient safety, product quality. Qualitative or quantitative techniques may be used to identify and manage risks. Controls are developed to reduce risks to an acceptable level. Implemented controls are monitored during operation to ensure ongoing effectiveness.</p>
 
-        <p><strong>5. Utilizing Supplier Involvement（善用供應商參與）</strong></p>
+        <p><strong>5. Utilizing Supplier Involvement（）</strong></p>
         <p>Regulated organizations should seek to maximize supplier involvement throughout the system life cycle in order to utilize knowledge, experience, and documentation, subject to satisfactory supplier assessment.</p>
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念 — 五大概念的邏輯結構</h4>
-            <p>這五個概念不是孤立的清單，而是一套設計哲學的遞進架構：</p>
+            <h4> — </h4>
+            <p>，：</p>
             <ul>
-                <li><strong>概念1</strong>：先了解產品/製程，才能定義系統需求</li>
-                <li><strong>概念2</strong>：把系統納入生命週期管理（不只是「建好就算」）</li>
-                <li><strong>概念3</strong>：根據風險等級，決定要做多少驗證工作（scale）</li>
-                <li><strong>概念4</strong>：用QRM方法，聚焦在真正重要的環節</li>
-                <li><strong>概念5</strong>：善用氣體供應商的專業知識，不要閉門造車</li>
+                <li><strong>1</strong>：/，</li>
+                <li><strong>2</strong>：（「」）</li>
+                <li><strong>3</strong>：，（scale）</li>
+                <li><strong>4</strong>：QRM，</li>
+                <li><strong>5</strong>：，</li>
             </ul>
-            <p>這套邏輯與ISPE Baseline Vol.5 C&amp;Q以及ICH Q9完全對齊。</p>
+            <p>ISPE Baseline Vol.5 C&amp;QICH Q9。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 — 蓋新家的類比</h4>
-            <p>想像你要蓋一棟新房子（Gas System）：</p>
+            <h4> — </h4>
+            <p>（Gas System）：</p>
             <ul>
-                <li><strong>概念1</strong>：先確認這棟房子要住幾個人、有什麼特殊需求（製程理解）</li>
-                <li><strong>概念2</strong>：考慮未來20年的維護計畫，不只是開幕那天（生命週期）</li>
-                <li><strong>概念3</strong>：臥室門鎖要有，但不需要像銀行金庫一樣的保全（按風險Scale）</li>
-                <li><strong>概念4</strong>：評估哪個區域最容易出問題，集中資源（QRM）</li>
-                <li><strong>概念5</strong>：多聽建築師和水電師傅的建議（供應商投入）</li>
+                <li><strong>1</strong>：、（）</li>
+                <li><strong>2</strong>：20，（）</li>
+                <li><strong>3</strong>：，（Scale）</li>
+                <li><strong>4</strong>：，（QRM）</li>
+                <li><strong>5</strong>：（）</li>
             </ul>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 — CQA與CPP的延伸應用</h4>
-            <p>傳統上CQA/CPP用於描述藥物產品的屬性。本指南將此概念延伸應用到氣體系統：<strong>把氣體視為一種「賦形劑（excipient）」</strong>，因此氣體的輸出品質（如純度、含水量）可被定義為CQA，而控制氣體品質的製程參數則為CPP。</p>
-            <p>這個延伸應用非常重要——它讓氣體系統可以直接套入QbD（Quality by Design）框架，讓風險評估有明確的錨點。</p>
+            <h4> — CQACPP</h4>
+            <p>CQA/CPP。：<strong>「（excipient）」</strong>，（、）CQA，CPP。</p>
+            <p>——QbD（Quality by Design），。</p>
         </div>
 
         <div class="concept-box application">
-            <h4>實務應用 — CDMO的Scaleable QRM</h4>
-            <p>在CDMO環境，同一條氣體管路可能同時服務多個客戶的不同產品。Scaleable的概念在此尤其重要：</p>
+            <h4> — CDMOScaleable QRM</h4>
+            <p>CDMO，。Scaleable：</p>
             <ul>
-                <li>服務生物製劑（細胞培養）的N₂管路：O₂殘留量是CQA，須嚴格管控</li>
-                <li>服務固體口服製劑包裝的N₂管路：純度要求可能較低</li>
-                <li>同一家CDMO的不同設施區域，Gas System的驗證深度可以合理差異化</li>
+                <li>（）N₂：O₂CQA，</li>
+                <li>N₂：</li>
+                <li>CDMO，Gas System</li>
             </ul>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>一個新安裝的CO₂氣體系統，如何決定它的「生命週期活動」要做到什麼深度？哪些因素會影響這個決定？</li>
-                <li>你的氣體供應商（如Air Products）有豐富的安裝和測試資料，你如何在合規框架內利用這些資料，減少自己的確認測試工作量？</li>
+                <li>CO₂，「」？？</li>
+                <li>（Air Products），，？</li>
             </ol>
         </div>
     </div>
 </div>
 
 <!-- ==================== SECTION 3: KEY TERMS & TERMINOLOGY ==================== -->
-<div class="section-title">1.5.1 Key Terms and Terminology — 關鍵術語定義</div>
+<div class="section-title">1.5.1 Key Terms and Terminology — </div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
         <p>This Guide uses the term "User Requirements" according to the ISPE Good Practice Guide: Applied Risk Management for Commissioning and Qualification. Organizations may alternatively use the term <span class="key-term">User Requirement Specifications</span> or <span class="key-term">Process User Requirements</span> for the same document type.</p>
         <p>This Guide uses Critical Quality Attributes (CQAs) and Critical Process Parameters (CPPs) according to the definition given below (from ICH Q8), which states that "CQAs are generally associated with the drug substance, excipients, intermediates (in process materials) and drug product." In this Guide we have applied them to the <span class="key-term">system output (gas) considering it as an excipient</span>; therefore having direct product contact or becoming part of the final product formulation.</p>
         <p>Companies may adapt the terminology to suit their practices, with the actual CQAs and CPPs defined based on the application and considering company practices and standards.</p>
@@ -1163,42 +1163,42 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="note-box">
-            <h4>重點提示 — System Owner的關鍵原則</h4>
-            <p>本指南對System Owner（系統負責人）有一個非常重要的界定：<strong>「角色應基於對製程的專業知識，而非組織中的職位高低。」</strong></p>
-            <p>這意味著：一個對壓縮空氣系統真正了解的工程師，比一個名義上的部門主管更適合擔任System Owner。在實際操作中，CDMO常見的問題是System Owner掛名但不熟悉系統——這樣的安排在稽核中會產生嚴重風險。</p>
+            <h4> — System Owner</h4>
+            <p>System Owner（）：<strong>「，。」</strong></p>
+            <p>：，System Owner。，CDMOSystem Owner——。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 — 氣體作為賦形劑</h4>
-            <p>把N₂想像成液態製劑中的注射用水（WFI）：WFI是賦形劑，它的品質直接影響最終產品。N₂在bioreactor中覆蓋藥液時，扮演著相似的角色——它的純度（O₂含量、烴類含量）可以直接影響產品的品質屬性。</p>
-            <p>這就是為什麼ISPE要將CQA/CPP的概念延伸應用到氣體：讓工程師和QA有共同的語言和框架。</p>
+            <h4> — </h4>
+            <p>N₂（WFI）：WFI，。N₂bioreactor，——（O₂、）。</p>
+            <p>ISPECQA/CPP：QA。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>在你的CDMO，壓縮空氣的「System Owner」應該是誰？Engineering？Operations？QA？請說明理由。</li>
-                <li>N₂的「烴類含量」（hydrocarbon content）在細胞培養應用中算是CQA嗎？如果客戶的產品是小分子API而非生物製劑，答案是否不同？</li>
+                <li>CDMO，「System Owner」？Engineering？Operations？QA？。</li>
+                <li>N₂「」（hydrocarbon content）CQA？API，？</li>
             </ol>
         </div>
     </div>
 </div>
 
 <div class="concept-box">
-            <h4>核心概念 — 術語對照表</h4>
+            <h4> — </h4>
             <div style="overflow-x:auto;">
             </div>
         </div>
 
         <!-- ==================== SECTION 4: GUIDE STRUCTURE ==================== -->
-<div class="section-title">1.6 Structure of this Guide — 指南架構</div>
+<div class="section-title">1.6 Structure of this Guide — </div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p><strong>1.6.1 Gases Defined</strong></p>
         <p><span class="key-term">Process gases</span> are defined as gases which can affect product quality. This Guide considers the following gases: nitrogen, oxygen, argon, carbon dioxide, compressed air.</p>
@@ -1236,63 +1236,63 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念 — 指南架構的設計邏輯</h4>
-            <p>整本指南的架構遵循一個清晰的系統生命週期邏輯：</p>
+            <h4> — </h4>
+            <p>：</p>
             <div class="hierarchy-diagram">
                 <div class="hierarchy-level">
-                    <span class="hierarchy-box level-1">URS（用戶需求）</span>
+                    <span class="hierarchy-box level-1">URS（）</span>
                 </div>
                 <div class="arrow-down">▼</div>
                 <div class="hierarchy-level">
-                    <span class="hierarchy-box level-2">Design（設計：供應+分配+控制）</span>
+                    <span class="hierarchy-box level-2">Design（：++）</span>
                 </div>
                 <div class="arrow-down">▼</div>
                 <div class="hierarchy-level">
-                    <span class="hierarchy-box level-2">Risk Assessment（風險評估）</span>
+                    <span class="hierarchy-box level-2">Risk Assessment（）</span>
                 </div>
                 <div class="arrow-down">▼</div>
                 <div class="hierarchy-level">
-                    <span class="hierarchy-box level-3">Verification/ETOP（確認）</span>
+                    <span class="hierarchy-box level-3">Verification/ETOP（）</span>
                 </div>
                 <div class="arrow-down">▼</div>
                 <div class="hierarchy-level">
-                    <span class="hierarchy-box level-3">O&amp;M（運行與維護）</span>
+                    <span class="hierarchy-box level-3">O&amp;M（）</span>
                 </div>
             </div>
-            <p>這個順序至關重要：URS先行，設計跟隨，風險評估貫穿，驗證收尾。</p>
+            <p>：URS，，，。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 — ETOP的重要性</h4>
-            <p><strong>Engineering Turnover Package (ETOP，工程移交文件包)</strong> 是建設/安裝方向使用方移交的核心文件集，包含：P&amp;ID、設備清單、材料認證、測試記錄、校正記錄等。</p>
-            <p>ISPE將ETOP定位為「驗證階段最重要的溝通管道之一」。這意味著：如果ETOP不完整，後續的IQ/OQ/PQ確認工作就缺乏基礎，Qualification協議中的許多項目無法簽核。</p>
-            <p>在CDMO的實務中，追蹤承包商提交完整ETOP是Project Manager的核心責任之一。</p>
+            <h4> — ETOP</h4>
+            <p><strong>Engineering Turnover Package (ETOP，)</strong> /，：P&amp;ID、、、、。</p>
+            <p>ISPEETOP「」。：ETOP，IQ/OQ/PQ，Qualification。</p>
+            <p>CDMO，ETOPProject Manager。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 — 壓縮空氣的特殊性</h4>
-            <p>壓縮空氣之所以在指南中獨立討論，是因為它的「生產方式」不同：N₂、O₂可以向氣體公司購買鋼瓶或bulk supply，但壓縮空氣通常是廠房自己用壓縮機現場產生的。這就像自己家烤麵包（on-site generation）vs. 去麵包店買（purchased gas）——自己烤的話，你對整個製作過程負責，包括原料（空氣品質）、設備（壓縮機）和最終品質控制（過濾、乾燥）。</p>
+            <h4> — </h4>
+            <p>，「」：N₂、O₂bulk supply，。（on-site generation）vs. （purchased gas）——，，（）、（）（、）。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>ETOP對於氣體系統的GMP確認有何關鍵作用？如果承包商移交時ETOP文件不完整，你有哪些選項？</li>
-                <li>指南說「設計在風險評估完成且結果納入設計規格後才算完成」——這對你現在的工作流程有什麼意義？</li>
+                <li>ETOPGMP？ETOP，？</li>
+                <li>「」——？</li>
             </ol>
         </div>
     </div>
 </div>
 
 <!-- ==================== SECTION 5: CH2 URS INTRODUCTION ==================== -->
-<div class="section-title">2.1–2.2 URS Introduction &amp; Process Requirements — 導入與製程需求</div>
+<div class="section-title">2.1–2.2 URS Introduction &amp; Process Requirements — </div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p><strong>2 Development of the User Requirements Documentation</strong></p>
         <p><span class="badge" style="background:#dcfce7; color:#15803d;">ISPE</span></p>
@@ -1362,18 +1362,18 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念 — URS是設計的起點，不是終點</h4>
-            <p><strong>User Requirements Specification（用戶需求規格書，URS）</strong>在氣體系統設計中扮演「憲法」的角色：</p>
+            <h4> — URS，</h4>
+            <p><strong>User Requirements Specification（，URS）</strong>「」：</p>
             <ul>
-                <li>它定義「系統需要做什麼」（What），而不是「怎麼做」（How）</li>
-                <li>它給設計師留下優化空間，不預先指定解決方案</li>
-                <li>它是後續DS（Design Specification）、URS→DS→CS的起點</li>
-                <li>現有系統修改時，URS也需要相應更新</li>
+                <li>「」（What），「」（How）</li>
+                <li>，</li>
+                <li>DS（Design Specification）、URS→DS→CS</li>
+                <li>，URS</li>
             </ul>
-            <p>本指南特別強調：URS應基於<strong>產品和製程需求</strong>，而非設備能力。這是QbD精神的核心體現。</p>
+            <p>：URS<strong></strong>，。QbD。</p>
         </div>
 
         </div></div></div></body></html>

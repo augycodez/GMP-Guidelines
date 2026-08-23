@@ -12,7 +12,7 @@
 <!-- ===== PAGE HEADER ===== -->
 <div class="header">
     <h1>Section 6.3.8–6.3.11: ALCS — Audit Trails, Logs &amp; Common Deficiencies</h1>
-    <div class="subtitle">ALCS 稽核追蹤、紀錄與常見缺陷</div>
+    <div class="subtitle">ALCS 、</div>
     <div class="page-info">PDA Technical Report No. 80 (2018) | p34 – p41</div>
 </div>
 
@@ -21,19 +21,19 @@
 
 <!-- ===== LEARNING OBJECTIVES ===== -->
 <div class="learning-objectives">
-    <h3>本章學習目標 Learning Objectives</h3>
+    <h3> Learning Objectives</h3>
     <ul>
-        <li>理解 ALCS 中 Results Printing/Publishing（結果列印/發布）的意義，以及與資料完整性的關聯，包括再處理的管控要求。</li>
-        <li>掌握六大類稽核追蹤（System → Project Level）的功能差異，並能對照各層級捕捉的資訊重點，建立完整稽核覆蓋。</li>
-        <li>區分 Audit Trail（稽核軌跡）與 Transactional Log（交易日誌）的本質差異，理解各自的保留義務與審查策略。</li>
-        <li>識別色層儀器軟體及其他類型設備（XRD、KF）的交易日誌特性，以及誤導性錯誤訊息的辨別方法。</li>
-        <li>熟悉 FDA Warning Letter 中最常見的 ALCS 資料完整性缺陷類型，以「查核官視角」預防常見違規。</li>
+        <li> ALCS  Results Printing/Publishing（/），，。</li>
+        <li>（System → Project Level），，。</li>
+        <li> Audit Trail（） Transactional Log（），。</li>
+        <li>（XRD、KF），。</li>
+        <li> FDA Warning Letter  ALCS ，「」。</li>
     </ul>
 </div>
 
 <!-- ===== TOC ===== -->
 <div class="toc">
-    <h3>本章目錄 Contents</h3>
+    <h3> Contents</h3>
     <div class="toc-grid">
         <a href="#sec638">6.3.8 Results Printing or Publishing</a>
         <a href="#sec639">6.3.9 Audit Trails</a>
@@ -52,11 +52,11 @@
 <!-- ============================================================ -->
 <!-- SECTION 6.3.8 -->
 <!-- ============================================================ -->
-<div id="sec638" class="section-title"><strong>6.3.8 Results Printing or Publishing 6.3.8 結果列印或發布</strong></div>
+<div id="sec638" class="section-title"><strong>6.3.8 Results Printing or Publishing 6.3.8 </strong></div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p>Some software packages use the term "printing" to generate a final result; in this case, printing does not mean output to paper form. Printing, or "publishing," refers to the next step in generating output once testing is complete. In a well-configured system, the results after this step are final and may not be changed without reprocessing. Reprocessing must be governed by procedures and software that is correctly configured and should require a comment or justification. Before publishing, the supervisor or Quality Unit should review the results, according to established laboratory procedures. Though printing results on paper is not an ideal practice, some firms still use this approach, often due to limited software functionality or limited resources.</p>
 
@@ -81,46 +81,46 @@
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box" style="background:#e8f4fd;border-left:4px solid #3498db;">
-            <h4>核心概念：Publishing ≠ 列印到紙</h4>
-            <p>「Publishing」是 ALCS 術語，指將測試結果<strong>鎖定並正式輸出</strong>的動作——無論是電子發布或紙本列印。一旦 Publish，結果即為<strong>最終資料（final data）</strong>，不可在不留痕跡的情況下修改。</p>
-            <p>若需修改已發布結果，必須走<strong>Reprocessing（再處理）</strong>流程，並強制要求填寫修改理由（justification）——這正是資料完整性設計的核心防線。</p>
+            <h4>：Publishing ≠ </h4>
+            <p>「Publishing」 ALCS ，<strong></strong>——。 Publish，<strong>（final data）</strong>，。</p>
+            <p>，<strong>Reprocessing（）</strong>，（justification）——。</p>
         </div>
 
         <div class="analogy-box" style="background:#f0fff4;border-left:4px solid #48bb78;">
-            <h4>類比：Publishing 如同公文用印</h4>
-            <p>把分析結果想像成一份公文：<br>
-            • <strong>分析中</strong> = 草稿階段，可自由修改<br>
-            • <strong>Publishing</strong> = 主管蓋章用印，正式生效<br>
-            • <strong>用印後修改</strong> = 必須收回、重新簽核，並記錄原因</p>
-            <p>ALCS 的 Publishing 機制正是數位版的「用印管控」。</p>
+            <h4>：Publishing </h4>
+            <p>：<br>
+            • <strong></strong> = ，<br>
+            • <strong>Publishing</strong> = ，<br>
+            • <strong></strong> = 、，</p>
+            <p>ALCS  Publishing 「」。</p>
         </div>
 
         <div class="note-box" style="background:#fff3e0;border-left:4px solid #ff9800;">
-            <h4>實務注意：紙本列印的風險</h4>
-            <p>TR80 明確指出：紙本列印<strong>不是理想做法</strong>，但仍有廠商因軟體限制或資源不足而使用。若採用紙本，審查員需確認：</p>
+            <h4>：</h4>
+            <p>TR80 ：<strong></strong>，。，：</p>
             <ul>
-                <li>原始電子資料是否仍可存取並為最終版本</li>
-                <li>紙本是否有審查者簽名及日期戳記</li>
-                <li>再列印（re-printing）是否有管控程序，防止選擇性報告</li>
+                <li></li>
+                <li></li>
+                <li>（re-printing），</li>
             </ul>
         </div>
 
         <div class="practice-box" style="background:#f3e5f5;border-left:4px solid #9c27b0;">
-            <h4>查核準備：必須產出的七項報告</h4>
-            <p>每次分析後，系統中必須可取得以下報告供審查：</p>
+            <h4>：</h4>
+            <p>，：</p>
             <ol>
-                <li>樣品序列（Sample sequence）</li>
-                <li>儀器方法（Instrument method）</li>
-                <li>積分事件/處理方法（Integration events）</li>
-                <li>結果色譜圖（Results/chromatograms）</li>
-                <li>結果稽核軌跡（Results audit trail）</li>
-                <li>序列稽核軌跡（Sequence audit trail）</li>
-                <li>方法稽核軌跡（Method audit trail）</li>
+                <li>（Sample sequence）</li>
+                <li>（Instrument method）</li>
+                <li>/（Integration events）</li>
+                <li>（Results/chromatograms）</li>
+                <li>（Results audit trail）</li>
+                <li>（Sequence audit trail）</li>
+                <li>（Method audit trail）</li>
             </ol>
-            <p>查核官會要求調出上述所有報告——任何一項缺失都是缺陷的潛在來源。</p>
+            <p>——。</p>
         </div>
     </div>
 </div>
@@ -128,11 +128,11 @@
 <!-- ============================================================ -->
 <!-- SECTION 6.3.9 INTRO -->
 <!-- ============================================================ -->
-<div id="sec639" class="section-title"><strong>6.3.9 Audit Trails — Overview 6.3.9 稽核軌跡 — 概述</strong></div>
+<div id="sec639" class="section-title"><strong>6.3.9 Audit Trails — Overview 6.3.9  — </strong></div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p>An audit trail is a chronology of the "who, what, when, and why" of a record. It ensures a secure, computer-generated, time-stamped electronic record is available that allows for reconstruction of the course of events relating to the creation, modification, or deletion of an electronic record. For example, the audit trail for an HPLC run could include the user name, date and time of the run, integration parameters used, and details of reprocessing, if any, including the change justification. In addition, as part of reconciliation, the injection log can be included, but this injection log does not include audit trail injection information (blank/system suitability/Lot#).</p>
 
@@ -163,29 +163,29 @@
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box" style="background:#e8f4fd;border-left:4px solid #3498db;">
-            <h4>核心定義：稽核追蹤的四大要素</h4>
-            <p>稽核追蹤（Audit Trail）必須回答四個問題：</p>
+            <h4>：</h4>
+            <p>（Audit Trail）：</p>
             <ul>
-                <li><strong>WHO</strong>（誰）— 使用者身份</li>
-                <li><strong>WHAT</strong>（做了什麼）— 操作內容</li>
-                <li><strong>WHEN</strong>（何時）— 時間戳記</li>
-                <li><strong>WHY</strong>（為什麼）— 修改理由</li>
+                <li><strong>WHO</strong>（）— </li>
+                <li><strong>WHAT</strong>（）— </li>
+                <li><strong>WHEN</strong>（）— </li>
+                <li><strong>WHY</strong>（）— </li>
             </ul>
-            <p>這四個維度構成電子紀錄的「完整可重建性」——即使事後質疑，也能追溯整個事件鏈。</p>
+            <p>「」——，。</p>
         </div>
 
         <div class="note-box" style="background:#fff3e0;border-left:4px solid #ff9800;">
-            <h4>QU 職責：不僅啟用，還要選擇欄位</h4>
-            <p>TR80 明確要求 Quality Unit 負責：</p>
+            <h4>QU ：，</h4>
+            <p>TR80  Quality Unit ：</p>
             <ul>
-                <li>確保稽核追蹤功能「全時開啟」</li>
-                <li>評估各類 Metadata 的捕捉內容</li>
-                <li>選擇驗證資料可靠性所需的必要欄位</li>
+                <li>「」</li>
+                <li> Metadata </li>
+                <li></li>
             </ul>
-            <p>此設計應配合批次放行程序及定期審查計畫共同規劃。</p>
+            <p>。</p>
         </div>
     </div>
 </div>
@@ -193,11 +193,11 @@
 <!-- ============================================================ -->
 <!-- SECTION 6.3.9.1 -->
 <!-- ============================================================ -->
-<div id="sec6391" class="section-title"><strong>6.3.9.1 System-Level Audit Trail 6.3.9.1 系統層次稽核軌跡</strong></div>
+<div id="sec6391" class="section-title"><strong>6.3.9.1 System-Level Audit Trail 6.3.9.1 </strong></div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p>If a system-level audit capability exists, the audit trail should capture, at a minimum: any attempt to log in, successful or unsuccessful; ID, date, and time of each login attempt; date and time of each logoff; device used; and function(s) performed while logged in, i.e., applications that the user attempted, successfully or unsuccessfully, to perform.</p>
 
@@ -210,7 +210,7 @@
                 <strong>Figure 6.3.9.1-1<a class="gallery-link" href="../../../figures-gallery.html?doc=TR80&amp;file=fig-p41-1.png" target="_blank" title="View in Gallery">&#128269;</a>: System Audit Trail (Default)</strong><br>
                 <em>Logged in as QA Reviewer</em><br><br>
                 </div>
-            <div class="figure-caption">Figure 6.3.9.1-1<a class="gallery-link" href="../../../figures-gallery.html?doc=TR80&amp;file=fig-p41-1.png" target="_blank" title="View in Gallery">&#128269;</a>: System Audit Trail (Default) — 注意第11筆日期為2017，與其他2018不符</div>
+            <div class="figure-caption">Figure 6.3.9.1-1<a class="gallery-link" href="../../../figures-gallery.html?doc=TR80&amp;file=fig-p41-1.png" target="_blank" title="View in Gallery">&#128269;</a>: System Audit Trail (Default) — 112017，2018</div>
         </div>
 
         <div class="figure-container">
@@ -223,54 +223,54 @@
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box" style="background:#e8f4fd;border-left:4px solid #3498db;">
-            <h4>系統級稽核追蹤：監控「誰」進出系統</h4>
-            <p>System-Level Audit Trail 是最底層的安全防線，捕捉所有<strong>使用者認證事件</strong>：</p>
+            <h4>：「」</h4>
+            <p>System-Level Audit Trail ，<strong></strong>：</p>
             <ul>
-                <li>成功登入 / 登出</li>
-                <li>失敗登入嘗試（含次數）</li>
-                <li>身份確認失敗</li>
-                <li>使用者權限變更</li>
-                <li>專案建立、刪除、修改、還原</li>
+                <li> / </li>
+                <li>（）</li>
+                <li></li>
+                <li></li>
+                <li>、、、</li>
             </ul>
         </div>
 
         <div class="analogy-box" style="background:#f0fff4;border-left:4px solid #48bb78;">
-            <h4>類比：大樓門禁系統的刷卡記錄</h4>
-            <p>System Audit Trail 就像大樓的門禁紀錄簿：記錄每個人<strong>什麼時間進出哪扇門</strong>、哪次刷卡失敗。<br>
-            當發生資料疑義時，查核官第一步就是比對「登入登出時間」與「資料操作時間」是否吻合——若某位分析師在系統顯示未登入時，資料卻出現修改，就是明確的資料完整性問題。</p>
+            <h4>：</h4>
+            <p>System Audit Trail ：<strong></strong>、。<br>
+            ，「」「」——，，。</p>
         </div>
 
         <div class="note-box" style="background:#fff3e0;border-left:4px solid #ff9800;">
-            <h4>Figure 6.3.9.1-1<a class="gallery-link" href="../../../figures-gallery.html?doc=TR80&amp;file=fig-p41-1.png" target="_blank" title="View in Gallery">&#128269;</a> 的查核重點</h4>
-            <p>仔細觀察這份系統稽核追蹤範例：</p>
+            <h4>Figure 6.3.9.1-1<a class="gallery-link" href="../../../figures-gallery.html?doc=TR80&amp;file=fig-p41-1.png" target="_blank" title="View in Gallery">&#128269;</a> </h4>
+            <p>：</p>
             <ul>
-                <li><strong>第2、5、6、7筆</strong>：Analyst A 連續三次登入失敗 — 可能是密碼共用或嘗試用他人帳號</li>
-                <li><strong>第4、10筆</strong>：「Unsuccessful Attempt to Confirm Identity」— 這是電子簽章二次驗證失敗，比一般登入失敗更嚴重</li>
-                <li><strong>第11筆</strong>：日期為 <strong>2017</strong>，其他皆為 2018 — 暗示可能的日期/時鐘篡改風險</li>
+                <li><strong>2、5、6、7</strong>：Analyst A  — </li>
+                <li><strong>4、10</strong>：「Unsuccessful Attempt to Confirm Identity」— ，</li>
+                <li><strong>11</strong>： <strong>2017</strong>， 2018 — /</li>
             </ul>
         </div>
 
         <div class="note-box" style="background:#fdecea;border-left:4px solid #e74c3c;">
-            <h4>Figure 6.3.9.1-2 的紅旗警訊</h4>
-            <p>五個專案（XYZ、AAA、BCD、HGK、DDB）在短時間內連續被刪除，操作者均為 <strong>System/Administrator</strong>。</p>
-            <p>查核官的問題會是：</p>
+            <h4>Figure 6.3.9.1-2 </h4>
+            <p>（XYZ、AAA、BCD、HGK、DDB）， <strong>System/Administrator</strong>。</p>
+            <p>：</p>
             <ul>
-                <li>這些專案是否有對應的批次紀錄（Batch Records）？</li>
-                <li>Administrator 執行批量刪除是否有書面授權？</li>
-                <li>XYZ 的刪除時間（4/14 晚間 8PM）與其他四個（3/22 白天）相差甚遠——有沒有說明？</li>
+                <li>（Batch Records）？</li>
+                <li>Administrator ？</li>
+                <li>XYZ （4/14  8PM）（3/22 ）——？</li>
             </ul>
         </div>
 
         <div class="practice-box" style="background:#f3e5f5;border-left:4px solid #9c27b0;">
-            <h4>定期審查頻率的設定原則</h4>
-            <p>TR80 要求 QU 「定期」審查系統稽核追蹤，特別針對<strong>刪除事件</strong>。實務上建議：</p>
+            <h4></h4>
+            <p>TR80  QU 「」，<strong></strong>。：</p>
             <ul>
-                <li>設定自動警報：連續 N 次登入失敗 → 通知 IT/QA</li>
-                <li>Administrator 操作（尤其刪除）需雙人授權</li>
-                <li>系統時鐘應與網路時間伺服器同步，防止時間篡改</li>
+                <li>： N  →  IT/QA</li>
+                <li>Administrator （）</li>
+                <li>，</li>
             </ul>
         </div>
     </div>
@@ -279,41 +279,41 @@
 <!-- ============================================================ -->
 <!-- SECTION 6.3.9.2 -->
 <!-- ============================================================ -->
-<div id="sec6392" class="section-title"><strong>6.3.9.2 Application-Level Audit Trail 6.3.9.2 應用程式層次稽核軌跡</strong></div>
+<div id="sec6392" class="section-title"><strong>6.3.9.2 Application-Level Audit Trail 6.3.9.2 </strong></div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
         <p>Application-level audit trails monitor and log user activities, including which data files were opened and closed, and what specific actions have been taken, such as reading, editing, processing, and deleting records or fields, and publishing reports. This could also be called a project-level audit trail. Some applications may be sensitive enough to create an audit trail that captures "before" and "after" information for each modified record or the data changed within a record.</p>
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box" style="background:#e8f4fd;border-left:4px solid #3498db;">
-            <h4>應用程式層稽核：捕捉「操作行為」</h4>
-            <p>Application-Level Audit Trail 比 System-Level 更細緻，記錄使用者在軟體應用中的每個動作：開啟/關閉哪個資料檔案、讀取、編輯、處理、刪除欄位、發布報告。</p>
-            <p>重要特色：<strong>Before &amp; After</strong> 捕捉——不只記錄「有人改了這個欄位」，還記錄「原本是什麼值」和「改成什麼值」。這是資料完整性調查時還原事件的關鍵。</p>
+            <h4>：「」</h4>
+            <p>Application-Level Audit Trail  System-Level ，：/、、、、、。</p>
+            <p>：<strong>Before &amp; After</strong> ——「」，「」「」。。</p>
         </div>
 
         <div class="analogy-box" style="background:#f0fff4;border-left:4px solid #48bb78;">
-            <h4>類比：Word 的「追蹤修訂」功能</h4>
-            <p>Application Audit Trail 就像 Microsoft Word 的「追蹤修訂（Track Changes）」：每次修改都清楚標示<strong>刪除了什麼、新增了什麼、誰修改、什麼時間</strong>。主管可以接受或拒絕每一項修改，並保留完整歷程。</p>
+            <h4>：Word 「」</h4>
+            <p>Application Audit Trail  Microsoft Word 「（Track Changes）」：<strong>、、、</strong>。，。</p>
         </div>
 
         <div class="note-box" style="background:#fff3e0;border-left:4px solid #ff9800;">
-            <h4>與 System-Level 的分工</h4>
-            <p>System-Level 與 Application-Level 是互補的：</p>
+            <h4> System-Level </h4>
+            <p>System-Level  Application-Level ：</p>
             <ul>
-                <li><strong>System</strong>：登入登出等系統事件，Application 不會捕捉的資訊</li>
-                <li><strong>Application</strong>：檔案操作、資料修改、發布行為，System 不追蹤的內容</li>
+                <li><strong>System</strong>：，Application </li>
+                <li><strong>Application</strong>：、、，System </li>
             </ul>
-            <p>調查時兩者必須交叉比對，才能構成完整的時間軸。</p>
+            <p>，。</p>
         </div>
 
         <div class="practice-box" style="background:#f3e5f5;border-left:4px solid #9c27b0;">
-            <h4>查核觀察重點</h4>
-            <p>查核官會尋找：是否有資料在「未公告的時間」被開啟或修改，特別是在結果不理想後不久發生的操作。Application Audit Trail 的時間序列往往能還原「是否有人試圖選擇性報告」。</p>
+            <h4></h4>
+            <p>：「」，。Application Audit Trail 「」。</p>
         </div>
     </div>
 </div>
@@ -321,11 +321,11 @@
 <!-- ============================================================ -->
 <!-- SECTION 6.3.9.3 -->
 <!-- ============================================================ -->
-<div id="sec6393" class="section-title"><strong>6.3.9.3 Method Audit Trail 6.3.9.3 方法稽核軌跡</strong></div>
+<div id="sec6393" class="section-title"><strong>6.3.9.3 Method Audit Trail 6.3.9.3 </strong></div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
         <p>Method audit trails track the changes made to the method and typically contain the following information:</p>
         <ul>
             <li>Method modification history</li>
@@ -335,27 +335,27 @@
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box" style="background:#e8f4fd;border-left:4px solid #3498db;">
-            <h4>方法稽核追蹤：確保方法一致性</h4>
-            <p>Method Audit Trail 回答的核心問題是：<strong>「這個序列執行時，用的是哪個版本的方法？」</strong></p>
-            <p>若方法在序列中途被修改（method modified between sequences），此追蹤將清楚顯示前後使用的方法版本，確保結果可歸因到正確的方法條件。</p>
+            <h4>：</h4>
+            <p>Method Audit Trail ：<strong>「，？」</strong></p>
+            <p>（method modified between sequences），，。</p>
         </div>
 
         <div class="note-box" style="background:#fff3e0;border-left:4px solid #ff9800;">
-            <h4>常見的 DI 風險點</h4>
-            <p>方法稽核追蹤最常揭露的問題：</p>
+            <h4> DI </h4>
+            <p>：</p>
             <ul>
-                <li>分析師在同一序列中間<strong>靜默修改積分方法</strong>（e.g., 調整積分視窗使峰形看起來更好），若無版本追蹤則難以偵測</li>
-                <li>使用未驗證或未正式核准的方法版本進行分析</li>
-                <li>Method ID 不一致（方法名稱相同但參數已更改）</li>
+                <li><strong></strong>（e.g., ），</li>
+                <li></li>
+                <li>Method ID （）</li>
             </ul>
         </div>
 
         <div class="practice-box" style="background:#f3e5f5;border-left:4px solid #9c27b0;">
-            <h4>審查建議</h4>
-            <p>在批次放行審查中，應比較：Method Audit Trail 中的方法版本號 vs. 該批次 SOP 指定的核准方法版本。若版本不一致，必須調查並說明。</p>
+            <h4></h4>
+            <p>，：Method Audit Trail  vs.  SOP 。，。</p>
         </div>
     </div>
 </div>
@@ -363,11 +363,11 @@
 <!-- ============================================================ -->
 <!-- SECTION 6.3.9.4 -->
 <!-- ============================================================ -->
-<div id="sec6394" class="section-title"><strong>6.3.9.4 Results Audit Trail 6.3.9.4 結果稽核軌跡</strong></div>
+<div id="sec6394" class="section-title"><strong>6.3.9.4 Results Audit Trail 6.3.9.4 </strong></div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p>Chromatograms or reports can serve as a results audit trail. Figure 6.3.9.4-1 is a model results audit trail report that presents integration type, date acquired, date processed and by whom, and if the chromatogram was altered after generating data. Typically, chromatograms should contain:</p>
         <ul>
@@ -396,46 +396,46 @@
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box" style="background:#e8f4fd;border-left:4px solid #3498db;">
-            <h4>Results Audit Trail：「結果有沒有被動過手腳？」</h4>
-            <p>Results Audit Trail 是最直接回答「結果是否被竄改」的工具。關鍵欄位包括：</p>
+            <h4>Results Audit Trail：「？」</h4>
+            <p>Results Audit Trail 「」。：</p>
             <ul>
-                <li><strong>Altered</strong> 欄：「Yes」表示樣品名稱在採集後被修改過——這是一個警示訊號</li>
-                <li><strong>Date Acquired vs. Date Processed</strong>：時間差是否合理？</li>
-                <li><strong>Integration Type</strong>：使用的是自動積分還是手動積分事件（manual integration events）？</li>
-                <li><strong>Result Number</strong>：是否有跳號（gap）或重複——暗示刪除或複製</li>
+                <li><strong>Altered</strong> ：「Yes」——</li>
+                <li><strong>Date Acquired vs. Date Processed</strong>：？</li>
+                <li><strong>Integration Type</strong>：（manual integration events）？</li>
+                <li><strong>Result Number</strong>：（gap）——</li>
             </ul>
         </div>
 
         <div class="analogy-box" style="background:#f0fff4;border-left:4px solid #48bb78;">
-            <h4>類比：醫院病歷的修改記錄</h4>
-            <p>Results Audit Trail 就像電子病歷的修改紀錄：每次修改都標記「修改人、修改時間、修改前後的內容」，確保病歷的「Altered = No」代表從未被動過。</p>
+            <h4>：</h4>
+            <p>Results Audit Trail ：「、、」，「Altered = No」。</p>
         </div>
 
         <div class="note-box" style="background:#fff3e0;border-left:4px solid #ff9800;">
-            <h4>Filter 搜尋的重要性（Figure 6.3.9.4-2）</h4>
-            <p>TR80 提到可以使用 Filter 搜尋「同一樣品是否在多個專案中被注射」。這是偵測<strong>試驗性注射（trial injections）</strong>最有效的方法之一：</p>
+            <h4>Filter （Figure 6.3.9.4-2）</h4>
+            <p>TR80  Filter 「」。<strong>（trial injections）</strong>：</p>
             <ul>
-                <li>搜尋條件：同一樣品名稱（Sample Name）出現在多個 Project/Sample Set 中</li>
-                <li>若發現，必須調查：是正當的重複測試，還是不當的「先試看看」？</li>
+                <li>：（Sample Name） Project/Sample Set </li>
+                <li>，：，「」？</li>
             </ul>
         </div>
 
         <div class="note-box" style="background:#fdecea;border-left:4px solid #e74c3c;">
-            <h4>電子資料為最終版本（Final Data）</h4>
-            <p>TR80 明確：<strong>電子資料是最終紀錄</strong>，紙本只是副本。即使結果已用紙本簽核，若與電子資料有出入，以電子資料為準。</p>
-            <p>任何對已核准資料的修改，<strong>必須有正當理由</strong>，並留存記錄。</p>
+            <h4>（Final Data）</h4>
+            <p>TR80 ：<strong></strong>，。，，。</p>
+            <p>，<strong></strong>，。</p>
         </div>
 
         <div class="practice-box" style="background:#f3e5f5;border-left:4px solid #9c27b0;">
-            <h4>批次審查時的 Results Audit Trail 查核要點</h4>
+            <h4> Results Audit Trail </h4>
             <ol>
-                <li>確認 <strong>Altered = No</strong>（或若有 Yes，調查原因）</li>
-                <li>比對 Date Acquired 與 Date Processed 的時間邏輯</li>
-                <li>確認使用的 Integration Type 符合驗證方法</li>
-                <li>搜尋同樣本是否出現在其他專案（Filter 功能）</li>
+                <li> <strong>Altered = No</strong>（ Yes，）</li>
+                <li> Date Acquired  Date Processed </li>
+                <li> Integration Type </li>
+                <li>（Filter ）</li>
             </ol>
         </div>
     </div>
@@ -444,11 +444,11 @@
 <!-- ============================================================ -->
 <!-- SECTION 6.3.9.5 -->
 <!-- ============================================================ -->
-<div id="sec6395" class="section-title"><strong>6.3.9.5 Sequence Audit Trail 6.3.9.5 序列稽核軌跡</strong></div>
+<div id="sec6395" class="section-title"><strong>6.3.9.5 Sequence Audit Trail 6.3.9.5 </strong></div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
         <p>Sequence audit trails, or sample set audit trails, track the changes made to the sample sequence or batch. Figure 6.3.9.5-1 represents a typical sequence audit trail report, which generally contains the following information:</p>
         <ul>
             <li>Name correction for sample set or injections after injection acquisition</li>
@@ -467,36 +467,36 @@
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box" style="background:#e8f4fd;border-left:4px solid #3498db;">
-            <h4>序列稽核追蹤：「這個批次的注射序列有沒有被動過？」</h4>
-            <p>Sequence Audit Trail（樣品集稽核追蹤）追蹤的是整個分析批次的<strong>執行順序完整性</strong>。它回答：</p>
+            <h4>：「？」</h4>
+            <p>Sequence Audit Trail（）<strong></strong>。：</p>
             <ul>
-                <li>序列執行過程中，是否有樣品名稱被更改？</li>
-                <li>序列是否曾被中斷（aborted）？</li>
-                <li>序列執行中是否有注射被插入或移除？</li>
+                <li>，？</li>
+                <li>（aborted）？</li>
+                <li>？</li>
             </ul>
         </div>
 
         <div class="note-box" style="background:#fff3e0;border-left:4px solid #ff9800;">
-            <h4>「中斷序列（Aborted Sequence）」的查核意義</h4>
-            <p>一個序列在中途被中斷，最常見的原因包括：</p>
+            <h4>「（Aborted Sequence）」</h4>
+            <p>，：</p>
             <ul>
-                <li>系統套適性（System Suitability）失敗，需要重新進針</li>
-                <li>樣品前處理有問題</li>
-                <li>—— 或者 —— 選擇性地中止「結果不理想」的序列</li>
+                <li>（System Suitability），</li>
+                <li></li>
+                <li>——  —— 「」</li>
             </ul>
-            <p>查核官會要求解釋每一個被中斷的序列，並確認有對應的偏差報告（Deviation Report）。</p>
+            <p>，（Deviation Report）。</p>
         </div>
 
         <div class="practice-box" style="background:#f3e5f5;border-left:4px solid #9c27b0;">
-            <h4>審查重點</h4>
-            <p>序列稽核追蹤與 Results Audit Trail 和 Method Audit Trail 應<strong>交叉比對</strong>，確保：</p>
+            <h4></h4>
+            <p> Results Audit Trail  Method Audit Trail <strong></strong>，：</p>
             <ul>
-                <li>序列執行期間的方法版本與 Method Audit Trail 一致</li>
-                <li>所有注射結果都在 Results Audit Trail 中有對應記錄</li>
-                <li>無「靜默刪除」的注射（Injection IDs 無跳號）</li>
+                <li> Method Audit Trail </li>
+                <li> Results Audit Trail </li>
+                <li>「」（Injection IDs ）</li>
             </ul>
         </div>
     </div>
@@ -505,50 +505,50 @@
 <!-- ============================================================ -->
 <!-- SECTION 6.3.9.6 -->
 <!-- ============================================================ -->
-<div id="sec6396" class="section-title"><strong>6.3.9.6 Project-Level Audit Trail 6.3.9.6 專案層次稽核軌跡</strong></div>
+<div id="sec6396" class="section-title"><strong>6.3.9.6 Project-Level Audit Trail 6.3.9.6 </strong></div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
         <p>By enabling the audit trails option while creating it, a project will capture all the activities performed with respect to sample set, injections, channels, results, calibration curves, and peaks. Figure 6.3.9.6-1 represents a project audit trail record for deleted injection as a poor example to show fraudulent data.</p>
 
         <div class="figure-container">
             <div style="background:#fff8f8;border:1px solid #f5c6cb;border-radius:8px;padding:1rem;font-family:monospace;font-size:0.8rem;">
                 <strong>Figure 6.3.9.6-1: Project Audit Trail — Deleted Injection (Poor Example / Fraudulent Data)</strong><br><br>
-                <p style="font-size:0.75rem;margin-top:0.5rem;color:#c0392b;font-weight:600;">▲ 注射被刪除的記錄。Project Audit Trail 可捕捉此事件；此圖為「不良範例」說明詐欺性資料的樣貌。</p>
+                <p style="font-size:0.75rem;margin-top:0.5rem;color:#c0392b;font-weight:600;">▲ 。Project Audit Trail ；「」。</p>
             </div>
             <div class="figure-caption">Figure 6.3.9.6-1: Project Audit Trail — Deleted Injection</div>
         </div>
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box" style="background:#e8f4fd;border-left:4px solid #3498db;">
-            <h4>專案稽核追蹤：最全面的視角</h4>
-            <p>Project-Level Audit Trail 是涵蓋範圍最廣的稽核追蹤，捕捉一個專案內<strong>所有層面的活動</strong>：</p>
+            <h4>：</h4>
+            <p>Project-Level Audit Trail ，<strong></strong>：</p>
             <ul>
-                <li>樣品集（Sample Set）的所有操作</li>
-                <li>注射（Injections）的建立、修改、刪除</li>
-                <li>通道（Channels）、結果（Results）、校正曲線（Calibration Curves）、峰值（Peaks）</li>
+                <li>（Sample Set）</li>
+                <li>（Injections）、、</li>
+                <li>（Channels）、（Results）、（Calibration Curves）、（Peaks）</li>
             </ul>
-            <p>重要前提：必須在<strong>建立專案時就啟用</strong>稽核追蹤選項——無法事後追溯。</p>
+            <p>：<strong></strong>——。</p>
         </div>
 
         <div class="note-box" style="background:#fdecea;border-left:4px solid #e74c3c;">
-            <h4>Figure 6.3.9.6-1 的警示：注射刪除 = 潛在詐欺</h4>
-            <p>TR80 明確標注此圖為 <strong>"poor example to show fraudulent data"</strong>（展示詐欺性資料的不良範例）。</p>
-            <p>若 Caffeine RT check 的注射被刪除：</p>
+            <h4>Figure 6.3.9.6-1 ： = </h4>
+            <p>TR80  <strong>"poor example to show fraudulent data"</strong>（）。</p>
+            <p> Caffeine RT check ：</p>
             <ul>
-                <li>可能是「系統適性不符合」但未按規定記錄偏差</li>
-                <li>可能是「試驗性注射」的刪除（不當做法）</li>
-                <li>Project Audit Trail 在此處的價值：即使注射被刪除，<strong>刪除行為本身仍被記錄</strong>，查核官可看到完整的「刪除前後」事件鏈</li>
+                <li>「」</li>
+                <li>「」（）</li>
+                <li>Project Audit Trail ：，<strong></strong>，「」</li>
             </ul>
         </div>
 
         <div class="practice-box" style="background:#f3e5f5;border-left:4px solid #9c27b0;">
-            <h4>啟用時機的重要性</h4>
-            <p>稽核追蹤必須在<strong>專案建立當下</strong>開啟，建議在系統設定層面設為<strong>強制預設啟用</strong>（不允許分析師手動關閉），避免「忘記啟用」導致稽核追蹤缺口。</p>
+            <h4></h4>
+            <p><strong></strong>，<strong></strong>（），「」。</p>
         </div>
     </div>
 </div>
@@ -556,38 +556,38 @@
 <!-- ============================================================ -->
 <!-- SECTION 6.3.9.7 -->
 <!-- ============================================================ -->
-<div id="sec6397" class="section-title"><strong>6.3.9.7 Injection Log 6.3.9.7 注射紀錄</strong></div>
+<div id="sec6397" class="section-title"><strong>6.3.9.7 Injection Log 6.3.9.7 </strong></div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
         <p>Chromatographic data acquisition software typically has the ability to maintain a log of injections. In addition to the date and time, the software may include additional information associated with the injection such as lot number, blank or system suitability, reference, or sample. An audit trail ensures the integrity of the data and, if the audit trail is enabled, review of the injection log is not necessary. Injection log reports are typically built in by the software developer, though with limited ability to customize without expert programming capability. The type, ease of log retrieval, and ease of printing/publishing are also built-in functionalities of the software; however, their inclusion will vary among software suppliers. An injection log is separate and distinct from an audit trail; while it is a good tool to have, it is not essential to ensuring data integrity.</p>
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="note-box" style="background:#fff3e0;border-left:4px solid #ff9800;">
-            <h4>審查建議</h4>
-            <p>若稽核追蹤已全程啟用，則 Injection Log 的審查並非必要（TR80 原文明確說明）。但 Injection Log 仍可作為<strong>對帳工具（reconciliation）</strong>，驗證預期注射次數與實際注射次數是否吻合。</p>
+            <h4></h4>
+            <p>， Injection Log （TR80 ）。 Injection Log <strong>（reconciliation）</strong>，。</p>
         </div>
     </div>
 </div>
 
 <div class="concept-box" style="background:#e8f4fd;border-left:4px solid #3498db;">
             <h4>Injection Log ≠ Audit Trail</h4>
-            <p>TR80 明確區分兩者的本質差異：</p>
+            <p>TR80 ：</p>
             </div>
 
         <!-- ============================================================ -->
 <!-- SECTION 6.3.10 -->
 <!-- ============================================================ -->
-<div id="sec6310" class="section-title"><strong>6.3.10 Transactional Log / System Errors 6.3.10 交易紀錄 / 系統錯誤</strong></div>
+<div id="sec6310" class="section-title"><strong>6.3.10 Transactional Log / System Errors 6.3.10  / </strong></div>
 
 <!-- 6.3.10.1 Chromatography -->
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text — 6.3.10.1 Chromatography</h2>
+        <h2> Original Text — 6.3.10.1 Chromatography</h2>
 
         <p>The transactional log (which may be referred to by other terms depending on the equipment vendor) and system error logs are online, instantaneous features that display pop-up messages about system functionality, user activity, and hardware-related issues or errors. Figure 6.3.10.1-1 shows the types of errors generated by the software or transactional log and a typical representation of a software transactional log. Figure 6.3.10.1-2 represents a typical transactional error log.</p>
 
@@ -633,55 +633,55 @@ Idle
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="analogy-box" style="background:#f0fff4;border-left:4px solid #48bb78;">
-            <h4>類比：汽車行車記錄器 vs. 法院公證文件</h4>
-            <p>Transactional Log 像行車記錄器：持續記錄當下發生的事（Lost prime、Cable disconnected），但儲存空間有限，老資料會被覆蓋。<br>
-            Audit Trail 像法院公證的文件：一旦簽署就永久有效，任何修改都要留下完整記錄，具有法律效力。</p>
+            <h4>： vs. </h4>
+            <p>Transactional Log ：（Lost prime、Cable disconnected），，。<br>
+            Audit Trail ：，，。</p>
         </div>
 
         <div class="note-box" style="background:#fff3e0;border-left:4px solid #ff9800;">
-            <h4>Figure 6.3.10.1-2 的 趨勢觀察重點</h4>
-            <p>觀察「Column heater door open」在11月27日一天內出現<strong>五次</strong>：</p>
+            <h4>Figure 6.3.10.1-2  </h4>
+            <p>「Column heater door open」1127<strong></strong>：</p>
             <ul>
-                <li>這可能代表儀器維護問題（門的彈簧損壞？）</li>
-                <li>可能代表分析師頻繁開蓋進行非常規操作</li>
-                <li>Transactional Log 的趨勢分析價值：捕捉此類高頻事件，輔助根本原因調查</li>
+                <li>（？）</li>
+                <li></li>
+                <li>Transactional Log ：，</li>
             </ul>
-            <p>若此類事件影響分析結果，必須在 <strong>validated audit trail</strong> 中也有對應記錄。</p>
+            <p>， <strong>validated audit trail</strong> 。</p>
         </div>
 
         <div class="note-box" style="background:#fdecea;border-left:4px solid #e74c3c;">
-            <h4>重要：「聽起來嚴重」但可能不在 Audit Trail 的錯誤</h4>
-            <p>TR80 特別指出：一些名稱聽起來很嚴重的錯誤（cable disconnected, connection lost, communication failure）可能<strong>只出現在 Transactional Log</strong>，不在 validated audit trail 中。</p>
-            <p>這對資料完整性調查是個挑戰——無法確定這些「失聯」是否為蓄意人為中斷。廠商需與軟體供應商共同釐清哪些訊息必須納入 validated audit trail。</p>
+            <h4>：「」 Audit Trail </h4>
+            <p>TR80 ：（cable disconnected, connection lost, communication failure）<strong> Transactional Log</strong>， validated audit trail 。</p>
+            <p>——「」。 validated audit trail。</p>
         </div>
 
         <div class="practice-box" style="background:#f3e5f5;border-left:4px solid #9c27b0;">
-            <h4>IQ/OQ/PQ 時的 Transactional Log 工作</h4>
-            <p>QU 必須在設備安裝與確效期間：</p>
+            <h4>IQ/OQ/PQ  Transactional Log </h4>
+            <p>QU ：</p>
             <ol>
-                <li>審查並理解所有 transactional log 訊息</li>
-                <li>識別哪些訊息為「關鍵訊息」（影響資料或儀器操作）</li>
-                <li>確認關鍵訊息是否也被 validated audit trail 捕捉</li>
-                <li>不影響分析或品質且已在 audit trail 記錄的訊息，<strong>不需要額外保留</strong></li>
+                <li> transactional log </li>
+                <li>「」（）</li>
+                <li> validated audit trail </li>
+                <li> audit trail ，<strong></strong></li>
             </ol>
         </div>
     </div>
 </div>
 
 <div class="concept-box" style="background:#e8f4fd;border-left:4px solid #3498db;">
-            <h4>核心區分：Transactional Log ≠ Audit Trail</h4>
-            <p>這是 TR80 中最易混淆的概念之一。兩者的關鍵差異：</p>
+            <h4>：Transactional Log ≠ Audit Trail</h4>
+            <p> TR80 。：</p>
             </div>
 
         <!-- 6.3.10.2 Other Types of Equipment -->
-<div class="section-title" style="font-size:1rem;color:#4a5568;border-bottom:1px solid #e2e8f0;margin-bottom:1rem;"><strong>6.3.10.2 Other Types of Equipment 6.3.10.2 其他設備類型</strong></div>
+<div class="section-title" style="font-size:1rem;color:#4a5568;border-bottom:1px solid #e2e8f0;margin-bottom:1rem;"><strong>6.3.10.2 Other Types of Equipment 6.3.10.2 </strong></div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
         <p>Transactional logs are also available from other types of automated analytical equipment such as X-ray diffraction (XRD) or Karl Fisher (KF). Examples are shown in Figure 6.3.10.2-1 and Figure 6.3.10.2-2 below. Figure 6.3.10.2-2 also provides an example of how the log entries can be misleading if an auditor is not fully trained on the system. For example, although one entry reads "Deleted the journal entry" in the XRD log, the actual reason for displaying the message is a job interruption. The Quality Unit should recognize critical messages recorded in transactional logs and ensure they are recorded in validated audit trails.</p>
 
         <div class="figure-container">
@@ -696,7 +696,7 @@ i  9/21/2018  Get control job by
 i  9/21/2018  The job with the id '2200' has finished. Active job time was 871 seconds (14.5 minutes)
 i  9/21/2018  Times for saving raw file for job 2200 was long!
 i  9/21/2018  Success loading assembly: WizardPlugiExtensionXrd, Version=6.5.0.0</pre>
-                <p style="font-size:0.75rem;color:#e74c3c;font-weight:600;margin-top:0.5rem;">▲ "Deleted the journal entry" 的實際原因是作業中斷（job interruption），並非資料刪除——但若審查員不熟悉系統，容易誤判。</p>
+                <p style="font-size:0.75rem;color:#e74c3c;font-weight:600;margin-top:0.5rem;">▲ "Deleted the journal entry" （job interruption），——，。</p>
             </div>
             <div class="figure-caption">Figure 6.3.10.2-1: Transactional Log for XRD</div>
         </div>
@@ -712,52 +712,52 @@ Warning      2017-09-22 13:02:57 UTC-4  KF2  Sample data live modified
 Information  2017-09-22 13:01:35 UTC-4  KF2  Determination started
 Warning      2017-09-22 13:00:37 UTC-4  KF1  Sample data live modified
 Information  2017-09-22 12:59:21 UTC-4  KF1  Determination started</pre>
-                <p style="font-size:0.75rem;color:#e67e22;font-weight:600;margin-top:0.5rem;">▲ "Sample data live modified" 出現兩次——需確認是否為正常操作或需要在 validated audit trail 中有記錄。</p>
+                <p style="font-size:0.75rem;color:#e67e22;font-weight:600;margin-top:0.5rem;">▲ "Sample data live modified" —— validated audit trail 。</p>
             </div>
             <div class="figure-caption">Figure 6.3.10.2-2: Transactional Log for KF (Karl Fischer)</div>
         </div>
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box" style="background:#e8f4fd;border-left:4px solid #3498db;">
-            <h4>非色層儀器的 Transactional Log</h4>
-            <p>Transactional Log 不只是 HPLC/GC 特有，<strong>所有自動化分析設備</strong>都可能產生：</p>
+            <h4> Transactional Log</h4>
+            <p>Transactional Log  HPLC/GC ，<strong></strong>：</p>
             <ul>
-                <li>X-ray Diffraction（XRD）— 晶型分析</li>
-                <li>Karl Fischer（KF）— 水分測定</li>
-                <li>各類自動化天平、pH 計、分光光度計等</li>
+                <li>X-ray Diffraction（XRD）— </li>
+                <li>Karl Fischer（KF）— </li>
+                <li>、pH 、</li>
             </ul>
         </div>
 
         <div class="note-box" style="background:#fdecea;border-left:4px solid #e74c3c;">
-            <h4>XRD "Deleted the journal entry" — 誤導性訊息案例</h4>
-            <p>這是 TR80 提供的<strong>最具警示性的範例</strong>：XRD log 顯示「Deleted the journal entry」——字面意思像是刪除了資料，但實際原因是<strong>作業中斷（job interruption）</strong>，軟體系統自動產生此訊息作為內部清理機制。</p>
-            <p>若查核官（或分析師）不了解這個系統，可能會：</p>
+            <h4>XRD "Deleted the journal entry" — </h4>
+            <p> TR80 <strong></strong>：XRD log 「Deleted the journal entry」——，<strong>（job interruption）</strong>，。</p>
+            <p>（），：</p>
             <ul>
-                <li>錯誤地認定存在資料刪除/篡改行為</li>
-                <li>——或相反—— 把真正的問題訊息忽視，因為「之前都是這樣顯示的」</li>
+                <li>/</li>
+                <li>———— ，「」</li>
             </ul>
-            <p><strong>解決方案</strong>：QU 必須與軟體供應商共同建立「訊息字典」，明確每條訊息的真實含義。</p>
+            <p><strong></strong>：QU 「」，。</p>
         </div>
 
         <div class="note-box" style="background:#fff3e0;border-left:4px solid #ff9800;">
-            <h4>KF Log 的 "Sample data live modified" 警告</h4>
-            <p>KF log 中出現兩次 <strong>Warning: Sample data live modified</strong>——這表示在分析過程中，樣品資料被即時修改。需確認：</p>
+            <h4>KF Log  "Sample data live modified" </h4>
+            <p>KF log  <strong>Warning: Sample data live modified</strong>——，。：</p>
             <ul>
-                <li>是正當的分析調整（e.g., 重新計算），還是不當的人工干預？</li>
-                <li>此事件是否也在 validated audit trail（如 results audit trail）中有對應記錄？</li>
+                <li>（e.g., ），？</li>
+                <li> validated audit trail（ results audit trail）？</li>
             </ul>
         </div>
 
         <div class="practice-box" style="background:#f3e5f5;border-left:4px solid #9c27b0;">
-            <h4>跨設備 Transactional Log 的管理建議</h4>
+            <h4> Transactional Log </h4>
             <ol>
-                <li>建立各設備的 <strong>訊息分類清單</strong>（Critical / Non-critical）</li>
-                <li>Critical 訊息必須確保也出現在 validated audit trail</li>
-                <li>為審查員提供<strong>設備特定培訓</strong>，避免因不熟悉系統而誤判訊息</li>
-                <li>在 IQ/OQ 確效文件中記錄各訊息的含義與對應處置</li>
+                <li> <strong></strong>（Critical / Non-critical）</li>
+                <li>Critical  validated audit trail</li>
+                <li><strong></strong>，</li>
+                <li> IQ/OQ </li>
             </ol>
         </div>
     </div>
@@ -766,11 +766,11 @@ Information  2017-09-22 12:59:21 UTC-4  KF1  Determination started</pre>
 <!-- ============================================================ -->
 <!-- SECTION 6.3.11 Common Deficiencies -->
 <!-- ============================================================ -->
-<div id="sec6311" class="section-title"><strong>6.3.11 Common Deficiencies 6.3.11 常見缺失</strong></div>
+<div id="sec6311" class="section-title"><strong>6.3.11 Common Deficiencies 6.3.11 </strong></div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p>The following problems, listed with the respective ALCS components, are often encountered and commonly found in audits or cited in FDA Warning Letters: (Ref. 55)</p>
 
@@ -823,61 +823,61 @@ Information  2017-09-22 12:59:21 UTC-4  KF1  Determination started</pre>
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box" style="background:#fdecea;border-left:4px solid #e74c3c;">
-            <h4>FDA Warning Letter 常見缺陷：查核官的視角</h4>
-            <p>Section 6.3.11 是整個 TR80 最具實務價值的一節——它直接列出了 FDA 在 Warning Letter 中反覆引用的缺陷類型。以下以「查核官問題」的形式重新框架。</p>
+            <h4>FDA Warning Letter ：</h4>
+            <p>Section 6.3.11  TR80 —— FDA  Warning Letter 。「」。</p>
         </div>
 
         <div class="note-box" style="background:#fff3e0;border-left:4px solid #e74c3c;">
-            <h4>電腦管控缺陷：查核官會問的問題</h4>
+            <h4>：</h4>
             <ul>
-                <li><strong>密碼共用</strong>：「請展示您的帳號是否唯一，且沒有與任何人共用密碼的記錄。」</li>
-                <li><strong>時間戳記篡改</strong>：「系統時鐘是否與 NTP 伺服器同步？若電腦時間被修改，是否有 audit trail 記錄？」</li>
-                <li><strong>軟體更新無管控</strong>：「自動更新是否在 GMP 環境中被停用，且更新程序是否受 change control 管控？」</li>
-                <li><strong>資料庫保護不當</strong>：「使用者是否可以直接存取資料庫而不留下 audit trail？」</li>
+                <li><strong></strong>：「，。」</li>
+                <li><strong></strong>：「 NTP ？， audit trail ？」</li>
+                <li><strong></strong>：「 GMP ， change control ？」</li>
+                <li><strong></strong>：「 audit trail？」</li>
             </ul>
         </div>
 
         <div class="note-box" style="background:#fff3e0;border-left:4px solid #ff9800;">
-            <h4>伺服器缺陷：QU 監管的盲點</h4>
+            <h4>：QU </h4>
             <ul>
-                <li><strong>QU 缺乏監管</strong>：伺服器的變更（例如定期清理、備份設定修改）是否需要 QU 核准？</li>
-                <li><strong>Cloud 系統未驗證</strong>：若使用雲端儲存，是否已驗證資料傳輸完整性？是否有資料遺失的偵測機制？</li>
-                <li><strong>網路映射錯誤</strong>：網路拓撲是否有文件記錄，且資料路徑是否已在確效中驗證？</li>
+                <li><strong>QU </strong>：（、） QU ？</li>
+                <li><strong>Cloud </strong>：，？？</li>
+                <li><strong></strong>：，？</li>
             </ul>
         </div>
 
         <div class="note-box" style="background:#fff8f8;border-left:4px solid #c0392b;">
-            <h4>設備管控缺陷：最常見的 DI 違規</h4>
+            <h4>： DI </h4>
             <ul>
-                <li><strong>單次試驗注射</strong>：分析師直接在儀器上進行「試打」，結果不好就不存入系統——這是最典型的選擇性報告行為</li>
-                <li><strong>Stand-alone 設備無稽核追蹤</strong>：未連接伺服器的設備往往可以直接刪除資料，形成管控盲點</li>
-                <li><strong>Trial injection 功能未被 Audit Trail 捕捉</strong>：某些 ALCS 功能允許「非正式」注射，但若未納入稽核，等同於製造資料缺口</li>
-                <li><strong>修改系統適性以掩蓋樣品失敗</strong>：這是最嚴重的詐欺行為之一——把樣品失敗偽裝成設備問題</li>
+                <li><strong></strong>：「」，——</li>
+                <li><strong>Stand-alone </strong>：，</li>
+                <li><strong>Trial injection  Audit Trail </strong>： ALCS 「」，，</li>
+                <li><strong></strong>：——</li>
             </ul>
         </div>
 
         <div class="note-box" style="background:#f3e5f5;border-left:4px solid #9c27b0;">
-            <h4>現成軟體（Off-the-Shelf）的合規陷阱</h4>
+            <h4>（Off-the-Shelf）</h4>
             <ul>
-                <li><strong>Part 11 合規「假設」</strong>：供應商宣稱軟體符合 Part 11，但廠商從未自行驗證——查核官會要求看驗證文件</li>
-                <li><strong>軟體版本升級</strong>：新版本是否能開啟舊版本建立的檔案？若不相容，舊資料的存取性（accessibility）受影響</li>
-                <li><strong>計算未驗證</strong>：ALCS 中的計算公式（e.g., 含量計算）是否有正式驗證測試案例？</li>
+                <li><strong>Part 11 「」</strong>： Part 11，——</li>
+                <li><strong></strong>：？，（accessibility）</li>
+                <li><strong></strong>：ALCS （e.g., ）？</li>
             </ul>
         </div>
 
         <div class="practice-box" style="background:#e8f5e9;border-left:4px solid #4caf50;">
-            <h4>資料處理缺陷：自我審查清單</h4>
-            <p>對照 Section 6.3.11 的 Data Handling 缺陷，建議每季自我審查：</p>
+            <h4>：</h4>
+            <p> Section 6.3.11  Data Handling ，：</p>
             <ol>
-                <li>是否有任何「試驗性注射」記錄未納入正式資料集？</li>
-                <li>是否有積分問題被「私下處理」而非提報 OOS/偏差？</li>
-                <li>所有分析序列的稽核追蹤是否已在 Publishing 前被審查並啟用？</li>
-                <li>是否有任何事件（設備異常、資料遺失）未被正式記錄？</li>
+                <li>「」？</li>
+                <li>「」 OOS/？</li>
+                <li> Publishing ？</li>
+                <li>（、）？</li>
             </ol>
-            <p>以上任何一項「是」，都代表潛在的 Warning Letter 風險。</p>
+            <p>「」， Warning Letter 。</p>
         </div>
     </div>
 </div>
@@ -886,16 +886,16 @@ Information  2017-09-22 12:59:21 UTC-4  KF1  Determination started</pre>
 <!-- SECTION SUMMARY -->
 <!-- ============================================================ -->
 <div class="learning-objectives" style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);">
-    <h3>本節重點回顧 Section Summary — 6.3.8 to 6.3.11</h3>
+    <h3> Section Summary — 6.3.8 to 6.3.11</h3>
     <ul>
-        <li><strong>Publishing</strong> = 結果的正式鎖定步驟，發布後不可在無痕跡情況下修改；再處理需附理由說明 (§6.3.8)</li>
-        <li><strong>七大稽核追蹤層級</strong>（System → Application → Method → Results → Sequence → Project → Injection Log）各有分工，需交叉比對以確保完整覆蓋 (§6.3.9)</li>
-        <li><strong>System Audit Trail</strong>：捕捉登入/登出/失敗登入/權限變更/專案刪除，定期審查，特別關注刪除事件 (§6.3.9.1)</li>
-        <li><strong>Results Audit Trail</strong>：<em>Altered</em> 欄位是關鍵標記；電子資料為最終版本；Filter 可搜尋跨專案重複注射 (§6.3.9.4)</li>
-        <li><strong>Project Audit Trail</strong>：涵蓋最廣，必須在專案建立時啟用；可偵測被刪除的注射記錄 (§6.3.9.6)</li>
-        <li><strong>Transactional Log ≠ Audit Trail</strong>：前者是暫時性系統訊息（可被清除），後者是永久驗證紀錄；關鍵訊息必須同時出現在 validated audit trail (§6.3.10)</li>
-        <li><strong>誤導性訊息</strong>（如 XRD "Deleted the journal entry" 實為作業中斷）：QU 需與供應商建立訊息字典，培訓審查員 (§6.3.10.2)</li>
-        <li><strong>FDA Warning Letter 高頻缺陷</strong>：密碼共用、時鐘篡改、試驗注射、稽核追蹤未啟用、系統適性造假——建立系統性自我查核清單可有效預防 (§6.3.11)</li>
+        <li><strong>Publishing</strong> = ，； (§6.3.8)</li>
+        <li><strong></strong>（System → Application → Method → Results → Sequence → Project → Injection Log）， (§6.3.9)</li>
+        <li><strong>System Audit Trail</strong>：////，， (§6.3.9.1)</li>
+        <li><strong>Results Audit Trail</strong>：<em>Altered</em> ；；Filter  (§6.3.9.4)</li>
+        <li><strong>Project Audit Trail</strong>：，； (§6.3.9.6)</li>
+        <li><strong>Transactional Log ≠ Audit Trail</strong>：（），； validated audit trail (§6.3.10)</li>
+        <li><strong></strong>（ XRD "Deleted the journal entry" ）：QU ， (§6.3.10.2)</li>
+        <li><strong>FDA Warning Letter </strong>：、、、、—— (§6.3.11)</li>
     </ul>
 </div>
 

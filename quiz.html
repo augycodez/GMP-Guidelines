@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SterileGMP Quiz Tracker — 知識測驗追蹤</title>
+<title>SterileGMP Quiz Tracker — </title>
 <script src="https://cdn.tailwindcss.com"></script>
 <script>
 tailwind.config = { theme: { extend: { colors: {
@@ -57,7 +57,7 @@ textarea { font-family: 'JetBrains Mono', monospace; font-size: 12px; resize: ve
 <div style="background:var(--c-surface);border-bottom:1px solid var(--c-border)" class="px-6 py-8">
   <div class="max-w-4xl mx-auto text-center">
     <h1 style="font-size:28px;font-weight:700;letter-spacing:-0.02em">SterileGMP Quiz Tracker</h1>
-    <p style="font-size:14px;color:var(--c-secondary);margin-top:6px">知識測驗追蹤 — Powered by <code style="font-size:12px;background:#f5f5f7;padding:1px 6px;border-radius:4px">/quiz</code> Claude Code skill</p>
+    <p style="font-size:14px;color:var(--c-secondary);margin-top:6px"> — Powered by <code style="font-size:12px;background:#f5f5f7;padding:1px 6px;border-radius:4px">/quiz</code> Claude Code skill</p>
     <p style="font-size:12px;margin-top:8px">
       <a href="index.html" style="color:var(--c-blue);text-decoration:none;font-weight:500">Dashboard</a>
       <span style="color:var(--c-tertiary);margin:0 6px">·</span>
@@ -295,7 +295,7 @@ function saveResult() {
    Clear
 ═══════════════════════════════ */
 function clearAll() {
-  if (confirm('Clear all quiz history? 確定要清除所有測驗記錄嗎？')) {
+  if (confirm('Clear all quiz history? ？')) {
     localStorage.removeItem(QUIZ_KEY);
     render();
   }

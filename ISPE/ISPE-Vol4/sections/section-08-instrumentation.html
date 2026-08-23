@@ -933,7 +933,7 @@ tr:nth-child(even) {
 <!-- SECTION HEADER -->
 <div class="header">
     <h1>Chapter 9: Instrumentation and Control</h1>
-    <div class="subtitle">儀器儀表與控制系統</div>
+    <div class="subtitle"></div>
     <div class="page-info">ISPE Baseline® Guide Volume 4: Water and Steam Systems | p147-p156</div>
 </div>
 
@@ -941,21 +941,21 @@ tr:nth-child(even) {
 
 <!-- LEARNING OBJECTIVES -->
 <div class="learning-objectives">
-    <h3>本章學習目標</h3>
+    <h3></h3>
     <ul>
-        <li>理解製藥水系統中儀器儀表的三大功能：控制設備運行、監控關鍵設備效能、記錄水質數據</li>
-        <li>掌握 Critical vs Non-Critical Instruments 的定義邏輯 -- 影響最終水質的參數 = 關鍵參數，其對應儀器需要確認 (qualification)</li>
-        <li>學會各類線上儀器的選擇與安裝要點：Conductivity（導電度）、TOC、pH、Ozone、Flow、Temperature、Pressure、Level</li>
-        <li>理解導電度測量中溫度補償 vs 非補償的差異，以及為何 USP 要求最終品質測試必須使用非補償值</li>
-        <li>掌握 Design Condition、Allowable Operating Range、Normal Operating Range 三層架構及 Alert/Action Level 的運用</li>
-        <li>認識 Instrumentation Spikes（儀器尖峰）的成因與處理策略</li>
-        <li>了解控制系統的四個自動化等級，以及控制軟體驗證與 21 CFR Part 11 的關聯</li>
+        <li>：、、</li>
+        <li> Critical vs Non-Critical Instruments  --  = ， (qualification)</li>
+        <li>：Conductivity（）、TOC、pH、Ozone、Flow、Temperature、Pressure、Level</li>
+        <li> vs ， USP </li>
+        <li> Design Condition、Allowable Operating Range、Normal Operating Range  Alert/Action Level </li>
+        <li> Instrumentation Spikes（）</li>
+        <li>， 21 CFR Part 11 </li>
     </ul>
 </div>
 
 <!-- TABLE OF CONTENTS -->
 <div class="toc">
-    <h3>本章目錄 Chapter Contents</h3>
+    <h3> Chapter Contents</h3>
     <div class="toc-grid">
         <a href="#sec9-1">9.1 Introduction</a>
         <a href="#sec9-2">9.2 Principles</a>
@@ -972,11 +972,11 @@ tr:nth-child(even) {
 <!-- ============================================================= -->
 <!-- 9.1 INTRODUCTION -->
 <!-- ============================================================= -->
-<div class="section-title" id="sec9-1"><strong>9.1 Introduction 9.1 簡介</strong></div>
+<div class="section-title" id="sec9-1"><strong>9.1 Introduction 9.1 </strong></div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p><span class="key-term">Instrumentation and controls</span> are often used within pharmaceutical water systems to:</p>
         <ul>
@@ -999,41 +999,41 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>儀器儀表的三重角色：</strong>在製藥水系統中，儀器不只是「看數字」的工具，而是同時扮演三個角色：</p>
+            <h4> Key Concepts</h4>
+            <p><strong>：</strong>，「」，：</p>
             <ul>
-                <li><strong>Controller（控制者）：</strong>自動控制閥門、泵浦、加熱器等設備的運行</li>
-                <li><strong>Monitor（監控者）：</strong>持續監控關鍵設備的效能，確保在規格內運作</li>
-                <li><strong>Documenter（記錄者）：</strong>產生水質和運行數據的電子或紙本記錄，作為合規證據</li>
+                <li><strong>Controller（）：</strong>、、</li>
+                <li><strong>Monitor（）：</strong>，</li>
+                <li><strong>Documenter（）：</strong>，</li>
             </ul>
-            <p><strong>Critical vs Non-Critical 的分界線：</strong>ISPE 的邏輯很清楚 -- 如果一個參數會影響最終水質，它就是 critical parameter，對應的儀器就需要 qualification（確認）。反之，只需按 GEP 進行 commissioning 即可。這個分類決定了你的驗證範圍和維護成本。</p>
+            <p><strong>Critical vs Non-Critical ：</strong>ISPE  -- ， critical parameter， qualification（）。， GEP  commissioning 。。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>把水系統的儀器想成醫院裡的監測設備。ICU 裡的心電圖監視器（critical instrument）必須定期校正、有報警功能、數據要完整記錄 -- 因為它直接關係到病人的生命安全。但候診室的溫度計（non-critical instrument）只要大概準確就好，不需要同等級的校正程序。製藥水系統也是一樣 -- 不是每個儀器都需要同樣嚴格的驗證，關鍵在於它測量的參數是否影響最終水質。</p>
+            <h4> Analogy</h4>
+            <p>。ICU （critical instrument）、、 -- 。（non-critical instrument），。 -- ，。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p><strong>沒有法規強制要求線上監測！</strong>這是很多人的誤解。ISPE 明確指出，監測方案可以是線上儀器、手動記錄、實驗室分析的組合。但在實務上，現代系統幾乎都會採用線上監測，原因有三：</p>
+            <h4> Key Notes</h4>
+            <p><strong>！</strong>。ISPE ，、、。，，：</p>
             <ul>
-                <li>連續數據比抽樣更能捕捉到瞬態偏移 (transient excursions)</li>
-                <li>減少人工介入，降低人為錯誤風險</li>
-                <li>符合 data integrity 的期望 -- 電子記錄比手抄數據更具可追溯性</li>
+                <li> (transient excursions)</li>
+                <li>，</li>
+                <li> data integrity  -- </li>
             </ul>
-            <p>在 CDMO 環境中，客戶審計時看到完整的線上趨勢圖，信心會遠高於看到手抄的每日取樣記錄。</p>
+            <p> CDMO ，，。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>你的水系統有 50 個儀器點位，你會如何決定哪些是 critical、哪些是 non-critical？請列出你的判斷標準。</li>
-                <li>如果管理層為了節省驗證成本，要求你把所有儀器都歸類為 non-critical，你會如何回應？</li>
-                <li>為什麼 ISPE 建議水系統的自動化程度應與其所支持的製程一致？在 CDMO 中這意味著什麼？</li>
+                <li> 50 ， critical、 non-critical？。</li>
+                <li>， non-critical，？</li>
+                <li> ISPE ？ CDMO ？</li>
             </ol>
         </div>
     </div>
@@ -1042,11 +1042,11 @@ tr:nth-child(even) {
 <!-- ============================================================= -->
 <!-- 9.2 PRINCIPLES -->
 <!-- ============================================================= -->
-<div class="section-title" id="sec9-2"><strong>9.2 Principles 9.2 原則</strong></div>
+<div class="section-title" id="sec9-2"><strong>9.2 Principles 9.2 </strong></div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p>a) To achieve <span class="key-term">GMP compliance</span>, the manufacturer must demonstrate, through documented evidence, that the pharmaceutical water system is in control and consistently produces and delivers water of acceptable quality.</p>
 
@@ -1064,46 +1064,46 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>Critical Parameter 的判定邏輯：</strong></p>
+            <h4> Key Concepts</h4>
+            <p><strong>Critical Parameter ：</strong></p>
             <ul>
-                <li>問自己一個問題：「這個參數如果偏離了，最終水質會受影響嗎？」</li>
-                <li>如果答案是 Yes → Critical Parameter → 對應儀器需要 Qualification</li>
-                <li>如果答案是 No → Non-Critical → GEP Commissioning 即可</li>
+                <li>：「，？」</li>
+                <li> Yes → Critical Parameter →  Qualification</li>
+                <li> No → Non-Critical → GEP Commissioning </li>
             </ul>
-            <p><strong>ISPE 的例子很經典：</strong>產品水的溫度（直接影響微生物控制）= Critical。加熱蒸汽的溫度（間接影響，且有中間緩衝）= Non-Critical。這個邏輯可以推廣到所有儀器的分類。</p>
+            <p><strong>ISPE ：</strong>（）= Critical。（，）= Non-Critical。。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p><strong>「在現場設備上標示 non-critical」這個建議非常實用。</strong>為什麼？因為：</p>
+            <h4> Key Notes</h4>
+            <p><strong>「 non-critical」。</strong>？：</p>
             <ul>
-                <li>維護人員在現場看到儀器時，立即知道它的校正等級和頻率要求</li>
-                <li>審計人員走訪現場時，可以快速確認儀器分類是否與文件一致</li>
-                <li>避免「寧可多做」的心態導致不必要的校正工作，浪費資源</li>
+                <li>，</li>
+                <li>，</li>
+                <li>「」，</li>
             </ul>
-            <p>建議的做法：在每個儀器上貼標籤，註明 Critical / Non-Critical、校正到期日、校正頻率。</p>
+            <p>：， Critical / Non-Critical、、。</p>
         </div>
 
         <div class="concept-box application">
-            <h4>CDMO 應用場景 Application</h4>
-            <p><strong>趨勢分析 (Trend Analysis) 在 CDMO 中的價值：</strong></p>
-            <p>ISPE 提到 start-up 期間的監測計畫要定義 alert/action levels。在 CDMO 環境中，趨勢分析的價值更大：</p>
+            <h4>CDMO  Application</h4>
+            <p><strong> (Trend Analysis)  CDMO ：</strong></p>
+            <p>ISPE  start-up  alert/action levels。 CDMO ，：</p>
             <ul>
-                <li>客戶審計時會要求看過去 6-12 個月的水質趨勢圖</li>
-                <li>趨勢的「斜率」比單次讀數更重要 -- 緩慢上升的導電度可能代表膜效能衰退</li>
-                <li>Alert level 的設定應基於歷史數據的統計分析，而非隨意設定</li>
+                <li> 6-12 </li>
+                <li>「」 -- </li>
+                <li>Alert level ，</li>
             </ul>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>你的配液槽上有一個溫度感測器，用來監控混合過程中的溫度。這個感測器是 critical 還是 non-critical？為什麼？</li>
-                <li>ISPE 說「沒有法規要求線上監測」，但你的客戶堅持要求所有 POU 都有線上導電度監測。你會如何評估這個要求的合理性？</li>
+                <li>，。 critical  non-critical？？</li>
+                <li>ISPE 「」， POU 。？</li>
             </ol>
         </div>
     </div>
@@ -1112,14 +1112,14 @@ tr:nth-child(even) {
 <!-- ============================================================= -->
 <!-- 9.3 GENERAL INSTRUMENTATION REQUIREMENTS -->
 <!-- ============================================================= -->
-<div class="section-title" id="sec9-3"><strong>9.3 General Instrumentation Requirements 9.3 一般儀表需求</strong></div>
+<div class="section-title" id="sec9-3"><strong>9.3 General Instrumentation Requirements 9.3 </strong></div>
 
 <!-- 9.3.1 Instrument Selection and Installation -->
-<div class="section-title" id="sec9-3-1" style="font-size:1rem; border-bottom:1px solid #e2e8f0;"><strong>9.3.1 Instrument Selection and Installation 9.3.1 儀器選擇與安裝</strong></div>
+<div class="section-title" id="sec9-3-1" style="font-size:1rem; border-bottom:1px solid #e2e8f0;"><strong>9.3.1 Instrument Selection and Installation 9.3.1 </strong></div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p>a) Instruments should be selected for <span class="key-term">accuracy and reliability</span> over the entire process range.</p>
 
@@ -1143,47 +1143,47 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>想像你在裝家裡的煙霧偵測器。你會把它裝在廚房爐灶正上方嗎？不會，因為那裡天天「誤報」（就像把導電度探頭裝在湍流區會有氣泡干擾）。你也不會把它裝在車庫最角落「方便維修但感應不到」的位置（就像為了維護方便而把感測器裝得離測量點太遠）。最佳位置是走廊天花板 -- 離臥室近（回應快），又不會被日常活動干擾（環境適合）。</p>
+            <h4> Analogy</h4>
+            <p>。？，「」（）。「」（）。 -- （），（）。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p><strong>Side Stream（旁路）安裝的優缺點：</strong></p>
+            <h4> Key Notes</h4>
+            <p><strong>Side Stream（）：</strong></p>
             <ul>
-                <li><strong>優點：</strong>不需要打開主管路即可維護/校正儀器；可以安裝不相容 sanitization 的儀器（如 pH 探頭）；不增加主管路的 deadleg</li>
-                <li><strong>缺點：</strong>測量值可能與主管路有時間延遲；需要控制旁路流速以確保測量準確；旁路本身需要定期沖洗或排放</li>
-                <li><strong>關鍵決策：</strong>旁路的水是否回到主系統？如果含有 pH 探頭的緩衝液洩漏風險，通常排放到 drain 而非回收</li>
+                <li><strong>：</strong>/； sanitization （ pH ）； deadleg</li>
+                <li><strong>：</strong>；；</li>
+                <li><strong>：</strong>？ pH ， drain </li>
             </ul>
         </div>
 
         <div class="highlight-box">
-            <h4>常見錯誤 Common Mistakes</h4>
-            <p><strong>Deadleg 的隱藏陷阱：</strong>很多人只注意管路上的 deadleg，卻忽略了儀器安裝本身可能製造的 deadleg。例如：</p>
+            <h4> Common Mistakes</h4>
+            <p><strong>Deadleg ：</strong> deadleg， deadleg。：</p>
             <ul>
-                <li>溫度計套管 (thermowell) 插入深度不當</li>
-                <li>壓力表連接管未保持最短距離</li>
-                <li>液位計在儲槽上的接管 (stub) 過長</li>
+                <li> (thermowell) </li>
+                <li></li>
+                <li> (stub) </li>
             </ul>
-            <p>每一個「突出」都可能成為微生物的溫床，尤其在非持續流動的位置。</p>
+            <p>「」，。</p>
         </div>
     </div>
 </div>
 
 <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>六大安裝原則總整理：</strong></p>
+            <h4> Key Concepts</h4>
+            <p><strong>：</strong></p>
             </div>
 
         <!-- 9.3.2 Instrument Calibration -->
-<div class="section-title" id="sec9-3-2" style="font-size:1rem; border-bottom:1px solid #e2e8f0;"><strong>9.3.2 Instrument Calibration 9.3.2 儀器校正</strong></div>
+<div class="section-title" id="sec9-3-2" style="font-size:1rem; border-bottom:1px solid #e2e8f0;"><strong>9.3.2 Instrument Calibration 9.3.2 </strong></div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p>a) The <span class="key-term">calibration</span> of critical instruments should follow a regular program, which provides evidence of consistently acceptable performance. Non-critical instruments may be calibrated on a frequency deemed appropriate for the service.</p>
 
@@ -1193,27 +1193,27 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>校正的三個關鍵原則：</strong></p>
+            <h4> Key Concepts</h4>
+            <p><strong>：</strong></p>
             <ul>
-                <li><strong>頻率分級：</strong>Critical instruments = 定期校正（通常 6-12 個月）；Non-critical = 依服務需求決定（可以更長）</li>
-                <li><strong>可追溯性 (Traceability)：</strong>所有校正必須可追溯到認證標準（如 NIST），形成不間斷的校正鏈</li>
-                <li><strong>迴路校正 (Loop Calibration)：</strong>可以逐一校正迴路中的每個元件，也可以整個迴路一起校正。後者更能反映系統實際精度</li>
+                <li><strong>：</strong>Critical instruments = （ 6-12 ）；Non-critical = （）</li>
+                <li><strong> (Traceability)：</strong>（ NIST），</li>
+                <li><strong> (Loop Calibration)：</strong>，。</li>
             </ul>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p><strong>出廠校正 vs 安裝後校正：</strong>ISPE 特別提醒，供應商提供的校正證書可能因運輸和安裝而失效。實務上：</p>
+            <h4> Key Notes</h4>
+            <p><strong> vs ：</strong>ISPE ，。：</p>
             <ul>
-                <li>精密儀器（如導電度計、TOC 分析儀）安裝後一定要重新校正</li>
-                <li>校正證書上的序號必須與現場設備的序號一一對應 -- 這是審計時的常見查核點</li>
-                <li>如果運輸過程中有衝擊或溫度極端，應額外進行功能測試</li>
+                <li>（、TOC ）</li>
+                <li> -- </li>
+                <li>，</li>
             </ul>
-            <p>在 Data Integrity 的框架下，校正記錄也是 GMP 文件的一部分，必須完整保存且防止竄改。</p>
+            <p> Data Integrity ， GMP ，。</p>
         </div>
     </div>
 </div>
@@ -1221,14 +1221,14 @@ tr:nth-child(even) {
 <!-- ============================================================= -->
 <!-- 9.3.3 TYPES OF INSTRUMENTATION -->
 <!-- ============================================================= -->
-<div class="section-title" id="sec9-3-3"><strong>9.3.3 Types of Instrumentation 9.3.3 儀表類型</strong></div>
+<div class="section-title" id="sec9-3-3"><strong>9.3.3 Types of Instrumentation 9.3.3 </strong></div>
 
 <!-- Conductivity -->
-<h3 style="color: var(--primary-blue); margin: 1rem 0 0.75rem; font-size: 1rem;">9.3.3.1 Conductivity (導電度)</h3>
+<h3 style="color: var(--primary-blue); margin: 1rem 0 0.75rem; font-size: 1rem;">9.3.3.1 Conductivity ()</h3>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p>a) Although non-ion specific, <span class="key-term">conductivity</span> is a valuable tool for measuring the total ionic quality of water and is a critical parameter for many high purity water systems. Conductivity limits for Purified Water and WFI are specified in the USP.</p>
 
@@ -1250,35 +1250,35 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>導電度 -- 水系統的「體溫計」：</strong></p>
-            <p>導電度是製藥水系統中最重要的單一參數。它雖然無法辨識具體是哪種離子（non-ion specific），但能快速反映水的整體離子品質。就像體溫計無法告訴你是哪個器官發炎，但溫度升高就知道身體出了問題。</p>
-            <p><strong>溫度補償的關鍵區分：</strong></p>
+            <h4> Key Concepts</h4>
+            <p><strong> -- 「」：</strong></p>
+            <p>。（non-ion specific），。，。</p>
+            <p><strong>：</strong></p>
             <ul>
-                <li><strong>補償值 (Compensated)：</strong>儀器自動將讀值修正到 25°C 的等效值。適用於製程監控，方便趨勢比較</li>
-                <li><strong>非補償值 (Non-compensated)：</strong>實際溫度下的原始導電度讀值。USP 要求最終品質測試必須使用此值 + 水溫，對照 USP 的溫度-導電度表</li>
+                <li><strong> (Compensated)：</strong> 25°C 。，</li>
+                <li><strong> (Non-compensated)：</strong>。USP  + ， USP -</li>
             </ul>
-            <p>為什麼 USP 不接受補償值？因為所有溫度補償演算法都有固有誤差，在高純水的微小導電度範圍內，這個誤差可能導致合格/不合格的誤判。</p>
+            <p> USP ？，，/。</p>
         </div>
 
         <div class="highlight-box">
-            <h4>常見錯誤 Common Mistakes</h4>
-            <p><strong>氣泡造成的假性合格：</strong>空氣泡會導致導電度讀值偏低（因為空氣不導電）。這意味著系統可能顯示「合格」，但實際水質已經不合格。這是一個隱蔽的風險，特別在以下情況需要注意：</p>
+            <h4> Common Mistakes</h4>
+            <p><strong>：</strong>（）。「」，。，：</p>
             <ul>
-                <li>泵浦出口附近（cavitation 產生氣泡）</li>
-                <li>溫度劇烈變化的位置（flashing）</li>
-                <li>管路變徑或方向急轉處（turbulence）</li>
+                <li>（cavitation ）</li>
+                <li>（flashing）</li>
+                <li>（turbulence）</li>
             </ul>
         </div>
     </div>
 </div>
 
 <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p><strong>導電度監測點的佈局策略：</strong></p>
+            <h4> Key Notes</h4>
+            <p><strong>：</strong></p>
             </div>
 
         <!-- TOC -->
@@ -1286,7 +1286,7 @@ tr:nth-child(even) {
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p>a) <span class="key-term">Total Organic Carbon (TOC)</span> is a measure of the carbon dissolved in water in the form of organic compounds. It is a valuable tool for measuring the aggregate level of organic impurities in pharmaceutical water systems. A TOC test with a nominal limit of <span class="key-term">500 ppb</span> for USP Purified Water and WFI is a required test in the USP.</p>
 
@@ -1305,39 +1305,39 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>TOC -- 有機物的「總帳」：</strong></p>
-            <p>導電度量測的是離子（無機物），TOC 量測的是有機碳。兩者互補，構成水質監控的兩大支柱。USP 規定 PW 和 WFI 的 TOC 限值為 500 ppb (0.5 mg/L)，這是取代舊版「可氧化物質」(Oxidizable Substances) 濕化學測試的現代方法。</p>
-            <p><strong>兩種用途的差異化要求：</strong></p>
+            <h4> Key Concepts</h4>
+            <p><strong>TOC -- 「」：</strong></p>
+            <p>（），TOC 。，。USP  PW  WFI  TOC  500 ppb (0.5 mg/L)，「」(Oxidizable Substances) 。</p>
+            <p><strong>：</strong></p>
             <ul>
-                <li><strong>製程監控用：</strong>不受 USP 儀器要求約束，可用較簡單的設備</li>
-                <li><strong>最終品質測試用：</strong>必須符合 USP 對儀器精密度、系統適用性、測試方法和校正程序的要求</li>
+                <li><strong>：</strong> USP ，</li>
+                <li><strong>：</strong> USP 、、</li>
             </ul>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p><strong>TOC 與內毒素的關係 -- 一個常見的誤解：</strong></p>
-            <p>業界一直有人希望用 TOC 來「間接」監測內毒素。ISPE 的立場很明確：<strong>TOC 不能替代內毒素測試。</strong></p>
+            <h4> Key Notes</h4>
+            <p><strong>TOC  -- ：</strong></p>
+            <p> TOC 「」。ISPE ：<strong>TOC 。</strong></p>
             <ul>
-                <li>內毒素是脂多醣 (lipopolysaccharide)，確實含有碳，會貢獻 TOC</li>
-                <li>但 TOC 讀值包含所有有機碳來源（清潔劑殘留、樹脂溶出物、管路材質等），無法區分哪些是內毒素貢獻的</li>
-                <li>沒有可靠的定量關聯式可以從 TOC 值推算內毒素濃度</li>
+                <li> (lipopolysaccharide)，， TOC</li>
+                <li> TOC （、、），</li>
+                <li> TOC </li>
             </ul>
-            <p>結論：TOC 合格 ≠ 內毒素合格。兩個測試必須獨立執行。</p>
+            <p>：TOC  ≠ 。。</p>
         </div>
 
         <div class="concept-box application">
-            <h4>CDMO 應用場景 Application</h4>
-            <p><strong>TOC 自動排放 (Auto-dump) 策略：</strong></p>
-            <p>ISPE 提到許多系統在水質超標時會自動排放到 drain 或回流到純化設備。在 CDMO 環境中，這個功能的設計需要特別考慮：</p>
+            <h4>CDMO  Application</h4>
+            <p><strong>TOC  (Auto-dump) ：</strong></p>
+            <p>ISPE  drain 。 CDMO ，：</p>
             <ul>
-                <li>自動排放的觸發值 (setpoint) 應該在 action limit 之前，通常設在 alert limit</li>
-                <li>排放事件必須自動記錄，包含時間戳、持續時間、觸發值</li>
-                <li>頻繁的自動排放可能暗示系統有更深層的問題，需要根因調查</li>
+                <li> (setpoint)  action limit ， alert limit</li>
+                <li>，、、</li>
+                <li>，</li>
             </ul>
         </div>
     </div>
@@ -1348,7 +1348,7 @@ tr:nth-child(even) {
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p>a) pH measurement is relatively straightforward for high conductivity water. Reliable results can generally be obtained using pH indicators or laboratory, field, or On-Line pH meters.</p>
 
@@ -1369,27 +1369,27 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>為什麼高純水的 pH 這麼難測？</strong></p>
-            <p>高純水的導電度極低（&lt; 1.3 μS/cm），這意味著水中幾乎沒有離子。在這種條件下：</p>
+            <h4> Key Concepts</h4>
+            <p><strong> pH ？</strong></p>
+            <p>（&lt; 1.3 μS/cm），。：</p>
             <ul>
-                <li>空氣中的 CO<sub>2</sub> 溶入水中形成碳酸，瞬間改變 pH</li>
-                <li>取樣容器表面的微量溶出物就能影響讀值</li>
-                <li>pH 電極的參考液 (buffer) 可能洩漏到水中，既影響讀值又污染系統</li>
+                <li> CO<sub>2</sub> ， pH</li>
+                <li></li>
+                <li>pH  (buffer) ，</li>
             </ul>
-            <p><strong>導電度 vs pH 的靈敏度比較：</strong>pH 是對數尺度，pH 從 7.0 變到 6.0 代表 H+ 濃度增加了 10 倍。但導電度是線性的，能更敏感地反映微小的離子變化。這就是為什麼 USP 已經移除了 PW/WFI 的 pH 規格，改用導電度作為主要品質指標。</p>
+            <p><strong> vs pH ：</strong>pH ，pH  7.0  6.0  H+  10 。，。 USP  PW/WFI  pH ，。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p><strong>pH 探頭的污染風險：</strong>ISPE 特別提到，pH 感測器的參考電極含有緩衝液，可能洩漏到水中。這不是理論風險 -- 在實際案例中，pH 探頭的 KCl 緩衝液洩漏曾導致整個配液批次的導電度超標。因此：</p>
+            <h4> Key Notes</h4>
+            <p><strong>pH ：</strong>ISPE ，pH ，。 -- ，pH  KCl 。：</p>
             <ul>
-                <li>pH 探頭永遠安裝在旁路 (side stream)，排放到 drain</li>
-                <li>不可將旁路水回流到主系統</li>
-                <li>在 PW/WFI 分配迴路中，幾乎不安裝線上 pH 計</li>
+                <li>pH  (side stream)， drain</li>
+                <li></li>
+                <li> PW/WFI ， pH </li>
             </ul>
         </div>
     </div>
@@ -1400,7 +1400,7 @@ tr:nth-child(even) {
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p>a) Dissolved ozone levels should be monitored in storage and distribution systems that utilize <span class="key-term">ozone</span> for microbial control. Ozone levels can be determined periodically in the laboratory using several wet chemistry methods, or continuously using an On-Line analyzer.</p>
 
@@ -1415,22 +1415,22 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>臭氧監測的三個關鍵位置：</strong></p>
+            <h4> Key Concepts</h4>
+            <p><strong>：</strong></p>
             <ul>
-                <li><strong>儲槽出口：</strong>控制臭氧產生器的啟停，確保槽內維持足夠的殘餘臭氧濃度</li>
-                <li><strong>UV 燈下游：</strong>確認臭氧已被完全破壞。殘餘臭氧進入製程會氧化藥品成分，造成品質問題</li>
-                <li><strong>迴路回水管：</strong>確認整個迴路的臭氧消毒效果維持在有效濃度</li>
+                <li><strong>：</strong>，</li>
+                <li><strong>UV ：</strong>。，</li>
+                <li><strong>：</strong></li>
             </ul>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p><strong>ORP 不能替代臭氧專用分析儀！</strong></p>
-            <p>ORP（氧化還原電位）看似是一個方便的替代方案，但它無法區分臭氧和其他氧化劑（如氯、過氧化氫）。在製藥水系統中，如果原水中含有微量餘氯，ORP 讀值會「灌水」，讓你誤以為臭氧濃度足夠。ISPE 明確禁止用 ORP 來控制臭氧。</p>
+            <h4> Key Notes</h4>
+            <p><strong>ORP ！</strong></p>
+            <p>ORP（），（、）。，，ORP 「」，。ISPE  ORP 。</p>
         </div>
     </div>
 </div>
@@ -1440,7 +1440,7 @@ tr:nth-child(even) {
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <h3>9.3.3.5 Flow</h3>
         <p>A wide variety of <span class="key-term">flow meters</span> may be used in the feed water and pretreatment portion of a pharmaceutical water system including magnetic flow meters, mass flow meters, vortex shedding meters, and ultrasonic meters. All meters should be installed according to the manufacturer's instructions, to ensure proper operation.</p>
@@ -1460,55 +1460,55 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>想像你在管理一棟大樓的消防系統：</p>
+            <h4> Analogy</h4>
+            <p>：</p>
             <ul>
-                <li><strong>流量 (Flow)</strong> 就像消防栓的出水量 -- 平時不需要一直量，但消防演練時必須確認</li>
-                <li><strong>溫度 (Temperature)</strong> 就像灑水系統的防凍設計 -- 在寒冷地區是 critical，在熱帶就不是</li>
-                <li><strong>壓力 (Pressure)</strong> 就像水管的水壓 -- 只要有水就好，但如果壓力歸零，消防栓就無法使用</li>
-                <li><strong>液位 (Level)</strong> 就像水塔的水位 -- 只要不空、不溢就好，精確值不那麼重要</li>
+                <li><strong> (Flow)</strong>  -- ，</li>
+                <li><strong> (Temperature)</strong>  --  critical，</li>
+                <li><strong> (Pressure)</strong>  -- ，，</li>
+                <li><strong> (Level)</strong>  -- 、，</li>
             </ul>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p><strong>正壓 (Positive Pressure) 的重要性：</strong>ISPE 雖然說壓力通常不是 critical parameter，但特別強調系統必須「隨時維持正壓」。為什麼？</p>
+            <h4> Key Notes</h4>
+            <p><strong> (Positive Pressure) ：</strong>ISPE  critical parameter，「」。？</p>
             <ul>
-                <li>負壓會導致外部空氣（及其中的微生物）被吸入系統</li>
-                <li>密封不完美的接頭、墊片在負壓時可能成為微生物入侵的通道</li>
-                <li>特別是在 POU（使用點）取水後，如果沒有適當的背壓控制，管路末端可能瞬間出現負壓</li>
+                <li>（）</li>
+                <li>、</li>
+                <li> POU（），，</li>
             </ul>
         </div>
 
         <div class="highlight-box">
-            <h4>液位校正的實務挑戰 Practical Tip</h4>
-            <p>ISPE 提到一個很實際的問題：差壓式液位計的校正需要把儲槽填滿水來驗證，非常耗時。解決方案：</p>
+            <h4> Practical Tip</h4>
+            <p>ISPE ：，。：</p>
             <ul>
-                <li>選擇帶有整合閥門 (integral valve) 的儲槽接嘴，可以在儲槽運行中進行校正</li>
-                <li>接管 (stub) 要盡量短，減少 deadleg</li>
-                <li>超音波或電容式液位計通常比差壓式更容易校正</li>
+                <li> (integral valve) ，</li>
+                <li> (stub) ， deadleg</li>
+                <li></li>
             </ul>
         </div>
     </div>
 </div>
 
 <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>四大物理參數的 Critical 分級：</strong></p>
-            <p>注意 ISPE 的措辭：「may not be considered critical」、「monitored for information only」。這代表這些參數的 Critical/Non-Critical 分類不是絕對的，取決於你的系統設計和微生物控制策略。</p>
+            <h4> Key Concepts</h4>
+            <p><strong> Critical ：</strong></p>
+            <p> ISPE ：「may not be considered critical」、「monitored for information only」。 Critical/Non-Critical ，。</p>
         </div>
 
         <!-- ============================================================= -->
 <!-- 9.4 DESIGN CONDITIONS VS OPERATING RANGE -->
 <!-- ============================================================= -->
-<div class="section-title" id="sec9-4"><strong>9.4 Design Conditions versus Operating Range 9.4 設計條件 vs 操作範圍</strong></div>
+<div class="section-title" id="sec9-4"><strong>9.4 Design Conditions versus Operating Range 9.4  vs </strong></div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p>The control system may recognize the distinction between <span class="key-term">design conditions</span> and <span class="key-term">operating ranges</span>, and the impact this distinction has upon validation and facility operation. These criteria are defined as:</p>
 
@@ -1526,50 +1526,50 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>三層架構的巢狀關係：</strong></p>
+            <h4> Key Concepts</h4>
+            <p><strong>：</strong></p>
 
             <div class="hierarchy-diagram">
                 <div class="hierarchy-level">
-                    <div class="hierarchy-box level-1">Design Condition（設計條件）-- 最寬</div>
+                    <div class="hierarchy-box level-1">Design Condition（）-- </div>
                 </div>
                 <div class="arrow-down">↓</div>
                 <div class="hierarchy-level">
-                    <div class="hierarchy-box level-2">Allowable Operating Range（允許操作範圍）-- 驗證確認</div>
+                    <div class="hierarchy-box level-2">Allowable Operating Range（）-- </div>
                 </div>
                 <div class="arrow-down">↓</div>
                 <div class="hierarchy-level">
-                    <div class="hierarchy-box level-3">Normal Operating Range（正常操作範圍）-- 最窄</div>
+                    <div class="hierarchy-box level-3">Normal Operating Range（）-- </div>
                 </div>
             </div>
 
-            <p><strong>關鍵區別：</strong></p>
+            <p><strong>：</strong></p>
             <ul>
-                <li><strong>Design Condition：</strong>工程師設計時的依據，包含安全餘裕 (safety margin)。設備「能夠」運作的範圍</li>
-                <li><strong>Allowable Operating Range：</strong>經過驗證證實在此範圍內可以生產合格水的範圍。這是 cGMP 合規的判定基準</li>
-                <li><strong>Normal Operating Range：</strong>日常操作的目標範圍，必須在 Allowable Range 之內</li>
+                <li><strong>Design Condition：</strong>， (safety margin)。「」</li>
+                <li><strong>Allowable Operating Range：</strong>。 cGMP </li>
+                <li><strong>Normal Operating Range：</strong>， Allowable Range </li>
             </ul>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p><strong>Alert vs Action Level 的運用：</strong></p>
+            <h4> Key Notes</h4>
+            <p><strong>Alert vs Action Level ：</strong></p>
             <ul>
-                <li><strong>Alert Level（警戒值）：</strong>基於正常操作經驗設定。觸發時啟動調查，但不一定要停止生產。相當於「黃燈」</li>
-                <li><strong>Action Level（行動值）：</strong>必須採取矯正措施。可能需要停止供水、排放至 drain、或回流再處理。相當於「紅燈」</li>
+                <li><strong>Alert Level（）：</strong>。，。「」</li>
+                <li><strong>Action Level（）：</strong>。、 drain、。「」</li>
             </ul>
-            <p>在實務中，Alert/Action Level 的設定應基於 Phase 1-3 驗證期間收集的歷史數據，而非憑感覺。常見的做法是用統計方法（如 mean + 2σ 作為 Alert，mean + 3σ 作為 Action），但必須確保 Action Level 仍在 Allowable Operating Range 之內。</p>
+            <p>，Alert/Action Level  Phase 1-3 ，。（ mean + 2σ  Alert，mean + 3σ  Action）， Action Level  Allowable Operating Range 。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>你的儲槽溫度 Design Condition 是 80±5°C，Allowable Range 是 75-85°C，Normal Range 是 78-82°C。如果某天溫度跌到 74°C，這代表什麼？你應該怎麼做？</li>
-                <li>如果 Alert Level 和 Action Level 設定得太接近，會造成什麼操作問題？</li>
-                <li>為什麼 ISPE 說「從 cGMP 角度，接受標準是 Allowable Operating Range」而不是 Design Condition？</li>
+                <li> Design Condition  80±5°C，Allowable Range  75-85°C，Normal Range  78-82°C。 74°C，？？</li>
+                <li> Alert Level  Action Level ，？</li>
+                <li> ISPE 「 cGMP ， Allowable Operating Range」 Design Condition？</li>
             </ol>
         </div>
     </div>
@@ -1578,11 +1578,11 @@ tr:nth-child(even) {
 <!-- ============================================================= -->
 <!-- 9.5 INSTRUMENTATION SPIKES -->
 <!-- ============================================================= -->
-<div class="section-title" id="sec9-5"><strong>9.5 Instrumentation Spikes 9.5 儀表尖峰值</strong></div>
+<div class="section-title" id="sec9-5"><strong>9.5 Instrumentation Spikes 9.5 </strong></div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p>"<span class="key-term">Spikes</span>" may be experienced in the measurement of some parameters. These excursions may be the result of the measurement technique or sensor and may not be representative of the actual parameter value. If a spike occurs in a system with a <span class="key-term">significant physical lag or mass</span>, the rapid changes in a parameter as evidenced by spikes may be physically impossible and consequently can be treated as instrumentation spikes.</p>
 
@@ -1592,43 +1592,43 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>Spike（尖峰）的判定邏輯：</strong></p>
-            <p>ISPE 提供了一個很實用的物理邏輯判定法：</p>
+            <h4> Key Concepts</h4>
+            <p><strong>Spike（）：</strong></p>
+            <p>ISPE ：</p>
             <ul>
-                <li>如果系統有很大的物理慣性（如 10,000L 儲槽），溫度不可能在 1 秒內從 80°C 跳到 60°C</li>
-                <li>如果數據上出現這種「物理上不可能」的突變，就可以判定為儀器尖峰，而非真正的製程偏移</li>
-                <li>但如果是在流通量小、反應快的管路上（如 POU 出水口的導電度），同樣的突變可能是真實的</li>
+                <li>（ 10,000L ）， 1  80°C  60°C</li>
+                <li>「」，，</li>
+                <li>、（ POU ），</li>
             </ul>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p><strong>Spike 處理的三個關鍵要求：</strong></p>
+            <h4> Key Notes</h4>
+            <p><strong>Spike ：</strong></p>
             <ol>
-                <li><strong>必須有書面程序 (SOP)：</strong>定義什麼是 spike、判定標準、處理流程。不能事後才「解釋」</li>
-                <li><strong>必須與 QA 共同制定：</strong>這不是純工程決策，需要品質保證部門的認可</li>
-                <li><strong>基於特定系統設計：</strong>每個水系統的物理特性不同，spike 的判定標準也不同</li>
+                <li><strong> (SOP)：</strong> spike、、。「」</li>
+                <li><strong> QA ：</strong>，</li>
+                <li><strong>：</strong>，spike </li>
             </ol>
-            <p><strong>Data Integrity 的隱患：</strong>Spike 處理是審計人員最關注的領域之一。如果你的系統經常出現「被歸類為 spike」的偏移，但又沒有根因調查，會被質疑是否在用 spike classification 來掩蓋真正的品質問題。</p>
+            <p><strong>Data Integrity ：</strong>Spike 。「 spike」，， spike classification 。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>想像你在量體溫。你把耳溫槍放進耳朵量了一次：39.5°C。再量一次：36.8°C。第三次：36.7°C。那第一次的 39.5°C 很可能是「spike」-- 也許探頭沒有完全對準鼓膜。但如果你連續三次都量到 38.5°C 以上，那就是真的發燒了。製藥水系統也一樣：偶發的、物理上不合理的讀值可以視為 spike，但持續性的偏移必須認真對待。</p>
+            <h4> Analogy</h4>
+            <p>。：39.5°C。：36.8°C。：36.7°C。 39.5°C 「spike」-- 。 38.5°C ，。：、 spike，。</p>
         </div>
 
         <div class="highlight-box">
-            <h4>21 CFR Part 11 關聯 Regulatory Connection</h4>
-            <p>如果你的控制系統自動過濾或標記 spike 數據，這涉及電子記錄的完整性：</p>
+            <h4>21 CFR Part 11  Regulatory Connection</h4>
+            <p> spike ，：</p>
             <ul>
-                <li>原始數據（包含 spike）必須保留，不得刪除</li>
-                <li>任何數據的重新分類（從 Action 改為 Spike）都必須有審計追蹤 (audit trail)</li>
-                <li>過濾演算法的邏輯必須經過驗證</li>
-                <li>這是 Data Integrity 審計中常被查核的項目</li>
+                <li>（ spike），</li>
+                <li>（ Action  Spike） (audit trail)</li>
+                <li></li>
+                <li> Data Integrity </li>
             </ul>
         </div>
     </div>
@@ -1637,14 +1637,14 @@ tr:nth-child(even) {
 <!-- ============================================================= -->
 <!-- 9.6 CONTROL SYSTEMS -->
 <!-- ============================================================= -->
-<div class="section-title" id="sec9-6"><strong>9.6 Control Systems 9.6 控制系統</strong></div>
+<div class="section-title" id="sec9-6"><strong>9.6 Control Systems 9.6 </strong></div>
 
 <!-- 9.6.1 Level of Automation -->
 <h3 style="color: var(--primary-blue); margin: 1rem 0 0.75rem; font-size: 1rem;">9.6.1 Level of Automation</h3>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p>Selection of a control strategy for a pharmaceutical water system should consider feed water quality and reliability, the complexity of the purification and/or distribution system, labor costs, personnel skill levels and capabilities, and documentation and reporting requirements. Options for control include:</p>
 
@@ -1662,36 +1662,36 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p><strong>現代 CDMO 的選擇：</strong>在 2020 年代，幾乎所有新建的製藥水系統都採用 Level 3 或 Level 4。原因：</p>
+            <h4> Key Notes</h4>
+            <p><strong> CDMO ：</strong> 2020 ， Level 3  Level 4。：</p>
             <ul>
-                <li><strong>Data Integrity 要求：</strong>手動記錄的數據完整性風險太高，自動化電子記錄符合 21 CFR Part 11 的期望</li>
-                <li><strong>審計期望提升：</strong>客戶和法規機構期望看到完整的電子趨勢圖、自動告警記錄、audit trail</li>
-                <li><strong>複雜度增加：</strong>現代水系統整合了多種技術（RO、EDI、UV、臭氧等），人工操控已不切實際</li>
-                <li><strong>人力成本：</strong>24/7 的手動監控成本遠高於自動化系統的維護成本</li>
+                <li><strong>Data Integrity ：</strong>， 21 CFR Part 11 </li>
+                <li><strong>：</strong>、、audit trail</li>
+                <li><strong>：</strong>（RO、EDI、UV、），</li>
+                <li><strong>：</strong>24/7 </li>
             </ul>
         </div>
 
         <div class="concept-box application">
-            <h4>CDMO 應用場景 Application</h4>
-            <p><strong>Level 4 整合系統的實際價值：</strong></p>
-            <p>在 CDMO 環境中，Level 4 的全廠整合有額外的優勢：</p>
+            <h4>CDMO  Application</h4>
+            <p><strong>Level 4 ：</strong></p>
+            <p> CDMO ，Level 4 ：</p>
             <ul>
-                <li>水系統數據可以自動關聯到批次記錄 (batch record)，證明生產期間的水質合規</li>
-                <li>遠端監控讓工程團隊可以在非上班時間回應告警</li>
-                <li>集中的報表生成功能大幅減少 Annual Product Review 和客戶審計的準備時間</li>
+                <li> (batch record)，</li>
+                <li></li>
+                <li> Annual Product Review </li>
             </ul>
-            <p>但要注意：整合度越高，21 CFR Part 11 和 GAMP 5 的驗證範圍也越大。</p>
+            <p>：，21 CFR Part 11  GAMP 5 。</p>
         </div>
     </div>
 </div>
 
 <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>四級自動化的比較：</strong></p>
+            <h4> Key Concepts</h4>
+            <p><strong>：</strong></p>
             </div>
 
         <!-- 9.6.2 Control System Software -->
@@ -1699,7 +1699,7 @@ tr:nth-child(even) {
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p>The software/control system may be used to measure, monitor, control, or record critical process parameters. Programming and design standards, especially concerning operator interface, control techniques, alarm handling, and interlock processing should be applied during the development, validation and maintenance phases of the project. The control system software consists of:</p>
 
@@ -1717,38 +1717,38 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>軟體驗證的「連帶責任」原則：</strong></p>
-            <p>ISPE 提出一個重要的驗證原則：如果控制系統的任何功能被視為 critical，則底層的 firmware、OS、application software 都必須被視為 critical 並進行驗證。為什麼？</p>
+            <h4> Key Concepts</h4>
+            <p><strong>「」：</strong></p>
+            <p>ISPE ： critical， firmware、OS、application software  critical 。？</p>
             <ul>
-                <li>Firmware bug 可能影響所有上層功能</li>
-                <li>OS 崩潰會導致所有 critical 和 non-critical 功能同時失效</li>
-                <li>無法在軟體層面完全隔離 critical 和 non-critical 的執行路徑</li>
+                <li>Firmware bug </li>
+                <li>OS  critical  non-critical </li>
+                <li> critical  non-critical </li>
             </ul>
-            <p>這個原則直接影響驗證的範圍和成本 -- 你不能只驗證「用到的功能」，而必須驗證整個平台。</p>
+            <p> -- 「」，。</p>
         </div>
 
         <div class="highlight-box">
-            <h4>21 CFR Part 11 關聯 Regulatory Connection</h4>
-            <p><strong>控制系統軟體與電子記錄法規：</strong></p>
-            <p>當控制系統用於記錄 critical process parameters 時，21 CFR Part 11 的要求適用：</p>
+            <h4>21 CFR Part 11  Regulatory Connection</h4>
+            <p><strong>：</strong></p>
+            <p> critical process parameters ，21 CFR Part 11 ：</p>
             <ul>
-                <li><strong>Audit Trail：</strong>對任何設定值、配置、alarm setpoint 的更改都必須有時間戳和操作者身份記錄</li>
-                <li><strong>Access Control：</strong>不同層級的人員（操作員、工程師、管理者）有不同的權限</li>
-                <li><strong>Electronic Signatures：</strong>關鍵操作（如修改 alarm limit）可能需要電子簽名</li>
-                <li><strong>Data Backup：</strong>所有電子記錄必須定期備份，並可在需要時完整恢復</li>
+                <li><strong>Audit Trail：</strong>、、alarm setpoint </li>
+                <li><strong>Access Control：</strong>（、、）</li>
+                <li><strong>Electronic Signatures：</strong>（ alarm limit）</li>
+                <li><strong>Data Backup：</strong>，</li>
             </ul>
         </div>
     </div>
 </div>
 
 <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p><strong>GAMP 5 分類與水系統控制軟體：</strong></p>
-            <p>Category 越高，驗證要求越嚴格。現代趨勢是盡量使用 Cat 3-4（現成平台 + 配置），減少 Cat 5（客製化開發），以降低驗證負擔。</p>
+            <h4> Key Notes</h4>
+            <p><strong>GAMP 5 ：</strong></p>
+            <p>Category ，。 Cat 3-4（ + ）， Cat 5（），。</p>
         </div>
 
         <!-- 9.6.3 Control Hardware and Operation Interface -->
@@ -1756,7 +1756,7 @@ tr:nth-child(even) {
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p>a) Critical software requires enhanced documentation and should be designed and tested in accordance with the <span class="key-term">Lifecycle Methodology</span>.</p>
 
@@ -1764,26 +1764,26 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>Lifecycle Methodology（生命週期方法）：</strong></p>
-            <p>ISPE 引用的 Lifecycle Methodology 即後來 GAMP 5 所定義的 V-Model：</p>
+            <h4> Key Concepts</h4>
+            <p><strong>Lifecycle Methodology（）：</strong></p>
+            <p>ISPE  Lifecycle Methodology  GAMP 5  V-Model：</p>
             <ul>
-                <li><strong>左側（開發）：</strong>User Requirements → Functional Spec → Design Spec → Code/Config</li>
-                <li><strong>右側（驗證）：</strong>Unit Test → Integration Test → OQ → PQ</li>
-                <li>每一層的開發文件都對應一層驗證活動</li>
+                <li><strong>（）：</strong>User Requirements → Functional Spec → Design Spec → Code/Config</li>
+                <li><strong>（）：</strong>Unit Test → Integration Test → OQ → PQ</li>
+                <li></li>
             </ul>
-            <p><strong>硬體選擇的實務考量：</strong>ISPE 提到「工廠標準」和「現有裝機量」會影響選型。在 CDMO 中這特別重要 -- 如果全廠都用 Siemens PLC，水系統也應該統一，以便維護團隊能共用技能和備品。</p>
+            <p><strong>：</strong>ISPE 「」「」。 CDMO  --  Siemens PLC，，。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>你的工廠計劃新建一套水系統，IT 部門建議使用最新的物聯網 (IoT) 平台來取代傳統 SCADA。從 GMP 驗證的角度，你會如何評估這個建議？</li>
-                <li>如果供應商交付的 PLC 程式中包含 50 個功能塊，其中只有 10 個與 critical parameters 有關，你是否可以只驗證這 10 個？為什麼？</li>
-                <li>在選擇水系統的 HMI（人機介面）時，哪些 21 CFR Part 11 的要求會影響你的設計？</li>
+                <li>，IT  (IoT)  SCADA。 GMP ，？</li>
+                <li> PLC  50 ， 10  critical parameters ， 10 ？？</li>
+                <li> HMI（）， 21 CFR Part 11 ？</li>
             </ol>
         </div>
     </div>
@@ -1795,15 +1795,15 @@ tr:nth-child(even) {
 <div class="section-divider"></div>
 
 <div class="learning-objectives" style="background: linear-gradient(135deg, #eef2ff 0%, #e0e7ff 100%);">
-    <h3 style="color: #3730a3;">本章總結 Chapter Summary</h3>
+    <h3 style="color: #3730a3;"> Chapter Summary</h3>
     <ul>
-        <li><strong>Critical vs Non-Critical 的核心邏輯：</strong>影響最終水質的參數 = Critical Parameter，對應儀器需要 Qualification；其餘按 GEP Commissioning 即可。文件和現場標示必須清楚區分兩者。</li>
-        <li><strong>導電度是最重要的線上監測參數：</strong>USP 最終品質測試必須使用非溫度補償值 + 水溫，對照 USP 表格判定。溫度補償值僅適用於製程監控。氣泡是導電度測量的最大隱患。</li>
-        <li><strong>TOC 與導電度互補：</strong>TOC 量測有機碳，導電度量測離子。兩者共同構成水質監控的完整圖像。TOC 不能替代內毒素測試。</li>
-        <li><strong>pH 在高純水系統中的角色有限：</strong>因為靈敏度不如導電度、探頭有污染風險、需頻繁校正，USP 已移除 pH 規格。主要用於前處理段的酸鹼調節。</li>
-        <li><strong>Design Condition &supset; Allowable Operating Range &supset; Normal Operating Range：</strong>cGMP 合規的判定基準是 Allowable Operating Range。Alert/Action Level 應基於歷史數據的統計分析設定。</li>
-        <li><strong>Spike 的處理需要書面程序：</strong>判定標準基於物理可能性，必須與 QA 共同制定。原始數據（含 spike）不可刪除，重新分類需有 audit trail。</li>
-        <li><strong>現代水系統以 Level 3-4 自動化為主流：</strong>PLC/DCS 自動控制配合 SCADA 集中監控。控制軟體的驗證遵循「連帶責任」原則 -- 任何 critical 功能的存在，使整個軟體平台都需要驗證。21 CFR Part 11 要求適用於所有電子記錄功能。</li>
+        <li><strong>Critical vs Non-Critical ：</strong> = Critical Parameter， Qualification； GEP Commissioning 。。</li>
+        <li><strong>：</strong>USP  + ， USP 。。。</li>
+        <li><strong>TOC ：</strong>TOC ，。。TOC 。</li>
+        <li><strong>pH ：</strong>、、，USP  pH 。。</li>
+        <li><strong>Design Condition &supset; Allowable Operating Range &supset; Normal Operating Range：</strong>cGMP  Allowable Operating Range。Alert/Action Level 。</li>
+        <li><strong>Spike ：</strong>， QA 。（ spike）， audit trail。</li>
+        <li><strong> Level 3-4 ：</strong>PLC/DCS  SCADA 。「」 --  critical ，。21 CFR Part 11 。</li>
     </ul>
 </div>
 

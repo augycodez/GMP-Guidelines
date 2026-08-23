@@ -439,7 +439,7 @@ body {
     font-size: 0.92rem !important;
 }
 
-/* ===== ANALOGY BOX (Yellow) - 比喻說明 ===== */
+/* ===== ANALOGY BOX (Yellow) -  ===== */
 .analogy-box,
 .concept-box[class*="analogy"],
 .concept-box.analogy,
@@ -453,7 +453,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #856404 !important;
 }
 
-/* ===== TERM/CONCEPT BOX (Green) - 核心概念 ===== */
+/* ===== TERM/CONCEPT BOX (Green) -  ===== */
 .term-box,
 .key-term-box,
 .concept-box:not([class*="analogy"]):not([class*="note"]):not([class*="formula"]):not([class*="practice"]):not([class*="highlight"]):not(.analogy):not(.application) {
@@ -468,7 +468,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #2e7d32 !important;
 }
 
-/* ===== NOTE/HIGHLIGHT BOX (Orange) - 重點提示 ===== */
+/* ===== NOTE/HIGHLIGHT BOX (Orange) -  ===== */
 .note-box,
 .key-note,
 .key-point-box,
@@ -487,7 +487,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #c65102 !important;
 }
 
-/* ===== FORMULA BOX (Purple) - 公式計算 ===== */
+/* ===== FORMULA BOX (Purple) -  ===== */
 .formula-box,
 .concept-box[class*="formula"] {
     background: var(--purple-bg) !important;
@@ -522,7 +522,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #1565c0 !important;
 }
 
-/* ===== PRACTICE BOX (Blue dashed) - 練習思考 ===== */
+/* ===== PRACTICE BOX (Blue dashed) -  ===== */
 .practice-box {
     background: linear-gradient(135deg, #e8f4fd 0%, #d1e9ff 100%) !important;
     border: 2px dashed #3182ce !important;
@@ -966,29 +966,29 @@ tr:nth-child(even) {
 <!-- SECTION HEADER -->
 <div class="header">
     <h1>Topic 7: Potency</h1>
-    <div class="subtitle">Topic 7：效價測定策略</div>
+    <div class="subtitle">Topic 7：</div>
     <div class="page-info">PDA Points to Consider No. 11 (2025) | p41 - p43</div>
 </div>
 
 <!-- LEARNING OBJECTIVES -->
 <div class="main-content">
 <div class="learning-objectives">
-    <h3>本章學習目標</h3>
+    <h3></h3>
     <ul>
-        <li>理解效價（potency）的定義，並區分其與臨床療效（clinical efficacy）的本質差異</li>
-        <li>掌握有效效價分析方法（potency assay）的核心屬性，包括 MOA 連結性、穩定性指示能力，以及參考標準的建立策略</li>
-        <li>了解矩陣式方法（matrix approach）在 ATMP 效價開發中的演進邏輯，從早期替代指標到商業化 MOA 反映型分析</li>
-        <li>掌握 pDNA/mRNA 特殊情境下 FDA 接受的效價替代指標，以及 QC 放行分析設計的實務原則</li>
-        <li>認識 FDA 2023 草案指南中「效價保證策略（potency assurance strategy）」的多面向框架，及其對 CDMO 運作的影響</li>
+        <li>（potency），（clinical efficacy）</li>
+        <li>（potency assay）， MOA 、，</li>
+        <li>（matrix approach） ATMP ， MOA </li>
+        <li> pDNA/mRNA  FDA ， QC </li>
+        <li> FDA 2023 「（potency assurance strategy）」， CDMO </li>
     </ul>
 </div>
 
 <!-- Q7.1 SECTION -->
-<div class="section-title"><strong>Q7.1 — Key Attributes of an Effective Product-Specific Potency Assay Q7.1 — 有效之產品專屬效價測定法的關鍵屬性</strong></div>
+<div class="section-title"><strong>Q7.1 — Key Attributes of an Effective Product-Specific Potency Assay Q7.1 — </strong></div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p><span class="key-term">Potency</span> is an expression of the activity of a drug substance or drug product in terms of the amount or concentration required to produce a defined effect. <span class="key-term">Clinical efficacy</span>, on the other hand, is a measure of the therapeutic effectiveness of the drug in humans. Regulators desire a <span class="key-term">product-specific potency assay</span> that provides a demonstrable link between potency and clinical efficacy. As such, the development team should first identify the relevant biological property linked to the product's in vivo <span class="key-term">mechanism of action (MOA)</span> and then establish a method to provide a quantitative measure of that biological property. The assay must demonstrate that its performance remains unaffected by expected variability in product purity or <span class="key-term">matrix effects</span>.</p>
 
@@ -1006,65 +1006,65 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <!-- 1. Concept Box: Potency vs Efficacy vs Clinical Efficacy -->
         <div class="concept-box">
-            <h4>核心概念解析：效價、藥效與臨床療效的三角關係</h4>
-            <p><strong>Potency（效價）</strong>：產生特定生物效果所需的藥物劑量或濃度。這是一個<em>體外可量測的生物活性數值</em>，例如 AAV 載體感染 HEK293 細胞後，GOI 表現之酵素活性 (enzymatic activity) IU/mL。</p>
-            <p><strong>Clinical Efficacy（臨床療效）</strong>：藥物在真實病患身上的治療有效性，僅能在臨床試驗中驗證。舉例而言，罕見溶酶體儲積症 (lysosomal storage disease) 基因治療的臨床療效，是指病患器官功能改善、生化指標恢復正常。</p>
-            <p><strong>兩者的關鍵連結</strong>：法規機構要求效價分析必須能<em>可驗證地連結</em>（demonstrable link）到臨床療效。這意味著：
+            <h4>：、</h4>
+            <p><strong>Potency（）</strong>：。<em></em>， AAV  HEK293 ，GOI  (enzymatic activity) IU/mL。</p>
+            <p><strong>Clinical Efficacy（）</strong>：，。， (lysosomal storage disease) ，、。</p>
+            <p><strong></strong>：<em></em>（demonstrable link）。：
             </p><ul>
-                <li><strong>AAV 基因治療（蛋白替代）</strong>：體外酵素活性測定值需與動物模型中酵素替代療效有統計相關性</li>
-                <li><strong>CAR-T 細胞治療</strong>：體外腫瘤殺傷能力（in vitro tumor killing assay）需與動物或臨床腫瘤縮小的 in vivo 結果相關</li>
+                <li><strong>AAV （）</strong>：</li>
+                <li><strong>CAR-T </strong>：（in vitro tumor killing assay） in vivo </li>
             </ul>
             
-            <p>簡言之：效價是臨床療效的<em>體外代理指標</em>，必須有充分數據證明兩者的關聯。沒有此連結，效價測定就只是一個數字，對法規審查毫無意義。</p>
+            <p>：<em></em>，。，，。</p>
         </div>
 
         <!-- 2. Analogy: Car Engine Dynamometer -->
         <div class="analogy-box">
-            <h4>比喻說明：引擎測功機 vs. 上路試駕</h4>
-            <p>把效價分析想成在<strong>測功機（dynamometer）</strong>上測量汽車引擎馬力——不是把車開上公路看跑多快，而是在受控的實驗室條件下精確測量引擎輸出功率。</p>
-            <p><strong>測功機數值 = Potency（效價）</strong>：量化、可重現、可控制條件下測得的生物活性數值。</p>
-            <p><strong>上路實際表現 = Clinical Efficacy（臨床療效）</strong>：受道路條件、天氣、駕駛習慣影響，難以在開發階段精確預測。</p>
-            <p>法規要求的「demonstrable link」就是要你證明：測功機測出 500 馬力的引擎，上路後確實比 300 馬力的引擎快——這個相關性必須用數據建立，不能只假設。</p>
+            <h4>： vs. </h4>
+            <p><strong>（dynamometer）</strong>——，。</p>
+            <p><strong> = Potency（）</strong>：、、。</p>
+            <p><strong> = Clinical Efficacy（）</strong>：、、，。</p>
+            <p>「demonstrable link」： 500 ， 300 ——，。</p>
         </div>
 
         <!-- 3. Note Box: Stability-Indicating + Forced Degradation Design -->
         <div class="note-box">
-            <h4>重點提示：穩定性指示分析 (Stability-Indicating Assay) 設計要點</h4>
-            <p>許多團隊誤以為效價只是放行用途。PtC-11 明確強調：<strong>效價是穩定性 CQA</strong>，因此效價分析必須能偵測到因儲存降解造成的活性下降。</p>
-            <p><strong>強制降解研究（Forced Degradation Study）設計原則</strong>：</p>
+            <h4>： (Stability-Indicating Assay) </h4>
+            <p>。PtC-11 ：<strong> CQA</strong>，。</p>
+            <p><strong>（Forced Degradation Study）</strong>：</p>
             <ul>
-                <li>每個降解條件目標：達到 10–20% 的降解幅度（過高降解會破壞產品結構，偵測不到真實降解路徑）</li>
-                <li>常見條件：熱降解（elevated temperature）、氧化（H₂O₂ 處理）、光照（ICH Q1B）、機械剪切（freeze-thaw cycles）</li>
-                <li>必須以<strong>正交方法（orthogonal methods）</strong>確認降解程度，例如 SEC-HPLC 確認蛋白聚集、流式細胞儀確認細胞活性下降</li>
-                <li>確認降解後，效價分析必須能<em>定量偵測</em>到對應的活性損失</li>
+                <li>： 10–20% （，）</li>
+                <li>：（elevated temperature）、（H₂O₂ ）、（ICH Q1B）、（freeze-thaw cycles）</li>
+                <li><strong>（orthogonal methods）</strong>， SEC-HPLC 、</li>
+                <li>，<em></em></li>
             </ul>
-            <p>若效價分析無法偵測到降解樣品的活性下降，它就<strong>不是穩定性指示性分析</strong>，不能用於穩定性研究，法規審查時將面臨重大挑戰。</p>
+            <p>，<strong></strong>，，。</p>
         </div>
 
         <!-- 4. Application Box: Reference Standard Bridging Strategy -->
         <div class="practice-box" style="border-style:solid; background:linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-color:#22c55e;">
-            <h4>實務應用：CDMO 參考標準橋接策略</h4>
-            <p>在 ATMP CDMO 的實際作業中，參考標準的演進通常經歷三個階段：</p>
+            <h4>：CDMO </h4>
+            <p> ATMP CDMO ，：</p>
             <ul>
-                <li><strong>Phase 1 IND 申請前</strong>：使用開發批次作為<em>臨時參考標準（interim RS）</em>。此時需詳細記錄批次特性（GMP 批次還是研究批次、製程版本、效價測定方法版本）。</li>
-                <li><strong>Phase 2/3 過渡期</strong>：製備並資格確認<em>初級參考標準（primary RS）</em>——需以 GMP 批次、充足的穩定性數據、全套特性分析支持。</li>
-                <li><strong>橋接研究（Bridging Study）</strong>：新 RS 引入時，必須以平行測試方式建立新舊 RS 的定量關聯，確保早期臨床批次的效價數據與新 RS 體系一致可追溯。</li>
+                <li><strong>Phase 1 IND </strong>：<em>（interim RS）</em>。（GMP 、、）。</li>
+                <li><strong>Phase 2/3 </strong>：<em>（primary RS）</em>—— GMP 、、。</li>
+                <li><strong>（Bridging Study）</strong>： RS ， RS ， RS 。</li>
             </ul>
-            <p><strong>關鍵實務建議</strong>：在臨時 RS 階段就開始建立大量生物分析特性數據（bioanalytical characterization data）。這些數據一旦發現效價分析需要調整，就是橋接的救命稻草。<em>文件記錄要做到有人能在 5 年後重建每一批次的效價歷史。</em></p>
+            <p><strong></strong>： RS （bioanalytical characterization data）。，。<em> 5 。</em></p>
         </div>
     </div>
 </div>
 
 <!-- Q7.2 SECTION -->
-<div class="section-title"><strong>Q7.2 — Acceptable Approaches for Phasing in a Product-Specific Potency Assay Q7.2 — 分階段導入產品專屬效價測定法的可行方法</strong></div>
+<div class="section-title"><strong>Q7.2 — Acceptable Approaches for Phasing in a Product-Specific Potency Assay Q7.2 — </strong></div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p>Due to the complex nature of <span class="key-term">ATMP</span> products, developing a potency assay that is truly reflective of the <span class="key-term">MOA</span> of the product is challenging, especially in the early development stage. Some of the GOIs encode structural proteins that lack clearly indicated bioactivity, while the functions of other GOIs are multifaceted, while some are not yet fully understood. Regulatory agencies are aware of such challenges and typically allow for flexibility in determining the most appropriate potency assay for each product at each development stage. The expectations for the potency assay increase proportionally as the drug development progresses.</p>
 
@@ -1078,96 +1078,96 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <!-- 1. Concept Box: Matrix Approach Evolution -->
         <!-- 2. Analogy: Medical Checkup Panel -->
         <div class="analogy-box">
-            <h4>比喻說明：健康檢查套餐 vs. 單一指標</h4>
-            <p>矩陣式效價方法就像<strong>全套健康檢查</strong>，不是只看一項指標決定你健不健康：</p>
+            <h4>： vs. </h4>
+            <p><strong></strong>，：</p>
             <ul>
-                <li>血糖（fasting glucose）= DNA copy number → 必要但不充分</li>
-                <li>肝功能指數（ALT/AST）= 載體顆粒數 → 結構完整性指標</li>
-                <li>心臟壓力測試 = Cell-based 腫瘤殺傷測試 → 功能性最終驗證</li>
-                <li>心電圖定量 = Binding assay 對比 RS → 定量功能性基準</li>
+                <li>（fasting glucose）= DNA copy number → </li>
+                <li>（ALT/AST）=  → </li>
+                <li> = Cell-based  → </li>
+                <li> = Binding assay  RS → </li>
             </ul>
-            <p>單一指標偏高或偏低可能只是雜訊，但<em>多項指標的綜合圖像</em>才能真正反映健康狀態。同理，矩陣中沒有任何單一分析能獨立定義效價——是各項分析共同構成完整的效價畫面。</p>
-            <p>而且，隨著年齡增長（=開發階段進展），健康檢查的項目和標準也會升級，這正是矩陣動態演進的本質。</p>
+            <p>，<em></em>。，——。</p>
+            <p>，（=），，。</p>
         </div>
 
         <!-- 3. Note Box: pDNA/mRNA Special Case -->
         <div class="note-box">
-            <h4>重點提示：pDNA/mRNA 的特殊效價策略</h4>
-            <p>pDNA 和 mRNA 作為藥品時，面臨一個根本性的挑戰：<strong>它們的 MOA 必須在體內轉錄/翻譯後才能發揮作用</strong>，因此沒有直接的體外 MOA 分析可用。</p>
-            <p><strong>FDA 接受的替代指標（Surrogates）組合</strong>：</p>
+            <h4>：pDNA/mRNA </h4>
+            <p>pDNA  mRNA ，：<strong> MOA /</strong>， MOA 。</p>
+            <p><strong>FDA （Surrogates）</strong>：</p>
             <ul>
-                <li><span class="key-term">直接核酸定量</span>（Direct nucleic acid quantitation）：確認 pDNA 或 mRNA 的含量與規格一致</li>
-                <li><span class="key-term">超螺旋完整性測定</span>（Supercoil measurement，適用 pDNA）：確認 pDNA 的超螺旋比例，因超螺旋形式轉染效率最高；降解或開環形式效力顯著下降</li>
-                <li><span class="key-term">完整性分析</span>（Integrity，適用 mRNA）：確認 mRNA 無降解截斷片段，通常以毛細管電泳或 Bioanalyzer 測定</li>
+                <li><span class="key-term"></span>（Direct nucleic acid quantitation）： pDNA  mRNA </li>
+                <li><span class="key-term"></span>（Supercoil measurement， pDNA）： pDNA ，；</li>
+                <li><span class="key-term"></span>（Integrity， mRNA）： mRNA ， Bioanalyzer </li>
             </ul>
-            <p><strong>重要提醒</strong>：這是 FDA 在特定情境下接受的折衷方案，<em>不是通則</em>。使用替代指標必須提交強健的數據包，證明替代指標與效力的相關性（例如超螺旋比例與體外轉染效率、或與動物 in vivo 蛋白表現量的相關性）。</p>
+            <p><strong></strong>： FDA ，<em></em>。，（、 in vivo ）。</p>
         </div>
 
         <!-- 4. Application Box: QC Release Assay Design at CDMO -->
         <div class="practice-box" style="border-style:solid; background:linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-color:#22c55e;">
-            <h4>實務應用：CDMO 的 QC 放行分析設計原則</h4>
-            <p>身為 CDMO，當客戶帶著複雜的研究級效價分析方法要求放行使用時，需要協助客戶重新思考以下問題：</p>
+            <h4>：CDMO  QC </h4>
+            <p> CDMO，，：</p>
             <ul>
-                <li><strong>可執行性</strong>：分析是否可在 QC 實驗室環境（非研究環境）中由標準訓練水準的分析師執行？</li>
-                <li><strong>重現性</strong>：批次間、分析師間、設備間的重現性數據（%CV）是否符合驗證接受標準？</li>
-                <li><strong>週轉時間</strong>：細胞培養基礎的功能分析通常需要 3–7 天，是否符合產品放行時間要求？</li>
-                <li><strong>替代分析的數據包</strong>：若提議使用更簡單的替代指標，需準備：<br>
-                    (1) 正常樣品 vs. 降解樣品的相關性研究<br>
-                    (2) 人工低效價樣品（reduced potency）和高效價樣品（elevated potency）的驗證數據<br>
-                    (3) 多地點轉移（technology transfer）可行性評估</li>
+                <li><strong></strong>： QC （）？</li>
+                <li><strong></strong>：、、（%CV）？</li>
+                <li><strong></strong>： 3–7 ，？</li>
+                <li><strong></strong>：，：<br>
+                    (1)  vs. <br>
+                    (2) （reduced potency）（elevated potency）<br>
+                    (3) （technology transfer）</li>
             </ul>
-            <p><strong>CDMO 策略建議</strong>：在合約簽訂前的技術評估（technical feasibility assessment）階段，即主動與客戶討論效價分析的可行性，避免在 BLA 申請前夕才發現無法執行的分析方法。</p>
+            <p><strong>CDMO </strong>：（technical feasibility assessment），， BLA 。</p>
         </div>
 
         <!-- 5. Note Box: HA Communication & Delay Warning -->
         <div class="note-box">
-            <h4>重點提示：效價分析問題是 IND/BLA 延誤的首要原因</h4>
-            <p>PtC-11 明確指出：近年來<strong>許多 IND 申請和 BLA 許可核准均因效價分析問題而延誤</strong>。這是法規實務上不容忽視的警示。</p>
-            <p><strong>常見的延誤場景</strong>：</p>
+            <h4>： IND/BLA </h4>
+            <p>PtC-11 ：<strong> IND  BLA </strong>。。</p>
+            <p><strong></strong>：</p>
             <ul>
-                <li>Phase 3 試驗中途才發現效價分析不是穩定性指示性的，需重新設計並橋接</li>
-                <li>BLA 申請後收到 FDA 資訊要求（Information Request），要求補充 MOA 連結數據</li>
-                <li>商業化生產前夕，效價分析無法成功轉移到商業化地點</li>
-                <li>參考標準體系未建立，早期臨床批次的效價數據無法追溯</li>
+                <li>Phase 3 ，</li>
+                <li>BLA  FDA （Information Request）， MOA </li>
+                <li>，</li>
+                <li>，</li>
             </ul>
-            <p><strong>解決方案：早期與法規機構溝通</strong>。FDA 鼓勵申請人在 Pre-IND Meeting 或 Type B Meeting 中主動討論效價測定策略，提前取得 HA 的認可，比事後補救節省數倍時間與成本。</p>
+            <p><strong>：</strong>。FDA  Pre-IND Meeting  Type B Meeting ， HA ，。</p>
         </div>
 
         <!-- 6. Formula Box: FDA 2023 Potency Assurance Strategy Framework -->
         <div class="formula-box">
-            <h4>架構圖：FDA 2023 草案指南 — 效價保證策略框架 (Ref 16)</h4>
+            <h4>：FDA 2023  —  (Ref 16)</h4>
             <pre>
-效價保證策略 = 多面向整合方法
+ = 
 ┌─────────────────────────────────────┐
-│  1. 製程設計 (Manufacturing Process  │
+│  1.  (Manufacturing Process  │
 │     Design)                          │
-│  ↓ 確保一致的產品品質                │
-│  2. 製程管控 (Process Control)       │
-│  ↓ CPP 監控與偏差預防                │
-│  3. 原料管控 (Material Control)      │
-│  ↓ 原物料規格、RS 管理               │
-│  4. 製程中測試 (In-Process Testing) │
-│  ↓ 早期效力信號監控                  │
-│  5. 放行效價分析 (Lot Release Assay) │
+│  ↓                 │
+│  2.  (Process Control)       │
+│  ↓ CPP                 │
+│  3.  (Material Control)      │
+│  ↓ 、RS                │
+│  4.  (In-Process Testing) │
+│  ↓                   │
+│  5.  (Lot Release Assay) │
 └─────────────────────────────────────┘
           ↓
-    完整的效價保證體系
-    （單一放行數字 ≠ 完整效價保證）
+    
+    （ ≠ ）
             </pre>
-            <p style="font-size:0.88rem; margin-top:0.5rem;">此框架的核心訊息是：效價不只是一個放行數字，而是需要從製程設計到最終放行的全鏈條管控。CDMO 在撰寫 Quality Agreement 時，應明確哪些層面由客戶負責、哪些由 CDMO 負責。</p>
+            <p style="font-size:0.88rem; margin-top:0.5rem;">：，。CDMO  Quality Agreement ，、 CDMO 。</p>
         </div>
     </div>
 </div>
 
 <div class="concept-box">
-            <h4>核心概念：矩陣式方法的臨床分期演進</h4>
-            <p>矩陣式方法（matrix approach）不是一個固定的測試組合，而是一個<em>隨臨床分期動態演進</em>的策略：</p>
-            <p style="margin-top:0.5rem;"><strong>關鍵概念</strong>：矩陣中定量分析（quantitative，如 binding assay 對比 RS）與定性分析（qualitative，如 cell-based 通過/失敗）的相關性需在開發期間建立，才能在放行時合理使用兩者的組合。</p>
+            <h4>：</h4>
+            <p>（matrix approach），<em></em>：</p>
+            <p style="margin-top:0.5rem;"><strong></strong>：（quantitative， binding assay  RS）（qualitative， cell-based /），。</p>
         </div>
 
         <!-- PRACTICE QUESTIONS -->
@@ -1177,11 +1177,11 @@ tr:nth-child(even) {
     </div>
     <div class="right-column">
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li><strong>MOA 連結性</strong>：你的客戶正在開發一個 AAV9 基因治療產品，GOI 編碼一個目前功能尚未完全闡明的結構蛋白 (structural protein)。效價分析開發團隊應如何在 Phase 1 IND 中回應 FDA 對「demonstrable link between potency and clinical efficacy」的要求？你會建議使用哪種矩陣組合，並如何規劃 Phase 1 到 Phase 3 的分析演進路徑？</li>
-                <li><strong>穩定性指示性設計</strong>：你的 CAR-T 產品使用 in vitro 腫瘤殺傷分析（killing assay）作為效價方法。如何設計強制降解研究來驗證此分析的穩定性指示能力？列出至少三種降解條件，說明如何以正交方法確認降解程度，以及如何設計接受標準。</li>
-                <li><strong>pDNA 替代效價</strong>：客戶提交的 pDNA 藥品規格中，效價方法僅有 DNA 定量（OD260 吸光值）。你認為此方法是否足夠？如需補強，應加入哪些額外的替代效價指標，並說明每項指標的科學依據與 FDA 接受性。</li>
+                <li><strong>MOA </strong>： AAV9 ，GOI  (structural protein)。 Phase 1 IND  FDA 「demonstrable link between potency and clinical efficacy」？， Phase 1  Phase 3 ？</li>
+                <li><strong></strong>： CAR-T  in vitro （killing assay）。？，，。</li>
+                <li><strong>pDNA </strong>： pDNA ， DNA （OD260 ）。？，， FDA 。</li>
             </ol>
         </div>
     </div>
@@ -1189,15 +1189,15 @@ tr:nth-child(even) {
 
 <!-- SECTION SUMMARY -->
 <div class="learning-objectives" style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);">
-    <h3>本節重點回顧 Section Summary</h3>
+    <h3> Section Summary</h3>
     <ul>
-        <li><strong>效價 vs. 臨床療效</strong>：效價是定義效果所需濃度/劑量的活性測量；臨床療效是人體治療有效性。法規要求兩者有可驗證的科學連結，缺一不可。</li>
-        <li><strong>效價是安全性以外最重要的 CQA</strong>，且必須同時服務於<em>放行和穩定性</em>兩個目的——穩定性指示分析設計必須與強制降解研究同步規劃。</li>
-        <li><strong>矩陣式方法</strong>是 ATMP 效價開發的業界共識，從基本物理屬性出發，隨臨床進展演進為 MOA 反映型分析，最終於 BLA 前整合為簡化、穩健的商業放行方案。</li>
-        <li><strong>pDNA/mRNA 特例</strong>：FDA 接受核酸定量＋超螺旋完整性（pDNA）或完整性分析（mRNA）作為效價替代指標，但需要強健的相關性數據包支持。</li>
-        <li><strong>參考標準橋接</strong>：從臨時 RS 到初級 RS 的過渡必須嚴謹規劃，早期積累的生物分析特性數據是未來橋接的基礎。</li>
-        <li><strong>FDA 2023 效價保證策略（Ref 16）</strong>提出五層次整合框架，CDMO 在品質協議中應明確各方效價保證責任分工。</li>
-        <li><strong>早期 HA 溝通是成功的關鍵</strong>——效價分析問題是近年 IND/BLA 延誤的首要原因，Pre-IND Meeting 即應主動提出效價策略。</li>
+        <li><strong> vs. </strong>：/；。，。</li>
+        <li><strong> CQA</strong>，<em></em>——。</li>
+        <li><strong></strong> ATMP ，， MOA ， BLA 、。</li>
+        <li><strong>pDNA/mRNA </strong>：FDA ＋（pDNA）（mRNA），。</li>
+        <li><strong></strong>： RS  RS ，。</li>
+        <li><strong>FDA 2023 （Ref 16）</strong>，CDMO 。</li>
+        <li><strong> HA </strong>—— IND/BLA ，Pre-IND Meeting 。</li>
     </ul>
 </div>
 

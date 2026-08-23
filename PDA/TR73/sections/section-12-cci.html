@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PDA TR73 - Section 12: Container Closure Integrity (CCI) 容器密封完整性</title>
+    <title>PDA TR73 - Section 12: Container Closure Integrity (CCI) </title>
     <style>
 /* =============================================================
    PDA Educational Material - Shared CSS Template
@@ -439,7 +439,7 @@ body {
     font-size: 0.92rem !important;
 }
 
-/* ===== ANALOGY BOX (Yellow) - 比喻說明 ===== */
+/* ===== ANALOGY BOX (Yellow) -  ===== */
 .analogy-box,
 .concept-box[class*="analogy"],
 .concept-box.analogy,
@@ -453,7 +453,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #856404 !important;
 }
 
-/* ===== TERM/CONCEPT BOX (Green) - 核心概念 ===== */
+/* ===== TERM/CONCEPT BOX (Green) -  ===== */
 .term-box,
 .key-term-box,
 .concept-box:not([class*="analogy"]):not([class*="note"]):not([class*="formula"]):not([class*="practice"]):not([class*="highlight"]):not(.analogy):not(.application) {
@@ -468,7 +468,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #2e7d32 !important;
 }
 
-/* ===== NOTE/HIGHLIGHT BOX (Orange) - 重點提示 ===== */
+/* ===== NOTE/HIGHLIGHT BOX (Orange) -  ===== */
 .note-box,
 .key-note,
 .key-point-box,
@@ -487,7 +487,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #c65102 !important;
 }
 
-/* ===== FORMULA BOX (Purple) - 公式計算 ===== */
+/* ===== FORMULA BOX (Purple) -  ===== */
 .formula-box,
 .concept-box[class*="formula"] {
     background: var(--purple-bg) !important;
@@ -522,7 +522,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #1565c0 !important;
 }
 
-/* ===== PRACTICE BOX (Blue dashed) - 練習思考 ===== */
+/* ===== PRACTICE BOX (Blue dashed) -  ===== */
 .practice-box {
     background: linear-gradient(135deg, #e8f4fd 0%, #d1e9ff 100%) !important;
     border: 2px dashed #3182ce !important;
@@ -951,8 +951,8 @@ tr:nth-child(even) {
 
 <!-- SECTION HEADER -->
 <div class="header">
-    <h1>Section 12 Container Closure Integrity (CCI) 容器密封完整性</h1>
-    <div class="subtitle">從法規基礎、設計介面、製程管控到 CCI 測試方法工具箱的完整解析</div>
+    <h1>Section 12 Container Closure Integrity (CCI) </h1>
+    <div class="subtitle">、、 CCI </div>
     <div class="page-info">PDA Technical Report No. 73: Prefilled Syringes | p71 - p76</div>
 </div>
 
@@ -960,25 +960,25 @@ tr:nth-child(even) {
 
 <!-- LEARNING OBJECTIVES -->
 <div class="learning-objectives">
-    <h3>本節學習目標</h3>
+    <h3></h3>
     <ul>
-        <li>理解 CCI 在無菌保證整體策略中的核心地位，掌握基於風險的全生命週期 CCI 控制方法</li>
-        <li>掌握全球法規對無菌產品 CCI 的要求，以及整體性無菌保證方法的三層次架構</li>
-        <li>瞭解 PFS 三大密封介面（活塞/筒身、筒身/針頭保護套、針頭/針頭保護套）各自的 CCI 功能與設計考量</li>
-        <li>掌握供應商管理、來料管控與半成品注射器 CCI 評估的核心要素</li>
-        <li>全面認識 CCI 測試方法工具箱，包括五大主要技術的偵測極限、優缺點、USP &lt;1207&gt; 確定性 vs 機率性分類，以及 PIC/S Annex 1 的完整性期望</li>
-        <li>學習如何根據產品特性（電導率、蛋白質含量）選擇、開發與驗證合適的 CCI 測試方法</li>
+        <li> CCI ， CCI </li>
+        <li> CCI ，</li>
+        <li> PFS （/、/、/） CCI </li>
+        <li>、 CCI </li>
+        <li> CCI ，、、USP &lt;1207&gt;  vs ， PIC/S Annex 1 </li>
+        <li>（、）、 CCI </li>
     </ul>
 </div>
 
 <!-- ============================================================= -->
 <!-- 12.0 Introduction / Container Closure Integrity Requirements -->
 <!-- ============================================================= -->
-<div class="section-title" id="sec-12-0"><strong>12.0 Container Closure Integrity Requirements 容器密封完整性需求</strong></div>
+<div class="section-title" id="sec-12-0"><strong>12.0 Container Closure Integrity Requirements </strong></div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p><span class="key-term">Container closure integrity</span> is an important element of the overall sterility assurance program for sterile products. Various layers of controls, including <span class="key-term">design verification</span>, stacked tolerance, <span class="key-term">qualification</span>, manufacturing process controls, inspection and handling, <span class="key-term">process simulation</span> (media fills), microbial challenge testing, and physical challenge testing ensure the integrity of the C/C system. CCI testing should ultimately demonstrate that the PFS can maintain the integrity of its <span class="key-term">microbial barrier</span>, which is typically a product design criterion.</p>
 
@@ -988,43 +988,43 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念：CCI 在無菌保證中的定位</h4>
-            <p><strong>Container Closure Integrity（容器密封完整性，CCI）</strong>是無菌藥品整體無菌保證計畫的重要組成，不是孤立的測試項目，而是與以下多層次管控措施協同運作：</p>
+            <h4>：CCI </h4>
+            <p><strong>Container Closure Integrity（，CCI）</strong>，，：</p>
             <ul>
-                <li>設計驗證 (Design Verification) 與堆疊公差 (Stacked Tolerance)</li>
-                <li>確認驗證 (Qualification)</li>
-                <li>製造製程管控 (Manufacturing Process Controls)</li>
-                <li>培養基灌充模擬 (Media Fill / Process Simulation)</li>
-                <li>微生物挑戰試驗與物理挑戰試驗</li>
+                <li> (Design Verification)  (Stacked Tolerance)</li>
+                <li> (Qualification)</li>
+                <li> (Manufacturing Process Controls)</li>
+                <li> (Media Fill / Process Simulation)</li>
+                <li></li>
             </ul>
-            <p>CCI 的最終目標：證明 PFS 能維持其<strong>微生物屏障 (microbial barrier)</strong> 的完整性。</p>
+            <p>CCI ： PFS <strong> (microbial barrier)</strong> 。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>CCI 就像建築物的防水系統——光靠最後的漏水測試是不夠的。你需要在設計階段選好防水材料（設計驗證）、施工時做好每層防水層（製程管控）、完工後進行整體漏水測試（CCI 測試）。PFS 的 CCI 也是同樣的道理：層層管控，最後用測試確認。</p>
+            <h4> Analogy</h4>
+            <p>CCI ——。（）、（）、（CCI ）。PFS  CCI ：，。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示：風險基礎、階段適配</h4>
-            <p><strong>Phase-appropriate approach（階段適配方法）</strong>是本節的關鍵原則。CCI 測試的要求隨產品開發階段而遞進：</p>
+            <h4>：、</h4>
+            <p><strong>Phase-appropriate approach（）</strong>。CCI ：</p>
             <ul>
-                <li><strong>設計/開發階段：</strong>評估 C/C 系統設計的 CCI 可行性</li>
-                <li><strong>確認驗證階段：</strong>建立並驗證 CCI 測試方法</li>
-                <li><strong>例行生產：</strong>持續監控 CCI 合規性</li>
-                <li><strong>穩定性研究：</strong>評估貨架壽命期間 CCI 的維持</li>
+                <li><strong>/：</strong> C/C  CCI </li>
+                <li><strong>：</strong> CCI </li>
+                <li><strong>：</strong> CCI </li>
+                <li><strong>：</strong> CCI </li>
             </ul>
-            <p>這與 <strong>PIC/S Annex 1 (2022)</strong> 中對無菌屏障系統持續整合性的要求一致。</p>
+            <p> <strong>PIC/S Annex 1 (2022)</strong> 。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>CCI 與培養基灌充 (media fill) 在無菌保證計畫中各自扮演什麼角色？兩者能否互相替代？</li>
-                <li>「Phase-appropriate approach」在 CCI 測試中具體意味著什麼？請舉例說明開發階段與商業化階段的差異。</li>
+                <li>CCI  (media fill) ？？</li>
+                <li>「Phase-appropriate approach」 CCI ？。</li>
             </ol>
         </div>
     </div>
@@ -1033,11 +1033,11 @@ tr:nth-child(even) {
 <!-- ============================================================= -->
 <!-- 12.1 Regulatory Basis -->
 <!-- ============================================================= -->
-<div class="section-title" id="sec-12-1"><strong>12.1 Regulatory Basis for Container Closure Integrity 容器密封完整性的法規依據</strong></div>
+<div class="section-title" id="sec-12-1"><strong>12.1 Regulatory Basis for Container Closure Integrity </strong></div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p>A variety of <span class="key-term">global regulatory guidance documents</span> address expectations for CCI of sterile products at the time of manufacturing and throughout a drug product's shelf life. A C/C system—such as a PFS—used in the packaging of a drug or biologic is a critical part of the submission to gain <span class="key-term">regulatory approval</span>. A successful licensure application requires substantial testing to demonstrate the suitability of the selected C/C system, which can be qualified for its intended use based on the <span class="key-term">quality target product profile</span>.</p>
 
@@ -1056,42 +1056,42 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>C/C 系統適用性的四個面向</h4>
-            <p>PDA TR73 引用的四面向適用性框架（文獻 12）是監管提交和系統確認的核心架構：</p>
+            <h4>C/C </h4>
+            <p>PDA TR73 （ 12）：</p>
             <ul>
-                <li><strong>Protection（保護性）：</strong>防止微生物污染和洩漏——CCI 的核心</li>
-                <li><strong>Safety（安全性）：</strong>包裝材料不對患者或藥品造成傷害</li>
-                <li><strong>Compatibility（相容性）：</strong>包裝材料與藥品不發生不良交互作用（參見 Section 14 E&amp;L）</li>
-                <li><strong>Performance（性能）：</strong>包裝系統在預期使用條件下正常運作</li>
+                <li><strong>Protection（）：</strong>——CCI </li>
+                <li><strong>Safety（）：</strong></li>
+                <li><strong>Compatibility（）：</strong>（ Section 14 E&amp;L）</li>
+                <li><strong>Performance（）：</strong></li>
             </ul>
         </div>
 
         <div class="concept-box">
-            <h4>整體性無菌保證的三層架構</h4>
-            <p>無法對每個單元進行無菌試驗，因此業界採用三層整體性方法：</p>
+            <h4></h4>
+            <p>，：</p>
             <ul>
-                <li><strong>層次一：</strong>製程驗證（末端滅菌或無菌製程符合 cGMP）</li>
-                <li><strong>層次二：</strong>CCI 保證（一次包裝能維持整個貨架期的微生物屏障）</li>
-                <li><strong>層次三：</strong>放行無菌試驗（符合藥典指引的驗證方法）</li>
+                <li><strong>：</strong>（ cGMP）</li>
+                <li><strong>：</strong>CCI （）</li>
+                <li><strong>：</strong>（）</li>
             </ul>
-            <p>這三層架構與 <strong>PIC/S Annex 1 (2022) Section 8</strong> 的無菌保證原則一致，也呼應 EU Guideline 10, Annex 1 不得單獨依賴任何終端製程或成品測試的要求。</p>
+            <p> <strong>PIC/S Annex 1 (2022) Section 8</strong> ， EU Guideline 10, Annex 1 。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示：法規連結</h4>
-            <p><strong>Taiwan CDMO 實務重點：</strong>TFDA 要求與 PIC/S GMP 接軌。PIC/S Annex 1 (2022) 明確要求製藥廠建立對容器密封系統的整合性保證策略，不得僅依賴成品無菌試驗。因此，建立完整的 CCI 測試計畫（從設計確認到商業化例行監控）是法規符合的必要條件，也是 TFDA 查廠的重點項目之一。</p>
-            <p><strong>Parametric Release（參數式放行）：</strong>在特定情況下，若已獲主管機關批准，可以用製程參數（如滅菌參數的合規）代替無菌試驗進行放行，但這需要嚴格的驗證基礎。</p>
+            <h4>：</h4>
+            <p><strong>Taiwan CDMO ：</strong>TFDA  PIC/S GMP 。PIC/S Annex 1 (2022) ，。， CCI （）， TFDA 。</p>
+            <p><strong>Parametric Release（）：</strong>，，（），。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>為什麼說「完全無菌試驗（對每個單元進行檢測）」在實際上不可行？這與統計學和法規有何關聯？</li>
-                <li>EU Guideline 10, Annex 1 強調不得單獨依賴末端製程或成品測試——這對你在 CDMO 的 CCI 策略開發有什麼實質影響？</li>
-                <li>PIC/S Annex 1 (2022) 對容器密封完整性有哪些具體期望？如何將這些期望轉化為可操作的控制策略？</li>
+                <li>「（）」？？</li>
+                <li>EU Guideline 10, Annex 1 —— CDMO  CCI ？</li>
+                <li>PIC/S Annex 1 (2022) ？？</li>
             </ol>
         </div>
     </div>
@@ -1100,11 +1100,11 @@ tr:nth-child(even) {
 <!-- ============================================================= -->
 <!-- 12.2 PFS Design Issues -->
 <!-- ============================================================= -->
-<div class="section-title" id="sec-12-2"><strong>12.2 PFS Design Issues PFS 設計議題</strong></div>
+<div class="section-title" id="sec-12-2"><strong>12.2 PFS Design Issues PFS </strong></div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p>Component selection for the PFS is based on a variety of <span class="key-term">design requirements</span>, including the assurance of CCI. In its role of protecting the dosage form, the syringe must prevent product contamination and leakage. The syringe components that prevent contamination and leakage are the <span class="key-term">barrel</span>, the <span class="key-term">plunger stopper</span>, and the <span class="key-term">needle shield</span> and their interfaces.</p>
 
@@ -1126,41 +1126,41 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>PFS 三大 CCI 關鍵介面</h4>
-            <p>PFS 的密封完整性由三個介面共同維持，每個介面都有其特定的 CCI 功能和潛在失效模式：</p>
+            <h4>PFS  CCI </h4>
+            <p>PFS ， CCI ：</p>
             <ul>
-                <li><strong>活塞/筒身介面 (Plunger Stopper/Barrel)：</strong>防止藥品洩漏和溶媒損失，主要密封機制為橡皮活塞的環形接觸壓力</li>
-                <li><strong>筒身/針頭保護套介面 (Barrel/Needle-Shield)：</strong>防止針頭和針端受到微生物污染，密封效果受針頭保護套材質和設計影響</li>
-                <li><strong>針頭/針頭保護套介面 (Needle/Needle-Shield)：</strong>防止藥品接觸外部環境，維持無菌屏障</li>
+                <li><strong>/ (Plunger Stopper/Barrel)：</strong>，</li>
+                <li><strong>/ (Barrel/Needle-Shield)：</strong>，</li>
+                <li><strong>/ (Needle/Needle-Shield)：</strong>，</li>
             </ul>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>把 PFS 想像成一個三重密封的真空保溫杯：底部是杯蓋密封圈（活塞/筒身介面）、頂部是瓶口橡皮塞（筒身/針頭保護套介面）、飲管孔是第三道密封（針頭/針頭保護套介面）。三道密封缺一不可——任何一個失效，都可能導致污染進入或藥品洩出。</p>
+            <h4> Analogy</h4>
+            <p> PFS ：（/）、（/）、（/）。——，。</p>
         </div>
 
         <div class="concept-box">
-            <h4>活塞設計與 CCI 的關聯</h4>
-            <p><strong>Leading sealing surface（前緣密封面）：</strong>直接接觸藥品，是防止藥品洩漏的第一道防線。其幾何形狀和硬度直接影響 CCI 性能。</p>
-            <p><strong>Secondary sealing ribs（二次密封肋條）：</strong>提供額外的密封冗餘和行進穩定性，設計上要在保證密封的同時不過度增加滑動阻力（break-loose force / extrusion force）。</p>
-            <p><strong>矽油潤滑（Silicone Lubricating Fluid）：</strong>減少摩擦，但用量過多可能影響密封性能——這是矽油化（Siliconization，Section 10）與 CCI 之間的關鍵交叉點。</p>
+            <h4> CCI </h4>
+            <p><strong>Leading sealing surface（）：</strong>，。 CCI 。</p>
+            <p><strong>Secondary sealing ribs（）：</strong>，（break-loose force / extrusion force）。</p>
+            <p><strong>（Silicone Lubricating Fluid）：</strong>，——（Siliconization，Section 10） CCI 。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示：針頭保護套的環境敏感性</h4>
-            <p>不同設計的針頭保護套（如天然橡膠 vs 熱塑性彈性體 TPE）在面對滅菌循環（EO 滅菌、輻射）或 CCI 測試循環（真空條件）時，其變形行為不同。這意味著在評估 CCI 時，必須使用與實際生產相同的已滅菌元件，並考慮不同供應商/批次的差異。</p>
+            <h4>：</h4>
+            <p>（ vs  TPE）（EO 、） CCI （），。 CCI ，，/。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>活塞橡皮的 leading sealing surface 幾何設計如何影響 CCI 性能？如果接觸壓力不足，會發生什麼？</li>
-                <li>為什麼筒身/針頭保護套介面的 CCI 評估需要特別考慮滅菌循環的影響？以 EO 滅菌為例說明。</li>
-                <li>在 CCI 測試設計中，如何確保三個介面都得到充分評估？是否可以用單一測試方法涵蓋所有介面？</li>
+                <li> leading sealing surface  CCI ？，？</li>
+                <li>/ CCI ？ EO 。</li>
+                <li> CCI ，？？</li>
             </ol>
         </div>
     </div>
@@ -1169,11 +1169,11 @@ tr:nth-child(even) {
 <!-- ============================================================= -->
 <!-- 12.3 Supplier and Pharmaceutical Processes -->
 <!-- ============================================================= -->
-<div class="section-title" id="sec-12-3"><strong>12.3 Supplier and Pharmaceutical Processes 供應商與藥廠製程</strong></div>
+<div class="section-title" id="sec-12-3"><strong>12.3 Supplier and Pharmaceutical Processes </strong></div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p>Factors that ultimately ensure CCI for the PFS are many, spanning the manufacture of components and subassemblies through filling, closing assembly, inspection, final packaging, and transport.</p>
 
@@ -1197,47 +1197,47 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>CCI 保證的供應鏈維度</h4>
-            <p>CCI 保證不始於灌裝，而始於元件供應商的設計開發階段。整個供應鏈的 CCI 責任分工：</p>
+            <h4>CCI </h4>
+            <p>CCI ，。 CCI ：</p>
             <ul>
-                <li><strong>供應商：</strong>設計驗證、製程驗證、品質規格制定、統計製程管控</li>
-                <li><strong>藥廠（CDMO）：</strong>來料管控策略、批次放行判斷、組裝製程驗證</li>
-                <li><strong>雙方共同：</strong>圖面與規格的一致性協議 (Design Outputs Agreement)</li>
+                <li><strong>：</strong>、、、</li>
+                <li><strong>（CDMO）：</strong>、、</li>
+                <li><strong>：</strong> (Design Outputs Agreement)</li>
             </ul>
         </div>
 
         <div class="concept-box">
-            <h4>CCI 相關的關鍵元件屬性</h4>
-            <p>與 CCI 直接相關的元件關鍵屬性包括：</p>
+            <h4>CCI </h4>
+            <p> CCI ：</p>
             <ul>
-                <li><strong>幾何尺寸：</strong>筒身內徑、活塞外徑的公差堆疊直接決定密封接觸壓力</li>
-                <li><strong>清潔度：</strong>可見異物可能阻礙密封介面的接觸</li>
-                <li><strong>元件完整性：</strong>彈性體撕裂、玻璃裂紋、針頭穿破針頭保護套等缺陷直接破壞 CCI</li>
-                <li><strong>針頭穿刺深度 (Needle Puncture)：</strong>供應商的關鍵製程內管控項目</li>
+                <li><strong>：</strong>、</li>
+                <li><strong>：</strong></li>
+                <li><strong>：</strong>、、 CCI</li>
+                <li><strong> (Needle Puncture)：</strong></li>
             </ul>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>來料管控策略就像餐廳對食材的驗收制度。對於高風險食材（如生魚片），每批都要有溫度記錄和細菌檢測報告；對於低風險食材（如鹽），只需供應商品質保證書即可。PFS 來料管控也是這個邏輯：CCI 相關的關鍵屬性（Critical）需要批批驗收，一般外觀屬性（Minor）可以用供應商 COA 代替。</p>
+            <h4> Analogy</h4>
+            <p>。（），；（），。PFS ：CCI （Critical），（Minor） COA 。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示：AQL 與製程能力的應用</h4>
-            <p><strong>AQL (Acceptable Quality Level)：</strong>基於抽樣統計的驗收準則，適用於批次評估，但無法保證每個單元都合規。</p>
-            <p><strong>製程能力 (Process Capability, Cp/Cpk)：</strong>更能反映製程的長期穩定性，應作為評估供應商持續供貨能力的重要工具。</p>
-            <p>對於 CCI 關鍵屬性，單靠 AQL 抽樣是不夠的——應配合供應商的 SPC 數據和製程能力分析，確保元件尺寸始終在可接受範圍內。</p>
+            <h4>：AQL </h4>
+            <p><strong>AQL (Acceptable Quality Level)：</strong>，，。</p>
+            <p><strong> (Process Capability, Cp/Cpk)：</strong>，。</p>
+            <p> CCI ， AQL —— SPC ，。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>在你的 CDMO 建立 PFS 元件來料管控策略時，如何判斷哪些屬性應歸為「Critical」？請列出至少三個 CCI 相關關鍵屬性。</li>
-                <li>如果供應商提供的 COA 顯示某批次彈性體活塞的尺寸偏向規格下限，你會如何處理？需要進行額外的來料測試嗎？</li>
-                <li>設計輸出協議 (Design Outputs Agreement) 對 CDMO 和元件供應商之間的品質責任分工有什麼實質意義？</li>
+                <li> CDMO  PFS ，「Critical」？ CCI 。</li>
+                <li> COA ，？？</li>
+                <li> (Design Outputs Agreement)  CDMO ？</li>
             </ol>
         </div>
     </div>
@@ -1246,11 +1246,11 @@ tr:nth-child(even) {
 <!-- ============================================================= -->
 <!-- 12.3.3 Semifinished Syringes -->
 <!-- ============================================================= -->
-<div class="section-title" id="sec-12-3-3"><strong>12.3.3 Semifinished Syringes 半成品注射器</strong></div>
+<div class="section-title" id="sec-12-3-3"><strong>12.3.3 Semifinished Syringes </strong></div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p>A <span class="key-term">semifinished syringe</span> is one lacking a plunger rod. This term refers to the primary packaging in which the product is filled and sealed. <span class="key-term">CCI requirements</span> are directly associated with the life cycle of a sterile product. During the <span class="key-term">development phase</span>, which includes the process parameters, the product design and its specifications, the initial assessment of CCI should encompass <span class="key-term">worst-case conditions</span> that may explore the limits of the final product and process. This can include the use of components that have undergone preparation process steps (e.g., washing and sterilization) with parameters exceeding the ones that have been defined. For example, a higher irradiation dose for sterilization can be used to demonstrate the absence of impact on the mechanical properties of the <span class="key-term">elastomeric compounds</span>, and therefore, on the CCI of the product. The use of components from different batches and of different ages is also recommended to ensure that <span class="key-term">batch-to-batch variability</span> and component degradation over time are adequately addressed. During this development phase, these attributes are commonly assessed via a formal <span class="key-term">risk assessment</span> of how CCI may be affected and/or whether further evaluations are required. As per regulatory guidance, a <span class="key-term">robust rationale</span> should be built when the actual product is not used to justify the use of these alternatives (98, 99).</p>
 
@@ -1262,41 +1262,41 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>Semifinished Syringe（半成品注射器）：</strong>指已充填藥品並密封，但尚未安裝推桿（plunger rod）的注射器。這是藥品的一次包裝 (primary packaging) 形式，也是 CCI 評估的主要對象。</p>
-            <p><strong>CCI 與產品生命週期的關聯：</strong>CCI 評估貫穿產品全生命週期：</p>
+            <h4> Key Concepts</h4>
+            <p><strong>Semifinished Syringe（）：</strong>，（plunger rod）。 (primary packaging) ， CCI 。</p>
+            <p><strong>CCI ：</strong>CCI ：</p>
             <ul>
-                <li><strong>開發階段：</strong>以最差條件 (worst-case) 挑戰系統極限</li>
-                <li><strong>量產階段：</strong>以製程中檢查或放行檢測持續監控</li>
-                <li><strong>穩定性階段：</strong>評估包裝材料老化對 CCI 的影響</li>
+                <li><strong>：</strong> (worst-case) </li>
+                <li><strong>：</strong></li>
+                <li><strong>：</strong> CCI </li>
             </ul>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>想像你買了一棟新房子（半成品注射器）。在交屋前（開發階段），你會請工程師用最嚴格的標準測試門窗的氣密性；住進去後（量產階段），你定期檢查門窗是否仍然密合；住了十年後（穩定性階段），你還要評估窗框膠條老化是否導致漏風。CCI 的全生命週期評估就是這個道理——房子（注射器）在每個階段都可能面臨不同的洩漏風險。</p>
+            <h4> Analogy</h4>
+            <p>（）。（），；（），；（），。CCI ——（）。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p><strong>FDA 的重要建議：</strong>CCI 評估可以取代穩定性研究中的無菌試驗 (sterility testing)。這是因為經過驗證的 CCI 測試方法（特別是確定性方法）比傳統的無菌試驗更靈敏、更可靠。</p>
-            <p><strong>Worst-case 挑戰的具體做法：</strong>包括使用超過正常滅菌參數的元件（如更高劑量的輻射滅菌），以及使用不同批次、不同使用年限的元件，確保涵蓋批次間變異和材料老化的影響。</p>
+            <h4> Key Notes</h4>
+            <p><strong>FDA ：</strong>CCI  (sterility testing)。 CCI （）、。</p>
+            <p><strong>Worst-case ：</strong>（），、，。</p>
         </div>
 
         <div class="note-box">
-            <h4>配送風險不可忽視</h4>
-            <p>溫度、振動、壓力變化以及注射器內氣泡大小都可能導致活塞過度移動 (excessive plunger movement)，進而破壞無菌性。對半成品注射器（無推桿固定活塞）而言，活塞移動風險更高，必須特別評估。</p>
+            <h4></h4>
+            <p>、、 (excessive plunger movement)，。（），，。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>為什麼開發階段要使用超出正常參數的元件來進行 CCI 測試？這與 worst-case 驗證策略有何關聯？</li>
-                <li>FDA 建議在穩定性研究中以 CCI 測試取代無菌試驗，請說明其科學依據和實務優勢。</li>
-                <li>半成品注射器在運輸過程中，為什麼比已組裝的 PFS 更容易出現活塞移動問題？</li>
+                <li> CCI ？ worst-case ？</li>
+                <li>FDA  CCI ，。</li>
+                <li>， PFS ？</li>
             </ol>
         </div>
     </div>
@@ -1305,44 +1305,44 @@ tr:nth-child(even) {
 <!-- ============================================================= -->
 <!-- 12.3.4 Syringe Assembly and Secondary Packaging -->
 <!-- ============================================================= -->
-<div class="section-title" id="sec-12-3-4"><strong>12.3.4 Syringe Assembly and Secondary Packaging 注射器組裝與二次包裝</strong></div>
+<div class="section-title" id="sec-12-3-4"><strong>12.3.4 Syringe Assembly and Secondary Packaging </strong></div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p>The CCI of the assembled <span class="key-term">PFS</span> (including <span class="key-term">finger-flange</span> and <span class="key-term">plunger rod</span> components) is predicated on the <span class="key-term">sterility assurance</span> and CCI of the <span class="key-term">semifinished syringe</span> introduced into the assembly process. The design/development of the assembly and <span class="key-term">secondary packaging</span> processes should include <span class="key-term">risk assessment</span> of the failure modes related to potential loss of drug product sterility and/or CCI of the semifinished syringe, including evaluation of the potential for <span class="key-term">plunger stopper</span> and <span class="key-term">needle-shield</span> movement, and damage to the semifinished syringe. The processes should be validated to ensure that the resulting product meets established criteria and is suitable for its intended use.</p>
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>組裝 PFS 的 CCI 前提：</strong>組裝完成的預充填注射器（含 finger-flange 指法蘭和 plunger rod 推桿）其 CCI 保障的基礎，完全建立在進入組裝製程前的半成品注射器的無菌保證 (Sterility Assurance) 和 CCI 之上。換句話說，如果半成品注射器本身的 CCI 已經有問題，後續的組裝過程無法彌補。</p>
-            <p><strong>關鍵失效模式：</strong></p>
+            <h4> Key Concepts</h4>
+            <p><strong> PFS  CCI ：</strong>（ finger-flange  plunger rod ） CCI ， (Sterility Assurance)  CCI 。， CCI ，。</p>
+            <p><strong>：</strong></p>
             <ul>
-                <li>Plunger stopper（活塞膠塞）移動</li>
-                <li>Needle-shield（針頭保護套）移動</li>
-                <li>半成品注射器在組裝過程中受到物理損傷</li>
+                <li>Plunger stopper（）</li>
+                <li>Needle-shield（）</li>
+                <li></li>
             </ul>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>組裝過程就像在已經密封好的食品罐頭上貼標籤和裝箱。如果貼標機的壓力太大，可能會壓凹罐頭導致密封失效。同理，注射器組裝過程中安裝推桿或指法蘭時施加的力道，必須經過風險評估和驗證，確保不會造成活塞移動或針頭保護套鬆脫。</p>
+            <h4> Analogy</h4>
+            <p>。，。，，，。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p>組裝與二次包裝製程必須經過<strong>驗證 (validation)</strong>，證明最終產品符合既定標準且適合其預期用途。這裡的驗證應涵蓋正常操作條件和最差操作條件，並採用 FMEA 等工具識別所有可能的失效模式。</p>
+            <h4> Key Notes</h4>
+            <p><strong> (validation)</strong>，。， FMEA 。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>在組裝製程的風險評估中，你會如何評估推桿安裝力道對 CCI 的影響？需要設計哪些試驗？</li>
-                <li>為什麼說組裝後 PFS 的 CCI 取決於進入組裝前半成品注射器的品質？這對來料管控有什麼啟示？</li>
+                <li>， CCI ？？</li>
+                <li> PFS  CCI ？？</li>
             </ol>
         </div>
     </div>
@@ -1351,43 +1351,43 @@ tr:nth-child(even) {
 <!-- ============================================================= -->
 <!-- 12.3.5 Shipping and Distribution -->
 <!-- ============================================================= -->
-<div class="section-title" id="sec-12-3-5"><strong>12.3.5 Shipping and Distribution of Semifinished Syringes and PFSs 半成品注射器與 PFS 的運輸與配送</strong></div>
+<div class="section-title" id="sec-12-3-5"><strong>12.3.5 Shipping and Distribution of Semifinished Syringes and PFSs  PFS </strong></div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p>The semifinished syringe and PFS may be exposed to <span class="key-term">transportation conditions</span> that can include mechanical forces, <span class="key-term">pressure changes</span>, and vibrations during shipping and distribution throughout the life cycle of the product. <span class="key-term">Shipping studies</span> should provide an understanding of the capability of the product to maintain CCI following exposure to representative and/or <span class="key-term">worst-case transportation conditions</span>.</p>
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>Shipping Studies（運輸研究）：</strong>用於評估產品在運輸過程中暴露於各種應力條件後，是否仍能維持 CCI。典型的運輸應力包括：</p>
+            <h4> Key Concepts</h4>
+            <p><strong>Shipping Studies（）：</strong>， CCI。：</p>
             <ul>
-                <li><strong>機械力 (Mechanical forces)：</strong>搬運碰撞、堆疊壓力</li>
-                <li><strong>壓力變化 (Pressure changes)：</strong>航空運輸時的氣壓變化尤為顯著</li>
-                <li><strong>振動 (Vibrations)：</strong>卡車運輸中的持續振動</li>
+                <li><strong> (Mechanical forces)：</strong>、</li>
+                <li><strong> (Pressure changes)：</strong></li>
+                <li><strong> (Vibrations)：</strong></li>
             </ul>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>就像精密的電子產品在出貨前會做「跌落測試」和「振動測試」一樣，預充填注射器也必須經過模擬運輸條件的測試。想像一支注射器從台灣工廠到歐洲患者手中，可能經歷卡車顛簸、飛機氣壓變化、倉庫堆疊——每一步都可能是 CCI 的挑戰。</p>
+            <h4> Analogy</h4>
+            <p>「」「」，。，、、—— CCI 。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p>運輸研究應涵蓋<strong>代表性條件</strong>和/或<strong>最差條件</strong>。所謂最差條件，例如模擬跨洲航空運輸（極端氣壓和溫度變化）、冬季/夏季極端溫度、多次轉運的累積振動等。這些研究應在產品開發的適當階段進行，並在變更運輸路線或包裝方式時重新評估。</p>
+            <h4> Key Notes</h4>
+            <p><strong></strong>/<strong></strong>。，（）、/、。，。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>如果你的產品需要從台灣經航空運輸至歐洲，在設計運輸研究時應考慮哪些最差條件？</li>
-                <li>運輸過程中的壓力變化如何可能影響注射器內部的氣泡大小和活塞位置？</li>
+                <li>，？</li>
+                <li>？</li>
             </ol>
         </div>
     </div>
@@ -1396,11 +1396,11 @@ tr:nth-child(even) {
 <!-- ============================================================= -->
 <!-- 12.4 CCI Test Method Toolbox -->
 <!-- ============================================================= -->
-<div class="section-title" id="sec-12-4"><strong>12.4 CCI Test Method Toolbox: Method Selection, Development, and Validation CCI 測試方法工具箱：方法選擇、開發與驗證</strong></div>
+<div class="section-title" id="sec-12-4"><strong>12.4 CCI Test Method Toolbox: Method Selection, Development, and Validation CCI ：、</strong></div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p>CCI testing ensures that the sterility of the syringe contents is maintained. <span class="key-term">Physicochemical CCI testing methods</span> are typically designed to challenge the PFS. Key technology options include <span class="key-term">microbial ingress</span>, <span class="key-term">dye immersion</span>, <span class="key-term">pressure/vacuum decay</span>, <span class="key-term">mass extraction</span>, <span class="key-term">high-voltage leak detection</span>, and <span class="key-term">helium-leak detection</span>. Table 12.4-1 compares and contrasts the major characteristics of the methods of CCI testing.</p>
 
@@ -1414,74 +1414,74 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>六大 CCI 測試技術概覽</h4>
+            <h4> CCI </h4>
             <ul>
-                <li><strong>Microbial Ingress（微生物侵入試驗）：</strong>以微生物作為挑戰介質，機率性，破壞性</li>
-                <li><strong>Dye Immersion（染料浸入試驗）：</strong>浸入染料溶液檢查滲入，機率性，破壞性</li>
-                <li><strong>Pressure/Vacuum Decay（壓力/真空衰減）：</strong>施加壓差監測洩漏，確定性，非破壞性</li>
-                <li><strong>Mass Extraction（質量萃取）：</strong>透過質量流量偵測洩漏，確定性，非破壞性</li>
-                <li><strong>High-Voltage Leak Detection, HVLD（高壓漏電偵測）：</strong>利用電流偵測缺陷，確定性，非破壞性</li>
-                <li><strong>Helium-Leak Detection（氦氣洩漏偵測）：</strong>最高靈敏度，確定性，非破壞性</li>
+                <li><strong>Microbial Ingress（）：</strong>，，</li>
+                <li><strong>Dye Immersion（）：</strong>，，</li>
+                <li><strong>Pressure/Vacuum Decay（/）：</strong>，，</li>
+                <li><strong>Mass Extraction（）：</strong>，，</li>
+                <li><strong>High-Voltage Leak Detection, HVLD（）：</strong>，，</li>
+                <li><strong>Helium-Leak Detection（）：</strong>，，</li>
             </ul>
         </div>
 
         <div class="concept-box">
-            <h4>USP &lt;1207&gt; 框架：確定性 vs 機率性</h4>
-            <p><strong>USP &lt;1207&gt; Package Integrity Evaluation — Sterile Products</strong> 是 CCI 測試方法選擇的核心指引，明確區分兩類方法：</p>
-            <p><strong>Deterministic Methods（確定性方法）：</strong>基於物理或化學量測原理，結果具有明確的定量數值（如壓力衰減速率、氦氣質量流量），可客觀判斷通過/不通過。包括真空/壓力衰減、HVLD 和氦氣洩漏偵測。</p>
-            <p><strong>Probabilistic Methods（機率性方法）：</strong>結果取決於多個不可完全控制的變數（如微生物生長、染料滲透路徑），每次測試可能得到不同結果，靈敏度受缺陷大小、形狀和方向影響。包括染料浸入和微生物侵入。</p>
-            <p><strong>法規趨勢：</strong>USP &lt;1207&gt; 和 PIC/S Annex 1 (2022) 均推薦優先選擇確定性方法。PIC/S Annex 1 Section 8.90 明確指出「無菌屏障系統的完整性測試應優先使用確定性物理化學方法」。</p>
+            <h4>USP &lt;1207&gt; ： vs </h4>
+            <p><strong>USP &lt;1207&gt; Package Integrity Evaluation — Sterile Products</strong>  CCI ，：</p>
+            <p><strong>Deterministic Methods（）：</strong>，（、），/。/、HVLD 。</p>
+            <p><strong>Probabilistic Methods（）：</strong>（、），，、。。</p>
+            <p><strong>：</strong>USP &lt;1207&gt;  PIC/S Annex 1 (2022) 。PIC/S Annex 1 Section 8.90 「」。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>把 CCI 測試方法想像成檢查輪胎是否漏氣的方式：</p>
+            <h4> Analogy</h4>
+            <p> CCI ：</p>
             <ul>
-                <li><strong>氦氣偵測</strong> = 用質譜儀精確量測氣體分子洩漏量 → 最靈敏</li>
-                <li><strong>真空/壓力衰減</strong> = 用精密氣壓表量測壓力變化 → 定量、可重複</li>
-                <li><strong>HVLD</strong> = 用電子儀器掃描輪胎表面 → 快速、非破壞性</li>
-                <li><strong>染料浸入</strong> = 把輪胎泡在肥皂水裡看氣泡 → 簡單但靈敏度低</li>
-                <li><strong>微生物侵入</strong> = 等著看輪胎裡是否長黴 → 最不靈敏、最後手段</li>
+                <li><strong></strong> =  → </li>
+                <li><strong>/</strong> =  → 、</li>
+                <li><strong>HVLD</strong> =  → 、</li>
+                <li><strong></strong> =  → </li>
+                <li><strong></strong> =  → 、</li>
             </ul>
         </div>
 
         <div class="note-box">
-            <h4>重點提示：方法選擇的產品相容性考量</h4>
+            <h4>：</h4>
             <ul>
-                <li>低電導率的填充液 → 不適用 HVLD</li>
-                <li>高濃度蛋白質藥品 → 可能堵塞缺陷通道，使真空衰減法不可靠</li>
-                <li>需要進行 100% 線上檢測 → 需考慮檢測速度和通量（非破壞性方法優先）</li>
-                <li>大多數注射裝置 → HVLD 不適用（電場難以穿透針頭保護套覆蓋區域）</li>
-                <li>需要定量洩漏數據 → 真空/壓力衰減或氦氣偵測</li>
+                <li> →  HVLD</li>
+                <li> → ，</li>
+                <li> 100%  → （）</li>
+                <li> → HVLD （）</li>
+                <li> → /</li>
             </ul>
-            <p><strong>正控制樣品 (Positive Controls)：</strong>使用已知缺陷大小的樣品（透過微量移液管、金屬線、毛細管柱、雷射鑽孔或 MEMS 微機電系統製備）來驗證方法的靈敏度和可靠性。</p>
+            <p><strong> (Positive Controls)：</strong>（、、、 MEMS ）。</p>
         </div>
 
         <div class="note-box">
-            <h4>驗證的階段適配性</h4>
-            <p>CCI 測試方法驗證應隨產品開發階段逐步深化：</p>
+            <h4></h4>
+            <p>CCI ：</p>
             <ul>
-                <li><strong>早期開發：</strong>方法適用性評估、初步參數優化</li>
-                <li><strong>工程研究/穩定性研究：</strong>方法應用於支持決策</li>
-                <li><strong>上市申請前：</strong>完整的 ICH 方法驗證，包括準確度、精密度、穩健性</li>
-                <li><strong>商業化 QC：</strong>方法穩健性研究確保長期例行使用可靠</li>
+                <li><strong>：</strong>、</li>
+                <li><strong>/：</strong></li>
+                <li><strong>：</strong> ICH ，、、</li>
+                <li><strong> QC：</strong></li>
             </ul>
         </div>
 
         <div class="practice-box" style="border-style:solid; background:linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-color:#22c55e;">
-            <h4>實務應用 Practical Application</h4>
-            <p>假設你在 CDMO 負責一款高濃度單株抗體預充填注射器的 CCI 測試方法開發。由於蛋白質濃度高（&gt;100 mg/mL），真空衰減法可能因蛋白質堵塞缺陷而產生假陰性。此時你應優先評估 HVLD（需確認充填液電導率足夠）或氦氣洩漏偵測（需確認頂空含氦氣）。這就是「方法選擇必須適合預期用途」的典型案例。</p>
+            <h4> Practical Application</h4>
+            <p> CDMO  CCI 。（&gt;100 mg/mL），。 HVLD（）（）。「」。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>請解釋為什麼確定性方法 (deterministic methods) 在法規上越來越受到青睞？與機率性方法相比，其核心優勢是什麼？</li>
-                <li>在優化 CCI 測試方法時，為什麼需要測試涵蓋不同批次、不同濃度、不同產線的完好樣品？</li>
-                <li>如果你的產品是水溶液（電導率高），但需要 100% 線上檢測，你會優先考慮哪種 CCI 測試方法？為什麼？</li>
+                <li> (deterministic methods) ？，？</li>
+                <li> CCI ，、、？</li>
+                <li>（）， 100% ， CCI ？？</li>
             </ol>
         </div>
     </div>
@@ -1490,23 +1490,23 @@ tr:nth-child(even) {
 <!-- ============================================================= -->
 <!-- Table 12.4-1: Outside two-column, full-width -->
 <!-- ============================================================= -->
-<div class="section-title" id="table-12-4-1"><strong>Table 12.4-1 Comparison of CCI Testing Methods CCI 測試方法比較表</strong></div>
+<div class="section-title" id="table-12-4-1"><strong>Table 12.4-1 Comparison of CCI Testing Methods CCI </strong></div>
 
 <div style="overflow-x:auto; margin:1rem 0;">
 <table>
     <thead>
         <tr>
-            <th>Considerations 考量面向</th>
-            <th>Vacuum/Pressure Decay &amp; Mass Extraction<br>真空/壓力衰減 &amp; 質量萃取</th>
-            <th>High-Voltage Leak Detection (HVLD)<br>高壓漏電偵測</th>
-            <th>Helium-Leak Detection<br>氦氣洩漏偵測</th>
-            <th>Dye Ingress<br>染料浸入</th>
-            <th>Microbial Ingress<br>微生物侵入</th>
+            <th>Considerations </th>
+            <th>Vacuum/Pressure Decay &amp; Mass Extraction<br>/ &amp; </th>
+            <th>High-Voltage Leak Detection (HVLD)<br></th>
+            <th>Helium-Leak Detection<br></th>
+            <th>Dye Ingress<br></th>
+            <th>Microbial Ingress<br></th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td><strong>Best-Case Practical Detection Limit<br>最佳實際偵測極限</strong></td>
+            <td><strong>Best-Case Practical Detection Limit<br></strong></td>
             <td>2–5 µm</td>
             <td>2–5 µm</td>
             <td>0.1–2 µm</td>
@@ -1514,31 +1514,31 @@ tr:nth-child(even) {
             <td>20–50 µm</td>
         </tr>
         <tr>
-            <td><strong>Detection Type<br>偵測類型</strong></td>
-            <td>Deterministic 確定性</td>
-            <td>Deterministic 確定性</td>
-            <td>Deterministic 確定性</td>
-            <td>Probabilistic 機率性</td>
-            <td>Probabilistic 機率性</td>
+            <td><strong>Detection Type<br></strong></td>
+            <td>Deterministic </td>
+            <td>Deterministic </td>
+            <td>Deterministic </td>
+            <td>Probabilistic </td>
+            <td>Probabilistic </td>
         </tr>
         <tr>
-            <td><strong>Destructiveness<br>破壞性</strong></td>
-            <td>Nondestructive 非破壞性</td>
-            <td>Nondestructive 非破壞性</td>
-            <td>Nondestructive 非破壞性</td>
-            <td>Destructive 破壞性</td>
-            <td>Destructive 破壞性</td>
+            <td><strong>Destructiveness<br></strong></td>
+            <td>Nondestructive </td>
+            <td>Nondestructive </td>
+            <td>Nondestructive </td>
+            <td>Destructive </td>
+            <td>Destructive </td>
         </tr>
         <tr>
-            <td><strong>Quantitative<br>定量性</strong></td>
-            <td>Qualitative and quantitative 定性及定量</td>
-            <td>Qualitative only 僅定性</td>
-            <td>Qualitative and quantitative 定性及定量</td>
-            <td>Qualitative only 僅定性</td>
-            <td>Qualitative only 僅定性</td>
+            <td><strong>Quantitative<br></strong></td>
+            <td>Qualitative and quantitative </td>
+            <td>Qualitative only </td>
+            <td>Qualitative and quantitative </td>
+            <td>Qualitative only </td>
+            <td>Qualitative only </td>
         </tr>
         <tr>
-            <td><strong>Typical Applications<br>典型應用</strong></td>
+            <td><strong>Typical Applications<br></strong></td>
             <td>C/C development &amp; qualification; Routine QC; 100% in-line feasible; Sealing process validation</td>
             <td>C/C development &amp; qualification; Routine QC; 100% in-line feasible; Sealing process validation</td>
             <td>C/C development &amp; qualification; Routine QC; 100% in-line feasible; Sealing process validation</td>
@@ -1546,7 +1546,7 @@ tr:nth-child(even) {
             <td>C/C development &amp; qualification; Sealing process validation</td>
         </tr>
         <tr>
-            <td><strong>Major Advantages<br>主要優點</strong></td>
+            <td><strong>Major Advantages<br></strong></td>
             <td>Potentially applicable to injection devices; Testing under normal atmospheric pressure; Applicable to high-concentration proteinaceous products</td>
             <td>Highly sensitive; Widely used for decades; Industry and regulatory familiarity</td>
             <td>Highly sensitive</td>
@@ -1554,23 +1554,23 @@ tr:nth-child(even) {
             <td>Widely used for decades; Industry and regulatory familiarity; "Last resort" when all else fails</td>
         </tr>
         <tr>
-            <td><strong>Major Limitations<br>主要限制</strong></td>
-            <td>Possible interference from proteinaceous products 蛋白質產品可能干擾偵測</td>
-            <td>Requirement for electrically conductive fills 需要導電性填充液; Not applicable to most injection devices; Possibility of drug product degradation</td>
-            <td>Requirement for helium-containing headspace 需含氦頂空; Not applicable to most injection devices</td>
-            <td>Less sensitive; Probabilistic detection 機率性偵測; Destructive 破壞性</td>
+            <td><strong>Major Limitations<br></strong></td>
+            <td>Possible interference from proteinaceous products </td>
+            <td>Requirement for electrically conductive fills ; Not applicable to most injection devices; Possibility of drug product degradation</td>
+            <td>Requirement for helium-containing headspace ; Not applicable to most injection devices</td>
+            <td>Less sensitive; Probabilistic detection ; Destructive </td>
             <td>Less sensitive; Probabilistic detection; Destructive; Not applicable to drug-product-filled syringes</td>
         </tr>
         <tr>
-            <td><strong>Key Considerations<br>關鍵注意事項</strong></td>
-            <td>Proper fixture design to prevent plunger stopper movement and deformation 夾具設計防止活塞移動</td>
-            <td>Sample surface and vacuum chamber preparation; Syringe barrel area covered by needle shield may not be assessable 針頭保護套覆蓋區可能無法檢測</td>
-            <td>Ensure sample surfaces are free of adsorbed helium prior to testing to avoid false detection 需排除表面吸附氦氣造成的假陽性</td>
-            <td>Need to ensure a true failure can be detected (e.g., dye in syringe, liquid in ribs) 確保缺陷可被有效偵測</td>
-            <td>Inability to ensure the absence of pathogens 無法確保病原體缺失</td>
+            <td><strong>Key Considerations<br></strong></td>
+            <td>Proper fixture design to prevent plunger stopper movement and deformation </td>
+            <td>Sample surface and vacuum chamber preparation; Syringe barrel area covered by needle shield may not be assessable </td>
+            <td>Ensure sample surfaces are free of adsorbed helium prior to testing to avoid false detection </td>
+            <td>Need to ensure a true failure can be detected (e.g., dye in syringe, liquid in ribs) </td>
+            <td>Inability to ensure the absence of pathogens </td>
         </tr>
         <tr>
-            <td><strong>Reference/Standard Method<br>參考/標準方法</strong></td>
+            <td><strong>Reference/Standard Method<br>/</strong></td>
             <td>ASTM F2338 (102)</td>
             <td>—</td>
             <td>—</td>
@@ -1583,36 +1583,36 @@ tr:nth-child(even) {
 
 <div class="two-column" style="margin-top:1.5rem;">
     <div class="left-column">
-        <h3>表格說明 Table Notes</h3>
+        <h3> Table Notes</h3>
         <p>Source: PDA Technical Report No. 73, Table 12.4-1, Comparison of CCI testing methods (Reference 101). This table compares the major characteristics of the five main CCI test method categories. The <span class="key-term">ASTM F2338</span> standard specifically covers vacuum decay leak test method for nonporous, rigid, or flexible packages.</p>
     </div>
     <div class="right-column">
         <div class="concept-box">
-            <h4>表格解讀：Taiwan CDMO 決策框架</h4>
-            <p><strong>選擇確定性方法（PIC/S Annex 1 §8.90 要求）：</strong></p>
+            <h4>：Taiwan CDMO </h4>
+            <p><strong>（PIC/S Annex 1 §8.90 ）：</strong></p>
             <ul>
-                <li>小分子注射液（高電導率）→ HVLD 優先，速度快、100% 線上可行</li>
-                <li>高濃度蛋白質製劑 → 真空衰減需充分驗證（蛋白質堵塞風險）；氦氣偵測靈敏度最高</li>
-                <li>注射裝置（針頭保護套）→ 真空/壓力衰減（HVLD 覆蓋盲區）</li>
+                <li>（）→ HVLD ，、100% </li>
+                <li> → （）；</li>
+                <li>（）→ /（HVLD ）</li>
             </ul>
-            <p><strong>USP &lt;1207&gt; 合規要點：</strong>確定性方法具備客觀定量結果，符合分析方法驗證（準確度、精密度、線性、LOD/LOQ）的 ICH Q2(R1) 要求，便於建立合規的驗證包。機率性方法難以完整驗證，應視為補充或最後手段。</p>
+            <p><strong>USP &lt;1207&gt; ：</strong>，（、、、LOD/LOQ） ICH Q2(R1) ，。，。</p>
         </div>
         <div class="note-box">
-            <h4>氦氣偵測靈敏度最高的物理原因</h4>
-            <p>氦原子（He）是惰性氣體中分子量最小的元素（原子量 4），分子動力直徑極小（約 0.26 nm），遠小於空氣主要成分氮（0.364 nm）和氧（0.346 nm）。這使氦原子能穿透更小的缺陷，搭配質譜儀（mass spectrometer）的高靈敏度偵測，可達 0.1–2 µm 的偵測極限，是所有 CCI 方法中最高的。</p>
+            <h4></h4>
+            <p>（He）（ 4），（ 0.26 nm），（0.364 nm）（0.346 nm）。，（mass spectrometer）， 0.1–2 µm ， CCI 。</p>
         </div>
     </div>
 </div>
 
 <!-- SECTION SUMMARY -->
 <div class="learning-objectives" style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);">
-    <h3>本節重點回顧 Section Summary</h3>
+    <h3> Section Summary</h3>
     <ul>
-        <li><strong>12.0 CCI 在無菌保證計畫中</strong>是多層次管控的一環，最終目標是證明 PFS 能維持其微生物屏障的完整性。應採用風險基礎、階段適配的方法，貫穿設計確認到商業化穩定性研究。</li>
-        <li><strong>12.1 法規依據</strong>：整體性無菌保證三層架構（製程驗證 + CCI 保證 + 放行無菌試驗）。C/C 系統適用性的四個面向：保護性、安全性、相容性、性能。PIC/S Annex 1 (2022) 明確要求優先使用確定性 CCI 測試方法。</li>
-        <li><strong>12.2 PFS 設計議題</strong>：三大密封介面（活塞/筒身、筒身/針頭保護套、針頭/針頭保護套）各有其 CCI 功能。元件設計（leading sealing surface、sealing ribs）和矽油潤滑直接影響密封性能。</li>
-        <li><strong>12.3 供應商與藥廠製程</strong>：CCI 保證始於供應商設計開發階段，涵蓋來料管控（AQL/製程能力）、半成品注射器全生命週期評估、組裝製程驗證和運輸研究。</li>
-        <li><strong>12.4 CCI 測試方法工具箱</strong>：依據 USP &lt;1207&gt; 框架，確定性方法（真空衰減、HVLD、氦氣偵測）優於機率性方法（染料浸入、微生物侵入）。方法選擇需考慮充填液特性（電導率、蛋白質含量）、是否需要 100% 線上檢測及定量資訊。氦氣偵測靈敏度最高（0.1–2 µm）但需含氦頂空；HVLD 高通量但需導電填充液；真空衰減適用範圍最廣，是大多數 PFS 的首選確定性方法。</li>
+        <li><strong>12.0 CCI </strong>， PFS 。、，。</li>
+        <li><strong>12.1 </strong>：（ + CCI  + ）。C/C ：、、、。PIC/S Annex 1 (2022)  CCI 。</li>
+        <li><strong>12.2 PFS </strong>：（/、/、/） CCI 。（leading sealing surface、sealing ribs）。</li>
+        <li><strong>12.3 </strong>：CCI ，（AQL/）、、。</li>
+        <li><strong>12.4 CCI </strong>： USP &lt;1207&gt; ，（、HVLD、）（、）。（、）、 100% 。（0.1–2 µm）；HVLD ；， PFS 。</li>
     </ul>
 </div>
 

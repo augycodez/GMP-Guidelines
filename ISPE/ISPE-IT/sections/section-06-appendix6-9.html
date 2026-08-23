@@ -439,7 +439,7 @@ body {
     font-size: 0.92rem !important;
 }
 
-/* ===== ANALOGY BOX (Yellow) - 比喻說明 ===== */
+/* ===== ANALOGY BOX (Yellow) -  ===== */
 .analogy-box,
 .concept-box[class*="analogy"],
 .concept-box.analogy,
@@ -453,7 +453,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #856404 !important;
 }
 
-/* ===== TERM/CONCEPT BOX (Green) - 核心概念 ===== */
+/* ===== TERM/CONCEPT BOX (Green) -  ===== */
 .term-box,
 .key-term-box,
 .concept-box:not([class*="analogy"]):not([class*="note"]):not([class*="formula"]):not([class*="practice"]):not([class*="highlight"]):not(.analogy):not(.application) {
@@ -468,7 +468,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #2e7d32 !important;
 }
 
-/* ===== NOTE/HIGHLIGHT BOX (Orange) - 重點提示 ===== */
+/* ===== NOTE/HIGHLIGHT BOX (Orange) -  ===== */
 .note-box,
 .key-note,
 .key-point-box,
@@ -487,7 +487,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #c65102 !important;
 }
 
-/* ===== FORMULA BOX (Purple) - 公式計算 ===== */
+/* ===== FORMULA BOX (Purple) -  ===== */
 .formula-box,
 .concept-box[class*="formula"] {
     background: var(--purple-bg) !important;
@@ -522,7 +522,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #1565c0 !important;
 }
 
-/* ===== PRACTICE BOX (Blue dashed) - 練習思考 ===== */
+/* ===== PRACTICE BOX (Blue dashed) -  ===== */
 .practice-box {
     background: linear-gradient(135deg, #e8f4fd 0%, #d1e9ff 100%) !important;
     border: 2px dashed #3182ce !important;
@@ -933,32 +933,32 @@ tr:nth-child(even) {
 <!-- SECTION HEADER -->
 <div class="header">
     <h1>Appendices 6–9: Security, Patch Management, Outsourcing &amp; Server Management</h1>
-    <div class="subtitle">附錄六至九：資安管理、補丁策略、委外管控與伺服器維運</div>
+    <div class="subtitle">：、、</div>
     <div class="page-info">ISPE GAMP Good Practice Guide: IT Infrastructure Control and Compliance | App. 6–9 (p84–p105)</div>
 </div>
 
 <!-- LEARNING OBJECTIVES -->
 <div class="main-content">
 <div class="learning-objectives">
-    <h3>本章學習目標</h3>
+    <h3></h3>
     <ul>
-        <li>掌握 CIA 三角（機密性／完整性／可用性）在 GxP 資料系統中的實際意涵</li>
-        <li>識別三種資安補丁緊急程度分類，並說明為何緊急修補仍需形式化變更控制</li>
-        <li>比較平台升級後四種應用程式測試層級的適用時機與選擇標準</li>
-        <li>解釋委外合規監督責任不可轉移的原則，及 SLA 必要元素對 CDMO 的啟示</li>
-        <li>說明伺服器備份策略（全量 + 增量）、異地儲存理由，以及備份測試的合規要求</li>
+        <li> CIA （／／） GxP </li>
+        <li>，</li>
+        <li></li>
+        <li>， SLA  CDMO </li>
+        <li>（ + ）、，</li>
     </ul>
 </div>
 
 <!-- ============================================================ -->
 <!-- APPENDIX 6: INFRASTRUCTURE SECURITY -->
 <!-- ============================================================ -->
-<div class="section-title"><strong>Appendix 6 — Infrastructure Security (p84–p90) Appendix 6 — 基礎設施安全</strong></div>
+<div class="section-title"><strong>Appendix 6 — Infrastructure Security (p84–p90) Appendix 6 — </strong></div>
 
 <!-- 6.1 Introduction & Security Management -->
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
         <h3>1. Introduction</h3>
         <p>A defined level of <span class="key-term">infrastructure security</span> is required to meet business purposes and to satisfy external regulations. Lack of security may compromise availability of applications and services, record integrity and confidentiality, reputation with stakeholders, and may lead to unauthorized use of systems that would impact on product quality.</p>
         <p>A company should take cultural and practical aspects into consideration when defining the rigor of its approach. Companies may adopt different approaches for specific infrastructure elements, based, e.g., on criticality and risk.</p>
@@ -995,31 +995,31 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念：CIA 三角 The CIA Triad</h4>
-            <p><strong>Confidentiality（機密性）：</strong>資料只有授權人員可存取。GxP 系統中，批次紀錄不得被未授權人員讀取或下載。</p>
-            <p><strong>Integrity（完整性）：</strong>資料必須準確且完整，任何修改都要留下稽核軌跡。這直接對應 21 CFR Part 11 的電子記錄要求。</p>
-            <p><strong>Availability（可用性）：</strong>授權使用者在需要時必須能存取系統。若生產線因 IT 系統停機無法取得批次記錄，即構成可用性失效。</p>
+            <h4>：CIA  The CIA Triad</h4>
+            <p><strong>Confidentiality（）：</strong>。GxP ，。</p>
+            <p><strong>Integrity（）：</strong>，。 21 CFR Part 11 。</p>
+            <p><strong>Availability（）：</strong>。 IT ，。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>把 CIA 三角想像成醫院的病歷管理系統。機密性 = 只有主治醫生能看完整病歷；完整性 = 任何人修改病歷都留記錄；可用性 = 急診時隨時能調出病歷。三者缺一不可，就像無菌製造中的環境控制——少了任何一環，產品安全就有風險。</p>
+            <h4> Analogy</h4>
+            <p> CIA 。 = ； = ； = 。，——，。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p>ISO/IEC 17799 是推薦框架，法規不要求正式認證，但稽查時需要能展示「公司已將此框架映射至自身政策並完成內稽」。這是合規證明的基礎，不是選擇題。</p>
-            <p>「安全控制在需求規格設計階段納入，成本最低、效果最好」——這條原則與 GAMP 的 V-model 一致：後期補救的代價遠高於前期設計。</p>
+            <h4> Key Notes</h4>
+            <p>ISO/IEC 17799 ，，「」。，。</p>
+            <p>「，、」—— GAMP  V-model ：。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>若 CDMO 的 MES 系統每天凌晨備份視窗期間無法登入，這違反 CIA 三角的哪個面向？該如何設計備援？</li>
-                <li>公司不需要取得 ISO/IEC 17799 認證，那稽查員要求什麼文件才能「證明公司在控制中」？</li>
+                <li> CDMO  MES ， CIA ？？</li>
+                <li> ISO/IEC 17799 ，「」？</li>
             </ol>
         </div>
     </div>
@@ -1028,7 +1028,7 @@ tr:nth-child(even) {
 <!-- 6 Security Controls: IDS, Vulnerability, Anti-Virus, PKI, Software Origin -->
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
         <h3>2.3 Technical versus Procedural Issues</h3>
         <p>Management should establish an administration obligated to define and monitor an infrastructure security program. Controls include:</p>
         <ul>
@@ -1059,30 +1059,30 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念：三層安全控制架構</h4>
-            <p>行政控制（政策/培訓）→ 技術控制（存取權限/認證）→ 實體控制（門禁/設備），三層相互補強。GxP 稽查中，三層都要有對應的文件證據，不能只靠技術工具。</p>
+            <h4>：</h4>
+            <p>（/）→ （/）→ （/），。GxP ，，。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>IDS（入侵偵測系統）就像無塵室的粒子計數器——防護網（防火牆）擋住大部分威脅，但計數器在背景持續監控，一旦異常立即發警報。計數器本身不阻擋污染，但讓你有時間在污染擴散前採取行動。</p>
+            <h4> Analogy</h4>
+            <p>IDS（）——（），，。，。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p><strong>帳號重複鎖定是資安事件，不是 IT 小問題。</strong>單次鎖定可能是忘記密碼，但重複發生可能是暴力破解攻擊。集中通報機制讓孤立事件變成可見的模式——這與 GMP 的品質趨勢分析原理相同。</p>
-            <p><strong>防毒軟體更新的兩難：</strong>受控更新可測試但反應慢；自動更新反應快但 Configuration Management 難追蹤。GxP 系統優先選受控更新，需以風險評估文件化決策理由。</p>
-            <p><strong>開源軟體不等於免費風險：</strong>若軟體來源不明或無供應商維護承諾，在 GxP 環境中等同於使用未驗證的原材料——合規風險極高。</p>
+            <h4> Key Notes</h4>
+            <p><strong>， IT 。</strong>，。—— GMP 。</p>
+            <p><strong>：</strong>； Configuration Management 。GxP ，。</p>
+            <p><strong>：</strong>， GxP ——。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>CDMO 的 LIMS 使用開源資料庫，供應商無正式支援合約。稽查時查到這個狀況，你如何答覆稽查員？</li>
-                <li>若要在 GxP 系統上採用自動防毒更新，風險評估應涵蓋哪些考量點？</li>
+                <li>CDMO  LIMS ，。，？</li>
+                <li> GxP ，？</li>
             </ol>
         </div>
     </div>
@@ -1091,7 +1091,7 @@ tr:nth-child(even) {
 <!-- 6 Section 3: Patches & Security Update Urgency -->
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
         <h3>3. Upgrades and Patches — Balancing Qualification and Security</h3>
         <p>Changes to IT Infrastructure platforms require formal <span class="key-term">change control</span> processes, documentation, and testing. These processes take time, especially where individual application tests are required, and particularly for GxP applications.</p>
         <p>Where changes are required to address security vulnerabilities, applying the full change control and testing processes prospectively may present an unacceptable risk to the business in terms of security. However, direct application of any upgrades/patches without change control and testing may compromise the qualified status of the IT Infrastructure and present compliance issues.</p>
@@ -1111,51 +1111,51 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="formula-box">
-            <h4>三種補丁緊急程度分類表</h4>
+            <h4></h4>
             <pre>
-緊急程度     | 定義              | GxP 要求
+     |               | GxP 
 -------------|-------------------|---------------------------
-Emergency    | 即時、真實威脅    | 事後補做變更控制文件
+Emergency    | 、    | 
 Fix          |                   | (retroactive change control)
-             |                   | 強化事件監控
+             |                   | 
 -------------|-------------------|---------------------------
-Urgent       | 可能威脅          | 在指定時間內完成
-Update       |                   | 正常變更控制流程
+Urgent       |           | 
+Update       |                   | 
 -------------|-------------------|---------------------------
-Update       | 無即時威脅        | 納入下次定期升級
-             |                   | 完整變更控制與測試
+Update       |         | 
+             |                   | 
             </pre>
         </div>
 
         <div class="note-box">
-            <h4>重點提示：緊急補丁仍需變更控制</h4>
-            <p>Emergency Fix 可以「先做後補文件」，但不是「做了就算」。事後補做的變更控制文件必須說明：為何緊急、評估了什麼風險、誰授權、做了什麼事後監控。這是 GxP 系統「qualified status」維護的底線。</p>
-            <p>CDMO 現場常見錯誤：在 21:00 緊急打了補丁，隔天沒有任何文件記錄，直到稽查才被發現——這是偏差，不是緊急程序。</p>
+            <h4>：</h4>
+            <p>Emergency Fix 「」，「」。：、、、。 GxP 「qualified status」。</p>
+            <p>CDMO ： 21:00 ，，——，。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>緊急補丁就像醫院的緊急手術——不能等標準排程，但手術後仍要寫完整手術記錄、填偏差報告、追蹤恢復狀況。「緊急」改變的是時序，不是文件化的義務。</p>
+            <h4> Analogy</h4>
+            <p>——，、、。「」，。</p>
         </div>
 
         <div class="concept-box">
-            <h4>補丁相容性困境 Compatibility Dilemma</h4>
-            <p>當關鍵安全補丁無法安裝（因系統版本太舊或應用程式不相容），選項包括：</p>
+            <h4> Compatibility Dilemma</h4>
+            <p>（），：</p>
             <ul>
-                <li>程序性控制（Procedural Controls）：限制網路存取、加強監控、限制使用者操作</li>
-                <li>網路隔離（Isolation）：將系統從企業網路斷開，降低攻擊面</li>
+                <li>（Procedural Controls）：、、</li>
+                <li>（Isolation）：，</li>
             </ul>
-            <p>這兩個選項都必須透過風險評估文件化，並在 CAPA 中追蹤長期解決方案。</p>
+            <p>， CAPA 。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>Microsoft 宣布一個嚴重漏洞，影響你 CDMO 所有 Windows Server，但補丁與現有 LIMS 版本不相容。你會如何分類此補丁的緊急程度，並採取什麼臨時措施？</li>
-                <li>Emergency Fix 的「事後變更控制」最晚應在幾天內完成？請討論合理的期限設定原則。</li>
+                <li>Microsoft ， CDMO  Windows Server， LIMS 。，？</li>
+                <li>Emergency Fix 「」？。</li>
             </ol>
         </div>
     </div>
@@ -1164,11 +1164,11 @@ Update       | 無即時威脅        | 納入下次定期升級
 <!-- ============================================================ -->
 <!-- APPENDIX 7: UPGRADE AND PATCH MANAGEMENT -->
 <!-- ============================================================ -->
-<div class="section-title"><strong>Appendix 7 — Upgrade and Patch Management (p91–p94) Appendix 7 — 升級與修補管理</strong></div>
+<div class="section-title"><strong>Appendix 7 — Upgrade and Patch Management (p91–p94) Appendix 7 — </strong></div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
         <h3>1. Fundamental Principles</h3>
         <p>Regardless of the criticality of an upgrade, the following aspects should be considered:</p>
         <ul>
@@ -1204,46 +1204,46 @@ Update       | 無即時威脅        | 納入下次定期升級
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念：四級應用程式測試層級</h4>
-            <p><strong>Level 1 — No Testing（無測試）：</strong>僅限緊急情況，必須搭配強化事件監控和事後測試計畫。絕非「永久免測」。</p>
-            <p><strong>Level 2 — Confirmation Testing（確認測試）：</strong>最低限度文件化測試，驗證應用程式在更新後平台仍能執行。適用：技術評估為「輕微」的升級。</p>
-            <p><strong>Level 3 — Confidence Testing（信心測試）：</strong>以預定規格執行代表性功能子集測試。適用：顯著升級，或高度關鍵 GxP 系統。</p>
-            <p><strong>Level 4 — Full Testing（完整回歸測試）：</strong>全面回歸測試。適用：主要升級且對應用程式有可能造成影響。</p>
+            <h4>：</h4>
+            <p><strong>Level 1 — No Testing（）：</strong>，。「」。</p>
+            <p><strong>Level 2 — Confirmation Testing（）：</strong>，。：「」。</p>
+            <p><strong>Level 3 — Confidence Testing（）：</strong>。：， GxP 。</p>
+            <p><strong>Level 4 — Full Testing（）：</strong>。：。</p>
         </div>
 
         <div class="formula-box">
-            <h4>測試層級選擇決策矩陣</h4>
+            <h4></h4>
             <pre>
-升級性質     | GxP/關鍵系統？ | 建議測試層級
+     | GxP/？ | 
 -------------|----------------|------------------
-緊急補丁     | 是/否          | Level 1 + 強化監控
-輕微升級     | 否             | Level 2
-輕微升級     | 是             | Level 2~3
-顯著升級     | 是/否          | Level 3 (最低)
-主要升級     | 是             | Level 4
+     | /          | Level 1 + 
+     |              | Level 2
+     |              | Level 2~3
+     | /          | Level 3 ()
+     |              | Level 4
             </pre>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>四級測試就像汽車出廠前的品質查驗等級：緊急出廠（Level 1）= 只看引擎能不能發動就交車；確認測試（Level 2）= 還會試踩煞車；信心測試（Level 3）= 在測試跑道跑幾圈；完整測試（Level 4）= 全面安全認證測試。交的車越貴、乘客越重要，測試等級越不能省。</p>
+            <h4> Analogy</h4>
+            <p>：（Level 1）= ；（Level 2）= ；（Level 3）= ；（Level 4）= 。、，。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p><strong>版本落差陷阱：</strong>若系統長期未升級，緊急補丁反而可能無法安裝，或安裝後造成應用程式崩潰。這是 CDMO 常見的技術債——省下的升級維護費用，最終在緊急時刻加倍奉還。</p>
-            <p><strong>部分退役系統（partially decommissioned）：</strong>仍需保留查閱能力的唯讀系統，若原廠已停止支援，網路隔離是必要的風險降低措施，不是可選項。</p>
-            <p><strong>多廠區系統：</strong>在一個廠址完整測試後，其他廠址可以減少測試——但這需要在策略文件中明確規定，並有標準化平台作為前提。</p>
+            <h4> Key Notes</h4>
+            <p><strong>：</strong>，，。 CDMO ——，。</p>
+            <p><strong>（partially decommissioned）：</strong>，，，。</p>
+            <p><strong>：</strong>，——，。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>你的 CDMO 有三個廠區共用同一 ERP 系統，IT 在總部測試了一個 OS 升級。其他兩個廠區應該做哪個層級的測試？需要什麼文件支持這個決策？</li>
-                <li>若 MES 系統供應商宣布某版本將於 6 個月後停止安全補丁支援，你會如何制定升級策略？按本附錄的邏輯寫出行動步驟。</li>
+                <li> CDMO  ERP ，IT  OS 。？？</li>
+                <li> MES  6 ，？。</li>
             </ol>
         </div>
     </div>
@@ -1252,11 +1252,11 @@ Update       | 無即時威脅        | 納入下次定期升級
 <!-- ============================================================ -->
 <!-- APPENDIX 8: OUTSOURCING -->
 <!-- ============================================================ -->
-<div class="section-title"><strong>Appendix 8 — Outsourcing (p95–p99) Appendix 8 — 委外管理</strong></div>
+<div class="section-title"><strong>Appendix 8 — Outsourcing (p95–p99) Appendix 8 — </strong></div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
         <h3>1. Definition of Responsibilities</h3>
         <p>Outsourcing involves the transfer of management and operations of a company's IT Infrastructure to an external company. Scope includes: operation of a data center and/or networks; operation of systems and/or processes (e.g., Help Desk); hardware/software component build (e.g., workstation).</p>
         <p>The contracted service provider may have staff located on the regulated company's premises or provide services from a remote location (if on a different continent, 'offshoring' is sometimes used).</p>
@@ -1298,53 +1298,53 @@ Update       | 無即時威脅        | 納入下次定期升級
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="note-box">
-            <h4>重點提示：合規監督責任不可委外</h4>
-            <p>這是本附錄最關鍵的原則。無論 IT 系統由哪家供應商管理，法規責任永遠在受管制公司身上。就像藥廠委外生產，受託方（CMO）執行製造，但合規責任仍在委託方（MAH）。</p>
-            <p><strong>對 CDMO 的實際意涵：</strong>即便 IT 基礎設施完全委外給 AWS 或本地資服公司，FDA/EMA 稽查時，你仍需要能展示對供應商的有效監督——包括稽查紀錄、KPI 追蹤、CAPA 執行。「供應商說他們做了」不是合格答案。</p>
+            <h4>：</h4>
+            <p>。 IT ，。，（CMO），（MAH）。</p>
+            <p><strong> CDMO ：</strong> IT  AWS ，FDA/EMA ，——、KPI 、CAPA 。「」。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>委外 IT 就像餐廳外包食材供應。廚師（受管制公司）對菜品安全負責，即使食材是供應商送來的。合約定義食材規格（KPI），定期稽查供應商的廚房（Supplier Audit），食材抵達時要驗貨（入廠查核）。若食材出問題，顧客告的是餐廳，不是供應商。</p>
+            <h4> Analogy</h4>
+            <p> IT 。（），。（KPI），（Supplier Audit），（）。，，。</p>
         </div>
 
         <div class="formula-box">
-            <h4>SLA 必要元素清單 SLA Essential Elements</h4>
+            <h4>SLA  SLA Essential Elements</h4>
             <pre>
-合規相關必要項目（稽查重點）：
-1. KPIs 與接受標準（量化績效指標）
-2. 稽查權利條款（含法規機關現場稽查）
-3. 記錄保存所有權（合約結束後仍可取得）
-4. 事故通報等級與時效（Alert Levels）
-5. 培訓要求（供應商人員需受 GxP 訓練）
-6. 不合規時的處理程序與罰則
+（）：
+1. KPIs （）
+2. （）
+3. （）
+4. （Alert Levels）
+5. （ GxP ）
+6. 
             </pre>
         </div>
 
         <div class="concept-box">
-            <h4>核心概念：記錄保存所有權</h4>
-            <p>合約必須明確規定：若終止合約，受管制公司仍可存取所有 GxP 相關記錄。這在實務中常被忽略，直到供應商倒閉或合約到期才發現記錄被「鎖住」，無法配合稽查——這是嚴重的合規風險。</p>
+            <h4>：</h4>
+            <p>：， GxP 。，「」，——。</p>
         </div>
 
         <div class="concept-box application">
-            <h4>實務應用 Practical Application</h4>
-            <p>CDMO 委外雲端基礎設施給 AWS / Azure 時，必須在合約中明確：</p>
+            <h4> Practical Application</h4>
+            <p>CDMO  AWS / Azure ，：</p>
             <ul>
-                <li>FDA 稽查人員能否要求現場查核雲端服務商的資料中心？（需寫入合約）</li>
-                <li>CDMO 離開雲端平台時，所有 GxP 記錄如何移轉？格式？時限？</li>
-                <li>雲端供應商的安全事件通報義務（多少小時內必須告知客戶）？</li>
+                <li>FDA ？（）</li>
+                <li>CDMO ， GxP ？？？</li>
+                <li>（）？</li>
             </ul>
-            <p>這些都是合約談判時必須確認的項目，不是上線後再想。</p>
+            <p>，。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>你的 IT 供應商系統發生資料外洩事件，稽查員問你「你如何驗證供應商的合規性？」你能拿出哪些文件？</li>
-                <li>SLA 中的 KPI 應包含哪些具體指標？請為 CDMO 的 MES 雲端服務設計至少三個 GxP 相關 KPI。</li>
+                <li> IT ，「？」？</li>
+                <li>SLA  KPI ？ CDMO  MES  GxP  KPI。</li>
             </ol>
         </div>
     </div>
@@ -1353,12 +1353,12 @@ Update       | 無即時威脅        | 納入下次定期升級
 <!-- ============================================================ -->
 <!-- APPENDIX 9: SERVER MANAGEMENT -->
 <!-- ============================================================ -->
-<div class="section-title"><strong>Appendix 9 — Server Management (p99–p105) Appendix 9 — 伺服器管理</strong></div>
+<div class="section-title"><strong>Appendix 9 — Server Management (p99–p105) Appendix 9 — </strong></div>
 
 <!-- 9: Backup & Restore -->
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
         <h3>1. Introduction</h3>
         <p>The objective of the <span class="key-term">Server Management</span> process is to ensure that specified requirements for operational availability, performance, and security are consistently fulfilled by the server. An important part of the process is to manage server configuration and changes needed to meet the objectives.</p>
         <p>All quantitative measures provided in this Appendix are derived from actual situations and are meant to assist companies, not to prescribe absolutes.</p>
@@ -1411,33 +1411,33 @@ Update       | 無即時威脅        | 納入下次定期升級
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念：全量 vs. 增量備份策略</h4>
-            <p><strong>Full Backup（全量備份）：</strong>每週一次，備份所有資料。優點：還原簡單。缺點：時間長、佔空間。</p>
-            <p><strong>Incremental Backup（增量備份）：</strong>每日，只備份自上次備份後變更的資料。優點：快速、省空間。缺點：還原需要依序合併多個備份。</p>
-            <p>GxP 最低要求：全量每週一次 + 增量每日。這不是建議，是底線。</p>
+            <h4>： vs. </h4>
+            <p><strong>Full Backup（）：</strong>，。：。：、。</p>
+            <p><strong>Incremental Backup（）：</strong>，。：、。：。</p>
+            <p>GxP ： + 。，。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>備份策略就像工廠的照片記錄：每個月拍一次全廠大合照（全量備份），每天記錄今天哪裡有什麼變化（增量備份）。出事時，先找最近那張大合照，再依序套上之後每天的變化，就能還原到事故當天的狀態。</p>
-            <p>異地儲存就像把大合照的副本存在另一棟建築——同棟著火時，備份還能倖存。</p>
+            <h4> Analogy</h4>
+            <p>：（），（）。，，，。</p>
+            <p>——，。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p><strong>備份記錄的查核不等於測試還原：</strong>光看 backup log 顯示「成功」不夠。GxP 要求定期實際執行還原測試，並驗證還原後的資料與原始資料一致。「能備份」和「能還原」是兩件事。</p>
-            <p><strong>還原授權管控：</strong>資料還原操作必須驗證申請人身份及其查看資料的授權。在 21 CFR Part 11 系統中，未授權還原等同於未授權資料存取。</p>
-            <p><strong>媒體壽命陷阱：</strong>廠商標示的媒體壽命是空白媒體壽命，含資料的實際壽命遠較短。必須建立定期資料刷新（data refresh）計畫，避免長期備份資料自然損壞。</p>
+            <h4> Key Notes</h4>
+            <p><strong>：</strong> backup log 「」。GxP ，。「」「」。</p>
+            <p><strong>：</strong>。 21 CFR Part 11 ，。</p>
+            <p><strong>：</strong>，。（data refresh），。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>CDMO 的批次記錄系統週五晚上崩潰。使用週一全量備份 + 週二至週四增量備份，能否完整還原週四所有資料？還原順序是什麼？</li>
-                <li>稽查員詢問：「你如何確認備份的 GxP 記錄在異地儲存設施中仍可讀取？」你的標準作業程序應包含哪些驗證步驟？</li>
+                <li>CDMO 。 + ，？？</li>
+                <li>：「 GxP ？」？</li>
             </ol>
         </div>
     </div>
@@ -1446,7 +1446,7 @@ Update       | 無即時威脅        | 納入下次定期升級
 <!-- 9: Performance Monitoring & Remote Management -->
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
         <h3>3. Technical Performance and Capacity Monitoring</h3>
         <p>The performance of devices and services need to be monitored to ensure that stated or implied expectations can be achieved. Review results or alarms will trigger maintenance, update, support, or disaster recovery activities.</p>
         <p>Surveillance procedures should be developed and <span class="key-term">alert and action limits</span> defined. For time-critical systems, the platform manager should ensure enough reserve resources to meet surges in demand.</p>
@@ -1467,42 +1467,42 @@ Update       | 無即時威脅        | 納入下次定期升級
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念：Alert Limit vs. Action Limit</h4>
-            <p><strong>Alert Limit（警戒限）：</strong>系統開始發出警報，但尚未到達必須立即行動的程度。對應製造環境的環境監控警戒限——需要調查，評估是否趨近行動限。</p>
-            <p><strong>Action Limit（行動限）：</strong>必須立即採取糾正措施，如重啟服務、擴充資源、啟動災難恢復程序。對應環境監控的行動限——超過即觸發 CAPA。</p>
-            <p>這個雙層限制結構（Alert → Action）與 GxP 製造中的 OOT / OOS 處理邏輯完全一致，對 CDMO 人員來說是熟悉的概念框架。</p>
+            <h4>：Alert Limit vs. Action Limit</h4>
+            <p><strong>Alert Limit（）：</strong>，。——，。</p>
+            <p><strong>Action Limit（）：</strong>，、、。—— CAPA。</p>
+            <p>（Alert → Action） GxP  OOT / OOS ， CDMO 。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Table A9.1 解讀</h4>
-            <p>表中數值僅供參考（非絕對規定），應在系統安裝時建立基準線（Baseline），再依實際環境調整限制值。</p>
-            <p>對即時系統（Real-time system，如製程控制伺服器）而言，CPU &gt;80% 或可用記憶體 &lt;10 MB 是必須立即行動的警號——因為延遲回應直接影響製程控制，進而影響產品品質。</p>
-            <p>每日監控 + 自動化警報是合規要求，不是選擇。監控記錄本身就是 GxP 文件。</p>
+            <h4> Table A9.1 </h4>
+            <p>（），（Baseline），。</p>
+            <p>（Real-time system，），CPU &gt;80%  &lt;10 MB ——，。</p>
+            <p> + ，。 GxP 。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>伺服器效能監控就像無塵室的環境監控系統：設定警戒限和行動限，持續即時記錄，超標自動發警報，必須有 SOP 規定超標時的應對程序，且所有記錄都要保存以供稽查。兩者邏輯完全相同，只是監控對象從粒子計數換成了 CPU 使用率。</p>
+            <h4> Analogy</h4>
+            <p>：，，， SOP ，。， CPU 。</p>
         </div>
 
         <div class="concept-box application">
-            <h4>實務應用 Practical Application</h4>
-            <p>CDMO 遠端管理伺服器（例如總部 IT 管理分散在各廠的系統）時，安全要求包括：</p>
+            <h4> Practical Application</h4>
+            <p>CDMO （ IT ），：</p>
             <ul>
-                <li>使用加密通訊通道（如 VPN、SSH）——非加密的遠端存取是重大安全漏洞</li>
-                <li>遠端存取本身也需要存取控制記錄（WHO、WHEN、WHAT）</li>
-                <li>若透過委外供應商遠端管理，合約中必須明確規定安全通訊標準</li>
+                <li>（ VPN、SSH）——</li>
+                <li>（WHO、WHEN、WHAT）</li>
+                <li>，</li>
             </ul>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>稽查員要求查看過去 6 個月的伺服器效能監控記錄，以確認 MES 系統在批次生產期間的可用性。你的 IT 部門應提供哪些文件？記錄格式應如何設計才符合 GxP？</li>
-                <li>若 IT 供應商透過網際網路遠端管理你的 GxP 伺服器，你需要在合約和技術層面做哪些確認才能符合本附錄的安全要求？</li>
+                <li> 6 ， MES 。 IT ？ GxP？</li>
+                <li> IT  GxP ，？</li>
             </ol>
         </div>
     </div>
@@ -1510,13 +1510,13 @@ Update       | 無即時威脅        | 納入下次定期升級
 
 <!-- SECTION SUMMARY -->
 <div class="learning-objectives" style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);">
-    <h3>本節重點回顧 Section Summary</h3>
+    <h3> Section Summary</h3>
     <ul>
-        <li><strong>附錄六 CIA 三角：</strong>機密性／完整性／可用性是 GxP IT 資安的三大支柱，ISO/IEC 17799 是框架基礎，不需正式認證但需映射至內部政策並完成內稽。</li>
-        <li><strong>附錄六 補丁分類：</strong>三種緊急程度（Emergency Fix / Urgent Update / Update）決定行動時序；緊急補丁可事後補做變更控制，但不能省略文件化義務。</li>
-        <li><strong>附錄七 測試四級：</strong>No Testing（僅緊急）→ Confirmation（輕微升級）→ Confidence（顯著升級/GxP系統）→ Full Regression（主要升級）；多廠區可集中測試後減少其他廠區測試量。</li>
-        <li><strong>附錄八 委外原則：</strong>合規監督責任永遠在受管制公司，不可委派給供應商；SLA 必須包含 KPI、稽查權利、記錄保存所有權三大合規要素。</li>
-        <li><strong>附錄九 備份策略：</strong>全量（每週）＋增量（每日）是最低要求；異地儲存確保災難恢復；定期實際執行還原測試才能真正驗證備份有效性；效能監控採 Alert/Action 雙層限制，每日記錄並自動警報。</li>
+        <li><strong> CIA ：</strong>／／ GxP IT ，ISO/IEC 17799 ，。</li>
+        <li><strong> ：</strong>（Emergency Fix / Urgent Update / Update）；，。</li>
+        <li><strong> ：</strong>No Testing（）→ Confirmation（）→ Confidence（/GxP）→ Full Regression（）；。</li>
+        <li><strong> ：</strong>，；SLA  KPI、、。</li>
+        <li><strong> ：</strong>（）＋（）；；； Alert/Action ，。</li>
     </ul>
 </div>
 

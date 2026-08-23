@@ -63,7 +63,7 @@
 
 <div class="header">
     <h1>Annexes F–G &amp; Annex H (Part 1): Security Risks, Legacy Devices &amp; IVD Guidance</h1>
-    <div class="subtitle">附錄F-G及H前半：資安風險管理、舊型器材處理與體外診斷器材特殊指引</div>
+    <div class="subtitle">F-GH：、</div>
     <div class="page-info">ISO/TR 24971:2020 — Guidance on the Application of ISO 14971 | p55–p70</div>
     <span class="source-badge">ISO</span>
 </div>
@@ -72,19 +72,19 @@
 
     <!-- Learning Objectives -->
     <div class="learning-objectives">
-        <h3>本節學習目標 Learning Objectives</h3>
+        <h3> Learning Objectives</h3>
         <ul>
-            <li>理解資訊安全（security）與產品安全（safety）的概念差異，以及兩者如何在ISO 14971框架下交會 — Distinguish security from safety and understand how cybersecurity failures can trigger safety hazards.</li>
-            <li>掌握資安風險管理的關鍵術語：威脅（threat）、弱點（vulnerability）、保密性/完整性/可用性（CIA triad） — Apply security-specific terminology within the ISO 14971 risk management process.</li>
-            <li>能為舊型器材（legacy devices）建立回溯性風險管理文件的七步驟方法 — Execute a retrospective risk management file build for components designed without ISO 14971.</li>
-            <li>理解IVD器材的獨特風險特性：風險來源是「錯誤結果」而非直接物理傷害 — Recognize that IVD risks arise from incorrect/delayed results rather than direct physical contact with patients.</li>
-            <li>區分IVD的分析性能（analytical performance）與臨床性能（clinical performance），以及兩用途（分析用途/臨床用途）的風險分析要求 — Differentiate analytical use from clinical use in IVD risk analysis.</li>
-            <li>應用CDMO視角：評估何時接手既有產品製造需進行ISO 14971 gap assessment — Apply CDMO-specific awareness when taking on legacy or IVD product manufacturing.</li>
+            <li>（security）（safety），ISO 14971 — Distinguish security from safety and understand how cybersecurity failures can trigger safety hazards.</li>
+            <li>：（threat）、（vulnerability）、//（CIA triad） — Apply security-specific terminology within the ISO 14971 risk management process.</li>
+            <li>（legacy devices） — Execute a retrospective risk management file build for components designed without ISO 14971.</li>
+            <li>IVD：「」 — Recognize that IVD risks arise from incorrect/delayed results rather than direct physical contact with patients.</li>
+            <li>IVD（analytical performance）（clinical performance），（/） — Differentiate analytical use from clinical use in IVD risk analysis.</li>
+            <li>CDMO：ISO 14971 gap assessment — Apply CDMO-specific awareness when taking on legacy or IVD product manufacturing.</li>
         </ul>
     </div>
 
     <!-- ===================== ANNEX F ===================== -->
-    <h2 class="section-title">Annex F — Guidance on Risks Related to Security / 附錄F：資安相關風險指引 (p55–59)</h2>
+    <h2 class="section-title">Annex F — Guidance on Risks Related to Security / F： (p55–59)</h2>
 
     <!-- F.1 General -->
     <div class="two-column">
@@ -97,20 +97,20 @@
             <p>The definition of <em>harm</em> in ISO 14971:2019 applies to people, property, and the environment. For example, damage to an electronic health record (damage to property) can additionally result in incorrect diagnosis, which can lead to patient injury (damage to people).</p>
         </div>
         <div class="right-column">
-            <h2>F.1 資安與ISO 14971框架 — 中文說明</h2>
-            <p>ISO 14971:2019的風險管理流程可直接套用於醫療器材的<span class="key-term">資訊安全（security）</span>相關風險。標準明確將資料與系統安全納入適用範圍，以避免誤解認為需要另建一套獨立流程。</p>
-            <p>資安漏洞可造成<span class="key-term">危害（harm）</span>，例如：資料遺失、未授權存取、診斷資訊被竄改、軟體被破壞導致器材失效等。</p>
+            <h2>F.1 ISO 14971 — </h2>
+            <p>ISO 14971:2019<span class="key-term">（security）</span>。，。</p>
+            <p><span class="key-term">（harm）</span>，：、、、。</p>
             <div class="concept-box">
-                <h4>關鍵概念：Safety vs. Security</h4>
-                <p><strong>Safety（產品安全）</strong>：關注最終結果 — 器材是否對人員、財產或環境造成危害。</p>
-                <p><strong>Security（資訊安全）</strong>：關注過程 — 系統是否不受惡意或意外的hostile acts影響，維持機密性、完整性、可用性。</p>
-                <p>兩者關係：Security failure → 可能觸發 Safety hazard → 最終導致 harm。</p>
-                <p>ISO/IEC Guide 63建議「safety」不作形容詞使用（不說"safety risk"），而應說「risk related to safety」。</p>
+                <h4>：Safety vs. Security</h4>
+                <p><strong>Safety（）</strong>： — 、。</p>
+                <p><strong>Security（）</strong>： — hostile acts，、、。</p>
+                <p>：Security failure →  Safety hazard →  harm。</p>
+                <p>ISO/IEC Guide 63「safety」（"safety risk"），「risk related to safety」。</p>
             </div>
             <div class="analogy-box">
-                <h4>實例：胰島素注射幫浦（Insulin Pump）</h4>
-                <p>情境：駭客透過開放的網路埠（vulnerability）入侵，篡改劑量設定資料（loss of data integrity）→ 幫浦輸注錯誤劑量（hazardous situation）→ 病患低血糖昏迷或死亡（harm）。</p>
-                <p>這是資安事件，但同時也是ISO 14971框架下需要管理的安全風險——兩套流程在此交會。</p>
+                <h4>：（Insulin Pump）</h4>
+                <p>：（vulnerability），（loss of data integrity）→ （hazardous situation）→ （harm）。</p>
+                <p>，ISO 14971——。</p>
             </div>
         </div>
     </div>
@@ -131,16 +131,16 @@
             <p>The relationship between a hazard, sequence of events, hazardous situation, and harm relating to security is represented in Figure F.1 of the standard.</p>
         </div>
         <div class="right-column">
-            <h2>F.2 資安風險管理術語對照表</h2>
-            <p>資安領域有自己的術語體系，但可與ISO 14971的術語對應。以下整理核心對照：</p>
+            <h2>F.2 </h2>
+            <p>，ISO 14971。：</p>
             <div class="note-box">
-                <h4>CIA Triad — 資安三要素</h4>
+                <h4>CIA Triad — </h4>
                 <ul>
-                    <li><strong>Confidentiality（保密性）</strong>：資料不被未授權者取得</li>
-                    <li><strong>Integrity（完整性）</strong>：資料準確且完整，不被竄改</li>
-                    <li><strong>Availability（可用性）</strong>：授權使用者能隨時存取系統</li>
+                    <li><strong>Confidentiality（）</strong>：</li>
+                    <li><strong>Integrity（）</strong>：，</li>
+                    <li><strong>Availability（）</strong>：</li>
                 </ul>
-                <p>在醫療器材中，任何一項CIA遭受破壞，都可能引發病患安全風險（patient safety risk）。</p>
+                <p>，CIA，（patient safety risk）。</p>
             </div>
         </div>
     </div>
@@ -156,31 +156,31 @@
             <p>ISO 14971:2019 requires evaluation of risks arising from risk control measures. It is possible that new risks are introduced by security control measures. For example, requiring a password before using a life-saving device (e.g. AED) — the potential for delays due to a forgotten password might be unacceptable. Therefore different options should be considered. (Figure F.2 in the standard illustrates this interaction.)</p>
         </div>
         <div class="right-column">
-            <h2>F.3–F.4 與ISO 14971的關係及資安風險管理特性</h2>
-            <h3>資安風險 vs. 一般安全風險：主要差異</h3>
+            <h2>F.3–F.4 ISO 14971</h2>
+            <h3> vs. ：</h3>
             <div class="concept-box">
-                <h4>發生機率的不同估算邏輯</h4>
-                <p><strong>一般安全風險</strong>：發生機率主要由設計、製造、材料選擇、公差等因素決定 — 可預測性高。</p>
-                <p><strong>資安風險</strong>：發生機率受攻擊者動機、財務誘因、漏洞公開程度影響 — 難以預估。一旦漏洞資訊被公開在網路上，機率可能從「極罕見」瞬間變為「每次都會發生」。</p>
+                <h4></h4>
+                <p><strong></strong>：、、、 — 。</p>
+                <p><strong></strong>：、、 — 。，「」「」。</p>
             </div>
             <div class="concept-box">
-                <h4>嚴重度（Severity）的特殊考量</h4>
-                <p>一般安全風險的嚴重度通常聚焦在直接身體傷害（輕傷→需醫療介入→永久損傷/死亡）。</p>
-                <p>資安風險的嚴重度則需考量CIA三要素的喪失程度，以及對器材功能的間接影響。</p>
+                <h4>（Severity）</h4>
+                <p>（→→/）。</p>
+                <p>CIA，。</p>
             </div>
             <div class="analogy-box">
-                <h4>風控措施的「雙刃劍效應」</h4>
-                <p>場景：為了防止駭客入侵自動體外心臟去顫器（AED），設計了密碼保護功能（資安控制措施）。</p>
-                <p>反效果：急救現場若忘記密碼，無法及時啟動 → 心臟驟停病患無法獲救（新的安全風險）。</p>
-                <p>結論：資安風控措施可能引入新的安全風險，反之亦然。ISO 14971要求必須評估風控措施所帶來的次生風險。</p>
+                <h4>「」</h4>
+                <p>：（AED），（）。</p>
+                <p>：， → （）。</p>
+                <p>：，。ISO 14971。</p>
             </div>
             <div class="note-box">
-                <h4>CDMO視角：資安風險與無菌製造</h4>
-                <p>Fill-finish製程本身（灌裝、壓蓋、凍乾）通常不直接引入資安風險，但CDMO應了解：</p>
+                <h4>CDMO：</h4>
+                <p>Fill-finish（、、），CDMO：</p>
                 <ul>
-                    <li>客戶產品若含有嵌入式軟體或連網功能（如智慧型注射裝置、自動注射器搭配app），則附錄F適用。</li>
-                    <li>當客戶要求CDMO製造combination product時，需確認器材部分是否已完成資安風險評估。</li>
-                    <li>製造控制系統（MES、SCADA）本身的資安，雖非ISO 14971範疇，但影響GMP合規（21 CFR Part 11 / GAMP 5）。</li>
+                    <li>（、app），F。</li>
+                    <li>CDMOcombination product，。</li>
+                    <li>（MES、SCADA），ISO 14971，GMP（21 CFR Part 11 / GAMP 5）。</li>
                 </ul>
             </div>
         </div>
@@ -199,17 +199,17 @@
             <p>These examples indicate that risks related to security can impact the patient's health, depending on the intended use of the device.</p>
         </div>
         <div class="right-column">
-            <h2>F.5 CIA三要素的優先排序</h2>
-            <p>製造商應根據器材的<span class="key-term">預期用途（intended use）</span>，決定三項資安要素（CIA）的優先順序。沒有放諸四海皆準的答案：</p>
+            <h2>F.5 CIA</h2>
+            <p><span class="key-term">（intended use）</span>，（CIA）。：</p>
             <div class="note-box">
-                <h4>注意：未加密設計特徵的風險</h4>
-                <p>若器材的設計特徵（data at rest或in transit）未加密，逆向工程可能暴露器材操作邏輯，進而允許攻擊者操控器材傷害病患 — 這是保密性（Confidentiality）失效導致安全（Safety）風險的典型路徑。</p>
+                <h4>：</h4>
+                <p>（data at restin transit），， — （Confidentiality）（Safety）。</p>
             </div>
         </div>
     </div>
 
     <!-- ===================== ANNEX G ===================== -->
-    <h2 class="section-title">Annex G — Components and Devices Designed Without Using ISO 14971 / 附錄G：未依ISO 14971設計的器材處理 (p60–61)</h2>
+    <h2 class="section-title">Annex G — Components and Devices Designed Without Using ISO 14971 / G：ISO 14971 (p60–61)</h2>
 
     <!-- G.1 General -->
     <div class="two-column">
@@ -221,26 +221,26 @@
             <p>This annex aims to provide manufacturers with guidance on how available information can be used to build an initial risk management file that can be maintained in the future.</p>
         </div>
         <div class="right-column">
-            <h2>G.1 舊型器材的挑戰 — 中文說明</h2>
-            <p><span class="key-term">Legacy device（舊型器材）</span>是指在ISO 14971出現之前、或在現行版本之前已設計完成的醫療器材，其風險管理文件可能不完整甚至缺失。</p>
+            <h2>G.1  — </h2>
+            <p><span class="key-term">Legacy device（）</span>ISO 14971、，。</p>
             <div class="analogy-box">
-                <h4>真實場景：製造商繼承舊有產品線</h4>
-                <p>某公司透過併購取得一款已上市十年的注射裝置，發現原廠風險管理文件付之闕如 — 僅有安規測試報告和少量抱怨記錄。</p>
-                <p>ISO/TR 24971附錄G的建議：不要從零開始，而是利用現有的上市後資料（post-market data）、可靠度資料、生產記錄，回溯建構初始風險管理文件（initial risk management file）。</p>
+                <h4>：</h4>
+                <p>， — 。</p>
+                <p>ISO/TR 24971G：，（post-market data）、、，（initial risk management file）。</p>
             </div>
             <div class="note-box">
-                <h4>CDMO視角：接手既有產品製造</h4>
-                <p>當CDMO從客戶或另一CDMO接手既有（legacy）產品的製造時，應考慮：</p>
+                <h4>CDMO：</h4>
+                <p>CDMOCDMO（legacy），：</p>
                 <ul>
-                    <li>要求客戶提供完整的ISO 14971合規風險管理文件</li>
-                    <li>若文件不完整，協助進行<span class="key-term">gap assessment</span>（差距分析）</li>
-                    <li>製造工藝變更（如設備、包材、製程參數）可能引入新的風險，需重新評估</li>
-                    <li>附錄G的七步驟方法可作為補救（remediation）的工作框架</li>
+                    <li>ISO 14971</li>
+                    <li>，<span class="key-term">gap assessment</span>（）</li>
+                    <li>（、、），</li>
+                    <li>G（remediation）</li>
                 </ul>
             </div>
             <div class="concept-box">
-                <h4>「Medical device」定義提示</h4>
-                <p>附錄G的「Medical device」包括其子系統、組件（含醫療及非醫療來源的軟體元件）。因此，即使只是一個第三方採購的零組件未依ISO 14971評估，整台器材的合規性也可能受影響。</p>
+                <h4>「Medical device」</h4>
+                <p>G「Medical device」、（）。，ISO 14971，。</p>
             </div>
         </div>
     </div>
@@ -261,20 +261,20 @@
             </ol>
         </div>
         <div class="right-column">
-            <h2>G.2 舊型器材風險管理計畫的重點</h2>
-            <p>附錄G特別強調：建立合規的Risk Management Plan時，必須顧及「從現在起的剩餘生命週期」而非僅補充過去缺失的文件。</p>
+            <h2>G.2 </h2>
+            <p>G：Risk Management Plan，「」。</p>
             <div class="concept-box">
-                <h4>關鍵點 d)：無法估算發生機率時的處理</h4>
-                <p>舊型器材的資料往往不足以統計計算發生機率（probability of occurrence）。ISO 14971允許在<strong>計畫中明訂</strong>當機率無法估算時的風險可接受準則（例如：以嚴重度作為主要判斷依據）。</p>
-                <p>這對legacy device審查非常重要：不能以「沒有資料」為由迴避風險評估。</p>
+                <h4> d)：</h4>
+                <p>（probability of occurrence）。ISO 14971<strong></strong>（：）。</p>
+                <p>legacy device：「」。</p>
             </div>
             <div class="concept-box">
-                <h4>關鍵點 e)：整體殘餘風險評估</h4>
-                <p>除了個別風險的可接受性，ISO 14971要求評估<span class="key-term">overall residual risk（整體殘餘風險）</span>。舊型器材常見的缺口就在這裡 — 只有個別元件的安規測試，缺乏整體風險評估。</p>
+                <h4> e)：</h4>
+                <p>，ISO 14971<span class="key-term">overall residual risk（）</span>。 — ，。</p>
             </div>
             <div class="concept-box">
-                <h4>關鍵點 g)：上市後資訊回饋</h4>
-                <p>對於已上市的legacy device，上市後監視（post-market surveillance）資料（客訴、不良事件報告、競品資料）往往是建立初始風險管理文件的最重要資訊來源。</p>
+                <h4> g)：</h4>
+                <p>legacy device，（post-market surveillance）（、、）。</p>
             </div>
         </div>
     </div>
@@ -297,29 +297,29 @@
             <p>The risk management file and other documents generated during these steps form the initial risk management file.</p>
         </div>
         <div class="right-column">
-            <h2>G.3 建立初始風險管理文件的七步驟</h2>
+            <h2>G.3 </h2>
             <div class="practice-box">
-                <h4>七步驟流程 — 實務操作指南</h4>
+                <h4> — </h4>
                 <ol>
-                    <li><strong>記錄預期用途與安全特性</strong>：從上市後資料（如客訴、ADE報告）萃取實際使用情況，參考附錄A問題清單辨識安全相關特性。</li>
-                    <li><strong>盤點既有的風險控制措施</strong>：器材上現有的設計特徵（如保護蓋、警報、使用限制）都可能是風控措施，只是從未被文件化為「risk control measure」。</li>
-                    <li><strong>識別所有危害與危險情況</strong>：從已知的hazards出發，推導可能的hazardous situations與harm。</li>
-                    <li><strong>找出未受控的危害</strong>：對沒有任何風控措施的危害，立即啟動ISO 14971評估流程；對有風控措施的，驗證其有效性並評估殘餘風險。</li>
-                    <li><strong>建立可追溯性矩陣</strong>：危害 → 危險情況 → 可能傷害 → 風控措施 → 驗證結果 → 殘餘風險可接受性，形成完整的traceability chain。</li>
-                    <li><strong>整體殘餘風險評估</strong>：依ISO 14971:2019 Clause 8進行整體評估，確保benefit-risk balance可接受。</li>
-                    <li><strong>風險管理報告審查</strong>：依ISO 14971:2019 Clause 9完成審查，撰寫Risk Management Report，與上述文件共同構成初始風險管理文件。</li>
+                    <li><strong></strong>：（、ADE），A。</li>
+                    <li><strong></strong>：（、、），「risk control measure」。</li>
+                    <li><strong></strong>：hazards，hazardous situationsharm。</li>
+                    <li><strong></strong>：，ISO 14971；，。</li>
+                    <li><strong></strong>： →  →  →  →  → ，traceability chain。</li>
+                    <li><strong></strong>：ISO 14971:2019 Clause 8，benefit-risk balance。</li>
+                    <li><strong></strong>：ISO 14971:2019 Clause 9，Risk Management Report，。</li>
                 </ol>
             </div>
             <div class="analogy-box">
-                <h4>比喻：老屋翻修的結構安全評估</h4>
-                <p>Legacy device就像購入一棟老屋 — 建築本身存在，但建築圖說可能殘缺，也未曾做過現代標準的結構安全評估。</p>
-                <p>正確做法不是拆掉重建，而是：先盤點現有結構（步驟1-2）→ 找出潛在問題（步驟3-4）→ 補強並記錄（步驟5）→ 整體評估是否安全可居（步驟6-7）。</p>
+                <h4>：</h4>
+                <p>Legacy device — ，，。</p>
+                <p>，：（1-2）→ （3-4）→ （5）→ （6-7）。</p>
             </div>
         </div>
     </div>
 
     <!-- ===================== ANNEX H (Part 1) ===================== -->
-    <h2 class="section-title">Annex H (Part 1) — Guidance for In Vitro Diagnostic (IVD) Medical Devices / 附錄H前半：體外診斷器材特殊指引 (p62–70)</h2>
+    <h2 class="section-title">Annex H (Part 1) — Guidance for In Vitro Diagnostic (IVD) Medical Devices / H： (p62–70)</h2>
 
     <!-- H.1 General -->
     <div class="two-column">
@@ -335,28 +335,28 @@
             <p>Some IVD medical devices are intended for use by clinicians at the point of care, while self-testing devices are actually used by patients. The user's ability to control risks can be more limited, so point-of-care and self-testing devices must be designed with risk control measures appropriate for the (intended) users and use environment outside laboratories.</p>
         </div>
         <div class="right-column">
-            <h2>H.1 IVD器材風險管理背景 — 中文說明</h2>
+            <h2>H.1 IVD — </h2>
             <div class="concept-box">
-                <h4>什麼是IVD醫療器材？</h4>
-                <p><span class="key-term">IVD（In Vitro Diagnostic / 體外診斷器材）</span>：用於對人體取得的樣本（血液、尿液、組織切片等）進行體外檢測的器材。</p>
-                <p>關鍵特點：<strong>檢測過程中器材不直接接觸病患</strong>。風險不來自「器材本身傷害病患」，而來自「錯誤的檢測結果導致錯誤的臨床決策」。</p>
-                <p>例如：血糖機、HIV快篩試劑、生化分析儀、PCR檢測系統、免疫組化染色試劑。</p>
+                <h4>IVD？</h4>
+                <p><span class="key-term">IVD（In Vitro Diagnostic / ）</span>：（、、）。</p>
+                <p>：<strong></strong>。「」，「」。</p>
+                <p>：、HIV、、PCR、。</p>
             </div>
             <div class="analogy-box">
-                <h4>IVD風險的獨特性：間接傷害路徑</h4>
-                <p>一般醫療器材（如手術刀、心律調節器）的風險路徑相對直接：器材故障 → 直接傷害病患。</p>
-                <p>IVD器材的風險路徑較長且間接：</p>
-                <p>檢測結果錯誤 → 臨床醫師誤判 → 錯誤治療或漏診 → 病患受害。</p>
-                <p>中間存在多個「有能力的中間人（competent intermediaries）」：實驗室技術員、臨床醫師。這些中間人的行為可以放大或緩衝IVD器材的風險。</p>
+                <h4>IVD：</h4>
+                <p>（、）： → 。</p>
+                <p>IVD：</p>
+                <p> →  →  → 。</p>
+                <p>「（competent intermediaries）」：、。IVD。</p>
             </div>
             <div class="note-box">
-                <h4>CDMO視角：填充IVD試劑的特殊考量</h4>
-                <p>CDMOs承接IVD試劑（如診斷用抗體試劑、PCR試劑）的灌裝時，應了解：</p>
+                <h4>CDMO：IVD</h4>
+                <p>CDMOsIVD（、PCR），：</p>
                 <ul>
-                    <li>客戶的風險管理文件必須涵蓋「錯誤結果」的風險路徑</li>
-                    <li>製造相關風險（如試劑批次不一致、交叉污染）直接影響分析性能（analytical performance），進而影響病患安全</li>
-                    <li>IVD試劑的穩定性（stability）、標定值可追溯性（calibration traceability）是風險管理的關鍵控制點</li>
-                    <li>殘餘風險揭露（residual risk disclosure）需透過IFU（說明書）傳遞給實驗室使用者</li>
+                    <li>「」</li>
+                    <li>（、）（analytical performance），</li>
+                    <li>IVD（stability）、（calibration traceability）</li>
+                    <li>（residual risk disclosure）IFU（）</li>
                 </ul>
             </div>
         </div>
@@ -386,14 +386,14 @@
             </ul>
         </div>
         <div class="right-column">
-            <h2>H.2.1 預期用途與可合理預見的誤用</h2>
-            <h3>IVD的雙重用途框架</h3>
+            <h2>H.2.1 </h2>
+            <h3>IVD</h3>
             <div class="analogy-box">
-                <h4>實例：血糖自我監測（SMBG）</h4>
-                <p><strong>分析用途</strong>：病患在家用採血針取血，滴在試紙上，等待結果 — 使用者就是病患。</p>
-                <p><strong>臨床用途</strong>：數值用於決定胰島素劑量 — 使用者同時也是決策者（病患）。</p>
-                <p>風險分析必須考慮：若結果偏高（false high）→ 病患注射過多胰島素 → 低血糖昏迷；若結果偏低（false low）→ 胰島素不足 → 高血糖危機。</p>
-                <p>此場景中IVD結果直接驅動治療行動，風險影響最大。</p>
+                <h4>：（SMBG）</h4>
+                <p><strong></strong>：，， — 。</p>
+                <p><strong></strong>： — （）。</p>
+                <p>：（false high）→  → ；（false low）→  → 。</p>
+                <p>IVD，。</p>
             </div>
         </div>
     </div>
@@ -425,33 +425,33 @@
             <p>Clinical use categories include: diagnosis/treatment/prevention; measuring body constituents; monitoring therapeutic drug levels; determining safety of donated blood/organs; screening for markers; predicting effectiveness of therapeutics ("companion diagnostic"); predicting risk of disease development.</p>
         </div>
         <div class="right-column">
-            <h2>H.2.1.3–H.2.1.4 分析用途與臨床用途詳解</h2>
+            <h2>H.2.1.3–H.2.1.4 </h2>
             <div class="concept-box">
-                <h4>分析用途風險問題的核心</h4>
-                <p>分析用途的風險分析需要回答：「什麼樣的分析錯誤，在什麼情況下，會導致臨床有害後果？」</p>
-                <p>干擾物質（interfering substances）是IVD分析用途風險的常見來源：</p>
+                <h4></h4>
+                <p>：「，，？」</p>
+                <p>（interfering substances）IVD：</p>
                 <ul>
-                    <li>溶血（hemolysis）干擾電解質、酶類測定</li>
-                    <li>高脂血症（lipemia）干擾光學法測定</li>
-                    <li>某些藥物干擾免疫測定（immunoassay）</li>
-                    <li>生物素（biotin）補充劑干擾多種免疫測定，曾導致心肌梗塞漏診的案例</li>
+                    <li>（hemolysis）、</li>
+                    <li>（lipemia）</li>
+                    <li>（immunoassay）</li>
+                    <li>（biotin），</li>
                 </ul>
             </div>
             <div class="concept-box">
-                <h4>臨床用途的風險分析重點</h4>
-                <p>製造商可能不是臨床專家，但必須理解其IVD在臨床決策中的角色。重要問題：</p>
+                <h4></h4>
+                <p>，IVD。：</p>
                 <ul>
-                    <li><strong>這是唯一的診斷依據嗎？</strong>還是與其他資訊結合使用？若為唯一依據，錯誤結果的風險更高。</li>
-                    <li><strong>臨床醫師能察覺異常結果嗎？</strong>若結果雖錯誤但在臨床邏輯上說得通，醫師更可能接受錯誤結果。</li>
-                    <li><strong>延遲結果有多嚴重？</strong>急診環境下，結果延遲數小時可能造成不可逆傷害。</li>
+                    <li><strong>？</strong>？，。</li>
+                    <li><strong>？</strong>，。</li>
+                    <li><strong>？</strong>，。</li>
                 </ul>
             </div>
             <div class="note-box">
-                <h4>Companion Diagnostic（伴隨診斷）的特殊風險</h4>
-                <p>Companion diagnostic是預測特定藥物（如標靶治療、免疫療法）對特定病患有效性的IVD。</p>
-                <p>False negative → 病患被判定「不適合」該療法 → 失去有效治療機會（loss of therapeutic benefit）。</p>
-                <p>False positive → 病患接受實際無效的療法 → 延誤替代治療 + 藥物副作用（iatrogenic harm）。</p>
-                <p>這類IVD的風險分析需要腫瘤科臨床專家的深度參與。</p>
+                <h4>Companion Diagnostic（）</h4>
+                <p>Companion diagnostic（、）IVD。</p>
+                <p>False negative → 「」 → （loss of therapeutic benefit）。</p>
+                <p>False positive →  →  + （iatrogenic harm）。</p>
+                <p>IVD。</p>
             </div>
         </div>
     </div>
@@ -468,21 +468,21 @@
             <p><strong>c) Qualitative examinations</strong> determine presence or absence of an analyte, reported as positive/negative/indeterminate. A positive result when analyte is absent (false positive) or a negative result when analyte is present (false negative) can affect diagnosis or treatment. Performance characteristics include: analytical sensitivity (fraction of true positives in samples containing analyte); analytical specificity (fraction of true negatives in samples not containing analyte); diagnostic sensitivity (fraction of true positives in patients with disease); diagnostic specificity (fraction of true negatives in patients without disease).</p>
         </div>
         <div class="right-column">
-            <h2>H.2.2 與病患安全相關的特性</h2>
+            <h2>H.2.2 </h2>
             <div class="concept-box">
-                <h4>IVD獨特的「安全特性」類別</h4>
-                <p>ISO 14971附錄A的安全特性問題清單涵蓋一般醫療器材。IVD額外需要考量：</p>
+                <h4>IVD「」</h4>
+                <p>ISO 14971A。IVD：</p>
                 <ul>
-                    <li><strong>分析性能特性（Analytical performance）</strong>：準確度、精密度、特異性、靈敏度等</li>
-                    <li><strong>可靠度特性（Reliability）</strong>：系統故障時間、試劑穩定性</li>
-                    <li><strong>數位資訊技術特性（Digital IT）</strong>：資料傳輸、結果報告的準確性</li>
+                    <li><strong>（Analytical performance）</strong>：、、、</li>
+                    <li><strong>（Reliability）</strong>：、</li>
+                    <li><strong>（Digital IT）</strong>：、</li>
                 </ul>
             </div>
             <div class="analogy-box">
-                <h4>False Positive vs. False Negative — 風險的不對稱性</h4>
-                <p><strong>False negative（偽陰性）</strong>：病患有病卻被判為無病 → 漏診 → 疾病惡化、錯失治療黃金時機。</p>
-                <p><strong>False positive（偽陽性）</strong>：病患無病卻被判為有病 → 過度診斷 → 不必要的治療（手術、化療）帶來的醫源性傷害（iatrogenic harm）及心理創傷。</p>
-                <p>兩種錯誤的harm性質不同，嚴重度和可接受標準也可能不同 — 風險分析必須分開評估。</p>
+                <h4>False Positive vs. False Negative — </h4>
+                <p><strong>False negative（）</strong>： →  → 、。</p>
+                <p><strong>False positive（）</strong>： →  → （、）（iatrogenic harm）。</p>
+                <p>harm， — 。</p>
             </div>
         </div>
     </div>
@@ -506,33 +506,33 @@
             <p>Digital information technology characteristics that can affect patient safety include: wireless/wired connections; internet data transmission; interface with digital applications; applications emulating IVD results; embedded software applications; unshielded data transfer (ESD susceptibility); digital data storage susceptibility; disruption of connected devices.</p>
         </div>
         <div class="right-column">
-            <h2>H.2.2.3–H.2.2.4 可靠度與數位資訊技術特性</h2>
+            <h2>H.2.2.3–H.2.2.4 </h2>
             <div class="concept-box">
-                <h4>時效性（Timeliness）作為安全特性</h4>
-                <p>在急診或加護環境中，「結果能否及時提供」與「結果是否準確」同樣重要。</p>
-                <p>情境：急性心肌梗塞病患入院，需快速troponin檢測結果以決定是否啟動心導管手術。若系統故障導致結果延遲2小時 → 黃金治療時窗喪失 → 心肌壞死範圍擴大。</p>
-                <p>因此，IVD器材的<span class="key-term">可靠度（reliability）</span>本身就是一項安全特性，需納入風險分析。</p>
+                <h4>（Timeliness）</h4>
+                <p>，「」「」。</p>
+                <p>：，troponin。2 →  → 。</p>
+                <p>，IVD<span class="key-term">（reliability）</span>，。</p>
             </div>
             <div class="concept-box">
-                <h4>輔助資訊錯誤的風險</h4>
-                <p>IVD結果的解讀不僅依賴數值本身，還需要正確的輔助資訊（ancillary information）：</p>
+                <h4></h4>
+                <p>IVD，（ancillary information）：</p>
                 <ul>
-                    <li>病患識別碼錯誤 → 結果歸錯病患 → 甲的檢查結果用於乙的診療</li>
-                    <li>採樣時間錯誤 → 動態監測誤判趨勢</li>
-                    <li>Cut-off值使用不當版本 → 定性判斷錯誤</li>
+                    <li> →  → </li>
+                    <li> → </li>
+                    <li>Cut-off → </li>
                 </ul>
-                <p>這些資訊錯誤可能比數值本身的誤差更危險，因為臨床醫師往往不會質疑輔助資訊的準確性。</p>
+                <p>，。</p>
             </div>
             <div class="note-box">
-                <h4>連網IVD器材的資安與安全交叉風險</h4>
-                <p>現代IVD器材大量連網，與附錄F的資安風險在此交會：</p>
+                <h4>IVD</h4>
+                <p>IVD，F：</p>
                 <ul>
-                    <li>數據傳輸被攔截篡改 → 結果錯誤</li>
-                    <li>第三方應用程式仿冒IVD器材發送假結果</li>
-                    <li>軟體配置被惡意竄改 → 系統性錯誤結果（對所有樣本）</li>
-                    <li>智慧型設備OS更新導致應用程式失效 → 結果延遲或無法取得</li>
+                    <li> → </li>
+                    <li>IVD</li>
+                    <li> → （）</li>
+                    <li>OS → </li>
                 </ul>
-                <p>連網IVD器材需同時遵循資安風險管理（附錄F）與IVD特殊風險管理（附錄H）的要求。</p>
+                <p>IVD（F）IVD（H）。</p>
             </div>
         </div>
     </div>
@@ -563,17 +563,17 @@
             </ul>
         </div>
         <div class="right-column">
-            <h2>H.2.3 已知及可預見的危害</h2>
+            <h2>H.2.3 </h2>
             <div class="note-box">
-                <h4>故障條件（Fault Conditions）中的CDMO製造風險</h4>
-                <p>批次間不一致性（batch-to-batch inconsistency）直接與CDMO的製造過程相關：</p>
+                <h4>（Fault Conditions）CDMO</h4>
+                <p>（batch-to-batch inconsistency）CDMO：</p>
                 <ul>
-                    <li>試劑原料批次差異 → 校正值需重新標定</li>
-                    <li>灌裝體積偏差 → 濃度偏差 → 訊號強度不穩定</li>
-                    <li>儲存溫度偏差（運輸鏈溫度失控）→ 試劑提前降解</li>
-                    <li>交叉污染（共用設備清潔不徹底）→ 特異性（specificity）下降</li>
+                    <li> → </li>
+                    <li> →  → </li>
+                    <li>（）→ </li>
+                    <li>（）→ （specificity）</li>
                 </ul>
-                <p>這些製造缺陷可直接轉化為IVD風險管理中的fault conditions，是CDMO品質控制直接影響病患安全的典型路徑。</p>
+                <p>IVDfault conditions，CDMO。</p>
             </div>
         </div>
     </div>
@@ -601,27 +601,27 @@
             <p>Examples include: using device before reading IFU or completing training; collecting inappropriate sample type; reporting results for contraindicated clinical use; using self-testing device in critical care settings; using unverified third-party calibrators/reagents/controls; storing materials incorrectly; operating outside specified environmental conditions; disabling safety features; neglecting prescribed maintenance; malicious intent to create incorrect results.</p>
         </div>
         <div class="right-column">
-            <h2>H.2.3.3–H.2.3.5 正常使用、使用錯誤與可預見誤用</h2>
+            <h2>H.2.3.3–H.2.3.5 、</h2>
             <div class="analogy-box">
-                <h4>「正常使用下的危害」— 難以迴避的現實</h4>
-                <p>重要觀念：即使器材完全正常運作，IVD的統計本質決定了某些「錯誤」不可避免：</p>
+                <h4>「」— </h4>
+                <p>：，IVD「」：</p>
                 <ul>
-                    <li>定性測試的cut-off值是統計設定的，必然存在<strong>inherent false positive/negative rate</strong></li>
-                    <li>定量測試的precision specification通常涵蓋95%結果，表示5%的結果天然落於規格外</li>
-                    <li>參考區間（reference interval）基於95%「正常」族群，表示5%健康人的結果被標記為「異常」</li>
+                    <li>cut-off，<strong>inherent false positive/negative rate</strong></li>
+                    <li>precision specification95%，5%</li>
+                    <li>（reference interval）95%「」，5%「」</li>
                 </ul>
-                <p>這些情況在ISO 14971框架下屬於<span class="key-term">殘餘風險（residual risk）</span>，必須在風險管理報告中明確記錄，並透過IFU告知使用者。</p>
+                <p>ISO 14971<span class="key-term">（residual risk）</span>，，IFU。</p>
             </div>
             <div class="concept-box">
-                <h4>使用錯誤 vs. 可預見誤用的區別</h4>
-                <p><strong>Use error（使用錯誤）</strong>：使用者本有意正確操作，但因器材設計或流程問題導致錯誤發生。例如：說明書不清晰導致步驟順序錯誤。</p>
-                <p><strong>Reasonably foreseeable misuse（可合理預見的誤用）</strong>：使用者偏離預期用途，但這種偏離基於人類行為是可預測的。例如：自我檢測器材被用於急重症環境（因為「手邊只有這個」）。</p>
-                <p>兩者都需要在風險分析中識別，並透過設計措施或警告標示來減輕風險。</p>
+                <h4> vs. </h4>
+                <p><strong>Use error（）</strong>：，。：。</p>
+                <p><strong>Reasonably foreseeable misuse（）</strong>：，。：（「」）。</p>
+                <p>，。</p>
             </div>
             <div class="note-box">
-                <h4>特別注意：第三方耗材的誤用風險</h4>
-                <p>使用未經驗證的第三方校正品、試劑或控制品，是IVD領域最常見的可預見誤用之一。</p>
-                <p>CDMO或試劑製造商在IFU中必須明確說明：僅限使用指定耗材，並說明使用其他耗材的風險。監管機構（如FDA 510(k)、EU IVDR）的審查重點之一就是製造商如何應對此類誤用。</p>
+                <h4>：</h4>
+                <p>、，IVD。</p>
+                <p>CDMOIFU：，。（FDA 510(k)、EU IVDR）。</p>
             </div>
         </div>
     </div>
@@ -644,20 +644,20 @@
             </ul>
         </div>
         <div class="right-column">
-            <h2>H.2.4 潛在傷害的識別與嚴重度評估</h2>
+            <h2>H.2.4 </h2>
             <div class="concept-box">
-                <h4>臨床場景驅動的危害識別</h4>
-                <p>IVD風險分析中最核心的挑戰：製造商需要像臨床醫師一樣思考 — 「如果這個結果是錯的，病患會怎樣？」</p>
-                <p>因此，ISO/TR 24971強調：<strong>具資格的醫療專家參與IVD風險分析是必要的（essential）</strong>，而非可選的。</p>
+                <h4></h4>
+                <p>IVD： — 「，？」</p>
+                <p>，ISO/TR 24971：<strong>IVD（essential）</strong>，。</p>
             </div>
             <div class="practice-box">
-                <h4>IVD風險分析實務步驟</h4>
+                <h4>IVD</h4>
                 <ol>
-                    <li>明確器材的分析用途（analyte, specimen type, method）和臨床用途（適應症、病患族群）</li>
-                    <li>邀請臨床專家（相關科別醫師）參與危害識別工作坊</li>
-                    <li>對每一種可能的結果錯誤類型（偽陰性、偽陽性、延遲、數值錯誤）分別識別潛在危害</li>
-                    <li>評估嚴重度時考量：多個possible harms（同一危險情況可能導致不同嚴重程度的危害），選取最可能且最嚴重者納入分析</li>
-                    <li>確保殘餘風險資訊完整揭露於IFU，並透過警語（warnings）和注意事項（precautions）指導臨床使用</li>
+                    <li>（analyte, specimen type, method）（、）</li>
+                    <li>（）</li>
+                    <li>（、、、）</li>
+                    <li>：possible harms（），</li>
+                    <li>IFU，（warnings）（precautions）</li>
                 </ol>
             </div>
         </div>
@@ -691,29 +691,29 @@
             </ul>
         </div>
         <div class="right-column">
-            <h2>重點總結 — 附錄F、G及H前半</h2>
-            <h3>附錄F：資安風險</h3>
+            <h2> — F、GH</h2>
+            <h3>F：</h3>
             <ul>
-                <li>資安風險無需另建流程 — ISO 14971的風險管理框架直接適用。</li>
-                <li>Security ≠ Safety，但security失效可導致safety hazard，兩者在ISO 14971框架下交會。</li>
-                <li>CIA三要素（保密性、完整性、可用性）的優先排序取決於器材的預期用途，無固定順序。</li>
-                <li>資安控制措施可能引入新的安全風險（如密碼保護延誤急救）— 必須評估次生風險。</li>
+                <li> — ISO 14971。</li>
+                <li>Security ≠ Safety，securitysafety hazard，ISO 14971。</li>
+                <li>CIA（、、），。</li>
+                <li>（）— 。</li>
             </ul>
-            <h3>附錄G：舊型器材</h3>
+            <h3>G：</h3>
             <ul>
-                <li>Legacy device缺乏ISO 14971文件是常見現象，特別是併購取得的產品線或接手他廠的CMO製造。</li>
-                <li>不需從零開始 — 利用上市後資料回溯建立初始風險管理文件。</li>
-                <li>七步驟方法：記錄用途→盤點現有控制→識別危害→找出未受控危害→建立追溯矩陣→整體評估→審查報告。</li>
-                <li>CDMO接手既有產品時，應要求gap assessment以確認ISO 14971合規狀態。</li>
+                <li>Legacy deviceISO 14971，CMO。</li>
+                <li> — 。</li>
+                <li>：→→→→→→。</li>
+                <li>CDMO，gap assessmentISO 14971。</li>
             </ul>
-            <h3>附錄H前半：IVD器材</h3>
+            <h3>H：IVD</h3>
             <ul>
-                <li>IVD的獨特性：風險來自「錯誤結果→錯誤決策→病患傷害」的間接路徑。</li>
-                <li>分析性能特性（準確度、精密度、靈敏度、特異度）= 安全特性，需納入風險分析。</li>
-                <li>三類危害：結果錯誤、結果延遲、輔助資訊錯誤。</li>
-                <li>正常使用下的殘餘風險（統計性誤差）不可消除，必須透過IFU揭露。</li>
-                <li>臨床醫療專家參與IVD風險分析是必要條件，不能僅靠工程師或法規人員完成。</li>
-                <li>CDMO填充IVD試劑時，批次一致性和試劑穩定性直接影響器材的分析性能安全特性。</li>
+                <li>IVD：「→→」。</li>
+                <li>（、、、）= ，。</li>
+                <li>：、、。</li>
+                <li>（），IFU。</li>
+                <li>IVD，。</li>
+                <li>CDMOIVD，。</li>
             </ul>
         </div>
     </div>

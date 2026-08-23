@@ -12,29 +12,29 @@ Use these mappings to translate user questions before routing:
 
 | User says (EN/ZH) | Search terms |
 |---|---|
-| filter broken / leak / 過濾器破損 | integrity test, bubble point, diffusive flow |
-| media fill / 培養基充填 / 無菌模擬 | media fill, APS, aseptic process simulation |
-| 製程驗證 / process validation | process validation, CPV, PPQ, design space |
-| 一次性 / 拋棄式 | single-use, SUS, SUT, disposable |
-| 隔離器 / 屏障 / RABS | RABS, isolator, barrier system |
-| 無菌連接 / ISCD / 內建式無菌連接裝置 / 無菌焊接 / 熱熔接 | intrinsic sterile connection device, ISCD, aseptic connection, fusion sealing, tube welder, mechanical connector |
-| 預充填針 | prefilled syringe, PFS, CCI |
-| 細胞治療 / 基因治療 / 先進療法 | ATMP, cell therapy, gene therapy, CAR-T |
-| 運銷 / 配送 / 冷鏈 | GDP, cold chain, distribution |
-| 污染控制策略 | CCS, contamination control strategy |
-| 清潔驗證 | cleaning validation, MAC, MACO, swab, rinse |
-| 煙霧測試 | smoke study, airflow visualization |
-| 更衣 / 人員資格 | gowning, personnel qualification |
-| 資料完整性 | data integrity, ALCOA+, audit trail |
-| 電腦驗證 | CSV, GAMP, computerized system validation |
-| 風險評估 | risk assessment, FMEA, QRM, ICH Q9 |
-| 技術轉移 | technology transfer, TT, sending unit, receiving unit |
-| 滅菌 / 高壓滅菌 | sterilization, autoclave, F0, D-value |
-| 用水 / 注射用水 | WFI, PW, pharmaceutical water |
-| 連續製造 / 連製 | continuous manufacturing, CM, RTD, State of Control, steady state |
-| 已確立條件 / 法規彈性 | established conditions, EC, PACMP, PLCM, post-approval change |
-| 分析方法開發 / 分析目標概況 | analytical procedure development, ATP, MODR, PAR, ACS, SST |
-| 即時放行 / RTRT | real-time release testing, RTRT, multivariate model, PAT |
+| filter broken / leak /  | integrity test, bubble point, diffusive flow |
+| media fill /  /  | media fill, APS, aseptic process simulation |
+|  / process validation | process validation, CPV, PPQ, design space |
+|  /  | single-use, SUS, SUT, disposable |
+|  /  / RABS | RABS, isolator, barrier system |
+|  / ISCD /  /  /  | intrinsic sterile connection device, ISCD, aseptic connection, fusion sealing, tube welder, mechanical connector |
+|  | prefilled syringe, PFS, CCI |
+|  /  /  | ATMP, cell therapy, gene therapy, CAR-T |
+|  /  /  | GDP, cold chain, distribution |
+|  | CCS, contamination control strategy |
+|  | cleaning validation, MAC, MACO, swab, rinse |
+|  | smoke study, airflow visualization |
+|  /  | gowning, personnel qualification |
+|  | data integrity, ALCOA+, audit trail |
+|  | CSV, GAMP, computerized system validation |
+|  | risk assessment, FMEA, QRM, ICH Q9 |
+|  | technology transfer, TT, sending unit, receiving unit |
+|  /  | sterilization, autoclave, F0, D-value |
+|  /  | WFI, PW, pharmaceutical water |
+|  /  | continuous manufacturing, CM, RTD, State of Control, steady state |
+|  /  | established conditions, EC, PACMP, PLCM, post-approval change |
+|  /  | analytical procedure development, ATP, MODR, PAR, ACS, SST |
+|  / RTRT | real-time release testing, RTRT, multivariate model, PAT |
 
 ---
 
@@ -44,28 +44,28 @@ Use these mappings to translate user questions before routing:
 
 | Topic | ★★★ Primary (section hint) | ★★ Secondary |
 |---|---|---|
-| Media fill / APS / 培養基充填 | TR22 (§4 Elements, §5 Personnel) · TR62 (§3 APS — manual) | Guide-No1, PtC-12 §8, PtC-Isolators §8 |
-| Aseptic processing / 無菌製程 | PICS-Annex1 §8 · FDA-Aseptic §01-§04 · PtC-1 (all topics) | TR22, TR62, PtC-12, PtC-Isolators |
-| Sterile filtration / 除菌過濾 | TR26 (§4 Qualification, §6 Validation, §7 Integrity) | PtC-1 §6, TR90, PICS-Annex1 §8 |
+| Media fill / APS /  | TR22 (§4 Elements, §5 Personnel) · TR62 (§3 APS — manual) | Guide-No1, PtC-12 §8, PtC-Isolators §8 |
+| Aseptic processing /  | PICS-Annex1 §8 · FDA-Aseptic §01-§04 · PtC-1 (all topics) | TR22, TR62, PtC-12, PtC-Isolators |
+| Sterile filtration /  | TR26 (§4 Qualification, §6 Validation, §7 Integrity) | PtC-1 §6, TR90, PICS-Annex1 §8 |
 | PUPSIT / filter integrity | TR26 §7 · PtC-1 §6 · PICS-Annex1 §8 | FDA-Aseptic §04 |
 | CGMP requirement for sterilization §211.113(b) / regulatory basis for media fill / SAL 10⁻⁶ CGMP mandate | FDA-21CFR-211 (§3 §211.113) | FDA-Aseptic |
-| Moist heat sterilization / 濕熱滅菌 | TR1 (§1 Science, §3 Design, §5 PPQ) · PICS-Annex1 §8 | FDA-ParametricRelease, TR60 |
-| Parametric release / 參數放行 | FDA-ParametricRelease (§0 Background, §1 Control strategy, §2 Filing) | TR1, USP-1229, PDA TR30 |
-| Lyophilization / 凍乾 | TR22 §6 (lyo APS) | TR87 (lyo glass handling) |
+| Moist heat sterilization /  | TR1 (§1 Science, §3 Design, §5 PPQ) · PICS-Annex1 §8 | FDA-ParametricRelease, TR60 |
+| Parametric release /  | FDA-ParametricRelease (§0 Background, §1 Control strategy, §2 Filing) | TR1, USP-1229, PDA TR30 |
+| Lyophilization /  | TR22 §6 (lyo APS) | TR87 (lyo glass handling) |
 | BFS / blow-fill-seal | PtC-1 §1b (K.1-K.3) · PICS-Annex1 §8 | FDA-Aseptic §07 |
-| Manual aseptic / 手動無菌 | TR62 (§1 Facilities, §2 Equipment, §3 APS) | PtC-1 |
-| Filling machine / 充填機 | Guide-No1 (§1 Design, §2A-§2C Pumps, §4A-§4B Functionality) | TR22, PtC-12 |
-| Aseptic connection vs ISCD / 無菌連接與 ISCD 區別 / 熱熔接管路 / 機械式無菌連接器 | topics/intrinsic-sterile-connection-vs-aseptic-connection.md · PICS-Annex1 §8.14, §8.128–§8.130, §8.137, Glossary | Guide-No1 (Glossary), PtC-14 §3, ICH-Q9R1 §6.4 |
+| Manual aseptic /  | TR62 (§1 Facilities, §2 Equipment, §3 APS) | PtC-1 |
+| Filling machine /  | Guide-No1 (§1 Design, §2A-§2C Pumps, §4A-§4B Functionality) | TR22, PtC-12 |
+| Aseptic connection vs ISCD /  ISCD  /  /  | topics/intrinsic-sterile-connection-vs-aseptic-connection.md · PICS-Annex1 §8.14, §8.128–§8.130, §8.137, Glossary | Guide-No1 (Glossary), PtC-14 §3, ICH-Q9R1 §6.4 |
 
 ### Barriers & Isolators
 
 | Topic | ★★★ Primary (section hint) | ★★ Secondary |
 |---|---|---|
-| RABS vs Isolator / 屏障比較 | PtC-1 §1b · PtC-12 §1 · PtC-Isolators §1 | ISPE-Vol3 §7a-§7b |
+| RABS vs Isolator /  | PtC-1 §1b · PtC-12 §1 · PtC-Isolators §1 | ISPE-Vol3 §7a-§7b |
 | RABS design & operation | PtC-12 (§1 Design, §2 Environment, §5 EM, §8 APS) | ISPE-Vol3 §7a, TR90 |
 | Isolator design & operation | PtC-Isolators (§1 Design, §2 Environment, §3 EM) | ISPE-Vol3 §7a-§7b |
 | VHP / bio-decontamination | PtC-Isolators §7a-§7b · TR70 · ISPE-Vol3 §7b | PtC-12 §7 |
-| Glove integrity / 手套完整性 | PtC-12 §4 · PtC-Isolators §2 · ISPE-Vol3 §7a | TR22, PtC-1 |
+| Glove integrity /  | PtC-12 §4 · PtC-Isolators §2 · ISPE-Vol3 §7a | TR22, PtC-1 |
 | Isolator airflow / smoke study | PtC-Isolators §2 · ISPE-Vol3 §7a | PtC-1 §1a, ISPE-HVAC |
 | Isolator background room | PICS-Annex1 §4 · FDA-Aseptic §02 · ISPE-Vol3 §7a | PtC-Isolators §2 |
 | Capping inside/outside isolator | ISPE-Vol3 §7b · Guide-No1 §7 | PICS-Annex1 §8, PtC-12 |
@@ -80,7 +80,7 @@ Use these mappings to translate user questions before routing:
 
 | Topic | ★★★ Primary (section hint) | ★★ Secondary |
 |---|---|---|
-| EM program / 環境監控 | TR13 (§3 Regulatory, §4 Qualification, §5a Trending) | TR90, PtC-12 §5, PtC-Isolators §3, PICS-Annex1 §9 |
+| EM program /  | TR13 (§3 Regulatory, §4 Qualification, §5a Trending) | TR90, PtC-12 §5, PtC-Isolators §3, PICS-Annex1 §9 |
 | EM for low bioburden / biologics | TR13-2 (§4a Framework, §4b Worked examples) | TR13, ISPE-Vol6 |
 | EM alert/action levels | TR13 §5a · PICS-Annex1 §9 (Tables 5-6) | FDA-Aseptic §02 |
 | RMM / rapid microbial methods | TR13 §5b | PICS-Annex1 §9 |
@@ -91,8 +91,8 @@ Use these mappings to translate user questions before routing:
 | Topic | ★★★ Primary (section hint) | ★★ Secondary |
 |---|---|---|
 | CCS / contamination control strategy | TR90 (§1 Elements through §10 Governance) · PICS-Annex1 §3 | ISPE-Vol3, PtC-12, TR13 |
-| Cleaning & disinfection / 清潔消毒 | TR70 (§2 Qualification, §3 In-use, §4a-§4b Procedures) | PtC-Isolators §7a, PtC-12, TR90 |
-| Cleaning validation / 清潔驗證 | TR29 (§1-§6) · TR49 (§1-§6 biotech) · ISPE-Vol7 §7-§8 | TR70, TR60 |
+| Cleaning & disinfection /  | TR70 (§2 Qualification, §3 In-use, §4a-§4b Procedures) | PtC-Isolators §7a, PtC-12, TR90 |
+| Cleaning validation /  | TR29 (§1-§6) · TR49 (§1-§6 biotech) · ISPE-Vol7 §7-§8 | TR70, TR60 |
 | Cross-contamination / HPAPI | ISPE-Vol7 (§3 Logic, §4-§6 Risk, §9 Reduction) | ISPE-HVAC, ISPE-Vol3, TR90 |
 | HBEL / ADE / PDE | ISPE-Vol7 §3 (HBEL derivation) | TR29 §3 |
 | MACO / cleaning limits | ISPE-Vol7 §7-§8 · TR29 §3 · TR49 §2 | — |
@@ -102,8 +102,8 @@ Use these mappings to translate user questions before routing:
 
 | Topic | ★★★ Primary (section hint) | ★★ Secondary |
 |---|---|---|
-| Sterile facility design / 無菌設施 | ISPE-Vol3 (§1a-§1b Regulatory, §3a-§3c Architecture) | PtC-12, PtC-14, TR90 |
-| HVAC / air handling / 暖通空調 | ISPE-HVAC (§1 Design Process, §2 Considerations, §6 Fundamentals) · ISPE-Vol3 §4a-§4c | TR90 |
+| Sterile facility design /  | ISPE-Vol3 (§1a-§1b Regulatory, §3a-§3c Architecture) | PtC-12, PtC-14, TR90 |
+| HVAC / air handling /  | ISPE-HVAC (§1 Design Process, §2 Considerations, §6 Fundamentals) · ISPE-Vol3 §4a-§4c | TR90 |
 | Cleanroom classification / ISO 14644 | ISO-14644 (§1 Classification, §5 Operations, §7 Separative devices) · ISPE-Vol3 §1b · PICS-Annex1 §4 | FDA-Aseptic §02 |
 | Pressure cascade / differential pressure | ISPE-Vol3 §4a · ISPE-HVAC §2 | PtC-12 §2 |
 | Smoke study / airflow visualization | ISPE-Vol3 §4b · PtC-Isolators §2 | PtC-1 §1a, ISPE-HVAC |
@@ -113,9 +113,9 @@ Use these mappings to translate user questions before routing:
 
 | Topic | ★★★ Primary (section hint) | ★★ Secondary |
 |---|---|---|
-| WFI system / 注射用水 | ISPE-Vol4 (§6 WFI treatment, §8 Storage & distribution) | PtC-1 §6, ISPE-Vol3 §5 |
+| WFI system /  | ISPE-Vol4 (§6 WFI treatment, §8 Storage & distribution) | PtC-1 §6, ISPE-Vol3 §5 |
 | Purified water / PW | ISPE-Vol4 (§5 PW treatment, §8 Storage) | TR88 (water OOS) |
-| Clean steam / 潔淨蒸汽 | ISPE-Vol4 §7 | ISPE-Vol3 §5 |
+| Clean steam /  | ISPE-Vol4 §7 | ISPE-Vol3 §5 |
 | Water/steam sampling | ISPE-Sampling (§1-§4 Water, §5-§6 Steam) | ISPE-Vol4 §10 |
 | Passivation / rouging | ISPE-Vol4 §A7-§A9 | — |
 | Process gases / compressed air | ISPE-ProcessGas (§1-§4 Systems, §5 Risk) | ISPE-Sampling §7 |
@@ -124,7 +124,7 @@ Use these mappings to translate user questions before routing:
 
 | Topic | ★★★ Primary (section hint) | ★★ Secondary |
 |---|---|---|
-| Process validation / 製程驗證 | FDA-ProcessVal (§III-§V Stages 1-3) · TR60 (§1-§3 Lifecycle) · PICS-Annex15 (§2 Traditional/CPV/Hybrid/OPV) | TR22, TR26, TR90 |
+| Process validation /  | FDA-ProcessVal (§III-§V Stages 1-3) · TR60 (§1-§3 Lifecycle) · PICS-Annex15 (§2 Traditional/CPV/Hybrid/OPV) | TR22, TR26, TR90 |
 | VMP / Validation Master Plan | PICS-Annex15 (§1 §1.4-§1.5 VMP elements) | ISPE-Vol5 §2 |
 | C&Q / commissioning & qualification | ISPE-Vol5 (§1-§6 Framework, §7a-§7b Testing) | TR60 |
 | URS → DQ → FAT/SAT → IQ → OQ → PQ | PICS-Annex15 (§1 §3 Qualification Stages) · ISPE-Vol5 §5-§7a | TR60, ISPE-CTC |
@@ -133,9 +133,9 @@ Use these mappings to translate user questions before routing:
 | CPV / continued process verification | FDA-ProcessVal §V · TR60 §3 · PICS-Annex15 (§2 §5.23-§5.25) | TR1 §6 |
 | Statistical methods / SPC | TR60 §A1b · FDA-ProcessVal §V · TR13 §5a | ISPE-Sampling |
 | Equipment qualification IQ/OQ/PQ | TR60 · ISPE-CTC (§2-§3 CTC-specific) · ISPE-HVAC §4 | TR26, Guide-No1 |
-| Cleaning validation / 清潔確效 | PICS-Annex15 (§3 §10 Full framework — HBEL/ADE limits, DHT/CHT, worst case) | TR49, ISPE-Vol5 |
-| Transport qualification / 運輸確效 | PICS-Annex15 (§2 §6 Route, risk assessment, monitoring) | TR39 |
-| Utilities qualification / 公用系統確效 | PICS-Annex15 (§3 §8 Steam/WFI/air/gases) | ISPE-Vol4, ISPE-HVAC |
+| Cleaning validation /  | PICS-Annex15 (§3 §10 Full framework — HBEL/ADE limits, DHT/CHT, worst case) | TR49, ISPE-Vol5 |
+| Transport qualification /  | PICS-Annex15 (§2 §6 Route, risk assessment, monitoring) | TR39 |
+| Utilities qualification /  | PICS-Annex15 (§3 §8 Steam/WFI/air/gases) | ISPE-Vol4, ISPE-HVAC |
 | CTC / thermal mapping | ISPE-CTC (§0 URS, §2 Strategy, §3 Qualification) | — |
 
 ### Containers & Packaging
@@ -143,14 +143,14 @@ Use these mappings to translate user questions before routing:
 | Topic | ★★★ Primary (section hint) | ★★ Secondary |
 |---|---|---|
 | CCI / container closure integrity | TR86 (§1-§2 Challenges, §3 Methods) · TR27 (§1-§3 Methods) · FDA-CCIT (§0-§1 Stability CCIT) | TR73 §12, TR43, TR90, USP-1207 |
-| CCIT in stability protocol / 穩定性 CCIT 替代無菌檢驗 | FDA-CCIT (§0 Purpose, §1 Alternatives+Implementation) | USP-1207, TR86 |
-| Container closure systems CMC / 容器密封 CMC 文件 | FDA-ContainerClosure (§0-§1 Qualification, §2 Injectable, §4 Post-approval) | FDA-GlassVial, USP-660, USP-661 |
-| Glass vial & stopper changes / 玻璃瓶膠塞變更 | FDA-GlassVial (§0 Regulatory, §1 Common changes, §2 Tools, §3 Tables) | FDA-ContainerClosure §4 |
-| Prefilled syringe / 預充填注射器 | TR73 (§1-§15 full report: development, HFE, E&L, glass/needle/shield, cosmetic, siliconization, plunger, CCI, manufacturing, compatibility) · TR73-2 (EU MDR) | TR43 §4 (syringe defects), Guide-No1, ISO-11608-1 |
-| Needle-based injection systems / 針筒系統 | ISO-11608-1 (§3 Requirements, §4 Dose accuracy, §5 Test matrix) | TR73, TR73-2 |
-| Primary packaging GMP / 一次包材 GMP | ISO-15378 (§2 Context, §3a-§3b Operations, §4 Annex) | USP-660, USP-661, USP-381, FDA-ContainerClosure |
-| Extractables & leachables (packaging) / 包材萃取物 | FDA-ContainerClosure (§1 General, §5 Attachment C) | USP-661, ISPE-SUT §1a |
-| Glass defects / 玻璃缺陷 | TR43 (§0-§5 All five lexicons) | TR87, TR85, FDA-GlassVial |
+| CCIT in stability protocol /  CCIT  | FDA-CCIT (§0 Purpose, §1 Alternatives+Implementation) | USP-1207, TR86 |
+| Container closure systems CMC /  CMC  | FDA-ContainerClosure (§0-§1 Qualification, §2 Injectable, §4 Post-approval) | FDA-GlassVial, USP-660, USP-661 |
+| Glass vial & stopper changes /  | FDA-GlassVial (§0 Regulatory, §1 Common changes, §2 Tools, §3 Tables) | FDA-ContainerClosure §4 |
+| Prefilled syringe /  | TR73 (§1-§15 full report: development, HFE, E&L, glass/needle/shield, cosmetic, siliconization, plunger, CCI, manufacturing, compatibility) · TR73-2 (EU MDR) | TR43 §4 (syringe defects), Guide-No1, ISO-11608-1 |
+| Needle-based injection systems /  | ISO-11608-1 (§3 Requirements, §4 Dose accuracy, §5 Test matrix) | TR73, TR73-2 |
+| Primary packaging GMP /  GMP | ISO-15378 (§2 Context, §3a-§3b Operations, §4 Annex) | USP-660, USP-661, USP-381, FDA-ContainerClosure |
+| Extractables & leachables (packaging) /  | FDA-ContainerClosure (§1 General, §5 Attachment C) | USP-661, ISPE-SUT §1a |
+| Glass defects /  | TR43 (§0-§5 All five lexicons) | TR87, TR85, FDA-GlassVial |
 | Glass vial handling / breakage | TR87 (§3 Best practices, §4 Risk, §5 Process) | TR43, TR85 |
 | Drug Master File (Type III) / DMF | FDA-ContainerClosure (§4 DMF section) | — |
 | Visible particle inspection | TR85 (§3-§5 Methods) | TR90, PtC-12 |
@@ -215,7 +215,7 @@ Use these mappings to translate user questions before routing:
 | Batch review §211.192 / thorough review standard / QCU batch disposition / most cited CGMP warning letter | FDA-21CFR-211 (§5 Subparts I–K §211.192) | FDA-ProcessInspection |
 | OOS out-of-specification §211.194 / Phase I Phase II investigation / invalid assay criteria / Barr Laboratories | FDA-21CFR-211 (§5 Subparts I–K §211.194) | — |
 | QRM regulatory perspective / PIC/S Annex 20 | PICS-Annex20 (§1-§3 QRM process, risk tools) | ICH-Q9R1, TR60 |
-| Combination products CGMP / 組合產品 | FDA-ComboProd-CGMP (§1-§3 CGMP requirements) | FDA-ComboProd-HF |
+| Combination products CGMP /  | FDA-ComboProd-CGMP (§1-§3 CGMP requirements) | FDA-ComboProd-HF |
 | Human factors / combination products | FDA-ComboProd-HF (§1-§2 HF process, clinical) · TR73 (§4 PFS HFE: formative vs summative, IEC 62366, ISO 11608) | FDA-ComboProd-CGMP |
 | Medical device QMS / ISO 13485 | ISO-13485 (§2 QMS, §3 Resources/Design, §4 Purchasing) | ICH-Q10, FDA-21CFR-820 |
 | QMSR 2024 final rule / QSR to QMSR transition / Part 820 effective Feb 2026 | FDA-21CFR-820 (§0 Overview & transition) | ISO-13485 |
@@ -259,7 +259,7 @@ Use these mappings to translate user questions before routing:
 
 | Topic | ★★★ Primary (section hint) | ★★ Secondary |
 |---|---|---|
-| Technology transfer / 技術轉移 | ISPE-TechTransfer (§0-§5 Full lifecycle) · TR65 (§0-§4 PDA framework) | TR60, PtC-15 |
+| Technology transfer /  | ISPE-TechTransfer (§0-§5 Full lifecycle) · TR65 (§0-§4 PDA framework) | TR60, PtC-15 |
 | Analytical method transfer | ISPE-TechTransfer §3 | — |
 | Biologics TT | ISPE-TechTransfer §6 | ISPE-Vol6 |
 | Knowledge management / KM | TR60 · ISPE-TechTransfer · TR91 | TR65, TR90 |
@@ -268,7 +268,7 @@ Use these mappings to translate user questions before routing:
 
 | Topic | ★★★ Primary (section hint) | ★★ Secondary |
 |---|---|---|
-| ATMP facility / 先進療法設施 | PtC-14 (§1-§4 Risk, Facilities, Utilities, Equipment) | PtC-15, PICS-Annex2 |
+| ATMP facility /  | PtC-14 (§1-§4 Risk, Facilities, Utilities, Equipment) | PtC-15, PICS-Annex2 |
 | ATMP raw materials | PtC-13 (§1 Categories, §3a-§3b Qualification) | PICS-Annex2 |
 | Plasmid / viral vector | PtC-11 (§1 Categorization, §3 Control, §4 Filtration) | PtC-14 |
 | TSE/BSE / animal-derived | PtC-13 §1 | PICS-Annex2 |
@@ -278,14 +278,14 @@ Use these mappings to translate user questions before routing:
 
 | Topic | ★★★ Primary (section hint) | ★★ Secondary |
 |---|---|---|
-| Change control / 變更管制 | ICH-Q12 (§2 ECs, §4 PACMP, §5 PLCM) · TR91 §3-§4 · TR60 | TR66, TR90, TR68, PtC-9, TR74 |
+| Change control /  | ICH-Q12 (§2 ECs, §4 PACMP, §5 PLCM) · TR91 §3-§4 · TR60 | TR66, TR90, TR68, PtC-9, TR74 |
 | Post-approval change management | ICH-Q12 (§2-§5 full framework) · TR91 (§3 Tools: ECs, PACMP, PLCM) | TR68, ICH-Q10 §3, TR74 §4-§5 |
-| Established conditions / ECs / 已確立條件 | ICH-Q12 (§2 EC identification, §3 Reporting categories, §Annex I examples) | TR91 §2, TR60, TR74 §5.7 |
+| Established conditions / ECs /  | ICH-Q12 (§2 EC identification, §3 Reporting categories, §Annex I examples) | TR91 §2, TR60, TR74 §5.7 |
 | PACMP / change management protocol | ICH-Q12 (§4 PACMP design + regulatory treatment, §Annex II examples) | TR91 §3, TR74 §5.8 |
 | Product lifecycle management / PLCM | ICH-Q12 (§5 PLCM document structure and contents) · ICH-Q10 (§3 Lifecycle) | TR60, TR91 |
-| Reprocessing biologicals / DS DP repeat step / 生物製劑再處理 | TR74 (§3 Reprocessing Considerations, §6 AEX Case Study) | — |
-| Reworking biologicals / process change after deviation / 生物製劑返工 | TR74 (§5 Reworking Concepts, §7 Filtration Cases) | TR91, ICH-Q12 |
-| FMEA reprocessing / 製程再處理風險評估 | TR74 (§6.3 FMEA scoring, §6.4-§6.5 application examples) | ICH-Q9, TR60 |
+| Reprocessing biologicals / DS DP repeat step /  | TR74 (§3 Reprocessing Considerations, §6 AEX Case Study) | — |
+| Reworking biologicals / process change after deviation /  | TR74 (§5 Reworking Concepts, §7 Filtration Cases) | TR91, ICH-Q12 |
+| FMEA reprocessing /  | TR74 (§6.3 FMEA scoring, §6.4-§6.5 application examples) | ICH-Q9, TR60 |
 
 ### Continuous Manufacturing (ICH Q13)
 
@@ -323,13 +323,13 @@ Use these mappings to translate user questions before routing:
 
 | Topic | ★★★ Primary (section hint) | ★★ Secondary (USP equivalent) |
 |---|---|---|
-| Sterility test (EU) / 無菌試驗 (歐) | PhEur-261 (§0 Methods, §1 Membrane filtration, §2 Direct inoculation) | USP-71 |
-| Bacterial endotoxin (EU) / BET (歐) | PhEur-2614 (§0 Methods, §1 Validation, §2 Limits) | USP-85 |
-| Sub-visible particulates (EU) / 不可見微粒 (歐) | PhEur-2919 (§0-§1 LO + microscopic, limits) | USP-788, USP-1788 |
-| Visible particulates (EU) / 可見微粒 (歐) | PhEur-2920 (§0 AVI + MVI criteria) | USP-790, USP-1790 |
+| Sterility test (EU) /  () | PhEur-261 (§0 Methods, §1 Membrane filtration, §2 Direct inoculation) | USP-71 |
+| Bacterial endotoxin (EU) / BET () | PhEur-2614 (§0 Methods, §1 Validation, §2 Limits) | USP-85 |
+| Sub-visible particulates (EU) /  () | PhEur-2919 (§0-§1 LO + microscopic, limits) | USP-788, USP-1788 |
+| Visible particulates (EU) /  () | PhEur-2920 (§0 AVI + MVI criteria) | USP-790, USP-1790 |
 | Glass containers (EU) | PhEur-321 (§0 Classification, §1 Chemical tests) | USP-660 |
 | Sterile single-use syringes (EU) | PhEur-338 (§0 Design, §1 Physical & biological tests) | TR73, ISO-11608-1 |
-| Preparation of sterile products (EU) / 無菌製備方法 | PhEur-511 (§0-§1 Sterilization methods, SAL decision tree) | USP-1211, USP-1229 |
+| Preparation of sterile products (EU) /  | PhEur-511 (§0-§1 Sterilization methods, SAL decision tree) | USP-1211, USP-1229 |
 
 ---
 
@@ -345,37 +345,37 @@ Use these mappings to translate user questions before routing:
 
 | Topic | ★★★ Primary (section hint) | ★★ Secondary |
 |---|---|---|
-| Sterility test / 無菌試驗 | USP-71 (§0 Intro, §1 Methods) | PICS-Annex1 §8, FDA-Aseptic §04 |
+| Sterility test /  | USP-71 (§0 Intro, §1 Methods) | PICS-Annex1 §8, FDA-Aseptic §04 |
 | Bacterial endotoxin / BET / LAL | USP-85 (§0 Methods, §1 Validation, §2 Limits) | USP-151 (rabbit pyrogen, MAT) |
 | Depyrogenation overview | USP-1228 (§0-§2 Control strategies) | USP-1228-1, USP-1228-5 |
 | Dry heat depyrogenation | USP-1228-1 (§1 Fundamentals, §2 Validation) | USP-1228 |
 | Depyrogenation by filtration/rinsing | USP-1228-3 · USP-1228-4 | USP-1228 |
 | Endotoxin indicators | USP-1228-5 (§0 Preparation, §1 LRV analysis) | USP-1228 |
-| Sterilization methods / 滅菌方法 | USP-1211 (§0-§2 SAL, methods) · USP-1229 (§0-§1 decision tree) | TR1 (moist heat), PICS-Annex1 §8 |
+| Sterilization methods /  | USP-1211 (§0-§2 SAL, methods) · USP-1229 (§0-§1 decision tree) | TR1 (moist heat), PICS-Annex1 §8 |
 | Biological indicators / BI | USP-55 (§0 Requirements, §1 D-value methods) | USP-1228-5 (endotoxin EI) |
-| Particulate matter / 微粒 (injectables) | USP-788 (§0-§2 LO + microscopic, limits) | USP-787 (proteins), USP-1788 (methods ref) |
-| Particulate matter / 微粒 (proteins) | USP-787 (§0-§1 protein-specific) | USP-788, USP-1788 |
-| Particulate matter / 微粒 (ophthalmic) | USP-789 (§0 all methods + limits) | USP-771 |
+| Particulate matter /  (injectables) | USP-788 (§0-§2 LO + microscopic, limits) | USP-787 (proteins), USP-1788 (methods ref) |
+| Particulate matter /  (proteins) | USP-787 (§0-§1 protein-specific) | USP-788, USP-1788 |
+| Particulate matter /  (ophthalmic) | USP-789 (§0 all methods + limits) | USP-771 |
 | Subvisible particulate methods reference | USP-1788 (§0 intro, §1a-§1b LO, §2 microscopic) | USP-788, USP-787 |
 | Visible particulate inspection | USP-1790 (§0-§3 MVI, AVI, Knapp, PoD) | USP-790, TR85 |
 | Globule size / lipid emulsion / PFAT5 | USP-729 (§0-§1 DLS + LO, ≤0.05%) | — |
 | Container closure integrity / package integrity | USP-1207 (§1 deterministic, §2 probabilistic) | TR86, TR27 |
-| Glass containers / 玻璃容器 | USP-660 (§0 classification, §1 chemical tests) | USP-1660 (delamination) |
+| Glass containers /  | USP-660 (§0 classification, §1 chemical tests) | USP-1660 (delamination) |
 | Glass delamination / inner surface | USP-1660 (§0 mechanism, §1 ICP-MS, mitigation) | USP-660 |
-| Plastic packaging / 塑膠包材 | USP-661 (§0-§2 materials, tests, biological) | USP-381 (elastomers) |
+| Plastic packaging /  | USP-661 (§0-§2 materials, tests, biological) | USP-381 (elastomers) |
 | Elastomeric components / rubber stoppers | USP-381 (§0-§2 classification, phys-chem, biological) | USP-661 |
-| Container performance / 容器效能 | USP-671 (§0-§2 light, moisture, special containers) | USP-670 (auxiliary components) |
+| Container performance /  | USP-671 (§0-§2 light, moisture, special containers) | USP-670 (auxiliary components) |
 | Auxiliary packaging / desiccants | USP-670 (§0-§1 coils, desiccants, §2 acceptance) | USP-671 |
-| Sterile compounding / 無菌調配 | USP-797 (§0 scope/categories, §1-§2 garbing/facilities, §3-§5 QA/BUD) | — |
-| EM / microbial control / 微生物監控 | USP-1116 (§0-§1 ISO classes, action levels) | TR13, PICS-Annex1 §9 |
-| Bioburden / non-sterile 微生物負荷 | USP-1115 (§0 TAMC/TYMC, limits, risk-based) | TR90 |
+| Sterile compounding /  | USP-797 (§0 scope/categories, §1-§2 garbing/facilities, §3-§5 QA/BUD) | — |
+| EM / microbial control /  | USP-1116 (§0-§1 ISO classes, action levels) | TR13, PICS-Annex1 §9 |
+| Bioburden / non-sterile  | USP-1115 (§0 TAMC/TYMC, limits, risk-based) | TR90 |
 | Disinfectants / sporicidal agents | USP-1072 (§0 types, §1 efficacy testing) | TR70 |
 | Rapid microbial methods / RMM | USP-1071 (§0 validation, equivalency) | TR13 |
-| Osmolality / tonicity / 滲透壓 | USP-785 (§0 theory, §1 instruments, §2 procedures) | — |
+| Osmolality / tonicity /  | USP-785 (§0 theory, §1 instruments, §2 procedures) | — |
 | pH testing | USP-791 (§0-§2 electrodes, calibration, procedures) | — |
-| Minimum fill / 最低裝量 | USP-755 (§0 two-stage criteria) | — |
+| Minimum fill /  | USP-755 (§0 two-stage criteria) | — |
 | Ophthalmic quality tests | USP-771 (§0-§2 full test panel) | USP-789 |
-| Biologics general / 生物製劑通則 | USP-1085 (§0 cell banking, impurities, viral safety) | ISPE-Vol6 |
+| Biologics general /  | USP-1085 (§0 cell banking, impurities, viral safety) | ISPE-Vol6 |
 
 ---
 
@@ -383,19 +383,19 @@ Use these mappings to translate user questions before routing:
 
 | User says (EN/ZH) | Search terms |
 |---|---|
-| 無菌試驗 / sterility test failure | sterility test, FTM, SCDM, membrane filtration, 14-day |
-| 內毒素試驗 / endotoxin / BET / LAL | bacterial endotoxin, BET, LAL, gel-clot, chromogenic, MVD |
-| 除熱原 / 去熱原 | depyrogenation, LRV, endotoxin indicator, Fh value |
-| 微粒 / 不可見微粒 / particulates | subvisible particulate, light obscuration, PFAT5, 10 µm |
-| 可見異物 / visible particles | visible inspection, PoD, Knapp, AVI, MVI |
-| 包裝完整性 / CCI test / leak test | container closure integrity, HVLD, vacuum decay, MALL, CCIT |
-| 穩定性 CCIT / stability CCI | CCIT in lieu of sterility, stability protocol, bubble test, dye penetration |
-| 參數放行 / parametric release | parametric release, CPG 460.800, load monitor, Class 5 indicator |
-| 容器密封變更 / CCS change | glass vial change, stopper change, PAS, CBE-30, comparability protocol |
-| 玻璃脫層 / 玻璃片 | delamination, glass flakes, lamellae, ICP-MS |
-| 無菌調配 / CSP / BUD | compounded sterile preparation, Category 1/2/3, beyond-use date |
-| 滲透壓 / osmolality | osmolality, osmolarity, mOsmol, freezing point depression |
-| 膠塞 / 橡膠封蓋 | elastomeric stopper, rubber closure, penetrability, fragmentation |
+|  / sterility test failure | sterility test, FTM, SCDM, membrane filtration, 14-day |
+|  / endotoxin / BET / LAL | bacterial endotoxin, BET, LAL, gel-clot, chromogenic, MVD |
+|  /  | depyrogenation, LRV, endotoxin indicator, Fh value |
+|  /  / particulates | subvisible particulate, light obscuration, PFAT5, 10 µm |
+|  / visible particles | visible inspection, PoD, Knapp, AVI, MVI |
+|  / CCI test / leak test | container closure integrity, HVLD, vacuum decay, MALL, CCIT |
+|  CCIT / stability CCI | CCIT in lieu of sterility, stability protocol, bubble test, dye penetration |
+|  / parametric release | parametric release, CPG 460.800, load monitor, Class 5 indicator |
+|  / CCS change | glass vial change, stopper change, PAS, CBE-30, comparability protocol |
+|  /  | delamination, glass flakes, lamellae, ICP-MS |
+|  / CSP / BUD | compounded sterile preparation, Category 1/2/3, beyond-use date |
+|  / osmolality | osmolality, osmolarity, mOsmol, freezing point depression |
+|  /  | elastomeric stopper, rubber closure, penetrability, fragmentation |
 
 ---
 

@@ -61,28 +61,28 @@ tr:nth-child(even) { background: #f7fafc; }
 
 <div class="header">
     <h1>Section 3: Requirements — Design &amp; Risk Analysis</h1>
-    <div class="subtitle">設計要求與風險分析 — 23 項 NIS 設計規定詳解</div>
+    <div class="subtitle"> — 23  NIS </div>
     <div class="page-info">ISO 11608-1:2014 | Section 5.3–5.5 | p.5–p.7</div>
 </div>
 
 <div class="main-content">
 
 <div class="learning-objectives">
-    <h3>本章學習目標</h3>
+    <h3></h3>
     <ul>
-        <li>理解 ISO 14971 風險分析如何整合進 ISO 11608-1 設計要求（5.3 的強制性規定）</li>
-        <li>掌握 5.5 節 23 項設計要求的核心，辨別哪些與 CDMO 充填製程直接相關</li>
-        <li>了解量測不確定度（Measurement Uncertainty）要求對 CDMO QC 測試設備的影響</li>
-        <li>能在審查客戶 Design Verification 報告時，識別關鍵設計要求是否已被驗證</li>
+        <li> ISO 14971  ISO 11608-1 （5.3 ）</li>
+        <li> 5.5  23 ， CDMO </li>
+        <li>（Measurement Uncertainty） CDMO QC </li>
+        <li> Design Verification ，</li>
     </ul>
 </div>
 
 <!-- ====== RISK ANALYSIS + MEASUREMENT UNCERTAINTY ====== -->
-<div class="section-title">Section 5.3–5.4: 風險分析要求與量測不確定度</div>
+<div class="section-title">Section 5.3–5.4: </div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
         <h3>5.3 Risk Analysis Requirements</h3>
         <p>The manufacturer shall conduct <span class="key-term">risk assessments in accordance with ISO 14971</span>. These risk assessments shall consider all aspects of the development, manufacture and intended use of the NIS for medical use.</p>
         <p>The NIS shall conform to the <span class="key-term">usability requirements</span> specified in <strong>IEC 62366</strong>.</p>
@@ -93,36 +93,36 @@ tr:nth-child(even) { background: #f7fafc; }
         <p>Note: ISO 14253-1 defines decision rules for proving conformity (or nonconformity) when measurement uncertainty is considered. When the measured value ± uncertainty does not overlap the specification limit, a clear pass/fail can be declared.</p>
     </div>
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
         <div class="note-box">
-            <h4>量測不確定度：影響 CDMO 合規判定</h4>
-            <p>ISO 14253-1 的「符合性判定規則」在實務上意味著：</p>
+            <h4>： CDMO </h4>
+            <p>ISO 14253-1 「」：</p>
             <ul>
-                <li><strong>保守判定</strong>：如果測量值 ± 不確定度跨越規格限，就不能宣告合格，需要更精確的測試或更保守的規格</li>
-                <li>這直接影響 CDMO 在充填製程驗證中設定 <strong>Internal Acceptance Criteria（內部接受標準）</strong>的方式</li>
-                <li>通常 CDMO 的 IAC 會比客戶 Release Criteria 更嚴格，以留下量測不確定度的緩衝</li>
+                <li><strong></strong>： ± ，，</li>
+                <li> CDMO  <strong>Internal Acceptance Criteria（）</strong></li>
+                <li> CDMO  IAC  Release Criteria ，</li>
             </ul>
         </div>
         <div class="analogy-box">
-            <h4>比喻說明：測量不確定度的符合性影響</h4>
-            <p>體重計顯示 99.5 kg，規格上限是 100 kg。如果體重計的量測不確定度是 ±1 kg，真實值可能在 98.5–100.5 kg 之間。</p>
-            <p>ISO 14253-1 的保守判定會說：<strong>不能宣告合格</strong>，因為不確定度範圍超過了規格限。</p>
-            <p>在 NIS 劑量準確性測試中，這意味著 k<sub>act</sub> 必須明顯大於 k<sub>tar</sub>，而非剛好等於。</p>
+            <h4>：</h4>
+            <p> 99.5 kg， 100 kg。 ±1 kg， 98.5–100.5 kg 。</p>
+            <p>ISO 14253-1 ：<strong></strong>，。</p>
+            <p> NIS ， k<sub>act</sub>  k<sub>tar</sub>，。</p>
         </div>
     </div>
 </div>
 
 <div class="concept-box">
-            <h4>ISO 14971 + IEC 62366：雙軌風險管理</h4>
-            <p>Section 5.3 要求兩個平行但互補的風險工具：</p>
-            <p>例如：自動注射器的「針頭未完全縮回」是 ISO 14971 的風險（傷害患者）；「使用者不知道藥已打完」是 IEC 62366 的可用性問題（劑量不足）。兩者在設計驗證中都需要被驗證。</p>
+            <h4>ISO 14971 + IEC 62366：</h4>
+            <p>Section 5.3 ：</p>
+            <p>：「」 ISO 14971 （）；「」 IEC 62366 （）。。</p>
         </div>
         <!-- ====== GENERAL DESIGN REQUIREMENTS ====== -->
-<div class="section-title">Section 5.5: General Design Requirements — 23 項設計規定</div>
+<div class="section-title">Section 5.5: General Design Requirements — 23 </div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
         <h3>5.5 General Design Requirements (a–w)</h3>
 
         <div class="req-item"><span class="req-label">a</span><span class="req-text">Container holder shall allow <strong>visibility of the deliverable volume</strong>. Risk analysis determines if a residual scale is required.</span></div>
@@ -150,57 +150,57 @@ tr:nth-child(even) { background: #f7fafc; }
         <div class="req-item"><span class="req-label">w</span><span class="req-text">Where test methods are given without acceptance criteria, the manufacturer shall establish <strong>specifications using risk-based approach</strong> (ISO 14971 + IEC 62366).</span></div>
     </div>
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
         <div class="note-box">
-            <h4>CDMO 最需關注的要求：u 和 v</h4>
-            <p><strong>要求 u — 藥品與裝置接觸的不良影響</strong>：</p>
+            <h4>CDMO ：u  v</h4>
+            <p><strong> u — </strong>：</p>
             <ul>
-                <li>這是 Extractables &amp; Leachables（E&amp;L）研究的法規依據</li>
-                <li>CDMO 的藥品直接接觸 PFS 的矽化塗層、橡膠活塞、不鏽鋼針頭</li>
-                <li>客戶的 Risk Assessment 應覆蓋所有接觸面，並符合 ISO 10993-1（要求 v）</li>
-                <li>CDMO 在技術轉移時需確認：客戶是否已完成 E&amp;L 研究，且研究涵蓋 CDMO 使用的相同供應商/批號的初級包材</li>
+                <li> Extractables &amp; Leachables（E&amp;L）</li>
+                <li>CDMO  PFS 、、</li>
+                <li> Risk Assessment ， ISO 10993-1（ v）</li>
+                <li>CDMO ： E&amp;L ， CDMO /</li>
             </ul>
         </div>
         <div class="note-box">
-            <h4>要求 w：CDMO 有機會發揮的空間</h4>
-            <p>要求 w 說：「沒有接受標準的測試，製造商自行建立規格。」</p>
-            <p>這意味著某些測試（如自由跌落測試的外觀檢查標準）由客戶根據風險分析自定。</p>
-            <p>對 CDMO 而言：<strong>技術轉移 protocol 必須清楚定義哪些測試的 Acceptance Criteria 由客戶提供，哪些是 ISO 強制規定的</strong>。若客戶 AC 過於寬鬆，CDMO 有責任提出風險評估質疑。</p>
+            <h4> w：CDMO </h4>
+            <p> w ：「，。」</p>
+            <p>（）。</p>
+            <p> CDMO ：<strong> protocol  Acceptance Criteria ， ISO </strong>。 AC ，CDMO 。</p>
         </div>
         <div class="analogy-box">
-            <h4>比喻說明：狀態指示要求（e-h）的設計哲學</h4>
-            <p>要求 e-h 本質上是「操作反饋設計」：使用者在每個步驟都需要確認：</p>
+            <h4>：（e-h）</h4>
+            <p> e-h 「」：：</p>
             <ul>
-                <li><strong>e：設定了</strong>（我選了 1 mL，按鍵有聲音）</li>
-                <li><strong>f：準備好了</strong>（蓋子已移除，準備注射）</li>
-                <li><strong>g：狀態改變了</strong>（注射前後外觀不同，避免重複注射）</li>
-                <li><strong>h：打完了</strong>（聽到「咔」或感覺到設備縮回）</li>
+                <li><strong>e：</strong>（ 1 mL，）</li>
+                <li><strong>f：</strong>（，）</li>
+                <li><strong>g：</strong>（，）</li>
+                <li><strong>h：</strong>（「」）</li>
             </ul>
-            <p>這些要求正是 IEC 62366 可用性工程的精髓：「任何步驟的操作失誤都不能導致危害」。</p>
+            <p> IEC 62366 ：「」。</p>
         </div>
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>客戶的 autoinjector（D1 系統）沒有剩餘藥量視窗，只有「已打完」指示燈。哪個設計要求（a-w）可能受到挑戰？應如何進行風險評估？</li>
-                <li>CDMO 發現客戶的 E&amp;L 研究使用的是不同供應商的矽化 PFS，而 CDMO 採購的 PFS 來自另一家供應商。依據要求 u，CDMO 應如何處理？</li>
-                <li>要求 w 說「製造商自行建立接受標準」，但 CDMO 認為客戶的跌落測試標準過於寬鬆。CDMO 在技術轉移協議中應如何記錄此分歧？</li>
+                <li> autoinjector（D1 ），「」。（a-w）？？</li>
+                <li>CDMO  E&amp;L  PFS， CDMO  PFS 。 u，CDMO ？</li>
+                <li> w 「」， CDMO 。CDMO ？</li>
             </ol>
         </div>
     </div>
 </div>
 
 <div class="concept-box">
-            <h4>23 項設計要求的分類解讀</h4>
-            <p>5.5 節的 23 項要求（a-w）可分為五大類：</p>
+            <h4>23 </h4>
+            <p>5.5  23 （a-w）：</p>
             </div>
         <!-- SECTION SUMMARY -->
 <div class="learning-objectives" style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);">
-    <h3>本節重點回顧 Section Summary</h3>
+    <h3> Section Summary</h3>
     <ul>
-        <li><strong>雙軌風險管理強制要求</strong>：ISO 14971（性能風險）+ IEC 62366（可用性風險）均為 Section 5.3 強制要求，缺一不可；CDMO 技術轉移應要求客戶提供 Risk Management File + Usability Engineering File</li>
-        <li><strong>量測不確定度影響合規判定</strong>：ISO 14253-1 的保守判定原則要求 CDMO 設定比客戶 Release Criteria 更嚴格的 Internal Acceptance Criteria，以留下測量誤差緩衝</li>
-        <li><strong>23 項設計要求的優先順序</strong>：對 CDMO 最直接相關的是 a-d（劑量可視性）、u（E&amp;L 相容性）、v（ISO 10993-1 生物評估）和 w（製造商自定 AC 的義務）</li>
-        <li><strong>系統整合要求（l, m, n, o）</strong>：確認 NIS 設計已針對特定針頭、容器、電子元件進行過整體系統測試，這是 Type A 被廢除後的核心精神</li>
+        <li><strong></strong>：ISO 14971（）+ IEC 62366（） Section 5.3 ，；CDMO  Risk Management File + Usability Engineering File</li>
+        <li><strong></strong>：ISO 14253-1  CDMO  Release Criteria  Internal Acceptance Criteria，</li>
+        <li><strong>23 </strong>： CDMO  a-d（）、u（E&amp;L ）、v（ISO 10993-1 ） w（ AC ）</li>
+        <li><strong>（l, m, n, o）</strong>： NIS 、、， Type A </li>
     </ul>
 </div>
 

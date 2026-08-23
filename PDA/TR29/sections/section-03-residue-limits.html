@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PDA TR29 — Section 3: Residue and Limits | 殘留物與限度</title>
+    <title>PDA TR29 — Section 3: Residue and Limits | </title>
     <style>
 /* =============================================================
    SterileGMP Knowledge Hub - Shared CSS Template
@@ -439,7 +439,7 @@ body {
     font-size: 0.92rem !important;
 }
 
-/* ===== ANALOGY BOX (Yellow) - 比喻說明 ===== */
+/* ===== ANALOGY BOX (Yellow) -  ===== */
 .analogy-box,
 .concept-box[class*="analogy"],
 .concept-box.analogy,
@@ -453,7 +453,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #856404 !important;
 }
 
-/* ===== TERM/CONCEPT BOX (Green) - 核心概念 ===== */
+/* ===== TERM/CONCEPT BOX (Green) -  ===== */
 .term-box,
 .key-term-box,
 .concept-box:not([class*="analogy"]):not([class*="note"]):not([class*="formula"]):not([class*="practice"]):not([class*="highlight"]):not(.analogy):not(.application) {
@@ -468,7 +468,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #2e7d32 !important;
 }
 
-/* ===== NOTE/HIGHLIGHT BOX (Orange) - 重點提示 ===== */
+/* ===== NOTE/HIGHLIGHT BOX (Orange) -  ===== */
 .note-box,
 .key-note,
 .key-point-box,
@@ -487,7 +487,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #c65102 !important;
 }
 
-/* ===== FORMULA BOX (Purple) - 公式計算 ===== */
+/* ===== FORMULA BOX (Purple) -  ===== */
 .formula-box,
 .concept-box[class*="formula"] {
     background: var(--purple-bg) !important;
@@ -522,7 +522,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #1565c0 !important;
 }
 
-/* ===== PRACTICE BOX (Blue dashed) - 練習思考 ===== */
+/* ===== PRACTICE BOX (Blue dashed) -  ===== */
 .practice-box {
     background: linear-gradient(135deg, #e8f4fd 0%, #d1e9ff 100%) !important;
     border: 2px dashed #3182ce !important;
@@ -1007,8 +1007,8 @@ tr:nth-child(even) {
 
 <!-- SECTION HEADER -->
 <div class="header">
-    <h1>Section 3: Residue and Limits | 殘留物與限度</h1>
-    <div class="subtitle">PDA TR29 Sections 5.0–5.12 | 定量限度計算完整解析</div>
+    <h1>Section 3: Residue and Limits | </h1>
+    <div class="subtitle">PDA TR29 Sections 5.0–5.12 | </div>
     <div class="page-info">Source: pp. 30–43 | Key Topics: MAC/MACO Calculations, 10 ppm / Dose / Toxicity Criteria, Bioburden, Endotoxin, Visually Clean</div>
 </div>
 
@@ -1017,33 +1017,33 @@ tr:nth-child(even) {
 
     <!-- LEARNING OBJECTIVES -->
     <div class="learning-objectives">
-        <h3>Learning Objectives | 學習目標</h3>
+        <h3>Learning Objectives | </h3>
         <ul>
-            <li>Understand the three basis for setting cleaning residue limits: dose-based, toxicity-based, and default (10 ppm / 4 µg/cm²). | 理解三種限度設定基礎：劑量法、毒理法、預設值</li>
-            <li>Perform MAC and MACO calculations step-by-step using Equations 5A–5N. | 逐步執行 MAC 計算（公式 5A–5N）</li>
-            <li>Derive surface area limits (SAL), swab limits, and rinse limits from MAC. | 從 MAC 推導表面積限度、棉棒及沖洗限度</li>
-            <li>Recognize special considerations: multiple products, dedicated equipment, genotoxic residues, degradants. | 辨識特殊情況：多產品、專用設備、基因毒性殘留、降解物</li>
-            <li>Apply bioburden and endotoxin limit principles for cleaning validation. | 應用生物負載與內毒素限度原則</li>
-            <li>Define visually clean criteria and know when it can substitute analytical sampling. | 定義目視清潔標準及其適用條件</li>
+            <li>Understand the three basis for setting cleaning residue limits: dose-based, toxicity-based, and default (10 ppm / 4 µg/cm²). | ：、、</li>
+            <li>Perform MAC and MACO calculations step-by-step using Equations 5A–5N. |  MAC （ 5A–5N）</li>
+            <li>Derive surface area limits (SAL), swab limits, and rinse limits from MAC. |  MAC 、</li>
+            <li>Recognize special considerations: multiple products, dedicated equipment, genotoxic residues, degradants. | ：、、、</li>
+            <li>Apply bioburden and endotoxin limit principles for cleaning validation. | </li>
+            <li>Define visually clean criteria and know when it can substitute analytical sampling. | </li>
         </ul>
     </div>
 
     <!-- TABLE OF CONTENTS -->
     <div class="toc">
-        <h3>Section Contents | 本節目錄</h3>
+        <h3>Section Contents | </h3>
         <div class="toc-grid">
-            <a href="#sec50">5.0 Overview | 總覽</a>
-            <a href="#sec52">5.2 Basis for Limits | 限度基礎</a>
-            <a href="#sec53">5.3 ARL Determination | ARL 計算</a>
-            <a href="#sec54">5.4 MAC / MACO | 最大允許攜帶量</a>
-            <a href="#sec55">5.5 Surface Area Limit | 表面積限度</a>
-            <a href="#sec56">5.6 Protocol Sample Limits | 樣本限度</a>
-            <a href="#sec57">5.7 Consolidated Expressions | 整合公式</a>
-            <a href="#sec58">5.8 Example Calculations | 計算範例</a>
-            <a href="#sec59">5.9 Other Considerations | 其他考量</a>
-            <a href="#sec510">5.10 Bioburden | 生物負載</a>
-            <a href="#sec511">5.11 Endotoxin | 內毒素</a>
-            <a href="#sec512">5.12 Visually Clean | 目視清潔</a>
+            <a href="#sec50">5.0 Overview | </a>
+            <a href="#sec52">5.2 Basis for Limits | </a>
+            <a href="#sec53">5.3 ARL Determination | ARL </a>
+            <a href="#sec54">5.4 MAC / MACO | </a>
+            <a href="#sec55">5.5 Surface Area Limit | </a>
+            <a href="#sec56">5.6 Protocol Sample Limits | </a>
+            <a href="#sec57">5.7 Consolidated Expressions | </a>
+            <a href="#sec58">5.8 Example Calculations | </a>
+            <a href="#sec59">5.9 Other Considerations | </a>
+            <a href="#sec510">5.10 Bioburden | </a>
+            <a href="#sec511">5.11 Endotoxin | </a>
+            <a href="#sec512">5.12 Visually Clean | </a>
         </div>
     </div>
 
@@ -1055,7 +1055,7 @@ tr:nth-child(even) {
             <div class="chapter-badge">5.0</div>
             <div class="chapter-info">
                 <h2>Residue and Limits — Overview &amp; Basis for Quantitative Limits</h2>
-                <p>殘留物與限度 — 概覽與定量限度基礎</p>
+                <p> — </p>
             </div>
         </div>
         <div class="chapter-body">
@@ -1072,7 +1072,7 @@ tr:nth-child(even) {
                     <p>Different manufacturing and cleaning situations may require different approaches. For example, for in vitro diagnostics, the effect of the residue on the stability or performance of the subsequently manufactured product may provide a better scientific rationale for establishing limits.</p>
                     <p>Depending on the manufacturer, the expression of calculations may differ because it may combine various steps. It is critical that the units used in the equation be internally consistent; unit conversion factors (e.g., grams to micrograms) may be utilized. Companies may use different terms (or acronyms) for the same concept but still apply the same basic principles.</p>
                     <div class="note-box">
-                        <h4>Key Calculation Sequence | 計算順序</h4>
+                        <h4>Key Calculation Sequence | </h4>
                         <ol style="margin-left:1.2rem;font-size:0.92rem;">
                             <li>Determine <strong>ARL</strong> (Acceptable Residue Level) — concentration in next product</li>
                             <li>Calculate <strong>MAC</strong> (Maximum Allowable Carryover) — total mass on equipment</li>
@@ -1083,27 +1083,27 @@ tr:nth-child(even) {
                 </div>
                 <!-- RIGHT: Chinese commentary -->
                 <div class="right-column">
-                    <h3>中文解說 | 限度基礎三標準比較</h3>
-                    <p>清潔驗證的限度設定，本質上是在問：「殘留多少量，對下一個產品的病人是安全的？」PDA TR29 提供三條路徑回答這個問題：</p>
+                    <h3> | </h3>
+                    <p>，：「，？」PDA TR29 ：</p>
 
                     <div class="analogy-box">
-                        <h4>生活比喻 | 三個問題對應三條路</h4>
-                        <p>想像你要設定「廚房切板殘留調味料」的清潔標準：</p>
+                        <h4> | </h4>
+                        <p>「」：</p>
                         <ul>
-                            <li><strong>劑量法</strong>：鹽的每日安全攝取量 ÷ 1000 — 以正常飲食劑量為基礎</li>
-                            <li><strong>毒理法</strong>：如果是辣椒素（高毒性），就改用毒理資料計算 ADE</li>
-                            <li><strong>預設值</strong>：如果不知道殘留是什麼，就用 10 ppm 當保守預設</li>
+                            <li><strong></strong>： ÷ 1000 — </li>
+                            <li><strong></strong>：（）， ADE</li>
+                            <li><strong></strong>：， 10 ppm </li>
                         </ul>
-                        <p>TR29 要求：取三者中<strong>最嚴格的那個</strong>作為最終限度。</p>
+                        <p>TR29 ：<strong></strong>。</p>
                     </div>
 
                     <div class="concept-box">
-                        <h4>計算鏈：從 ARL 到樣本限度</h4>
-                        <p>本節的核心架構是一條線性計算鏈：</p>
+                        <h4>： ARL </h4>
+                        <p>：</p>
                         <p style="text-align:center; font-weight:600; font-size:0.95rem; color:#1e3a5f;">
-                            ARL（濃度）→ MAC（質量）→ SAL（每平方公分）→ 棉棒/沖洗限度
+                            ARL（）→ MAC（）→ SAL（）→ /
                         </p>
-                        <p>每一步都是轉換單位，讓實驗室可操作的測量值與病人安全連結。</p>
+                        <p>，。</p>
                     </div>
                 </div>
             </div>
@@ -1118,7 +1118,7 @@ tr:nth-child(even) {
             <div class="chapter-badge">5.3</div>
             <div class="chapter-info">
                 <h2>Acceptable Concentration of Residue in Next Product (ARL)</h2>
-                <p>下一產品中的可接受殘留濃度 (ARL)</p>
+                <p> (ARL)</p>
             </div>
         </div>
         <div class="chapter-body">
@@ -1226,74 +1226,74 @@ tr:nth-child(even) {
 
                 <!-- RIGHT -->
                 <div class="right-column">
-                    <h3>中文解說 | ARL 計算詳解</h3>
+                    <h3> | ARL </h3>
 
                     <div class="concept-box">
-                        <h4>ARL 是什麼？</h4>
-                        <p><strong>ARL（Acceptable Residue Level）= 可接受殘留濃度</strong></p>
-                        <p>代表下一個產品中，每克（或每毫升）最多允許含有多少殘留物。這是整個限度計算鏈的起點。</p>
-                        <p>單位：µg/g 或 µg/mL（化學殘留）；CFU/g 或 CFU/mL（生物負載）</p>
+                        <h4>ARL ？</h4>
+                        <p><strong>ARL（Acceptable Residue Level）= </strong></p>
+                        <p>，（）。。</p>
+                        <p>：µg/g  µg/mL（）；CFU/g  CFU/mL（）</p>
                     </div>
 
                     <div class="formula-box">
-                        <h4>公式 5A 逐步解析 — 千分之一劑量法</h4>
+                        <h4> 5A  — </h4>
                         <pre>ARL = (MDD × SF) / LDD
 
-直覺解讀：
-- MDD = 被清洗產品的最小每日劑量
-- 乘以 SF = 0.001（安全係數，取千分之一）
-- 除以 LDD = 下一產品的最大每日劑量
+：
+- MDD = 
+-  SF = 0.001（，）
+-  LDD = 
 
-意義：下一產品患者每天從殘留中攝入的量，
-最多只能是清洗產品治療劑量的千分之一。</pre>
+：，
+。</pre>
                     </div>
 
                     <div class="analogy-box">
-                        <h4>比喻：藥量安全邊際</h4>
-                        <p>假設你每天服用 100 mg 的藥 A，接著同一設備製造藥 B（每天 800 mg）。</p>
-                        <p>千分之一安全係數的意義：即使藥 B 患者每天從殘留中攝入 0.1 mg 的藥 A，也只是藥 A 治療劑量的 <strong>0.1%</strong>，在藥理上幾乎不可能有不良效果。</p>
+                        <h4>：</h4>
+                        <p> 100 mg  A， B（ 800 mg）。</p>
+                        <p>： B  0.1 mg  A， A  <strong>0.1%</strong>，。</p>
                     </div>
 
                     <div class="formula-box">
-                        <h4>公式 5B 解析 — ADE 毒理學法</h4>
+                        <h4> 5B  — ADE </h4>
                         <pre>ADE = (NOAEL × BW) / (UFC × MF × PK)
 
-- NOAEL：動物試驗中「無可見不良效應」的劑量
-- BW：病人體重（通常設 50–70 kg）
-- UFC：複合不確定因子（物種差異等，通常 10–1000）
-- MF：毒理學家主觀修正因子
-- PK：藥動學因子（考慮暴露途徑差異）
+- NOAEL：「」
+- BW：（ 50–70 kg）
+- UFC：（， 10–1000）
+- MF：
+- PK：（）
 
-ADE 代表：每天攝入此量對人體安全</pre>
+ADE ：</pre>
                     </div>
 
                     <div class="note-box">
-                        <h4>ADE vs 劑量法 — 何時選哪個？</h4>
+                        <h4>ADE vs  — ？</h4>
                         <ul>
-                            <li><strong>一般活性成分</strong>：兩種方法均可，取更嚴格者</li>
-                            <li><strong>高毒性（高活性）成分</strong>：必須用 ADE 法，劑量法不足</li>
-                            <li><strong>清潔劑、無劑量殘留</strong>：用 LD50 → NOEL → SDI 路徑（公式 5D-5F）</li>
-                            <li><strong>基因毒性殘留</strong>：考慮 TTC 1.5 µg/day，或毒理學評估</li>
+                            <li><strong></strong>：，</li>
+                            <li><strong>（）</strong>： ADE ，</li>
+                            <li><strong>、</strong>： LD50 → NOEL → SDI （ 5D-5F）</li>
+                            <li><strong></strong>： TTC 1.5 µg/day，</li>
                         </ul>
                     </div>
 
                     <div class="concept-box">
-                        <h4>LD50 路徑三步驟</h4>
+                        <h4>LD50 </h4>
                         <ol style="margin-left:1.2rem;">
-                            <li><strong>NOEL = LD50 × BW / MF1</strong>（從動物致死劑量推算無效應量）</li>
-                            <li><strong>SDI = NOEL / MF2</strong>（加入額外安全係數，得到每日安全攝入量）</li>
-                            <li><strong>ARL = SDI / LDD</strong>（轉換成下一產品中的濃度限度）</li>
+                            <li><strong>NOEL = LD50 × BW / MF1</strong>（）</li>
+                            <li><strong>SDI = NOEL / MF2</strong>（，）</li>
+                            <li><strong>ARL = SDI / LDD</strong>（）</li>
                         </ol>
-                        <p>注意：MF1 和 MF2 的累積值一般不超過 1000。</p>
+                        <p>：MF1  MF2  1000。</p>
                     </div>
 
                     <div class="practice-box">
-                        <h4>練習思考 1 | ARL 計算</h4>
-                        <p>某清洗產品的 MDD = 50 mg，安全係數 0.001，下一產品的 LDD = 500 mg。</p>
-                        <p><strong>問：</strong> ARL = ?</p>
-                        <p><em>提示：ARL = (50 mg × 0.001) / 500 mg = 0.0001 mg/mg = 100 µg/g = 100 ppm</em></p>
-                        <p><strong>問：</strong> 此值高於 10 ppm 預設值，最終 ARL 應取哪個值？</p>
-                        <p><em>答：取更嚴格的 10 ppm。</em></p>
+                        <h4> 1 | ARL </h4>
+                        <p> MDD = 50 mg， 0.001， LDD = 500 mg。</p>
+                        <p><strong>：</strong> ARL = ?</p>
+                        <p><em>：ARL = (50 mg × 0.001) / 500 mg = 0.0001 mg/mg = 100 µg/g = 100 ppm</em></p>
+                        <p><strong>：</strong>  10 ppm ， ARL ？</p>
+                        <p><em>： 10 ppm。</em></p>
                     </div>
                 </div>
             </div>
@@ -1308,7 +1308,7 @@ ADE 代表：每天攝入此量對人體安全</pre>
             <div class="chapter-badge">5.4–5.5</div>
             <div class="chapter-info">
                 <h2>Maximum Allowable Carryover (MAC) &amp; Surface Area Limit (SAL)</h2>
-                <p>最大允許攜帶量 (MAC/MACO) 與表面積限度 (SAL)</p>
+                <p> (MAC/MACO)  (SAL)</p>
             </div>
         </div>
         <div class="chapter-body">
@@ -1363,62 +1363,62 @@ ADE 代表：每天攝入此量對人體安全</pre>
 
                 <!-- RIGHT -->
                 <div class="right-column">
-                    <h3>中文解說 | MAC 與 SAL 逐步解析</h3>
+                    <h3> | MAC  SAL </h3>
 
                     <div class="formula-box">
-                        <h4>MAC = 最大允許攜帶量（Total Mass Limit）</h4>
+                        <h4>MAC = （Total Mass Limit）</h4>
                         <pre>MAC = ARL × MBS
 
-邏輯：
-ARL 是「濃度限度」（µg/g）
-MBS 是「批次質量」（g）
-兩者相乘 = 整批產品中允許存在的總殘留質量
+：
+ARL 「」（µg/g）
+MBS 「」（g）
+ = 
 
-例：ARL = 10 µg/g，MBS = 10,000,000 g（10 kg）
+：ARL = 10 µg/g，MBS = 10,000,000 g（10 kg）
 MAC = 10 × 10,000,000 = 100,000,000 µg = 100 g
 
-（注意：這是允許在所有共用設備表面的總量）</pre>
+（：）</pre>
                     </div>
 
                     <div class="analogy-box">
-                        <h4>比喻：餐廳廚房的整體殘留總量</h4>
-                        <p>MAC 就像規定「整個廚房所有刀具、砧板、鍋具上的花生殘留總量，不能超過 X 克」。</p>
-                        <p>SAL 則是進一步說：「平均每平方公分表面，不能超過 Y 微克」。</p>
-                        <p>從 MAC 到 SAL，就是把總量分配到每平方公分——讓棉棒取樣有具體目標。</p>
+                        <h4>：</h4>
+                        <p>MAC 「、、， X 」。</p>
+                        <p>SAL ：「， Y 」。</p>
+                        <p> MAC  SAL，——。</p>
                     </div>
 
                     <div class="formula-box">
-                        <h4>SAL 計算逐步示範</h4>
-                        <pre>已知：
-  MAC = 1,250 mg（從計算範例）
-  SSA = 250,000 cm²（設備總共用表面積）
+                        <h4>SAL </h4>
+                        <pre>：
+  MAC = 1,250 mg（）
+  SSA = 250,000 cm²（）
 
-計算：
+：
   SAL = MAC / SSA
       = 1,250 mg / 250,000 cm²
       = 0.005 mg/cm²
       = 5 µg/cm²
 
-比較預設值 4 µg/cm²：
-  計算值 5 µg/cm² &gt; 預設值 4 µg/cm²
-  → 取更嚴格的 4 µg/cm² 作為最終 SAL</pre>
+ 4 µg/cm²：
+   5 µg/cm² &gt;  4 µg/cm²
+  →  4 µg/cm²  SAL</pre>
                     </div>
 
                     <div class="concept-box">
-                        <h4>SAL 預設值 4 µg/cm² 的意義</h4>
-                        <p>4 µg/cm² 是目視清潔的臨界值——通常認為超過此值的殘留在適當光線下可被人眼察覺。</p>
-                        <p>因此，設定 SAL ≤ 4 µg/cm²，意味著即使是不做分析的目視清潔也能作為合理的安全確認手段。</p>
-                        <p>（ARL 預設值：藥品製造常用 <strong>10 ppm</strong>；API 製造用 <strong>50–100 ppm</strong>）</p>
+                        <h4>SAL  4 µg/cm² </h4>
+                        <p>4 µg/cm² ——。</p>
+                        <p>， SAL ≤ 4 µg/cm²，。</p>
+                        <p>（ARL ： <strong>10 ppm</strong>；API  <strong>50–100 ppm</strong>）</p>
                     </div>
 
                     <div class="practice-box">
-                        <h4>練習思考 2 | MAC → SAL 計算</h4>
-                        <p>條件：ARL = 5 µg/g，MBS = 20 kg（20,000,000 mg），SSA = 500,000 cm²</p>
+                        <h4> 2 | MAC → SAL </h4>
+                        <p>：ARL = 5 µg/g，MBS = 20 kg（20,000,000 mg），SSA = 500,000 cm²</p>
                         <ol style="margin-left:1.2rem;font-size:0.92rem;">
-                            <li>計算 MAC = ARL × MBS = 5 µg/g × 20,000,000 g = 100,000,000 µg = 100 g</li>
-                            <li>計算 SAL = MAC / SSA = 100,000,000 µg / 500,000 cm² = 200 µg/cm²</li>
-                            <li>SAL = 200 µg/cm² &gt;&gt; 4 µg/cm²（預設上限）</li>
-                            <li><strong>最終 SAL = 4 µg/cm²（取預設值，更嚴格）</strong></li>
+                            <li> MAC = ARL × MBS = 5 µg/g × 20,000,000 g = 100,000,000 µg = 100 g</li>
+                            <li> SAL = MAC / SSA = 100,000,000 µg / 500,000 cm² = 200 µg/cm²</li>
+                            <li>SAL = 200 µg/cm² &gt;&gt; 4 µg/cm²（）</li>
+                            <li><strong> SAL = 4 µg/cm²（，）</strong></li>
                         </ol>
                     </div>
                 </div>
@@ -1433,7 +1433,7 @@ MAC = 10 × 10,000,000 = 100,000,000 µg = 100 g
         <div class="chapter-divider">
             <div class="chapter-badge">5.6</div>
             <div class="chapter-info">
-                <h2>Limit in Protocol Samples | 驗證方案樣本限度</h2>
+                <h2>Limit in Protocol Samples | </h2>
                 <p>Swab Limits, Extracted Swab Concentration, Rinse Concentration</p>
             </div>
         </div>
@@ -1490,49 +1490,49 @@ MAC = 10 × 10,000,000 = 100,000,000 µg = 100 g
 
                 <!-- RIGHT -->
                 <div class="right-column">
-                    <h3>中文解說 | 三種樣本限度轉換</h3>
+                    <h3> | </h3>
 
                     <div class="concept-box">
-                        <h4>為什麼需要樣本限度？</h4>
-                        <p>SAL 的單位是 µg/cm²，但實驗室分析的是棉棒萃取液或沖洗液的濃度（µg/mL）。</p>
-                        <p>樣本限度轉換的目的：<strong>將表面殘留限度翻譯成實驗室可直接測量的數值。</strong></p>
+                        <h4>？</h4>
+                        <p>SAL  µg/cm²，（µg/mL）。</p>
+                        <p>：<strong>。</strong></p>
                     </div>
 
                     <div class="formula-box">
-                        <h4>三種轉換路徑一覽</h4>
-                        <pre>【棉棒質量法 5J】
-  限度（µg/棉棒）= SAL × 棉棒取樣面積
-  優點：直觀，但需知道每支棉棒的回收率
+                        <h4></h4>
+                        <pre>【 5J】
+  （µg/）= SAL × 
+  ：，
 
-【棉棒萃取液濃度法 5K】
-  限度（µg/mL）= SAL × 取樣面積 / 溶劑用量
-  優點：實驗室直接讀值
+【 5K】
+  （µg/mL）= SAL ×  / 
+  ：
 
-【沖洗液濃度法 5L/5M】
-  限度（µg/mL）= SAL × 沖洗面積 / 沖洗體積
-  若整條生產線用同一沖洗液：
-  限度 = MAC / 沖洗體積（公式 5M，最簡化）</pre>
+【 5L/5M】
+  （µg/mL）= SAL ×  / 
+  ：
+   = MAC / （ 5M，）</pre>
                     </div>
 
                     <div class="analogy-box">
-                        <h4>比喻：棉棒採樣面積的選擇</h4>
-                        <p>棉棒取樣面積通常是 25 cm² 或 100 cm²。面積越大，同一支棉棒收集的殘留越多，分析靈敏度越高——但取樣的一致性要求也更高。</p>
-                        <p>當限度非常低（接近偵測極限），可選擇 100 cm² 的取樣面積以提高可測量性。</p>
+                        <h4>：</h4>
+                        <p> 25 cm²  100 cm²。，，——。</p>
+                        <p>（）， 100 cm² 。</p>
                     </div>
 
                     <div class="application-box concept-box application">
-                        <h4>實務計算範例：棉棒萃取液限度</h4>
-                        <p>已知：SAL = 4 µg/cm²，取樣面積 = 100 cm²，溶劑用量 = 5 mL</p>
-                        <p><strong>限度 = (4 × 100) / 5 = 80 µg/mL</strong></p>
-                        <p>若 SAL = 0.5 µg/cm²：限度 = (0.5 × 100) / 5 = 10 µg/mL</p>
-                        <p>→ 實驗室的 HPLC 是否能在 10 µg/mL 以下準確定量？這是選擇分析方法的關鍵。</p>
+                        <h4>：</h4>
+                        <p>：SAL = 4 µg/cm²， = 100 cm²， = 5 mL</p>
+                        <p><strong> = (4 × 100) / 5 = 80 µg/mL</strong></p>
+                        <p> SAL = 0.5 µg/cm²： = (0.5 × 100) / 5 = 10 µg/mL</p>
+                        <p>→  HPLC  10 µg/mL ？。</p>
                     </div>
 
                     <div class="note-box">
-                        <h4>公式 5M 的優勢</h4>
-                        <p>當整條設備用同一批沖洗液時，公式 5M 可以繞過 SSA 的測量：</p>
-                        <p style="text-align:center; font-weight:700; color:#c65102;">限度 = MAC / 沖洗體積</p>
-                        <p>不需要知道 SAL，直接從 MAC 和沖洗液體積計算。在大型設備難以精確量測表面積時特別實用。</p>
+                        <h4> 5M </h4>
+                        <p>， 5M  SSA ：</p>
+                        <p style="text-align:center; font-weight:700; color:#c65102;"> = MAC / </p>
+                        <p> SAL， MAC 。。</p>
                     </div>
                 </div>
             </div>
@@ -1547,7 +1547,7 @@ MAC = 10 × 10,000,000 = 100,000,000 µg = 100 g
             <div class="chapter-badge">5.7–5.8</div>
             <div class="chapter-info">
                 <h2>Consolidated Expressions &amp; Example Calculations</h2>
-                <p>整合公式與計算範例</p>
+                <p></p>
             </div>
         </div>
         <div class="chapter-body">
@@ -1634,30 +1634,30 @@ MAC = 10 × 10,000,000 = 100,000,000 µg = 100 g
 
                 <!-- RIGHT -->
                 <div class="right-column">
-                    <h3>中文解說 | 整合公式與範例解析</h3>
+                    <h3> | </h3>
 
                     <div class="concept-box">
-                        <h4>為什麼需要整合公式？</h4>
-                        <p>在日常操作中，重複進行 ARL → MAC → SAL → 樣本限度的四步計算，容易出錯。</p>
-                        <p>整合公式（5N, 5O）把所有變數合併成一個方程式，只要輸入原料數據（劑量、批量、面積、溶劑量），直接得到最終限度。</p>
-                        <p>在電子試算表或驗證軟體中，這樣的整合公式特別常見。</p>
+                        <h4>？</h4>
+                        <p>， ARL → MAC → SAL → ，。</p>
+                        <p>（5N, 5O），（、、、），。</p>
+                        <p>，。</p>
                     </div>
 
                     <div class="formula-box">
-                        <h4>公式 5N 解析 — MAC 直接計算</h4>
+                        <h4> 5N  — MAC </h4>
                         <pre>MAC = (MDD × SF × MBS) / LDD
 
-= 5A 的 ARL × 5H 的 MBS
+= 5A  ARL × 5H  MBS
 = (MDD × SF / LDD) × MBS
 
-理解：
-1. MDD × SF = 允許攜帶到每克下一產品的量（× 批量 = 總量）
-2. 除以 LDD = 標準化每日劑量
-3. 乘以 MBS = 轉換為整批的總允許量</pre>
+：
+1. MDD × SF = （×  = ）
+2.  LDD = 
+3.  MBS = </pre>
                     </div>
 
                     <div class="formula-box">
-                        <h4>範例 1 完整推導</h4>
+                        <h4> 1 </h4>
                         <pre>MDD = 100 mg，SF = 0.001，
 MBS = 10 kg = 10,000,000 mg，LDD = 800 mg
 
@@ -1665,50 +1665,50 @@ MAC = (100 × 0.001 × 10,000,000) / 800
     = 1,000,000 / 800
     = 1,250 mg
 
-含義：整條設備所有共用表面的總殘留量不得超過 1,250 mg。</pre>
+： 1,250 mg。</pre>
                     </div>
 
                     <div class="formula-box">
-                        <h4>範例 2 完整推導</h4>
-                        <pre>在範例 1 基礎上加入：
-SSA = 250,000 cm²，取樣面積 = 100 cm²，SEA = 5 mL
+                        <h4> 2 </h4>
+                        <pre> 1 ：
+SSA = 250,000 cm²， = 100 cm²，SEA = 5 mL
 
-棉棒萃取液限度 = MAC × (取樣面積 / SSA) / SEA
+ = MAC × ( / SSA) / SEA
               = 1,250 mg × (100/250,000) / 5
               = 1,250 mg × 0.0004 / 5
               = 0.5 mg / 5
               = 0.1 mg/mL = 100 µg/mL
 
-（或直接用公式 5O 代入）</pre>
+（ 5O ）</pre>
                     </div>
 
                     <div class="note-box">
-                        <h4>單位一致性是關鍵</h4>
-                        <p>TR29 特別強調：方程式中的單位必須內部一致。常見錯誤：</p>
+                        <h4></h4>
+                        <p>TR29 ：。：</p>
                         <ul>
-                            <li>MDD 用 mg，MBS 用 kg，未轉換 → 結果差 1000 倍</li>
-                            <li>ARL 用 µg/g，MBS 用 mL → 需確認密度轉換</li>
-                            <li>swabbed area 用 cm²，SSA 用 m² → 需統一</li>
+                            <li>MDD  mg，MBS  kg， →  1000 </li>
+                            <li>ARL  µg/g，MBS  mL → </li>
+                            <li>swabbed area  cm²，SSA  m² → </li>
                         </ul>
-                        <p>建議：在計算表中，每個變數標注單位，最後做量綱分析確認。</p>
+                        <p>：，，。</p>
                     </div>
 
                     <div class="practice-box">
-                        <h4>練習思考 3 | 完整計算鏈</h4>
-                        <p><strong>條件：</strong></p>
+                        <h4> 3 | </h4>
+                        <p><strong>：</strong></p>
                         <ul style="font-size:0.91rem;">
                             <li>MDD = 200 mg，LDD = 1000 mg，SF = 0.001</li>
                             <li>MBS = 5 kg = 5,000,000 mg</li>
-                            <li>SSA = 100,000 cm²，取樣面積 = 25 cm²，SEA = 10 mL</li>
+                            <li>SSA = 100,000 cm²， = 25 cm²，SEA = 10 mL</li>
                         </ul>
-                        <p><strong>計算：</strong></p>
+                        <p><strong>：</strong></p>
                         <ol style="margin-left:1.2rem;font-size:0.91rem;">
-                            <li>ARL = (200 × 0.001) / 1000 = 0.0002 mg/mg = 200 µg/g = 200 ppm → 取 10 ppm</li>
+                            <li>ARL = (200 × 0.001) / 1000 = 0.0002 mg/mg = 200 µg/g = 200 ppm →  10 ppm</li>
                             <li>MAC = 10 µg/g × 5,000,000 g = 50,000,000 µg = 50 g</li>
-                            <li>SAL = 50,000,000 µg / 100,000 cm² = 500 µg/cm² → 取 4 µg/cm²（預設值）</li>
-                            <li>棉棒限度 = 4 µg/cm² × 25 cm² / 10 mL = 10 µg/mL</li>
+                            <li>SAL = 50,000,000 µg / 100,000 cm² = 500 µg/cm² →  4 µg/cm²（）</li>
+                            <li> = 4 µg/cm² × 25 cm² / 10 mL = 10 µg/mL</li>
                         </ol>
-                        <p><em>在每一步都需比較計算值與預設值，取更嚴格者。</em></p>
+                        <p><em>，。</em></p>
                     </div>
                 </div>
             </div>
@@ -1722,7 +1722,7 @@ SSA = 250,000 cm²，取樣面積 = 100 cm²，SEA = 5 mL
         <div class="chapter-divider">
             <div class="chapter-badge">5.9</div>
             <div class="chapter-info">
-                <h2>Other Considerations | 其他特殊考量</h2>
+                <h2>Other Considerations | </h2>
                 <p>Multiple Products, Dedicated Equipment, Default Limits, Special Residues</p>
             </div>
         </div>
@@ -1828,62 +1828,62 @@ SSA = 250,000 cm²，取樣面積 = 100 cm²，SEA = 5 mL
 
                 <!-- RIGHT -->
                 <div class="right-column">
-                    <h3>中文解說 | 特殊情況決策指南</h3>
+                    <h3> | </h3>
 
                     <div class="note-box">
-                        <h4>5.9.1–5.9.3 核心原則：保守優先</h4>
-                        <p>多產品情況的邏輯：<strong>限度取最嚴格的那個</strong>，確保無論哪個產品排在後面，殘留都是安全的。</p>
-                        <p>驗證模式（Verification Mode）是開發階段常用的靈活方式：每次清潔後根據實際下一產品個別評估，不預設固定限度。</p>
+                        <h4>5.9.1–5.9.3 ：</h4>
+                        <p>：<strong></strong>，，。</p>
+                        <p>（Verification Mode）：，。</p>
                     </div>
 
                     <div class="analogy-box">
-                        <h4>5.9.4 安全係數的彈性</h4>
-                        <p>0.001 是針對「長期慢性給藥」設計的保守係數。</p>
-                        <p>對於只用 10 天的感冒藥，長期暴露的風險更低，基於風險評估可以使用較寬鬆的係數——但需要充分的科學論證與文件。</p>
+                        <h4>5.9.4 </h4>
+                        <p>0.001 「」。</p>
+                        <p> 10 ，，——。</p>
                     </div>
 
                     <div class="note-box">
-                        <h4>5.9.8 基因毒性殘留的四條路</h4>
+                        <h4>5.9.8 </h4>
                         <ol style="margin-left:1.2rem;font-size:0.92rem;">
-                            <li><strong>TTC 1.5 µg/day</strong>：最常用，但注射劑需謹慎（FDA 原始設定針對口服）</li>
-                            <li><strong>設備專用化</strong>：最簡單，但損失彈性</li>
-                            <li><strong>毒理學計算</strong>：最科學，需毒理學家參與</li>
-                            <li><strong>低於偵測極限</strong>：最嚴格，但需醫療風險評估確認可接受性</li>
+                            <li><strong>TTC 1.5 µg/day</strong>：，（FDA ）</li>
+                            <li><strong></strong>：，</li>
+                            <li><strong></strong>：，</li>
+                            <li><strong></strong>：，</li>
                         </ol>
                     </div>
 
                     <div class="concept-box">
-                        <h4>5.9.11 限度不可測的解方</h4>
-                        <p>計算出的限度若低於分析方法偵測極限，本質原因通常是：</p>
+                        <h4>5.9.11 </h4>
+                        <p>，：</p>
                         <ul>
-                            <li>清洗產品毒性太強（劑量太小）</li>
-                            <li>下一產品批量太小</li>
-                            <li>設備共用表面積太小</li>
+                            <li>（）</li>
+                            <li></li>
+                            <li></li>
                         </ul>
-                        <p>解方：改變分子（提高 MBS）、改變分母（增大取樣面積、減少溶劑量），或直接設備專用化。</p>
+                        <p>：（ MBS）、（、），。</p>
                     </div>
 
                     <div class="application-box concept-box application">
-                        <h4>5.9.14 限度分配實例</h4>
-                        <p>假設 MAC = 300 µg，設備 A/B/C 各有 100 cm²（共 300 cm²）：</p>
+                        <h4>5.9.14 </h4>
+                        <p> MAC = 300 µg， A/B/C  100 cm²（ 300 cm²）：</p>
                         <ul>
-                            <li><strong>均等分配：</strong>每台 SAL = 300/300 = 1 µg/cm²</li>
-                            <li><strong>差異分配：</strong>A = 0.5 µg/cm²（難清潔），B = 1.0，C = 1.5 µg/cm²（易清潔）</li>
-                            <li>驗證：(0.5 × 100) + (1.0 × 100) + (1.5 × 100) = 300 µg = MAC ✓</li>
+                            <li><strong>：</strong> SAL = 300/300 = 1 µg/cm²</li>
+                            <li><strong>：</strong>A = 0.5 µg/cm²（），B = 1.0，C = 1.5 µg/cm²（）</li>
+                            <li>：(0.5 × 100) + (1.0 × 100) + (1.5 × 100) = 300 µg = MAC ✓</li>
                         </ul>
-                        <p>差異分配需要對每台設備的清潔難度和風險有深刻理解。</p>
+                        <p>。</p>
                     </div>
 
                     <div class="note-box">
-                        <h4>5.9.15 優先轉移（Preferential Transfer）</h4>
-                        <p>灌裝機（Vial filler）是典型的優先轉移設備：殘留可能集中在最初灌裝的幾個瓶子，而非均勻分佈在整批產品。</p>
-                        <p>解決方案：更嚴格的 SAL，或拋棄最初的幾瓶產品，或灌裝機專用化。</p>
+                        <h4>5.9.15 （Preferential Transfer）</h4>
+                        <p>（Vial filler）：，。</p>
+                        <p>： SAL，，。</p>
                     </div>
                 </div>
             </div>
         <div class="concept-box">
-                        <h4>預設值系統整理</h4>
-                        <p>預設值的邏輯：計算值與預設值比較，取<strong>更嚴格</strong>（更低）的那個。</p>
+                        <h4></h4>
+                        <p>：，<strong></strong>（）。</p>
                     </div>
 
                     </div>
@@ -1896,7 +1896,7 @@ SSA = 250,000 cm²，取樣面積 = 100 cm²，SEA = 5 mL
         <div class="chapter-divider">
             <div class="chapter-badge">5.10–5.11</div>
             <div class="chapter-info">
-                <h2>Bioburden Limits &amp; Endotoxin Limits | 生物負載限度與內毒素限度</h2>
+                <h2>Bioburden Limits &amp; Endotoxin Limits | </h2>
                 <p>Microbial Carryover Considerations for Cleaning Validation</p>
             </div>
         </div>
@@ -1938,49 +1938,49 @@ SSA = 250,000 cm²，取樣面積 = 100 cm²，SEA = 5 mL
 
                 <!-- RIGHT -->
                 <div class="right-column">
-                    <h3>中文解說 | 生物負載與內毒素限度</h3>
+                    <h3> | </h3>
 
                     <div class="note-box">
-                        <h4>為什麼清潔後設備不要求無菌？</h4>
-                        <p>清潔的目的是去除化學殘留和降低微生物負載，而不是達到滅菌水準。</p>
-                        <p>真正的微生物控制是在後續製程中完成的：SIP（原位滅菌）、高壓蒸氣滅菌、或無菌過濾。清潔驗證中的生物負載評估是確保「後續滅菌步驟不會被過度挑戰」。</p>
+                        <h4>？</h4>
+                        <p>，。</p>
+                        <p>：SIP（）、、。「」。</p>
                     </div>
 
                     <div class="analogy-box">
-                        <h4>比喻：廚房清潔 vs 手術器械消毒</h4>
-                        <p>清潔（Cleaning）= 洗碗機洗碗 — 去除殘留，降低微生物，但不要求完全無菌。</p>
-                        <p>滅菌（Sterilization）= 高壓蒸氣消毒 — 確保無存活微生物。</p>
-                        <p>清潔驗證中的生物負載限度，是確保洗完碗後，後續的消毒步驟有合理的起始條件（不是從「髒到嚴重污染」開始滅菌）。</p>
+                        <h4>： vs </h4>
+                        <p>（Cleaning）=  — ，，。</p>
+                        <p>（Sterilization）=  — 。</p>
+                        <p>，，（「」）。</p>
                     </div>
 
                     <div class="concept-box">
-                        <h4>「有害微生物」的判定</h4>
-                        <p><strong>Objectionable organisms（有害微生物）</strong>不只是 USP 表列的特定菌種，還包括：</p>
+                        <h4>「」</h4>
+                        <p><strong>Objectionable organisms（）</strong> USP ，：</p>
                         <ul>
-                            <li>基於產品特性選擇的指標菌（如高水活性產品的酵母菌）</li>
-                            <li>數量達到一定閾值才被視為有害（不只是有沒有，也看多少）</li>
-                            <li>可鑑定到菌種層級，或僅用排除法（確認非有害菌種即可）</li>
+                            <li>（）</li>
+                            <li>（，）</li>
+                            <li>，（）</li>
                         </ul>
                     </div>
 
                     <div class="formula-box">
-                        <h4>5.11 內毒素限度 — 關鍵數值</h4>
-                        <pre>WFI 內毒素限度：0.25 EU/mL
+                        <h4>5.11  — </h4>
+                        <pre>WFI ：0.25 EU/mL
 
-適用場景：注射劑等有內毒素規格的產品
+：
 
-測試方法：在最終沖洗水中測量內毒素
+：
 
-例外：設備進行去熱原處理（Depyrogenation，
-通常 250°C 乾熱 30 分鐘以上）→
-內毒素已被去活化 → 清潔後不需再測定</pre>
+：（Depyrogenation，
+ 250°C  30 ）→
+ → </pre>
                     </div>
 
                     <div class="note-box">
-                        <h4>去熱原 vs 生物負載的邏輯差異</h4>
-                        <p><strong>生物負載：</strong>即使後續有 SIP，也建議評估清潔後的生物負載——確認起始條件合理。</p>
-                        <p><strong>內毒素：</strong>如果後續有去熱原步驟（乾熱），則清潔後的內毒素測試<em>可以省略</em>，因為去熱原足以將其去活化。</p>
-                        <p>關鍵差異：內毒素是化學物質（脂多醣），可以被高溫破壞；微生物是活的，需要更複雜的評估。</p>
+                        <h4> vs </h4>
+                        <p><strong>：</strong> SIP，——。</p>
+                        <p><strong>：</strong>（），<em></em>，。</p>
+                        <p>：（），；，。</p>
                     </div>
                 </div>
             </div>
@@ -1994,7 +1994,7 @@ SSA = 250,000 cm²，取樣面積 = 100 cm²，SEA = 5 mL
         <div class="chapter-divider">
             <div class="chapter-badge">5.12</div>
             <div class="chapter-info">
-                <h2>Visually Clean Criterion | 目視清潔標準</h2>
+                <h2>Visually Clean Criterion | </h2>
                 <p>When Can Visual Inspection Replace Analytical Sampling?</p>
             </div>
         </div>
@@ -2035,49 +2035,49 @@ SSA = 250,000 cm²，取樣面積 = 100 cm²，SEA = 5 mL
 
                 <!-- RIGHT -->
                 <div class="right-column">
-                    <h3>中文解說 | 目視清潔的適用邊界</h3>
+                    <h3> | </h3>
 
                     <div class="note-box">
-                        <h4>目視清潔取代分析取樣的三個條件</h4>
+                        <h4></h4>
                         <ol style="margin-left:1.2rem;font-size:0.92rem;">
-                            <li><strong>定量視覺限度 &lt; 計算 SAL</strong>：視覺標準必須比計算出的表面積限度更嚴格</li>
-                            <li><strong>觀察條件一致</strong>：驗證時的燈光、距離、角度必須與建立定量限度時相同或更嚴</li>
-                            <li><strong>雙人確認</strong>：必須有第二人核實，降低主觀性誤差</li>
+                            <li><strong> &lt;  SAL</strong>：</li>
+                            <li><strong></strong>：、、</li>
+                            <li><strong></strong>：，</li>
                         </ol>
                     </div>
 
                     <div class="analogy-box">
-                        <h4>比喻：法醫勘查 vs 日常整理</h4>
-                        <p>日常目視清潔（補充模式）就像你看一眼廚房說「看起來乾淨了」。</p>
-                        <p>定量目視清潔（取代模式）就像法醫在特定燈光、特定角度、有參照標準的條件下，精確判斷表面是否存在微量殘留——主觀性極低，有客觀證據支持。</p>
+                        <h4>： vs </h4>
+                        <p>（）「」。</p>
+                        <p>（）、、，——，。</p>
                     </div>
 
                     <div class="concept-box">
-                        <h4>視覺限度 1–4 µg/cm² 的意義</h4>
-                        <p>這是文獻報告的目視可偵測閾值。意思是：</p>
+                        <h4> 1–4 µg/cm² </h4>
+                        <p>。：</p>
                         <ul>
-                            <li>殘留量 &gt; 4 µg/cm²：在適當條件下人眼通常可見</li>
-                            <li>殘留量 1–4 µg/cm²：可能在最佳觀察條件下可見</li>
-                            <li>殘留量 &lt; 1 µg/cm²：人眼幾乎不可見，須依賴分析方法</li>
+                            <li> &gt; 4 µg/cm²：</li>
+                            <li> 1–4 µg/cm²：</li>
+                            <li> &lt; 1 µg/cm²：，</li>
                         </ul>
-                        <p>這也是為什麼 SAL 預設值設在 4 µg/cm²——它是目視清潔和分析方法之間的自然邊界。</p>
+                        <p> SAL  4 µg/cm²——。</p>
                     </div>
 
                     <div class="note-box">
-                        <h4>棉棒目視 vs 設備表面目視</h4>
-                        <p>TR29 特別說明：棉棒擦拭後，棉棒本身不需要目視清潔。</p>
-                        <p>原因：原本在 1000 cm² 表面上不可見的殘留，被集中到只有幾 cm² 的棉棒頭上後，會顯得「可見」——這是濃縮效應，不代表設備表面的殘留量超標。</p>
+                        <h4> vs </h4>
+                        <p>TR29 ：，。</p>
+                        <p>： 1000 cm² ， cm² ，「」——，。</p>
                     </div>
 
                     <div class="practice-box">
-                        <h4>綜合複習問題</h4>
+                        <h4></h4>
                         <ol style="margin-left:1.2rem;font-size:0.92rem;">
-                            <li>當計算出的 SAL = 6 µg/cm²，應使用哪個值作為最終 SAL？為什麼？
-                                <br><em>答：4 µg/cm²（預設上限，更嚴格）</em></li>
-                            <li>某產品有 3 個可能的下一個產品，計算出的棉棒限度分別為 50、30、80 µg/mL，應採用哪個限度？
-                                <br><em>答：30 µg/mL（最嚴格，以確保所有下一產品均安全）</em></li>
-                            <li>清潔後設備即將進行 SIP（原位蒸氣滅菌），是否仍需評估生物負載？
-                                <br><em>答：TR29 建議仍評估，以確認滅菌前的起始生物負載不會過度挑戰滅菌效果</em></li>
+                            <li> SAL = 6 µg/cm²， SAL？？
+                                <br><em>：4 µg/cm²（，）</em></li>
+                            <li> 3 ， 50、30、80 µg/mL，？
+                                <br><em>：30 µg/mL（，）</em></li>
+                            <li> SIP（），？
+                                <br><em>：TR29 ，</em></li>
                         </ol>
                     </div>
                 </div>

@@ -82,7 +82,7 @@ Every section file MUST follow this exact structure:
 
 <!-- LEARNING OBJECTIVES -->
 <div class="learning-objectives">
-    <h3>本章學習目標</h3>
+    <h3></h3>
     <ul>
         <li>[Objective 1 in Traditional Chinese]</li>
         <li>[Objective 2]</li>
@@ -94,13 +94,13 @@ Every section file MUST follow this exact structure:
 <!-- CONTENT SECTIONS - Repeat for each subsection -->
 <!-- IMPORTANT: Section titles MUST be bilingual and wrapped in <strong>.
      CSS (template.css) applies padding-left: 1.5rem so the title text
-     visually aligns with the "原文 Original Text" column heading below.
+     visually aligns with the " Original Text" column heading below.
      Do NOT add inline styles that override this — rely on the class. -->
-<div class="section-title"><strong>X.X [English Subsection Title] [中文標題]</strong></div>
+<div class="section-title"><strong>X.X [English Subsection Title] []</strong></div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
         <!-- Original English content with key terms highlighted -->
         <p>Text with <span class="key-term">highlighted terms</span>...</p>
         
@@ -121,29 +121,29 @@ Every section file MUST follow this exact structure:
     </div>
     
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
         
         <!-- 1. Key Concept Definition (Green box) -->
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>Term (中文翻譯):</strong> Explanation in Traditional Chinese...</p>
+            <h4> Key Concepts</h4>
+            <p><strong>Term ():</strong> Explanation in Traditional Chinese...</p>
         </div>
         
         <!-- 2. Analogy (Yellow box) -->
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
+            <h4> Analogy</h4>
             <p>Everyday analogy in Traditional Chinese...</p>
         </div>
         
         <!-- 3. Key Note (Orange box) -->
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
+            <h4> Key Notes</h4>
             <p>Important insight in Traditional Chinese...</p>
         </div>
         
         <!-- 4. Formula (Purple box) - when relevant -->
         <div class="formula-box">
-            <h4>公式與計算 Formula</h4>
+            <h4> Formula</h4>
             <pre>
 Formula or calculation...
             </pre>
@@ -151,13 +151,13 @@ Formula or calculation...
         
         <!-- 5. Application Box -->
         <div class="practice-box" style="border-style:solid; background:linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-color:#22c55e;">
-            <h4>實務應用 Practical Application</h4>
+            <h4> Practical Application</h4>
             <p>CDMO business scenario in Traditional Chinese...</p>
         </div>
         
         <!-- 6. Practice Questions (Blue dashed box) -->
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
                 <li>Question 1 in Traditional Chinese?</li>
                 <li>Question 2?</li>
@@ -166,7 +166,7 @@ Formula or calculation...
         
         <!-- For figure commentary -->
         <div class="note-box">
-            <h4>圖表解讀 Figure Analysis</h4>
+            <h4> Figure Analysis</h4>
             <p>Detailed explanation of the figure in Traditional Chinese...</p>
         </div>
     </div>
@@ -190,7 +190,7 @@ Formula or calculation...
 
 <!-- SECTION SUMMARY -->
 <div class="learning-objectives" style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);">
-    <h3>本節重點回顧 Section Summary</h3>
+    <h3> Section Summary</h3>
     <ul>
         <li>[Key takeaway 1 in Traditional Chinese]</li>
         <li>[Key takeaway 2]</li>
@@ -207,17 +207,17 @@ Formula or calculation...
 ## CONTENT CREATION RULES
 
 ### Language Rules (CRITICAL - READ CAREFULLY)
-1. **ALL explanatory text** must be in Traditional Chinese (繁體中文)
+1. **ALL explanatory text** must be in Traditional Chinese ()
 2. **Technical terms** in English with Chinese in parentheses on first occurrence:
-   - First occurrence: `Aseptic Filling (無菌充填)`
+   - First occurrence: `Aseptic Filling ()`
    - Subsequent: can use either form
 3. **Acronyms** always stay in English: FDA, GMP, CQA, ICH, SU, CIP, SIP, RABS, PUPSIT
 4. **Original content** (left column) stays in English exactly as written in the PDF
-5. **NEVER use Simplified Chinese** - always use 繁體中文
+5. **NEVER use Simplified Chinese** - always use 
 6. **Do NOT translate** the left column content - it must remain in original English
 
 ### Teaching Approach
-- **Tone**: Warm, Socratic, like a private tutor (導師) coaching one-on-one
+- **Tone**: Warm, Socratic, like a private tutor () coaching one-on-one
 - **Explain WHY** things matter, not just WHAT they are
 - **Connect** to broader pharmaceutical strategy and CDMO business implications
 - **Include** business/financial implications when relevant
@@ -253,7 +253,7 @@ For each subsection (e.g., 1.1, 2.1), include AT MINIMUM:
    ```
 3. Embed in HTML: `<img src="data:image/png;base64,{b64}" ...>`
 4. Place the figure in the **left column** with proper caption
-5. Add a **圖表解讀 (Figure Analysis)** box in the **right column** explaining the figure
+5. Add a ** (Figure Analysis)** box in the **right column** explaining the figure
 6. Figure analysis should explain:
    - What the figure shows overall
    - Key elements and their relationships
@@ -334,11 +334,11 @@ Variable cost: bilingual commentary generates 3-5x more text than original
 When making design or content choices, this priority always applies:
 
 ```
-1. Sterility Assurance (無菌保證)         ← ALWAYS #1
+1. Sterility Assurance ()         ← ALWAYS #1
       ▼
-2. Product CQAs (產品關鍵品質屬性)        ← Patient safety
+2. Product CQAs ()        ← Patient safety
       ▼  
-3. Business & Flexibility (商業與彈性)     ← Operational needs
+3. Business & Flexibility ()     ← Operational needs
 ```
 
 When upper and lower priorities conflict, upper ALWAYS wins.
@@ -351,21 +351,21 @@ Use these proven analogies consistently. Add new ones as needed but keep this li
 
 | Concept | Analogy |
 |---------|---------|
-| Aseptic filling | 手術室中準備食物 (preparing food in an operating room) |
-| Terminal sterilization | 微波爐重新加熱 (reheating in microwave) |
-| Container-closure system | 餐廳的餐具選擇 (restaurant dinnerware selection) |
-| Single-use components | 免洗餐具 vs 瓷器 (disposable vs porcelain) |
-| Changeover | F1 賽車進站換胎 (F1 pit stop tire change) |
-| 100% IPC | 有倒車雷達的車 (car with parking sensors) |
-| Statistical IPC | 只能目測停車距離 (estimating parking distance by eye) |
-| CIP/SIP | 洗碗機+高壓消毒 (dishwasher + autoclave) |
-| Isolator vs RABS | 太空站 vs 無塵室 (space station vs clean room) |
-| TCO | 買車的全生命週期成本 (total car ownership cost) |
-| Phase-appropriate approach | 學生到職場的成長 (student growing into professional) |
-| Filling pump selection | 選擇廚房設備 (choosing kitchen equipment) |
-| Contamination Control Strategy | 醫院的感染管控計畫 (hospital infection control plan) |
-| PUPSIT | 出門前檢查瓦斯 (checking gas before leaving home) |
-| Quarantine buffer | 機場安檢等候區 (airport security holding area) |
+| Aseptic filling |  (preparing food in an operating room) |
+| Terminal sterilization |  (reheating in microwave) |
+| Container-closure system |  (restaurant dinnerware selection) |
+| Single-use components |  vs  (disposable vs porcelain) |
+| Changeover | F1  (F1 pit stop tire change) |
+| 100% IPC |  (car with parking sensors) |
+| Statistical IPC |  (estimating parking distance by eye) |
+| CIP/SIP | + (dishwasher + autoclave) |
+| Isolator vs RABS |  vs  (space station vs clean room) |
+| TCO |  (total car ownership cost) |
+| Phase-appropriate approach |  (student growing into professional) |
+| Filling pump selection |  (choosing kitchen equipment) |
+| Contamination Control Strategy |  (hospital infection control plan) |
+| PUPSIT |  (checking gas before leaving home) |
+| Quarantine buffer |  (airport security holding area) |
 
 ---
 
@@ -373,31 +373,31 @@ Use these proven analogies consistently. Add new ones as needed but keep this li
 
 Use these Chinese translations consistently across ALL sections:
 
-| English Term | 繁體中文 |
+| English Term |  |
 |-------------|---------|
-| Aseptic Filling | 無菌充填 |
-| Sterility Assurance | 無菌保證 |
-| Critical Quality Attribute (CQA) | 關鍵品質屬性 |
-| Critical Process Parameter (CPP) | 關鍵製程參數 |
-| Container-Closure System | 容器密封系統 |
-| Single-Use (SU) | 一次性使用 |
-| Clean-In-Place (CIP) | 就地清洗 |
-| Sterilize-In-Place (SIP) | 就地滅菌 |
-| In-Process Control (IPC) | 製程中管控 |
-| Peristaltic Pump (PP) | 蠕動泵 |
-| Rotary Piston Pump (RPP) | 旋轉活塞泵 |
-| Time Pressure (TP) | 時間壓力充填 |
-| Rolling Diaphragm Pump (DP) | 滾動膜片泵 |
-| Restricted Access Barrier System (RABS) | 限制進出屏障系統 |
-| Isolator | 隔離器 |
-| Contamination Control Strategy (CCS) | 污染控制策略 |
-| Total Cost of Ownership (TCO) | 總擁有成本 |
-| Ready-to-Use (RTU) | 即用型 |
-| Rapid Transfer Port (RTP) | 快速傳遞口 |
-| Aseptic Process Simulation (APS) | 無菌製程模擬 |
-| Pre-Use Post-Sterilization Integrity Test (PUPSIT) | 使用前滅菌後完整性測試 |
-| Good Documentation Practice (GDocP) | 良好文件管理規範 |
-| Quality Risk Management (QRM) | 品質風險管理 |
+| Aseptic Filling |  |
+| Sterility Assurance |  |
+| Critical Quality Attribute (CQA) |  |
+| Critical Process Parameter (CPP) |  |
+| Container-Closure System |  |
+| Single-Use (SU) |  |
+| Clean-In-Place (CIP) |  |
+| Sterilize-In-Place (SIP) |  |
+| In-Process Control (IPC) |  |
+| Peristaltic Pump (PP) |  |
+| Rotary Piston Pump (RPP) |  |
+| Time Pressure (TP) |  |
+| Rolling Diaphragm Pump (DP) |  |
+| Restricted Access Barrier System (RABS) |  |
+| Isolator |  |
+| Contamination Control Strategy (CCS) |  |
+| Total Cost of Ownership (TCO) |  |
+| Ready-to-Use (RTU) |  |
+| Rapid Transfer Port (RTP) |  |
+| Aseptic Process Simulation (APS) |  |
+| Pre-Use Post-Sterilization Integrity Test (PUPSIT) |  |
+| Good Documentation Practice (GDocP) |  |
+| Quality Risk Management (QRM) |  |
 
 ---
 
@@ -432,8 +432,8 @@ open TRXX/output/TRXX-Complete.html
 - [ ] All figures embedded as base64 and render correctly
 - [ ] All tables properly formatted in HTML
 - [ ] Right column has minimum required commentary boxes per subsection
-- [ ] All commentary is in Traditional Chinese (繁體中文), NOT Simplified
-- [ ] Technical terms follow `English (中文)` format on first occurrence
+- [ ] All commentary is in Traditional Chinese (), NOT Simplified
+- [ ] Technical terms follow `English ()` format on first occurrence
 - [ ] Analogies are relatable everyday examples
 - [ ] Practice questions test understanding, not mere memorization
 - [ ] File opens and renders correctly in browser

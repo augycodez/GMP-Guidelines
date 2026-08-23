@@ -445,7 +445,7 @@ body {
     font-size: 0.92rem !important;
 }
 
-/* ===== ANALOGY BOX (Yellow) - 比喻說明 ===== */
+/* ===== ANALOGY BOX (Yellow) -  ===== */
 .analogy-box,
 .concept-box[class*="analogy"],
 .concept-box.analogy,
@@ -459,7 +459,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #856404 !important;
 }
 
-/* ===== TERM/CONCEPT BOX (Green) - 核心概念 ===== */
+/* ===== TERM/CONCEPT BOX (Green) -  ===== */
 .term-box,
 .key-term-box,
 .concept-box:not([class*="analogy"]):not([class*="note"]):not([class*="formula"]):not([class*="practice"]):not([class*="highlight"]):not(.analogy):not(.application) {
@@ -474,7 +474,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #2e7d32 !important;
 }
 
-/* ===== NOTE/HIGHLIGHT BOX (Orange) - 重點提示 ===== */
+/* ===== NOTE/HIGHLIGHT BOX (Orange) -  ===== */
 .note-box,
 .key-note,
 .key-point-box,
@@ -493,7 +493,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #c65102 !important;
 }
 
-/* ===== FORMULA BOX (Purple) - 公式計算 ===== */
+/* ===== FORMULA BOX (Purple) -  ===== */
 .formula-box,
 .concept-box[class*="formula"] {
     background: var(--purple-bg) !important;
@@ -528,7 +528,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #1565c0 !important;
 }
 
-/* ===== PRACTICE BOX (Blue dashed) - 練習思考 ===== */
+/* ===== PRACTICE BOX (Blue dashed) -  ===== */
 .practice-box {
     background: linear-gradient(135deg, #e8f4fd 0%, #d1e9ff 100%) !important;
     border: 2px dashed #3182ce !important;
@@ -630,7 +630,7 @@ tr:nth-child(even) {
 
 /* ===== SECTION TITLES =====
    padding-left matches .left-column padding (1.5rem) so the
-   section title text aligns with the start of "原文 Original Text".
+   section title text aligns with the start of " Original Text".
    Border-bottom stays full-width as a visual separator. */
 .section-title,
 .section-divider {
@@ -960,7 +960,7 @@ tr:nth-child(even) {
     <header class="top-header">
         <div class="header-brand">
             <h1>ICH Q8(R2) Pharmaceutical Development</h1>
-            <p class="subtitle">Pharmaceutical Development Guideline | 藥品開發指南 完整教學版</p>
+            <p class="subtitle">Pharmaceutical Development Guideline |  </p>
         </div>
     </header>
 
@@ -1003,7 +1003,7 @@ tr:nth-child(even) {
             <div class="chapter-badge">1</div>
             <div class="chapter-info">
                 <h2>Section 1: Introduction & Scope</h2>
-                <p>導論與範圍 | p1-p2</p>
+                <p> | p1-p2</p>
             </div>
         </div>
         <div class="chapter-body">
@@ -1012,24 +1012,24 @@ tr:nth-child(even) {
 
 <div class="main-content">
 
-    <!-- 學習目標 -->
+    <!--  -->
     <div class="learning-objectives">
-        <h3>本章學習目標 Learning Objectives</h3>
+        <h3> Learning Objectives</h3>
         <ul>
-            <li>理解 ICH Q8(R2) 在 CTD 送審文件 <strong>3.2.P.2</strong> 中的定位與法規意義</li>
-            <li>掌握 <strong>Quality by Design (QbD)</strong> 的核心理念：品質不是測出來的，是設計進去的</li>
-            <li>理解 <strong>Design Space</strong> 的概念與其帶來的法規彈性（無需送審的變更範圍）</li>
-            <li>認識 Q8(R2) 與 ICH Q9（風險管理）、ICH Q10（品質系統）的三角互補關係</li>
-            <li>了解本指南如何為 CDMO 帶來更靈活的製程優化空間</li>
+            <li> ICH Q8(R2)  CTD  <strong>3.2.P.2</strong> </li>
+            <li> <strong>Quality by Design (QbD)</strong> ：，</li>
+            <li> <strong>Design Space</strong> （）</li>
+            <li> Q8(R2)  ICH Q9（）、ICH Q10（）</li>
+            <li> CDMO </li>
         </ul>
     </div>
 
     <!-- ==================== SECTION 1.1 ==================== -->
-    <div class="section-title">1.1 Objective of the Guideline｜指南目的</div>
+    <div class="section-title">1.1 Objective of the Guideline｜</div>
 
     <div class="two-column">
         <div class="left-column">
-            <h2>原文內容 Original Text</h2>
+            <h2> Original Text</h2>
 
             <h3>1. INTRODUCTION</h3>
             <h3>1.1 Objective of the Guideline</h3>
@@ -1042,45 +1042,45 @@ tr:nth-child(even) {
         </div>
 
         <div class="right-column">
-            <h2>導師解析 Tutorial Commentary</h2>
+            <h2> Tutorial Commentary</h2>
 
             <div class="concept-box">
-                <h4>核心概念解析 Key Concepts</h4>
+                <h4> Key Concepts</h4>
                 <ul>
-                    <li><strong>CTD 3.2.P.2（Pharmaceutical Development，藥品開發）</strong>：這是 NDA/MAA 申請文件中最重要的 CMC 章節之一，描述「你為什麼這樣設計這個產品和製程」的科學理由。</li>
-                    <li><strong>ICH M4（Common Technical Document，通用技術文件）</strong>：全球三大法規區域（US/EU/JP）共同認可的藥品申請格式，分五個模組（M1-M5）。3.2.P.2 在 Module 3（品質）之下。</li>
-                    <li><strong>Flexible Regulatory Approaches（法規彈性）</strong>：若你在 3.2.P.2 展現足夠的科學理解，法規機關可以給你更大的空間——如 Design Space 內的改變不需送審。</li>
+                    <li><strong>CTD 3.2.P.2（Pharmaceutical Development，）</strong>： NDA/MAA  CMC ，「」。</li>
+                    <li><strong>ICH M4（Common Technical Document，）</strong>：（US/EU/JP），（M1-M5）。3.2.P.2  Module 3（）。</li>
+                    <li><strong>Flexible Regulatory Approaches（）</strong>： 3.2.P.2 ，—— Design Space 。</li>
                 </ul>
             </div>
 
             <div class="analogy-box">
-                <h4>比喻說明 Analogy</h4>
-                <p>把 3.2.P.2 想像成蓋房子的<strong>建築師設計說明書</strong>。政府審查員不只想看你蓋了什麼房子，他們要看你「為什麼這樣設計」——為什麼選這種材料、為什麼採這個結構、為什麼這樣防震。你解釋得越完整、越有科學依據，審查員越放心，未來你要小改格局也可以不用重新申請建照。</p>
-                <p>反之，如果你只給一張設計圖而沒有說明，任何一根柱子的位置改動都要重新申請——這就是不提交 Q8 風格開發研究的代價。</p>
+                <h4> Analogy</h4>
+                <p> 3.2.P.2 <strong></strong>。，「」——、、。、，，。</p>
+                <p>，，—— Q8 。</p>
             </div>
 
             <div class="note-box">
-                <h4>重點提示 Key Notes</h4>
+                <h4> Key Notes</h4>
                 <ul>
-                    <li><strong>法規彈性的前提是科學說明</strong>：「The degree of regulatory flexibility is predicated on the level of relevant scientific knowledge provided」——這句話是 Q8 的核心精神。你給的科學知識越多，拿到的彈性越大。</li>
-                    <li><strong>動態更新文件</strong>：3.2.P.2 不是一次性文件，產品整個生命週期中獲得的新知識都可以更新它。這是 Q10（品質系統）中「知識管理」的體現。</li>
-                    <li><strong>Q8 + Q9 + Q10 三角</strong>：Q8 提供開發知識架構，Q9 提供風險評估工具，Q10 提供持續改善機制。這三者是密不可分的。</li>
+                    <li><strong></strong>：「The degree of regulatory flexibility is predicated on the level of relevant scientific knowledge provided」—— Q8 。，。</li>
+                    <li><strong></strong>：3.2.P.2 ，。 Q10（）「」。</li>
+                    <li><strong>Q8 + Q9 + Q10 </strong>：Q8 ，Q9 ，Q10 。。</li>
                 </ul>
             </div>
 
             <div class="application-box">
-                <h4>CDMO 實務應用 Practical Application</h4>
-                <p>對 CDMO 而言，幫客戶準備一份高品質的 3.2.P.2 是高附加價值的服務。許多創新藥公司（尤其是 Biotech）在技術轉移給 CDMO 時，其 3.2.P.2 仍非常薄弱。CDMO 若能協助建立完整的開發數據包（development package），不但能加速審查，也能在後期商業化階段享有更多製程優化彈性。</p>
+                <h4>CDMO  Practical Application</h4>
+                <p> CDMO ， 3.2.P.2 。（ Biotech） CDMO ， 3.2.P.2 。CDMO （development package），，。</p>
             </div>
         </div>
     </div>
 
     <!-- ==================== SECTION 1.2 ==================== -->
-    <div class="section-title">1.2 Scope｜適用範圍</div>
+    <div class="section-title">1.2 Scope｜</div>
 
     <div class="two-column">
         <div class="left-column">
-            <h2>原文內容 Original Text</h2>
+            <h2> Original Text</h2>
 
             <h3>1.2 Scope</h3>
 
@@ -1096,71 +1096,71 @@ tr:nth-child(even) {
         </div>
 
         <div class="right-column">
-            <h2>導師解析 Tutorial Commentary</h2>
+            <h2> Tutorial Commentary</h2>
 
             <div class="concept-box">
-                <h4>核心概念解析 Key Concepts</h4>
+                <h4> Key Concepts</h4>
                 <ul>
-                    <li><strong>適用範圍</strong>：Q8(R2) 正式適用於 NDA/MAA 的商業化申請（不適用臨床研究階段的提交），但其原則在臨床開發各階段都應考慮——這一點對 CDMO 在早期技術轉移時非常重要。</li>
-                    <li><strong>Quality Built In by Design（設計入品質）</strong>：這是 QbD 的靈魂。傳統作法是「先做再測，測出來達標就好」；QbD 的作法是「理解每個關鍵屬性（CQA）和製程參數（CPP）的關係，讓製程本身就能保證品質」。</li>
-                    <li><strong>Design Space（設計空間）</strong>：多維度的原料屬性和製程參數的組合範圍，在此範圍內操作能保證產品品質。在 Design Space 內調整不算「重大變更」，不需送 post-approval supplement。</li>
+                    <li><strong></strong>：Q8(R2)  NDA/MAA （），—— CDMO 。</li>
+                    <li><strong>Quality Built In by Design（）</strong>： QbD 。「，」；QbD 「（CQA）（CPP），」。</li>
+                    <li><strong>Design Space（）</strong>：，。 Design Space 「」， post-approval supplement。</li>
                 </ul>
             </div>
 
             <div class="analogy-box">
-                <h4>比喻說明 Analogy</h4>
-                <p><strong>「品質不是測出來的」</strong>——想像你在做餐廳的招牌牛排。傳統方法是：每塊牛排煎好後試味道，不夠好就丟掉。QbD 方法是：搞清楚火候（幾度幾分鐘）、牛肉厚度（幾公分）、靜置時間（幾分鐘）的精確組合，只要在這個「設計空間」內操作，每一塊牛排都會是完美的——你根本不需要逐塊試吃。</p>
-                <p>這個「幾度幾分鐘、幾公分厚、靜置幾分鐘」的操作範圍，就是 Design Space。在範圍內調整火候 ±5°C，不需要向衛生局重新申請菜單變更。</p>
+                <h4> Analogy</h4>
+                <p><strong>「」</strong>——。：，。QbD ：（）、（）、（），「」，——。</p>
+                <p>「、、」， Design Space。 ±5°C，。</p>
             </div>
 
             <div class="note-box">
-                <h4>重點提示 Key Notes</h4>
+                <h4> Key Notes</h4>
                 <ul>
-                    <li><strong>Early-stage 適用性</strong>：雖然 Q8 法規要求是商業申請，但 Annex（Part II）專門處理「phase-appropriate approach」——臨床各階段該做多少開發研究。CMC 人員應在 Phase 1 就開始規劃 Q8 架構。</li>
-                    <li><strong>「Quality cannot be tested into products」是最重要的一句話</strong>：這句話常出現在 FDA 483、Warning Letter 中。如果你只靠 QC 放行而沒有製程理解，法規機關會認為你的品質控制是不充分的。</li>
-                    <li><strong>Design Space vs. Proven Acceptable Ranges (PAR)</strong>：Design Space 是多變數、有互動關係的範圍；PAR 是各個參數的單一範圍（univariate）。Design Space 需要更多 DOE 數據，但換來更大的操作彈性。</li>
+                    <li><strong>Early-stage </strong>： Q8 ， Annex（Part II）「phase-appropriate approach」——。CMC  Phase 1  Q8 。</li>
+                    <li><strong>「Quality cannot be tested into products」</strong>： FDA 483、Warning Letter 。 QC ，。</li>
+                    <li><strong>Design Space vs. Proven Acceptable Ranges (PAR)</strong>：Design Space 、；PAR （univariate）。Design Space  DOE ，。</li>
                 </ul>
             </div>
 
             <div class="formula-box">
-                <h4>概念架構 Conceptual Framework</h4>
-                <p><strong>傳統方法 vs. QbD 方法</strong></p>
+                <h4> Conceptual Framework</h4>
+                <p><strong> vs. QbD </strong></p>
                 <pre>
-傳統 (Traditional):
-  製程 → 固定操作條件 → 產品 → QC 測試 → 放行/不放行
+ (Traditional):
+   →  →  → QC  → /
 
 QbD:
-  QTPP（目標品質概況）
+  QTPP（）
     ↓
-  CQA（關鍵品質屬性）鑑別
+  CQA（）
     ↓
-  Risk Assessment 連結 CQA ← CPP/CMA
+  Risk Assessment  CQA ← CPP/CMA
     ↓
-  Design Space（多變數操作範圍）
+  Design Space（）
     ↓
-  Control Strategy（控制策略）
+  Control Strategy（）
     ↓
-  PAT / Real-Time Release（即時放行）
+  PAT / Real-Time Release（）
                 </pre>
             </div>
 
             <div class="practice-box">
-                <h4>練習思考 Practice Questions</h4>
+                <h4> Practice Questions</h4>
                 <ol>
-                    <li>一家 CDMO 正在幫客戶做技術轉移，客戶只提供了一個固定的製程配方和操作條件，沒有任何 Design Space 數據。對 CDMO 的商業風險是什麼？</li>
-                    <li>為什麼 FDA 和 EMA 都鼓勵廠商提交 Design Space？法規機關的好處是什麼？廠商的好處又是什麼？</li>
-                    <li>「Quality built in by design」和「Quality by testing」的差異，在一批 API 含量測試不合格時會如何體現不同的後果？</li>
+                    <li> CDMO ，， Design Space 。 CDMO ？</li>
+                    <li> FDA  EMA  Design Space？？？</li>
+                    <li>「Quality built in by design」「Quality by testing」， API ？</li>
                 </ol>
             </div>
         </div>
     </div>
 
     <!-- ==================== Section 2 Overview ==================== -->
-    <div class="section-title">Section 2 Overview｜藥品開發概論（QbD 框架導覽）</div>
+    <div class="section-title">Section 2 Overview｜（QbD ）</div>
 
     <div class="two-column">
         <div class="left-column">
-            <h2>原文內容 Original Text</h2>
+            <h2> Original Text</h2>
 
             <p>Changes in formulation and manufacturing processes during development and lifecycle management should be looked upon as opportunities to gain additional knowledge and further support establishment of the design space. Similarly, inclusion of relevant knowledge gained from experiments giving unexpected results can also be useful.</p>
 
@@ -1180,62 +1180,62 @@ QbD:
         </div>
 
         <div class="right-column">
-            <h2>導師解析 Tutorial Commentary</h2>
+            <h2> Tutorial Commentary</h2>
 
             <div class="concept-box">
-                <h4>核心概念解析 Key Concepts</h4>
+                <h4> Key Concepts</h4>
                 <ul>
-                    <li><strong>Design Space 的法規地位</strong>：由申請人提出，法規機關審核批准。一旦批准，在 Design Space 內調整操作條件「不算變更」——這是 QbD 帶來的核心商業價值。</li>
-                    <li><strong>Post-Approval Change（批准後變更）</strong>：傳統製程若要修改任何條件（如混合時間、溫度範圍），通常需要提交 CBE-30 或 Prior Approval Supplement，費時費力。有 Design Space 的廠商可省去大量的後期申請。</li>
-                    <li><strong>PAT（Process Analytical Technology，製程分析技術）</strong>：使用即時分析工具（如 NIR、拉曼光譜）在製程中直接監測 CQA，不需等到成品才做 QC 測試。PAT 是 Real-Time Release Testing (RTRT) 的技術基礎。</li>
-                    <li><strong>Experimental Designs（實驗設計）</strong>：DOE（Design of Experiments）——系統性地同時改變多個因素，建立多變數的理解，而非傳統的「改一個、固定其他」單因素實驗。</li>
+                    <li><strong>Design Space </strong>：，。， Design Space 「」—— QbD 。</li>
+                    <li><strong>Post-Approval Change（）</strong>：（、）， CBE-30  Prior Approval Supplement，。 Design Space 。</li>
+                    <li><strong>PAT（Process Analytical Technology，）</strong>：（ NIR、） CQA， QC 。PAT  Real-Time Release Testing (RTRT) 。</li>
+                    <li><strong>Experimental Designs（）</strong>：DOE（Design of Experiments）——，，「、」。</li>
                 </ul>
             </div>
 
             <div class="analogy-box">
-                <h4>比喻說明 Analogy</h4>
-                <p>「失敗的實驗也是知識」——這句話在工業界常被忽略。Q8 明確指出：<em>"inclusion of relevant knowledge gained from experiments giving unexpected results can also be useful."</em></p>
-                <p>想像你在測試一個新的製錠製程，某批次因為混合時間過長導致混合過度（over-mixing），顆粒太細，片劑脆碎強度不足。這個「失敗」實驗告訴你 Design Space 的邊界——混合時間的上限。把這個數據寫進 3.2.P.2，就是 Design Space 邊界的科學依據。</p>
+                <h4> Analogy</h4>
+                <p>「」——。Q8 ：<em>"inclusion of relevant knowledge gained from experiments giving unexpected results can also be useful."</em></p>
+                <p>，（over-mixing），，。「」 Design Space ——。 3.2.P.2， Design Space 。</p>
             </div>
 
             <div class="note-box">
-                <h4>重點提示 Key Notes</h4>
+                <h4> Key Notes</h4>
                 <ul>
-                    <li><strong>四大法規彈性</strong>：Q8 明確列出 Enhanced Approach 帶來的四個好處：① 風險導向審查、② 在 Design Space 內改變無需重新審查、③ 減少批准後申請、④ RTRT 減少成品測試。這四點是說服客戶投資 QbD 研究的最佳論據。</li>
-                    <li><strong>Prior Knowledge（先驗知識）也算</strong>：文獻資料、平台技術、歷史批次數據，都可以作為建立 Design Space 的依據，不一定要從頭做所有實驗。對 CDMO 而言，累積的多產品平台經驗本身就是競爭優勢。</li>
-                    <li><strong>Real-Time Release Testing (RTRT)</strong>：傳統放行需要等待 28 天穩定性和各項 QC 結果；RTRT 用 PAT 數據即時判斷品質，可以大幅縮短 cycle time。對注射劑等需要快速商業化的品項特別有價值。</li>
+                    <li><strong></strong>：Q8  Enhanced Approach ：① 、②  Design Space 、③ 、④ RTRT 。 QbD 。</li>
+                    <li><strong>Prior Knowledge（）</strong>：、、， Design Space ，。 CDMO ，。</li>
+                    <li><strong>Real-Time Release Testing (RTRT)</strong>： 28  QC ；RTRT  PAT ， cycle time。。</li>
                 </ul>
             </div>
 
             <div class="application-box">
-                <h4>CDMO 實務應用 Practical Application</h4>
-                <p><strong>設計空間的商業談判籌碼</strong>：當 CDMO 協助客戶建立了完整的 Design Space，這個 Design Space 就是雙方未來彈性操作的「合法邊界」。如果客戶未來想換 API 供應商（可能影響 CMA）、或者擴大批量（Scale-up），只要還在 Design Space 內，不需要重新送審，雙方都省下大量時間和費用。這對合約談判是重要的差異化賣點。</p>
+                <h4>CDMO  Practical Application</h4>
+                <p><strong></strong>： CDMO  Design Space， Design Space 「」。 API （ CMA）、（Scale-up）， Design Space ，，。。</p>
                 <ul>
-                    <li>初期投資：建立 Design Space 需要更多 DOE 實驗（開發成本 +20-40%）</li>
-                    <li>長期回報：生命週期內減少 post-approval supplement，每次省約 $50K-$200K 和 6-18 個月時間</li>
+                    <li>： Design Space  DOE （ +20-40%）</li>
+                    <li>： post-approval supplement， $50K-$200K  6-18 </li>
                 </ul>
             </div>
 
             <div class="practice-box">
-                <h4>練習思考 Practice Questions</h4>
+                <h4> Practice Questions</h4>
                 <ol>
-                    <li>一個藥廠在商業化後發現某批次 API 的粒徑分布比平常更廣，這個變化可能影響溶出速率。在傳統方法下 vs. QbD（有 Design Space）下，廠商的處理流程分別是什麼？哪個更有效率？</li>
-                    <li>PAT 的引入需要什麼前提條件？廠商在導入 NIR 含量均勻度測試時，需要向法規機關提交哪些數據？</li>
-                    <li>為什麼 DOE（Design of Experiments）優於 OFAT（One Factor At a Time）？用一個具體的製程開發情境說明。</li>
+                    <li> API ，。 vs. QbD（ Design Space），？？</li>
+                    <li>PAT ？ NIR ，？</li>
+                    <li> DOE（Design of Experiments） OFAT（One Factor At a Time）？。</li>
                 </ol>
             </div>
         </div>
     </div>
 
-    <!-- 本節重點回顧 -->
+    <!--  -->
     <div class="summary-box">
-        <h3>本節重點回顧 Section Summary</h3>
+        <h3> Section Summary</h3>
         <ul>
-            <li><strong>Q8(R2) 的定位</strong>：規範 CTD Module 3 中 3.2.P.2（Pharmaceutical Development）的內容，是呈現開發科學知識的正式場所</li>
-            <li><strong>QbD 核心精神</strong>：Quality built in by design——品質是設計出來的，不是測出來的；法規彈性的大小取決於你提供科學知識的深度</li>
-            <li><strong>Design Space</strong>：由申請人提出、法規機關批准的多維操作範圍；在其內調整不算「變更」，是 QbD 最直接的商業回報</li>
-            <li><strong>工具箱</strong>：DOE（建立多變數理解）+ PAT（即時監測）+ Risk Assessment（識別 CQA/CPP）共同支撐 QbD 架構</li>
-            <li><strong>Q8 + Q9 + Q10</strong>：三指南相互支撐，Q8 是知識的系統化呈現，Q9 提供風險評估方法，Q10 確保知識管理和持續改善</li>
+            <li><strong>Q8(R2) </strong>： CTD Module 3  3.2.P.2（Pharmaceutical Development），</li>
+            <li><strong>QbD </strong>：Quality built in by design——，；</li>
+            <li><strong>Design Space</strong>：、；「」， QbD </li>
+            <li><strong></strong>：DOE（）+ PAT（）+ Risk Assessment（ CQA/CPP） QbD </li>
+            <li><strong>Q8 + Q9 + Q10</strong>：，Q8 ，Q9 ，Q10 </li>
         </ul>
     </div>
 
@@ -1249,7 +1249,7 @@ QbD:
             <div class="chapter-badge">2A</div>
             <div class="chapter-info">
                 <h2>Section 2A: Drug Substance, Excipients & Formulation Dev.</h2>
-                <p>原料藥、賦形劑與製劑開發 | p2-p5</p>
+                <p>、 | p2-p5</p>
             </div>
         </div>
         <div class="chapter-body">
@@ -1258,20 +1258,20 @@ QbD:
 
 <div class="main-content">
 
-    <!-- 學習目標 -->
+    <!--  -->
     <div class="learning-objectives">
-        <h3>本章學習目標 Learning Objectives</h3>
+        <h3> Learning Objectives</h3>
         <ul>
-            <li>掌握原料藥（Drug Substance）的理化與生物特性如何影響製劑品質，及其在 CTD 3.2.S.4.5 中的應用</li>
-            <li>理解賦形劑（Excipients）選擇、相容性評估與功能性驗證的送審要求（CTD 3.2.P.4.6, 3.2.P.5.6）</li>
-            <li>掌握製劑開發（Formulation Development）從初始概念到商業配方的演進過程與文件要求</li>
-            <li>理解 Overages（超量添加）的定義、監管立場與三項必要資訊</li>
-            <li>能辨別製劑理化生物特性（2.2.3）在規格設定與溶出試驗選擇上的決策依據</li>
+            <li>（Drug Substance）， CTD 3.2.S.4.5 </li>
+            <li>（Excipients）、（CTD 3.2.P.4.6, 3.2.P.5.6）</li>
+            <li>（Formulation Development）</li>
+            <li> Overages（）、</li>
+            <li>（2.2.3）</li>
         </ul>
     </div>
 
     <!-- Block 1: 2.1.1 Drug Substance -->
-    <h2 class="section-title">2.1 Components of the Drug Product — 2.1.1 Drug Substance｜組成成分：原料藥</h2>
+    <h2 class="section-title">2.1 Components of the Drug Product — 2.1.1 Drug Substance｜：</h2>
     <div class="two-column">
         <div class="left-column">
             <h2>2.1.1 Drug Substance</h2>
@@ -1284,47 +1284,47 @@ QbD:
             <p>The compatibility of the drug substance with excipients listed in 3.2.P.1 should be evaluated. For products that contain more than one drug substance, the compatibility of the drug substances with each other should also be evaluated.</p>
         </div>
         <div class="right-column">
-            <h2>中文解析</h2>
+            <h2></h2>
 
             <div class="concept-box">
-                <h4>核心概念：原料藥特性 → 製劑品質的鏈結</h4>
-                <p>Q8(R2) 要求 3.2.P.2 章節必須系統性討論原料藥的理化生物特性，核心邏輯是：</p>
+                <h4>： → </h4>
+                <p>Q8(R2)  3.2.P.2 ，：</p>
                 <ul>
-                    <li><strong>溶解度（Solubility）</strong>：直接影響生物利用率及溶出規格設定</li>
-                    <li><strong>粒徑（Particle size）</strong>：影響溶出速率、製造均勻性（尤其低劑量製劑）</li>
-                    <li><strong>晶型（Crystal properties）</strong>：多晶型（polymorphism）影響溶解度與穩定性</li>
-                    <li><strong>水分含量（Water content）</strong>：影響固態製劑穩定性與流動性</li>
-                    <li><strong>滲透性（Permeability）</strong>：BCS 分類的關鍵參數</li>
+                    <li><strong>（Solubility）</strong>：</li>
+                    <li><strong>（Particle size）</strong>：、（）</li>
+                    <li><strong>（Crystal properties）</strong>：（polymorphism）</li>
+                    <li><strong>（Water content）</strong>：</li>
+                    <li><strong>（Permeability）</strong>：BCS </li>
                 </ul>
-                <p>這些特性相互關聯，必須整合評估，不能獨立切割。</p>
+                <p>，，。</p>
             </div>
 
             <div class="analogy-box">
-                <h4>類比：原料藥特性如同食材品質</h4>
-                <p>把製劑開發比作料理：原料藥的理化特性就是食材的本質（新鮮度、質地、含水量）。即使廚師（製程）技術再好，若食材本質不穩定（如多晶型不確定），最終菜肴（製劑品質）也無法保證一致。</p>
-                <p>因此 Q8 要求：先了解食材特性，再設計烹飪方法。</p>
+                <h4>：</h4>
+                <p>：（、、）。（），（），（）。</p>
+                <p> Q8 ：，。</p>
             </div>
 
             <div class="note-box">
-                <h4>法規重點：CTD 文件鏈結</h4>
-                <p>原料藥特性研究結果應連結至：</p>
+                <h4>：CTD </h4>
+                <p>：</p>
                 <ul>
-                    <li><strong>3.2.S.4.5</strong>：原料藥規格說明（Drug Substance Specification Justification）</li>
-                    <li><strong>3.2.P.1</strong>：製劑成分列表（需評估相容性）</li>
-                    <li><strong>ICH Q6A Decision Tree #3, #4</strong>：判斷是否需要進行製劑層級試驗</li>
+                    <li><strong>3.2.S.4.5</strong>：（Drug Substance Specification Justification）</li>
+                    <li><strong>3.2.P.1</strong>：（）</li>
+                    <li><strong>ICH Q6A Decision Tree #3, #4</strong>：</li>
                 </ul>
-                <p>相容性測試（DS-excipient compatibility）是製劑開發的必要步驟，結果應在此記錄。</p>
+                <p>（DS-excipient compatibility），。</p>
             </div>
 
             <div class="application-box">
-                <h4>CDMO 實務應用</h4>
-                <p>當 CDMO 接受新客戶 API 進行製劑開發時，必須首先進行<strong>原料藥特性評估（API characterization）</strong>，包括：BCS 分類、固態分析（XRPD、DSC）、溶解度 pH 曲線。若 API 屬於 BCS II 類（低溶解度/高滲透性），則製劑策略可能需要粒徑控制或無定形固體分散體（ASD）。</p>
+                <h4>CDMO </h4>
+                <p> CDMO  API ，<strong>（API characterization）</strong>，：BCS 、（XRPD、DSC）、 pH 。 API  BCS II （/），（ASD）。</p>
             </div>
         </div>
     </div>
 
     <!-- Block 2: 2.1.2 Excipients -->
-    <h2 class="section-title">2.1.2 Excipients｜賦形劑</h2>
+    <h2 class="section-title">2.1.2 Excipients｜</h2>
     <div class="two-column">
         <div class="left-column">
             <h2>2.1.2 Excipients</h2>
@@ -1334,41 +1334,41 @@ QbD:
             <p>Information to support the safety of excipients, when appropriate, should be cross-referenced (3.2.P.4.6).</p>
         </div>
         <div class="right-column">
-            <h2>中文解析</h2>
+            <h2></h2>
 
             <div class="concept-box">
-                <h4>核心要求：賦形劑的三層評估</h4>
-                <p>Q8 對賦形劑的要求可分三個層次：</p>
+                <h4>：</h4>
+                <p>Q8 ：</p>
                 <ul>
-                    <li><strong>功能性（Functionality）</strong>：每種賦形劑的選用理由、用量依據、功能驗證（整個保存期限內）</li>
-                    <li><strong>相容性（Compatibility）</strong>：賦形劑間、賦形劑與原料藥間的相容性（固態相容性試驗）</li>
-                    <li><strong>安全性（Safety）</strong>：新穎或高用量賦形劑需交叉引用 3.2.P.4.6 的安全資料</li>
+                    <li><strong>（Functionality）</strong>：、、（）</li>
+                    <li><strong>（Compatibility）</strong>：、（）</li>
+                    <li><strong>（Safety）</strong>： 3.2.P.4.6 </li>
                 </ul>
             </div>
 
             <div class="note-box">
-                <h4>常見誤區：製程助劑容易被遺漏</h4>
-                <p>法規明確要求：<strong>所有用於製造的物質，無論是否出現在最終產品中，均需討論</strong>。常見被遺漏的包括：</p>
+                <h4>：</h4>
+                <p>：<strong>，，</strong>。：</p>
                 <ul>
-                    <li>造粒用溶劑（如乙醇）——需討論殘留限度</li>
-                    <li>包衣用增塑劑——需討論對釋放行為的影響</li>
-                    <li>過濾膜材質——需考量吸附（sorption）</li>
+                    <li>（）——</li>
+                    <li>——</li>
+                    <li>——（sorption）</li>
                 </ul>
             </div>
 
             <div class="practice-box">
-                <h4>自我測試</h4>
+                <h4></h4>
                 <ol>
-                    <li>若某製劑使用兩種防腐劑組合（dual preservative system），3.2.P.2.1.2 應如何記錄其相容性？</li>
-                    <li>賦形劑資訊如何支持 3.2.P.5.6（藥品規格說明）？舉例說明。</li>
-                    <li>新穎賦形劑（novel excipient）的安全資料需交叉引用至哪個 CTD 章節？</li>
+                    <li>（dual preservative system），3.2.P.2.1.2 ？</li>
+                    <li> 3.2.P.5.6（）？。</li>
+                    <li>（novel excipient） CTD ？</li>
                 </ol>
             </div>
         </div>
     </div>
 
     <!-- Block 3: 2.2.1 Formulation Development -->
-    <h2 class="section-title">2.2.1 Formulation Development｜製劑開發</h2>
+    <h2 class="section-title">2.2.1 Formulation Development｜</h2>
     <div class="two-column">
         <div class="left-column">
             <h2>2.2.1 Formulation Development</h2>
@@ -1380,50 +1380,50 @@ QbD:
             <p>Any special design features of the drug product (e.g., tablet score line, overfill, anti-counterfeiting measure as it affects the drug product) should be identified and a rationale provided for their use.</p>
         </div>
         <div class="right-column">
-            <h2>中文解析</h2>
+            <h2></h2>
 
             <div class="concept-box">
-                <h4>核心概念：製劑開發的演進故事</h4>
-                <p>2.2.1 要求的是一份完整的「製劑開發歷程」——法規審查員需要看到配方從何處開始、為何演變、如何到達商業版本的完整科學敘事。必須涵蓋：</p>
+                <h4>：</h4>
+                <p>2.2.1 「」——、、。：</p>
                 <ul>
-                    <li>初始概念設計（QTPP 驅動）</li>
-                    <li>各開發階段的配方變更及其依據</li>
-                    <li>臨床批次配方 vs 商業配方的差異說明</li>
-                    <li>關鍵配方屬性（CQA）的識別過程</li>
+                    <li>（QTPP ）</li>
+                    <li></li>
+                    <li> vs </li>
+                    <li>（CQA）</li>
                 </ul>
             </div>
 
             <div class="analogy-box">
-                <h4>類比：配方演進如同產品迭代</h4>
-                <p>就像 iPhone 從 iPhone 1 到最新版本，每一代都有設計變更，但 Apple 必須解釋每個改變的理由。製劑開發也一樣——審查員需要看到從 FIH 配方到商業配方每次改變背後的科學理由，而不是突然出現一個無脈絡的最終配方。</p>
+                <h4>：</h4>
+                <p> iPhone  iPhone 1 ，， Apple 。—— FIH ，。</p>
             </div>
 
             <div class="note-box">
-                <h4>法規重點：臨床橋接（Clinical Bridging）</h4>
-                <p>若商業配方與樞紐試驗（pivotal study）使用的配方不同，必須通過以下方式建立「橋接」：</p>
+                <h4>：（Clinical Bridging）</h4>
+                <p>（pivotal study），「」：</p>
                 <ul>
-                    <li><strong>體外溶出比較</strong>：dissolution profile comparison（f2 相似係數）</li>
-                    <li><strong>體內生物等效性（BE）</strong>：若體外橋接不足</li>
-                    <li><strong>IVIVC</strong>：若已建立，可支持未來配方變更後免做 BE</li>
+                    <li><strong></strong>：dissolution profile comparison（f2 ）</li>
+                    <li><strong>（BE）</strong>：</li>
+                    <li><strong>IVIVC</strong>：， BE</li>
                 </ul>
-                <p>這些資料需在 2.2.1 摘要並交叉引用至 Module 5 的研究報告。</p>
+                <p> 2.2.1  Module 5 。</p>
             </div>
 
             <div class="application-box">
-                <h4>實務挑戰：DoE 在製劑開發中的應用</h4>
-                <p>Q8 特別提到<strong>formal experimental designs（正式試驗設計，即 DoE）</strong>在識別關鍵互動變數中的作用。常見應用：</p>
+                <h4>：DoE </h4>
+                <p>Q8 <strong>formal experimental designs（， DoE）</strong>。：</p>
                 <ul>
-                    <li><strong>全因子設計（Full factorial）</strong>：篩選賦形劑影響</li>
-                    <li><strong>Response Surface Methodology（RSM）</strong>：優化配方組成及其範圍</li>
-                    <li><strong>Mixture design</strong>：多賦形劑比例優化</li>
+                    <li><strong>（Full factorial）</strong>：</li>
+                    <li><strong>Response Surface Methodology（RSM）</strong>：</li>
+                    <li><strong>Mixture design</strong>：</li>
                 </ul>
-                <p>DoE 結果可用於支持 Design Space 的建立（見 Part II Annex 2.4）。</p>
+                <p>DoE  Design Space （ Part II Annex 2.4）。</p>
             </div>
         </div>
     </div>
 
     <!-- Block 4: 2.2.2 Overages + 2.2.3 Physicochemical Properties -->
-    <h2 class="section-title">2.2.2 Overages &amp; 2.2.3 Physicochemical and Biological Properties｜超量添加與理化生物特性</h2>
+    <h2 class="section-title">2.2.2 Overages &amp; 2.2.3 Physicochemical and Biological Properties｜</h2>
     <div class="two-column">
         <div class="left-column">
             <h2>2.2.2 Overages</h2>
@@ -1444,55 +1444,55 @@ QbD:
             </div>
         </div>
         <div class="right-column">
-            <h2>中文解析</h2>
+            <h2></h2>
 
             <div class="note-box">
-                <h4>法規重點：Overages（超量添加）</h4>
-                <p>監管機構對 overages 的基本立場是<strong>不鼓勵（discouraged）</strong>，特別是用來補償降解或延長效期的情況。若確實需要使用，必須提供三項資訊：</p>
+                <h4>：Overages（）</h4>
+                <p> overages <strong>（discouraged）</strong>，。，：</p>
                 <ul>
-                    <li><strong>量</strong>：超量添加的具體數量（%）</li>
-                    <li><strong>原因</strong>：如製造過程中的預期損耗（需有文件佐證）</li>
-                    <li><strong>量的合理性</strong>：超量的量本身需要有科學依據，不能過度</li>
+                    <li><strong></strong>：（%）</li>
+                    <li><strong></strong>：（）</li>
+                    <li><strong></strong>：，</li>
                 </ul>
-                <p>注意：overage 的 API 量必須納入批次配方（3.2.P.3.2）的 API 用量計算中。</p>
+                <p>：overage  API （3.2.P.3.2） API 。</p>
             </div>
 
             <div class="analogy-box">
-                <h4>類比：Overage 如同工程安全係數</h4>
-                <p>Overage 就像橋梁工程的安全係數——在理論需求量之上多加一些。但工程師必須說明：加多少？為什麼是這個量？是否有誇大的安全邊際？過高的 overage 可能在製劑生命週期初期造成藥量過高，帶來安全疑慮。</p>
+                <h4>：Overage </h4>
+                <p>Overage ——。：？？？ overage ，。</p>
             </div>
 
             <div class="concept-box">
-                <h4>核心概念：2.2.3 製劑理化特性的判斷框架</h4>
-                <p>2.2.3 是連結「製劑特性 → 檢測方法選擇」的關鍵橋樑：</p>
+                <h4>：2.2.3 </h4>
+                <p>2.2.3 「 → 」：</p>
                 <ul>
-                    <li><strong>固體口服製劑</strong>：溶出 vs 崩散試驗的選擇（依 ICH Q6A Decision Tree #4 Part 3）</li>
-                    <li><strong>吸入製劑（inhaled）</strong>：呼吸性粒子分布（respirable fraction），需開發 NGI 或 ACI 試驗</li>
-                    <li><strong>生物製劑（biologics）</strong>：依 ICH Q6B 的特性分析</li>
-                    <li><strong>穩定性連結</strong>：理化特性討論需交叉引用 3.2.P.8.3 的穩定性數據</li>
+                    <li><strong></strong>： vs （ ICH Q6A Decision Tree #4 Part 3）</li>
+                    <li><strong>（inhaled）</strong>：（respirable fraction）， NGI  ACI </li>
+                    <li><strong>（biologics）</strong>： ICH Q6B </li>
+                    <li><strong></strong>： 3.2.P.8.3 </li>
                 </ul>
             </div>
 
             <div class="practice-box">
-                <h4>自我測試</h4>
+                <h4></h4>
                 <ol>
-                    <li>監管機構為何不鼓勵使用 overages？哪種 overage 是相對可接受的？</li>
-                    <li>若商業配方有 5% API overage 用於補償製造損耗，CTD 中哪個章節必須包含這個量？</li>
-                    <li>一個 BCS II 類的口服固體製劑，2.2.3 中應如何選擇並論述其體外釋放試驗方法？</li>
+                    <li> overages？ overage ？</li>
+                    <li> 5% API overage ，CTD ？</li>
+                    <li> BCS II ，2.2.3 ？</li>
                 </ol>
             </div>
         </div>
     </div>
 
-    <!-- 小結 -->
+    <!--  -->
     <div class="summary-box">
-        <h3>本節重點回顧 Key Takeaways</h3>
+        <h3> Key Takeaways</h3>
         <ul>
-            <li><strong>2.1.1 Drug Substance</strong>：理化生物特性（溶解度、粒徑、晶型等）必須系統評估，並鏈結至 3.2.S.4.5 規格說明；DS-excipient 相容性為必要步驟</li>
-            <li><strong>2.1.2 Excipients</strong>：所有賦形劑（含製程助劑）需討論功能性、相容性、安全性；新穎賦形劑需交叉引用 3.2.P.4.6</li>
-            <li><strong>2.2.1 Formulation Development</strong>：需完整呈現從初始概念到商業配方的演進歷程；臨床批次與商業配方差異需明確說明並提供橋接數據（溶出比較或 BE）</li>
-            <li><strong>2.2.2 Overages</strong>：原則上不鼓勵；若使用必須說明量、原因、合理性，且需納入批次配方計算</li>
-            <li><strong>2.2.3 Physicochemical Properties</strong>：支持檢測方法選擇（溶出 vs 崩散）；需依 ICH Q6A Decision Tree 做決策，並交叉引用穩定性數據（3.2.P.8.3）</li>
+            <li><strong>2.1.1 Drug Substance</strong>：（、、）， 3.2.S.4.5 ；DS-excipient </li>
+            <li><strong>2.1.2 Excipients</strong>：（）、、； 3.2.P.4.6</li>
+            <li><strong>2.2.1 Formulation Development</strong>：；（ BE）</li>
+            <li><strong>2.2.2 Overages</strong>：；、、，</li>
+            <li><strong>2.2.3 Physicochemical Properties</strong>：（ vs ）； ICH Q6A Decision Tree ，（3.2.P.8.3）</li>
         </ul>
     </div>
 
@@ -1506,7 +1506,7 @@ QbD:
             <div class="chapter-badge">2B</div>
             <div class="chapter-info">
                 <h2>Section 2B: Process Development & Design Space</h2>
-                <p>製程開發與設計空間 | p5-p8</p>
+                <p> | p5-p8</p>
             </div>
         </div>
         <div class="chapter-body">
@@ -1515,20 +1515,20 @@ QbD:
 
 <div class="main-content">
 
-    <!-- 學習目標 -->
+    <!--  -->
     <div class="learning-objectives">
-        <h3>本章學習目標 Learning Objectives</h3>
+        <h3> Learning Objectives</h3>
         <ul>
-            <li>理解製程開發（2.3）的核心目的：識別 CPP、建立製程理解、為 PV/CPV 提供科學基礎</li>
-            <li>掌握製程穩健性（Process Robustness）的概念及其在風險評估中的應用</li>
-            <li>理解容器封閉系統（2.4）評估的多層次考量：材質選擇、密封完整性、相互作用</li>
-            <li>掌握微生物屬性（2.5）對無菌與非無菌製劑的不同要求，及防腐劑有效性驗證</li>
-            <li>理解相容性（2.6）在稀釋/重組配製情境下的送審要求</li>
+            <li>（2.3）： CPP、、 PV/CPV </li>
+            <li>（Process Robustness）</li>
+            <li>（2.4）：、、</li>
+            <li>（2.5），</li>
+            <li>（2.6）/</li>
         </ul>
     </div>
 
     <!-- Block 1: 2.3 Manufacturing Process Development -->
-    <h2 class="section-title">2.3 Manufacturing Process Development｜製造製程開發</h2>
+    <h2 class="section-title">2.3 Manufacturing Process Development｜</h2>
     <div class="two-column">
         <div class="left-column">
             <h2>2.3 Manufacturing Process Development</h2>
@@ -1544,53 +1544,53 @@ QbD:
             <p>An assessment of the ability of the process to reliably produce a product of the intended quality (e.g., the performance of the manufacturing process under different operating conditions, at different scales, or with different equipment) can be provided. An understanding of <span class="key-term">process robustness</span> can be useful in risk assessment and risk reduction (see ICH Q9) and to support future manufacturing and process improvement.</p>
         </div>
         <div class="right-column">
-            <h2>中文解析</h2>
+            <h2></h2>
 
             <div class="concept-box">
-                <h4>核心概念：製程開發 → CPP 識別 → 製程驗證的邏輯鏈</h4>
-                <p>2.3 的核心使命是建立「製程理解」——這是支撐後續所有製造控制策略的科學基礎：</p>
+                <h4>： → CPP  → </h4>
+                <p>2.3 「」——：</p>
                 <ul>
-                    <li><strong>步驟 1</strong>：選擇製程（為何選擇這個製造方法？）</li>
-                    <li><strong>步驟 2</strong>：識別 CPP（哪些製程參數對 CQA 有影響？）</li>
-                    <li><strong>步驟 3</strong>：建立製程理解（CPP 範圍、交互作用）</li>
-                    <li><strong>步驟 4</strong>：支持 PV/CPV（為驗證方案提供科學依據）</li>
+                    <li><strong> 1</strong>：（？）</li>
+                    <li><strong> 2</strong>： CPP（ CQA ？）</li>
+                    <li><strong> 3</strong>：（CPP 、）</li>
+                    <li><strong> 4</strong>： PV/CPV（）</li>
                 </ul>
-                <p>這個邏輯鏈直接連結 3.2.P.2.3（製程開發）→ 3.2.P.3.3（商業製程）→ 3.2.P.3.5（製程驗證）。</p>
+                <p> 3.2.P.2.3（）→ 3.2.P.3.3（）→ 3.2.P.3.5（）。</p>
             </div>
 
             <div class="note-box">
-                <h4>無菌製劑特別要求</h4>
-                <p>Q8 明確指出無菌製品需特別說明<strong>滅菌方法的選擇與論證</strong>。決策依據通常包括：</p>
+                <h4></h4>
+                <p>Q8 <strong></strong>。：</p>
                 <ul>
-                    <li>終端滅菌（Terminal sterilization）優先考量——FDA 及 EMA 皆偏好</li>
-                    <li>若無法終端滅菌，必須論證無菌製程（Aseptic processing）的必要性</li>
-                    <li>初級包裝材料的滅菌方法也需一並討論</li>
+                    <li>（Terminal sterilization）——FDA  EMA </li>
+                    <li>，（Aseptic processing）</li>
+                    <li></li>
                 </ul>
-                <p>這與 PIC/S Annex 1 及 EU GMP Annex 1 的要求完全一致。</p>
+                <p> PIC/S Annex 1  EU GMP Annex 1 。</p>
             </div>
 
             <div class="analogy-box">
-                <h4>類比：製程穩健性如同橋梁抗震設計</h4>
-                <p><strong>Process Robustness（製程穩健性）</strong>是指製程在材料變異、操作條件波動、設備差異的情況下，仍能持續生產符合品質要求的能力。就像橋梁不只要能承受正常荷載，還要能在颱風、地震中維持結構安全。</p>
-                <p>Q8 建議在製程開發中評估穩健性，這為未來的製程改善（scale-up、設備更換）提供了「彈性邊界」的科學依據。</p>
+                <h4>：</h4>
+                <p><strong>Process Robustness（）</strong>、、，。，、。</p>
+                <p>Q8 ，（scale-up、）「」。</p>
             </div>
 
             <div class="application-box">
-                <h4>臨床批次 vs 商業批次的橋接文件</h4>
-                <p>法規審查員需要確認：用於臨床試驗的批次與商業生產批次是「同一產品」。差異的說明應包含四項資訊：</p>
+                <h4> vs </h4>
+                <p>：「」。：</p>
                 <ul>
-                    <li>批次編號與用途（如 BE 研究批次 XY-001）</li>
-                    <li>生產地點（若有變更）</li>
-                    <li>批次量（scale-up 的合理性）</li>
-                    <li>設備差異（如從實驗室型造粒機到生產型）</li>
+                    <li>（ BE  XY-001）</li>
+                    <li>（）</li>
+                    <li>（scale-up ）</li>
+                    <li>（）</li>
                 </ul>
-                <p>差異對產品品質的影響須以數據支持（如批次分析比較）。</p>
+                <p>（）。</p>
             </div>
         </div>
     </div>
 
     <!-- Block 2: 2.4 Container Closure System -->
-    <h2 class="section-title">2.4 Container Closure System｜容器封閉系統</h2>
+    <h2 class="section-title">2.4 Container Closure System｜</h2>
     <div class="two-column">
         <div class="left-column">
             <h2>2.4 Container Closure System</h2>
@@ -1607,51 +1607,51 @@ QbD:
             <p>If a dosing device is used (e.g., dropper pipette, pen injection device, dry powder inhaler), it is important to demonstrate that a reproducible and accurate dose of the product is delivered under testing conditions which, as far as possible, simulate the use of the product.</p>
         </div>
         <div class="right-column">
-            <h2>中文解析</h2>
+            <h2></h2>
 
             <div class="concept-box">
-                <h4>核心概念：容器封閉系統的多層考量</h4>
-                <p>2.4 要求系統性評估容器封閉系統（CCS），核心問題是：<strong>這個包裝能在整個 shelf life 內保護產品並維持其品質嗎？</strong></p>
+                <h4>：</h4>
+                <p>2.4 （CCS），：<strong> shelf life ？</strong></p>
                 <ul>
-                    <li><strong>材質選擇論證</strong>：初級包材（primary packaging）選擇需有科學依據</li>
-                    <li><strong>密封完整性</strong>：Container Closure Integrity Testing（CCIT）</li>
-                    <li><strong>相互作用（Interaction）</strong>：吸附（sorption）、浸出物（leachables）、萃取物（extractables）</li>
-                    <li><strong>儲運適應性</strong>：溫度、濕度、光照、震動的保護能力</li>
+                    <li><strong></strong>：（primary packaging）</li>
+                    <li><strong></strong>：Container Closure Integrity Testing（CCIT）</li>
+                    <li><strong>（Interaction）</strong>：（sorption）、（leachables）、（extractables）</li>
+                    <li><strong></strong>：、、、</li>
                 </ul>
             </div>
 
             <div class="note-box">
-                <h4>法規重點：Extractables &amp; Leachables（E&amp;L）</h4>
-                <p>Q8 提到 <strong>leaching（浸出）</strong> 是容器封閉系統評估的必要考量，這直接連結到業界重要的 E&amp;L 評估：</p>
+                <h4>：Extractables &amp; Leachables（E&amp;L）</h4>
+                <p>Q8  <strong>leaching（）</strong> ， E&amp;L ：</p>
                 <ul>
-                    <li><strong>Extractables</strong>：在嚴苛溶劑條件下從包材中萃取出的化學物質</li>
-                    <li><strong>Leachables</strong>：在實際使用條件下遷移到藥品中的物質</li>
-                    <li>安全疑慮需通過毒理學評估（AET 分析評估閾值）</li>
-                    <li>結果需在 3.2.P.2.4 討論，並可交叉引用 3.2.P.7</li>
+                    <li><strong>Extractables</strong>：</li>
+                    <li><strong>Leachables</strong>：</li>
+                    <li>（AET ）</li>
+                    <li> 3.2.P.2.4 ， 3.2.P.7</li>
                 </ul>
-                <p>對於注射劑、吸入製劑，E&amp;L 評估尤為關鍵。</p>
+                <p>、，E&amp;L 。</p>
             </div>
 
             <div class="analogy-box">
-                <h4>類比：包裝系統如同太空衣</h4>
-                <p>藥品包裝就像太空衣——必須在外部惡劣環境中保護內容物（藥品），同時確保內部與外部的完全隔絕（密封完整性），且本身不能向內容物「洩露」有害物質（leachables）。太空衣一旦密封失效或材料老化，後果嚴重；藥品包裝亦然。</p>
+                <h4>：</h4>
+                <p>——（），（），「」（leachables）。，；。</p>
             </div>
 
             <div class="application-box">
-                <h4>給藥裝置（Dosing Device）的特別要求</h4>
-                <p>Q8 特別提及含給藥裝置的產品（如筆式注射器、乾粉吸入器）需要驗證在<strong>模擬使用條件下的劑量再現性與準確性</strong>。這對以下產品尤為重要：</p>
+                <h4>（Dosing Device）</h4>
+                <p>Q8 （、）<strong></strong>。：</p>
                 <ul>
-                    <li>胰島素筆（pen injector）——劑量精準度直接影響安全性</li>
-                    <li>乾粉吸入器（DPI）——送達肺部的粒子量需驗證</li>
-                    <li>定量噴霧劑（MDI）——每揿劑量一致性</li>
+                    <li>（pen injector）——</li>
+                    <li>（DPI）——</li>
+                    <li>（MDI）——</li>
                 </ul>
-                <p>裝置性能試驗數據通常記錄於 3.2.P.2.4 及 3.2.P.3.4（容器封閉說明）。</p>
+                <p> 3.2.P.2.4  3.2.P.3.4（）。</p>
             </div>
         </div>
     </div>
 
     <!-- Block 3: 2.5 Microbiological Attributes + 2.6 Compatibility -->
-    <h2 class="section-title">2.5 Microbiological Attributes &amp; 2.6 Compatibility｜微生物屬性與相容性</h2>
+    <h2 class="section-title">2.5 Microbiological Attributes &amp; 2.6 Compatibility｜</h2>
     <div class="two-column">
         <div class="left-column">
             <h2>2.5 Microbiological Attributes</h2>
@@ -1669,67 +1669,67 @@ QbD:
             <p>Similarly, admixture or dilution of products prior to administration (e.g., product added to large volume infusion containers) might need to be addressed.</p>
         </div>
         <div class="right-column">
-            <h2>中文解析</h2>
+            <h2></h2>
 
             <div class="note-box">
-                <h4>法規重點：防腐劑有效性試驗</h4>
-                <p>Q8 強調兩個關鍵原則：</p>
+                <h4>：</h4>
+                <p>Q8 ：</p>
                 <ul>
-                    <li><strong>規格中的防腐劑含量（化學測試）</strong> ≠ <strong>開發中需驗證的防腐劑有效性</strong></li>
-                    <li>必須以<strong>最低規格濃度</strong>（lowest specified concentration）驗證有效性——不能用平均或最高濃度</li>
+                    <li><strong>（）</strong> ≠ <strong></strong></li>
+                    <li><strong></strong>（lowest specified concentration）——</li>
                 </ul>
-                <p>測試標準：各地藥典的抗菌有效性試驗（AET / Preservative Efficacy Test）——USP &lt;51&gt;、Ph.Eur. 5.1.3、BP Appendix XVI C。</p>
-                <p>若產品用於多劑量使用（multi-dose），需以<strong>模擬患者使用條件</strong>進行挑戰測試。</p>
+                <p>：（AET / Preservative Efficacy Test）——USP &lt;51&gt;、Ph.Eur. 5.1.3、BP Appendix XVI C。</p>
+                <p>（multi-dose），<strong></strong>。</p>
             </div>
 
             <div class="analogy-box">
-                <h4>類比：防腐劑最低有效濃度如同最低有效抗生素劑量</h4>
-                <p>臨床上抗生素的劑量以 MIC（最低抑菌濃度）為基礎——不是越高越好，而是找到「足夠有效的最低量」以兼顧療效與安全。防腐劑有效性驗證的邏輯完全相同：用最低規格濃度驗證效力，確保整個 shelf life 內仍有效。</p>
+                <h4>：</h4>
+                <p> MIC（）——，「」。：， shelf life 。</p>
             </div>
 
             <div class="concept-box">
-                <h4>2.6 相容性：稀釋/重組的使用環境</h4>
-                <p>2.6 針對需要在使用前重組或稀釋的製品，要求提供：</p>
+                <h4>2.6 ：/</h4>
+                <p>2.6 ，：</p>
                 <ul>
-                    <li><strong>稀釋劑相容性</strong>：加入哪些稀釋液後穩定？有無沉澱？</li>
-                    <li><strong>使用中有效期（in-use shelf life）</strong>：稀釋/重組後能保存多久？在哪個溫度？</li>
-                    <li><strong>濃度範圍</strong>：稀釋至最低/最高濃度時的穩定性</li>
-                    <li><strong>大容量輸液袋（large volume infusion）</strong>：若需加入 500 mL/1000 mL 袋，需評估相容性</li>
+                    <li><strong></strong>：？？</li>
+                    <li><strong>（in-use shelf life）</strong>：/？？</li>
+                    <li><strong></strong>：/</li>
+                    <li><strong>（large volume infusion）</strong>： 500 mL/1000 mL ，</li>
                 </ul>
-                <p>相容性資料直接支持<strong>產品標籤說明書（PI/PIL）</strong>中的配製指示。</p>
+                <p><strong>（PI/PIL）</strong>。</p>
             </div>
 
             <div class="application-box">
-                <h4>注射劑的相容性評估重點</h4>
-                <p>注射劑（如靜脈輸注製劑）通常需要最完整的相容性資料，包括：</p>
+                <h4></h4>
+                <p>（），：</p>
                 <ul>
-                    <li>與 0.9% NaCl、5% Dextrose、乳酸林格液的相容性</li>
-                    <li>與常見輸液容器（PVC、non-PVC）的相容性（E&amp;L 考量）</li>
-                    <li>稀釋後的光降解穩定性（若需避光保存）</li>
-                    <li>Y-site 相容性（若多藥物同時輸注）</li>
+                    <li> 0.9% NaCl、5% Dextrose、</li>
+                    <li>（PVC、non-PVC）（E&amp;L ）</li>
+                    <li>（）</li>
+                    <li>Y-site （）</li>
                 </ul>
-                <p>這些資料通常與臨床用藥指引直接掛鉤。</p>
+                <p>。</p>
             </div>
 
             <div class="practice-box">
-                <h4>自我測試</h4>
+                <h4></h4>
                 <ol>
-                    <li>一個含苯紮氯銨（BAK）防腐劑的眼藥水，ICH Q8(R2) 要求如何驗證其防腐效力？最低規格濃度在哪個文件中定義？</li>
-                    <li>製程開發研究中為何需要記錄「臨床批次與商業批次的製程差異」？這些資料在 CTD 中應放在哪裡？</li>
-                    <li>一種需要在 IV bag 中稀釋使用的注射劑，2.6 章節應涵蓋哪些相容性評估內容？</li>
+                    <li>（BAK），ICH Q8(R2) ？？</li>
+                    <li>「」？ CTD ？</li>
+                    <li> IV bag ，2.6 ？</li>
                 </ol>
             </div>
         </div>
     </div>
 
-    <!-- 小結 -->
+    <!--  -->
     <div class="summary-box">
-        <h3>本節重點回顧 Key Takeaways</h3>
+        <h3> Key Takeaways</h3>
         <ul>
-            <li><strong>2.3 製程開發</strong>：識別 CPP、建立製程理解是核心；臨床批次 vs 商業批次差異需系統記錄（4 項資訊）；無菌製劑需特別論證滅菌方法選擇；製程穩健性評估支持風險管理</li>
-            <li><strong>2.4 容器封閉</strong>：初級包材選擇需論證；密封完整性（CCIT）必要；E&amp;L（extractables/leachables）評估不可忽略；含給藥裝置需驗證劑量再現性</li>
-            <li><strong>2.5 微生物屬性</strong>：非無菌製劑需說明是否進行微生物限度測試；防腐劑需以<strong>最低規格濃度</strong>驗證有效性；無菌製劑需評估 CCS 的密封完整性</li>
-            <li><strong>2.6 相容性</strong>：涵蓋稀釋劑相容性、使用中有效期、濃度範圍；對注射劑尤為重要；資料直接支持標籤說明書</li>
+            <li><strong>2.3 </strong>： CPP、； vs （4 ）；；</li>
+            <li><strong>2.4 </strong>：；（CCIT）；E&amp;L（extractables/leachables）；</li>
+            <li><strong>2.5 </strong>：；<strong></strong>； CCS </li>
+            <li><strong>2.6 </strong>：、、；；</li>
         </ul>
     </div>
 
@@ -1743,7 +1743,7 @@ QbD:
             <div class="chapter-badge">2C</div>
             <div class="chapter-info">
                 <h2>Section 2C: Lifecycle Management & Glossary</h2>
-                <p>生命週期管理與術語 | p7-p8</p>
+                <p> | p7-p8</p>
             </div>
         </div>
         <div class="chapter-body">
@@ -1752,19 +1752,19 @@ QbD:
 
 <div class="main-content">
 
-    <!-- 學習目標 -->
+    <!--  -->
     <div class="learning-objectives">
-        <h3>本章學習目標 Learning Objectives</h3>
+        <h3> Learning Objectives</h3>
         <ul>
-            <li>精確掌握 ICH Q8(R2) Part I 的六個核心術語官方定義</li>
-            <li>理解各術語在製藥開發實務中的應用邊界，避免常見混淆</li>
-            <li>建立術語間的關聯性思維（Design Space → CPV → Lifecycle → Quality 的概念脈絡）</li>
-            <li>能夠在 CTD 送審文件中正確引用並運用這些術語</li>
+            <li> ICH Q8(R2) Part I </li>
+            <li>，</li>
+            <li>（Design Space → CPV → Lifecycle → Quality ）</li>
+            <li> CTD </li>
         </ul>
     </div>
 
     <!-- Block 1: Continuous Process Verification + Design Space -->
-    <h2 class="section-title">核心術語（一）：Continuous Process Verification &amp; Design Space｜持續製程查驗與設計空間</h2>
+    <h2 class="section-title">（）：Continuous Process Verification &amp; Design Space｜</h2>
     <div class="two-column">
         <div class="left-column">
             <h2>3. Glossary — Part I</h2>
@@ -1779,28 +1779,28 @@ QbD:
             </div>
         </div>
         <div class="right-column">
-            <h2>中文解析</h2>
+            <h2></h2>
 
             <div class="concept-box">
-                <h4>Continuous Process Verification（CPV）持續製程查驗</h4>
-                <p><strong>官方定義</strong>：製程驗證的替代方法——持續監控並評估製造製程的績效。</p>
-                <p>CPV 是 FDA 2011 年《製程驗證指南》所推廣的「第三階段驗證」概念，相對於傳統的「三批次驗證一次性方法」，CPV 代表製程驗證的範式轉移：</p>
+                <h4>Continuous Process Verification（CPV）</h4>
+                <p><strong></strong>：——。</p>
+                <p>CPV  FDA 2011 《》「」，「」，CPV ：</p>
                 <ul>
-                    <li><strong>傳統 PV</strong>：三批驗證通過 → 宣告製程已驗證 → 固定製程</li>
-                    <li><strong>CPV</strong>：持續收集數據 → 統計過程控制（SPC）→ 持續確認製程受控狀態</li>
+                    <li><strong> PV</strong>： →  → </li>
+                    <li><strong>CPV</strong>： → （SPC）→ </li>
                 </ul>
-                <p>CPV 需要完善的製程監控體系，包括 inline/atline/online 量測技術，通常與 PAT 工具配合使用。</p>
+                <p>CPV ， inline/atline/online ， PAT 。</p>
             </div>
 
             <div class="concept-box">
-                <h4>Design Space（設計空間）——最重要的 Q8 術語</h4>
-                <p><strong>官方定義要素拆解</strong>：</p>
+                <h4>Design Space（）—— Q8 </h4>
+                <p><strong></strong>：</p>
                 <ul>
-                    <li><strong>多維度組合</strong>（multidimensional）：不是單一變數的範圍，而是多個輸入變數的交互作用空間</li>
-                    <li><strong>輸入變數</strong>：包含物料屬性（material attributes）和製程參數（process parameters）</li>
-                    <li><strong>已驗證提供品質保證</strong>（demonstrated to provide assurance of quality）：必須有科學數據支持</li>
+                    <li><strong></strong>（multidimensional）：，</li>
+                    <li><strong></strong>：（material attributes）（process parameters）</li>
+                    <li><strong></strong>（demonstrated to provide assurance of quality）：</li>
                 </ul>
-                <p>最關鍵的監管含義：<strong>在 Design Space 內操作不算「變更」</strong>，不需要提交 post-approval change（補充申請）。這是 QbD 帶來的最大監管彈性。</p>
+                <p>：<strong> Design Space 「」</strong>， post-approval change（）。 QbD 。</p>
             </div>
 
             </div>
@@ -1808,10 +1808,10 @@ QbD:
 
     <div class="note-box">
                 <h4>Design Space vs Normal Operating Range (NOR) vs PAR</h4>
-                <p>詳細關係見 Part II Annex 2.4.5。</p>
+                <p> Part II Annex 2.4.5。</p>
             </div>
         <!-- Block 2: Formal Experimental Design + Lifecycle -->
-    <h2 class="section-title">核心術語（二）：Formal Experimental Design &amp; Lifecycle｜正式試驗設計與生命週期</h2>
+    <h2 class="section-title">（）：Formal Experimental Design &amp; Lifecycle｜</h2>
     <div class="two-column">
         <div class="left-column">
             <h3>Formal Experimental Design</h3>
@@ -1821,31 +1821,31 @@ QbD:
             <p>All phases in the life of a product from the <strong>initial development</strong> through <strong>marketing</strong> until the product's <strong>discontinuation</strong>.</p>
         </div>
         <div class="right-column">
-            <h2>中文解析</h2>
+            <h2></h2>
 
             <div class="concept-box">
-                <h4>Formal Experimental Design（正式試驗設計，DoE）</h4>
-                <p><strong>官方定義</strong>：用結構化、有組織的方法確定影響製程因素與製程輸出之間關係的方法，即「試驗設計（Design of Experiments）」。</p>
-                <p>Q8 多次提到 DoE 在以下場景的應用：</p>
+                <h4>Formal Experimental Design（，DoE）</h4>
+                <p><strong></strong>：、，「（Design of Experiments）」。</p>
+                <p>Q8  DoE ：</p>
                 <ul>
-                    <li>識別關鍵配方屬性（2.2.1）</li>
-                    <li>識別 CPP 與 CQA 的關係（2.3）</li>
-                    <li>建立 Design Space（Part II Annex 2.4）</li>
+                    <li>（2.2.1）</li>
+                    <li> CPP  CQA （2.3）</li>
+                    <li> Design Space（Part II Annex 2.4）</li>
                 </ul>
-                <p>常見 DoE 設計：Plackett-Burman（篩選）→ Central Composite Design（優化）→ Mixture Design（配方）。</p>
+                <p> DoE ：Plackett-Burman（）→ Central Composite Design（）→ Mixture Design（）。</p>
             </div>
 
             </div>
     </div>
 
     <div class="formula-box">
-                <h4>Lifecycle（生命週期）的定義與 ICH Q 三部曲</h4>
-                <p><strong>官方定義</strong>：從初始開發到上市再到退市的產品全生命週期。</p>
-                <p>Q8「生命週期」概念是整個 ICH Q 三部曲的基礎哲學：</p>
-                <p>「生命週期管理」意味著 3.2.P.2（製劑開發）章節可以在整個產品生命週期中持續更新，以納入新知識。</p>
+                <h4>Lifecycle（） ICH Q </h4>
+                <p><strong></strong>：。</p>
+                <p>Q8「」 ICH Q ：</p>
+                <p>「」 3.2.P.2（），。</p>
             </div>
         <!-- Block 3: PAT + Process Robustness + Quality -->
-    <h2 class="section-title">核心術語（三）：PAT, Process Robustness &amp; Quality｜製程分析技術、製程穩健性與品質</h2>
+    <h2 class="section-title">（）：PAT, Process Robustness &amp; Quality｜、</h2>
     <div class="two-column">
         <div class="left-column">
             <h3>Process Analytical Technology (PAT)</h3>
@@ -1858,97 +1858,97 @@ QbD:
             <p>The <strong>suitability</strong> of either a drug substance or drug product for its intended use. This term includes such attributes as the <span class="key-term">identity</span>, <span class="key-term">strength</span>, and <span class="key-term">purity</span> (from ICH Q6A Specifications).</p>
         </div>
         <div class="right-column">
-            <h2>中文解析</h2>
+            <h2></h2>
 
             <div class="concept-box">
-                <h4>Process Analytical Technology（PAT）製程分析技術</h4>
-                <p><strong>官方定義核心</strong>：透過對原物料和製程中物料的關鍵品質及性能屬性進行<strong>及時量測</strong>（即製程中），達到設計、分析和控制製造的系統。</p>
-                <p>PAT 的三個維度：</p>
+                <h4>Process Analytical Technology（PAT）</h4>
+                <p><strong></strong>：<strong></strong>（），、。</p>
+                <p>PAT ：</p>
                 <ul>
-                    <li><strong>設計（Designing）</strong>：在開發階段建立量測方法，理解製程</li>
-                    <li><strong>分析（Analyzing）</strong>：即時數據分析，理解製程狀態</li>
-                    <li><strong>控制（Controlling）</strong>：基於量測結果進行即時製程調整</li>
+                    <li><strong>（Designing）</strong>：，</li>
+                    <li><strong>（Analyzing）</strong>：，</li>
+                    <li><strong>（Controlling）</strong>：</li>
                 </ul>
-                <p>常見 PAT 工具：NIR（近紅外光譜）用於水分/含量監測、Raman 光譜、在線粒徑分析、pH/溫度感測器。PAT 是 CPV 的技術基礎。</p>
+                <p> PAT ：NIR（）/、Raman 、、pH/。PAT  CPV 。</p>
             </div>
 
             <div class="analogy-box">
-                <h4>類比：PAT 如同飛機的自動駕駛儀</h4>
-                <p>傳統製造 = 飛行員靠目視導航，偶爾查儀表（製程中很少量測，只靠終點測試）。PAT = 全自動駕駛儀，持續感測器數據 → 即時調整 → 確保精準飛行路徑。PAT 讓製程控制從「製後檢驗」轉變為「製中保證」，這是 Real-Time Release Testing（RTRT）的技術前提。</p>
+                <h4>：PAT </h4>
+                <p> = ，（，）。PAT = ， →  → 。PAT 「」「」， Real-Time Release Testing（RTRT）。</p>
             </div>
 
             <div class="concept-box">
-                <h4>Process Robustness（製程穩健性）</h4>
-                <p><strong>官方定義</strong>：製程在材料變異及製程/設備變化下，不對品質產生負面影響的承受能力。</p>
-                <p>穩健性是 Design Space 概念的實踐層次：</p>
+                <h4>Process Robustness（）</h4>
+                <p><strong></strong>：/，。</p>
+                <p> Design Space ：</p>
                 <ul>
-                    <li>Design Space 定義了「哪個範圍可以操作」</li>
-                    <li>Process Robustness 描述「在這個範圍內，製程對波動的抵抗力」</li>
-                    <li>穩健性高 → 日常操作遠離 edge of failure → 製造風險低</li>
+                    <li>Design Space 「」</li>
+                    <li>Process Robustness 「，」</li>
+                    <li> →  edge of failure → </li>
                 </ul>
-                <p>穩健性評估通常以 DOE 進行，結果支持 CPP 操作範圍的設定。</p>
+                <p> DOE ， CPP 。</p>
             </div>
 
             <div class="note-box">
-                <h4>Quality（品質）的官方定義——注意其限制性</h4>
-                <p>ICH Q8 對「品質」的定義直接引用 ICH Q6A：<strong>藥品或原料藥對其預期用途的適合性，包括鑑別、效價和純度</strong>。</p>
-                <p>這個定義相對「窄」——主要聚焦在理化和微生物層面。注意與日常用語「品質」的區別：</p>
+                <h4>Quality（）——</h4>
+                <p>ICH Q8 「」 ICH Q6A：<strong>，、</strong>。</p>
+                <p>「」——。「」：</p>
                 <ul>
-                    <li>不直接包含「療效」或「安全性」（由 CQA 間接連結）</li>
-                    <li>「鑑別、效價、純度」是規格測試的三個核心維度</li>
-                    <li>Q8 後續引入 QTPP 和 CQA 來擴展品質內涵</li>
+                    <li>「」「」（ CQA ）</li>
+                    <li>「、、」</li>
+                    <li>Q8  QTPP  CQA </li>
                 </ul>
             </div>
 
             <div class="practice-box">
-                <h4>術語整合應用測試</h4>
+                <h4></h4>
                 <ol>
-                    <li>說明為何「在 Design Space 內操作不視為變更」對 CDMO 客戶的實際生產意義。</li>
-                    <li>PAT 和 CPV 有何關聯？為何 Q8 術語表需要同時定義兩者？</li>
-                    <li>一個具高度 Process Robustness 的製程，其 Design Space 與 Normal Operating Range 的關係如何？</li>
-                    <li>Q8 對「品質」的官方定義為何不直接提及「安全性」或「療效」？這種定義方式有何目的？</li>
+                    <li>「 Design Space 」 CDMO 。</li>
+                    <li>PAT  CPV ？ Q8 ？</li>
+                    <li> Process Robustness ， Design Space  Normal Operating Range ？</li>
+                    <li>Q8 「」「」「」？？</li>
                 </ol>
             </div>
         </div>
     </div>
 
-    <!-- 術語總覽表 -->
-    <h2 class="section-title">Part I 術語總覽對照表</h2>
+    <!--  -->
+    <h2 class="section-title">Part I </h2>
     <div class="two-column">
         <div class="left-column">
             <h2>Six Key Terms — Official Definitions Summary</h2>
             </div>
         <div class="right-column">
-            <h2>中文速查與記憶框架</h2>
+            <h2></h2>
 
             <div class="formula-box">
-                <h4>術語關聯圖（記憶框架）</h4>
-                <p>以下是七個術語的邏輯關聯：</p>
+                <h4>（）</h4>
+                <p>：</p>
                 <ul>
-                    <li><strong>Lifecycle（生命週期）</strong> ← 整體時間框架，Q8、Q9、Q10 共享</li>
-                    <li><strong>Formal Experimental Design（DoE）</strong> ← 建立知識的工具</li>
-                    <li>↓ DoE 產生知識 → 定義 <strong>Design Space</strong></li>
-                    <li><strong>PAT</strong> ← 在 Design Space 內進行即時監控的技術</li>
-                    <li><strong>Process Robustness</strong> ← 描述 Design Space 的「寬度」和彈性</li>
-                    <li><strong>CPV</strong> ← 利用 PAT 數據持續驗證製程狀態</li>
-                    <li><strong>Quality</strong> ← 最終目標，所有活動服務於此</li>
+                    <li><strong>Lifecycle（）</strong> ← ，Q8、Q9、Q10 </li>
+                    <li><strong>Formal Experimental Design（DoE）</strong> ← </li>
+                    <li>↓ DoE  →  <strong>Design Space</strong></li>
+                    <li><strong>PAT</strong> ←  Design Space </li>
+                    <li><strong>Process Robustness</strong> ←  Design Space 「」</li>
+                    <li><strong>CPV</strong> ←  PAT </li>
+                    <li><strong>Quality</strong> ← ，</li>
                 </ul>
             </div>
 
             </div>
     </div>
 
-    <!-- 小結 -->
+    <!--  -->
     <div class="summary-box">
-        <h3>本節重點回顧 Key Takeaways</h3>
+        <h3> Key Takeaways</h3>
         <ul>
-            <li><strong>Design Space</strong>：Q8 最重要的術語——多維交互空間，在其中操作不視為監管變更；由申請方提出，需監管批准</li>
-            <li><strong>CPV</strong>：傳統三批次 PV 的替代方案，持續監控取代一次性驗證，代表製程驗證的現代範式</li>
-            <li><strong>PAT</strong>：即時量測技術系統，是 CPV 和 RTRT 的技術基礎；FDA PAT guidance (2004) 是其監管基礎</li>
-            <li><strong>Process Robustness</strong>：製程耐受性的度量，高穩健性 = 日常操作遠離失效邊界 = 製造風險降低</li>
-            <li><strong>Formal Experimental Design (DoE)</strong>：建立 Design Space 的核心工具，也用於識別 CPP 和 CQA 關係</li>
-            <li><strong>Lifecycle</strong>：Q8/Q9/Q10 三部曲共同的哲學基礎——知識貫穿從開發到退市的全週期</li>
-            <li><strong>Quality</strong>：ICH 定義強調「對預期用途的適合性」，以鑑別、效價、純度為核心維度</li>
+            <li><strong>Design Space</strong>：Q8 ——，；，</li>
+            <li><strong>CPV</strong>： PV ，，</li>
+            <li><strong>PAT</strong>：， CPV  RTRT ；FDA PAT guidance (2004) </li>
+            <li><strong>Process Robustness</strong>：， =  = </li>
+            <li><strong>Formal Experimental Design (DoE)</strong>： Design Space ， CPP  CQA </li>
+            <li><strong>Lifecycle</strong>：Q8/Q9/Q10 ——</li>
+            <li><strong>Quality</strong>：ICH 「」，、、</li>
         </ul>
     </div>
 
@@ -1962,7 +1962,7 @@ QbD:
             <div class="chapter-badge">Annex</div>
             <div class="chapter-info">
                 <h2>Section Annex: Annex: Phase-Appropriate Approach</h2>
-                <p>附件：臨床開發階段方法 | p9-p17</p>
+                <p>： | p9-p17</p>
             </div>
         </div>
         <div class="chapter-body">
@@ -1971,21 +1971,21 @@ QbD:
 
 <div class="main-content">
 
-    <!-- 學習目標 -->
+    <!--  -->
     <div class="learning-objectives">
-        <h3>本章學習目標 Learning Objectives</h3>
+        <h3> Learning Objectives</h3>
         <ul>
-            <li>理解 Part II Annex 的定位：不建立新要求，而是闡明 QbD 工具的實際應用方式</li>
-            <li>掌握 QbD 最小要素（minimal elements）vs 增強方法（enhanced approach）的差異</li>
-            <li>精確理解 QTPP 和 CQA 的官方定義，及其在製劑開發中的角色</li>
-            <li>理解風險評估如何將物料屬性和製程參數連結至 CQA</li>
-            <li>掌握 Design Space 的六個子議題（2.4.1–2.4.6）：變數選擇、描述方式、單元操作、比例放大、PAR vs DS、失效邊界</li>
-            <li>理解控制策略（Control Strategy）的完整框架及 RTRT 的應用條件</li>
+            <li> Part II Annex ：， QbD </li>
+            <li> QbD （minimal elements）vs （enhanced approach）</li>
+            <li> QTPP  CQA ，</li>
+            <li> CQA</li>
+            <li> Design Space （2.4.1–2.4.6）：、、、、PAR vs DS、</li>
+            <li>（Control Strategy） RTRT </li>
         </ul>
     </div>
 
     <!-- Block 1: Annex Introduction + Approaches -->
-    <h2 class="section-title">Annex 1: Introduction &amp; Approaches to Pharmaceutical Development｜附件導論與開發方法論</h2>
+    <h2 class="section-title">Annex 1: Introduction &amp; Approaches to Pharmaceutical Development｜</h2>
     <div class="two-column">
         <div class="left-column">
             <h2>Part II Annex — Section 1: Introduction</h2>
@@ -2008,28 +2008,28 @@ QbD:
             </div>
         </div>
         <div class="right-column">
-            <h2>中文解析</h2>
+            <h2></h2>
 
             <div class="note-box">
-                <h4>重要澄清：Annex 不新增要求</h4>
-                <p>Q8 Annex 明確聲明：<strong>不建立新標準或引入新法規要求</strong>。這意味著：</p>
+                <h4>：Annex </h4>
+                <p>Q8 Annex ：<strong></strong>。：</p>
                 <ul>
-                    <li>不採用 QbD 方法也可以通過審查，只要滿足最小要素</li>
-                    <li>QbD 是「機會」不是「義務」——但選擇 QbD 路徑的申請方可享有更大彈性</li>
-                    <li>「知識的品質」比「數據的數量」更重要</li>
+                    <li> QbD ，</li>
+                    <li>QbD 「」「」—— QbD </li>
+                    <li>「」「」</li>
                 </ul>
             </div>
         </div>
     </div>
 
     <div class="concept-box">
-                <h4>核心概念：QbD 最小要素 vs 增強方法</h4>
-                <p>Annex 明確區分兩個層次，這是理解 Q8 監管期望的關鍵：</p>
-                <p>增強方法的回報：更大的操作彈性（Design Space 內不須補件）、支持 RTRT（取代部分終點測試）、潛在減少 post-approval change。</p>
+                <h4>：QbD  vs </h4>
+                <p>Annex ， Q8 ：</p>
+                <p>：（Design Space ）、 RTRT（）、 post-approval change。</p>
             </div>
 
             <!-- Block 2: QTPP + CQA -->
-    <h2 class="section-title">Annex 2.1 &amp; 2.2: QTPP &amp; CQA｜品質目標產品特性與關鍵品質屬性</h2>
+    <h2 class="section-title">Annex 2.1 &amp; 2.2: QTPP &amp; CQA｜</h2>
     <div class="two-column">
         <div class="left-column">
             <h2>2.1 Quality Target Product Profile (QTPP)</h2>
@@ -2049,54 +2049,54 @@ QbD:
             <p>Potential drug product CQAs derived from the QTPP and/or prior knowledge are used to guide the product and process development. Relevant CQAs can be identified by an <span class="key-term">iterative process</span> of quality risk management and experimentation that assesses the extent to which their variation can have an impact on the quality of the drug product.</p>
         </div>
         <div class="right-column">
-            <h2>中文解析</h2>
+            <h2></h2>
 
             <div class="concept-box">
-                <h4>QTPP：製劑設計的「目標設定書」</h4>
-                <p><strong>QTPP（Quality Target Product Profile）</strong>是製劑開發的起點——定義了「理想中這個產品應該是什麼樣子」。它不是規格表，而是一份<strong>願景文件</strong>，驅動所有後續開發決策。</p>
-                <p>QTPP 的五個考量維度：</p>
+                <h4>QTPP：「」</h4>
+                <p><strong>QTPP（Quality Target Product Profile）</strong>——「」。，<strong></strong>，。</p>
+                <p>QTPP ：</p>
                 <ul>
-                    <li><strong>臨床用途</strong>：適應症、給藥途徑、劑型（如口服、注射、吸入）</li>
-                    <li><strong>劑量強度</strong>：治療劑量範圍</li>
-                    <li><strong>容器封閉</strong>：預期包裝形式</li>
-                    <li><strong>藥物釋放</strong>：溶出特性、氣動性能（對應 PK 目標）</li>
-                    <li><strong>品質標準</strong>：無菌性、純度、穩定性</li>
+                    <li><strong></strong>：、、（、、）</li>
+                    <li><strong></strong>：</li>
+                    <li><strong></strong>：</li>
+                    <li><strong></strong>：、（ PK ）</li>
+                    <li><strong></strong>：、、</li>
                 </ul>
             </div>
 
             <div class="analogy-box">
-                <h4>類比：QTPP 如同建築設計的需求說明書</h4>
-                <p>建設一棟建築前，業主會提出需求（幾層樓、使用功能、預算、耐震等級）。這份需求說明就是 QTPP——它驅動建築師（製劑科學家）的所有設計決策。若沒有清晰的 QTPP，開發方向可能偏離臨床需求。</p>
+                <h4>：QTPP </h4>
+                <p>，（、、、）。 QTPP——（）。 QTPP，。</p>
             </div>
 
             <div class="concept-box">
-                <h4>CQA：從 QTPP 推導的品質屬性清單</h4>
-                <p><strong>官方定義</strong>：物理、化學、生物或微生物特性，必須在適當限度/範圍/分布內，以確保期望的產品品質。</p>
-                <p><strong>CQA vs 規格（Specification）的區別</strong>：</p>
+                <h4>CQA： QTPP </h4>
+                <p><strong></strong>：、、，//，。</p>
+                <p><strong>CQA vs （Specification）</strong>：</p>
                 <ul>
-                    <li>CQA 是<strong>開發工具</strong>——識別哪些屬性需要被研究和控制</li>
-                    <li>規格（spec）是<strong>監管要求</strong>——最終商業產品的驗收標準</li>
-                    <li>CQA 列表在開發過程中是<strong>動態的</strong>，隨知識增加而修訂</li>
+                    <li>CQA <strong></strong>——</li>
+                    <li>（spec）<strong></strong>——</li>
+                    <li>CQA <strong></strong>，</li>
                 </ul>
-                <p>不同劑型的特色 CQA：</p>
+                <p> CQA：</p>
                 <ul>
-                    <li>固體口服：純度、效價、溶出、穩定性</li>
-                    <li>吸入製劑：氣動粒徑分布（APSD）、MMAD</li>
-                    <li>注射劑：無菌性、微粒、可見/不可見異物</li>
-                    <li>貼片：黏附力、皮膚通透性</li>
+                    <li>：、、、</li>
+                    <li>：（APSD）、MMAD</li>
+                    <li>：、、/</li>
+                    <li>：、</li>
                 </ul>
             </div>
 
             <div class="note-box">
-                <h4>原料藥 CQA 也影響製劑 CQA</h4>
-                <p>CQA 的概念延伸到原料藥和中間體——API 的粒徑分布（PSD）和堆積密度（bulk density）雖然是 API 的屬性，但直接影響製劑的含量均勻性（CQA）。</p>
-                <p>這種<strong>「上游 CQA → 下游 CQA」的鏈結關係</strong>是風險評估的核心分析對象（見 2.3 節）。</p>
+                <h4> CQA  CQA</h4>
+                <p>CQA ——API （PSD）（bulk density） API ，（CQA）。</p>
+                <p><strong>「 CQA →  CQA」</strong>（ 2.3 ）。</p>
             </div>
         </div>
     </div>
 
     <!-- Block 3: Risk Assessment (2.3) + Design Space (2.4) -->
-    <h2 class="section-title">Annex 2.3 &amp; 2.4: Risk Assessment &amp; Design Space｜風險評估與設計空間詳解</h2>
+    <h2 class="section-title">Annex 2.3 &amp; 2.4: Risk Assessment &amp; Design Space｜</h2>
     <div class="two-column">
         <div class="left-column">
             <h2>2.3 Risk Assessment: Linking Material Attributes and Process Parameters to CQAs</h2>
@@ -2125,53 +2125,53 @@ QbD:
             <p>It can be helpful to determine the <span class="key-term">edge of failure</span> for process parameters or material attributes, beyond which the relevant quality attributes cannot be met. However, determining the edge of failure or demonstrating failure modes are <strong>not essential</strong> parts of establishing a design space.</p>
         </div>
         <div class="right-column">
-            <h2>中文解析</h2>
+            <h2></h2>
 
             <div class="concept-box">
-                <h4>2.3 風險評估：從「可能影響清單」到「關鍵參數確認」</h4>
-                <p>風險評估在製劑開發中是一個<strong>迭代過程</strong>：</p>
+                <h4>2.3 ：「」「」</h4>
+                <p><strong></strong>：</p>
                 <ol>
-                    <li><strong>初始風險評估</strong>（開發早期）：基於先驗知識，列出所有可能影響 CQA 的物料屬性和製程參數——清單通常很長</li>
-                    <li><strong>風險排序</strong>：用 FMEA、Fishbone、風險矩陣篩選高優先級參數</li>
-                    <li><strong>實驗驗證</strong>（DoE）：確認哪些參數真正對 CQA 有統計顯著影響</li>
-                    <li><strong>持續更新</strong>：隨開發進展重複評估，清單逐漸聚焦</li>
+                    <li><strong></strong>（）：， CQA ——</li>
+                    <li><strong></strong>： FMEA、Fishbone、</li>
+                    <li><strong></strong>（DoE）： CQA </li>
+                    <li><strong></strong>：，</li>
                 </ol>
-                <p>最終確認的「顯著參數」成為 CPP，進入 Design Space 設計。</p>
+                <p>「」 CPP， Design Space 。</p>
             </div>
 
             <div class="note-box">
-                <h4>2.4.5 最常見誤解：PAR 組合 ≠ Design Space</h4>
-                <p>這是 Q8 最重要的澄清之一：</p>
+                <h4>2.4.5 ：PAR  ≠ Design Space</h4>
+                <p> Q8 ：</p>
                 <ul>
-                    <li><strong>PAR（Proven Acceptable Range）</strong>：單一參數的可接受範圍，通過單變數實驗確定（univariate），不考慮其他參數的影響</li>
-                    <li><strong>Design Space</strong>：多個 CPP 和物料屬性的<strong>多維交互空間</strong>，考慮參數間的交互作用，通過 DoE 等多變數實驗確定</li>
+                    <li><strong>PAR（Proven Acceptable Range）</strong>：，（univariate），</li>
+                    <li><strong>Design Space</strong>： CPP <strong></strong>，， DoE </li>
                 </ul>
-                <p>例如：造粒水量的 PAR 是 15-25%，噴霧速率的 PAR 是 5-10 g/min。但這兩個 PAR 的組合（長方形區域）<strong>不等於</strong> Design Space——因為在某些組合（高水量+高噴霧速率）下品質可能不可接受。</p>
+                <p>： PAR  15-25%， PAR  5-10 g/min。 PAR （）<strong></strong> Design Space——（+）。</p>
             </div>
 
             <div class="analogy-box">
-                <h4>類比：DS vs PAR 的差別</h4>
-                <p>想像一棟房子的安全承重範圍：<br>
-                PAR 方法 = 只測試每根柱子的最大承重（個別）<br>
-                DS 方法 = 測試所有柱子組合下的結構整體承重（考慮柱子間的支撐交互作用）</p>
-                <p>顯然 DS 提供了更準確的「安全操作空間」理解。</p>
+                <h4>：DS vs PAR </h4>
+                <p>：<br>
+                PAR  = （）<br>
+                DS  = （）</p>
+                <p> DS 「」。</p>
             </div>
 
             <div class="application-box">
-                <h4>2.4.4 比例放大（Scale-up）的尺度無關參數</h4>
-                <p>當 DS 需要跨越實驗室、試量產、商業生產規模時，必須用<strong>尺度無關參數（scale-independent parameters）</strong>描述：</p>
+                <h4>2.4.4 （Scale-up）</h4>
+                <p> DS 、、，<strong>（scale-independent parameters）</strong>：</p>
                 <ul>
-                    <li>攪拌敏感性製品：用<strong>剪切速率（shear rate）</strong>而非轉速（RPM）</li>
-                    <li>乾燥過程：用<strong>無因次數（Dimensionless numbers）</strong>如 Froude number</li>
-                    <li>凍乾製品：用<strong>時間-溫度-壓力曲線</strong>的函數形式</li>
+                    <li>：<strong>（shear rate）</strong>（RPM）</li>
+                    <li>：<strong>（Dimensionless numbers）</strong> Froude number</li>
+                    <li>：<strong>--</strong></li>
                 </ul>
-                <p>這允許同一 DS 在不同規模設備上有效適用，支持商業化後的製造彈性。</p>
+                <p> DS ，。</p>
             </div>
         </div>
     </div>
 
     <!-- Block 4: Control Strategy (2.5) + Lifecycle (2.6) + CTD Submission (3.x) -->
-    <h2 class="section-title">Annex 2.5, 2.6 &amp; Section 3: Control Strategy, Lifecycle &amp; CTD Submission｜控制策略、生命週期管理與 CTD 提交</h2>
+    <h2 class="section-title">Annex 2.5, 2.6 &amp; Section 3: Control Strategy, Lifecycle &amp; CTD Submission｜、 CTD </h2>
     <div class="two-column">
         <div class="left-column">
             <h2>2.5 Control Strategy</h2>
@@ -2201,65 +2201,65 @@ QbD:
             </ul>
         </div>
         <div class="right-column">
-            <h2>中文解析</h2>
+            <h2></h2>
 
             <div class="concept-box">
-                <h4>RTRT（Real-Time Release Testing）即時放行測試</h4>
-                <p>RTRT 是 QbD 帶來的最大製造效益之一——以製程中的即時量測<strong>取代部分終點測試</strong>：</p>
+                <h4>RTRT（Real-Time Release Testing）</h4>
+                <p>RTRT  QbD ——<strong></strong>：</p>
                 <ul>
-                    <li><strong>條件</strong>：已建立 PAT 量測與 CQA 之間的可靠數學模型</li>
-                    <li><strong>例子</strong>：NIR 即時測定含量均勻性 → 取代傳統 content uniformity 測試</li>
-                    <li><strong>限制</strong>：RTRT 可<strong>取代終點測試</strong>，但<strong>不能取代</strong> GMP 要求的批次審核和品管放行步驟</li>
-                    <li><strong>益處</strong>：更快放行、更高品質保證（連續數據 vs 抽樣測試）</li>
+                    <li><strong></strong>： PAT  CQA </li>
+                    <li><strong></strong>：NIR  →  content uniformity </li>
+                    <li><strong></strong>：RTRT <strong></strong>，<strong></strong> GMP </li>
+                    <li><strong></strong>：、（ vs ）</li>
                 </ul>
             </div>
 
             <div class="analogy-box">
-                <h4>類比：控制策略如同多層防禦</h4>
-                <p>控制策略如同機場安全系統——不依賴單一關卡，而是多層防禦：邊境管制（輸入物料）→ 行李 X 光（製程 IPC）→ 人身安檢（製程中測試）→ 登機口驗證（終點測試）。每層防禦針對不同風險，整體確保「不合格品不會到達乘客手中（患者手中）」。</p>
+                <h4>：</h4>
+                <p>——，：（）→  X （ IPC）→ （）→ （）。，「（）」。</p>
             </div>
 
             <div class="note-box">
-                <h4>Design Space 變更的監管要求</h4>
-                <p>Q8 Annex 2.6 明確：<strong>Design Space 的變更（擴大、縮小、重新定義）受各地區法規要求管轄</strong>。這意味著：</p>
+                <h4>Design Space </h4>
+                <p>Q8 Annex 2.6 ：<strong>Design Space （、、）</strong>。：</p>
                 <ul>
-                    <li>Design Space 一旦獲批，不可任意更改</li>
-                    <li>獲批後的知識更新（如模型維護）若不改變 DS 本身，可在公司品質體系內管理（無需監管申報）</li>
-                    <li>希望擴大 DS 範圍 → 需按 post-approval change 流程申報</li>
+                    <li>Design Space ，</li>
+                    <li>（） DS ，（）</li>
+                    <li> DS  →  post-approval change </li>
                 </ul>
-                <p>這是 DS「靈活但有邊界」特性的體現。</p>
+                <p> DS「」。</p>
             </div>
 
             <div class="practice-box">
-                <h4>自我測試</h4>
+                <h4></h4>
                 <ol>
-                    <li>一個固體口服製劑，QTPP 中定義了「快速溶出（&gt;85% in 30 min）」的目標，應如何推導相關 CQA？</li>
-                    <li>為何 PAR 的組合不等於 Design Space？舉一個具體例子說明其差別。</li>
-                    <li>Control Strategy 的第幾層（RTRT）有什麼使用限制？RTRT 可以完全取代 QC 批次審核嗎？</li>
-                    <li>若要將一個在試量產規模建立的 Design Space 應用於商業規模，如何描述比例放大的科學依據？</li>
+                    <li>，QTPP 「（&gt;85% in 30 min）」， CQA？</li>
+                    <li> PAR  Design Space？。</li>
+                    <li>Control Strategy （RTRT）？RTRT  QC ？</li>
+                    <li> Design Space ，？</li>
                 </ol>
             </div>
         </div>
     </div>
 
     <div class="concept-box">
-                <h4>控制策略（Control Strategy）的完整框架</h4>
-                <p>控制策略是 QbD 的「操作化」——將科學知識轉化為實際的製造控制措施。完整的控制策略包含五個層次：</p>
+                <h4>（Control Strategy）</h4>
+                <p> QbD 「」——。：</p>
                 </div>
 
-            <!-- 小結 -->
+            <!--  -->
     <div class="summary-box">
-        <h3>本節重點回顧 Key Takeaways</h3>
+        <h3> Key Takeaways</h3>
         <ul>
-            <li><strong>Annex 定位</strong>：不建立新要求，而是展示 QbD 概念的實際應用；知識品質 &gt; 數據數量</li>
-            <li><strong>QbD 最小要素</strong>：QTPP → CQA → 製程選擇 → 控制策略（所有申請均應具備）</li>
-            <li><strong>增強 QbD</strong>：+風險評估 + 功能關係建立 + Design Space + RTRT（帶來監管彈性）</li>
-            <li><strong>QTPP</strong>：製劑設計的起點和願景，驅動所有後續開發決策</li>
-            <li><strong>CQA</strong>：必須在適當限度內的物理/化學/生物/微生物屬性；從 QTPP 推導；清單動態更新</li>
-            <li><strong>風險評估（2.3）</strong>：迭代過程，從廣泛清單聚焦至 CPP；DoE 驗證顯著性</li>
-            <li><strong>Design Space（2.4）</strong>：多維交互空間；PAR 組合 ≠ DS；可跨單元操作或跨比例；比例放大需尺度無關參數</li>
-            <li><strong>控制策略（2.5）</strong>：五層防禦（輸入→製程→IPC→終點→RTRT）；RTRT 取代部分終點測試但不取代 GMP 放行程序</li>
-            <li><strong>Design Space 變更</strong>受各地區法規管轄；DS 本身不變的模型維護可在公司品質體系內處理</li>
+            <li><strong>Annex </strong>：， QbD ； &gt; </li>
+            <li><strong>QbD </strong>：QTPP → CQA →  → （）</li>
+            <li><strong> QbD</strong>：+ +  + Design Space + RTRT（）</li>
+            <li><strong>QTPP</strong>：，</li>
+            <li><strong>CQA</strong>：///； QTPP ；</li>
+            <li><strong>（2.3）</strong>：， CPP；DoE </li>
+            <li><strong>Design Space（2.4）</strong>：；PAR  ≠ DS；；</li>
+            <li><strong>（2.5）</strong>：（→→IPC→→RTRT）；RTRT  GMP </li>
+            <li><strong>Design Space </strong>；DS </li>
         </ul>
     </div>
 
@@ -2273,7 +2273,7 @@ QbD:
             <div class="chapter-badge">App</div>
             <div class="chapter-info">
                 <h2>Section App: Appendices & Examples</h2>
-                <p>附錄與案例 | p18-p24</p>
+                <p> | p18-p24</p>
             </div>
         </div>
         <div class="chapter-body">
@@ -2282,20 +2282,20 @@ QbD:
 
 <div class="main-content">
 
-    <!-- 學習目標 -->
+    <!--  -->
     <div class="learning-objectives">
-        <h3>本章學習目標 Learning Objectives</h3>
+        <h3> Learning Objectives</h3>
         <ul>
-            <li>完整掌握 Part II 附件的全部官方術語定義（10 個核心術語）</li>
-            <li>透過 Appendix 1 的對比表，清楚區分「最小方法」與「QbD 增強方法」在六個面向的差異</li>
-            <li>透過 Appendix 2 的說明範例，理解 Ishikawa/FMEA 風險評估工具的實際應用步驟</li>
-            <li>理解設計空間的三種圖形呈現方式（回應面圖、等高線圖、時間路徑 DS）</li>
-            <li>能夠解釋線性 DS 與非線性 DS 的差異及各自的實務考量</li>
+            <li> Part II （10 ）</li>
+            <li> Appendix 1 ，「」「QbD 」</li>
+            <li> Appendix 2 ， Ishikawa/FMEA </li>
+            <li>（、、 DS）</li>
+            <li> DS  DS </li>
         </ul>
     </div>
 
     <!-- Block 1: Part II Glossary -->
-    <h2 class="section-title">Part II 附件術語定義（Section 4: Glossary）｜全套核心術語</h2>
+    <h2 class="section-title">Part II （Section 4: Glossary）｜</h2>
     <div class="two-column">
         <div class="left-column">
             <h2>4. Glossary — Part II (Complete)</h2>
@@ -2331,84 +2331,84 @@ QbD:
             <p>The ability to evaluate and ensure the quality of in-process and/or final product based on <strong>process data</strong>, which typically include a valid combination of measured material attributes and process controls.</p>
         </div>
         <div class="right-column">
-            <h2>中文解析：核心術語深度對照</h2>
+            <h2>：</h2>
 
             <div class="concept-box">
-                <h4>QbD 官方定義的三個關鍵元素</h4>
-                <p>Part II Glossary 提供了 QbD 的官方定義，有三個關鍵元素：</p>
+                <h4>QbD </h4>
+                <p>Part II Glossary  QbD ，：</p>
                 <ul>
-                    <li><strong>「從預定目標開始」（begins with predefined objectives）</strong>：即從 QTPP 出發，而非從原料藥特性或製程開始</li>
-                    <li><strong>「強調製品和製程理解」</strong>：科學理解是核心，而非單純的數據積累</li>
-                    <li><strong>「基於紮實科學和 QRM」</strong>：QbD 不是獨立方法，而是與 Q9（QRM）和 Q10（PQS）整合使用</li>
+                    <li><strong>「」（begins with predefined objectives）</strong>： QTPP ，</li>
+                    <li><strong>「」</strong>：，</li>
+                    <li><strong>「 QRM」</strong>：QbD ， Q9（QRM） Q10（PQS）</li>
                 </ul>
             </div>
 
             <div class="note-box">
-                <h4>CPP 的精確定義：影響 CQA 的才算</h4>
-                <p>CPP 的定義非常精確：<strong>其變異影響 CQA 的製程參數</strong>。注意：</p>
+                <h4>CPP ： CQA </h4>
+                <p>CPP ：<strong> CQA </strong>。：</p>
                 <ul>
-                    <li>若某製程參數在正常操作範圍內的變異<strong>不影響</strong>任何 CQA，它就<strong>不是 CPP</strong></li>
-                    <li>CPP 的識別依賴風險評估（2.3）和 DoE 實驗確認</li>
-                    <li>CPP 列表需要監管申報，並在 3.2.P.3.3 和 3.2.P.3.4 中記錄</li>
+                    <li><strong></strong> CQA，<strong> CPP</strong></li>
+                    <li>CPP （2.3） DoE </li>
+                    <li>CPP ， 3.2.P.3.3  3.2.P.3.4 </li>
                 </ul>
-                <p>常見錯誤：將「需要控制的製程參數」全部稱為 CPP——只有確認對 CQA 有影響的才是 CPP。</p>
+                <p>：「」 CPP—— CQA  CPP。</p>
             </div>
 
             <div class="note-box">
-                <h4>PAR vs CPP 的關係</h4>
-                <p><strong>PAR（Proven Acceptable Range）</strong>和 <strong>CPP</strong> 是不同層次的概念：</p>
+                <h4>PAR vs CPP </h4>
+                <p><strong>PAR（Proven Acceptable Range）</strong> <strong>CPP</strong> ：</p>
                 <ul>
-                    <li>CPP = 「這個參數對品質有關鍵影響」（分類判斷）</li>
-                    <li>PAR = 「這個 CPP 的可接受操作範圍是多少」（範圍確定）</li>
+                    <li>CPP = 「」（）</li>
+                    <li>PAR = 「 CPP 」（）</li>
                 </ul>
-                <p>邏輯鏈：識別 CPP → 通過實驗確定 PAR → 可考慮整合至 Design Space（如果做多變數分析）。</p>
+                <p>： CPP →  PAR →  Design Space（）。</p>
             </div>
         </div>
     </div>
 
     <!-- Block 2: Appendix 1 — Differing Approaches -->
-    <h2 class="section-title">Appendix 1: Differing Approaches to Pharmaceutical Development｜附錄一：不同開發方法的對比</h2>
+    <h2 class="section-title">Appendix 1: Differing Approaches to Pharmaceutical Development｜：</h2>
     <div class="two-column">
         <div class="left-column">
             <h2>Appendix 1: Minimal vs Enhanced (QbD) Approaches</h2>
             <p>The following table illustrates some potential contrasts between what might be considered a minimal approach and an enhanced, quality by design approach. The comparisons are shown merely to aid in the understanding of a range of potential approaches and should not be considered all-encompassing. Current practices in the pharmaceutical industry typically lie between the two approaches.</p>
             </div>
         <div class="right-column">
-            <h2>中文解析</h2>
+            <h2></h2>
 
             <div class="concept-box">
-                <h4>六個面向的核心差異解析</h4>
-                <p>Appendix 1 是 Q8 中最直觀的 QbD 說明材料，六個對比維度揭示了「傳統方法」與「QbD 方法」的根本哲學差異：</p>
+                <h4></h4>
+                <p>Appendix 1  Q8  QbD ，「」「QbD 」：</p>
                 <ul>
-                    <li><strong>開發研究</strong>：單變數 OVAT（One Variable At a Time）→ 多變數 DoE（考慮交互作用）</li>
-                    <li><strong>製造製程</strong>：固定製程 → 設計空間內可調整</li>
-                    <li><strong>製程控制</strong>：離線終點判斷 → PAT inline 即時監控</li>
-                    <li><strong>產品規格</strong>：主要控制手段 → 整體控制策略的一部分</li>
-                    <li><strong>控制策略</strong>：事後測試 → 風險導向的上游控制</li>
-                    <li><strong>生命週期</strong>：被動反應（問題發生才處理）→ 主動預防 + 持續改善</li>
+                    <li><strong></strong>： OVAT（One Variable At a Time）→  DoE（）</li>
+                    <li><strong></strong>： → </li>
+                    <li><strong></strong>： → PAT inline </li>
+                    <li><strong></strong>： → </li>
+                    <li><strong></strong>： → </li>
+                    <li><strong></strong>：（）→  + </li>
                 </ul>
             </div>
 
             <div class="application-box">
-                <h4>實務考量：業界通常介於兩者之間</h4>
-                <p>Q8 明確指出：<strong>業界實際做法通常介於最小方法和完整 QbD 方法之間</strong>。這很重要——不需要全面實施 QbD 才能通過審查。許多公司採用「混合方法」：</p>
+                <h4>：</h4>
+                <p>Q8 ：<strong> QbD </strong>。—— QbD 。「」：</p>
                 <ul>
-                    <li>部分 CQA 有完整的 Design Space（高風險/高不確定性的屬性）</li>
-                    <li>其他 CQA 以傳統 PAR 控制</li>
-                    <li>某些單元操作採用 PAT，其他保持傳統 IPC</li>
+                    <li> CQA  Design Space（/）</li>
+                    <li> CQA  PAR </li>
+                    <li> PAT， IPC</li>
                 </ul>
-                <p>申請方應在提交文件中清楚說明其選擇的開發策略和程度。</p>
+                <p>。</p>
             </div>
         </div>
     </div>
 
     <div class="formula-box">
-                <h4>從「固定製程」到「Design Space 內可調整」的典範轉移</h4>
-                <p>最重要的轉變是製造製程的定性：</p>
+                <h4>「」「Design Space 」</h4>
+                <p>：</p>
                 </div>
 
             <!-- Block 3: Appendix 2 — Illustrative Examples -->
-    <h2 class="section-title">Appendix 2: Illustrative Examples — Risk Assessment &amp; Design Space Presentations｜附錄二：風險評估工具與設計空間呈現範例</h2>
+    <h2 class="section-title">Appendix 2: Illustrative Examples — Risk Assessment &amp; Design Space Presentations｜：</h2>
     <div class="two-column">
         <div class="left-column">
             <h2>Appendix 2: Illustrative Examples</h2>
@@ -2431,82 +2431,82 @@ QbD:
             <p><strong>Example 3:</strong> Design space for a drying operation dependent upon the <span class="key-term">path of temperature and/or pressure over time</span>. Operating above upper limit → excessive impurity formation; below lower limit → excessive particle attrition. DS is expressed as a time-path corridor.</p>
         </div>
         <div class="right-column">
-            <h2>中文解析</h2>
+            <h2></h2>
 
             <div class="concept-box">
-                <h4>A. Ishikawa + FMEA：風險評估的兩步驟</h4>
-                <p>Q8 Appendix 2A 說明的風險評估流程是業界標準方法：</p>
+                <h4>A. Ishikawa + FMEA：</h4>
+                <p>Q8 Appendix 2A ：</p>
                 <ol>
-                    <li><strong>步驟 1：Ishikawa（魚骨圖）</strong>——腦力激盪，識別所有可能影響 CQA 的因素（廣撒網）
+                    <li><strong> 1：Ishikawa（）</strong>——， CQA （）
                         <ul>
-                            <li>六個主骨：原料、造粒、乾燥、壓錠、廠房因素、製程條件</li>
-                            <li>每個主骨下再細分具體參數（如：造粒 → 水量、噴霧速率、攪拌速率...）</li>
+                            <li>：、、、、、</li>
+                            <li>（： → 、、...）</li>
                         </ul>
                     </li>
-                    <li><strong>步驟 2：FMEA 排序</strong>——對每個因素評分（收窄重點）
+                    <li><strong> 2：FMEA </strong>——（）
                         <ul>
-                            <li><strong>Severity（嚴重性）</strong>：若發生失效，對患者/品質的影響有多嚴重？</li>
-                            <li><strong>Probability（機率）</strong>：失效發生的可能性？</li>
-                            <li><strong>Detectability（可偵測性）</strong>：失效能多快被發現？</li>
-                            <li>RPN（Risk Priority Number）= S × P × D → 排序後篩選高風險參數</li>
+                            <li><strong>Severity（）</strong>：，/？</li>
+                            <li><strong>Probability（）</strong>：？</li>
+                            <li><strong>Detectability（）</strong>：？</li>
+                            <li>RPN（Risk Priority Number）= S × P × D → </li>
                         </ul>
                     </li>
-                    <li><strong>步驟 3：DoE 確認</strong>——對高風險參數做實驗確認其真實影響</li>
+                    <li><strong> 3：DoE </strong>——</li>
                 </ol>
             </div>
 
             <div class="concept-box">
-                <h4>B. 交互作用的識別：平行線 vs 非平行線</h4>
-                <p>Appendix 2B 的核心教學：如何從二維交互圖判斷交互作用是否存在：</p>
+                <h4>B. ： vs </h4>
+                <p>Appendix 2B ：：</p>
                 <ul>
-                    <li><strong>平行線（parallel lines）</strong> = 無交互作用 → 兩個參數可以獨立考量</li>
-                    <li><strong>非平行線（non-parallel）</strong> = 有交互作用 → 必須多維度一起考量</li>
+                    <li><strong>（parallel lines）</strong> =  → </li>
+                    <li><strong>（non-parallel）</strong> =  → </li>
                 </ul>
-                <p>Q8 範例結論：<strong>IMC（初始水分）與溫度之間有交互作用</strong>——在高溫下，水分含量對降解產物 Y 的影響遠大於低溫。這正是「PAR 組合 ≠ Design Space」的原因：若只用單變數 PAR，會忽略這個危險的交互作用。</p>
+                <p>Q8 ：<strong>IMC（）</strong>——， Y 。「PAR  ≠ Design Space」： PAR，。</p>
             </div>
 
             <div class="analogy-box">
-                <h4>類比：多 CQA 重疊 DS 如同投影重疊</h4>
-                <p>想像用三個不同顏色的投影燈投射三個圓圈到牆上（每個圓代表一個 CQA 的可接受操作區域）。三個圓重疊的區域（交集）就是 Design Space——只有在這個區域內，所有三個 CQA 才能<strong>同時</strong>達到品質要求。</p>
-                <p>這是 Q8 附錄 Example 2 的核心：DS 是同時滿足所有 CQA 的操作空間，不是滿足任何一個的操作空間。</p>
+                <h4>： CQA  DS </h4>
+                <p>（ CQA ）。（） Design Space——， CQA <strong></strong>。</p>
+                <p> Q8  Example 2 ：DS  CQA ，。</p>
             </div>
 
             <div class="application-box">
-                <h4>Example 3 凍乾設計空間的實務意義</h4>
-                <p>凍乾（Lyophilization）製程的 DS 是一個典型的<strong>時間依存設計空間</strong>：</p>
+                <h4>Example 3 </h4>
+                <p>（Lyophilization） DS <strong></strong>：</p>
                 <ul>
-                    <li>不是靜態的「溫度在 X-Y°C 之間」，而是「整個乾燥週期的溫度-時間路徑必須在一條走廊內」</li>
-                    <li>超過上限（溫度太高、時間太短）→ 過多降解產物</li>
-                    <li>低於下限（溫度太低、時間太短）→ 過多粒子破碎（particle attrition）</li>
-                    <li>這種 DS 需要以<strong>方程式或軟件模型</strong>呈現，難以用簡單數值表達</li>
+                    <li>「 X-Y°C 」，「-」</li>
+                    <li>（、）→ </li>
+                    <li>（、）→ （particle attrition）</li>
+                    <li> DS <strong></strong>，</li>
                 </ul>
-                <p>這種動態 DS 對生物製劑的凍乾工藝尤為重要——任何批次間的溫度曲線偏差都需要對照 DS 評估是否屬於「變更」。</p>
+                <p> DS —— DS 「」。</p>
             </div>
 
             <div class="practice-box">
-                <h4>綜合自我測試</h4>
+                <h4></h4>
                 <ol>
-                    <li>用 FMEA 進行風險排序時，RPN（風險優先數）的三個組成部分是什麼？RPN 數值高代表什麼？</li>
-                    <li>在 Appendix 2B 的三個製程參數（IMC、溫度、粒徑）中，哪兩個有交互作用？如何從圖形判斷？</li>
-                    <li>一個製劑同時有「溶出 &gt;80%」和「脆碎度 &lt;2%」兩個 CQA 要求，如何確定其 Design Space？</li>
-                    <li>為什麼凍乾製程的設計空間需要用時間路徑函數來描述，而不是簡單的溫度範圍？</li>
-                    <li>申請方選擇用線性 DS（而非更大的非線性 DS）的實際理由是什麼？</li>
+                    <li> FMEA ，RPN（）？RPN ？</li>
+                    <li> Appendix 2B （IMC、、），？？</li>
+                    <li>「 &gt;80%」「 &lt;2%」 CQA ， Design Space？</li>
+                    <li>，？</li>
+                    <li> DS（ DS）？</li>
                 </ol>
             </div>
         </div>
     </div>
 
-    <!-- 全文總結 -->
+    <!--  -->
     <div class="summary-box">
-        <h3>ICH Q8(R2) 全文學習總結 — Complete Document Summary</h3>
+        <h3>ICH Q8(R2)  — Complete Document Summary</h3>
         <ul>
-            <li><strong>核心哲學</strong>：Quality built in by design, not tested into products — 品質源於設計，而非終點測試</li>
-            <li><strong>Part I 架構</strong>：CTD 3.2.P.2 的最低要求框架；涵蓋 DS、CQA、CPP、配方開發、製程開發、容器封閉、微生物屬性、相容性</li>
-            <li><strong>Part II Annex</strong>：QbD 的操作化指南；最小要素（QTPP+CQA+製程+控制策略）+ 增強方法（Design Space + RTRT）</li>
-            <li><strong>設計空間的法規意義</strong>：在 DS 內操作不算監管變更 → 製造彈性的科學基礎；DS ≠ PAR 組合（必須考慮多維交互作用）</li>
-            <li><strong>術語精確性</strong>：QTPP（願景）→ CQA（屬性識別）→ CPP（製程識別）→ Design Space（多維空間）→ Control Strategy（控制落實）→ CPV（持續驗證）</li>
-            <li><strong>兩種方法均合法</strong>：最小方法和 QbD 增強方法均可通過監管審查；選擇 QbD 可獲得更大製造彈性作為回報</li>
-            <li><strong>Appendix 2 的工具應用</strong>：Ishikawa → FMEA → DoE → 交互作用分析 → Design Space 建立，是業界最廣泛採用的 QbD 實施路徑</li>
+            <li><strong></strong>：Quality built in by design, not tested into products — ，</li>
+            <li><strong>Part I </strong>：CTD 3.2.P.2 ； DS、CQA、CPP、、、、、</li>
+            <li><strong>Part II Annex</strong>：QbD ；（QTPP+CQA++）+ （Design Space + RTRT）</li>
+            <li><strong></strong>： DS  → ；DS ≠ PAR （）</li>
+            <li><strong></strong>：QTPP（）→ CQA（）→ CPP（）→ Design Space（）→ Control Strategy（）→ CPV（）</li>
+            <li><strong></strong>： QbD ； QbD </li>
+            <li><strong>Appendix 2 </strong>：Ishikawa → FMEA → DoE →  → Design Space ， QbD </li>
         </ul>
     </div>
 
@@ -2517,7 +2517,7 @@ QbD:
 </main>
 
     <footer class="main-footer">
-        <p>SterileGMP Knowledge Hub — 僅供學習參考</p>
+        <p>SterileGMP Knowledge Hub — </p>
     </footer>
 
     <button class="back-to-top" id="backToTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">&#8679;</button>

@@ -420,7 +420,7 @@ body {
     font-size: 0.92rem !important;
 }
 
-/* ===== ANALOGY BOX (Yellow) - 比喻說明 ===== */
+/* ===== ANALOGY BOX (Yellow) -  ===== */
 .analogy-box,
 .concept-box[class*="analogy"],
 .concept-box.analogy,
@@ -434,7 +434,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #856404 !important;
 }
 
-/* ===== TERM/CONCEPT BOX (Green) - 核心概念 ===== */
+/* ===== TERM/CONCEPT BOX (Green) -  ===== */
 .term-box,
 .key-term-box,
 .concept-box:not([class*="analogy"]):not([class*="note"]):not([class*="formula"]):not([class*="practice"]):not([class*="highlight"]):not(.analogy):not(.application) {
@@ -449,7 +449,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #2e7d32 !important;
 }
 
-/* ===== NOTE/HIGHLIGHT BOX (Orange) - 重點提示 ===== */
+/* ===== NOTE/HIGHLIGHT BOX (Orange) -  ===== */
 .note-box,
 .key-note,
 .key-point-box,
@@ -468,7 +468,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #c65102 !important;
 }
 
-/* ===== FORMULA BOX (Purple) - 公式計算 ===== */
+/* ===== FORMULA BOX (Purple) -  ===== */
 .formula-box,
 .concept-box[class*="formula"] {
     background: var(--purple-bg) !important;
@@ -503,7 +503,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #1565c0 !important;
 }
 
-/* ===== PRACTICE BOX (Blue dashed) - 練習思考 ===== */
+/* ===== PRACTICE BOX (Blue dashed) -  ===== */
 .practice-box {
     background: linear-gradient(135deg, #e8f4fd 0%, #d1e9ff 100%) !important;
     border: 2px dashed #3182ce !important;
@@ -915,30 +915,30 @@ tr:nth-child(even) {
 <!-- SECTION HEADER -->
 <div class="header">
     <h1>Section 5B: Dose Control (5.2+)</h1>
-    <div class="subtitle">劑量控制：容積充填、外部影響因素與製程能力指標</div>
+    <div class="subtitle">：、</div>
     <div class="page-info">PDA Manufacturing Technology Guide No. 1 | doc p108 - p114</div>
 </div>
 
 <!-- LEARNING OBJECTIVES -->
 <div class="learning-objectives" style="margin: 1.5rem;">
-    <h3>本章學習目標</h3>
+    <h3></h3>
     <ul>
-        <li>理解容積充填法 (Volumetric Filling) 的工作原理與雷射感應器的劑量控制機制</li>
-        <li>掌握不同充填泵系統（RPP、DP、PP、TP）在自動劑量修正上的策略差異</li>
-        <li>識別影響稱重系統準確性的三大類外部與機器因素，以及對應的設計補償措施</li>
-        <li>理解 IPC 生產限度、稱重誤差類型，以及如何正確定義不拒絕真正合格品的上下限</li>
-        <li>掌握製程能力指標 C<sub>pk</sub> 的計算原理與工業標準，並能詮釋每百萬充填單位的不良率含義</li>
+        <li> (Volumetric Filling) </li>
+        <li>（RPP、DP、PP、TP）</li>
+        <li>，</li>
+        <li> IPC 、，</li>
+        <li> C<sub>pk</sub> ，</li>
     </ul>
 </div>
 
 <div class="main-content">
 
 <!-- ==================== SECTION 5.2.2 ==================== -->
-<div class="section-title"><strong>5.2.2 Method 2: Volumetric Filling Process 5.2.2 方法二：容積法充填製程</strong></div>
+<div class="section-title"><strong>5.2.2 Method 2: Volumetric Filling Process 5.2.2 ：</strong></div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p>In a <span class="key-term">volumetric filling process</span>, the volume of product filled into the container is not controlled gravimetrically by scales, but instead relies on <span class="key-term">container geometry</span>, <span class="key-term">plunger position</span> (for cartridges), and <span class="key-term">residual air-bubble (air gap) size</span> to determine sufficient filling. In the cartridge-filling example below (Figure 5.2.2-1<a class="gallery-link" href="../../../figures-gallery.html?doc=pda-guide-no1&amp;file=fig-p122-1.png" target="_blank" title="View in Gallery">&#128269;</a>), a laser and sensor are used to detect the filling endpoint. As filling occurs, the laser light is deflected by the empty neck of the cartridge and does not reach the sensor. As the container is filled and the neck fills with product, the laser light is transmitted through the neck of the container, signaling the control system to stop dosing.</p>
 
@@ -961,53 +961,53 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>容積充填法 (Volumetric Filling)：</strong>不以重量作為充填控制依據，改用容器幾何形狀、活塞位置與殘留氣泡大小來判斷充填是否足夠。優點是速度快、設備簡單；缺點是精度依賴容器幾何的一致性。</p>
-            <p><strong>雷射感應器充填終點：</strong>雷射光在容器頸部空白時被折射無法到達感測器；當液體填滿頸部後，雷射穿透，觸發「停止充填」指令。這是一種光學回饋（optical feedback）控制機制。</p>
-            <p><strong>殘留氣泡 (Residual Air Bubble / Air Gap)：</strong>特別在卡匣（cartridge）充填中，需在充填後保留適量氣泡，以確保活塞推壓時不超壓、產品體積正確。氣泡大小需由受訓操作員判斷。</p>
+            <h4> Key Concepts</h4>
+            <p><strong> (Volumetric Filling)：</strong>，、。、；。</p>
+            <p><strong>：</strong>；，，「」。（optical feedback）。</p>
+            <p><strong> (Residual Air Bubble / Air Gap)：</strong>（cartridge），，、。。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>想像你用量杯量咖啡豆而不是秤重——你是靠「杯子形狀+填到某個刻度」來控制份量，而不是靠磅秤。這就是容積充填的邏輯：容器的幾何形狀本身就是「量具」。</p>
-            <p>雷射偵測終點就像電梯的光幕感應門——光束通了，代表門可以關了（充填可以停了）。</p>
+            <h4> Analogy</h4>
+            <p>——「+」，。：「」。</p>
+            <p>——，（）。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p><strong>自動修正 vs. 手動修正的選擇邏輯：</strong>這是一個重要的設計哲學分叉點：</p>
+            <h4> Key Notes</h4>
+            <p><strong> vs. ：</strong>：</p>
             <ul>
-                <li><strong>RPP / DP（穩定系統）</strong>：劑量輸出穩定不漂移，自動修正反而可能因「共同原因變異」（common-cause variability）而過度修正，導致充填重量振盪。建議：手動調整。</li>
-                <li><strong>PP（蠕動泵）</strong>：管路隨時間受壓變形，效率下降，劑量會隨批次進行而漂移。需要自動修正，並採用時間加權平均避免過度反應。</li>
-                <li><strong>TP（時間壓力）</strong>：壓力源持續變化（隨容器排空或注入而改變），必須即時計算pinch valve開關時機，自動修正是標準配備。</li>
+                <li><strong>RPP / DP（）</strong>：，「」（common-cause variability），。：。</li>
+                <li><strong>PP（）</strong>：，，。，。</li>
+                <li><strong>TP（）</strong>：（），pinch valve，。</li>
             </ul>
         </div>
 
         <div class="practice-box" style="border-style:solid; background:linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-color:#22c55e;">
-            <h4>實務應用 Practical Application</h4>
-            <p>在CDMO接受新客戶卡匣充填案時，驗證方案必須涵蓋容器幾何量測（長度、內徑、活塞安裝高度的批間一致性）。若容器供應商更換批次或供應商，需重新評估容積充填精度。此外，雷射感測器站位校正必須列入每批次或定期的校正計畫中。</p>
+            <h4> Practical Application</h4>
+            <p>CDMO，（、、）。，。，。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>為什麼容積充填特別適合「不設最大充填重量限制」的容器？若用於有重量上限的注射瓶，會有什麼風險？</li>
-                <li>一家CDMO同時操作RPP和PP充填線。它們的劑量修正邏輯為何不同？若工程師把PP的設定錯誤套用到RPP上，會發生什麼事？</li>
-                <li>TP充填的壓力為什麼「持續在變化」？這對pinch valve控制有什麼挑戰？</li>
+                <li>「」？，？</li>
+                <li>CDMORPPPP。？PPRPP，？</li>
+                <li>TP「」？pinch valve？</li>
             </ol>
         </div>
     </div>
 </div>
 
 <!-- ==================== SECTION 5.3 ==================== -->
-<div class="section-title"><strong>5.3 External and Internal Influences on Dose Control Systems 5.3 劑量管制系統之外部與內部影響因素</strong></div>
+<div class="section-title"><strong>5.3 External and Internal Influences on Dose Control Systems 5.3 </strong></div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p>On filling machines, the <span class="key-term">weighing cells</span> are constantly being confronted with external and environmental factors that will ultimately negatively influence the ability of the weighing cells to provide accurate readings. This drives many manufacturers to cross-check the IPC readings during production using <span class="key-term">destructive methods</span> (i.e., sampling). Therefore, in the design phase, it is crucial to ensure that good design is implemented, and <span class="key-term">risk-based methodology</span> is used to define the steps of weighing and check-weighing.</p>
 
@@ -1047,58 +1047,58 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>三大類稱重誤差來源：</strong></p>
+            <h4> Key Concepts</h4>
+            <p><strong>：</strong></p>
             <ul>
-                <li><strong>統計性 (Statistical)：</strong>隨機出現、呈常態分佈的誤差——每次量測結果都略有不同。典型例子：氣流擾動、震動、靜電、稱量沉降時間不足。可透過更長的沉降時間或更多次量測來統計平均。</li>
-                <li><strong>恆定性 (Constant)：</strong>每次量測都偏移同樣方向的系統誤差——如感測器出廠偏移值（load-cell offset）、恆定氣流造成的固定浮力。這類誤差可透過校正補償。</li>
-                <li><strong>機器與產品相關性：</strong>由充填線設計、產品特性（例如起泡）、操作方式（自動vs手動校正）等所引起的誤差。需透過良好的設計與製程驗證來最小化。</li>
+                <li><strong> (Statistical)：</strong>、——。：、、、。。</li>
+                <li><strong> (Constant)：</strong>——（load-cell offset）、。。</li>
+                <li><strong>：</strong>、（）、（vs）。。</li>
             </ul>
-            <p><strong>破壞性取樣 (Destructive Sampling)：</strong>從線上抽取充填後的容器，在離線實驗室天平上確認實際充填重量，作為IPC讀值的交叉驗證。</p>
+            <p><strong> (Destructive Sampling)：</strong>，，IPC。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>想像你在市場用一個老式磅秤賣水果。統計誤差就像風吹過來磅秤微微晃動（每次結果不同）；恆定誤差就像磅秤本身被磁鐵吸著偏向一邊（每次都低估）；機器相關誤差就像你把蘋果放上秤的速度太快，秤還在抖動就讀值了。</p>
-            <p>Grade A無塵室的單向氣流（unidirectional airflow）是無菌保證的核心，但它的風速與方向卻會干擾精密天平——這就是無菌充填環境的矛盾：保護微生物的措施，同時也是稱重精度的敵人。</p>
+            <h4> Analogy</h4>
+            <p>。（）；（）；，。</p>
+            <p>Grade A（unidirectional airflow），——：，。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p><strong>靜電是容易被忽視的誤差來源：</strong>注射瓶從乾熱去熱原質隧道（dry heat depyrogenation tunnel）出來後，高溫冷卻過程中可能累積靜電荷，影響天平讀值。這在高速生產線上是需要刻意設計消除的問題（例如離子化空氣）。</p>
-            <p><strong>「時間沉降」(Time-settling) 的取捨：</strong>讓瓶子在天平上靜置更久，讀值更準確，但這直接降低充填線速度（UPH）。在設計IPC時，需要在精度與速度之間明確取捨並記錄風險評估。</p>
-            <p><strong>充填量越小，稱重越難：</strong>對於1 mL以下的小劑量製劑，稱重誤差的相對影響更大。這正是這類產品需要特別嚴格的IPC設計和驗證的原因。</p>
+            <h4> Key Notes</h4>
+            <p><strong>：</strong>（dry heat depyrogenation tunnel），，。（）。</p>
+            <p><strong>「」(Time-settling) ：</strong>，，（UPH）。IPC，。</p>
+            <p><strong>，：</strong>1 mL，。IPC。</p>
         </div>
 
         <div class="practice-box" style="border-style:solid; background:linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-color:#22c55e;">
-            <h4>實務應用 Practical Application</h4>
-            <p>在CDMO進行充填線資格確認（IQ/OQ/PQ）時，建議針對上述三類誤差來源分別執行測試：
-            (1) 統計性：在不同氣流條件、不同震動狀態下量測同一標準砝碼的分佈；
-            (2) 恆定性：比較IPC天平讀值與實驗室天平讀值的系統性偏移；
-            (3) 機器/產品相關：測試不同充填速度、不同容器類型下的劑量準確性。
-            這三類測試結果決定了IPC上下限的設定寬度。</p>
+            <h4> Practical Application</h4>
+            <p>CDMO（IQ/OQ/PQ），：
+            (1) ：、；
+            (2) ：IPC；
+            (3) /：、。
+            IPC。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>Grade A區域的單向氣流為何對稱重準確性造成干擾？這與它保護無菌的功能如何平衡？</li>
-                <li>「統計性誤差」和「恆定性誤差」在管理策略上有何本質不同？各需要什麼工具來處理？</li>
-                <li>一個起泡性產品（foamy product）會如何影響充填線的稱重系統？你會建議什麼設計對策？</li>
+                <li>Grade A？？</li>
+                <li>「」「」？？</li>
+                <li>（foamy product）？？</li>
             </ol>
         </div>
     </div>
 </div>
 
 <!-- ==================== SECTION 5.3.1 ==================== -->
-<div class="section-title"><strong>5.3.1 In-Process Control Production Limits and Weighing Accuracy 5.3.1 製程中管制生產限度與稱量精確度</strong></div>
+<div class="section-title"><strong>5.3.1 In-Process Control Production Limits and Weighing Accuracy 5.3.1 </strong></div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p>Weighing cells during production, if not equipped with a defined recipe and programmable <span class="key-term">correction-factor(s)</span> as explained in Figure 5.3.1-1<a class="gallery-link" href="../../../figures-gallery.html?doc=pda-guide-no1&amp;file=fig-p124-1.png" target="_blank" title="View in Gallery">&#128269;</a>, will deviate from the actual weight of the container (empty and filled or tare and gross). Therefore, it is not practical to use IPC values as parameters to depict the actual filling weight in a filled container.</p>
 
@@ -1146,71 +1146,71 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>IPC天平讀值 ≠ 實際充填重量：</strong>這是本節最關鍵的認知。線上IPC天平受到氣流、震動、靜電等干擾，其讀值分佈比實驗室天平更寬、更偏移。絕對不能把IPC讀值直接等同於「真實充填重量」。</p>
-            <p><strong>兩種稱重誤差的疊加：</strong></p>
+            <h4> Key Concepts</h4>
+            <p><strong>IPC ≠ ：</strong>。IPC、、，、。IPC「」。</p>
+            <p><strong>：</strong></p>
             <ul>
-                <li><strong>統計誤差 (σ)：</strong>隨機正態分佈，以標準差描述。多次稱同一重量，結果呈鐘形分佈。</li>
-                <li><strong>恆定誤差：</strong>系統性偏移，整個曲線向左或向右移動。不同天平感測器有不同的offset。</li>
+                <li><strong> (σ)：</strong>，。，。</li>
+                <li><strong>：</strong>，。offset。</li>
             </ul>
-            <p><strong>IPC上下限的設定邏輯：</strong>應依據「最寬的IPC鐘形曲線」來設定生產限度，確保落在IPC限度內的讀值，其真實重量也一定在規格內。換句話說：IPC限度要夠寬，才不會誤殺真正合格的產品。</p>
+            <p><strong>IPC：</strong>「IPC」，IPC，。：IPC，。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>想像你在一個嘈雜、有風的環境用普通磅秤量西瓜，旁邊實驗室用精密天平量同一個西瓜。普通磅秤可能顯示10.2 kg（其實是10.0 kg），但如果你的「合格標準」是依精密天平的10.0 kg ± 0.1 kg設定的，那普通磅秤的讀值10.2 kg就會「錯誤判退」這個實際上完全合格的西瓜。</p>
-            <p>這就是IPC限度設定過緊的危險——你不是在管控品質，你是在製造假廢品（false rejects），浪費昂貴的藥品和資源。</p>
+            <h4> Analogy</h4>
+            <p>、，。10.2 kg（10.0 kg），「」10.0 kg ± 0.1 kg，10.2 kg「」。</p>
+            <p>IPC——，（false rejects），。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p><strong>假拒絕（False Reject）的業務影響：</strong>在CDMO環境中，假拒絕不只是良率問題，更是客戶滿意度和合規問題。如果IPC限度設定過緊，大量合格單位被錯誤丟棄，客戶不僅損失昂貴原料，還需要調查偏差。更糟的是，如果調查不出根本原因（因為其實是設定問題），就會在品質系統中留下未解決的偏差記錄。</p>
-            <p><strong>淨重是準確性的基準：</strong>注意原文特別強調「稱重準確性永遠指淨重（net weight）」，而非分別對空瓶（tare）和滿瓶（gross）各自評估。這意味著tare和gross的誤差疊加在一起，共同影響淨重的精度。</p>
-            <p><strong>不同IPC站位的恆定誤差可能方向相反：</strong>多站位充填線上，各個稱重感測器的恆定偏移（offset）方向不同（有些偏高、有些偏低），這使得整體的複合分佈曲線更寬。這正是要對最寬曲線設定限度的原因。</p>
+            <h4> Key Notes</h4>
+            <p><strong>（False Reject）：</strong>CDMO，，。IPC，，，。，（），。</p>
+            <p><strong>：</strong>「（net weight）」，（tare）（gross）。taregross，。</p>
+            <p><strong>IPC：</strong>，（offset）（、），。。</p>
         </div>
 
         <div class="formula-box">
-            <h4>公式與計算 Formula</h4>
+            <h4> Formula</h4>
             <pre>
-淨重稱重準確性 = 統計誤差 (σ) + 恆定誤差
+ =  (σ) + 
 
-設 IPC 讀值範圍 = [IPC_min, IPC_max]
+ IPC  = [IPC_min, IPC_max]
 
-正確方法：
-  IPC_min = 真實可接受最低重量 - (統計σ + 最大恆定偏移)
-  IPC_max = 真實可接受最高重量 + (統計σ + 最大恆定偏移)
+：
+  IPC_min =  - (σ + )
+  IPC_max =  + (σ + )
 
-錯誤方法（常見錯誤）：
-  直接把實驗室天平的規格上下限
-  套用為 IPC 生產限度
-  → 後果：假拒絕大量合格品
+（）：
+  
+   IPC 
+  → ：
 
-實例（原文）：
-  實際重量（lab balance）= 1.001 g → 合格 ✓
-  IPC 讀值（weigh cell）  = 1.005 g → 若限度設太緊則誤判拒絕 ✗
+（）：
+  （lab balance）= 1.001 g →  ✓
+  IPC （weigh cell）  = 1.005 g →  ✗
             </pre>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>為什麼實驗室天平的鐘形曲線比IPC天平更窄？請從誤差來源角度解釋。</li>
-                <li>如果一條充填線有8個稱重站，每個站的恆定偏移方向和大小各不相同，這對設定統一的IPC上下限有什麼挑戰？</li>
-                <li>假設你是CDMO品質工程師，客戶要求你把IPC限度收緊到「更接近規格限度」，你會如何用數據說服客戶這樣做反而有風險？</li>
+                <li>IPC？。</li>
+                <li>8，，IPC？</li>
+                <li>CDMO，IPC「」，？</li>
             </ol>
         </div>
     </div>
 </div>
 
 <!-- ==================== SECTION 5.3.2 ==================== -->
-<div class="section-title"><strong>5.3.2 In-Process Control Production Limits in Relation to Process Capability Index 5.3.2 製程中管制生產限度與製程能力指數之關係</strong></div>
+<div class="section-title"><strong>5.3.2 In-Process Control Production Limits in Relation to Process Capability Index 5.3.2 </strong></div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p>Some manufacturers will define the robustness of their design in terms of the system's capability. This is an outcome based on upper- and lower-specification limits and the dosing accuracy of the pumps built into the filling machine. Equation 5.3.2-1 describes the inversely proportional relation of the <span class="key-term">capability index</span> to <span class="key-term">relative standard deviation (σ)</span>.</p>
 
@@ -1234,88 +1234,88 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>製程能力指標 C<sub>pk</sub> (Process Capability Index)：</strong>衡量一個製程在規格上下限（LSL/USL）內穩定運行的能力。C<sub>pk</sub>越高，代表製程中心越靠近規格中間，且變異越小。</p>
-            <p><strong>公式解讀：</strong>C<sub>pk</sub> = min(x̄ − LSL, USL − x̄) / 3σ，取「平均值距較近規格邊界的距離」除以「3個標準差」。這確保了製程從最不利的一側計算能力，是保守且合理的。</p>
-            <p><strong>工業標準 C<sub>pk</sub> 1.0~1.33：</strong>
+            <h4> Key Concepts</h4>
+            <p><strong> C<sub>pk</sub> (Process Capability Index)：</strong>（LSL/USL）。C<sub>pk</sub>，，。</p>
+            <p><strong>：</strong>C<sub>pk</sub> = min(x̄ − LSL, USL − x̄) / 3σ，「」「3」。，。</p>
+            <p><strong> C<sub>pk</sub> 1.0~1.33：</strong>
             </p><ul>
-                <li>C<sub>pk</sub> = 1.00 → 每百萬充填2,699個超出限度（±3σ）</li>
-                <li>C<sub>pk</sub> = 1.33 → 每百萬充填66個超出限度（±4σ）</li>
-                <li>C<sub>pk</sub> ≥ 1.67 → 每百萬0個（±5σ，接近Six Sigma水準）</li>
+                <li>C<sub>pk</sub> = 1.00 → 2,699（±3σ）</li>
+                <li>C<sub>pk</sub> = 1.33 → 66（±4σ）</li>
+                <li>C<sub>pk</sub> ≥ 1.67 → 0（±5σ，Six Sigma）</li>
             </ul>
             
-            <p><strong>反比關係：</strong>C<sub>pk</sub>與σ（標準差）成反比。σ越小（製程越精準），C<sub>pk</sub>越高，可將規格設得更緊。</p>
+            <p><strong>：</strong>C<sub>pk</sub>σ（）。σ（），C<sub>pk</sub>，。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>C<sub>pk</sub>就像射箭比賽的「神射手指標」：LSL和USL是靶的邊界，σ是射手每次落點的散佈範圍，x̄是平均落點。</p>
-            <p>C<sub>pk</sub> = 1.0代表：射手的平均落點正好在靶心，但散佈範圍大到邊界——每1000箭中大約有2-3支飛出靶外。C<sub>pk</sub> = 1.33代表更精準的射手，每百萬次只有66次出界。</p>
-            <p>充填線的「神射手水準」決定了OEM設備的競爭力——C<sub>pk</sub>越高，客戶可以用更緊的規格（更嚴格的劑量容差），這在高價值生物藥中尤其重要。</p>
+            <h4> Analogy</h4>
+            <p>C<sub>pk</sub>「」：LSLUSL，σ，x̄。</p>
+            <p>C<sub>pk</sub> = 1.0：，——10002-3。C<sub>pk</sub> = 1.33，66。</p>
+            <p>「」OEM——C<sub>pk</sub>，（），。</p>
         </div>
 
         <div class="formula-box">
-            <h4>公式與計算 Formula</h4>
+            <h4> Formula</h4>
             <pre>
-製程能力指標公式：
+：
 
         min( x̄ - LSL,  USL - x̄ )
 Cpk =  ───────────────────────────
                   3σ
 
-範例計算：
-  目標充填重量：5.00 mL（密度1.0 g/mL → 5.00 g）
-  規格：4.75 g ~ 5.25 g
+：
+  ：5.00 mL（1.0 g/mL → 5.00 g）
+  ：4.75 g ~ 5.25 g
   LSL = 4.75 g, USL = 5.25 g
-  實測 x̄ = 5.02 g, σ = 0.03 g
+   x̄ = 5.02 g, σ = 0.03 g
 
   min(5.02 - 4.75, 5.25 - 5.02) = min(0.27, 0.23) = 0.23
   Cpk = 0.23 / (3 × 0.03) = 0.23 / 0.09 ≈ 2.56
 
-  → 超過6σ水準，每百萬幾乎無超規品！
+  → 6σ，！
 
-工業標準對照：
-  Cpk 1.00 = 2,699 ppm  → 一般可接受最低標準
-  Cpk 1.33 = 66 ppm     → 業界標準
-  Cpk 1.67 = 0 ppm      → Six Sigma等級
+：
+  Cpk 1.00 = 2,699 ppm  → 
+  Cpk 1.33 = 66 ppm     → 
+  Cpk 1.67 = 0 ppm      → Six Sigma
             </pre>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p><strong>C<sub>pk</sub>是設備驗收的量化工具：</strong>在設備採購規格（URS）中，可要求OEM提供C<sub>pk</sub>保證值。例如：「充填準確度要求：在5 mL充填目標下，C<sub>pk</sub> ≥ 1.33。」這將定性要求轉化為可驗證的量化指標。</p>
-            <p><strong>C<sub>pk</sub>適用於穩定製程：</strong>原文特別強調「stable process（穩定製程）」。若製程存在趨勢漂移（如PP管路老化），即使瞬時σ小，累計的漂移也會使實際不良率遠超C<sub>pk</sub>預測。這也是為什麼PP需要自動劑量修正的根本原因。</p>
-            <p><strong>決策層級提示：</strong>設備C<sub>pk</sub>能力是「商業與彈性」層面的選擇，但它直接影響能否達到產品CQA中的劑量準確性要求，從而影響患者安全——決策層級在此垂直貫通。</p>
+            <h4> Key Notes</h4>
+            <p><strong>C<sub>pk</sub>：</strong>（URS），OEMC<sub>pk</sub>。：「：5 mL，C<sub>pk</sub> ≥ 1.33。」。</p>
+            <p><strong>C<sub>pk</sub>：</strong>「stable process（）」。（PP），σ，C<sub>pk</sub>。PP。</p>
+            <p><strong>：</strong>C<sub>pk</sub>「」，CQA，——。</p>
         </div>
 
         <div class="practice-box" style="border-style:solid; background:linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-color:#22c55e;">
-            <h4>實務應用 Practical Application</h4>
-            <p>在CDMO評估充填設備採購時，C<sub>pk</sub>是關鍵採購指標之一。建議在URS中明確要求：
-            (1) 在特定充填體積範圍下（如0.5 mL, 1 mL, 5 mL, 10 mL）分別提供C<sub>pk</sub>承諾值；
-            (2) 提供OQ/PQ驗收測試中的實測C<sub>pk</sub>數據；
-            (3) 對高價值生物藥（如基因治療），考慮要求C<sub>pk</sub> ≥ 1.50甚至更高，因單位成本可能高達數萬美元，假廢品代價極高。</p>
+            <h4> Practical Application</h4>
+            <p>CDMO，C<sub>pk</sub>。URS：
+            (1) （0.5 mL, 1 mL, 5 mL, 10 mL）C<sub>pk</sub>；
+            (2) OQ/PQC<sub>pk</sub>；
+            (3) （），C<sub>pk</sub> ≥ 1.50，，。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>若一台充填機在驗收測試中達到C<sub>pk</sub> = 1.40，但在實際生產中使用PP充填且未啟用自動修正，C<sub>pk</sub>可能如何變化？為什麼？</li>
-                <li>客戶要求劑量規格為目標值 ± 2%，而設備供應商說可達C<sub>pk</sub> = 1.33。請計算：每百萬支中預計有多少支超出規格？這個數字對一個年產量500萬支的CDMO意味著什麼？</li>
-                <li>C<sub>pk</sub>公式中使用「min」函數的意義是什麼？如果製程平均值嚴重偏向USL一側，C<sub>pk</sub>如何反映這個風險？</li>
+                <li>C<sub>pk</sub> = 1.40，PP，C<sub>pk</sub>？？</li>
+                <li> ± 2%，C<sub>pk</sub> = 1.33。：？500CDMO？</li>
+                <li>C<sub>pk</sub>「min」？USL，C<sub>pk</sub>？</li>
             </ol>
         </div>
     </div>
 </div>
 
 <!-- ==================== SECTION 6.0 INTRO (end of p114) ==================== -->
-<div class="section-title"><strong>6.0 Special Considerations for Advanced Container–Closure Design and Implementation (Transition — doc p114) 6.0 先進容器封蓋設計與實施之特殊考量（過渡 — 文件第 114 頁）</strong></div>
+<div class="section-title"><strong>6.0 Special Considerations for Advanced Container–Closure Design and Implementation (Transition — doc p114) 6.0 （ —  114 ）</strong></div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p><span class="key-term">Container–closure design</span> is an area of intense research and development within the pharmaceutical and biopharmaceutical industries. As stated in Section 1.2, container–closure materials of construction and design will influence the design of the aseptic filling line and will also affect the selection of the closing system (see Section 7.3). When considering the use of a novel container and/or closure, it is essential to involve potential <span class="key-term">component suppliers</span> as early as practicable with the design and selection of the equipment to ensure suitability and compatibility.</p>
 
@@ -1354,49 +1354,49 @@ Cpk =  ────────────────────────�
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>進階容器密封系統 (Advanced Container-Closure Systems)：</strong>傳統注射劑容器（玻璃瓶+橡皮塞+鋁蓋）已無法滿足現代生物藥、基因治療和患者便利性的需求。進階系統涵蓋多腔室、自動失能（防重複使用）、無矽油等創新設計。</p>
-            <p><strong>關鍵設計驅動力：</strong>
+            <h4> Key Concepts</h4>
+            <p><strong> (Advanced Container-Closure Systems)：</strong>（++）、。、（）、。</p>
+            <p><strong>：</strong>
             </p><ul>
-                <li><strong>SA（無菌保證）提升：</strong>針刺隔膜充填（needle-through-septum）在全封閉系統中充填，最大化無菌屏障。</li>
-                <li><strong>矽油問題 (Silicone Issue)：</strong>傳統注射器使用矽油潤滑活塞，但矽油滴入藥液可引起蛋白質聚集（protein agglomeration）——無矽油注射器應運而生。</li>
-                <li><strong>可提取體積損失 (Extractable Volume Waste)：</strong>減少死體積，對昂貴生物藥尤其重要。</li>
+                <li><strong>SA（）：</strong>（needle-through-septum），。</li>
+                <li><strong> (Silicone Issue)：</strong>，（protein agglomeration）——。</li>
+                <li><strong> (Extractable Volume Waste)：</strong>，。</li>
             </ul>
             
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>傳統注射瓶就像餐廳用的普通餐具——功能完整但通用。進階容器密封系統就像米其林餐廳為特定菜品客製化的餐具——形狀、材質、密封方式都為特定需求優化，但設計複雜度和供應商協調難度也大幅提升。</p>
-            <p>這也是為什麼Section 6.0一開頭就強調「儘早讓供應商參與」——客製化容器不能在充填線設計完成後才想到。就像你不能等廚房蓋好了才決定要用多大的鍋。</p>
+            <h4> Analogy</h4>
+            <p>——。——、、，。</p>
+            <p>Section 6.0「」——。。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p><strong>「儘早介入」原則（Early Engagement）：</strong>進階容器/密封系統必須在設備選型和充填線設計的早期階段就讓供應商參與。容器幾何影響充填針設計、IPC設定、關蓋設備選型。若在設備採購後才換容器，可能需要全面重新驗證。</p>
-            <p><strong>決策層級（Decision Hierarchy）提示：</strong>進階容器的設計目標中，「增強SA（無菌保證）」排在最前——這符合決策層級的第一優先。患者安全（CQA，如劑量準確性、避免蛋白質聚集）排在第二。便利性和商業考量（如防重複使用、減少廢棄物）排在最後。</p>
-            <p><strong>Section 6是過渡橋樑：</strong>Section 5的劑量控制討論至此結束，Section 6開始進入容器密封系統的深入討論（繼續至Section 7：關閉系統設計）。容器-充填-密封這三者是不可分割的系統工程。</p>
+            <h4> Key Notes</h4>
+            <p><strong>「」（Early Engagement）：</strong>/。、IPC、。，。</p>
+            <p><strong>（Decision Hierarchy）：</strong>，「SA（）」——。（CQA，、）。（、）。</p>
+            <p><strong>Section 6：</strong>Section 5，Section 6（Section 7：）。--。</p>
         </div>
 
         <div class="practice-box" style="border-style:solid; background:linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-color:#22c55e;">
-            <h4>實務應用 Practical Application</h4>
-            <p>對CDMO業務發展團隊的啟示：當客戶帶著進階容器系統的新案詢問可行性時，第一個問題應是「你的容器供應商能提供哪些設備相容性數據？」而不是立刻報價。進階容器往往需要：
-            (1) 特殊充填針頭設計（如針刺隔膜充填）；
-            (2) 修改或客製化的關蓋設備；
-            (3) 重新設計IPC系統（如多腔室需要多步驟充填驗證）；
-            (4) 更長的設備驗收和製程驗證周期。
-            這些都需要在技術可行性評估中明確，才能準確報價和排程。</p>
+            <h4> Practical Application</h4>
+            <p>CDMO：，「？」。：
+            (1) （）；
+            (2) ；
+            (3) IPC（）；
+            (4) 。
+            ，。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>「無矽油注射器」解決了什麼CQA問題？這個問題對哪一類藥品（小分子 vs. 生物藥）影響更大？為什麼？</li>
-                <li>針刺隔膜充填（needle-through-septum filling）如何強化無菌保證？與傳統開口充填相比，它解決了哪個關鍵的污染風險窗口？</li>
-                <li>如果一個客戶要求使用多腔室卡匣，請列出至少3個你需要在早期設備設計階段就確認的技術問題。</li>
+                <li>「」CQA？（ vs. ）？？</li>
+                <li>（needle-through-septum filling）？，？</li>
+                <li>，3。</li>
             </ol>
         </div>
     </div>
@@ -1406,14 +1406,14 @@ Cpk =  ────────────────────────�
 
 <!-- SECTION SUMMARY -->
 <div class="learning-objectives" style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%); margin: 0 1.5rem 1.5rem;">
-    <h3>本節重點回顧 Section Summary (5B: doc p108-p114)</h3>
+    <h3> Section Summary (5B: doc p108-p114)</h3>
     <ul>
-        <li><strong>容積充填（5.2.2）：</strong>以容器幾何+雷射感測器控制終點，不用天平稱重。精度依賴容器尺寸一致性，適合無最大充填重量限制的容器（如多劑卡匣）。</li>
-        <li><strong>劑量修正哲學（5.2.2.2）：</strong>穩定泵（RPP/DP）用手動修正，PP用自動時間加權修正，TP必須自動即時修正——對應各泵系統的本質特性差異。</li>
-        <li><strong>三大稱重誤差類型（5.3）：</strong>統計性（氣流/震動/靜電等隨機誤差）、恆定性（感測器偏移等系統誤差）、機器/產品相關誤差。Grade A氣流既保護無菌，也是稱重精度的挑戰。</li>
-        <li><strong>IPC限度設定核心原則（5.3.1）：</strong>IPC讀值 ≠ 實際重量。IPC上下限應依據「最寬IPC鐘形曲線」設定，避免因IPC天平固有誤差而誤判拒絕實際合格品（false rejects）。</li>
-        <li><strong>製程能力指標 C<sub>pk</sub>（5.3.2）：</strong>C<sub>pk</sub> 1.0~1.33為業界標準（±3σ~±4σ）。C<sub>pk</sub> = 1.33時，每百萬充填僅66個超規。C<sub>pk</sub>是設備採購規格（URS）的關鍵量化指標。</li>
-        <li><strong>進階容器密封系統（6.0過渡）：</strong>多腔室、無矽油、針刺隔膜充填等創新容器需在設備設計早期讓供應商參與。決策優先順序永遠是：無菌保證 &gt; 產品CQA &gt; 商業靈活性。</li>
+        <li><strong>（5.2.2）：</strong>+，。，（）。</li>
+        <li><strong>（5.2.2.2）：</strong>（RPP/DP），PP，TP——。</li>
+        <li><strong>（5.3）：</strong>（//）、（）、/。Grade A，。</li>
+        <li><strong>IPC（5.3.1）：</strong>IPC ≠ 。IPC「IPC」，IPC（false rejects）。</li>
+        <li><strong> C<sub>pk</sub>（5.3.2）：</strong>C<sub>pk</sub> 1.0~1.33（±3σ~±4σ）。C<sub>pk</sub> = 1.33，66。C<sub>pk</sub>（URS）。</li>
+        <li><strong>（6.0）：</strong>、、。： &gt; CQA &gt; 。</li>
     </ul>
 </div>
 

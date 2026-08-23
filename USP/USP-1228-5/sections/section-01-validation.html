@@ -439,7 +439,7 @@ body {
     font-size: 0.92rem !important;
 }
 
-/* ===== ANALOGY BOX (Yellow) - 比喻說明 ===== */
+/* ===== ANALOGY BOX (Yellow) -  ===== */
 .analogy-box,
 .concept-box[class*="analogy"],
 .concept-box.analogy,
@@ -453,7 +453,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #856404 !important;
 }
 
-/* ===== TERM/CONCEPT BOX (Green) - 核心概念 ===== */
+/* ===== TERM/CONCEPT BOX (Green) -  ===== */
 .term-box,
 .key-term-box,
 .concept-box:not([class*="analogy"]):not([class*="note"]):not([class*="formula"]):not([class*="practice"]):not([class*="highlight"]):not(.analogy):not(.application) {
@@ -468,7 +468,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #2e7d32 !important;
 }
 
-/* ===== NOTE/HIGHLIGHT BOX (Orange) - 重點提示 ===== */
+/* ===== NOTE/HIGHLIGHT BOX (Orange) -  ===== */
 .note-box,
 .key-note,
 .key-point-box,
@@ -487,7 +487,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #c65102 !important;
 }
 
-/* ===== FORMULA BOX (Purple) - 公式計算 ===== */
+/* ===== FORMULA BOX (Purple) -  ===== */
 .formula-box,
 .concept-box[class*="formula"] {
     background: var(--purple-bg) !important;
@@ -522,7 +522,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #1565c0 !important;
 }
 
-/* ===== PRACTICE BOX (Blue dashed) - 練習思考 ===== */
+/* ===== PRACTICE BOX (Blue dashed) -  ===== */
 .practice-box {
     background: linear-gradient(135deg, #e8f4fd 0%, #d1e9ff 100%) !important;
     border: 2px dashed #3182ce !important;
@@ -933,30 +933,30 @@ tr:nth-child(even) {
 <!-- SECTION HEADER -->
 <div class="header">
     <h1>Section 1: Validation Studies &amp; Analysis of Results</h1>
-    <div class="subtitle">驗證研究與結果分析</div>
+    <div class="subtitle"></div>
     <div class="page-info">USP General Chapter 〈1228.5〉 Endotoxin Indicators for Depyrogenation | Pages 3–4 + References</div>
 </div>
 
 <!-- LEARNING OBJECTIVES -->
 <div class="learning-objectives" style="max-width:1800px; margin: 1.5rem auto; padding: 1.25rem 1.5rem;">
-    <h3>本章學習目標</h3>
+    <h3></h3>
     <ul>
-        <li>掌握 log reduction（對數降低值）的計算方法，包含「最保守計算原則」的選取邏輯（最高處理組 vs 最低對照組）。</li>
-        <li>理解傳統「≥3-log reduction」要求的背景，以及為何 USP 1228.5 要求依製程特性和歷史數據進行科學評估，而非一律套用 3-log 標準。</li>
-        <li>能夠根據 BET 靈敏度、接種量與 log reduction 目標，設計合理的驗證實驗規格。</li>
-        <li>了解多步驟純化製程中 endotoxin 去除的累加效果（additive reduction），以及如何在整個製程中分配各步驟的去除責任。</li>
-        <li>熟悉本章引用的主要文獻（Bowers &amp; Tran、ANSI/AAMI ST72 等），及其在實驗室內毒素製備與提取方面的貢獻。</li>
+        <li> log reduction（），「」（ vs ）。</li>
+        <li>「≥3-log reduction」， USP 1228.5 ， 3-log 。</li>
+        <li> BET 、 log reduction ，。</li>
+        <li> endotoxin （additive reduction），。</li>
+        <li>（Bowers &amp; Tran、ANSI/AAMI ST72 ），。</li>
     </ul>
 </div>
 
 <div class="main-content">
 
 <!-- ==================== SECTION 5: ANALYSIS OF RESULTS ==================== -->
-<div class="section-title">5. Analysis of Results of Depyrogenation Studies | 去熱原研究結果分析</div>
+<div class="section-title">5. Analysis of Results of Depyrogenation Studies | </div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p>To evaluate the effectiveness of a depyrogenation process, the <span class="key-term">residual activity</span> that is recovered from processed indicators is compared to the endotoxin or LPS activity of unprocessed controls. Typically, the log<sub>10</sub> of the endotoxin or LPS activity measured for the processed EI (or solution) is subtracted from the log<sub>10</sub> of the measured endotoxin or LPS activity of unprocessed control indicators. The result of the subtraction is the <span class="key-term">log reduction</span> that is attributable to the depyrogenation process. If there are multiple controls and/or samples of processed material (and there usually are), the most conservative approach is to subtract the highest log<sub>10</sub> concentration recovered from the processed EIs (or solution samples) from the lowest log<sub>10</sub> unprocessed control endotoxin activity.</p>
 
@@ -976,75 +976,75 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>Log Reduction（對數降低值）的意義：</strong></p>
-            <p>Log reduction 是去熱原效果的量化指標，反映製程將內毒素活性降低的倍數（以 log₁₀ 表示）：</p>
+            <h4> Key Concepts</h4>
+            <p><strong>Log Reduction（）：</strong></p>
+            <p>Log reduction ，（ log₁₀ ）：</p>
             <ul>
-                <li>3-log reduction = 活性降低 1000 倍（1000 EU → 1 EU）</li>
-                <li>4-log reduction = 活性降低 10,000 倍</li>
-                <li>6-log reduction = 活性降低 1,000,000 倍（適用於高負荷生物製程）</li>
+                <li>3-log reduction =  1000 （1000 EU → 1 EU）</li>
+                <li>4-log reduction =  10,000 </li>
+                <li>6-log reduction =  1,000,000 （）</li>
             </ul>
-            <p><strong>最保守計算（Conservative approach）：</strong>取「未處理對照組的最低值」減「處理後樣品的最高值」，確保計算出的 log reduction 代表製程能力的下限，而非平均值。這符合 GMP 風險優先原則。</p>
+            <p><strong>（Conservative approach）：</strong>「」「」， log reduction ，。 GMP 。</p>
         </div>
 
         <div class="formula-box">
-            <h4>公式與計算 Formula</h4>
+            <h4> Formula</h4>
             <pre>
-Log Reduction 計算公式：
-LR = log₁₀(控制組活性) - log₁₀(處理組活性)
+Log Reduction ：
+LR = log₁₀() - log₁₀()
 
-最保守計算（USP 建議）：
-LR = log₁₀(最低控制組) - log₁₀(最高處理組)
+（USP ）：
+LR = log₁₀() - log₁₀()
 
-USP 原文範例驗算：
-  控制組（取最低值）：1000 EU/mL → log₁₀(1000) = 3.000
-  處理組（取最高值）：0.634 EU/mL → log₁₀(0.634) = -0.198
-  LR = 3.000 - (-0.198) = 3.198 log reduction ✓ 符合 ≥3-log 要求
+USP ：
+  （）：1000 EU/mL → log₁₀(1000) = 3.000
+  （）：0.634 EU/mL → log₁₀(0.634) = -0.198
+  LR = 3.000 - (-0.198) = 3.198 log reduction ✓  ≥3-log 
 
-另一種低接種量設計：
-  BET 靈敏度：0.005 EU/mL
-  接種量：50 EU（而非 1000 EU）
-  目標殘餘 &lt; 0.05 EU/mL
+：
+  BET ：0.005 EU/mL
+  ：50 EU（ 1000 EU）
+   &lt; 0.05 EU/mL
   LR = log₁₀(50) - log₁₀(0.05) = 1.699 - (-1.301) = 3.000 ✓
             </pre>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>「≥3-log reduction」這個傳統標準，就像早期交通安全法規規定「所有道路限速 60 km/h」——是在數據有限的年代制定的保守規則。今天，監管思維已從「一刀切」演進為「科學評估（science-based）」：高速公路上 60 km/h 太慢，但學校旁 60 km/h 可能太快。同樣地，空玻璃瓶的乾熱去熱原用 3-log 可能過度驗證，但發酵罐上清液含 10⁷ EU/mL 就遠遠不夠。</p>
+            <h4> Analogy</h4>
+            <p>「≥3-log reduction」，「 60 km/h」——。，「」「（science-based）」： 60 km/h ， 60 km/h 。， 3-log ， 10⁷ EU/mL 。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p><strong>預先核准協議書（Preapproved Protocol）是監管合規的核心：</strong>USP 1228.5 明確要求，log reduction 的接受標準必須在研究開始前，寫入已核准的研究協議書中。事後再「調整」接受標準是 GMP 重大違規行為——等同於先射箭再畫靶。</p>
-            <p>FDA 483 觀察項目中，「驗證協議書在研究開始後才修改 acceptance criteria」是常見缺失。對 CDMO 而言，這也可能影響客戶產品的上市申請。</p>
+            <h4> Key Notes</h4>
+            <p><strong>（Preapproved Protocol）：</strong>USP 1228.5 ，log reduction ，。「」 GMP ——。</p>
+            <p>FDA 483 ，「 acceptance criteria」。 CDMO ，。</p>
         </div>
 
         <div class="practice-box" style="border-style:solid; background:linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-color:#22c55e;">
-            <h4>實務應用 Practical Application</h4>
-            <p>在一個 mAb 純化製程驗證中，上游發酵液內毒素含量約 5×10⁶ EU/mL，而 FDA 規定的最終藥品內毒素限量為 5 EU/dose（假設每劑量 1 mL）。若直接計算，需要整個製程共達到 6-log 的去除效果。這 6-log 可以分配到三個純化步驟（如 Protein A、CEX、AEX），每步約需達到 2-log，形成累加去除策略——這就是「additive reduction over multiple steps」的工業實踐。</p>
+            <h4> Practical Application</h4>
+            <p> mAb ， 5×10⁶ EU/mL， FDA  5 EU/dose（ 1 mL）。， 6-log 。 6-log （ Protein A、CEX、AEX）， 2-log，——「additive reduction over multiple steps」。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>一個研究的三個對照組 EI 測得活性分別為 850、1120、960 EU/mL，三個處理組測得 0.42、0.31、0.58 EU/mL。請用最保守方法計算 log reduction，並判斷是否符合 ≥3-log 要求。</li>
-                <li>若一個 CDMO 承接的小分子注射劑，玻璃瓶進料時 endotoxin 歷史數據均 &lt;0.1 EU/vial，接受標準設定 ≥3-log reduction with 1000 EU spike 是否合理？如何向 QA 和監管機構論証一個更低接種量的合理性？</li>
-                <li>在多步驟純化製程中，如果其中一個步驟（如 UF/DF）的 log reduction 表現不穩定，如何透過「additive reduction」設計保護整體去除目標？</li>
+                <li> EI  850、1120、960 EU/mL， 0.42、0.31、0.58 EU/mL。 log reduction， ≥3-log 。</li>
+                <li> CDMO ， endotoxin  &lt;0.1 EU/vial， ≥3-log reduction with 1000 EU spike ？ QA ？</li>
+                <li>，（ UF/DF） log reduction ，「additive reduction」？</li>
             </ol>
         </div>
     </div>
 </div>
 
 <!-- ==================== REFERENCES ==================== -->
-<div class="section-title">References | 參考文獻</div>
+<div class="section-title">References | </div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <ol>
             <li>Ludwig JD, Avis KE. Dry heat inactivation of endotoxin on the surface of glass. <em>J Parenter Sci Technol.</em> 1990;44(1):4–12.</li>
@@ -1059,51 +1059,51 @@ USP 原文範例驗算：
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts — 關鍵文獻導讀</h4>
-            <p><strong>Reference 1 (Ludwig &amp; Avis, 1990)：</strong>玻璃表面乾熱去熱原的奠基研究，確立了 CSE 賦形劑降低 LPS 熱穩定性的數據，是本章「不得使用含賦形劑 EI 進行乾熱驗證」的核心文獻依據。</p>
-            <p><strong>Reference 2 (Bowers &amp; Tran, 2011)：</strong>最重要的實作參考——提供了從 Gram-negative 培養物製備天然內毒素的具體操作方法（USP 原文多次引用），是建立 in-house endotoxin 製備 SOP 的首選參考。</p>
-            <p><strong>Reference 8 (ANSI/AAMI ST72:2011)：</strong>醫療器材內毒素測試的工業標準，包含替代萃取方法的系統化整理，對需要評估非傳統載體（如塑膠器材）的 CDMO 實驗室具有直接參考價值。</p>
+            <h4> Key Concepts — </h4>
+            <p><strong>Reference 1 (Ludwig &amp; Avis, 1990)：</strong>， CSE  LPS ，「 EI 」。</p>
+            <p><strong>Reference 2 (Bowers &amp; Tran, 2011)：</strong>—— Gram-negative （USP ）， in-house endotoxin  SOP 。</p>
+            <p><strong>Reference 8 (ANSI/AAMI ST72:2011)：</strong>，，（） CDMO 。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>這份參考文獻清單就像廚師的配方書——不是所有食譜都要用到，但在設計特定菜色時，你需要知道哪本書涵蓋了哪種技術。對 CDMO QA/驗證工程師而言，熟悉這些文獻能讓你在面對監管問題時，能夠引用「科學依據」而非「因為 USP 這樣說」——後者往往讓審查員追問更多，前者則展現科學透明度。</p>
+            <h4> Analogy</h4>
+            <p>——，，。 CDMO QA/，，「」「 USP 」——，。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p><strong>USP 1228.5 的文獻時效性：</strong>本章最新修訂於 2016 年（Official as of 01-Dec-2016），部分引用文獻可追溯至 1985–2011 年。在制訂公司內部 SOP 時，應注意確認是否有更新的研究文獻（如 rFC 重組凝血因子 C 法的 PDA TR-82 等）提供了新的最佳實務指引，特別是在 LAL 替代方法日益普及的背景下。</p>
-            <p>ANSI/AAMI ST72:2011 雖以醫療器材為主，但其萃取方法學對 CDMO 處理非標準載體（如不鏽鋼容器、橡膠塞）的 EI 回收問題極具參考價值。</p>
+            <h4> Key Notes</h4>
+            <p><strong>USP 1228.5 ：</strong> 2016 （Official as of 01-Dec-2016）， 1985–2011 。 SOP ，（ rFC  C  PDA TR-82 ）， LAL 。</p>
+            <p>ANSI/AAMI ST72:2011 ， CDMO （、） EI 。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>若您的 CDMO 實驗室考慮建立 in-house endotoxin 製備能力，Bowers &amp; Tran (2011) 提供了哪些核心操作步驟？您還需要補充哪些本地化（site-specific）的驗證工作？</li>
-                <li>ANSI/AAMI ST72:2011 是針對醫療器材制定的標準。在評估其適用性時，應考慮哪些差異點使得其萃取方法建議可以（或不能）直接移用到注射劑 CDMO 的 EI 回收研究？</li>
+                <li> CDMO  in-house endotoxin ，Bowers &amp; Tran (2011) ？（site-specific）？</li>
+                <li>ANSI/AAMI ST72:2011 。，（） CDMO  EI ？</li>
             </ol>
         </div>
     </div>
 </div>
 
 <!-- ==================== VALIDATION DESIGN SUMMARY TABLE ==================== -->
-<div class="section-title">驗證設計整合表 — Validation Design Decision Matrix</div>
+<div class="section-title"> — Validation Design Decision Matrix</div>
 
 <div style="max-width:1800px; overflow-x:auto; margin-bottom: 1.5rem;">
     </div>
 
 <!-- SECTION SUMMARY -->
 <div class="learning-objectives" style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%); max-width:1800px; margin: 1.5rem auto;">
-    <h3>本節重點回顧 Section Summary</h3>
+    <h3> Section Summary</h3>
     <ul>
-        <li>Log reduction 計算應採「最保守原則」：以對照組最低值減處理組最高值，確保數值代表製程能力下限。</li>
-        <li>傳統 ≥3-log reduction 要求是歷史慣例，但 USP 1228.5 明確鼓勵依製程特性、歷史內毒素負荷與 BET 靈敏度進行科學評估，設計合理的接受標準。</li>
-        <li>接種量不一定要 1000 EU——若 BET 靈敏度夠高，更低的接種量同樣可以論證 ≥3-log reduction，且降低實驗室操作風險。</li>
-        <li>所有研究設計（接種量、接受標準、分析方法）必須在研究開始前寫入預先核准的協議書，事後不得調整 acceptance criteria。</li>
-        <li>多步驟純化製程的 endotoxin 去除是累加的——可在協議書中明確分配各步驟的去除貢獻目標，形成整體去除保證策略。</li>
+        <li>Log reduction 「」：，。</li>
+        <li> ≥3-log reduction ， USP 1228.5 、 BET ，。</li>
+        <li> 1000 EU—— BET ， ≥3-log reduction，。</li>
+        <li>（、、）， acceptance criteria。</li>
+        <li> endotoxin ——，。</li>
     </ul>
 </div>
 

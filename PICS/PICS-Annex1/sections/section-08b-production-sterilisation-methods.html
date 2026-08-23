@@ -439,7 +439,7 @@ body {
     font-size: 0.92rem !important;
 }
 
-/* ===== ANALOGY BOX (Yellow) - 比喻說明 ===== */
+/* ===== ANALOGY BOX (Yellow) -  ===== */
 .analogy-box,
 .concept-box[class*="analogy"],
 .concept-box.analogy,
@@ -453,7 +453,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #856404 !important;
 }
 
-/* ===== TERM/CONCEPT BOX (Green) - 核心概念 ===== */
+/* ===== TERM/CONCEPT BOX (Green) -  ===== */
 .term-box,
 .key-term-box,
 .concept-box:not([class*="analogy"]):not([class*="note"]):not([class*="formula"]):not([class*="practice"]):not([class*="highlight"]):not(.analogy):not(.application) {
@@ -468,7 +468,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #2e7d32 !important;
 }
 
-/* ===== NOTE/HIGHLIGHT BOX (Orange) - 重點提示 ===== */
+/* ===== NOTE/HIGHLIGHT BOX (Orange) -  ===== */
 .note-box,
 .key-note,
 .key-point-box,
@@ -487,7 +487,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #c65102 !important;
 }
 
-/* ===== FORMULA BOX (Purple) - 公式計算 ===== */
+/* ===== FORMULA BOX (Purple) -  ===== */
 .formula-box,
 .concept-box[class*="formula"] {
     background: var(--purple-bg) !important;
@@ -522,7 +522,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #1565c0 !important;
 }
 
-/* ===== PRACTICE BOX (Blue dashed) - 練習思考 ===== */
+/* ===== PRACTICE BOX (Blue dashed) -  ===== */
 .practice-box {
     background: linear-gradient(135deg, #e8f4fd 0%, #d1e9ff 100%) !important;
     border: 2px dashed #3182ce !important;
@@ -960,7 +960,7 @@ tr:nth-child(even) {
 <div class="header">
     <div class="source-bar">PIC/S Annex 1 (2022)</div>
     <h1>Section 8 — Production (Part B): Sterilisation Methods</h1>
-    <div class="subtitle">第8節（下）：滅菌方法 — 濕熱、乾熱、輻射、環氧乙烷</div>
+    <div class="subtitle">8（）： — 、、、</div>
     <div class="page-info">PIC/S PE 009-16 Annex 1 (2022) — Manufacture of Sterile Medicinal Products | p31 – p38 | Paragraphs 8.50–8.79</div>
 </div>
 
@@ -968,22 +968,22 @@ tr:nth-child(even) {
 <div class="main-content">
 
 <div class="learning-objectives">
-    <h3>本章學習目標</h3>
+    <h3></h3>
     <ul>
-        <li>理解濕熱滅菌（蒸汽高壓釜）的驗證要求，包括溫度探針位置選擇、多孔負載與流體負載的差異，以及 F0 值計算</li>
-        <li>掌握蒸汽就地滅菌（Steam-in-Place, SIP）系統的設計與監測邏輯，及超熱水高壓釜的特殊應用</li>
-        <li>了解乾熱滅菌（Dry Heat Sterilisation）與去熱原（Depyrogenation）的關鍵製程參數，以及 3-log10 內毒素降低的驗收標準</li>
-        <li>認識輻射滅菌（Radiation Sterilisation）與環氧乙烷（EO）滅菌的適用條件、關鍵製程參數及 EO 曝氣要求</li>
-        <li>能夠在 CDMO 實務中選擇適當的最終滅菌方式，並辨識參數放行（Parametric Release）的前提條件</li>
+        <li>（），、， F0 </li>
+        <li>（Steam-in-Place, SIP），</li>
+        <li>（Dry Heat Sterilisation）（Depyrogenation）， 3-log10 </li>
+        <li>（Radiation Sterilisation）（EO）、 EO </li>
+        <li> CDMO ，（Parametric Release）</li>
     </ul>
 </div>
 
 <!-- ===================== SUBSECTION: General Heat Sterilisation (8.50-8.54) ===================== -->
-<div class="section-title" id="sec-heat-general">8.50–8.54 — General Requirements: Sterilisation by Heat（熱滅菌一般要求）</div>
+<div class="section-title" id="sec-heat-general">8.50–8.54 — General Requirements: Sterilisation by Heat（）</div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p><strong>8.50</strong> Each <span class="key-term">heat sterilisation cycle</span> should be recorded either electronically or by hardcopy, using equipment with suitable accuracy and precision. The system should have safeguards and/or redundancy in its control and monitoring instrumentation to detect a cycle not conforming to the validated cycle parameter requirements and abort or fail this cycle (e.g. by the use of <span class="key-term">duplex/double probes</span> connected to independent control and monitoring systems).</p>
 
@@ -997,44 +997,44 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>熱滅菌週期記錄 (Heat Sterilisation Cycle Recording)：</strong>每一次滅菌週期必須有完整的電子或紙本記錄，且需配備雙重探針（duplex/double probes）連接到獨立的控制與監測系統。這是 GMP 「冗餘系統」原則的具體體現，確保任何不符合驗證參數的週期能被立即偵測並中止。</p>
-            <p><strong>溫度探針位置驗證 (Probe Position Validation)：</strong>探針位置必須在驗證期間確定，並以額外的獨立監測探針放置在同一位置加以驗證。這確保日常使用的控制探針確實代表負載中的真實溫度條件。</p>
-            <p><strong>參數放行 (Parametric Release)：</strong>不做常規無菌測試（sterility test），而改以完整記錄的製程參數證明無菌性的放行方式。適用於具有高度穩健滅菌製程的最終滅菌產品，需主管機關特別授權，並符合 Annex 17 規範。</p>
+            <h4> Key Concepts</h4>
+            <p><strong> (Heat Sterilisation Cycle Recording)：</strong>，（duplex/double probes）。 GMP 「」，。</p>
+            <p><strong> (Probe Position Validation)：</strong>，。。</p>
+            <p><strong> (Parametric Release)：</strong>（sterility test），。，， Annex 17 。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>想像一台高級烤箱：不只有一個溫度計，而是有兩支獨立的溫度計（duplex probes）同時監測爐內溫度。如果兩者讀數不一致，烤箱會自動停止運作並發出警報。這正是高壓滅菌釜的雙探針設計邏輯——確保任何異常都不會「漏網」而放行了一個未達標準的批次。</p>
-            <p>參數放行就像：你不需要每次吃完飯後才知道鍋子燒熱了——你知道瓦斯開了多久、溫度多高，你對結果有把握。這就是以製程參數取代最終無菌測試的概念。</p>
+            <h4> Analogy</h4>
+            <p>：，（duplex probes）。，。——「」。</p>
+            <p>：——、，。。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p><strong>冷卻階段的污染風險：</strong>8.53 特別提醒：滅菌後的冷卻過程同樣是關鍵風險點。冷卻水或冷卻氣體若未經滅菌，可能在產品仍在釜內時引入污染。這在實務上常被忽略，但監管查核中是明確的稽查項目。</p>
-            <p><strong>滅菌計時起點：</strong>計時必須在整批負載都達到所需溫度「之後」才能開始（8.52）。負載的最冷點（coldest point / worst case location）達標，才代表整個負載達標。</p>
+            <h4> Key Notes</h4>
+            <p><strong>：</strong>8.53 ：。，。，。</p>
+            <p><strong>：</strong>「」（8.52）。（coldest point / worst case location），。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>為什麼探針位置需要用「獨立監測探針」在相同位置進行驗證？控制探針與獨立監測探針在功能上有什麼不同？</li>
-                <li>如果冷卻水未經滅菌，可能發生什麼情況？這在終端滅菌（terminal sterilisation）的哪些劑型中最為關鍵？</li>
-                <li>參數放行在商業上有什麼優勢？為什麼並非所有終端滅菌產品都採用參數放行？</li>
+                <li>「」？？</li>
+                <li>，？（terminal sterilisation）？</li>
+                <li>？？</li>
             </ol>
         </div>
     </div>
 </div>
 
 <!-- ===================== SUBSECTION: Moist Heat Sterilisation (8.55-8.65) ===================== -->
-<div class="section-title" id="sec-moist-heat">8.55–8.65 — Moist Heat Sterilisation（濕熱滅菌）</div>
+<div class="section-title" id="sec-moist-heat">8.55–8.65 — Moist Heat Sterilisation（）</div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p><strong>8.55</strong> <span class="key-term">Moist heat sterilisation</span> can be achieved using steam, (direct or indirect contact), but also includes other systems such as <span class="key-term">superheated water systems</span> (cascade or immersion cycles) that could be used for containers that may be damaged by other cycle designs (e.g. Blow-Fill-Seal containers, plastic bags).</p>
 
@@ -1060,89 +1060,89 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>濕熱滅菌 (Moist Heat Sterilisation)：</strong>利用蒸汽（直接或間接接觸）將微生物殺滅的最常見終端滅菌方式，主要作用機制是蒸汽凝結釋放潛熱（latent heat）加熱蛋白質使其變性。典型條件為 121°C / 15 min 或更高溫度。</p>
-            <p><strong>多孔循環 vs 流體循環 (Porous vs Fluid Cycles)：</strong>
+            <h4> Key Concepts</h4>
+            <p><strong> (Moist Heat Sterilisation)：</strong>（），（latent heat）。 121°C / 15 min 。</p>
+            <p><strong> vs  (Porous vs Fluid Cycles)：</strong>
                 <ul>
-                    <li><strong>多孔循環</strong>：用於硬器具、包材、紡織品等 — 需移除空氣（空氣是熱傳遞障礙），關鍵參數：時間、溫度、壓力、平衡時間</li>
-                    <li><strong>流體循環</strong>：用於瓶裝液體 — 液體本身是熱傳遞媒介，關鍵參數：溫度、時間、F0 值</li>
+                    <li><strong></strong>：、、 — （），：、、、</li>
+                    <li><strong></strong>： — ，：、、F0 </li>
                 </ul>
             </p>
-            <p><strong>F0 值 (Lethality Value)：</strong>以 121°C 為基準溫度（Z=10°C）計算的累積殺菌效力。F0 = 8 min 通常視為最低接受標準，但需依產品生物負荷（bioburden）和無菌保證水準（SAL = 10⁻⁶）決定。</p>
-            <p><strong>就地滅菌 (Steam-in-Place, SIP)：</strong>在不拆除設備的情況下，將蒸汽通入固定管路、容器或冷凍乾燥機腔體進行滅菌。SIP 後系統必須維持密封狀態，並保持正壓或安裝滅菌通氣過濾器，以防止外部污染。</p>
+            <p><strong>F0  (Lethality Value)：</strong> 121°C （Z=10°C）。F0 = 8 min ，（bioburden）（SAL = 10⁻⁶）。</p>
+            <p><strong> (Steam-in-Place, SIP)：</strong>，、。SIP ，，。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p><strong>高壓釜 = 工業級高壓鍋：</strong>就像家庭用高壓鍋利用蒸汽壓力在 120°C 以上烹飪食物，製藥用高壓釜（autoclave）也是利用相同原理將微生物「煮死」。差別在於：高壓釜需要精確記錄每一秒的溫度與壓力，並能自動偵測異常並中止週期。</p>
-            <p><strong>多孔循環的空氣移除：</strong>試想用蒸汽加熱一條捲緊的毛巾——如果中間有氣泡（空氣），蒸汽就無法穿透。這就是為什麼多孔負載需要預抽真空（prevacuum）來移除空氣，讓蒸汽能均勻穿透到每一個角落。</p>
-            <p><strong>SIP = 家裡的熱水管道消毒：</strong>SIP 就像在不拆除管路的情況下，讓高溫蒸汽從管路一端流到另一端，確保整條管路都被加熱滅菌。最關鍵的是：如何確認管路「最難加熱的那個彎角」（slowest to heat location）也確實達到了滅菌溫度？</p>
+            <h4> Analogy</h4>
+            <p><strong> = ：</strong> 120°C ，（autoclave）「」。：，。</p>
+            <p><strong>：</strong>——（），。（prevacuum），。</p>
+            <p><strong>SIP = ：</strong>SIP ，，。：「」（slowest to heat location）？</p>
         </div>
 
         <div class="formula-box">
-            <h4>公式與計算 Formula</h4>
+            <h4> Formula</h4>
             <pre>
-F0 值計算 (F0 Value Calculation)：
+F0  (F0 Value Calculation)：
 
 F0 = ∫ 10^((T-121)/10) dt
 
-其中：
-  T = 實際溫度（°C）
-  121 = 基準溫度（°C）
-  Z = 10°C（蒸汽滅菌的標準 Z 值）
+：
+  T = （°C）
+  121 = （°C）
+  Z = 10°C（ Z ）
 
-實例：
-  若全程維持 121°C 共 8 分鐘
+：
+   121°C  8 
   → F0 = 10^((121-121)/10) × 8 = 1 × 8 = 8 min
 
-  若溫度升至 125°C 維持 3 分鐘
+   125°C  3 
   → F0 = 10^((125-121)/10) × 3
        = 10^0.4 × 3 ≈ 2.51 × 3 ≈ 7.5 min
 
-常見設計目標：F0 ≥ 8 min（依生物負荷而定）
-SAL 目標：10⁻⁶（即百萬分之一的染菌機率）
+：F0 ≥ 8 min（）
+SAL ：10⁻⁶（）
             </pre>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p><strong>洩漏測試頻率（8.60）：</strong>當高壓釜週期包含真空相時，需每週執行洩漏測試。這項要求常被忽視，尤其是在預防性維護計畫中。漏氣的高壓釜無法有效移除空氣，導致滅菌失敗。</p>
-            <p><strong>空氣移除測試（8.61）：</strong>每日進行一次空氣移除測試（Bowie-Dick test 或等效測試）是業界標準做法。對於凍乾機腔體的 SIP，需特別確認整個腔體（包括冷凝器區域）的空氣移除情況。</p>
-            <p><strong>BFS/FFS 容器的特殊挑戰（8.62）：</strong>塑膠容器（BFS, FFS）在高壓蒸汽下容易變形。必須透過適當的壓力補償（pressurized water cooling）和升降溫速率控制來防止容器損壞，超熱水高壓釜（superheated water autoclave）是這類產品的首選。</p>
-            <p><strong>SIP 後的壓力維持（8.63）：</strong>SIP 完成後，系統必須立即置於正壓保護或加裝滅菌通氣過濾器。若系統回復到大氣壓而無保護，外部微生物可能逆向進入剛滅菌的管路系統。</p>
+            <h4> Key Notes</h4>
+            <p><strong>（8.60）：</strong>，。，。，。</p>
+            <p><strong>（8.61）：</strong>（Bowie-Dick test ）。 SIP，（）。</p>
+            <p><strong>BFS/FFS （8.62）：</strong>（BFS, FFS）。（pressurized water cooling），（superheated water autoclave）。</p>
+            <p><strong>SIP （8.63）：</strong>SIP ，。，。</p>
         </div>
 
         <div class="concept-box application">
-            <h4>實務應用 Practical Application</h4>
-            <p><strong>CDMO 情境：</strong>客戶要求將某 IV 袋（Blow-Fill-Seal 容器）進行終端滅菌。傳統蒸汽高壓釜可能導致塑膠袋在高溫蒸汽中變形。您需要考慮：</p>
+            <h4> Practical Application</h4>
+            <p><strong>CDMO ：</strong> IV （Blow-Fill-Seal ）。。：</p>
             <ul>
-                <li>選用超熱水高壓釜（superheated water autoclave），以水作為熱傳遞介質，提供更均勻的溫度分佈</li>
-                <li>設計適當的壓力補償程序（overpressure）防止容器膨脹變形</li>
-                <li>驗證整個負載的溫度映射，找出最冷點（worst case location）</li>
-                <li>確認噴嘴不堵塞、排水暢通，並納入定期維護計畫</li>
+                <li>（superheated water autoclave），，</li>
+                <li>（overpressure）</li>
+                <li>，（worst case location）</li>
+                <li>、，</li>
             </ul>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>多孔循環的「平衡時間（equilibration time）」是指什麼？為什麼它必須被計算並納入驗證？</li>
-                <li>一個 SIP 系統完成滅菌後，操作員需要打開某個採樣口取樣。在重新使用前應採取什麼措施確保系統仍保持無菌？</li>
-                <li>超熱水高壓釜相較於傳統蒸汽高壓釜的優缺點各是什麼？什麼情況下應優先選擇超熱水系統？</li>
+                <li>「（equilibration time）」？？</li>
+                <li> SIP ，。？</li>
+                <li>？？</li>
             </ol>
         </div>
     </div>
 </div>
 
 <!-- ===================== SUBSECTION: Dry Heat Sterilisation (8.66-8.70) ===================== -->
-<div class="section-title" id="sec-dry-heat">8.66–8.70 — Dry Heat Sterilisation &amp; Depyrogenation（乾熱滅菌與去熱原）</div>
+<div class="section-title" id="sec-dry-heat">8.66–8.70 — Dry Heat Sterilisation &amp; Depyrogenation（）</div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p><strong>8.66</strong> <span class="key-term">Dry heat sterilisation</span> utilizes high temperatures of air or gas to sterilise a product or article. Dry heat sterilisation is of particular use in the thermal removal of difficult-to-eliminate thermally robust contaminants such as <span class="key-term">endotoxin/pyrogen</span> and is often used in the preparation of components for aseptic filling. The combination of time and temperature to which product, components or equipment are exposed should produce an adequate and reproducible level of lethality and/or <span class="key-term">endotoxin/pyrogen inactivation/removal</span> when operated routinely within the established limits. The process may be operated in an oven or in a continuous tunnel process, e.g. for sterilisation and <span class="key-term">depyrogenation</span> of glass containers.</p>
 
@@ -1173,80 +1173,80 @@ SAL 目標：10⁻⁶（即百萬分之一的染菌機率）
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>乾熱滅菌 vs 濕熱滅菌的關鍵差異：</strong>乾熱依賴空氣傳導熱能，傳熱效率遠低於蒸汽（潛熱）。因此乾熱需要更高的溫度（通常 160–250°C）和更長的時間。優點是能有效降解熱原（pyrogen/endotoxin），這是蒸汽滅菌無法達到的。</p>
-            <p><strong>去熱原 (Depyrogenation)：</strong>熱原（pyrogen）主要指革蘭氏陰性菌的脂多醣（LPS, lipopolysaccharide），即內毒素（endotoxin）。即使微生物已被殺滅，其細胞壁殘留的內毒素仍會引發患者發燒反應。乾熱是玻璃容器去熱原的標準方法。</p>
-            <p><strong>Fh 值 (Heat Lethality for Depyrogenation)：</strong>類似 F0 值，Fh 以 250°C 為基準溫度（Z=46.4°C）計算乾熱製程的累積效力。驗收標準：Fh 需達到足以實現 3-log10 內毒素降低（即從 1000 EU/容器降至 &lt;1 EU/容器）。</p>
+            <h4> Key Concepts</h4>
+            <p><strong> vs ：</strong>，（）。（ 160–250°C）。（pyrogen/endotoxin），。</p>
+            <p><strong> (Depyrogenation)：</strong>（pyrogen）（LPS, lipopolysaccharide），（endotoxin）。，。。</p>
+            <p><strong>Fh  (Heat Lethality for Depyrogenation)：</strong> F0 ，Fh  250°C （Z=46.4°C）。：Fh  3-log10 （ 1000 EU/ &lt;1 EU/）。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p><strong>乾熱去熱原 = 用烤箱烤掉毒素：</strong>想像玻璃安瓿瓶上有細菌屍體（內毒素）需要被「燒掉」。蒸汽殺得死細菌，但對耐熱的內毒素無效——就像用熱水沖洗燒焦的烤盤，污垢仍在。只有用高溫烤箱（250°C 以上）長時間烘烤，才能徹底分解這些耐熱物質。</p>
-            <p><strong>去熱原隧道 = 傳送帶式烤箱：</strong>工業規模的去熱原不用批次烤箱，而是用連續式隧道爐——玻璃瓶在輸送帶上移動，經過高溫區時獲得足夠的熱暴露。帶速（belt speed）就是關鍵製程參數，太快 → 熱暴露不足；太慢 → 效率低、可能損壞容器。</p>
+            <h4> Analogy</h4>
+            <p><strong> = ：</strong>（）「」。，——，。（250°C ），。</p>
+            <p><strong> = ：</strong>，——，。（belt speed）， → ； → 、。</p>
         </div>
 
         <div class="formula-box">
-            <h4>公式與計算 Formula</h4>
+            <h4> Formula</h4>
             <pre>
-去熱原驗收標準 (Depyrogenation Acceptance Criteria)：
+ (Depyrogenation Acceptance Criteria)：
 
-必須達到：最少 3-log10 內毒素降低
+： 3-log10 
 
-實例：
-  驗證挑戰菌液：1000 EU/容器（加標量）
-  驗收標準後：≤ 1 EU/容器
+：
+  ：1000 EU/（）
+  ：≤ 1 EU/
 
-Fh 值計算（基準溫度 250°C, Z = 46.4°C）：
+Fh （ 250°C, Z = 46.4°C）：
   Fh = ∫ 10^((T-250)/46.4) dt
 
-  在 250°C 維持 30 min → Fh = 30 min
-  在 260°C 維持 30 min
+   250°C  30 min → Fh = 30 min
+   260°C  30 min
   → Fh = 10^((260-250)/46.4) × 30 ≈ 1.65 × 30 ≈ 50 min
 
-典型乾熱去熱原條件：
-  - 烤箱：250°C × 30 min（或等效 Fh）
-  - 隧道：320–350°C × 數分鐘（高溫短時）
+：
+  - ：250°C × 30 min（ Fh）
+  - ：320–350°C × （）
             </pre>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p><strong>3-log10 的意義（8.68）：</strong>這是 PIC/S / EU GMP 的法規要求，必須在驗證中以「加標內毒素（spiked endotoxin）」容器實際演示。不是計算值——是實驗數據。若 Fh 足夠，不需要額外的滅菌確認。</p>
-            <p><strong>加標容器的管理（8.69）：</strong>用於驗證的加標容器（endotoxin-spiked）必須嚴格管控，進行完整的調和（reconciliation）——每一個加標容器都要追蹤到最終結果。加標量的內毒素定量和回收率也必須被驗證，確保測試方法的可靠性。</p>
-            <p><strong>乾熱烤箱的正壓要求（8.70）：</strong>乾熱烤箱在滅菌及滅菌後保持期間需維持相對於較低等級潔淨區的正壓，防止環境污染進入。這常被操作人員忽略，特別是在開門取物時。</p>
-            <p><strong>HEPA 過濾（8.67, 8.70）：</strong>所有進入隧道或烤箱的空氣必須通過至少一道 HEPA 過濾器，且每半年至少進行一次完整性測試（integrity test / PAO/DOP test）。</p>
+            <h4> Key Notes</h4>
+            <p><strong>3-log10 （8.68）：</strong> PIC/S / EU GMP ，「（spiked endotoxin）」。——。 Fh ，。</p>
+            <p><strong>（8.69）：</strong>（endotoxin-spiked），（reconciliation）——。，。</p>
+            <p><strong>（8.70）：</strong>，。，。</p>
+            <p><strong>HEPA （8.67, 8.70）：</strong> HEPA ，（integrity test / PAO/DOP test）。</p>
         </div>
 
         <div class="concept-box application">
-            <h4>實務應用 Practical Application</h4>
-            <p><strong>CDMO 情境：</strong>新客戶委託注射用水溶液（WFI-based）充填，使用玻璃安瓿瓶。您的 QA 需要確認：</p>
+            <h4> Practical Application</h4>
+            <p><strong>CDMO ：</strong>（WFI-based），。 QA ：</p>
             <ul>
-                <li>玻璃安瓿是否已通過去熱原（≥3-log10 endotoxin reduction），或由供應商提供合格 CoA 且符合 USP/EP 標準</li>
-                <li>若在廠內進行去熱原：驗證報告需包含 Fh 計算、加標容器試驗（含回收率）及完整製程參數記錄</li>
-                <li>去熱原隧道的帶速驗證是年度持續監測的關鍵參數，任何改變都需要重新確認</li>
+                <li>（≥3-log10 endotoxin reduction）， CoA  USP/EP </li>
+                <li>： Fh 、（）</li>
+                <li>，</li>
             </ul>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>為什麼蒸汽滅菌無法替代乾熱去熱原？兩者的殺滅機制有何本質差異？</li>
-                <li>去熱原隧道的帶速（belt speed）如何影響 Fh 值？如果帶速意外加快 10%，您會如何評估風險？</li>
-                <li>驗證用的加標容器為何需要「回收率（recovery efficiency）」測試？回收率過低會帶來什麼風險？</li>
+                <li>？？</li>
+                <li>（belt speed） Fh ？ 10%，？</li>
+                <li>「（recovery efficiency）」？？</li>
             </ol>
         </div>
     </div>
 </div>
 
 <!-- ===================== SUBSECTION: Radiation Sterilisation (8.71-8.72) ===================== -->
-<div class="section-title" id="sec-radiation">8.71–8.72 — Sterilisation by Radiation（輻射滅菌）</div>
+<div class="section-title" id="sec-radiation">8.71–8.72 — Sterilisation by Radiation（）</div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p><strong>8.71</strong> Sterilisation by radiation is used mainly for the sterilisation of <span class="key-term">heat sensitive materials</span> and products. <span class="key-term">Ultraviolet irradiation</span> is not an acceptable method of sterilisation. Guidance regarding <span class="key-term">ionising radiation sterilisation</span> can be found within Annex 12.</p>
 
@@ -1254,49 +1254,49 @@ Fh 值計算（基準溫度 250°C, Z = 46.4°C）：
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>輻射滅菌 (Radiation Sterilisation)：</strong>利用游離輻射（ionising radiation）破壞微生物的 DNA。主要形式：
+            <h4> Key Concepts</h4>
+            <p><strong> (Radiation Sterilisation)：</strong>（ionising radiation） DNA。：
                 <ul>
-                    <li><strong>Gamma 射線（γ rays）</strong>：由鈷-60（Co-60）或銫-137 放射，穿透力強，適合大型包裝批量滅菌</li>
-                    <li><strong>電子束（E-beam）</strong>：電子加速產生，穿透力較弱但劑量率高，適合薄型或單層物品</li>
-                    <li><strong>X 射線</strong>：介於兩者之間，穿透力強，近年商業應用增加</li>
+                    <li><strong>Gamma （γ rays）</strong>：-60（Co-60）-137 ，，</li>
+                    <li><strong>（E-beam）</strong>：，，</li>
+                    <li><strong>X </strong>：，，</li>
                 </ul>
             </p>
-            <p><strong>UV 輻射不被接受：</strong>UV 是非游離輻射，穿透力極弱，僅能殺滅表面的微生物，無法保證包裝內部的無菌性，因此明確被 PIC/S Annex 1 排除在滅菌方法之外。</p>
-            <p><strong>劑量測定 (Dosimetry)：</strong>輻射滅菌必須以劑量計（dosimeters）測量實際吸收劑量（kGy），確保最小劑量點（minimum dose zone）達到設計劑量，且最大劑量不超過產品耐受上限。</p>
+            <p><strong>UV ：</strong>UV ，，，， PIC/S Annex 1 。</p>
+            <p><strong> (Dosimetry)：</strong>（dosimeters）（kGy），（minimum dose zone），。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>輻射滅菌就像用 X 光「照射」包裝好的產品，不需要開包裝、不需要高溫，就能殺滅裡面的微生物。密度（density）不均勻的產品就像不同厚度的牆壁對 X 光的阻擋程度不同——密度較高的區域輻射穿透較少，可能形成劑量不足的「影子區」，這正是驗證必須考量密度變異的原因。</p>
+            <h4> Analogy</h4>
+            <p> X 「」，、，。（density） X ——，「」，。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p><strong>密度影響劑量分布（8.72）：</strong>產品密度和包裝密度的變異會直接影響輻射劑量的均勻分布。驗證時必須測試最大和最小密度情況（worst case），確保在所有可能的密度範圍內，最小吸收劑量仍足以達到 SAL 10⁻⁶。</p>
-            <p><strong>輻射滅菌通常委外（contract sterilisation）：</strong>大多數製藥廠不自建輻射滅菌設施，而是委託專業供應商（如 Sterigenics, BGS, Ionisos）。CDMO 需特別注意：供應商資格確認（supplier qualification）、運輸條件管控、及劑量確認記錄的完整性均是稽核重點。</p>
-            <p><strong>詳細指引見 Annex 12：</strong>PIC/S Annex 1 對輻射滅菌僅作簡要規範，詳細要求（包括劑量設定、生物指示劑、劑量計校正）見 Annex 12（Manufacture of Radiopharmaceuticals 及輻射滅菌）。</p>
+            <h4> Key Notes</h4>
+            <p><strong>（8.72）：</strong>。（worst case），， SAL 10⁻⁶。</p>
+            <p><strong>（contract sterilisation）：</strong>，（ Sterigenics, BGS, Ionisos）。CDMO ：（supplier qualification）、、。</p>
+            <p><strong> Annex 12：</strong>PIC/S Annex 1 ，（、、） Annex 12（Manufacture of Radiopharmaceuticals ）。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>為什麼 UV 照射不被接受作為滅菌方法，但可接受用於環境表面消毒（如潔淨室的 UV 燈）？兩種應用的本質差異是什麼？</li>
-                <li>如果同一批次的產品密度因填充量不均而有 ±15% 的變異，輻射滅菌驗證應如何設計？</li>
+                <li> UV ，（ UV ）？？</li>
+                <li> ±15% ，？</li>
             </ol>
         </div>
     </div>
 </div>
 
 <!-- ===================== SUBSECTION: Ethylene Oxide (EO) Sterilisation (8.73-8.79) ===================== -->
-<div class="section-title" id="sec-eo">8.73–8.79 — Sterilisation with Ethylene Oxide（環氧乙烷滅菌）</div>
+<div class="section-title" id="sec-eo">8.73–8.79 — Sterilisation with Ethylene Oxide（）</div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p><strong>8.73</strong> This method should only be used when <span class="key-term">no other method is practicable</span>. During process validation, it should be shown that there is no damaging effect on the product and that the conditions and time allowed for <span class="key-term">degassing</span> result in the reduction of any residual <span class="key-term">ethylene oxide (EO)</span> gas and reaction products to defined acceptable limits for the given product or material.</p>
 
@@ -1322,84 +1322,84 @@ Fh 值計算（基準溫度 250°C, Z = 46.4°C）：
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>環氧乙烷 (Ethylene Oxide, EO) 滅菌：</strong>EO 是一種烷基化劑（alkylating agent），能與微生物 DNA 反應使其無法複製。EO 是氣體，能穿透包材到達所有表面，特別適合無法承受熱或輻射的複雜醫療器材（如含電子元件的導管、預充針注射器）。</p>
-            <p><strong>最後手段原則（8.73）：</strong>PIC/S 明確規定 EO 只應在「沒有其他方法可行」時才使用。原因：EO 具毒性、致癌性、爆炸性，殘留量管控複雜，且需要冗長的曝氣（aeration）程序，對環境和操作人員均有健康風險。</p>
-            <p><strong>EO 的四大關鍵製程參數（8.77）：</strong>
+            <h4> Key Concepts</h4>
+            <p><strong> (Ethylene Oxide, EO) ：</strong>EO （alkylating agent）， DNA 。EO ，，（、）。</p>
+            <p><strong>（8.73）：</strong>PIC/S  EO 「」。：EO 、、，，（aeration），。</p>
+            <p><strong>EO （8.77）：</strong>
                 <ul>
-                    <li><strong>EO 濃度</strong>（mg/L）：濃度不足則滅菌不全</li>
-                    <li><strong>相對濕度（RH）</strong>：EO 需要水分才能有效烷基化 DNA，通常需要 40–80% RH</li>
-                    <li><strong>溫度</strong>：影響 EO 穿透速率和微生物活性，通常 37–63°C</li>
-                    <li><strong>暴露時間</strong>：依濃度和溫度決定</li>
+                    <li><strong>EO </strong>（mg/L）：</li>
+                    <li><strong>（RH）</strong>：EO  DNA， 40–80% RH</li>
+                    <li><strong></strong>： EO ， 37–63°C</li>
+                    <li><strong></strong>：</li>
                 </ul>
             </p>
-            <p><strong>曝氣 (Aeration)（8.78）：</strong>EO 及其反應產物（ethylene chlorohydrin, ethylene glycol）均有毒，必須通過充分曝氣使殘留量降至安全限值（ISO 10993-7 定義）以下。曝氣本身也是製程的一部分，需經過驗證。</p>
-            <p><strong>過濾除菌（8.79）：</strong>當產品無法進行任何形式的最終滅菌時，採用 0.22 µm 滅菌級過濾器（sterilising grade filter）進行過濾除菌，再進行無菌充填——這是無菌製造（aseptic processing）的核心步驟，詳見 Section 8 後續段落。</p>
+            <p><strong> (Aeration)（8.78）：</strong>EO （ethylene chlorohydrin, ethylene glycol），（ISO 10993-7 ）。，。</p>
+            <p><strong>（8.79）：</strong>， 0.22 µm （sterilising grade filter），——（aseptic processing）， Section 8 。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p><strong>EO 滅菌 = 用化學燻蒸方式滅菌的帳篷：</strong>想像一個大型帳篷（滅菌腔體），裡面放滿了需要滅菌的醫療器材包裝。把有毒氣體（EO）充入帳篷，讓氣體滲透每一個包裝縫隙，殺滅裡面的微生物。完成後，必須讓帳篷徹底通風（曝氣），等有毒氣體完全散去才能安全取出產品。</p>
-            <p>EO 的難處就在於：你不只要確認「氣體進得去」，還要確認「殘留的毒性物質排得出來」。這兩個步驟都需要獨立的驗證。</p>
+            <h4> Analogy</h4>
+            <p><strong>EO  = ：</strong>（），。（EO），，。，（），。</p>
+            <p>EO ：「」，「」。。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p><strong>直接接觸的重要性（8.74）：</strong>EO 必須與微生物細胞直接接觸才能有效殺滅。結晶型物質或乾燥蛋白質中的微生物（被包埋在內）無法接觸到 EO，是 EO 滅菌的已知失效模式。這也是為什麼產品在 EO 前的微生物負荷（bioburden）和形態必須受控。</p>
-            <p><strong>預調濕（Pre-conditioning）（8.75）：</strong>EO 前的濕度平衡非常關鍵，因為 EO 的殺菌效力高度依賴水分。預調濕時間太短（微生物內部水分不足）→ EO 烷基化效率下降；但太長也可能增加微生物生長風險。需在驗證中找到最佳平衡點。</p>
-            <p><strong>生物指示劑（BI）的使用（8.76）：</strong>EO 滅菌每個週期都必須使用生物指示劑（通常是 Bacillus atrophaeus，即 B. subtilis var. niger）。BI 必須放置在「最難被 EO 到達的位置」（worst case locations），這些位置需在驗證中被確認。</p>
-            <p><strong>EO 殘留限量（Post-aeration）：</strong>根據 ISO 10993-7，EO 殘留限量依產品接觸類型而定：
+            <h4> Key Notes</h4>
+            <p><strong>（8.74）：</strong>EO 。（） EO， EO 。 EO （bioburden）。</p>
+            <p><strong>（Pre-conditioning）（8.75）：</strong>EO ， EO 。（）→ EO ；。。</p>
+            <p><strong>（BI）（8.76）：</strong>EO （ Bacillus atrophaeus， B. subtilis var. niger）。BI 「 EO 」（worst case locations），。</p>
+            <p><strong>EO （Post-aeration）：</strong> ISO 10993-7，EO ：
                 <ul>
-                    <li>心血管和眼部接觸器材：最嚴格（EO &lt; 25 mg/device）</li>
-                    <li>持續接觸（>30天）：更嚴格</li>
-                    <li>限制接觸（&lt;24h）：相對寬鬆</li>
+                    <li>：（EO &lt; 25 mg/device）</li>
+                    <li>（>30）：</li>
+                    <li>（&lt;24h）：</li>
                 </ul>
-                無論如何，曝氣驗證必須能穩定達到目標限量。
+                ，。
             </p>
         </div>
 
         <div class="formula-box">
-            <h4>EO 關鍵製程參數總覽 CPP Summary</h4>
+            <h4>EO  CPP Summary</h4>
             <pre>
-EO 滅菌關鍵製程參數 (Critical Process Parameters)：
+EO  (Critical Process Parameters)：
 
-參數               典型範圍         控制重要性
+                        
 ─────────────────────────────────────────────
-EO 濃度           450–1200 mg/L    殺菌效力的主要驅動力
-相對濕度 (RH)     40–80%           EO 烷基化需要水分媒介
-溫度              37–63°C          影響穿透力與反應速率
-暴露時間          1–16 小時        依濃度和溫度設計
-壓力              正壓或負壓       影響氣體分佈均勻性
+EO            450–1200 mg/L    
+ (RH)     40–80%           EO 
+              37–63°C          
+          1–16         
+                     
 
-曝氣後殘留限量 (ISO 10993-7)：
-  EO 殘留 ≤ 25 mg/器材（心血管/眼部器材）
-  ECH 殘留 ≤ 25 mg/器材
-  EG 殘留 ≤ 250 mg/器材
+ (ISO 10993-7)：
+  EO  ≤ 25 mg/（/）
+  ECH  ≤ 25 mg/
+  EG  ≤ 250 mg/
             </pre>
         </div>
 
         <div class="concept-box application">
-            <h4>實務應用 Practical Application</h4>
-            <p><strong>CDMO 情境：</strong>客戶要求對含有感測器的預充針注射器進行滅菌（感測器無法承受熱或輻射）。作為 CDMO QA，您的評估流程：</p>
+            <h4> Practical Application</h4>
+            <p><strong>CDMO ：</strong>（）。 CDMO QA，：</p>
             <ul>
-                <li><strong>Step 1</strong>：確認無熱滅菌（蒸汽 + 乾熱）和輻射滅菌可行性 → 確認確實不可行，記錄理由</li>
-                <li><strong>Step 2</strong>：評估 EO 對注射器各組件（包括感測器、橡膠活塞、塑膠針頭罩）的材料相容性</li>
-                <li><strong>Step 3</strong>：設計驗證計畫，包含：BI 放置位置（worst case）、四大 CPP 的設計空間、曝氣驗證、殘留量測試</li>
-                <li><strong>Step 4</strong>：確認供應商（通常委外 EO 滅菌）的資格確認文件、冷鏈要求和運輸驗證</li>
-                <li><strong>Step 5</strong>：建立日常批次記錄（包含所有 CPP 數據）和定期週期再驗證計畫</li>
+                <li><strong>Step 1</strong>：（ + ） → ，</li>
+                <li><strong>Step 2</strong>： EO （、、）</li>
+                <li><strong>Step 3</strong>：，：BI （worst case）、 CPP 、、</li>
+                <li><strong>Step 4</strong>：（ EO ）、</li>
+                <li><strong>Step 5</strong>：（ CPP ）</li>
             </ul>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>為什麼 EO 滅菌前需要「預調濕（pre-conditioning）」？相對濕度過低或過高各會帶來什麼問題？</li>
-                <li>一個 EO 滅菌週期完成後，曝氣測試顯示殘留量高於規格。可能的原因有哪些？您會如何系統性地排查？</li>
-                <li>如果結晶型粉末藥品中存在微生物，為什麼 EO 滅菌可能無效？這種情況下應如何處理？</li>
-                <li>8.79 提到的過濾除菌（0.22 µm filter sterilisation）與最終滅菌（terminal sterilisation）的根本差異是什麼？對無菌保證水準有何影響？</li>
+                <li> EO 「（pre-conditioning）」？？</li>
+                <li> EO ，。？？</li>
+                <li>， EO ？？</li>
+                <li>8.79 （0.22 µm filter sterilisation）（terminal sterilisation）？？</li>
             </ol>
         </div>
     </div>
@@ -1407,37 +1407,37 @@ EO 濃度           450–1200 mg/L    殺菌效力的主要驅動力
 
 <!-- ===================== SECTION SUMMARY ===================== -->
 <div class="learning-objectives" style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);">
-    <h3>本節重點回顧 Section Summary — Paragraphs 8.50–8.79</h3>
+    <h3> Section Summary — Paragraphs 8.50–8.79</h3>
     <ul>
-        <li><strong>熱滅菌通用原則（8.50–8.54）：</strong>每個週期需電子或紙本記錄；雙探針系統確保異常偵測；計時必須在全部負載達溫後才開始；冷卻液或冷卻氣體須經滅菌；參數放行需遵循 Annex 17。</li>
-        <li><strong>濕熱滅菌（8.55–8.65）：</strong>蒸汽直接或間接接觸；多孔循環需驗證平衡時間和空氣移除（含每日 Bowie-Dick 測試）；流體循環需驗證 F0；每週進行高壓釜洩漏測試；SIP 後維持正壓或加裝滅菌過濾器；超熱水高壓釜適用 BFS/FFS 等脆性容器。</li>
-        <li><strong>乾熱滅菌與去熱原（8.66–8.70）：</strong>用於玻璃容器去熱原；驗收標準為 3-log10 內毒素降低（使用加標容器演示）；關鍵參數包含帶速、溫度、熱穿透、熱分佈；HEPA 過濾器每半年完整性測試；烤箱維持正壓。</li>
-        <li><strong>輻射滅菌（8.71–8.72）：</strong>適用於熱敏材料；UV 不接受用於滅菌；需考慮產品和包裝密度變異對劑量分佈的影響；詳見 Annex 12。</li>
-        <li><strong>EO 滅菌（8.73–8.78）：</strong>最後手段，僅在無其他方法時使用；四大 CPP：EO 濃度、相對濕度、溫度、暴露時間；每週期使用 BI 驗證（worst case 位置）；EO 後必須充分曝氣至殘留量符合 ISO 10993-7。</li>
-        <li><strong>過濾除菌（8.79）：</strong>最終容器無法滅菌時使用 0.22 µm 滅菌級過濾器過濾，並無菌充填 — 此方式與最終滅菌相比無菌保證水準較低，屬於無菌製造路徑。</li>
+        <li><strong>（8.50–8.54）：</strong>；；；； Annex 17。</li>
+        <li><strong>（8.55–8.65）：</strong>；（ Bowie-Dick ）； F0；；SIP ； BFS/FFS 。</li>
+        <li><strong>（8.66–8.70）：</strong>； 3-log10 （）；、、、；HEPA ；。</li>
+        <li><strong>（8.71–8.72）：</strong>；UV ；； Annex 12。</li>
+        <li><strong>EO （8.73–8.78）：</strong>，； CPP：EO 、、、； BI （worst case ）；EO  ISO 10993-7。</li>
+        <li><strong>（8.79）：</strong> 0.22 µm ， — ，。</li>
     </ul>
 </div>
 
 <!-- ===================== DECISION HIERARCHY REMINDER ===================== -->
 <div class="learning-objectives" style="background: linear-gradient(135deg, #fce7f3 0%, #fbcfe8 100%); margin-top: 1rem;">
-    <h3>決策層級提醒 Decision Hierarchy</h3>
+    <h3> Decision Hierarchy</h3>
     <div class="hierarchy-diagram">
         <div class="hierarchy-level">
-            <span class="hierarchy-box level-1">1. 無菌保證 Sterility Assurance — 永遠第一優先</span>
+            <span class="hierarchy-box level-1">1.  Sterility Assurance — </span>
         </div>
         <div class="arrow-down">▼</div>
         <div class="hierarchy-level">
-            <span class="hierarchy-box level-2">2. 產品關鍵品質屬性 CQA — 患者安全</span>
+            <span class="hierarchy-box level-2">2.  CQA — </span>
         </div>
         <div class="arrow-down">▼</div>
         <div class="hierarchy-level">
-            <span class="hierarchy-box level-3">3. 商業彈性 Business &amp; Flexibility — 操作需求</span>
+            <span class="hierarchy-box level-3">3.  Business &amp; Flexibility — </span>
         </div>
     </div>
     <ul style="margin-top: 1rem;">
-        <li>滅菌方式的選擇順序（優先終端滅菌）體現了此層級：<strong>熱滅菌 &gt; 輻射滅菌 &gt; EO 滅菌 &gt; 過濾除菌（無菌製造）</strong></li>
-        <li>EO 因毒性與殘留風險排在最後，但對於熱/輻射敏感器材，它仍然是重要的選擇</li>
-        <li>過濾除菌（aseptic filtration）雖然靈活，但無菌保證水準低於終端滅菌，是「不得不如此」的路徑</li>
+        <li>（）：<strong> &gt;  &gt; EO  &gt; （）</strong></li>
+        <li>EO ，/，</li>
+        <li>（aseptic filtration），，「」</li>
     </ul>
 </div>
 

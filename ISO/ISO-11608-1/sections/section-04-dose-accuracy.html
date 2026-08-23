@@ -61,28 +61,28 @@ tr:nth-child(even) { background: #f7fafc; }
 
 <div class="header">
     <h1>Section 4: Reagents &amp; Dose Accuracy Testing</h1>
-    <div class="subtitle">試劑規格與劑量準確性測定 — 統計容許區間方法</div>
+    <div class="subtitle"> — </div>
     <div class="page-info">ISO 11608-1:2014 | Sections 6–7 | p.7–p.13</div>
 </div>
 
 <div class="main-content">
 
 <div class="learning-objectives">
-    <h3>本章學習目標</h3>
+    <h3></h3>
     <ul>
-        <li>掌握劑量準確性測試的三種評估方法：標準雙側容許區間、最小可遞送劑量（Minimum Deliverable Dose）、劑量遞送效率（Dose Delivery Efficiency）</li>
-        <li>理解三區段測試（前/中/後 1/3 容量）對多劑量 NIS 驗證的意義</li>
-        <li>能夠根據 System Designation 選擇正確的劑量準確性評估路徑（Table 2）</li>
-        <li>了解測試設備（天平、試驗液）選擇如何影響測試結果的有效性</li>
+        <li>：、（Minimum Deliverable Dose）、（Dose Delivery Efficiency）</li>
+        <li>（// 1/3 ） NIS </li>
+        <li> System Designation （Table 2）</li>
+        <li>（、）</li>
     </ul>
 </div>
 
 <!-- ====== SECTION 6: REAGENTS & APPARATUS ====== -->
-<div class="section-title">Section 6: Reagents &amp; Apparatus — 測試設備與試驗液規格</div>
+<div class="section-title">Section 6: Reagents &amp; Apparatus — </div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
         <h3>6.1 General — Gauge R&amp;R Requirement</h3>
         <p>Any suitable test system can be used, when the required accuracy (calibration) and precision (Gauge R&amp;R) can be obtained.</p>
         <ul>
@@ -105,42 +105,42 @@ tr:nth-child(even) { background: #f7fafc; }
         <p>Test surface: <strong>smooth, hard, rigid steel of 3 mm thickness</strong>, backed by wood &gt;10 mm thick.</p>
     </div>
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
         <div class="concept-box">
-            <h4>為什麼用重力法（Gravimetric）測量劑量？</h4>
-            <p>ISO 11608-1 明確要求用天平秤重（G<sub>meas</sub>），再換算成體積（V<sub>meas</sub> = G/ρ），而非直接用體積法（量筒、移液管）。原因：</p>
+            <h4>（Gravimetric）？</h4>
+            <p>ISO 11608-1 （G<sub>meas</sub>），（V<sub>meas</sub> = G/ρ），（、）。：</p>
             <ul>
-                <li><strong>精度更高</strong>：高精度天平的解析度可達 0.0001 g，遠優於體積量測工具</li>
-                <li><strong>可重複性更好</strong>：排除液體表面張力、溫度膨脹等干擾</li>
-                <li><strong>符合計量學規範</strong>：重力法可溯源至國際標準，體積法較難溯源</li>
+                <li><strong></strong>： 0.0001 g，</li>
+                <li><strong></strong>：、</li>
+                <li><strong></strong>：，</li>
             </ul>
-            <p>換算關鍵：密度 ρ 必須在測試環境溫度下測定，溫度差 1°C 對水的密度影響約 0.0002 g/mL，對 1 mL 劑量會帶來 0.02% 的系統誤差。</p>
+            <p>： ρ ， 1°C  0.0002 g/mL， 1 mL  0.02% 。</p>
         </div>
         <div class="note-box">
-            <h4>試驗液的選擇：實際產品 vs. 代用液</h4>
-            <p>標準說「原始藥品，或具有相似物理性質的液體」。在 CDMO 設計驗證中：</p>
+            <h4>： vs. </h4>
+            <p>「，」。 CDMO ：</p>
             <ul>
-                <li><strong>優先用原始藥品</strong>：最能代表實際使用情況（考慮黏度、表面張力）</li>
-                <li><strong>高黏度藥品</strong>（如單抗生物製劑 ~50 cP）必須用原始產品或匹配黏度的代用液；不能用水替代</li>
-                <li>若使用代用液，需在 Risk Management File 中論證「物理性質相似」的依據（黏度、密度、表面張力）</li>
-                <li>CDMO 的充填製程驗證應使用 <strong>製程代用液（Process Simulation Liquid）</strong>，而非純水，以確保劑量準確性數據反映實際產品特性</li>
+                <li><strong></strong>：（、）</li>
+                <li><strong></strong>（ ~50 cP）；</li>
+                <li>， Risk Management File 「」（、、）</li>
+                <li>CDMO  <strong>（Process Simulation Liquid）</strong>，，</li>
             </ul>
         </div>
         <div class="analogy-box">
-            <h4>天平解析度的直覺計算</h4>
-            <p>「天平解析度 ≤ 最小劑量的 1%」這個要求的邏輯：</p>
-            <p>如果測試最小劑量是 0.1 mL（約 0.1 g），天平最小刻度必須 ≤ 0.001 g。這保證量測誤差的貢獻不超過規格的 1%，讓結果主要反映 NIS 的實際性能，而非測量工具的限制。</p>
-            <p>對 CDMO QC 實驗室：在執行充填量驗證時，使用的天平規格必須覆蓋最小充填量的 1% 解析度——這是常被忽略的設備確認要點。</p>
+            <h4></h4>
+            <p>「 ≤  1%」：</p>
+            <p> 0.1 mL（ 0.1 g）， ≤ 0.001 g。 1%， NIS ，。</p>
+            <p> CDMO QC ：， 1% ——。</p>
         </div>
     </div>
 </div>
 
 <!-- ====== SECTION 7: DOSE ACCURACY ====== -->
-<div class="section-title">Section 7: Dose Accuracy — 三種評估方法與統計框架</div>
+<div class="section-title">Section 7: Dose Accuracy — </div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
         <h3>7.1 General — Three Assessment Pathways</h3>
         <p>Dose accuracy is determined by testing a variable number of NISs. The standard approach uses <span class="key-term">statistical tolerance intervals</span>: a 95% confidence that at least probability content <em>p</em> of all doses will fall within specification limits.</p>
         <p>Three distinct evaluation methods apply depending on system type:</p>
@@ -174,33 +174,33 @@ tr:nth-child(even) { background: #f7fafc; }
         <p>where V<sub>fill</sub> = volume filled by user (or manufacturer) into container.</p>
     </div>
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
         <div class="note-box">
-            <h4>三區段測試：為什麼要測前/中/後？</h4>
-            <p>多劑量 NIS（A 和 C 類）需要在容器使用到前 1/3、中 1/3、後 1/3 時分別測試，原因：</p>
+            <h4>：//？</h4>
+            <p> NIS（A  C ） 1/3、 1/3、 1/3 ，：</p>
             <ul>
-                <li><strong>容器壓力差異</strong>：活塞位置不同，驅動機械力不同，可能導致劑量偏差</li>
-                <li><strong>液體黏度效應</strong>：高黏度藥品在低溫或高溫下黏度變化更大，後段測試尤其重要</li>
-                <li><strong>矽化均勻性</strong>：矽化層在使用過程中可能不均勻分布，影響活塞滑動阻力</li>
+                <li><strong></strong>：，，</li>
+                <li><strong></strong>：，</li>
+                <li><strong></strong>：，</li>
             </ul>
-            <p>這對 CDMO 充填的意義：<strong>充填量的均勻性（Fill Volume Uniformity）</strong>在後段（容器 2/3 以上空間）尤其需要控制，否則「最後一劑」可能劑量不足。</p>
+            <p> CDMO ：<strong>（Fill Volume Uniformity）</strong>（ 2/3 ），「」。</p>
         </div>
         <div class="formula-box">
-            <h4>D1 製造商充填的劑量評估實例</h4>
+            <h4>D1 </h4>
             <pre>
-設定：1 mL autoinjector（D1 系統，製造商充填）
-最小標示劑量（MDD）= 0.97 mL（見藥品標示）
-測試 Y = 20 支，每支測 1 次（N = 1）
+：1 mL autoinjector（D1 ，）
+（MDD）= 0.97 mL（）
+ Y = 20 ， 1 （N = 1）
 
-重力法測量：
-G_meas = 1.003 g（測試液密度 ρ = 1.002 g/mL）
+：
+G_meas = 1.003 g（ ρ = 1.002 g/mL）
 V_meas = 1.003 / 1.002 = 1.001 mL
 
-統計評估（N=20 支結果）：
+（N=20 ）：
 x̄ = 0.992 mL
 s = 0.008 mL
 
-查 Annex B：n=20, p=0.95, 單側
+ Annex B：n=20, p=0.95, 
 → k_tar ≈ 2.208
 
 k_act = (x̄ - L) / s
@@ -211,35 +211,35 @@ k_act (2.75) &gt; k_tar (2.208) → ✅ PASS
             </pre>
         </div>
         <div class="analogy-box">
-            <h4>比喻：劑量遞送效率 vs. 最小遞送劑量</h4>
-            <p><strong>最小遞送劑量</strong>（製造商充填 D1）：就像訂購一杯咖啡，規格是「至少 200 mL」，只要每杯都 ≥ 200 mL 就合格，多一點也無妨。</p>
-            <p><strong>劑量遞送效率</strong>（用戶充填 D1）：就像用戶自己把咖啡豆磨粉後放進機器，要求「至少打出 90% 的磨粉」——這裡評估的是「能否充分利用用戶充填的量」，而不是絕對量。</p>
-            <p>對 CDMO：製造商充填才是 CDMO 的職責範圍，因此最重要的合規指標是「充填量是否確保每瓶都能打出足夠的最小遞送劑量」。</p>
+            <h4>： vs. </h4>
+            <p><strong></strong>（ D1）：，「 200 mL」， ≥ 200 mL ，。</p>
+            <p><strong></strong>（ D1）：，「 90% 」——「」，。</p>
+            <p> CDMO： CDMO ，「」。</p>
         </div>
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>某客戶的 pen injector（Designation A）胰島素設定劑量範圍 2–80 units（0.02–0.8 mL）。根據 Table 2，此 D 設備的劑量準確性評估需要哪幾個子節的步驟？</li>
-                <li>同一客戶的 single-use autoinjector（Designation D1，製造商充填，1 mL 充填量）。若客戶規格是「最小遞送劑量 ≥ 0.95 mL」，CDMO 的充填量上限不足（over-fill）是否也需要控制？從 ISO 11608-1 的角度說明。</li>
-                <li>客戶要求以純水代替原始生物製劑（40 mg/mL monoclonal antibody，黏度約 25 cP）進行 DV 測試。根據 Section 6.2，這樣做的風險是什麼？CDMO 應如何回應？</li>
+                <li> pen injector（Designation A） 2–80 units（0.02–0.8 mL）。 Table 2， D ？</li>
+                <li> single-use autoinjector（Designation D1，，1 mL ）。「 ≥ 0.95 mL」，CDMO （over-fill）？ ISO 11608-1 。</li>
+                <li>（40 mg/mL monoclonal antibody， 25 cP） DV 。 Section 6.2，？CDMO ？</li>
             </ol>
         </div>
     </div>
 </div>
 
 <div class="concept-box">
-            <h4>三種評估路徑的選擇邏輯</h4>
-            <p>System Designation 決定使用哪種評估方法：</p>
-            <p>對 CDMO 的 <strong>D1 製造商充填（最常見）</strong>：評估路徑是「最小可遞送劑量」——只有下限，沒有上限，核心問題是「能確保打出足夠的藥量嗎？」</p>
+            <h4></h4>
+            <p>System Designation ：</p>
+            <p> CDMO  <strong>D1 （）</strong>：「」——，，「？」</p>
         </div>
         <!-- SECTION SUMMARY -->
 <div class="learning-objectives" style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);">
-    <h3>本節重點回顧 Section Summary</h3>
+    <h3> Section Summary</h3>
     <ul>
-        <li><strong>重力法為唯一測量方法</strong>：V<sub>meas</sub> = G<sub>meas</sub>/ρ，密度必須在實際測試溫度下測定；天平解析度 ≤ 最小劑量的 1%</li>
-        <li><strong>試驗液需匹配物理性質</strong>：高黏度生物製劑不可用純水替代；用代用液需在 RMF 中論證物理性質相似性</li>
-        <li><strong>三種劑量評估路徑</strong>：標準雙側 DA（A/B2/C/D2）、最小遞送劑量（製造商充填 B1/D1）、遞送效率（用戶充填 B1/D1）；D1 製造商充填是 CDMO 最常見路徑</li>
-        <li><strong>多劑量三區段要求</strong>：前/中/後 1/3 容量分別測試，確保整個容量使用過程中劑量準確性一致；CDMO 充填均勻性直接影響此驗證</li>
+        <li><strong></strong>：V<sub>meas</sub> = G<sub>meas</sub>/ρ，； ≤  1%</li>
+        <li><strong></strong>：； RMF </li>
+        <li><strong></strong>： DA（A/B2/C/D2）、（ B1/D1）、（ B1/D1）；D1  CDMO </li>
+        <li><strong></strong>：// 1/3 ，；CDMO </li>
     </ul>
 </div>
 

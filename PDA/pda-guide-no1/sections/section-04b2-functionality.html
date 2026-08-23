@@ -420,7 +420,7 @@ body {
     font-size: 0.92rem !important;
 }
 
-/* ===== ANALOGY BOX (Yellow) - 比喻說明 ===== */
+/* ===== ANALOGY BOX (Yellow) -  ===== */
 .analogy-box,
 .concept-box[class*="analogy"],
 .concept-box.analogy,
@@ -434,7 +434,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #856404 !important;
 }
 
-/* ===== TERM/CONCEPT BOX (Green) - 核心概念 ===== */
+/* ===== TERM/CONCEPT BOX (Green) -  ===== */
 .term-box,
 .key-term-box,
 .concept-box:not([class*="analogy"]):not([class*="note"]):not([class*="formula"]):not([class*="practice"]):not([class*="highlight"]):not(.analogy):not(.application) {
@@ -449,7 +449,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #2e7d32 !important;
 }
 
-/* ===== NOTE/HIGHLIGHT BOX (Orange) - 重點提示 ===== */
+/* ===== NOTE/HIGHLIGHT BOX (Orange) -  ===== */
 .note-box,
 .key-note,
 .key-point-box,
@@ -468,7 +468,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #c65102 !important;
 }
 
-/* ===== FORMULA BOX (Purple) - 公式計算 ===== */
+/* ===== FORMULA BOX (Purple) -  ===== */
 .formula-box,
 .concept-box[class*="formula"] {
     background: var(--purple-bg) !important;
@@ -503,7 +503,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #1565c0 !important;
 }
 
-/* ===== PRACTICE BOX (Blue dashed) - 練習思考 ===== */
+/* ===== PRACTICE BOX (Blue dashed) -  ===== */
 .practice-box {
     background: linear-gradient(135deg, #e8f4fd 0%, #d1e9ff 100%) !important;
     border: 2px dashed #3182ce !important;
@@ -915,31 +915,31 @@ tr:nth-child(even) {
 <!-- SECTION HEADER -->
 <div class="header">
     <h1>Section 4B (cont.): Filling System Functionality (4.11+)</h1>
-    <div class="subtitle">充填系統功能性（續）：溫控、大批量、氧氣控制、機器人應用</div>
+    <div class="subtitle">（）：、、、</div>
     <div class="page-info">PDA Manufacturing Technology Guide No. 1 | doc p94 - p100</div>
 </div>
 
 <!-- LEARNING OBJECTIVES -->
 <div class="main-content">
 <div class="learning-objectives">
-    <h3>本章學習目標</h3>
+    <h3></h3>
     <ul>
-        <li>理解雙迴路再循環（double-loop recirculation）中三向閥（three-way valve）的作用機制，以及為何適合高成本產品</li>
-        <li>掌握溫度控管充填（temperature-controlled filling）的核心挑戰：溫度預算（temperature budget）、冷凝水風險與黏度影響</li>
-        <li>分析大批量（large batch）流體路徑設計的關鍵要素：中間暫存槽、液位管控、濾膜備用切換</li>
-        <li>了解氧敏感產品的充填控制策略：氮氣覆蓋順序、真空應用、殘留氧驗證方法</li>
-        <li>評估機器人技術（robotics）在無菌充填中的效益與限制，包括無手套操作線（gloveless lines）的設計原則</li>
+        <li>（double-loop recirculation）（three-way valve），</li>
+        <li>（temperature-controlled filling）：（temperature budget）、</li>
+        <li>（large batch）：、、</li>
+        <li>：、、</li>
+        <li>（robotics），（gloveless lines）</li>
     </ul>
 </div>
 
 <!-- ============================================================ -->
 <!-- SECTION 4.6.1 cont. — Double-Loop Recirculation (Fig 4.6.1-5) -->
 <!-- ============================================================ -->
-<div class="section-title">4.6.1 (cont.) — Double-Loop Recirculation Without Mixers / 無攪拌器雙迴路再循環設計</div>
+<div class="section-title">4.6.1 (cont.) — Double-Loop Recirculation Without Mixers / </div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <h3>Figure 4.6.1-4<a class="gallery-link" href="../../../figures-gallery.html?doc=pda-guide-no1&amp;file=fig-p108-1.png" target="_blank" title="View in Gallery">&#128269;</a> Double-Loop Recirculation Without Mixing</h3>
         <p><strong>Figure 4.6.1-5<a class="gallery-link" href="../../../figures-gallery.html?doc=pda-guide-no1&amp;file=fig-p109-1.png" target="_blank" title="View in Gallery">&#128269;</a></strong> depicts a system where there are no mixers that also utilizes a double-loop design. In this scenario, there are two major differences compared to the example depicted in Figure 4.6.1-4<a class="gallery-link" href="../../../figures-gallery.html?doc=pda-guide-no1&amp;file=fig-p108-1.png" target="_blank" title="View in Gallery">&#128269;</a>:</p>
@@ -952,33 +952,33 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>三向閥雙迴路（Three-Way Valve Double-Loop）：</strong>這個設計有兩個獨立的保護層。<strong>外迴路</strong>（outer loop）在機器停止時讓 product-infeed pump 繼續運轉，產品從 product vessel 送出後，透過三向閥切換，直接回流至 product vessel，避免產品滯留在管路中。<strong>內迴路</strong>（inner loop）在充填針後方加設另一個三向閥，使 dosing pump 持續運轉，產品不流入容器而是回流至中間暫存槽（intermediate vessel）。兩個迴路共同確保在任何停機事件下，產品都能持續被推動，不形成停滯。</p>
+            <h4> Key Concepts</h4>
+            <p><strong>（Three-Way Valve Double-Loop）：</strong>。<strong></strong>（outer loop） product-infeed pump ， product vessel ，， product vessel，。<strong></strong>（inner loop）， dosing pump ，（intermediate vessel）。，，。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>想像一條高速公路的匝道系統：平常車輛（產品）順暢進入主線行駛（充填）；一旦前方堵塞（機器停止），匝道閘門（三向閥）自動切換，讓車輛走備用繞道（recirculation loop），繞一圈後回到原點等候，而非原地停車阻塞整條道路。高成本的生技藥品就是這條路上「不能讓它乾等路邊」的名車。</p>
+            <h4> Analogy</h4>
+            <p>：（）（）；（），（），（recirculation loop），，。「」。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p><strong>適用情境（決策層級）：</strong>此設計增加系統複雜度，不是所有產品都需要。適用標準：</p>
+            <h4> Key Notes</h4>
+            <p><strong>（）：</strong>，。：</p>
             <ul>
-                <li><strong>產品 CQA 層級</strong>：對溫度、光線或剪切力敏感的高分子生物製劑</li>
-                <li><strong>商業層級</strong>：每批產品原料成本極高，廢棄損失不可接受（例如細胞治療、mRNA 藥物）</li>
-                <li>驗證時必須確認兩個迴路的閥門切換時間（valve switching time）不超過允許的停留時間限制</li>
+                <li><strong> CQA </strong>：、</li>
+                <li><strong></strong>：，（、mRNA ）</li>
+                <li>（valve switching time）</li>
             </ul>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>若 inner loop 三向閥在機器停止後 3 秒才切換，而產品的最大允許停留時間（hold time）為 2 秒，應如何處理這個差距？</li>
-                <li>對一款 viscous 蛋白質製劑，outer loop 和 inner loop 的 recirculation 速度應如何設計，才不會對產品造成過度剪切（shear stress）？</li>
+                <li> inner loop  3 ，（hold time） 2 ，？</li>
+                <li> viscous ，outer loop  inner loop  recirculation ，（shear stress）？</li>
             </ol>
         </div>
     </div>
@@ -987,11 +987,11 @@ tr:nth-child(even) {
 <!-- ============================================================ -->
 <!-- SECTION 4.7 — Temperature Control -->
 <!-- ============================================================ -->
-<div class="section-title">4.7 — Functionality for Controlling Temperature / 溫度控制功能</div>
+<div class="section-title">4.7 — Functionality for Controlling Temperature / </div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p>Products that require temperature control during filling commonly have a restrictive <span class="key-term">"temperature budget,"</span> that is, a specific limited duration that the product is permitted to be outside of active temperature control during manufacturing, filling, and packaging. This ensures that the entire time out of temperature through all transport, handling, and patient administration steps (or through end of shelf life) does not adversely affect product quality. For products with a temperature-control requirement, the temperature budget (both time and temperature range) will drive the technical requirements for the filling operation.</p>
 
@@ -1005,32 +1005,32 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>溫度預算（Temperature Budget）：</strong>這是一個累積性的時間帳戶，整個產品生命週期（製造 → 充填 → 貯存 → 運輸 → 患者使用）中，「脫離溫控」的總時間不得超過上限。充填工程師的任務是在充填段只「花費」最少的溫度預算，把剩餘額度留給後段供應鏈不可控的環境。</p>
-            <p><strong>冷凝水（Condensation）的雙重威脅：</strong>(1) 稀釋產品（濃度 CQA 受損）；(2) 攜帶微生物污染（無菌保證受損）。特別是充填針上的冷凝水滴入容器，是最嚴重的風險點。</p>
+            <h4> Key Concepts</h4>
+            <p><strong>（Temperature Budget）：</strong>，（ →  →  →  → ），「」。「」，。</p>
+            <p><strong>（Condensation）：</strong>(1) （ CQA ）；(2) （）。，。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>溫度預算就像手機電量：出門時滿格（製造完成），整個旅程中每個環節都在耗電。充填工廠段消耗愈少，後段供應鏈的「電量」愈充裕，患者收到產品時仍有足夠效能。低濕度環境控制如同開省電模式，但若過度節電（%RH 太低）反而造成靜電問題，影響稱重準確度，這正是工程設計的兩難取捨。</p>
+            <h4> Analogy</h4>
+            <p>：（），。，「」，。，（%RH ），，。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p><strong>決策層級提示：</strong>決定冷卻方案時，需評估三個維度：</p>
+            <h4> Key Notes</h4>
+            <p><strong>：</strong>，：</p>
             <ul>
-                <li><strong>無菌保證優先</strong>：vessel jacket 的冷卻液管路穿越 isolator 隔離艙是複雜挑戰，必須確保密封完整性，不可為了便利犧牲屏障完整</li>
-                <li><strong>產品 CQA</strong>：PP 系統可將 pump 置於冷藏箱內，直接降低流體路徑溫度，對某些生物製劑更有效</li>
-                <li><strong>TP 系統特別注意</strong>：黏度隨溫度變化，直接影響充填精度；溫度控制失當等同 CPP 偏移，需在 design validation 中證明</li>
+                <li><strong></strong>：vessel jacket  isolator ，，</li>
+                <li><strong> CQA</strong>：PP  pump ，，</li>
+                <li><strong>TP </strong>：，； CPP ， design validation </li>
             </ul>
         </div>
 
         <div class="practice-box" style="border-style:solid; background:linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-color:#22c55e;">
-            <h4>實務應用 Practical Application</h4>
-            <p>在 CDMO 接案評估溫控充填產品時，應立即詢問客戶：(1) 溫度預算的具體數字（時間 + 溫度範圍）；(2) 客戶是否已完成充填段的溫度分布研究（temperature mapping）。若客戶尚未確立這些數據，充填線的設計規格無法定案，專案啟動將面臨重大風險。</p>
+            <h4> Practical Application</h4>
+            <p> CDMO ，：(1) （ + ）；(2) （temperature mapping）。，，。</p>
         </div>
     </div>
 </div>
@@ -1038,11 +1038,11 @@ tr:nth-child(even) {
 <!-- ============================================================ -->
 <!-- SECTION 4.7.1 — Filling Speed & Temperature -->
 <!-- ============================================================ -->
-<div class="section-title">4.7.1 — Filling Speed, Filling Time, and Temperature / 充填速度、時間與溫度管控</div>
+<div class="section-title">4.7.1 — Filling Speed, Filling Time, and Temperature / 、</div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p><span class="key-term">Filling speed</span> should be designed to ensure that filled containers can be returned to refrigerated conditions within a controlled duration of time. <span class="key-term">Accumulation points</span> that serve to buffer capacity on the line (e.g., accumulator tables before lyophilizer loaders or before cappers) should be minimized to ensure that the exposure of every unit does not exceed the maximum allowed time (keeping in mind that accumulation points are using randomized handling where individual containers are not traceable). For <span class="key-term">lyophilizer loading</span> consider whether the filler can continuously run while the lyophilizer loader is changing shelves. Cold loading of lyophilizers may need to be accommodated with additional controls, such as low %RH, special closing doors on the lyophilizer, or <span class="key-term">nitrogen blanket</span>, to prevent the possibility of condensation on the outside of the containers from affecting the loading.</p>
 
@@ -1050,39 +1050,39 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p><strong>積累點（Accumulation Point）的隱患：</strong>充填線上的暫存區看似只是緩衝，但對溫控產品而言，每個容器在積累點停留的時間是<em>隨機且不可追溯的</em>（randomized, not traceable）。這意味著最壞情境（worst case）——某個容器在積累點停留最長時間——必須被涵蓋在驗證設計中，而非只取平均值。這是設計核心，非細節。</p>
+            <h4> Key Notes</h4>
+            <p><strong>（Accumulation Point）：</strong>，，<em></em>（randomized, not traceable）。（worst case）————，。，。</p>
         </div>
 
         <div class="formula-box">
-            <h4>公式與計算 Formula</h4>
+            <h4> Formula</h4>
             <pre>
-溫控驗證關鍵計算：
+：
 
-最大允許充填時間 =
-  溫度預算總額 - 配方製造時間 - 運輸時間 - 患者使用時間
+ =
+   -  -  - 
 
-充填線設計速度需滿足：
-  最慢單元在充填線上的暴露時間 ≤ 充填段允許時間
+：
+   ≤ 
 
-冷凍乾燥裝載特殊考量：
-  換架（shelf change）期間停機時間 × 暫存容器數量
-  → 每個容器的最大積累等待時間需計算</pre>
+：
+  （shelf change） × 
+  → </pre>
         </div>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>冷凍乾燥裝載的冷凝水風險：</strong>當充填完成的冷瓶在溫暖潮濕的環境中等待裝入凍乾機，瓶身外側容易結露。冷凝水可能流入半塞（half-stopper）縫隙，影響密封完整性。氮氣覆蓋（nitrogen blanket）和低濕度環境是標準對策，驗證時需包含最差條件（如生產線最慢運行、最長換架時間）。</p>
+            <h4> Key Concepts</h4>
+            <p><strong>：</strong>，。（half-stopper），。（nitrogen blanket），（、）。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>某 mRNA 疫苗的溫度預算為 2°C~8°C 範圍內總計不超過 4 小時，若製造配製佔用 1.5 小時，充填線設計時最多允許多少暫存時間（含冷凍乾燥換架）？</li>
-                <li>若充填線設計中刻意減少積累點，可能對生產速率造成什麼影響？如何在 SA 與生產效率之間取得平衡？</li>
+                <li> mRNA  2°C~8°C  4 ， 1.5 ，（）？</li>
+                <li>，？ SA ？</li>
             </ol>
         </div>
     </div>
@@ -1091,11 +1091,11 @@ tr:nth-child(even) {
 <!-- ============================================================ -->
 <!-- SECTION 4.8 — Large Batch Sizes -->
 <!-- ============================================================ -->
-<div class="section-title">4.8 — Design and Functionality for Large Batch Sizes / 大批量充填設計功能</div>
+<div class="section-title">4.8 — Design and Functionality for Large Batch Sizes / </div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p>The fluid pathway for large batches commonly will include an <span class="key-term">intermediate holding-vessel</span> that is a fraction of the size of the bulk vessel. This is especially true for designs where the bulk vessel is some distance away from the filler. The intermediate vessel is able to moderate the <span class="key-term">head pressure</span> between the vessel and the pumps or pinch valves. The positioning of vessels above the filling needles is critical due to the head pressure that this provides. The deeper the vessel, the greater the head pressure. If the vessel is placed too high, relative to the fill pumps, this can induce leaks.</p>
 
@@ -1105,30 +1105,30 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>靜水壓（Head Pressure）的物理意義：</strong>液面距充填針的高度差直接產生靜水壓（P = ρgh）。對於 TP（時間壓力）充填系統，靜水壓是充填體積的決定因素之一——vessel 液位下降 → 靜水壓降低 → 充填量偏低。中間暫存槽（intermediate vessel）的功能是將這個高度差穩定在小範圍內，確保充填精度。</p>
-            <p><strong>中間暫存槽的三重作用：</strong>(1) 穩定靜水壓；(2) 緩衝上游大槽（bulk vessel）液位變化；(3) 提供充填過程中的連續供料，不因上游傳輸暫停而中斷。</p>
+            <h4> Key Concepts</h4>
+            <p><strong>（Head Pressure）：</strong>（P = ρgh）。 TP（），——vessel  →  → 。（intermediate vessel），。</p>
+            <p><strong>：</strong>(1) ；(2) （bulk vessel）；(3) ，。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>大批量充填系統就像城市自來水網絡：大型水庫（bulk vessel）儲存大量水源，但若水庫直接連接每戶水龍頭，液位波動會造成水壓忽高忽低。因此在社區設置加壓站（intermediate vessel），維持穩定水壓，每戶居民（充填針）都能獲得一致的水流。sterilizing-vent filter 就是水庫洩壓閥，確保槽壓隨液位下降自動補氣，不造成真空。</p>
+            <h4> Analogy</h4>
+            <p>：（bulk vessel），，。（intermediate vessel），，（）。sterilizing-vent filter ，，。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p><strong>大批量 = CIP/SIP 優先：</strong>大批量生產的洗清（CIP）和滅菌（SIP）成本，相較於一次性使用（SU）系統的材料耗材成本，在多次使用下明顯降低。但更關鍵的是：大批量充填時，若中途更換 SU 液體路徑，風險遠高於固定管路（fixed piping），因為連接作業本身就是污染風險點。</p>
-            <p><strong>備用濾膜切換：</strong>大批量製程中，若主濾膜（primary sterilizing filter）因產品蛋白質堵塞，必須在不終止批次的情況下切換至備用濾膜路徑（redundant filter pathway）。此設計的完整性（integrity test 切換前後）必須在 process validation 中驗證。</p>
+            <h4> Key Notes</h4>
+            <p><strong> = CIP/SIP ：</strong>（CIP）（SIP），（SU），。：， SU ，（fixed piping），。</p>
+            <p><strong>：</strong>，（primary sterilizing filter），（redundant filter pathway）。（integrity test ） process validation 。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>若 intermediate vessel 容量設計過小，充填過程中需要頻繁補充（replenishment），這對充填連續性和無菌保證各造成什麼風險？</li>
-                <li>一個採用 TP 充填系統的大批量產品，bulk vessel 在批次末尾液位下降至 10%，預期靜水壓變化多大？對充填精度影響的容忍度如何在 design spec 中定義？</li>
+                <li> intermediate vessel ，（replenishment），？</li>
+                <li> TP ，bulk vessel  10%，？ design spec ？</li>
             </ol>
         </div>
     </div>
@@ -1137,11 +1137,11 @@ tr:nth-child(even) {
 <!-- ============================================================ -->
 <!-- SECTION 4.9 — Oxygen Exposure Control -->
 <!-- ============================================================ -->
-<div class="section-title">4.9 — Functionality to Control Oxygen Exposure / 氧氣暴露控制功能</div>
+<div class="section-title">4.9 — Functionality to Control Oxygen Exposure / </div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p>Additional controls are required for the filling step for <span class="key-term">oxygen-sensitive products</span>. Products that are sensitive to oxygen are typically stored in vessels in an <span class="key-term">overpressure condition</span> with an <span class="key-term">inert gas</span>, such as nitrogen, prior to filling, as well as during formulation/compounding. Any intermediate vessel in the filling process is also blanketed with nitrogen. When <span class="key-term">biodecontamination</span> of the environment is performed prior to filling, extreme care should be taken to control residual levels of the biodecontamination agent (e.g., vaporized hydrogen peroxide) in the environment and absorbed in the materials to be used during the filling operation (e.g., tubing). The former is reduced through effective aeration cycles and the latter through protective packaging, through flushing or performing CIP and/or SIP after biodecontamination. The initial flush of product through the fluid pathway is commonly discarded as the air is displaced from the lines by the liquid and steps may be taken to eliminate residual oxygen in the container after closing, as described below.</p>
 
@@ -1161,40 +1161,40 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>充氣順序的演進（Gassing Sequence Evolution）：</strong></p>
+            <h4> Key Concepts</h4>
+            <p><strong>（Gassing Sequence Evolution）：</strong></p>
             <ul>
-                <li><strong>傳統做法</strong>：充填前充氣（pre-gassing）＋充填中充氣。問題：液體充填時本身就會排開大部分空氣，充填前的氣體被液體取代，效益有限</li>
-                <li><strong>現代最佳實務</strong>：只在封蓋位置充氣（gassing at closing only）。研究證明這是最有效降低 headspace 殘留氧的方式</li>
-                <li><strong>超敏感產品</strong>：加入真空步驟（vacuum bell），序列為「抽真空 → 充惰性氣體 → 再抽真空 → 封蓋」，多步驟確保接近零氧環境</li>
+                <li><strong></strong>：（pre-gassing）＋。：，，</li>
+                <li><strong></strong>：（gassing at closing only）。 headspace </li>
+                <li><strong></strong>：（vacuum bell），「 →  →  → 」，</li>
             </ul>
-            <p><strong>VHP 殘留問題：</strong>隔離器使用 VHP（vaporized hydrogen peroxide）滅菌後，VHP 會被 tubing 等有機材料吸附。若充填時產品接觸含殘留 VHP 的管路，可能造成產品降解（氧化），這正與「減少氧暴露」的目標相矛盾。CIP/SIP 或充分排氣程序是必要對策。</p>
+            <p><strong>VHP ：</strong> VHP（vaporized hydrogen peroxide），VHP  tubing 。 VHP ，（），「」。CIP/SIP 。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>容器 headspace 的除氧過程就像真空包裝食品：超市的真空包裝機先用幫浦抽空袋內空氣，再注入氮氣或直接熱封，延長保存期。藥品容器更精密——某些產品要求「抽真空 → 填氮 → 再抽真空 → 封蓋」的四步序列，就像高級咖啡豆的保鮮包裝，多一道工序換來數倍的保存期。但低黏度液體（就像汽水）在真空下會沸騰，因此不適合真空步驟，必須針對產品特性選擇對應方案。</p>
+            <h4> Analogy</h4>
+            <p> headspace ：，，。——「 →  →  → 」，，。（），，。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p><strong>First Air 不可妥協：</strong>惰性氣體隧道（inert gas tunnel）在充填針下方形成氮氣覆蓋，但物理結構本身可能阻擋從 HEPA 過濾器向下流動的 First Air（一級無菌氣流），在開口容器上方創造紊流區。設計時必須進行 CFD 模擬和 smoke study，確認隧道設計不影響 Grade A 環境完整性。此處無菌保證（Sterility Assurance）優先於氧氣控制。</p>
-            <p><strong>SU 針頭的限制：</strong>一次性使用（SU）針頭目前無法製造成 jacketed design（針中針），這對需要同時充填和充氣的產品是一個實質限制。若產品需要 jacketed needle，就必須使用可清洗驗證的不鏽鋼針頭，並承擔清潔驗證的複雜度。</p>
+            <h4> Key Notes</h4>
+            <p><strong>First Air ：</strong>（inert gas tunnel）， HEPA  First Air（），。 CFD  smoke study， Grade A 。（Sterility Assurance）。</p>
+            <p><strong>SU ：</strong>（SU） jacketed design（），。 jacketed needle，，。</p>
         </div>
 
         <div class="practice-box" style="border-style:solid; background:linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-color:#22c55e;">
-            <h4>實務應用 Practical Application</h4>
-            <p>CDMO 接收一款 mRNA 脂質奈米粒（LNP）製劑，要求 headspace 殘留氧 &lt;0.5%。評估方向：(1) 確認是否有現有的 inert gas tunnel 設備；(2) 評估現有充填針是否需升級為 jacketed design；(3) 確認隔離器 VHP 排氣程序是否足以將 VHP 殘留降至不影響 LNP 穩定性的水準；(4) 100% headspace 殘留氧在線檢測設備的採購與驗證成本。這些都是報價前必須釐清的技術風險點。</p>
+            <h4> Practical Application</h4>
+            <p>CDMO  mRNA （LNP）， headspace  &lt;0.5%。：(1)  inert gas tunnel ；(2)  jacketed design；(3)  VHP  VHP  LNP ；(4) 100% headspace 。。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>為何充填後封蓋時才充氣（gassing at closing）比充填前充氣（pre-gassing）更有效？用液體排氣原理解釋。</li>
-                <li>一款低黏度抗氧化注射劑不適合使用真空步驟，工程師應如何設計替代方案來達到 headspace 氧含量 &lt;1% 的目標？</li>
+                <li>（gassing at closing）（pre-gassing）？。</li>
+                <li>， headspace  &lt;1% ？</li>
             </ol>
         </div>
     </div>
@@ -1203,11 +1203,11 @@ tr:nth-child(even) {
 <!-- ============================================================ -->
 <!-- SECTION 4.10 — Robotics -->
 <!-- ============================================================ -->
-<div class="section-title">4.10 — Enhancing Functionality with Robotics / 機器人技術的功能強化</div>
+<div class="section-title">4.10 — Enhancing Functionality with Robotics / </div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p><span class="key-term">People are the greatest source of contamination</span> associated with aseptic filling. Therefore, robotics offers an enormous opportunity to improve <span class="key-term">sterility assurance (SA)</span> when designed and implemented properly. Recent advances in robotics and isolator designs have enabled the implementation of <span class="key-term">gloveless isolators</span> which are a significant enhancement in SA for aseptic filling. This section does not provide comprehensive design or implementation guidance for robotics (nor for gloveless isolators) but rather lists some of the points to consider for this type of installation.</p>
 
@@ -1223,35 +1223,35 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>人是最大污染源（People = Greatest Contamination Risk）：</strong>這是無菌充填的基本公設，也是機器人技術在製藥界的最強驅動力。EU GMP Annex 1 (2022) 明確要求企業建立 Contamination Control Strategy (CCS)，其核心之一就是「最小化人員干預（minimize manual interventions）」。機器人不是科技炫耀，而是 SA 戰略工具。</p>
-            <p><strong>機器人定義的廣義延伸：</strong>本章提醒工程師，機器人不只是六軸手臂——磁浮輸送（magnetic levitating conveyance）、X-Y 定位台、可程式化推板（programmable rakes）都屬於「減少人員介入」的廣義機器人系統，在設計 CCS 時均應納入評估。</p>
+            <h4> Key Concepts</h4>
+            <p><strong>（People = Greatest Contamination Risk）：</strong>，。EU GMP Annex 1 (2022)  Contamination Control Strategy (CCS)，「（minimize manual interventions）」。， SA 。</p>
+            <p><strong>：</strong>，——（magnetic levitating conveyance）、X-Y 、（programmable rakes）「」， CCS 。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>機器人在無菌充填中的角色，就像自動化倉儲（Amazon 倉庫的機器手臂）：在一個需要高精度且不允許錯誤的環境中，機器人取代人工進行重複性、高風險動作。但若倉庫通道（unidirectional airflow）設計不當，機器手臂來回移動反而製造氣流混亂，反效果。因此機器人設計必須先做 CFD 模擬，確認它是「安靜地工作在氣流之下」，而非「攪動整個環境」。</p>
+            <h4> Analogy</h4>
+            <p>，（Amazon ）：，、。（unidirectional airflow），，。 CFD ，「」，「」。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p><strong>充填系統與機器人相容性矩陣：</strong></p>
+            <h4> Key Notes</h4>
+            <p><strong>：</strong></p>
             <ul>
-                <li><strong>PP（蠕動泵）</strong>：管路幾何簡單，機器人設定相對容易；且 pump 可置於 isolator 外，降低機器人進入無菌區域的必要性</li>
-                <li><strong>RPP（旋轉活塞泵）</strong>：機構幾何複雜，機器人安裝困難，目前仍多為手動設定</li>
-                <li><strong>TP（時間壓力）</strong>：同樣幾何複雜，機器人設定具挑戰性</li>
+                <li><strong>PP（）</strong>：，； pump  isolator ，</li>
+                <li><strong>RPP（）</strong>：，，</li>
+                <li><strong>TP（）</strong>：，</li>
             </ul>
-            <p><strong>共同適用：</strong>無論使用哪種充填泵，充填針和下游 tubing 的安裝都是機器人的良好應用場景，特別是透過 RTP（Rapid Transfer Port）將組件送入 isolator 後的取出與安裝動作。</p>
+            <p><strong>：</strong>， tubing ， RTP（Rapid Transfer Port） isolator 。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>若公司決定引入六軸機器人進行充填針安裝，需要進行哪些驗證活動以確認其不影響 Grade A 的 unidirectional airflow？列出至少三項。</li>
-                <li>為何 PP 充填系統比 RPP 更容易導入機器人自動化？這對於「選擇充填系統」的商業決策有何影響？</li>
+                <li>， Grade A  unidirectional airflow？。</li>
+                <li> PP  RPP ？「」？</li>
             </ol>
         </div>
     </div>
@@ -1260,11 +1260,11 @@ tr:nth-child(even) {
 <!-- ============================================================ -->
 <!-- SECTION 4.10 cont. — Robotics Design Considerations -->
 <!-- ============================================================ -->
-<div class="section-title">4.10 (cont.) — Robotics Design Considerations & Gloveless Lines / 機器人設計要點與無手套操作線</div>
+<div class="section-title">4.10 (cont.) — Robotics Design Considerations & Gloveless Lines / </div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <h3>Design Considerations</h3>
         <ul>
@@ -1301,64 +1301,64 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p><strong>「四十次手套接觸」的意義：</strong>手動安裝充填路徑需要大約 40 次手套接觸（40 glove-touches）。每次手套接觸都是一個潛在的污染事件。機器人安裝將這個數字降至 0。這是一個非常有說服力的量化論據——在向管理層或客戶說明引入機器人的 SA 效益時，這個數字比任何定性描述都更有力。</p>
-            <p><strong>潤滑劑雙重密封（Dual Lip Seal）：</strong>機器人的驅動機構（servos, cams）必須使用潤滑劑，但潤滑劑一旦進入 Grade A 區域，就是化學污染。雙唇密封（dual lip seal）設計：外唇防止潤滑劑洩漏至無菌區；內唇防止清潔劑和 VHP 侵入並腐蝕密封件。這是「機器人可以進入 Grade A」的先決條件之一。</p>
+            <h4> Key Notes</h4>
+            <p><strong>「」：</strong> 40 （40 glove-touches）。。 0。—— SA ，。</p>
+            <p><strong>（Dual Lip Seal）：</strong>（servos, cams）， Grade A ，。（dual lip seal）：； VHP 。「 Grade A」。</p>
         </div>
 
         <div class="formula-box">
-            <h4>公式與計算 Formula</h4>
+            <h4> Formula</h4>
             <pre>
-機器人 SA 效益評估框架：
+ SA ：
 
-引入機器人前：
-  手動介入次數/批 × 每次介入汙染概率 = 批次污染風險指數
+：
+  / ×  = 
 
-引入機器人後：
-  機器人操作次數/批 × 機器人汙染概率（遠低於人員）
-  + 殘餘手動介入次數 × 介入汙染概率
+：
+  / × （）
+  +  × 
 
-SA 改善率 = (前 - 後) / 前 × 100%
+SA  = ( - ) /  × 100%
 
-注意：機器人本身帶來的新風險
-  - 顆粒產生（wear parts）
-  - 氣流紊動（turbulence）
-  → 這些需在 CFD + 粒子監測研究中量化</pre>
+：
+  - （wear parts）
+  - （turbulence）
+  →  CFD + </pre>
         </div>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>無手套操作線（Gloveless Lines）的演進路徑：</strong>業界共識是「漸進式導入」而非一步到位。實務做法：</p>
+            <h4> Key Concepts</h4>
+            <p><strong>（Gloveless Lines）：</strong>「」。：</p>
             <ol>
-                <li><strong>第一階段</strong>：識別最高風險的手動介入（如充填路徑安裝），優先機器人化</li>
-                <li><strong>第二階段</strong>：次高風險介入（如容器取樣、廢棄物移除），逐步機器人化</li>
-                <li><strong>第三階段</strong>：建立完整的 APS（無菌製程模擬），涵蓋所有殘餘的人工介入點，並確認其頻率在年度批次中可接受</li>
+                <li><strong></strong>：（），</li>
+                <li><strong></strong>：（、），</li>
+                <li><strong></strong>： APS（），，</li>
             </ol>
-            <p>每一個殘餘的人工介入都必須被記錄在 SOP 中，並在 APS 設計中被驗證，不能有灰色地帶。</p>
+            <p> SOP ， APS ，。</p>
         </div>
 
         <div class="practice-box" style="border-style:solid; background:linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-color:#22c55e;">
-            <h4>實務應用 Practical Application</h4>
-            <p>CDMO 正評估為現有 isolator 充填線導入機器人。決策清單：</p>
+            <h4> Practical Application</h4>
+            <p>CDMO  isolator 。：</p>
             <ul>
-                <li>確認 CFD 研究範圍（需涵蓋機器人各工作姿態）</li>
-                <li>評估機器人臂材質對 VHP 和 IPA 的耐受性</li>
-                <li>確認 servo 和 cam 的密封設計（dual lip seal 規格）</li>
-                <li>更新 APS 設計，納入機器人操作的最壞情境模擬</li>
-                <li>評估操作和維護人員的額外培訓需求（機器人程式設定、故障排除）</li>
-                <li>確認機器人引入後的生產線速度是否符合商業產能要求</li>
+                <li> CFD （）</li>
+                <li> VHP  IPA </li>
+                <li> servo  cam （dual lip seal ）</li>
+                <li> APS ，</li>
+                <li>（、）</li>
+                <li></li>
             </ul>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>本節指出 RPP 和 TP 充填系統較難進行機器人自動化設定，而 PP 相對容易。若一家 CDMO 計畫新建一條以機器人為核心的「近無手套」充填線，這個資訊應如何影響充填泵系統的選型決策？</li>
-                <li>機器人顆粒監測取樣器（viable and total particle monitoring）取代人工取樣的優勢是什麼？為何人工取樣會產生「假陽性」結果？</li>
-                <li>漸進式引入機器人的策略中，如何判斷哪個介入點應該「最優先」機器人化？請設計一個優先級評估矩陣。</li>
+                <li> RPP  TP ， PP 。 CDMO 「」，？</li>
+                <li>（viable and total particle monitoring）？「」？</li>
+                <li>，「」？。</li>
             </ol>
         </div>
     </div>
@@ -1366,13 +1366,13 @@ SA 改善率 = (前 - 後) / 前 × 100%
 
 <!-- SECTION SUMMARY -->
 <div class="learning-objectives" style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);">
-    <h3>本節重點回顧 Section Summary</h3>
+    <h3> Section Summary</h3>
     <ul>
-        <li><strong>雙迴路再循環（4.6.1 cont.）：</strong>三向閥設計讓 dosing pump 在機器停止時仍持續運轉，產品通過 inner loop 回流至中間暫存槽，避免高成本產品因停機而廢棄——這是「商業效益」驅動的設計，但必須在不妥協無菌保證的前提下執行</li>
-        <li><strong>溫度控管（4.7, 4.7.1）：</strong>溫度預算是整個產品生命週期的累積帳戶，充填端的目標是「消耗最少額度」；冷凝水（condensation）對無菌保證和產品 CQA 構成雙重威脅，相對濕度控制是關鍵；TP 系統因黏度隨溫度變化，溫控失當直接影響充填精度</li>
-        <li><strong>大批量設計（4.8）：</strong>中間暫存槽穩定靜水壓、緩衝液位波動、確保連續供料；大批量場合優先採用固定管路（fixed piping）搭配 CIP/SIP；備用濾膜切換能力是大批量風險管理的重要設計考量</li>
-        <li><strong>氧氣控制（4.9）：</strong>充填後封蓋時充氣（gassing at closing）已被研究證實是最有效的降氧方式；真空序列（vacuum-inert-vacuum-close）適用於超敏感產品但受低黏度限制；inert gas tunnel 設計需通過 CFD 驗證確認不影響 First Air；殘留氧驗證可採用 100% 在線監測（CQA 驅動選擇）</li>
-        <li><strong>機器人技術（4.10）：</strong>人員是最大污染源，機器人是 SA 戰略工具而非技術炫耀；CFD + smoke study 是機器人設計驗證必要工具；PP 系統最容易機器人化，RPP/TP 較難；無手套充填線（gloveless line）代表 SA 演進的最高形式，漸進式導入是業界主流路徑；每個殘餘人工介入必須納入 APS 設計</li>
+        <li><strong>（4.6.1 cont.）：</strong> dosing pump ， inner loop ，——「」，</li>
+        <li><strong>（4.7, 4.7.1）：</strong>，「」；（condensation） CQA ，；TP ，</li>
+        <li><strong>（4.8）：</strong>、、；（fixed piping） CIP/SIP；</li>
+        <li><strong>（4.9）：</strong>（gassing at closing）；（vacuum-inert-vacuum-close）；inert gas tunnel  CFD  First Air； 100% （CQA ）</li>
+        <li><strong>（4.10）：</strong>， SA ；CFD + smoke study ；PP ，RPP/TP ；（gloveless line） SA ，； APS </li>
     </ul>
 </div>
 

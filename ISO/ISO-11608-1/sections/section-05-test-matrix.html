@@ -62,28 +62,28 @@ tr:nth-child(even) { background: #f7fafc; }
 
 <div class="header">
     <h1>Section 5: Test Matrix &amp; Test Procedures</h1>
-    <div class="subtitle">測試矩陣與試驗程序 — 從環境測試到 EMC 驗證</div>
+    <div class="subtitle"> —  EMC </div>
     <div class="page-info">ISO 11608-1:2014 | Sections 8–10 | p.12–p.21</div>
 </div>
 
 <div class="main-content">
 
 <div class="learning-objectives">
-    <h3>本章學習目標</h3>
+    <h3></h3>
     <ul>
-        <li>掌握 Table 3 測試矩陣結構：了解哪些測試適用於哪些 System Designation，以及各測試的樣本數（Y）和統計要求</li>
-        <li>理解「預處理（Pre-conditioning）+ 劑量準確性測試」的測試邏輯——測試設備的韌性</li>
-        <li>能夠評估 D1 autoinjector 設計驗證報告中所需的測試項目完整性</li>
-        <li>了解 EMC 要求對含電子元件 NIS（如電動 pen injector）的影響</li>
+        <li> Table 3 ： System Designation，（Y）</li>
+        <li>「（Pre-conditioning）+ 」——</li>
+        <li> D1 autoinjector </li>
+        <li> EMC  NIS（ pen injector）</li>
     </ul>
 </div>
 
 <!-- ====== TEST MATRIX ====== -->
-<div class="section-title">Section 9: Test Matrix — Table 3 完整解析</div>
+<div class="section-title">Section 9: Test Matrix — Table 3 </div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
         <h3>Table 3 — Test Matrix (Summary)</h3>
         <h3>Section 8: Preparation and Operation of NISs</h3>
         <p>Before testing, NISs shall be prepared according to the manufacturer's instructions for use. Pre-conditioning conditions must be documented. All dose accuracy testing shall be performed at <span class="key-term">standard atmosphere</span> (23 ± 3°C, 50 ± 15% RH) unless otherwise specified.</p>
@@ -118,58 +118,58 @@ tr:nth-child(even) { background: #f7fafc; }
         </ul>
     </div>
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
         <div class="concept-box">
-            <h4>測試矩陣的核心邏輯：「壓力 + 劑量準確性」</h4>
-            <p>Table 3 中大多數測試都遵循同一個邏輯：</p>
-            <p><strong>施加環境壓力（Pre-conditioning）→ 恢復到標準條件 → 測量劑量準確性</strong></p>
-            <p>這個設計背後的問題是：「NIS 在各種現實環境條件（冷藏、熱帶氣候、墜落、運輸振動）後，是否仍能準確遞送藥物？」</p>
-            <p>特別值得注意的是溫度測試（10.2）：在5°C（冷藏後立即使用）和40°C（高溫環境）下分別測試，直接對應患者的實際使用場景。</p>
+            <h4>：「 + 」</h4>
+            <p>Table 3 ：</p>
+            <p><strong>（Pre-conditioning）→  → </strong></p>
+            <p>：「NIS （、、、），？」</p>
+            <p>（10.2）：5°C（）40°C（），。</p>
         </div>
         <div class="note-box">
-            <h4>D1 Autoinjector 的必測項目</h4>
-            <p>Designation D1（最常見的 autoinjector）在 Table 3 中需完成的測試：</p>
+            <h4>D1 Autoinjector </h4>
+            <p>Designation D1（ autoinjector） Table 3 ：</p>
             <ul>
-                <li>✅ 溫度測試（Cool/Standard/Warm）：60 支，p=0.975</li>
-                <li>✅ 自由跌落：21 支（C/D 版本），p=0.95</li>
-                <li>✅ 乾熱/冷儲存：60 支，p=0.975</li>
-                <li>✅ 振動測試：20 支，p=0.95</li>
-                <li>❌ 最後劑量測試（Last-dose）：僅 A/C 系統（多劑量）</li>
-                <li>❌ 壽命週期測試（Life-cycle）：僅 A/B 系統（可替換容器）</li>
-                <li>❌ 潮濕熱/循環測試：僅 A/B 系統</li>
-                <li>EMC：僅含電子元件時</li>
+                <li>✅ （Cool/Standard/Warm）：60 ，p=0.975</li>
+                <li>✅ ：21 （C/D ），p=0.95</li>
+                <li>✅ /：60 ，p=0.975</li>
+                <li>✅ ：20 ，p=0.95</li>
+                <li>❌ （Last-dose）： A/C （）</li>
+                <li>❌ （Life-cycle）： A/B （）</li>
+                <li>❌ /： A/B </li>
+                <li>EMC：</li>
             </ul>
-            <p>完整 D1 DV 計劃需要的 NIS 數量：最多 ~200 支（各測試的 20-60 支加上備品）。</p>
+            <p> D1 DV  NIS ： ~200 （ 20-60 ）。</p>
         </div>
         <div class="analogy-box">
-            <h4>自由跌落測試的現實意義</h4>
-            <p>1 m 的跌落高度並非隨意設定：大約是成人坐著時手持注射器到地面的高度。這代表了「患者不小心把注射器從手中掉落」的最常見場景。</p>
-            <p>3 個方向（前/後、左/右、頂/底）確保測試覆蓋最脆弱的衝擊方向。</p>
-            <p>對 CDMO：若客戶更改了 PFS 的初級包材（如從 BD Hypak 換到不同廠商），需要重新評估自由跌落測試結果——因為容器材質和內容物重量會影響衝擊結果。</p>
+            <h4></h4>
+            <p>1 m ：。「」。</p>
+            <p>3 （/、/、/）。</p>
+            <p> CDMO： PFS （ BD Hypak ），——。</p>
         </div>
         <div class="note-box">
-            <h4>溫度條件說明：2014 年第三版修訂</h4>
-            <p>本版重要修訂：循環測試（10.8）的溫度從原本 25°C ± 3°C 改為 <strong>5°C ± 3°C</strong>。</p>
-            <p>理由：冷藏藥品（2–8°C 儲存）的使用者通常在冷藏後直接使用，5°C 更能代表實際最低使用溫度。25°C 過於保守（室溫），無法測試冷藏後的性能。</p>
-            <p>如果客戶的 DV 報告是基於舊版（2012 年第二版），此測試條件差異需要特別注意，可能需要補充測試。</p>
+            <h4>：2014 </h4>
+            <p>：（10.8） 25°C ± 3°C  <strong>5°C ± 3°C</strong>。</p>
+            <p>：（2–8°C ），5°C 。25°C （），。</p>
+            <p> DV （2012 ），，。</p>
         </div>
         <div class="concept-box">
-            <h4>EMC 測試：何時需要？</h4>
-            <p>EMC 測試（10.10）僅適用於含電子/電機元件的 NIS，包括：</p>
+            <h4>EMC ：？</h4>
+            <p>EMC （10.10）/ NIS，：</p>
             <ul>
-                <li>電子劑量計算器的筆型注射器</li>
-                <li>有電子感應器的自動注射器（感應注射完成）</li>
-                <li>Connectivity pen injector（藍牙配對型）</li>
-                <li>電驅動大容量穿戴式注射器</li>
+                <li></li>
+                <li>（）</li>
+                <li>Connectivity pen injector（）</li>
+                <li></li>
             </ul>
-            <p>純機械式 autoinjector（D1，無電子元件）不需要 EMC 測試。</p>
+            <p> autoinjector（D1，） EMC 。</p>
         </div>
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>某客戶提供 DV 報告，自由跌落測試使用 20 支 D1 autoinjector，結果全部通過視覺檢查和劑量準確性測試。CDMO 審查時發現 n=20（p=0.95，k<sub>tar</sub>=2.760）。如果 k<sub>act</sub> = 2.50，是否應接受此 DV 結果？</li>
-                <li>客戶計劃更換 autoinjector 的彈簧規格（提高驅動力以適應高黏度新配方）。根據 Table 3，哪些 DV 測試需要重新執行？</li>
-                <li>新型 smart pen injector 配有藍牙連接功能，用於記錄注射時間和劑量。根據 Section 10.10，需要額外的哪些 EMC 測試？相關的 IEC 標準是哪些？</li>
+                <li> DV ， 20  D1 autoinjector，。CDMO  n=20（p=0.95，k<sub>tar</sub>=2.760）。 k<sub>act</sub> = 2.50， DV ？</li>
+                <li> autoinjector （）。 Table 3， DV ？</li>
+                <li> smart pen injector ，。 Section 10.10， EMC ？ IEC ？</li>
             </ol>
         </div>
     </div>
@@ -177,12 +177,12 @@ tr:nth-child(even) { background: #f7fafc; }
 
 <!-- SECTION SUMMARY -->
 <div class="learning-objectives" style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);">
-    <h3>本節重點回顧 Section Summary</h3>
+    <h3> Section Summary</h3>
     <ul>
-        <li><strong>測試邏輯：預處理 + DA</strong>：大多數測試 = 施加環境壓力 → 恢復標準條件 → 量測劑量準確性；核心驗證 NIS 在真實使用環境後是否維持性能</li>
-        <li><strong>D1 必測項目</strong>：溫度（60支，p=0.975）、自由跌落（21支）、乾熱/冷儲（60支）、振動（20支）；壽命週期和潮濕熱僅適用 A/B 系統</li>
-        <li><strong>第三版修訂重點</strong>：循環測試溫度從 25°C 改為 5°C（冷藏後使用場景）；EMC 樣本數從 5 支增至 20 支</li>
-        <li><strong>EMC 限於電子元件</strong>：純機械式 autoinjector 不需 EMC；含感測器、藍牙、電機驅動的 NIS 需 ESD + RF 測試</li>
+        <li><strong>： + DA</strong>： =  →  → ； NIS </li>
+        <li><strong>D1 </strong>：（60，p=0.975）、（21）、/（60）、（20）； A/B </li>
+        <li><strong></strong>： 25°C  5°C（）；EMC  5  20 </li>
+        <li><strong>EMC </strong>： autoinjector  EMC；、、 NIS  ESD + RF </li>
     </ul>
 </div>
 

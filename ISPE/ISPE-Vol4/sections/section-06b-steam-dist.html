@@ -369,18 +369,18 @@ tr:nth-child(even) { background: #f7fafc; }
     <div class="learning-objectives">
         <h3>Learning Objectives</h3>
         <ol>
-            <li>Understand the operating principle of a Sanitary CS Generator (shell-and-tube evaporator, separator, feedback control) and distinguish it from a Simple CS Generator / 理解衛生型淨蒸汽發生器的運作原理（管殼式蒸發器、分離器、回饋控制），並與簡易型區分</li>
-            <li>Size a Clean Steam system by evaluating peak demand, diversity, and generator capacity / 掌握淨蒸汽系統的 sizing 計算：尖峰需求、多樣性係數、發生器容量</li>
-            <li>Explain steam condensate sampling for purity (endotoxin, conductivity) and quality (dryness fraction, NCGs) / 說明蒸汽凝結水取樣：純度（內毒素、電導度）與品質（乾燥度、不凝結氣體）</li>
-            <li>Specify materials of construction, surface finish, and pretreatment requirements for CS generators / 指定淨蒸汽發生器的材質、表面處理與前處理要求</li>
-            <li>Design a CS distribution system addressing line sizing, moisture removal, condensate removal, NCG removal, and superheat / 設計淨蒸汽配送系統：管徑、除濕、排凝結水、排不凝結氣體、過熱</li>
-            <li>Apply the four piping practice examples to real-world installation scenarios / 應用四個配管實務範例於實際安裝情境</li>
+            <li>Understand the operating principle of a Sanitary CS Generator (shell-and-tube evaporator, separator, feedback control) and distinguish it from a Simple CS Generator / （、、），</li>
+            <li>Size a Clean Steam system by evaluating peak demand, diversity, and generator capacity /  sizing ：、、</li>
+            <li>Explain steam condensate sampling for purity (endotoxin, conductivity) and quality (dryness fraction, NCGs) / ：（、）（、）</li>
+            <li>Specify materials of construction, surface finish, and pretreatment requirements for CS generators / 、</li>
+            <li>Design a CS distribution system addressing line sizing, moisture removal, condensate removal, NCG removal, and superheat / ：、、、、</li>
+            <li>Apply the four piping practice examples to real-world installation scenarios / </li>
         </ol>
     </div>
 
     <!-- ===== TABLE OF CONTENTS ===== -->
     <div class="toc">
-        <h3>本章節內容導覽</h3>
+        <h3></h3>
         <div class="toc-grid">
             <a href="#sec-process">7.7 Process &amp; Operating Principle</a>
             <a href="#sec-sizing">7.8 Sizing the CS System</a>
@@ -411,7 +411,7 @@ tr:nth-child(even) { background: #f7fafc; }
         <div class="chapter-divider">
             <div class="chapter-badge">7.7</div>
             <div class="chapter-info">
-                <h2>Process &amp; Operating Principle of a Sanitary CS Generator — 衛生型淨蒸汽發生器的製程與運作原理</h2>
+                <h2>Process &amp; Operating Principle of a Sanitary CS Generator — </h2>
                 <p>Shell-and-tube evaporator, separator, and feedback control loop | pp. 100–101</p>
             </div>
         </div>
@@ -445,46 +445,46 @@ tr:nth-child(even) { background: #f7fafc; }
 
                 <!-- RIGHT: Chinese Commentary -->
                 <div class="right-column">
-                    <div class="column-header">中文解說與學習重點</div>
+                    <div class="column-header"></div>
 
                     <div class="concept-box">
-                        <h4>衛生型 CS 發生器架構</h4>
-                        <p>本質上是一個「淨版鍋爐」：以 utility steam 為熱源，在管殼式熱交換器中加熱純化進料水，產生淨蒸汽。關鍵設計原則：</p>
+                        <h4> CS </h4>
+                        <p>「」： utility steam ，，。：</p>
                         <ul>
-                            <li><strong>隔離原則</strong>：加熱介質與進料水/淨蒸汽「永不接觸」，避免污染交叉</li>
-                            <li><strong>壓力差驅動</strong>：utility steam 須高於 CS 壓力 ≥30–40 psig，壓差越大、產量越高</li>
-                            <li><strong>回饋控制</strong>：CS 壓力由控制閥自動調節 utility steam 進汽量</li>
+                            <li><strong></strong>：/「」，</li>
+                            <li><strong></strong>：utility steam  CS  ≥30–40 psig，、</li>
+                            <li><strong></strong>：CS  utility steam </li>
                         </ul>
                     </div>
 
                     <div class="analogy-box">
-                        <h4>比喻：「雙層煮水壺」</h4>
-                        <p>想像一個雙層鍋：外層裝「高壓蒸汽」（utility steam），內層裝「純水」（feed water）。外層熱量透過金屬壁傳給內層，內層水沸騰產生「乾淨蒸汽」。內外層液體永遠不混合，確保淨蒸汽純度。</p>
+                        <h4>：「」</h4>
+                        <p>：「」（utility steam），「」（feed water）。，「」。，。</p>
                     </div>
 
                     <div class="note-box">
-                        <h4>分離器 (Separator) 的關鍵角色</h4>
-                        <p>分離器不僅移除內毒素，還移除所有滴狀攜帶 (entrainment)。但它有「速度窗口」：蒸汽流速超過設計範圍時，內毒素 carryover 風險飆升。因此：</p>
+                        <h4> (Separator) </h4>
+                        <p>， (entrainment)。「」：， carryover 。：</p>
                         <ul>
-                            <li>必須設置高壓差報警與自動關機</li>
-                            <li>運轉時不得超過製造商設計壓差上限</li>
+                            <li></li>
+                            <li></li>
                         </ul>
                     </div>
 
                     <div class="formula-box">
-                        <h4>關鍵數據整理</h4>
+                        <h4></h4>
 <pre>
-Utility Steam 壓力:      100–120 psig (7.9–9.25 bar)
-CS 壓力 (典型):        40–60 psig (3.75–5.1 bar)
-最低壓差:             ≥ 30–40 psig
-Utility 消耗量:        CS 產量 × 1.10–1.20
-Feed 水壓力:          CS 壓力 + 8–10 psig
+Utility Steam :      100–120 psig (7.9–9.25 bar)
+CS  ():        40–60 psig (3.75–5.1 bar)
+:             ≥ 30–40 psig
+Utility :        CS  × 1.10–1.20
+Feed :          CS  + 8–10 psig
 </pre>
                     </div>
 
                     <div class="practice-box">
-                        <h4>思考練習</h4>
-                        <p>如果你的工廠 utility steam 壓力只有 80 psig，而淨蒸汽需求壓力為 50 psig，壓差僅 30 psig。這會帶來什麼問題？該如何改善？</p>
+                        <h4></h4>
+                        <p> utility steam  80 psig， 50 psig， 30 psig。？？</p>
                     </div>
                 </div>
             </div>
@@ -496,7 +496,7 @@ Feed 水壓力:          CS 壓力 + 8–10 psig
         <div class="chapter-divider">
             <div class="chapter-badge">7.8</div>
             <div class="chapter-info">
-                <h2>Sizing the Clean Steam System — 淨蒸汽系統尺寸設計</h2>
+                <h2>Sizing the Clean Steam System — </h2>
                 <p>Capacity calculation, diversity factor, generator selection | pp. 102–103</p>
             </div>
         </div>
@@ -521,27 +521,27 @@ Feed 水壓力:          CS 壓力 + 8–10 psig
                 </div>
 
                 <div class="right-column">
-                    <div class="column-header">中文解說與學習重點</div>
+                    <div class="column-header"></div>
 
                     <div class="concept-box">
-                        <h4>Sizing 基本步驟</h4>
+                        <h4>Sizing </h4>
                         <ol>
-                            <li><strong>列出所有使用點</strong>：滅菌器、凝水器、SIP 腳位等</li>
-                            <li><strong>計算尖峰需求</strong>：每個使用點的最大蒸汽消耗量</li>
-                            <li><strong>應用多樣性係數 (Diversity Factor)</strong>：不是所有使用點同時運作，典型 0.6–0.8</li>
-                            <li><strong>加安全裕量</strong>：通常 10%–20%</li>
-                            <li><strong>選型發生器</strong>：確保容量 ≥ 計算需求</li>
+                            <li><strong></strong>：、、SIP </li>
+                            <li><strong></strong>：</li>
+                            <li><strong> (Diversity Factor)</strong>：， 0.6–0.8</li>
+                            <li><strong></strong>： 10%–20%</li>
+                            <li><strong></strong>： ≥ </li>
                         </ol>
                     </div>
 
                     <div class="analogy-box">
-                        <h4>比喻：「瀎水器」與「淨水器」</h4>
-                        <p>Simple CS Generator 就像一臺基本瀎水器：能燒沸水，但不能過濾雜質。如果水源本身夠乾淨，燒出來的蒸汽就沒問題。但如果水源含雜質，就需要「淨水器」（Sanitary CS Generator 的分離器）來確保蒸汽品質。</p>
+                        <h4>：「」「」</h4>
+                        <p>Simple CS Generator ：，。，。，「」（Sanitary CS Generator ）。</p>
                     </div>
 
                     <div class="concept-box">
-                        <h4>使用點獨立分離器 (Point-of-Use Separator)</h4>
-                        <p>配合 Simple CS Generator 的補救措施：在使用點前安裝獨立衛生級分離器。同樣可用於 Sanitary CS 系統中，補償配送管線熱損造成的額外水分。</p>
+                        <h4> (Point-of-Use Separator)</h4>
+                        <p> Simple CS Generator ：。 Sanitary CS ，。</p>
                     </div>
                 </div>
             </div>
@@ -553,7 +553,7 @@ Feed 水壓力:          CS 壓力 + 8–10 psig
         <div class="chapter-divider">
             <div class="chapter-badge">7.8.2</div>
             <div class="chapter-info">
-                <h2>Steam Condensate Sampling — 蒸汽凝結水取樣</h2>
+                <h2>Steam Condensate Sampling — </h2>
                 <p>Purity sampling (endotoxin, conductivity) and quality sampling (dryness, NCGs) | pp. 103–104</p>
             </div>
         </div>
@@ -574,21 +574,21 @@ Feed 水壓力:          CS 壓力 + 8–10 psig
                 </div>
 
                 <div class="right-column">
-                    <div class="column-header">中文解說與學習重點</div>
+                    <div class="column-header"></div>
 
                     <div class="note-box">
-                        <h4>3–4 log 內毒素去除：非常高的指標</h4>
-                        <p>3 log = 99.9% 去除；4 log = 99.99% 去除。這代表一個設計良好的帶分離器的 CS 發生器可以將進料水中的內毒素降低到非常安全的水平。</p>
+                        <h4>3–4 log ：</h4>
+                        <p>3 log = 99.9% ；4 log = 99.99% 。 CS 。</p>
                     </div>
 
                     <div class="analogy-box">
-                        <h4>比喻：「血壓計」與「體脂機」</h4>
-                        <p>Purity sampling 就像量血壓：確認「成分」是否合格。Quality sampling 就像測體脂：確認「物理狀態」是否合格（蒸汽夠乾、沒有空氣）。兩者都需要，但目的不同。</p>
+                        <h4>：「」「」</h4>
+                        <p>Purity sampling ：「」。Quality sampling ：「」（、）。，。</p>
                     </div>
 
                     <div class="practice-box">
-                        <h4>實務思考</h4>
-                        <p>你的工廠在哪些位置安裝了 sample cooler？是在發生器出口、配送管線中、還是使用點？ISPE 推薦使用點，因為那才是蒸汽實際進入製程的狀態。</p>
+                        <h4></h4>
+                        <p> sample cooler？、、？ISPE ，。</p>
                     </div>
                 </div>
             </div>
@@ -600,7 +600,7 @@ Feed 水壓力:          CS 壓力 + 8–10 psig
         <div class="chapter-divider">
             <div class="chapter-badge">7.8.3</div>
             <div class="chapter-info">
-                <h2>Materials of Construction — 材質規格</h2>
+                <h2>Materials of Construction — </h2>
                 <p>Stainless steel, titanium, and carbon steel applications | pp. 104–105</p>
             </div>
         </div>
@@ -627,20 +627,20 @@ Feed 水壓力:          CS 壓力 + 8–10 psig
                 </div>
 
                 <div class="right-column">
-                    <div class="column-header">中文解說與學習重點</div>
+                    <div class="column-header"></div>
 
                     <div class="concept-box">
-                        <h4>材質選擇兩大原則</h4>
+                        <h4></h4>
                         <ul>
-                            <li><strong>結構強度</strong>：耐受蒸汽壓力與溫度</li>
-                            <li><strong>化學相容性</strong>：不與淨蒸汽/凝結水反應、不污染藥品</li>
+                            <li><strong></strong>：</li>
+                            <li><strong></strong>：/、</li>
                         </ul>
-                        <p>淨蒸汽本身極具腐蝕性（高純水+高溫），因此必須使用耐腐蝕材料。</p>
+                        <p>（+），。</p>
                     </div>
 
                     <div class="analogy-box">
-                        <h4>為什麼用鈰？</h4>
-                        <p>鈰合金在蒸發器管子中的優勢：耐腐蝕性比不鏽鋼更佳，尤其對氯化物的抗性。但成本較高，通常在進料水中可能含有微量氯化物的應用中才會選用。</p>
+                        <h4>？</h4>
+                        <p>：，。，。</p>
                     </div>
                 </div>
             </div>
@@ -652,7 +652,7 @@ Feed 水壓力:          CS 壓力 + 8–10 psig
         <div class="chapter-divider">
             <div class="chapter-badge">7.8.4</div>
             <div class="chapter-info">
-                <h2>Surface Finish — 表面處理</h2>
+                <h2>Surface Finish — </h2>
                 <p>Mechanical polishing, electropolishing, passivation | p. 104</p>
             </div>
         </div>
@@ -665,20 +665,20 @@ Feed 水壓力:          CS 壓力 + 8–10 psig
                 </div>
 
                 <div class="right-column">
-                    <div class="column-header">中文解說與學習重點</div>
+                    <div class="column-header"></div>
 
                     <div class="concept-box">
-                        <h4>表面處理的目的</h4>
-                        <p>淨蒸汽系統的表面處理主要目的不是抑菌（因為運作溫度已足夠殺菌），而是：</p>
+                        <h4></h4>
+                        <p>（），：</p>
                         <ul>
-                            <li><strong>防腐蝕</strong>：通過形成 Cr₂O₃ 氧化鉻保護層</li>
-                            <li><strong>處理焊接痕跡</strong>：MP 應用於機械焊接的最終處理</li>
+                            <li><strong></strong>： Cr₂O₃ </li>
+                            <li><strong></strong>：MP </li>
                         </ul>
                     </div>
 
                     <div class="note-box">
-                        <h4>氯的致命威脅</h4>
-                        <p>無論表面處理多好，氯和氯化物都會摧毀發生器。這是整個 CS 系統最大的化學威脅，必須在進料水前處理階段徹底移除。</p>
+                        <h4></h4>
+                        <p>，。 CS ，。</p>
                     </div>
                 </div>
             </div>
@@ -690,7 +690,7 @@ Feed 水壓力:          CS 壓力 + 8–10 psig
         <div class="chapter-divider">
             <div class="chapter-badge">7.8.5</div>
             <div class="chapter-info">
-                <h2>Pretreatment for CS Generators — 淨蒸汽發生器前處理</h2>
+                <h2>Pretreatment for CS Generators — </h2>
                 <p>Scale, corrosion, and volatile carryover considerations | pp. 105–106</p>
             </div>
         </div>
@@ -721,50 +721,50 @@ Feed 水壓力:          CS 壓力 + 8–10 psig
                 </div>
 
                 <div class="right-column">
-                    <div class="column-header">中文解說與學習重點</div>
+                    <div class="column-header"></div>
 
                     <div class="concept-box">
-                        <h4>前處理三大課題</h4>
-                        <p>CS 發生器的進料水前處理必須同時解決三個問題，缺一不可：</p>
+                        <h4></h4>
+                        <p>CS ，：</p>
                         <ul>
-                            <li><strong>水垢 (Scale)</strong>：降低 TDS &amp; 矽，零硬度</li>
-                            <li><strong>腐蝕 (Corrosion)</strong>：移除游離氯</li>
-                            <li><strong>揮發性物質 (Volatiles)</strong>：移除 NH₃、CO₂</li>
+                            <li><strong> (Scale)</strong>： TDS &amp; ，</li>
+                            <li><strong> (Corrosion)</strong>：</li>
+                            <li><strong> (Volatiles)</strong>： NH₃、CO₂</li>
                         </ul>
                     </div>
 
                     <div class="note-box">
-                        <h4>水垢問題詳解</h4>
-                        <p>淨蒸汽發生器不能使用水垢抑制劑（因為會污染蒸汽），因此進料水本身必須非常乾淨：</p>
+                        <h4></h4>
+                        <p>（），：</p>
                         <ul>
-                            <li>TDS 要非常低（通常使用 DI 或 RO 水）</li>
-                            <li>矽含量 &lt; 1 ppm（嚴格）至 &lt; 5 ppm（寬鬆）</li>
-                            <li>硬度 = 0（無可測量硬度）</li>
+                            <li>TDS （ DI  RO ）</li>
+                            <li> &lt; 1 ppm（） &lt; 5 ppm（）</li>
+                            <li> = 0（）</li>
                         </ul>
-                        <p>即使用軟化水，高 TDS 仍可能形成鈉垢和污泥。</p>
+                        <p>， TDS 。</p>
                     </div>
 
                     <div class="note-box">
-                        <h4>氯的腐蝕機制 — 深層解說</h4>
-                        <p>氯的危害最大難點在於「局部濃縮」：即使進料水中氯含量很低（&lt;1 ppm），氯會遷移到縫隙、死角處濃縮到數十至數百 ppm，造成劇烈局部腐蝕。解決方法：</p>
+                        <h4> — </h4>
+                        <p>「」：（&lt;1 ppm），、 ppm，。：</p>
                         <ul>
-                            <li>化學注入還原劑（如亞硫酸氫鈉）</li>
-                            <li>活性碳過濾</li>
+                            <li>（）</li>
+                            <li></li>
                         </ul>
                     </div>
 
                     <div class="analogy-box">
-                        <h4>比喻：「食物過敏原」</h4>
-                        <p>對 CS 發生器而言，氯就像人體的過敏原 — 即使微量也能觸發嚴重反應。而揮發性物質（NH₃、CO₂）就像「食物氣味」，會跟著蒸汽一起走，影響最終產品的「味道」（電導度）。</p>
+                        <h4>：「」</h4>
+                        <p> CS ， — 。（NH₃、CO₂）「」，，「」（）。</p>
                     </div>
 
                     <div class="practice-box">
-                        <h4>實務檢查清單</h4>
+                        <h4></h4>
                         <ul>
-                            <li>你的工廠 CS 發生器進料水是用什麼？DI？RO？還是軟化水？</li>
-                            <li>是否定期監測進料水的矽含量和游離氯？</li>
-                            <li>發生器是否有定期除垢與目視檢查的 SOP？</li>
-                            <li>Blow down rate 是多少？是否足以控制濃縮倍數？</li>
+                            <li> CS ？DI？RO？？</li>
+                            <li>？</li>
+                            <li> SOP？</li>
+                            <li>Blow down rate ？？</li>
                         </ul>
                     </div>
                 </div>
@@ -777,7 +777,7 @@ Feed 水壓力:          CS 壓力 + 8–10 psig
         <div class="chapter-divider">
             <div class="chapter-badge">7.9</div>
             <div class="chapter-info">
-                <h2>Cost Implications — 成本考量</h2>
+                <h2>Cost Implications — </h2>
                 <p>Economics of pharmaceutical steam production | p. 106</p>
             </div>
         </div>
@@ -791,23 +791,23 @@ Feed 水壓力:          CS 壓力 + 8–10 psig
                 </div>
 
                 <div class="right-column">
-                    <div class="column-header">中文解說與學習重點</div>
+                    <div class="column-header"></div>
 
                     <div class="concept-box">
-                        <h4>成本組成</h4>
-                        <p>藥用蒸汽的總成本 = 進料水成本 + 前處理成本 + 最終處理成本</p>
+                        <h4></h4>
+                        <p> =  +  + </p>
                         <ul>
-                            <li><strong>進料水</strong>：市政水/井水成本</li>
-                            <li><strong>前處理</strong>：軟化、RO、DI 等設備與耗材</li>
-                            <li><strong>最終處理</strong>：離子交換、拋光等</li>
-                            <li><strong>運行成本</strong>：酸、鹼、鹽、電力、源水</li>
-                            <li><strong>維護成本</strong>：定期除垢、鈍化、改管等</li>
+                            <li><strong></strong>：/</li>
+                            <li><strong></strong>：、RO、DI </li>
+                            <li><strong></strong>：、</li>
+                            <li><strong></strong>：、、、、</li>
+                            <li><strong></strong>：、、</li>
                         </ul>
                     </div>
 
                     <div class="note-box">
-                        <h4>成本決策的關鍵</h4>
-                        <p>進料水水質越差，前處理成本越高。但用藥典級水（WFI）作為進料水通常浪費，除非蒸汽用量很小。最佳實務是：專用 RO/DI 系統供水給 CS 發生器，與 WFI 系統分開。</p>
+                        <h4></h4>
+                        <p>，。（WFI），。： RO/DI  CS ， WFI 。</p>
                     </div>
                 </div>
             </div>
@@ -819,7 +819,7 @@ Feed 水壓力:          CS 壓力 + 8–10 psig
         <div class="chapter-divider">
             <div class="chapter-badge">7.10</div>
             <div class="chapter-info">
-                <h2>Steam “Quality” — 蒸汽「品質」（乾燥度）</h2>
+                <h2>Steam “Quality” — 「」（）</h2>
                 <p>Dryness fraction, saturation, and moisture sources | p. 106</p>
             </div>
         </div>
@@ -838,43 +838,43 @@ Feed 水壓力:          CS 壓力 + 8–10 psig
                 </div>
 
                 <div class="right-column">
-                    <div class="column-header">中文解說與學習重點</div>
+                    <div class="column-header"></div>
 
                     <div class="concept-box">
-                        <h4>Steam Quality 的定義</h4>
-                        <p>蒸汽品質（乾燥度）= 蒸汽質量 ÷ （蒸汽質量 + 水質量）</p>
+                        <h4>Steam Quality </h4>
+                        <p>（）=  ÷ （ + ）</p>
                         <ul>
-                            <li><strong>100% = 乾飽和蒸汽</strong>：理想狀態，滅菌效率最高</li>
-                            <li><strong>&lt;100% = 濕蒸汽</strong>：攜帶水分，滅菌效率降低</li>
-                            <li><strong>&gt;100% = 過熱蒸汽</strong>：熱交換效率差，也不利滅菌</li>
+                            <li><strong>100% = </strong>：，</li>
+                            <li><strong>&lt;100% = </strong>：，</li>
+                            <li><strong>&gt;100% = </strong>：，</li>
                         </ul>
                     </div>
 
                     <div class="formula-box">
-                        <h4>公式：蒸汽乾燥度</h4>
+                        <h4>：</h4>
 <pre>
 Steam Quality (x) = m_steam / (m_steam + m_water)
 
-其中：
-  m_steam = 蒸汽質量
-  m_water = 攜帶的水分質量
+：
+  m_steam = 
+  m_water = 
 
-理想值：x ≥ 0.95 (即 ≥ 95% 乾燥度)
+：x ≥ 0.95 ( ≥ 95% )
 </pre>
                     </div>
 
                     <div class="analogy-box">
-                        <h4>比喻：「濕毛巾烘衣服」</h4>
-                        <p>想像用毛巾擦乾衣服：如果毛巾本身是濕的（濕蒸汽），擦來擦去衣服也乾不了。只有乾毛巾（乾飽和蒸汽）才能有效地「擦乾」（滅菌）。但如果用烘乾機（過熱蒸汽），溫度太高反而可能傷衣料。</p>
+                        <h4>：「」</h4>
+                        <p>：（），。（）「」（）。（），。</p>
                     </div>
 
                     <div class="note-box">
-                        <h4>減少蒸汽中水分的方法</h4>
+                        <h4></h4>
                         <ul>
-                            <li><strong>提高溫度/熱量</strong>：讓攜帶水分蒸發</li>
-                            <li><strong>降壓</strong>：蒸汽膨脹，相對飽和度上升</li>
-                            <li><strong>安裝分離器</strong>：機械方式移除液滴</li>
-                            <li><strong>安裝蒸汽陀 (Steam Trap)</strong>：排出已分離的凝結水</li>
+                            <li><strong>/</strong>：</li>
+                            <li><strong></strong>：，</li>
+                            <li><strong></strong>：</li>
+                            <li><strong> (Steam Trap)</strong>：</li>
                         </ul>
                     </div>
                 </div>
@@ -887,7 +887,7 @@ Steam Quality (x) = m_steam / (m_steam + m_water)
         <div class="chapter-divider">
             <div class="chapter-badge">7.11</div>
             <div class="chapter-info">
-                <h2>Distribution — 淨蒸汽配送系統</h2>
+                <h2>Distribution — </h2>
                 <p>Materials, connections, traps, and general design practices | pp. 106–107</p>
             </div>
         </div>
@@ -905,17 +905,17 @@ Steam Quality (x) = m_steam / (m_steam + m_water)
                 </div>
 
                 <div class="right-column">
-                    <div class="column-header">中文解說與學習重點</div>
+                    <div class="column-header"></div>
 
                     <div class="concept-box">
-                        <h4>CS 配送與 Utility Steam 配送的異同</h4>
-                        <p><strong>相同點</strong>：都遵循良好工程實務 — 排凝結水、排空氣、支撐管線、熱膨脹補償。</p>
-                        <p><strong>不同點</strong>：CS 配送必須全程使用耐腐蝕材料（304/316/316L SS），因為淨蒸汽極具腐蝕性。</p>
+                        <h4>CS  Utility Steam </h4>
+                        <p><strong></strong>： — 、、、。</p>
+                        <p><strong></strong>：CS （304/316/316L SS），。</p>
                     </div>
 
                     <div class="analogy-box">
-                        <h4>為什麼用 Ball Valve 而不是 Diaphragm Valve？</h4>
-                        <p>想像在炎熱環境中使用橡膠手套與金屬工具：橡膠手套（橡膠隔膜）很快就會老化變脫，而金屬工具（金屬球閥）則能長期耐受高溫。CS 配送溫度高、腐蝕性強，橡膠隔膜壽命明顯縮短。</p>
+                        <h4> Ball Valve  Diaphragm Valve？</h4>
+                        <p>：（），（）。CS 、，。</p>
                     </div>
                 </div>
             </div>
@@ -927,7 +927,7 @@ Steam Quality (x) = m_steam / (m_steam + m_water)
         <div class="chapter-divider">
             <div class="chapter-badge">7.11.1</div>
             <div class="chapter-info">
-                <h2>Line Sizing — 管徑選擇</h2>
+                <h2>Line Sizing — </h2>
                 <p>Maximum velocity and erosion control | p. 107</p>
             </div>
         </div>
@@ -939,25 +939,25 @@ Steam Quality (x) = m_steam / (m_steam + m_water)
                 </div>
 
                 <div class="right-column">
-                    <div class="column-header">中文解說與學習重點</div>
+                    <div class="column-header"></div>
 
                     <div class="formula-box">
-                        <h4>關鍵設計數據</h4>
+                        <h4></h4>
 <pre>
-蒸汽幹管最大流速:
+:
   7,200 ft/min = 120 ft/sec = 37 m/sec
 
-超過此速度 → 管壁侵蝕加速 → 管線壽命縮短
+ →  → 
 </pre>
                     </div>
 
                     <div class="concept-box">
-                        <h4>實務意義</h4>
-                        <p>這個速度限制是避免「高速侵蝕」的設計上限。在實際設計中：</p>
+                        <h4></h4>
+                        <p>「」。：</p>
                         <ul>
-                            <li>根據尖峰流量計算所需管徑</li>
-                            <li>確保在最大負荷時流速 ≤ 37 m/s</li>
-                            <li>凝結水管按一般 utility condensate 標準設計</li>
+                            <li></li>
+                            <li> ≤ 37 m/s</li>
+                            <li> utility condensate </li>
                         </ul>
                     </div>
                 </div>
@@ -970,7 +970,7 @@ Steam Quality (x) = m_steam / (m_steam + m_water)
         <div class="chapter-divider">
             <div class="chapter-badge">7.11.2</div>
             <div class="chapter-info">
-                <h2>Water Moisture Removal — 除濕/去水分</h2>
+                <h2>Water Moisture Removal — /</h2>
                 <p>Pressure reduction, in-line separators | p. 107</p>
             </div>
         </div>
@@ -985,24 +985,24 @@ Steam Quality (x) = m_steam / (m_steam + m_water)
                 </div>
 
                 <div class="right-column">
-                    <div class="column-header">中文解說與學習重點</div>
+                    <div class="column-header"></div>
 
                     <div class="concept-box">
-                        <h4>兩種除濕方法</h4>
+                        <h4></h4>
                         <ul>
-                            <li><strong>方法 1：降壓</strong> — 在使用點前降低蒸汽壓力，讓蒸汽在新的壓力下達到飽和狀態，多餘的熱量讓攜帶水分蒸發</li>
-                            <li><strong>方法 2：線內分離器</strong> — 利用擋板 (baffles) 使水滴撞擊並靠重力落下，效率 &gt;99%（&gt;10 μm）</li>
+                            <li><strong> 1：</strong> — ，，</li>
+                            <li><strong> 2：</strong> —  (baffles) ， &gt;99%（&gt;10 μm）</li>
                         </ul>
                     </div>
 
                     <div class="note-box">
-                        <h4>分離器安裝位置的註意事項</h4>
-                        <p>如果分離器安裝在調壓閥 (regulator) 上游，必須保護調壓閥免受：</p>
+                        <h4></h4>
+                        <p> (regulator) ，：</p>
                         <ul>
-                            <li><strong>Wire drawing</strong>：水流沖刷閥座造成的損傷</li>
-                            <li><strong>Impingement damage</strong>：水滴撞擊隔膜造成的損壞</li>
+                            <li><strong>Wire drawing</strong>：</li>
+                            <li><strong>Impingement damage</strong>：</li>
                         </ul>
-                        <p>因此許多設計將分離器放在調壓閥下游。</p>
+                        <p>。</p>
                     </div>
                 </div>
             </div>
@@ -1014,7 +1014,7 @@ Steam Quality (x) = m_steam / (m_steam + m_water)
         <div class="chapter-divider">
             <div class="chapter-badge">7.11.3</div>
             <div class="chapter-info">
-                <h2>Condensate Removal — 凝結水排除</h2>
+                <h2>Condensate Removal — </h2>
                 <p>Steam traps, water hammer prevention, bacterial contamination | pp. 107–108</p>
             </div>
         </div>
@@ -1036,25 +1036,25 @@ Steam Quality (x) = m_steam / (m_steam + m_water)
                 </div>
 
                 <div class="right-column">
-                    <div class="column-header">中文解說與學習重點</div>
+                    <div class="column-header"></div>
 
                     <div class="concept-box">
-                        <h4>凝結水的三大風險</h4>
+                        <h4></h4>
                         <ul>
-                            <li><strong>水錘 (Water Hammer)</strong>：凝結水被蒸汽推動撞擊管壁，可能造成管線破裂</li>
-                            <li><strong>細菌滋生</strong>：冷卻的凝結水是微生物溫床，細菌可能被帶回主管</li>
-                            <li><strong>滅菌失敗</strong>：冷點無法達到滅菌溫度</li>
+                            <li><strong> (Water Hammer)</strong>：，</li>
+                            <li><strong></strong>：，</li>
+                            <li><strong></strong>：</li>
                         </ul>
                     </div>
 
                     <div class="analogy-box">
-                        <h4>比喻：「屋頂排水溝」</h4>
-                        <p>蒸汽管線的凝結水管理就像屋頂排水：如果排水溝垮陷或堵塞，水就會積在屋頂上，最終造成漏水（水錘）或發霉（細菌）。良好的斜度設計和定期清理（steam trap）是關鍵。</p>
+                        <h4>：「」</h4>
+                        <p>：，，（）（）。（steam trap）。</p>
                     </div>
 
                     <div class="practice-box">
-                        <h4>實務檢查</h4>
-                        <p>你的工廠的 CS 管線是幹管在上還是在下？支管是從幹管頂部還是側面接出？每個 steam trap 是否定期檢查（卡死的 trap 會排不出凝結水，洩漏的 trap 會排掉蒸汽）？</p>
+                        <h4></h4>
+                        <p> CS ？？ steam trap （ trap ， trap ）？</p>
                     </div>
                 </div>
             </div>
@@ -1066,7 +1066,7 @@ Steam Quality (x) = m_steam / (m_steam + m_water)
         <div class="chapter-divider">
             <div class="chapter-badge">7.11.4</div>
             <div class="chapter-info">
-                <h2>Non-Condensable Gas Removal — 不凝結氣體排除</h2>
+                <h2>Non-Condensable Gas Removal — </h2>
                 <p>Air as insulator, thermostatic traps, correct piping | p. 108</p>
             </div>
         </div>
@@ -1085,30 +1085,30 @@ Steam Quality (x) = m_steam / (m_steam + m_water)
                 </div>
 
                 <div class="right-column">
-                    <div class="column-header">中文解說與學習重點</div>
+                    <div class="column-header"></div>
 
                     <div class="concept-box">
-                        <h4>空氣為什麼是滅菌的敵人？</h4>
-                        <p>空氣是優良的「隔熱層」，會在被滅菌表面形成氣袋，阻擋蒸汽接觸該表面。結果：</p>
+                        <h4>？</h4>
+                        <p>「」，，。：</p>
                         <ul>
-                            <li>該區域溫度達不到滅菌要求</li>
-                            <li>造成「冷點」，滅菌不完全</li>
-                            <li>嚴重時導致整個 SIP 失敗</li>
+                            <li></li>
+                            <li>「」，</li>
+                            <li> SIP </li>
                         </ul>
                     </div>
 
                     <div class="note-box">
-                        <h4>NCG 排除策略</h4>
+                        <h4>NCG </h4>
                         <ul>
-                            <li><strong>設備：</strong>熱靜力式 (thermostatic) 藥用蒸汽陀，進口朝上安裝</li>
-                            <li><strong>位置：</strong>幹管與大支管的末端、槽體/反應器/滅菌器的高點</li>
-                            <li><strong>大容器底部：</strong>需將空氣與凝結水通過正確配管分開</li>
+                            <li><strong>：</strong> (thermostatic) ，</li>
+                            <li><strong>：</strong>、//</li>
+                            <li><strong>：</strong></li>
                         </ul>
                     </div>
 
                     <div class="analogy-box">
-                        <h4>比喻：「池塘的水面膜」</h4>
-                        <p>空氣在蒸汽系統中就像池塘表面的一層膜 — 看不見但會阻止熱量穿透。就像在澡缸裡放了一層保鲜膜，炎水的熱量就無法有效傳遞到被滅菌的物品。</p>
+                        <h4>：「」</h4>
+                        <p> — 。，。</p>
                     </div>
                 </div>
             </div>
@@ -1120,7 +1120,7 @@ Steam Quality (x) = m_steam / (m_steam + m_water)
         <div class="chapter-divider">
             <div class="chapter-badge">7.11.5</div>
             <div class="chapter-info">
-                <h2>Superheat — 過熱</h2>
+                <h2>Superheat — </h2>
                 <p>Impact on sterilization efficiency | p. 108</p>
             </div>
         </div>
@@ -1132,21 +1132,21 @@ Steam Quality (x) = m_steam / (m_steam + m_water)
                 </div>
 
                 <div class="right-column">
-                    <div class="column-header">中文解說與學習重點</div>
+                    <div class="column-header"></div>
 
                     <div class="concept-box">
-                        <h4>過熱蒸汽的問題</h4>
-                        <p>過熱蒸汽溫度高於該壓力下的飽和溫度，看似「更熱」，但實際上：</p>
+                        <h4></h4>
+                        <p>，「」，：</p>
                         <ul>
-                            <li><strong>潛熱 (Latent Heat) 減少</strong>：過熱蒸汽的熱交換主要靠顯熱，而非相變潛熱，效率較低</li>
-                            <li><strong>滅菌時間增加</strong>：需要更長的滅菌週期</li>
-                            <li><strong>為什麼高壓更糟</strong>：壓力越高，飽和蒸汽的潛熱越低，滅菌效率越差</li>
+                            <li><strong> (Latent Heat) </strong>：，，</li>
+                            <li><strong></strong>：</li>
+                            <li><strong></strong>：，，</li>
                         </ul>
                     </div>
 
                     <div class="analogy-box">
-                        <h4>比喻：「燒紅的鐵塊」vs「蒸籠」</h4>
-                        <p>過熱蒸汽就像用燒紅的鐵塊去蒸食物 — 雖然溫度很高，但熱量傳遞效率遠不如蒸籠（飽和蒸汽）。蒸籠靠的是蒸汽凝結釋放潛熱，這才是最高效的熱傳遞方式。</p>
+                        <h4>：「」vs「」</h4>
+                        <p> — ，（）。，。</p>
                     </div>
                 </div>
             </div>
@@ -1158,7 +1158,7 @@ Steam Quality (x) = m_steam / (m_steam + m_water)
         <div class="chapter-divider">
             <div class="chapter-badge">7.12</div>
             <div class="chapter-info">
-                <h2>Four Examples of Correct Piping Practice — 四個正確配管實務範例</h2>
+                <h2>Four Examples of Correct Piping Practice — </h2>
                 <p>Practical installation guidance from Figure 7-4 | pp. 109–110</p>
             </div>
         </div>
@@ -1182,40 +1182,40 @@ Steam Quality (x) = m_steam / (m_steam + m_water)
                 </div>
 
                 <div class="right-column">
-                    <div class="column-header">中文解說與學習重點</div>
+                    <div class="column-header"></div>
 
                     <div class="note-box">
-                        <h4>範例 1 詳解：支管從頂部接出</h4>
-                        <p>這是最常見的配置。如果支管從幹管側面或底部接出，幹管中的凝結水會直接流入支管，增加水錘與污染風險。從頂部接出，只有乾蒸汽進入支管。</p>
+                        <h4> 1 ：</h4>
+                        <p>。，，。，。</p>
                     </div>
 
                     <div class="note-box">
-                        <h4>範例 3 詳解：空氣與凝結水分離</h4>
-                        <p>大容器底部同時有空氣和凝結水需要排出。如果共用同一管路，空氣會堵塞 trap，導致凝結水排不出去。因此必須：</p>
+                        <h4> 3 ：</h4>
+                        <p>。， trap，。：</p>
                         <ul>
-                            <li>熱靜力式 trap（進口朝上）負責排空氣</li>
-                            <li>標準 steam trap 負責排凝結水</li>
+                            <li> trap（）</li>
+                            <li> steam trap </li>
                         </ul>
                     </div>
 
                     <div class="note-box">
-                        <h4>範例 4 詳解：短落管豁免條件</h4>
-                        <p>只有在以下條件都滿足時才能豁免：</p>
+                        <h4> 4 ：</h4>
+                        <p>：</p>
                         <ul>
-                            <li>落管距離短</li>
-                            <li>設備每天都在使用（如每日滅菌）</li>
-                            <li>凝結水量不足以影響水錘和滅菌</li>
+                            <li></li>
+                            <li>（）</li>
+                            <li></li>
                         </ul>
                     </div>
 
                     <div class="practice-box">
-                        <h4>綜合思考練習</h4>
-                        <p>在你的工廠中，CS 配送管線是哪種配置？請逐一檢查：</p>
+                        <h4></h4>
+                        <p>，CS ？：</p>
                         <ul>
-                            <li>支管是否從幹管頂部接出？</li>
-                            <li>每個 steam trap 是否正常運作？</li>
-                            <li>大容器底部是否有獨立的排氣與排水管路？</li>
-                            <li>有哪些「短落管」被豁免了 trap？豁免條件是否真的滿足？</li>
+                            <li>？</li>
+                            <li> steam trap ？</li>
+                            <li>？</li>
+                            <li>「」 trap？？</li>
                         </ul>
                     </div>
                 </div>
@@ -1225,18 +1225,18 @@ Steam Quality (x) = m_steam / (m_steam + m_water)
 
     <!-- ========== SECTION SUMMARY ========== -->
     <div class="section-summary" id="summary">
-        <h3>Section Summary 本節摘要</h3>
-        <p>本節涵蓋了淨蒸汽系統從生成到配送的完整知識體系：</p>
+        <h3>Section Summary </h3>
+        <p>：</p>
         <ul>
-            <li><strong>發生器運作</strong>：Sanitary CS Generator 以管殼式熱交換器+分離器+回饋控制產生高純度淨蒸汽；Simple CS Generator 省略分離器和衛生級特徵，適用於非產品接觸場景</li>
-            <li><strong>Sizing</strong>：識別使用點→尖峰需求→多樣性係數→安全裕量→選型</li>
-            <li><strong>取樣</strong>：Purity sampling（電導度/內毒素）與 Quality sampling（乾燥度/NCG）必須分開考慮</li>
-            <li><strong>材質與表面</strong>：300 系 SS/鈰為主，鈍化或 EP 優化 Cr₂O₃ 保護層，氯是最大威脅</li>
-            <li><strong>前處理</strong>：三大課題：水垢（低TDS/矽/零硬度）、腐蝕（除氯）、揮發性物質（除NH₃/CO₂）</li>
-            <li><strong>蒸汽品質</strong>：乾飽和蒸汽最佳，過熱蒸汽反而降低滅菌效率</li>
-            <li><strong>配送</strong>：304/316L SS、≤37 m/s 流速、Ball valve 首選、分離器+Steam trap 組合除濕排凝</li>
-            <li><strong>NCG 排除</strong>：空氣是隔熱層，必須用熱靜力式 trap 在高點和末端排除</li>
-            <li><strong>四個配管範例</strong>：支管頂部接出、幹管在下自然回流、大容器排氣排水分離、短落管豁免</li>
+            <li><strong></strong>：Sanitary CS Generator ++；Simple CS Generator ，</li>
+            <li><strong>Sizing</strong>：→→→→</li>
+            <li><strong></strong>：Purity sampling（/） Quality sampling（/NCG）</li>
+            <li><strong></strong>：300  SS/， EP  Cr₂O₃ ，</li>
+            <li><strong></strong>：：（TDS//）、（）、（NH₃/CO₂）</li>
+            <li><strong></strong>：，</li>
+            <li><strong></strong>：304/316L SS、≤37 m/s 、Ball valve 、+Steam trap </li>
+            <li><strong>NCG </strong>：， trap </li>
+            <li><strong></strong>：、、、</li>
         </ul>
     </div>
 

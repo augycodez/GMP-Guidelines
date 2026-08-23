@@ -10,13 +10,13 @@ const departments = [
   {
     id: 'qa',
     name: 'Quality Assurance',
-    nameZh: '品質保證部',
+    nameZh: '',
     icon: '🛡️',
     color: '#2563eb',
     description: 'GMP foundations, quality systems, risk management, contamination control strategy, validation lifecycle, and regulatory compliance.',
     tiers: [
       {
-        level: 1, label: 'Foundation', labelZh: '基礎必讀',
+        level: 1, label: 'Foundation', labelZh: '',
         docs: [
           { key: 'ICH-Q10',     required: true,  why: 'Pharmaceutical Quality System — the backbone of QA operations' },
           { key: 'ICH-Q9R1',    required: true,  why: 'Quality Risk Management — every QA decision starts here' },
@@ -26,7 +26,7 @@ const departments = [
         ]
       },
       {
-        level: 2, label: 'Core Competency', labelZh: '核心能力',
+        level: 2, label: 'Core Competency', labelZh: '',
         docs: [
           { key: 'ICH-Q8R2',    required: true,  why: 'QbD / Design Space — understanding process design rationale' },
           { key: 'TR44',         required: true,  why: 'Quality Risk Management for Aseptic Processes' },
@@ -39,7 +39,7 @@ const departments = [
         ]
       },
       {
-        level: 3, label: 'Advanced', labelZh: '進階專業',
+        level: 3, label: 'Advanced', labelZh: '',
         docs: [
           { key: 'FDA-ProcessInspection', required: false, why: 'FDA Process Inspection Guide — preparing for regulatory audits' },
           { key: 'TR65',         required: false, why: 'Technology Transfer — QA role in site transfers' },
@@ -54,13 +54,13 @@ const departments = [
   {
     id: 'qc',
     name: 'Quality Control',
-    nameZh: '品質控制部',
+    nameZh: '',
     icon: '🔬',
     color: '#7c3aed',
     description: 'Laboratory testing methods, pharmacopoeial chapters, microbiology, endotoxin, particulates, EM programs, water testing, and deviation investigations.',
     tiers: [
       {
-        level: 1, label: 'Foundation', labelZh: '基礎必讀',
+        level: 1, label: 'Foundation', labelZh: '',
         docs: [
           { key: 'USP-71',      required: true,  why: 'Sterility Tests — the definitive compendial method' },
           { key: 'USP-85',      required: true,  why: 'Bacterial Endotoxin Test (BET) — LAL/rFC methods' },
@@ -72,7 +72,7 @@ const departments = [
         ]
       },
       {
-        level: 2, label: 'Core Competency', labelZh: '核心能力',
+        level: 2, label: 'Core Competency', labelZh: '',
         docs: [
           { key: 'USP-61',      required: true,  why: 'Microbial Enumeration Tests' },
           { key: 'USP-62',      required: true,  why: 'Tests for Specified Microorganisms' },
@@ -95,7 +95,7 @@ const departments = [
         ]
       },
       {
-        level: 3, label: 'Advanced', labelZh: '進階專業',
+        level: 3, label: 'Advanced', labelZh: '',
         docs: [
           { key: 'USP-1071',    required: false, why: 'Rapid Microbial Tests — modern RMM replacing traditional methods' },
           { key: 'USP-1072',    required: false, why: 'Disinfectants & Antiseptics — QC validates efficacy studies' },
@@ -144,13 +144,13 @@ const departments = [
   {
     id: 'production',
     name: 'Manufacturing / Production',
-    nameZh: '生產製造部',
+    nameZh: '',
     icon: '⚙️',
     color: '#059669',
     description: 'Aseptic filling operations, sterilization, lyophilization, process controls, and day-to-day production excellence.',
     tiers: [
       {
-        level: 1, label: 'Foundation', labelZh: '基礎必讀',
+        level: 1, label: 'Foundation', labelZh: '',
         docs: [
           { key: 'pda-guide-no1', required: true,  why: 'PDA Guide No.1 — Aseptic Filling Engineering & Operation (comprehensive)' },
           { key: 'PICS-Annex1',   required: true,  why: 'PIC/S Annex 1 (2022) — manufacturing requirements & CCS' },
@@ -160,7 +160,7 @@ const departments = [
         ]
       },
       {
-        level: 2, label: 'Core Competency', labelZh: '核心能力',
+        level: 2, label: 'Core Competency', labelZh: '',
         docs: [
           { key: 'TR26',          required: true,  why: 'Sterilizing Filtration of Liquids — daily filter operations' },
           { key: 'TR13-2',        required: true,  why: 'Fundamentals of Sterilization (moist heat, dry heat, radiation)' },
@@ -174,7 +174,7 @@ const departments = [
         ]
       },
       {
-        level: 3, label: 'Advanced', labelZh: '進階專業',
+        level: 3, label: 'Advanced', labelZh: '',
         docs: [
           { key: 'TR62',          required: false, why: 'Lyophilization / Freeze Drying best practices' },
           { key: 'TR73',          required: false, why: 'Prefilled Syringe Systems — filling line considerations' },
@@ -199,13 +199,13 @@ const departments = [
   {
     id: 'engineering',
     name: 'Engineering & Maintenance',
-    nameZh: '工程維護部',
+    nameZh: '',
     icon: '🔧',
     color: '#d97706',
     description: 'Facility design, HVAC, water systems, equipment qualification, cleanroom validation, and preventive maintenance.',
     tiers: [
       {
-        level: 1, label: 'Foundation', labelZh: '基礎必讀',
+        level: 1, label: 'Foundation', labelZh: '',
         docs: [
           { key: 'ISPE-Vol3',       required: true,  why: 'ISPE Baseline Guide Vol.3 — Sterile Manufacturing Facilities' },
           { key: 'ISPE-Vol5',       required: true,  why: 'Commissioning & Qualification — IQ/OQ/PQ' },
@@ -215,7 +215,7 @@ const departments = [
         ]
       },
       {
-        level: 2, label: 'Core Competency', labelZh: '核心能力',
+        level: 2, label: 'Core Competency', labelZh: '',
         docs: [
           { key: 'ISPE-ProcessGas',  required: true,  why: 'Process Gas Systems — compressed gases & distribution' },
           { key: 'ISPE-Vol6',        required: true,  why: 'Biopharmaceutical Manufacturing Facilities' },
@@ -226,7 +226,7 @@ const departments = [
         ]
       },
       {
-        level: 3, label: 'Advanced', labelZh: '進階專業',
+        level: 3, label: 'Advanced', labelZh: '',
         docs: [
           { key: 'PtC-14',          required: false, why: 'ATMP Facility Design — biosafety containment engineering' },
           { key: 'TR91',            required: false, why: 'Mobile Manufacturing Units — modular facility design' },
@@ -248,13 +248,13 @@ const departments = [
   {
     id: 'ra',
     name: 'Regulatory Affairs',
-    nameZh: '法規事務部',
+    nameZh: '',
     icon: '📋',
     color: '#dc2626',
     description: 'Regulatory expectations, global guidelines, submission requirements, and compliance strategy for sterile products.',
     tiers: [
       {
-        level: 1, label: 'Foundation', labelZh: '基礎必讀',
+        level: 1, label: 'Foundation', labelZh: '',
         docs: [
           { key: 'PICS-Annex1',    required: true,  why: 'PIC/S Annex 1 (2022) — global benchmark for sterile manufacturing' },
           { key: 'ICH-Q8R2',       required: true,  why: 'Pharmaceutical Development — QbD & regulatory expectations' },
@@ -264,7 +264,7 @@ const departments = [
         ]
       },
       {
-        level: 2, label: 'Core Competency', labelZh: '核心能力',
+        level: 2, label: 'Core Competency', labelZh: '',
         docs: [
           { key: 'FDA-ProcessVal',       required: true,  why: 'Process Validation — FDA lifecycle approach' },
           { key: 'FDA-ProcessInspection', required: true,  why: 'Process Inspection Guide — what FDA inspectors look for' },
@@ -277,7 +277,7 @@ const departments = [
         ]
       },
       {
-        level: 3, label: 'Advanced', labelZh: '進階專業',
+        level: 3, label: 'Advanced', labelZh: '',
         docs: [
           { key: 'ISO-13485',      required: false, why: 'ISO 13485 — Medical Device QMS (combo product context)' },
           { key: 'ISO-14971',      required: false, why: 'ISO 14971 — Risk Management for Medical Devices' },
@@ -299,13 +299,13 @@ const departments = [
   {
     id: 'warehouse',
     name: 'Warehouse',
-    nameZh: '倉儲部',
+    nameZh: '',
     icon: '🏗️',
     color: '#0891b2',
     description: 'Material storage & handling, GDP, cold chain management, container closure integrity, and inventory management.',
     tiers: [
       {
-        level: 1, label: 'Foundation', labelZh: '基礎必讀',
+        level: 1, label: 'Foundation', labelZh: '',
         docs: [
           { key: 'PICS-PE011',    required: true,  why: 'PIC/S GDP Guide — comprehensive GDP framework for warehouse & distribution' },
           { key: 'USP-1079',      required: true,  why: 'Good Storage & Distribution Practices — the warehouse bible' },
@@ -316,7 +316,7 @@ const departments = [
         ]
       },
       {
-        level: 2, label: 'Core Competency', labelZh: '核心能力',
+        level: 2, label: 'Core Competency', labelZh: '',
         docs: [
           { key: 'TR66',          required: true,  why: 'Cold Chain handling — temperature excursion management' },
           { key: 'USP-1207',      required: true,  why: 'USP <1207> Package Integrity — storage conditions impact' },
@@ -330,7 +330,7 @@ const departments = [
         ]
       },
       {
-        level: 3, label: 'Advanced', labelZh: '進階專業',
+        level: 3, label: 'Advanced', labelZh: '',
         docs: [
           { key: 'TR54-6',        required: false, why: 'Excipient Risk Assessment — incoming material management' },
           { key: 'ISO-15378',     required: false, why: 'ISO 15378 — Primary Packaging GMP (receiving & storage)' },
@@ -352,13 +352,13 @@ const departments = [
   {
     id: 'techservice',
     name: 'Technical Service',
-    nameZh: '技術服務部',
+    nameZh: '',
     icon: '🛠️',
     color: '#8b5cf6',
     description: 'Process support, troubleshooting, technology transfer (receiving site), validation execution, and continuous process improvement.',
     tiers: [
       {
-        level: 1, label: 'Foundation', labelZh: '基礎必讀',
+        level: 1, label: 'Foundation', labelZh: '',
         docs: [
           { key: 'pda-guide-no1',    required: true,  why: 'Aseptic Filling — process understanding for troubleshooting' },
           { key: 'FDA-ProcessVal',   required: true,  why: 'Process Validation — Stage 2 PPQ & Stage 3 CPV execution' },
@@ -368,7 +368,7 @@ const departments = [
         ]
       },
       {
-        level: 2, label: 'Core Competency', labelZh: '核心能力',
+        level: 2, label: 'Core Competency', labelZh: '',
         docs: [
           { key: 'TR65',            required: true,  why: 'Technology Transfer — receiving site responsibilities' },
           { key: 'ISPE-TechTransfer', required: true, why: 'ISPE Technology Transfer — structured methodology' },
@@ -382,7 +382,7 @@ const departments = [
         ]
       },
       {
-        level: 3, label: 'Advanced', labelZh: '進階專業',
+        level: 3, label: 'Advanced', labelZh: '',
         docs: [
           { key: 'PtC-14',          required: false, why: 'ATMP Manufacturing — specialized process support' },
           { key: 'PICS-Annex2',      required: false, why: 'Biologics GMP — process-specific requirements' },
@@ -407,13 +407,13 @@ const departments = [
   {
     id: 'bt',
     name: 'Biotechnology IT (BT)',
-    nameZh: '資訊技術部',
+    nameZh: '',
     icon: '💻',
     color: '#0f766e',
     description: 'Computerized system validation (CSV/GAMP), data integrity, GxP IT infrastructure qualification, analytical instrument qualification, and emerging digital technologies in pharmaceutical manufacturing.',
     tiers: [
       {
-        level: 1, label: 'Foundation', labelZh: '基礎必讀',
+        level: 1, label: 'Foundation', labelZh: '',
         docs: [
           { key: 'ISPE-GAMP5',  required: true,  why: 'GAMP 5 — definitive CSV standard; risk-based system categorization (Cat 1–5)' },
           { key: 'ICH-Q9R1',    required: true,  why: 'Quality Risk Management — risk-based approach underpins all system validation decisions' },
@@ -423,7 +423,7 @@ const departments = [
         ]
       },
       {
-        level: 2, label: 'Core Competency', labelZh: '核心能力',
+        level: 2, label: 'Core Competency', labelZh: '',
         docs: [
           { key: 'ISPE-IT',     required: true,  why: 'ISPE IT Infrastructure — GxP network, server, cloud, and virtualization qualification' },
           { key: 'USP-1058',    required: true,  why: 'Analytical Instrument Qualification (AIQ) — DQ/IQ/OQ/PQ for lab instruments and software' },
@@ -434,7 +434,7 @@ const departments = [
         ]
       },
       {
-        level: 3, label: 'Advanced', labelZh: '進階專業',
+        level: 3, label: 'Advanced', labelZh: '',
         docs: [
           { key: 'TR86',        required: false, why: 'Blockchain in Supply Chain — serialization, traceability, and decentralized data integrity' },
           { key: 'TR60',        required: false, why: 'Process Validation Lifecycle — Stage 3 CPV statistical tools, SPC, and digital systems integration' },
@@ -581,7 +581,7 @@ function generateSourceMarkdown(reports) {
 const topicNetworkDef = {
   clusters: [
     {
-      id: 'aseptic', name: 'Aseptic Processing', nameZh: '無菌製程', color: '#2563eb',
+      id: 'aseptic', name: 'Aseptic Processing', nameZh: '', color: '#2563eb',
       subtopics: [
         { id: 'aps', name: 'Process Simulation (APS)', tags: ['APS', 'Media Fill'], primaryDoc: 'TR22' },
         { id: 'barriers', name: 'Barrier Systems', tags: ['Isolator', 'RABS', 'RABS/Isolator', 'Barrier Systems'], primaryDoc: 'PtC-12' },
@@ -591,7 +591,7 @@ const topicNetworkDef = {
       ]
     },
     {
-      id: 'sterilization', name: 'Sterilization & Filtration', nameZh: '滅菌與過濾', color: '#7c3aed',
+      id: 'sterilization', name: 'Sterilization & Filtration', nameZh: '', color: '#7c3aed',
       subtopics: [
         { id: 'moist-heat', name: 'Moist Heat / Steam', tags: ['Sterilization', 'Autoclave', 'SIP', 'Steam', 'Moist Heat', 'Sterilisation', 'Steam Sterilisation', 'Biological Indicators', 'SAL', 'Terminal Sterilisation'] },
         { id: 'dry-heat', name: 'Dry Heat & Depyrogenation', tags: ['Depyrogenation', 'Dry Heat', 'Loss on Drying'] },
@@ -600,7 +600,7 @@ const topicNetworkDef = {
       ]
     },
     {
-      id: 'containers', name: 'Container Closure', nameZh: '容器封蓋', color: '#059669',
+      id: 'containers', name: 'Container Closure', nameZh: '', color: '#059669',
       subtopics: [
         { id: 'primary-containers', name: 'Primary Containers', tags: ['Container', 'Glass', 'Glass Container', 'Glass Containers', 'Prefilled Syringe', 'Syringes', 'Injection Systems', 'Pen Systems'], primaryDoc: 'TR73' },
         { id: 'closures', name: 'Closures & Seals', tags: ['Closure', 'Elastomer', 'Stopper', 'Stoppers', 'Seals', 'Elastomers', 'Container Closure', 'Containers & Closures'], primaryDoc: 'TR85' },
@@ -611,7 +611,7 @@ const topicNetworkDef = {
       ]
     },
     {
-      id: 'quality', name: 'Quality & Risk', nameZh: '品質與風險', color: '#d97706',
+      id: 'quality', name: 'Quality & Risk', nameZh: '', color: '#d97706',
       subtopics: [
         { id: 'qms', name: 'Quality Management', tags: ['GMP', 'PQS', 'Quality Systems', 'Quality Culture', 'Quality Management', 'CGMP', 'Compliance', 'Continual Improvement', 'QMS', 'Quality System', 'Lot Release', 'ISO 9001', 'ISO 9000', 'PDCA'], primaryDoc: 'TR91' },
         { id: 'qrm', name: 'Risk Management', tags: ['QRM', 'Risk Management', 'Risk Assessment', 'Risk', 'FMEA', 'HACCP', 'Risk MaPP', 'Risk Analysis', 'Risk Reduction', 'Risk-Based Thinking', 'risk assessment', 'risk control', 'risk management'], primaryDoc: 'TR54-6' },
@@ -622,7 +622,7 @@ const topicNetworkDef = {
       ]
     },
     {
-      id: 'em', name: 'Environmental Monitoring', nameZh: '環境監測', color: '#dc2626',
+      id: 'em', name: 'Environmental Monitoring', nameZh: '', color: '#dc2626',
       subtopics: [
         { id: 'em-program', name: 'EM Programs', tags: ['EM', 'Environmental Monitoring', 'Airborne Particles', 'GMP Environment', 'Physical Environment', 'Temperature Control', 'Temperature'], primaryDoc: 'TR13' },
         { id: 'cleanroom', name: 'Cleanroom Classification', tags: ['Cleanroom', 'Grade A', 'Classification'], primaryDoc: 'TR13' },
@@ -631,7 +631,7 @@ const topicNetworkDef = {
       ]
     },
     {
-      id: 'testing', name: 'Testing Methods', nameZh: '測試方法', color: '#0891b2',
+      id: 'testing', name: 'Testing Methods', nameZh: '', color: '#0891b2',
       subtopics: [
         { id: 'endotoxin', name: 'Endotoxin & Pyrogen', tags: ['Endotoxin', 'Pyrogen', 'Bacterial Endotoxins', 'LAL', 'Gel-Clot', 'Photometric'] },
         { id: 'particulate', name: 'Particulate Testing', tags: ['Particle', 'Particulate Matter', 'Sub-Visible Particles', 'Visual Inspection', 'Color Testing', 'Particulates'], primaryDoc: 'TR85' },
@@ -641,7 +641,7 @@ const topicNetworkDef = {
       ]
     },
     {
-      id: 'facilities', name: 'Facilities & Utilities', nameZh: '設施與公用系統', color: '#8b5cf6',
+      id: 'facilities', name: 'Facilities & Utilities', nameZh: '', color: '#8b5cf6',
       subtopics: [
         { id: 'facility-design', name: 'Facility Design', tags: ['Facility Design', 'Architecture', 'cGMP Layout', 'Shared Facility'], primaryDoc: 'PtC-14' },
         { id: 'hvac', name: 'HVAC & Air Systems', tags: ['HVAC', 'Air Filtration'] },
@@ -652,7 +652,7 @@ const topicNetworkDef = {
       ]
     },
     {
-      id: 'atmp', name: 'Advanced Therapies', nameZh: '先進治療', color: '#ec4899',
+      id: 'atmp', name: 'Advanced Therapies', nameZh: '', color: '#ec4899',
       subtopics: [
         { id: 'cell-gene', name: 'Cell & Gene Therapy', tags: ['ATMP', 'Cell Therapy', 'Gene Therapy', 'cell therapy', 'gene therapy'], primaryDoc: 'PtC-14' },
         { id: 'vectors', name: 'Viral Vectors', tags: ['Viral Vectors', 'AAV', 'Lentivirus', 'Plasmid DNA', 'viral vector'], primaryDoc: 'PtC-13' },
@@ -662,7 +662,7 @@ const topicNetworkDef = {
       ]
     },
     {
-      id: 'regulatory', name: 'Regulatory', nameZh: '法規', color: '#f97316',
+      id: 'regulatory', name: 'Regulatory', nameZh: '', color: '#f97316',
       subtopics: [
         { id: 'reg-framework', name: 'Regulatory Framework', tags: ['Regulatory', 'Annex 1', 'Regulatory Compliance', 'GMP Compliance', 'FDA', 'ICH Q9', 'Regulatory Data Exchange'], primaryDoc: 'TR91' },
         { id: 'ich', name: 'ICH Guidelines', tags: ['ICH', 'QbD', 'Design Space', 'CMC'], primaryDoc: 'TR91' },
@@ -673,7 +673,7 @@ const topicNetworkDef = {
       ]
     },
     {
-      id: 'emerging', name: 'Emerging Tech', nameZh: '新興技術', color: '#14b8a6',
+      id: 'emerging', name: 'Emerging Tech', nameZh: '', color: '#14b8a6',
       subtopics: [
         { id: 'digital', name: 'Digital & AI', tags: ['AI/ML', 'Blockchain', 'Digital Tools', 'Business Case', 'IT Infrastructure', 'Platform Technology', 'Software Categories'] },
         { id: 'csv', name: 'Computerized Systems', tags: ['CSV', 'GAMP', 'Computerized Systems', 'Agile'] },
@@ -709,77 +709,77 @@ const topicNetworkDef = {
 /* ── PIC/S Annex 1 responsibility matrix ──────────────────────────── */
 const annex1Responsibilities = [
   {
-    id: 'a1-3', num: '§3', name: 'Pharmaceutical Quality System', nameZh: '藥品品質系統',
+    id: 'a1-3', num: '§3', name: 'Pharmaceutical Quality System', nameZh: '',
     desc: 'PQS design, CCS ownership, QRM integration, self-inspection',
     depts: ['qa', 'ra'],
   },
   {
-    id: 'a1-4', num: '§4', name: 'Premises & CCS', nameZh: '廠房設施與污染控制策略',
+    id: 'a1-4', num: '§4', name: 'Premises & CCS', nameZh: '',
     desc: 'Facility design, cleanroom zoning, CCS implementation, pressure cascades',
     depts: ['engineering', 'qa', 'production'],
   },
   {
-    id: 'a1-5', num: '§5', name: 'Equipment', nameZh: '設備',
+    id: 'a1-5', num: '§5', name: 'Equipment', nameZh: '',
     desc: 'Equipment design, qualification (IQ/OQ/PQ), maintenance, calibration',
     depts: ['engineering', 'production', 'techservice'],
   },
   {
-    id: 'a1-6', num: '§6', name: 'Utilities', nameZh: '公用系統',
+    id: 'a1-6', num: '§6', name: 'Utilities', nameZh: '',
     desc: 'WFI, purified water, HVAC, compressed gases — design, qualification, monitoring',
     depts: ['engineering'],
   },
   {
-    id: 'a1-7', num: '§7', name: 'Personnel & Training', nameZh: '人員與培訓',
+    id: 'a1-7', num: '§7', name: 'Personnel & Training', nameZh: '',
     desc: 'Gowning qualification, aseptic technique, microbiological training, health monitoring',
     depts: ['qa', 'production', 'qc'],
   },
   {
-    id: 'a1-8-aseptic', num: '§8.1', name: 'Aseptic Processing', nameZh: '無菌製造操作',
+    id: 'a1-8-aseptic', num: '§8.1', name: 'Aseptic Processing', nameZh: '',
     desc: 'Aseptic filling, media fills (APS), process simulation, aseptic interventions',
     depts: ['production', 'qa', 'techservice'],
   },
   {
-    id: 'a1-8-isolator', num: '§8.2', name: 'Isolators & RABS', nameZh: '隔離器與限制系統',
+    id: 'a1-8-isolator', num: '§8.2', name: 'Isolators & RABS', nameZh: '',
     desc: 'Isolator/RABS design, bio-decontamination (VPHP), glove integrity',
     depts: ['production', 'engineering'],
   },
   {
-    id: 'a1-8-bfs', num: '§8.3–8.4', name: 'BFS / FFS Technologies', nameZh: 'BFS/FFS 技術',
+    id: 'a1-8-bfs', num: '§8.3–8.4', name: 'BFS / FFS Technologies', nameZh: 'BFS/FFS ',
     desc: 'Blow-Fill-Seal, Form-Fill-Seal — process validation, in-process controls',
     depts: ['production', 'engineering'],
   },
   {
-    id: 'a1-8-lyo', num: '§8.5', name: 'Lyophilization', nameZh: '凍乾製程',
+    id: 'a1-8-lyo', num: '§8.5', name: 'Lyophilization', nameZh: '',
     desc: 'Freeze-drying cycle development, transfer, qualification, container closure post-lyo',
     depts: ['production', 'engineering', 'techservice'],
   },
   {
-    id: 'a1-8-atmp', num: '§8.7', name: 'ATMP & Biological Products', nameZh: '先進治療與生物製品',
+    id: 'a1-8-atmp', num: '§8.7', name: 'ATMP & Biological Products', nameZh: '',
     desc: 'Cell/gene therapy, viral vectors, biosafety containment, dedicated facilities',
     depts: ['bt', 'qa', 'engineering'],
   },
   {
-    id: 'a1-9', num: '§9', name: 'Environmental Monitoring', nameZh: '環境監測',
+    id: 'a1-9', num: '§9', name: 'Environmental Monitoring', nameZh: '',
     desc: 'EM program design, viable/non-viable particle sampling, trending, OOT/OOS investigation',
     depts: ['qc', 'qa', 'production'],
   },
   {
-    id: 'a1-10', num: '§10', name: 'Sterilization', nameZh: '滅菌',
+    id: 'a1-10', num: '§10', name: 'Sterilization', nameZh: '',
     desc: 'Moist/dry heat, filtration, radiation, gas sterilization — cycle development & validation',
     depts: ['engineering', 'production', 'qa', 'techservice'],
   },
   {
-    id: 'a1-11', num: '§11', name: 'QC Laboratory', nameZh: '品管實驗室',
+    id: 'a1-11', num: '§11', name: 'QC Laboratory', nameZh: '',
     desc: 'Sterility testing, BET/LAL, particulate matter, compendial method validation',
     depts: ['qc', 'qa'],
   },
   {
-    id: 'a1-12', num: '§12', name: 'Logistics & Batch Release', nameZh: '物流與批次放行',
+    id: 'a1-12', num: '§12', name: 'Logistics & Batch Release', nameZh: '',
     desc: 'Material receipt, quarantine, storage conditions, GDP, Qualified Person (QP) batch release',
     depts: ['warehouse', 'qa', 'ra'],
   },
   {
-    id: 'a1-13', num: '§13', name: 'Contract Manufacture', nameZh: '委外生產',
+    id: 'a1-13', num: '§13', name: 'Contract Manufacture', nameZh: '',
     desc: 'Technical agreements, CMO oversight, audit, supply chain quality assurance',
     depts: ['qa', 'ra'],
   },

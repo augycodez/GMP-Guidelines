@@ -359,28 +359,28 @@ tr:nth-child(even) { background: #f7fafc; }
 <!-- SECTION HEADER -->
 <div class="header">
     <h1>Chapter 2: Design Process (Part B)</h1>
-    <div class="subtitle">設計流程（下）：風險評估、設施規劃與 AFD/AF&amp;ID</div>
+    <div class="subtitle">（）：、 AFD/AF&amp;ID</div>
     <div class="page-info">ISPE Good Practice Guide: HVAC | p35 - p44</div>
 </div>
 
 <!-- LEARNING OBJECTIVES -->
 <div class="main-content">
 <div class="learning-objectives">
-    <h3>本章學習目標</h3>
+    <h3></h3>
     <ul>
-        <li>理解 HVAC System Risk Assessment（HVAC 系統風險評估）的流程：如何將系統拆解為元件，評估各元件對 CPP/CQA 的影響</li>
-        <li>掌握 Impact Assessment（影響性評估）方法：使用參數風險評估表（Parameter Risk Assessment Table）區分 Critical 與 Non-Critical HVAC 參數</li>
-        <li>學會四步驟風險評估法：定義 CPP → 定義系統邊界 → 定義監控方式 → 定義達成方式與偵測能力</li>
-        <li>理解 Programming for Detail Design（細部設計規劃）中的設施佈局、維護策略與製程考量</li>
-        <li>掌握 AFD（Air Flow Diagram，氣流圖）與 AF&amp;ID（Air Flow &amp; Instrumentation Diagram，氣流儀控圖）的差異、內容與應用</li>
-        <li>了解模組化施工（Modular Construction）對 HVAC 設計的限制與注意事項</li>
+        <li> HVAC System Risk Assessment（HVAC ）：， CPP/CQA </li>
+        <li> Impact Assessment（）：（Parameter Risk Assessment Table） Critical  Non-Critical HVAC </li>
+        <li>： CPP →  →  → </li>
+        <li> Programming for Detail Design（）、</li>
+        <li> AFD（Air Flow Diagram，） AF&amp;ID（Air Flow &amp; Instrumentation Diagram，）、</li>
+        <li>（Modular Construction） HVAC </li>
     </ul>
 </div>
 
 <!-- ============================================================ -->
 <!-- 2.3 HVAC System Risk Assessment -->
 <!-- ============================================================ -->
-<div class="section-title">2.3 HVAC System Risk Assessment（HVAC 系統風險評估）</div>
+<div class="section-title">2.3 HVAC System Risk Assessment（HVAC ）</div>
 
 <!-- 2.3.1 Introduction -->
 <div class="two-column">
@@ -412,38 +412,38 @@ tr:nth-child(even) { background: #f7fafc; }
     </div>
 
     <div class="right-column">
-        <h3>教學解析</h3>
+        <h3></h3>
 
         <div class="concept-box">
-            <h4>核心概念：HVAC 風險評估的邏輯</h4>
-            <p>HVAC 風險評估的本質是一個「拆解 → 評估 → 分級」的過程：</p>
+            <h4>：HVAC </h4>
+            <p>HVAC 「 →  → 」：</p>
             <ul>
-                <li><strong>拆解</strong>：將整套 HVAC 系統拆成個別元件（風機、過濾器、冷卻盤管、感測器等）</li>
-                <li><strong>評估</strong>：每個元件故障時，是否會影響 Critical Process Parameters（CPPs）？</li>
-                <li><strong>分級</strong>：影響大的元件 → GMP Change Control（品質變更管制）；影響小的 → GEP Change Control（工程變更管制）</li>
+                <li><strong></strong>： HVAC （、、、）</li>
+                <li><strong></strong>：， Critical Process Parameters（CPPs）？</li>
+                <li><strong></strong>： → GMP Change Control（）； → GEP Change Control（）</li>
             </ul>
-            <p>關鍵術語：<strong>CQA（Critical Quality Attribute，關鍵品質屬性）</strong>是最終產品必須符合的品質標準；<strong>CPP</strong> 是為了達到 CQA 必須控制的製程參數。HVAC 系統的任務就是維持 CPP 在可接受範圍內。</p>
+            <p>：<strong>CQA（Critical Quality Attribute，）</strong>；<strong>CPP</strong>  CQA 。HVAC  CPP 。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明：汽車安全檢查</h4>
-            <p>HVAC 風險評估就像對一輛車做安全檢查：</p>
+            <h4>：</h4>
+            <p>HVAC ：</p>
             <ul>
-                <li><strong>煞車系統</strong>（Critical）→ 故障會直接危及生命 → 必須定期嚴格檢驗</li>
-                <li><strong>冷氣系統</strong>（Non-Critical）→ 故障不影響行車安全 → 壞了修就好</li>
-                <li><strong>System Boundary</strong>（系統邊界）→ 檢查煞車時，要把煞車油管、來令片、ABS 感測器都包含進去，缺一不可</li>
+                <li><strong></strong>（Critical）→  → </li>
+                <li><strong></strong>（Non-Critical）→  → </li>
+                <li><strong>System Boundary</strong>（）→ ，、、ABS ，</li>
             </ul>
-            <p>同理，HVAC 風險評估不是只看 AHU 本身，而是要看整個「從 AHU 到房間末端」的完整鏈條。</p>
+            <p>，HVAC  AHU ，「 AHU 」。</p>
         </div>
 
         <div class="note-box">
-            <h4>重要觀念：品質風險 vs. 商業風險</h4>
-            <p>原文特別指出一個重要區分：</p>
+            <h4>： vs. </h4>
+            <p>：</p>
             <ul>
-                <li><strong>品質/病患風險</strong>：如果監控系統能即時偵測到異常，QA 會立刻介入，產品不會放行 → 病患沒有風險</li>
-                <li><strong>商業風險</strong>：但系統故障期間的產品可能全部報廢，停機損失可能極為可觀</li>
+                <li><strong>/</strong>：，QA ， → </li>
+                <li><strong></strong>：，</li>
             </ul>
-            <p>在 CDMO 環境中，這個區分特別重要——客戶產品報廢的賠償責任是巨大的商業風險。</p>
+            <p> CDMO ，——。</p>
         </div>
     </div>
 </div>
@@ -473,32 +473,32 @@ tr:nth-child(even) { background: #f7fafc; }
     </div>
 
     <div class="right-column">
-        <h3>教學解析：影響 CPP 的 HVAC 參數</h3>
+        <h3>： CPP  HVAC </h3>
 
         <div class="concept-box">
-            <h4>關鍵參數分類</h4>
-            <p>這份清單可以按「控制目的」分為三大類：</p>
+            <h4></h4>
+            <p>「」：</p>
             <ul>
-                <li><strong>微粒/微生物控制</strong>：粒子計數（靜態/動態）、Recovery Time（回復時間）、HEPA 過濾器效能、換氣次數、氣流型態</li>
-                <li><strong>環境條件控制</strong>：溫度、相對濕度（RH, Relative Humidity）</li>
-                <li><strong>交叉污染防護</strong>：壓差（DP, Differential Pressure）、氣流方向</li>
+                <li><strong>/</strong>：（/）、Recovery Time（）、HEPA 、、</li>
+                <li><strong></strong>：、（RH, Relative Humidity）</li>
+                <li><strong></strong>：（DP, Differential Pressure）、</li>
             </ul>
         </div>
 
         <div class="concept-box application">
-            <h4>CDMO 實務應用</h4>
-            <p>在無菌充填 CDMO 中，最關鍵的 HVAC 參數通常是：</p>
+            <h4>CDMO </h4>
+            <p> CDMO ， HVAC ：</p>
             <ol>
-                <li><strong>壓差（DP）</strong>— 防止低等級空氣侵入高等級區域，是交叉污染防護的第一道防線</li>
-                <li><strong>HEPA 過濾器完整性</strong>— Grade A/B 區域的 HEPA 如果洩漏，整個潔淨等級失效</li>
-                <li><strong>Recovery Time</strong>— 人員活動後，房間能否在規定時間內回到 at-rest 標準（通常 15-20 分鐘）</li>
-                <li><strong>氣流型態</strong>— 特別是 Grade A 層流區域的單向氣流（Unidirectional Airflow），直接保護暴露的產品</li>
+                <li><strong>（DP）</strong>— ，</li>
+                <li><strong>HEPA </strong>— Grade A/B  HEPA ，</li>
+                <li><strong>Recovery Time</strong>— ， at-rest （ 15-20 ）</li>
+                <li><strong></strong>—  Grade A （Unidirectional Airflow），</li>
             </ol>
         </div>
 
         <div class="note-box">
-            <h4>注意：微生物擦拭與 HVAC 的間接關係</h4>
-            <p>原文提到表面微生物（swab tests）是「indirectly affected by HVAC」。這意味著：表面微生物主要來自人員和物料接觸，但 HVAC 系統的氣流設計影響微粒沉降的位置和數量，因此是間接影響因子。不要因為是「間接」就忽略——在法規查核時，表面微生物超標常常會追溯到 HVAC 設計不當。</p>
+            <h4>： HVAC </h4>
+            <p>（swab tests）「indirectly affected by HVAC」。：， HVAC ，。「」——， HVAC 。</p>
         </div>
     </div>
 </div>
@@ -506,7 +506,7 @@ tr:nth-child(even) { background: #f7fafc; }
 <!-- ============================================================ -->
 <!-- 2.3.2 Impact Assessment -->
 <!-- ============================================================ -->
-<div class="section-title">2.3.2 Impact Assessment（影響性評估）</div>
+<div class="section-title">2.3.2 Impact Assessment（）</div>
 
 <div class="two-column">
     <div class="left-column">
@@ -537,52 +537,52 @@ tr:nth-child(even) { background: #f7fafc; }
     </div>
 
     <div class="right-column">
-        <h3>教學解析：影響性評估實務</h3>
+        <h3>：</h3>
 
         <div class="concept-box">
-            <h4>核心概念：參數風險評估表的使用方法</h4>
-            <p>Table 2.2 是一個非常實用的模板工具。使用方式：</p>
+            <h4>：</h4>
+            <p>Table 2.2 。：</p>
             <ol>
-                <li><strong>列出所有監控點</strong>：每個 AHU 和每個房間的所有 HVAC 監控參數</li>
-                <li><strong>逐一判定 Critical Y/N</strong>：該參數失控是否直接影響產品品質？</li>
-                <li><strong>設定 Alert/Alarm</strong>：Critical = Y 的參數，必須設定警報限值和延遲時間</li>
+                <li><strong></strong>： AHU  HVAC </li>
+                <li><strong> Critical Y/N</strong>：？</li>
+                <li><strong> Alert/Alarm</strong>：Critical = Y ，</li>
             </ol>
-            <p>這張表的重點不在於「填完」，而在於<strong>促使品質、製程、工程三方對話</strong>，達成共識。</p>
+            <p>「」，<strong>、、</strong>，。</p>
         </div>
 
         <div class="note-box">
-            <h4>關鍵提醒：AHU 內部參數通常不是 Critical</h4>
-            <p>原文明確指出：AHU 內部參數（如回風溫度、回風濕度、靜壓等）<strong>通常不被視為 Critical</strong>，因為它們是「手段」而非「目的」——真正的目的是房間端的溫濕度和潔淨度。</p>
-            <p>常見錯誤：把 AHU 內部所有參數都標為 Critical → 導致過度監控、過多警報、確效範圍膨脹。</p>
-            <p><strong>正確做法</strong>：只有 AHU 的 Supply Airflow（送風量）可能是 Critical，因為它直接決定房間的換氣次數。</p>
+            <h4>：AHU  Critical</h4>
+            <p>：AHU （、、）<strong> Critical</strong>，「」「」——。</p>
+            <p>： AHU  Critical → 、、。</p>
+            <p><strong></strong>： AHU  Supply Airflow（） Critical，。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明：餐廳的品質管理</h4>
-            <p>想像你是一間餐廳的品管經理：</p>
+            <h4>：</h4>
+            <p>：</p>
             <ul>
-                <li><strong>客人吃到的菜（房間參數）</strong>= Critical，必須嚴格控制味道、溫度、衛生</li>
-                <li><strong>廚房爐火的火力大小（AHU 內部參數）</strong>= Non-Critical，只要最終出菜合格就好</li>
-                <li>如果你連廚師翻鍋幾下都要管（過度控制 AHU 內部），廚師會崩潰，效率會大降</li>
+                <li><strong>（）</strong>= Critical，、、</li>
+                <li><strong>（AHU ）</strong>= Non-Critical，</li>
+                <li>（ AHU ），，</li>
             </ul>
         </div>
 
         <div class="concept-box application">
-            <h4>CDMO 實務：不同產品類型的 Critical 參數差異</h4>
-            <p>原文列出的六種分類，在 CDMO 中的應用：</p>
+            <h4>CDMO ： Critical </h4>
+            <p>， CDMO ：</p>
             <ul>
-                <li><strong>Product Driven（產品驅動）</strong>：凍乾製品對溫濕度極敏感 → 溫度和 RH 都是 Critical</li>
-                <li><strong>Open/Closed processes（開放/封閉製程）</strong>：使用 RABS 或隔離器的封閉製程 → 房間環境要求可降低</li>
-                <li><strong>Terminally Sterilized（最終滅菌）</strong>：因為有最終滅菌步驟 → 環境微粒/微生物控制要求較低</li>
-                <li><strong>Flammability（易燃性）</strong>：使用乙醇等溶劑 → 需額外考慮防爆通風和排氣設計</li>
+                <li><strong>Product Driven（）</strong>： →  RH  Critical</li>
+                <li><strong>Open/Closed processes（/）</strong>： RABS  → </li>
+                <li><strong>Terminally Sterilized（）</strong>： → /</li>
+                <li><strong>Flammability（）</strong>： → </li>
             </ul>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>在你的無菌充填廠房中，Grade B 區域的「Room Humidity」應該標記為 Critical 還是 Non-Critical？理由是什麼？</li>
-                <li>如果一個 AHU 同時服務 Grade B 和 Grade C 區域，風險評估時應該如何處理系統邊界？</li>
+                <li>，Grade B 「Room Humidity」 Critical  Non-Critical？？</li>
+                <li> AHU  Grade B  Grade C ，？</li>
             </ol>
         </div>
     </div>
@@ -591,7 +591,7 @@ tr:nth-child(even) { background: #f7fafc; }
 <!-- ============================================================ -->
 <!-- 2.3.3 Risk and Components -->
 <!-- ============================================================ -->
-<div class="section-title">2.3.3 Risk and Components（風險與元件）</div>
+<div class="section-title">2.3.3 Risk and Components（）</div>
 
 <div class="two-column">
     <div class="left-column">
@@ -644,56 +644,56 @@ tr:nth-child(even) { background: #f7fafc; }
     </div>
 
     <div class="right-column">
-        <h3>教學解析：四步驟風險評估法</h3>
+        <h3>：</h3>
 
         <div class="concept-box">
-            <h4>核心概念：四步驟法的邏輯鏈</h4>
-            <p>這四個步驟形成了一個完整的風險評估邏輯：</p>
+            <h4>：</h4>
+            <p>：</p>
             <ol>
-                <li><strong>Step 1 — 定義 CPP</strong>：先搞清楚「什麼重要」，並提供理由（Rationale）</li>
-                <li><strong>Step 2 — 定義系統邊界</strong>：決定評估的範圍——按元件類型、地理位置、還是連接系統？</li>
-                <li><strong>Step 3 — 定義監控方式</strong>：CPP 是如何被偵測的？連續監控還是定期檢測？</li>
-                <li><strong>Step 4 — 定義達成方式與偵測能力</strong>：CPP 靠什麼設備達成？如果設備故障，能多快被發現？</li>
+                <li><strong>Step 1 —  CPP</strong>：「」，（Rationale）</li>
+                <li><strong>Step 2 — </strong>：——、、？</li>
+                <li><strong>Step 3 — </strong>：CPP ？？</li>
+                <li><strong>Step 4 — </strong>：CPP ？，？</li>
             </ol>
-            <p>最後的關鍵判斷：<strong>如果故障能被連續監控即時偵測 → Engineering Change Control 即可；如果無法即時偵測 → 需要 Quality Change Control + 定期驗證</strong>。</p>
+            <p>：<strong> → Engineering Change Control ； →  Quality Change Control + </strong>。</p>
         </div>
 
         <div class="note-box">
-            <h4>關鍵洞察：HEPA 過濾器為什麼是最高風險元件</h4>
-            <p>從 Step 4 的範例可以看出，四個 CPP 中，只有 HEPA 過濾器需要 Quality Change Control，原因是：</p>
+            <h4>：HEPA </h4>
+            <p> Step 4 ， CPP ， HEPA  Quality Change Control，：</p>
             <ul>
-                <li>溫度、濕度、壓差 → 都有<strong>連續監控（SCADA）</strong>，故障可即時偵測</li>
-                <li>HEPA 過濾器完整性 → <strong>沒有連續監控</strong>，只能透過年度洩漏測試和定期粒子計數來驗證</li>
+                <li>、、 → <strong>（SCADA）</strong>，</li>
+                <li>HEPA  → <strong></strong>，</li>
             </ul>
-            <p>這就是為什麼 HEPA 過濾器在 Figure 2.4 中被標記為 Critical Device（以陰影框表示）。</p>
+            <p> HEPA  Figure 2.4  Critical Device（）。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明：偵測能力決定管制等級</h4>
-            <p>想像兩種水管破裂情境：</p>
+            <h4>：</h4>
+            <p>：</p>
             <ul>
-                <li><strong>浴室水管</strong>：裝了漏水感測器，破裂立刻警報 → 只要確保感測器有效（Engineering Control）</li>
-                <li><strong>牆壁內的暗管</strong>：沒有感測器，可能漏水幾個月才發現 → 必須定期檢查、嚴格記錄（Quality Control）</li>
+                <li><strong></strong>：， → （Engineering Control）</li>
+                <li><strong></strong>：， → 、（Quality Control）</li>
             </ul>
-            <p>HEPA 就像「牆壁內的暗管」——它的失效不會立刻被發現，所以需要最嚴格的管制。</p>
+            <p>HEPA 「」——，。</p>
         </div>
 
         <div class="concept-box application">
-            <h4>CDMO 實務：系統邊界的定義策略</h4>
-            <p>Step 2 提出三種系統邊界定義方式，在 CDMO 中的建議：</p>
+            <h4>CDMO ：</h4>
+            <p>Step 2 ， CDMO ：</p>
             <ul>
-                <li><strong>按 AHU 系統定義</strong>（最常用）：一台 AHU + 其服務的所有管道和末端設備 = 一個系統。適合大多數情況。</li>
-                <li><strong>按房間定義</strong>：當一個房間被多台 AHU 服務時（如 Grade A 層流 + Grade B 背景），需要按房間來定義邊界。</li>
-                <li><strong>按元件類型定義</strong>：例如把所有 HEPA 過濾器作為一個「系統」來管理——適合統一排程洩漏測試。</li>
+                <li><strong> AHU </strong>（）： AHU +  = 。。</li>
+                <li><strong></strong>： AHU （ Grade A  + Grade B ），。</li>
+                <li><strong></strong>： HEPA 「」——。</li>
             </ul>
-            <p>實務建議：同時使用 AHU 系統邊界（用於確效）+ 元件類型邊界（用於維護排程），兩者互補。</p>
+            <p>： AHU （）+ （），。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>如果你的 CDMO 新增了一台 PAT（Process Analytical Technology）即時粒子監控系統，能連續監測 HEPA 下游的粒子數，這會改變 HEPA 的風險分級嗎？為什麼？</li>
-                <li>Step 1 的範例中，「溫度不是 Critical 因為產品在溫控容器中」。如果換成凍乾充填線，這個結論會改變嗎？</li>
+                <li> CDMO  PAT（Process Analytical Technology）， HEPA ， HEPA ？？</li>
+                <li>Step 1 ，「 Critical 」。，？</li>
             </ol>
         </div>
     </div>
@@ -702,7 +702,7 @@ tr:nth-child(even) { background: #f7fafc; }
 <!-- ============================================================ -->
 <!-- 2.4 Programming for Detail Design -->
 <!-- ============================================================ -->
-<div class="section-title">2.4 Programming for Detail Design（細部設計規劃）</div>
+<div class="section-title">2.4 Programming for Detail Design（）</div>
 
 <!-- 2.4.1 Programming and Layout -->
 <div class="two-column">
@@ -727,40 +727,40 @@ tr:nth-child(even) { background: #f7fafc; }
     </div>
 
     <div class="right-column">
-        <h3>教學解析：設施規劃與 HVAC 佈局</h3>
+        <h3>： HVAC </h3>
 
         <div class="concept-box">
-            <h4>核心概念：HVAC 複雜度與成本的金字塔</h4>
-            <p>設施類型從簡單到複雜，HVAC 成本呈指數成長：</p>
+            <h4>：HVAC </h4>
+            <p>，HVAC ：</p>
             <ul>
-                <li><strong>一般辦公室</strong> → 基本空調（最低成本）</li>
-                <li><strong>OSD（口服固體劑型）</strong> → 控溫控濕 + 除塵（中等成本）</li>
-                <li><strong>無菌充填</strong> → 多級潔淨室 + HEPA + 壓差控制（高成本）</li>
-                <li><strong>高效力/高活性藥物</strong> → 上述全部 + 負壓隔離 + 專用排氣（最高成本）</li>
+                <li><strong></strong> → （）</li>
+                <li><strong>OSD（）</strong> →  + （）</li>
+                <li><strong></strong> →  + HEPA + （）</li>
+                <li><strong>/</strong> →  +  + （）</li>
             </ul>
-            <p>關鍵原則：<strong>潔淨區域越大、等級越高，HVAC 建置成本和運轉成本都越高</strong>。這就是為什麼 URS 階段要精確定義需求，避免過度設計。</p>
+            <p>：<strong>、，HVAC </strong>。 URS ，。</p>
         </div>
 
         <div class="note-box">
-            <h4>重要提醒：佈局決定一切</h4>
-            <p>原文提到的幾個關鍵佈局考量：</p>
+            <h4>：</h4>
+            <p>：</p>
             <ul>
-                <li><strong>電梯不能設在潔淨區內</strong>：電梯的活塞效應（piston effect）會嚴重擾亂壓差控制</li>
-                <li><strong>AHU 不要靠近精密儀器實驗室</strong>：大型風機的振動會影響分析天平等精密設備</li>
-                <li><strong>外氣進氣口位置</strong>：要避開排氣口、貨車卸貨區（柴油廢氣）、實驗室排風</li>
+                <li><strong></strong>：（piston effect）</li>
+                <li><strong>AHU </strong>：</li>
+                <li><strong></strong>：、（）、</li>
             </ul>
-            <p>這些在設計初期（Schematic Design）就必須決定，後期修改代價極大。</p>
+            <p>（Schematic Design），。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明：蓋房子的順序</h4>
-            <p>HVAC 設施規劃就像蓋房子：</p>
+            <h4>：</h4>
+            <p>HVAC ：</p>
             <ul>
-                <li><strong>格局（Layout）</strong>先確定 → 客廳、臥室、廚房的位置和大小</li>
-                <li><strong>動線（Flow）</strong>次確定 → 乾淨衣物和髒衣物的路線不能交叉</li>
-                <li><strong>水電管線（HVAC Routing）</strong>配合格局 → 不是先拉管線再決定格局</li>
+                <li><strong>（Layout）</strong> → 、、</li>
+                <li><strong>（Flow）</strong> → </li>
+                <li><strong>（HVAC Routing）</strong> → </li>
             </ul>
-            <p>在藥廠中，「格局」就是各等級潔淨室的配置，「動線」就是人流物流，「水電管線」就是 HVAC 管道。三者的決定順序不能顛倒。</p>
+            <p>，「」，「」，「」 HVAC 。。</p>
         </div>
     </div>
 </div>
@@ -808,37 +808,37 @@ tr:nth-child(even) { background: #f7fafc; }
     </div>
 
     <div class="right-column">
-        <h3>教學解析：維護與製程考量</h3>
+        <h3>：</h3>
 
         <div class="concept-box">
-            <h4>維護策略的兩大哲學</h4>
-            <p>原文提到「maintain from inside or outside of room」，這在潔淨室設計中是一個根本性的決策：</p>
+            <h4></h4>
+            <p>「maintain from inside or outside of room」，：</p>
             <ul>
-                <li><strong>從室內維護（Inside-out）</strong>：維護人員進入潔淨室操作 → 更衣程序、潔淨紀律要求高，但設備佈局較簡單</li>
-                <li><strong>從室外維護（Outside-in）</strong>：將可維護元件（過濾器、馬達、閥門）設置在技術走廊（service corridor）→ 不影響潔淨室運作，但建築成本較高</li>
+                <li><strong>（Inside-out）</strong>： → 、，</li>
+                <li><strong>（Outside-in）</strong>：（、、）（service corridor）→ ，</li>
             </ul>
-            <p>在無菌 CDMO 中，Grade A/B 區域幾乎一定採用「從室外維護」策略。</p>
+            <p> CDMO ，Grade A/B 「」。</p>
         </div>
 
         <div class="concept-box application">
-            <h4>CDMO 關鍵應用：微環境技術的影響</h4>
-            <p>原文提到的 RABS（Restricted Access Barrier System，限制進入屏障系統）和 Isolator（隔離器）對 HVAC 設計影響巨大：</p>
+            <h4>CDMO ：</h4>
+            <p> RABS（Restricted Access Barrier System，） Isolator（） HVAC ：</p>
             <ul>
-                <li><strong>傳統開放式製程</strong>：整個房間需要 Grade A → HVAC 必須對整個房間提供層流</li>
-                <li><strong>RABS</strong>：屏障內 Grade A，背景 Grade B → 房間 HVAC 只需維持 Grade B</li>
-                <li><strong>Isolator</strong>：隔離器內 Grade A，背景可降至 Grade C/D → HVAC 複雜度和成本大幅降低</li>
+                <li><strong></strong>： Grade A → HVAC </li>
+                <li><strong>RABS</strong>： Grade A， Grade B →  HVAC  Grade B</li>
+                <li><strong>Isolator</strong>： Grade A， Grade C/D → HVAC </li>
             </ul>
-            <p>結論：微環境技術不只是無菌保證的升級，更是 HVAC 成本優化的重要策略。</p>
+            <p>：， HVAC 。</p>
         </div>
 
         <div class="note-box">
-            <h4>注意：模組化施工的法規風險</h4>
-            <p>原文特別提醒：如果模組（module）在不同國家/地區預製，必須注意當地法規差異。例如：</p>
+            <h4>：</h4>
+            <p>：（module）/，。：</p>
             <ul>
-                <li>在中國預製的模組運到台灣安裝 → 必須同時符合兩地的消防、電氣、建築法規</li>
-                <li>歐洲 ATEX 防爆標準 vs. 美國 NEC Class/Division 分類 → 兩套體系不完全對應</li>
+                <li> → 、、</li>
+                <li> ATEX  vs.  NEC Class/Division  → </li>
             </ul>
-            <p>這些要在設計初期就確認，否則模組到場後發現不合規，改裝成本極高。</p>
+            <p>，，。</p>
         </div>
     </div>
 </div>
@@ -846,7 +846,7 @@ tr:nth-child(even) { background: #f7fafc; }
 <!-- ============================================================ -->
 <!-- 2.4.2 Architectural Considerations -->
 <!-- ============================================================ -->
-<div class="section-title">2.4.2 Architectural Considerations（建築考量）</div>
+<div class="section-title">2.4.2 Architectural Considerations（）</div>
 
 <div class="two-column">
     <div class="left-column">
@@ -881,43 +881,43 @@ tr:nth-child(even) { background: #f7fafc; }
     </div>
 
     <div class="right-column">
-        <h3>教學解析：建築與 HVAC 的協調</h3>
+        <h3>： HVAC </h3>
 
         <div class="concept-box">
-            <h4>核心概念：房間氣密性（Room Tightness）</h4>
-            <p>房間氣密性是壓差控制的物理基礎。如果房間「漏」，再大的送風量也維持不了壓差。關鍵要點：</p>
+            <h4>：（Room Tightness）</h4>
+            <p>。「」，。：</p>
             <ul>
-                <li><strong>牆面</strong>：必須從地板到天花板完整封閉，天花板上方的空間也要隔離</li>
-                <li><strong>門縫</strong>：底部間隙 3-14 mm，要均勻一致</li>
-                <li><strong>不建議使用門底掃條（Door Sweeps）</strong>：會積灰、刮地板、增加維護負擔</li>
-                <li><strong>所有貫穿件（penetrations）</strong>：管道、電線穿牆處必須密封</li>
+                <li><strong></strong>：，</li>
+                <li><strong></strong>： 3-14 mm，</li>
+                <li><strong>（Door Sweeps）</strong>：、、</li>
+                <li><strong>（penetrations）</strong>：、</li>
             </ul>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明：給輪胎充氣</h4>
-            <p>維持房間壓差就像給輪胎充氣：</p>
+            <h4>：</h4>
+            <p>：</p>
             <ul>
-                <li>如果輪胎有破洞（房間漏風），你打再多氣（送再多風）也維持不了壓力</li>
-                <li>先補好破洞（確保房間氣密），再充適量的氣（設計合適的送風量）</li>
-                <li>ISO 14644-3 的 Room Leakage Test 就是在「檢查輪胎有沒有破洞」</li>
+                <li>（），（）</li>
+                <li>（），（）</li>
+                <li>ISO 14644-3  Room Leakage Test 「」</li>
             </ul>
         </div>
 
         <div class="note-box">
-            <h4>重要提醒：地板品質影響空氣品質</h4>
-            <p>原文提到一個容易被忽略的重點：<strong>Poor flooring can add to airborne particle levels</strong>（不良地板會增加空氣中的微粒數）。</p>
-            <p>原因：環氧樹脂地板如果施工不良（氣泡、裂縫、剝落），使用中會持續產生微粒。建議在正式施工前先做「test patch」驗證施工品質。在 CDMO 中，地板品質問題常常在運轉後才浮現，但修復需要停產，代價極高。</p>
+            <h4>：</h4>
+            <p>：<strong>Poor flooring can add to airborne particle levels</strong>（）。</p>
+            <p>：（、、），。「test patch」。 CDMO ，，，。</p>
         </div>
 
         <div class="concept-box application">
-            <h4>CDMO 實務：模組化施工的 HVAC 限制</h4>
-            <p>模組化施工（Modular Construction）在近年 CDMO 快速擴產中越來越常見，但 HVAC 設計必須注意：</p>
+            <h4>CDMO ： HVAC </h4>
+            <p>（Modular Construction） CDMO ， HVAC ：</p>
             <ul>
-                <li><strong>AHU 尺寸限制</strong>：受限於標準模組的運輸尺寸，可能需要拆分為多台小型 AHU</li>
-                <li><strong>模組介面</strong>：兩個模組連接處的管道接頭是最大的洩漏風險點</li>
-                <li><strong>維護空間</strong>：模組內的機械空間通常很狹窄，大型元件更換困難</li>
-                <li><strong>管道路由</strong>：模組化設計對管道走向的彈性遠低於傳統施工</li>
+                <li><strong>AHU </strong>：， AHU</li>
+                <li><strong></strong>：</li>
+                <li><strong></strong>：，</li>
+                <li><strong></strong>：</li>
             </ul>
         </div>
     </div>
@@ -926,7 +926,7 @@ tr:nth-child(even) { background: #f7fafc; }
 <!-- ============================================================ -->
 <!-- 2.4.3 AFD and AF&ID -->
 <!-- ============================================================ -->
-<div class="section-title">2.4.3 AFD and AF&amp;ID（氣流圖與氣流儀控圖）</div>
+<div class="section-title">2.4.3 AFD and AF&amp;ID（）</div>
 
 <div class="two-column">
     <div class="left-column">
@@ -1003,71 +1003,71 @@ tr:nth-child(even) { background: #f7fafc; }
     </div>
 
     <div class="right-column">
-        <h3>教學解析：AFD 與 AF&amp;ID 的差異與應用</h3>
+        <h3>：AFD  AF&amp;ID </h3>
 
         <div class="analogy-box">
-            <h4>比喻說明：Google Maps 的不同檢視</h4>
-            <p>AFD 和 AF&amp;ID 的關係就像 Google Maps 的不同縮放等級：</p>
+            <h4>：Google Maps </h4>
+            <p>AFD  AF&amp;ID  Google Maps ：</p>
             <ul>
-                <li><strong>AFD = 縮小檢視</strong>：看得到主要道路（管道）、交流道（AHU）、城市（房間），但看不到紅綠燈和路標</li>
-                <li><strong>AF&amp;ID = 放大檢視</strong>：每個紅綠燈（感測器）、路標（標示牌）、車道標線（閥門/風門）都清楚標示</li>
+                <li><strong>AFD = </strong>：（）、（AHU）、（），</li>
+                <li><strong>AF&amp;ID = </strong>：（）、（）、（/）</li>
             </ul>
-            <p>開長途只需要縮小檢視（AFD），但市區導航需要放大檢視（AF&amp;ID）。</p>
+            <p>（AFD），（AF&amp;ID）。</p>
         </div>
 
         <div class="note-box">
-            <h4>重要：AF&amp;ID 作為法規主紀錄（Master Record）</h4>
-            <p>原文強調 AF&amp;ID 可作為持續維護的法規主紀錄。這意味著：</p>
+            <h4>：AF&amp;ID （Master Record）</h4>
+            <p> AF&amp;ID 。：</p>
             <ul>
-                <li>任何 HVAC 系統變更都必須更新 AF&amp;ID</li>
-                <li>法規查核（Regulatory Inspection）時，查核員會要求看 AF&amp;ID 來理解系統設計</li>
-                <li>Master Record AF&amp;ID 必須包含：風量、溫濕度限值、區域分級、壓差方向、關鍵儀器</li>
+                <li> HVAC  AF&amp;ID</li>
+                <li>（Regulatory Inspection）， AF&amp;ID </li>
+                <li>Master Record AF&amp;ID ：、、、、</li>
             </ul>
-            <p>注意：管道路由圖（routing drawings）不被視為 HVAC 應用的 critical 文件，可在需要時更新即可。</p>
+            <p>：（routing drawings） HVAC  critical ，。</p>
         </div>
 
         <div class="concept-box">
-            <h4>ISA 標籤命名規範（Tag Nomenclature）</h4>
-            <p>原文舉例 ISA 標籤系統：<strong>TE-209</strong> = Temperature Sensing Element，位於迴路 209 或房間 209。</p>
-            <p>常見 HVAC 相關 ISA 標籤前綴：</p>
+            <h4>ISA （Tag Nomenclature）</h4>
+            <p> ISA ：<strong>TE-209</strong> = Temperature Sensing Element， 209  209。</p>
+            <p> HVAC  ISA ：</p>
             <ul>
-                <li><strong>TE</strong> = Temperature Element（溫度感測元件）</li>
-                <li><strong>TT</strong> = Temperature Transmitter（溫度傳送器）</li>
-                <li><strong>PT</strong> = Pressure Transmitter（壓力傳送器）</li>
-                <li><strong>PDT</strong> = Pressure Differential Transmitter（壓差傳送器）</li>
-                <li><strong>FT</strong> = Flow Transmitter（流量傳送器）</li>
-                <li><strong>ME</strong> = Moisture Element（濕度感測元件）</li>
+                <li><strong>TE</strong> = Temperature Element（）</li>
+                <li><strong>TT</strong> = Temperature Transmitter（）</li>
+                <li><strong>PT</strong> = Pressure Transmitter（）</li>
+                <li><strong>PDT</strong> = Pressure Differential Transmitter（）</li>
+                <li><strong>FT</strong> = Flow Transmitter（）</li>
+                <li><strong>ME</strong> = Moisture Element（）</li>
             </ul>
-            <p>統一的命名規範讓設計師、施工方、操作人員能「說同一種語言」。</p>
+            <p>、、「」。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>你的工廠即將接受 FDA 查核。查核員要求看「HVAC 系統的控制策略文件」。你會提供 AFD 還是 AF&amp;ID？為什麼？</li>
-                <li>如果你要新增一個壓差感測器到現有的 Grade B 走廊，需要更新哪些文件？變更管制流程應該走 GMP 還是 GEP？</li>
-                <li>原文提到 AF&amp;ID 不包含「equipment capacity」和「pressure temperature and flow data」。這些資訊應該記錄在哪些文件中？</li>
+                <li> FDA 。「HVAC 」。 AFD  AF&amp;ID？？</li>
+                <li> Grade B ，？ GMP  GEP？</li>
+                <li> AF&amp;ID 「equipment capacity」「pressure temperature and flow data」。？</li>
             </ol>
         </div>
     </div>
 </div>
 
 <div class="concept-box">
-            <h4>核心概念：AFD vs. AF&amp;ID</h4>
-            <p>簡單區分這兩種圖面：</p>
-            <p>AF&amp;ID 就是 HVAC 版本的 P&amp;ID，是整個系統最重要的工程文件之一。</p>
+            <h4>：AFD vs. AF&amp;ID</h4>
+            <p>：</p>
+            <p>AF&amp;ID  HVAC  P&amp;ID，。</p>
         </div>
 
         <!-- SECTION SUMMARY -->
 <div class="learning-objectives" style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);">
-    <h3>本節重點回顧 Section Summary</h3>
+    <h3> Section Summary</h3>
     <ul>
-        <li><strong>HVAC 風險評估的本質</strong>：將系統拆解為元件，逐一評估對 CPP/CQA 的影響。關鍵判斷標準是「故障能否被即時偵測」——能即時偵測的用 Engineering Change Control，無法即時偵測的（如 HEPA）用 Quality Change Control。</li>
-        <li><strong>四步驟風險評估法</strong>：定義 CPP → 定義系統邊界 → 定義監控方式 → 定義達成方式與偵測能力。每一步都需要 Quality、Process、Engineering 三方參與討論。</li>
-        <li><strong>影響性評估表（Table 2.2）的應用</strong>：逐房間、逐參數填寫 Critical Y/N，核心價值在於促進跨部門對話。AHU 內部參數通常 Non-Critical（除了 Supply Airflow）。</li>
-        <li><strong>設施規劃三原則</strong>：潔淨區域越小越好（成本效益）、動線不能交叉（人流物流分離）、維護從室外操作（避免污染潔淨室）。微環境技術（RABS/Isolator）可大幅降低 HVAC 複雜度和成本。</li>
-        <li><strong>建築與 HVAC 協調</strong>：房間氣密性是壓差控制的基礎。地板品質影響空氣品質。模組化施工對 HVAC 設計有多項限制，需在設計初期就確認。</li>
-        <li><strong>AFD vs. AF&amp;ID</strong>：AFD 是概要氣流圖（類似 PFD），AF&amp;ID 是詳細氣流儀控圖（類似 P&amp;ID）。AF&amp;ID 可作為法規主紀錄（Master Record），任何系統變更必須同步更新。ISA 標籤命名規範確保各方溝通一致。</li>
+        <li><strong>HVAC </strong>：， CPP/CQA 。「」—— Engineering Change Control，（ HEPA） Quality Change Control。</li>
+        <li><strong></strong>： CPP →  →  → 。 Quality、Process、Engineering 。</li>
+        <li><strong>（Table 2.2）</strong>：、 Critical Y/N，。AHU  Non-Critical（ Supply Airflow）。</li>
+        <li><strong></strong>：（）、（）、（）。（RABS/Isolator） HVAC 。</li>
+        <li><strong> HVAC </strong>：。。 HVAC ，。</li>
+        <li><strong>AFD vs. AF&amp;ID</strong>：AFD （ PFD），AF&amp;ID （ P&amp;ID）。AF&amp;ID （Master Record），。ISA 。</li>
     </ul>
 </div>
 

@@ -10,7 +10,7 @@ The 32K limit applied to older models (Opus 4.0, Opus 4.1) and is now obsolete. 
 
 If splitting is still needed:
 ```json
-{ "files": ["section-04a-name.html", "section-04b-name.html"], "id": "sec4", "num": "4", "label_en": "Label", "label_zh": "中文", "pages": "p29-p41" }
+{ "files": ["section-04a-name.html", "section-04b-name.html"], "id": "sec4", "num": "4", "label_en": "Label", "label_zh": "", "pages": "p29-p41" }
 ```
 
 ## Nav Overflow
@@ -124,11 +124,11 @@ Entries are marked `"render": "fallback"` in manifest for identification.
 
 ## Section Headings Must Be Bilingual, Bold & Aligned (Updated 2026-04-17)
 
-**Problem**: Section headings rendered flush-left against the page container while the two-column content below starts 1.5rem inside (`.left-column { padding: 1.5rem }`). Visually the title floated left of "原文 Original Text", looking detached. Older merged `-Complete.html` files also lacked `font-weight: 700`, so the title appeared thin.
+**Problem**: Section headings rendered flush-left against the page container while the two-column content below starts 1.5rem inside (`.left-column { padding: 1.5rem }`). Visually the title floated left of " Original Text", looking detached. Older merged `-Complete.html` files also lacked `font-weight: 700`, so the title appeared thin.
 
 **Rule**: Every `.section-title` heading MUST follow this format:
 ```html
-<div class="section-title"><strong>X.X English Title 中文標題</strong></div>
+<div class="section-title"><strong>X.X English Title </strong></div>
 ```
 - Always bilingual: English first, Chinese after
 - Always wrapped in `<strong>` for consistent bold weight
@@ -138,7 +138,7 @@ Entries are marked `"render": "fallback"` in manifest for identification.
       font-size: 1.1rem;
       color: var(--primary-blue);
       margin: 1.5rem 0 1rem;
-      padding: 0 1.5rem 0.5rem 1.5rem;   /* left/right = .left-column padding so title text aligns with "原文 Original Text" */
+      padding: 0 1.5rem 0.5rem 1.5rem;   /* left/right = .left-column padding so title text aligns with " Original Text" */
       border-bottom: 2px solid #e2e8f0;   /* stays full-width as divider */
       font-weight: 700;
   }
@@ -148,6 +148,6 @@ Entries are marked `"render": "fallback"` in manifest for identification.
 **Batch patcher**: `scripts/_fix_section_title_align.py` retrofits this CSS block in all `*-Complete.html` / `*-complete.html` files. Handles both the multi-line (`.section-title, .section-divider { ... }`) and single-line (USP `.section-title { ... }`) forms. Idempotent — safe to re-run after any future tweak.
 
 **Examples**:
-- `1.0 Introduction 導論`
-- `3.2 Number and Frequency of Simulations 模擬次數與頻率`
-- `7.5 Container-Closure System 容器密封系統`
+- `1.0 Introduction `
+- `3.2 Number and Frequency of Simulations `
+- `7.5 Container-Closure System `

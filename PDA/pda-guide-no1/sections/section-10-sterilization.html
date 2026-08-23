@@ -420,7 +420,7 @@ body {
     font-size: 0.92rem !important;
 }
 
-/* ===== ANALOGY BOX (Yellow) - 比喻說明 ===== */
+/* ===== ANALOGY BOX (Yellow) -  ===== */
 .analogy-box,
 .concept-box[class*="analogy"],
 .concept-box.analogy,
@@ -434,7 +434,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #856404 !important;
 }
 
-/* ===== TERM/CONCEPT BOX (Green) - 核心概念 ===== */
+/* ===== TERM/CONCEPT BOX (Green) -  ===== */
 .term-box,
 .key-term-box,
 .concept-box:not([class*="analogy"]):not([class*="note"]):not([class*="formula"]):not([class*="practice"]):not([class*="highlight"]):not(.analogy):not(.application) {
@@ -449,7 +449,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #2e7d32 !important;
 }
 
-/* ===== NOTE/HIGHLIGHT BOX (Orange) - 重點提示 ===== */
+/* ===== NOTE/HIGHLIGHT BOX (Orange) -  ===== */
 .note-box,
 .key-note,
 .key-point-box,
@@ -468,7 +468,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #c65102 !important;
 }
 
-/* ===== FORMULA BOX (Purple) - 公式計算 ===== */
+/* ===== FORMULA BOX (Purple) -  ===== */
 .formula-box,
 .concept-box[class*="formula"] {
     background: var(--purple-bg) !important;
@@ -503,7 +503,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #1565c0 !important;
 }
 
-/* ===== PRACTICE BOX (Blue dashed) - 練習思考 ===== */
+/* ===== PRACTICE BOX (Blue dashed) -  ===== */
 .practice-box {
     background: linear-gradient(135deg, #e8f4fd 0%, #d1e9ff 100%) !important;
     border: 2px dashed #3182ce !important;
@@ -1008,7 +1008,7 @@ tr:nth-child(even) {
 
 <div class="header">
     <h1>Section 10: Material Transfer System Design — Conveyance, Docking &amp; Sterilization</h1>
-    <div class="subtitle">物料傳送系統設計：輸送、對接與滅菌策略</div>
+    <div class="subtitle">：、</div>
     <div class="page-info">PDA Manufacturing Technology Guide No. 1 | p161 - p167</div>
 </div>
 
@@ -1016,30 +1016,30 @@ tr:nth-child(even) {
 
     <!-- Decision Hierarchy Banner -->
     <div class="decision-hierarchy">
-        <h4>決策優先順序 Decision Hierarchy</h4>
+        <h4> Decision Hierarchy</h4>
         <div class="dh-row">
             <div class="dh-num rank-1">1</div>
-            <div class="dh-text"><strong>無菌保證 Sterility Assurance</strong> — 所有傳送設計的最高原則</div>
+            <div class="dh-text"><strong> Sterility Assurance</strong> — </div>
         </div>
         <div class="dh-row">
             <div class="dh-num rank-2">2</div>
-            <div class="dh-text"><strong>產品關鍵品質屬性 Product CQAs</strong> — 病患安全不妥協</div>
+            <div class="dh-text"><strong> Product CQAs</strong> — </div>
         </div>
         <div class="dh-row">
             <div class="dh-num rank-3">3</div>
-            <div class="dh-text"><strong>商業與彈性 Business &amp; Flexibility</strong> — 在前兩者確保後再優化</div>
+            <div class="dh-text"><strong> Business &amp; Flexibility</strong> — </div>
         </div>
     </div>
 
     <!-- Learning Objectives -->
     <div class="learning-objectives">
-        <h3>本章學習目標</h3>
+        <h3></h3>
         <ul>
-            <li>區分物料傳送的兩大類別：輸送（Conveyance）與對接（Docking）</li>
-            <li>理解 RTP（快速傳送口）的 alpha-beta port 設計與「ring of concern」風險</li>
-            <li>掌握玻璃器皿輸送的挑戰與引導輸送機制的重要性</li>
-            <li>了解不同滅菌方式（氫過氧化物、蒸汽、乾熱）與物料傳送的整合設計</li>
-            <li>認識 Section 11.0 無菌過濾流程設計的引導要點</li>
+            <li>：（Conveyance）（Docking）</li>
+            <li> RTP（） alpha-beta port 「ring of concern」</li>
+            <li></li>
+            <li>（、、）</li>
+            <li> Section 11.0 </li>
         </ul>
     </div>
 
@@ -1051,7 +1051,7 @@ tr:nth-child(even) {
             <div class="chapter-badge">10.0</div>
             <div class="chapter-info">
                 <h2>Material Transfer System Design — Overview</h2>
-                <p>物料傳送系統設計總論</p>
+                <p></p>
             </div>
         </div>
         <div class="chapter-body">
@@ -1061,18 +1061,18 @@ tr:nth-child(even) {
                     <p>Section 9.0 addressed the various methods of preparing and handling materials. Section 10.0 addresses the <span class="key-term">mechanistic aspects of material transfer</span>. When considering the mechanisms to introduce sterile or depyrogenated components to a filling system, they can be divided into two categories: <span class="key-term">conveyance</span> or <span class="key-term">docking</span>.</p>
                 </div>
                 <div class="right-column">
-                    <h3>中文解析</h3>
+                    <h3></h3>
                     <div class="concept-box">
-                        <h4>兩大傳送類別定義</h4>
-                        <p>第 9.0 節講「如何準備與處理物料」，第 10.0 節則聚焦「物料如何實際進入充填系統的機械方式」。所有方式分為兩類：</p>
+                        <h4></h4>
+                        <p> 9.0 「」， 10.0 「」。：</p>
                         <ul>
-                            <li><strong>Conveyance（輸送）</strong>：物料透過輸送帶等機構連續移動進入系統</li>
-                            <li><strong>Docking（對接）</strong>：容器或設備直接與 RABS/Isolator 壁面對接後傳入</li>
+                            <li><strong>Conveyance（）</strong>：</li>
+                            <li><strong>Docking（）</strong>： RABS/Isolator </li>
                         </ul>
                     </div>
                     <div class="analogy-box">
-                        <h4>生活比喻</h4>
-                        <p>想像一家醫院手術室的物料進入方式：輸送就像廚房的輸送帶把餐盤送到手術室外的走廊；對接則像「氣密傳遞艙」——物品放入外箱後，和手術室的密封口直接接合，不讓外部空氣進入。</p>
+                        <h4></h4>
+                        <p>：；「」——，，。</p>
                     </div>
                 </div>
             </div>
@@ -1087,7 +1087,7 @@ tr:nth-child(even) {
             <div class="chapter-badge">10.1</div>
             <div class="chapter-info">
                 <h2>Conveyance for Material Transfer</h2>
-                <p>輸送機制的物料傳送</p>
+                <p></p>
             </div>
         </div>
         <div class="chapter-body">
@@ -1099,23 +1099,23 @@ tr:nth-child(even) {
                     <p>Conveyance systems are typically used for <span class="key-term">components</span>.</p>
                 </div>
                 <div class="right-column">
-                    <h3>中文解析</h3>
+                    <h3></h3>
                     <div class="concept-box">
-                        <h4>輸送（Conveyance）的核心機制</h4>
-                        <p>傳統的輸送帶系統讓設備之間可以直接相連，物料在受控環境中連續流動。典型應用：</p>
+                        <h4>（Conveyance）</h4>
+                        <p>，。：</p>
                         <ul>
-                            <li><strong>除熱原隧道爐（Depyrogenation Tunnel）</strong> 出口 → 死板（dead plate）→ 積料台（accumulator table）→ 充填輸送帶</li>
-                            <li><strong>NTT（Nest &amp; Tub Technology）系統</strong>：機器人拆除外袋/內袋後，預先滅菌的巢式托盤（tub/tray）以輸送或全機器人方式傳送進入屏障</li>
+                            <li><strong>（Depyrogenation Tunnel）</strong>  → （dead plate）→ （accumulator table）→ </li>
+                            <li><strong>NTT（Nest &amp; Tub Technology）</strong>：/，（tub/tray）</li>
                         </ul>
-                        <p>輸送方式主要用於<strong>零組件（components）</strong>，如小瓶、針管等。</p>
+                        <p><strong>（components）</strong>，、。</p>
                     </div>
                     <div class="analogy-box">
-                        <h4>NTT 系統比喻</h4>
-                        <p>NTT 就像外賣的「層層包裝剝除」：最外層紙袋（outer bag）→ 機器人撕掉；內層保潔袋（inner bag）→ 再撕掉；最裡面的針管巢式托盤已是無菌的，直接送進隔離器。每層包裝就是一層汙染屏障。</p>
+                        <h4>NTT </h4>
+                        <p>NTT 「」：（outer bag）→ ；（inner bag）→ ；，。。</p>
                     </div>
                     <div class="practice-box" style="border-style:solid; background:linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-color:#22c55e;">
-                        <h4>CDMO 應用思考</h4>
-                        <p>若您的產線同時生產預填充針筒（PFS）與玻璃小瓶（vial），NTT 系統對 PFS 特別適合，因為針管已在托盤中整齊排列。但 vial 線若使用散裝充填，則仍依賴傳統隧道爐輸送帶。您的設施兩種模式都需要嗎？早期設計時就要考慮。</p>
+                        <h4>CDMO </h4>
+                        <p>（PFS）（vial），NTT  PFS ，。 vial ，。？。</p>
                     </div>
                 </div>
             </div>
@@ -1130,7 +1130,7 @@ tr:nth-child(even) {
             <div class="chapter-badge">10.2</div>
             <div class="chapter-info">
                 <h2>Docking for Material Transfer</h2>
-                <p>對接機制的物料傳送</p>
+                <p></p>
             </div>
         </div>
         <div class="chapter-body">
@@ -1143,30 +1143,30 @@ tr:nth-child(even) {
                     <p>When operations are performed manually using isolator or RABS gloves, ensure glove location and length is suitable. For isolators, glove positions must permit gloves to be extended (without overlap) to perform <span class="key-term">biodecontamination</span>, while not obstructing other isolator elements.</p>
                 </div>
                 <div class="right-column">
-                    <h3>中文解析</h3>
+                    <h3></h3>
                     <div class="concept-box">
-                        <h4>對接（Docking）的定義與範圍</h4>
-                        <p>對接是指將運輸容器（袋、罐）或設備排放門，直接連接到 RABS/Isolator 壁面上的過程：</p>
+                        <h4>（Docking）</h4>
+                        <p>（、）， RABS/Isolator ：</p>
                         <ul>
-                            <li>高壓蒸汽滅菌釜（Autoclave）的排放門 → 直接對接到 Isolator</li>
-                            <li>乾熱箱（Oven）排放門 → Isolator 壁</li>
-                            <li>凍乾機（Lyophilizer）排放門 → Isolator 壁</li>
-                            <li>RTP 罐（canister）→ Alpha port → Isolator 壁</li>
+                            <li>（Autoclave） →  Isolator</li>
+                            <li>（Oven） → Isolator </li>
+                            <li>（Lyophilizer） → Isolator </li>
+                            <li>RTP （canister）→ Alpha port → Isolator </li>
                         </ul>
-                        <p>無論哪種對接，通常都需要手套操作或機器人系統來完成卸料。</p>
+                        <p>，。</p>
                     </div>
                     <div class="note-box">
-                        <h4>重要警示：減少手動介入</h4>
-                        <p>每一個進入點（point of entry）都是潛在的汙染風險。設計原則：</p>
+                        <h4>：</h4>
+                        <p>（point of entry）。：</p>
                         <ul>
-                            <li>盡量減少手動介入次數 → 降低汙染風險</li>
-                            <li>設計時要思考每種物料的端到端傳送路徑（end-to-end）</li>
-                            <li>RTP 送入塞子（stoppers）或蓋子（caps）時，幾乎不可能不干擾單向氣流（UDAF）——這是設計挑戰，須特別規劃</li>
+                            <li> → </li>
+                            <li>（end-to-end）</li>
+                            <li>RTP （stoppers）（caps），（UDAF）——，</li>
                         </ul>
                     </div>
                     <div class="analogy-box">
-                        <h4>手套位置設計比喻</h4>
-                        <p>Isolator 的手套位置就像在透明壓克力箱裡工作：手套太短搆不到目標，太長則和相鄰手套重疊；而在做生物去汙（H₂O₂ 噴霧）時，手套必須「展開」讓汽相能覆蓋整個手套表面——設計師必須把這三種狀態（工作、展開、不干擾其他元件）同時考慮。</p>
+                        <h4></h4>
+                        <p>Isolator ：，；（H₂O₂ ），「」——（、、）。</p>
                     </div>
                 </div>
             </div>
@@ -1181,35 +1181,35 @@ tr:nth-child(even) {
                     <p>Transport containers are flexible in terms of size, load, and positioning — can be used for components (glassware, stoppers), consumables (tubing sets, filtration apparatus), or equipment (tools, fill pumps, chutes). When using <span class="key-term">hydrogen peroxide</span> to biodecontaminate transport containers that include product-contacting materials, care must be taken to ensure residual hydrogen peroxide does not degrade the product through <span class="key-term">oxidation</span>.</p>
                 </div>
                 <div class="right-column">
-                    <h3>中文解析</h3>
+                    <h3></h3>
                     <div class="concept-box">
-                        <h4>RTP（Rapid Transfer Port）Alpha-Beta Port 設計</h4>
-                        <p>RTP 是無菌傳送的核心技術。其原理：</p>
+                        <h4>RTP（Rapid Transfer Port）Alpha-Beta Port </h4>
+                        <p>RTP 。：</p>
                         <ul>
-                            <li><strong>Alpha port</strong>：固定在 Isolator/RABS 壁面上的接口（固定側）</li>
-                            <li><strong>Beta port</strong>：裝在運輸罐（canister）上的接口（可移動側）</li>
-                            <li>兩者咬合時，各自外表面相互覆蓋，理論上不暴露非無菌面給充填區</li>
+                            <li><strong>Alpha port</strong>： Isolator/RABS （）</li>
+                            <li><strong>Beta port</strong>：（canister）（）</li>
+                            <li>，，</li>
                         </ul>
-                        <p>但「理論上」不等於「實際上安全」——接合面的縫隙（"ring of concern"）仍是風險熱點。</p>
+                        <p>「」「」——（"ring of concern"）。</p>
                     </div>
                     <div class="note-box">
-                        <h4>「Ring of Concern」風險區</h4>
-                        <p>Alpha-beta port 接合處的環形縫隙是汙染最可能潛伏的地方。即使設計上已防止非無菌面直接暴露，若不定期消毒/生物去汙，此縫隙仍可能藏菌。</p>
-                        <p><strong>操作要求</strong>：每次對接前後，alpha 和 beta port 的環形面必須按照 SOP 進行消毒或生物去汙（H₂O₂ 擦拭或噴霧）。</p>
+                        <h4>「Ring of Concern」</h4>
+                        <p>Alpha-beta port 。，/，。</p>
+                        <p><strong></strong>：，alpha  beta port  SOP （H₂O₂ ）。</p>
                     </div>
                     <div class="note-box">
-                        <h4>供應商相容性：早期溝通的重要性</h4>
-                        <p>Alpha-beta port 是各廠商的<strong>專有設計（proprietary）</strong>，A 廠的 beta port 不一定能對接 B 廠的 alpha port。若設施已裝好固定的 alpha port 才發現與供應商的罐子不相容，改裝成本極高。</p>
-                        <p><strong>原則</strong>：在設施設計階段就與零組件供應商確認接口規格，避免日後返工。</p>
+                        <h4>：</h4>
+                        <p>Alpha-beta port <strong>（proprietary）</strong>，A  beta port  B  alpha port。 alpha port ，。</p>
+                        <p><strong></strong>：，。</p>
                     </div>
                     <div class="note-box">
-                        <h4>H₂O₂ 殘留與產品氧化風險</h4>
-                        <p>用氫過氧化物（Hydrogen Peroxide, H₂O₂）對含有產品接觸材料的運輸容器進行生物去汙時，若殘留量過高，H₂O₂ 的強氧化性會降解藥品——尤其是蛋白質藥物、抗氧化劑敏感製劑。</p>
-                        <p><strong>決策優先順序提醒</strong>：無菌保證（去汙）vs. 產品 CQA（防氧化），兩者都是優先項，必須透過製程驗證找到安全的殘留上限。</p>
+                        <h4>H₂O₂ </h4>
+                        <p>（Hydrogen Peroxide, H₂O₂），，H₂O₂ ——、。</p>
+                        <p><strong></strong>：（）vs.  CQA（），，。</p>
                     </div>
                     <div class="practice-box">
-                        <h4>理解確認問題</h4>
-                        <p>為什麼設計 RTP 對接介面時，即使 alpha-beta port 已理論上防止非無菌面暴露，仍需要定期消毒？「ring of concern」的風險來源是什麼？</p>
+                        <h4></h4>
+                        <p> RTP ， alpha-beta port ，？「ring of concern」？</p>
                     </div>
                 </div>
             </div>
@@ -1224,7 +1224,7 @@ tr:nth-child(even) {
             <div class="chapter-badge">10.3</div>
             <div class="chapter-info">
                 <h2>Conveyance Considerations for Glassware</h2>
-                <p>玻璃器皿輸送的注意事項</p>
+                <p></p>
             </div>
         </div>
         <div class="chapter-body">
@@ -1242,41 +1242,41 @@ tr:nth-child(even) {
                     <p>Many filling systems use a combination of back-pressure in some areas with guided containers under filling needles and stoppering positions. Areas with <span class="key-term">back-pressure</span> or accumulation devices may increase <span class="key-term">scuffing risk</span> on container exteriors — can result in cosmetic defects or <span class="key-term">particulate formation</span>.</p>
                 </div>
                 <div class="right-column">
-                    <h3>中文解析</h3>
+                    <h3></h3>
                     <div class="concept-box">
-                        <h4>巢式（Nested）vs. 散裝（Bulk）玻璃器皿輸送</h4>
-                        <p><strong>巢式塑料托盤（tub/nest）</strong>：注塑成型，尺寸高度一致，輸送挑戰少。適合 PFS、卡匣（cartridge）。</p>
-                        <p><strong>散裝玻璃小瓶（bulk vials）</strong>：玻璃吹製有公差，尺寸略有差異。散裝直接輸送時可能：</p>
+                        <h4>（Nested）vs. （Bulk）</h4>
+                        <p><strong>（tub/nest）</strong>：，，。 PFS、（cartridge）。</p>
+                        <p><strong>（bulk vials）</strong>：，。：</p>
                         <ul>
-                            <li>在輸送帶上不穩定</li>
-                            <li>進不了送瓶螺桿（feed screw）或星輪（star wheel）</li>
-                            <li>在轉換點（transition point）倒瓶</li>
+                            <li></li>
+                            <li>（feed screw）（star wheel）</li>
+                            <li>（transition point）</li>
                         </ul>
-                        <p>需要設置「倒瓶偵測器」或「拒絕站」，防止倒瓶進入充填位置。</p>
+                        <p>「」「」，。</p>
                     </div>
                     <div class="formula-box">
-                        <h4>引導輸送（Guided Conveyance）的重要性</h4>
-                        <p>引導輸送機制（feed screw, star wheel, comb, puck, guiderail）的優勢：</p>
+                        <h4>（Guided Conveyance）</h4>
+                        <p>（feed screw, star wheel, comb, puck, guiderail）：</p>
                         <ul>
-                            <li><strong>精確定位</strong>：充填針與瓶口完全對中，防止針頭偏移</li>
-                            <li><strong>防止玻屑</strong>：針頭不偏移，不碰撞密封面（sealing surface），不產生玻璃碎屑</li>
-                            <li><strong>防止針頭彎曲</strong>：對中準確，避免針頭受側向力</li>
-                            <li><strong>防止溢噴</strong>：充填液不噴到瓶頸/瓶身外側</li>
+                            <li><strong></strong>：，</li>
+                            <li><strong></strong>：，（sealing surface），</li>
+                            <li><strong></strong>：，</li>
+                            <li><strong></strong>：/</li>
                         </ul>
-                        <p>小瓶口（small neck）或小桶徑（small barrel）的容器，對精準度要求更高。</p>
+                        <p>（small neck）（small barrel），。</p>
                     </div>
                     <div class="note-box">
-                        <h4>背壓積料（Back-Pressure）的風險</h4>
-                        <p>背壓積料區讓瓶子互相擠壓以維持連續送瓶流，但這會造成：</p>
+                        <h4>（Back-Pressure）</h4>
+                        <p>，：</p>
                         <ul>
-                            <li><strong>外觀缺陷（cosmetic defects）</strong>：瓶身刮傷（scuffing）</li>
-                            <li><strong>微粒污染（particulate formation）</strong>：玻璃表面摩擦產生的微小玻璃顆粒進入產品</li>
+                            <li><strong>（cosmetic defects）</strong>：（scuffing）</li>
+                            <li><strong>（particulate formation）</strong>：</li>
                         </ul>
-                        <p>最佳實務：在充填針與加塞位置使用引導機構，其餘區域才用背壓輸送——混合式設計。</p>
+                        <p>：，——。</p>
                     </div>
                     <div class="practice-box" style="border-style:solid; background:linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-color:#22c55e;">
-                        <h4>CDMO 應用思考</h4>
-                        <p>您的 aseptic fill-finish 線若同時承接 2mL vial 和 100mL vial，兩者的引導機構（feed screw 間距、star wheel 規格）完全不同，換線時需要更換機械部件。這直接影響換線時間（changeover time）和設備靈活性——是業務彈性（商業考量）與生產效率之間的平衡。</p>
+                        <h4>CDMO </h4>
+                        <p> aseptic fill-finish  2mL vial  100mL vial，（feed screw 、star wheel ），。（changeover time）——（）。</p>
                     </div>
                 </div>
             </div>
@@ -1291,7 +1291,7 @@ tr:nth-child(even) {
             <div class="chapter-badge">10.4</div>
             <div class="chapter-info">
                 <h2>Disinfection, Biodecontamination, and Sterilization Associated with Material Transfer</h2>
-                <p>物料傳送相關的消毒、生物去汙與滅菌</p>
+                <p>、</p>
             </div>
         </div>
         <div class="chapter-body">
@@ -1303,28 +1303,28 @@ tr:nth-child(even) {
                     <p>Tunnels directly discharge to filling line, but glass containers must traverse a <span class="key-term">cooling zone</span> at safe temperature. The tunnel's cooling zone must be periodically biodecontaminated (by heating for conventional lines, vapor-phase for isolators).</p>
                 </div>
                 <div class="right-column">
-                    <h3>中文解析</h3>
+                    <h3></h3>
                     <div class="concept-box">
-                        <h4>三個層次的微生物控制</h4>
-                        <p>PDA 在此明確區分三個等級（重要！考試/稽查常見）：</p>
+                        <h4></h4>
+                        <p>PDA （！/）：</p>
                         <ul>
-                            <li><strong>Disinfection（消毒）</strong>：用於非產品接觸零件，殺滅大部分微生物但不一定滅孢子</li>
-                            <li><strong>Biodecontamination（生物去汙）</strong>：用 H₂O₂ 等汽相試劑，達到 6-log 孢子殺滅，適用於 Isolator 表面</li>
-                            <li><strong>Sterilization（滅菌）</strong>：用於直接/間接產品接觸零件，達到 SAL 10⁻⁶</li>
+                            <li><strong>Disinfection（）</strong>：，</li>
+                            <li><strong>Biodecontamination（）</strong>： H₂O₂ ， 6-log ， Isolator </li>
+                            <li><strong>Sterilization（）</strong>：/， SAL 10⁻⁶</li>
                         </ul>
                     </div>
                     <div class="note-box">
-                        <h4>H₂O₂ 冷熱點問題</h4>
-                        <p>設計 H₂O₂ 去汙循環時，需確保 Isolator 內部沒有：</p>
+                        <h4>H₂O₂ </h4>
+                        <p> H₂O₂ ， Isolator ：</p>
                         <ul>
-                            <li><strong>冷點（cold spots）</strong>：H₂O₂ 蒸汽提前冷凝成液體，去汙效果不均</li>
-                            <li><strong>熱點（hot spots）</strong>：如馬達散熱面，H₂O₂ 太快揮發，局部暴露不足</li>
+                            <li><strong>（cold spots）</strong>：H₂O₂ ，</li>
+                            <li><strong>（hot spots）</strong>：，H₂O₂ ，</li>
                         </ul>
-                        <p>特別危險的部位：馬達、冷卻盤管、高壓釜/烘箱排放門、隧道爐冷卻區、凍乾機表面。</p>
+                        <p>：、、/、、。</p>
                     </div>
                     <div class="analogy-box">
-                        <h4>隧道爐冷卻區的比喻</h4>
-                        <p>除熱原隧道爐的冷卻區就像「剛出爐的麵包要放在通風架上冷卻」——玻璃瓶在 300°C+ 高溫中完成除熱原後，必須在冷卻區降到可接受溫度才能進充填機。但冷卻區本身需要定期生物去汙，否則這段「降溫走廊」反而成為再汙染的風險點。</p>
+                        <h4></h4>
+                        <p>「」—— 300°C+ ，。，「」。</p>
                     </div>
                 </div>
             </div>
@@ -1344,39 +1344,39 @@ tr:nth-child(even) {
                     <p>Specialized sterilization processes (<span class="key-term">E-Beam</span>, <span class="key-term">X-ray</span>, <span class="key-term">EtO</span>, <span class="key-term">gamma irradiation</span>) and <span class="key-term">depyrogenation</span> processes are also possible as off-line processes.</p>
                 </div>
                 <div class="right-column">
-                    <h3>中文解析</h3>
+                    <h3></h3>
                     <div class="concept-box">
-                        <h4>蒸汽滅菌（Steam / SIP）的應用場景</h4>
+                        <h4>（Steam / SIP）</h4>
                         <ul>
-                            <li><strong>高壓釜（Autoclave）</strong>：直接或間接產品接觸零件，未直接連接充填室時需包裝後傳入</li>
-                            <li><strong>SIP（就地滅菌）</strong>：泵頭、充填針、WFI/氮氣管路——這些無法拆下送去滅菌的部件，在位置上直接通蒸汽完成滅菌</li>
+                            <li><strong>（Autoclave）</strong>：，</li>
+                            <li><strong>SIP（）</strong>：、、WFI/——，</li>
                         </ul>
-                        <p>SIP 是現代無菌充填的核心技術，減少了拆裝、傳送、再汙染風險。</p>
+                        <p>SIP ，、、。</p>
                     </div>
                     <div class="formula-box">
-                        <h4>乾熱滅菌（Dry-Heat Oven）的三個出路</h4>
-                        <p>乾熱箱通常用於玻璃、金屬（不怕高溫）的除熱原，但高溫（250°C+）限制了後續傳送選項：</p>
+                        <h4>（Dry-Heat Oven）</h4>
+                        <p>、（），（250°C+）：</p>
                         <ul>
-                            <li><strong>選項 1：耐高溫 alpha-beta port 運輸罐</strong> — 最靈活，但成本高，需確認材質耐受性</li>
-                            <li><strong>選項 2：金屬托盤</strong> — 已漸失青睞（fallen into disfavor），因後續傳送仍有汙染風險</li>
-                            <li><strong>選項 3：乾熱箱直接對接充填室</strong> — 最安全，無中間傳送步驟，但設備布局複雜</li>
+                            <li><strong> 1： alpha-beta port </strong> — ，，</li>
+                            <li><strong> 2：</strong> — （fallen into disfavor），</li>
+                            <li><strong> 3：</strong> — ，，</li>
                         </ul>
-                        <p><strong>決策優先順序</strong>：無菌保證 &gt; 商業彈性。選項 3 雖最貴，卻最安全。</p>
+                        <p><strong></strong>： &gt; 。 3 ，。</p>
                     </div>
                     <div class="note-box">
-                        <h4>所有穿牆點都是風險點</h4>
-                        <p>每一個穿透充填室壁面的位置都是潛在的汙染進入點：</p>
+                        <h4></h4>
+                        <p>：</p>
                         <ul>
-                            <li>公用管路穿孔（utility penetrations）— 水、氣、電</li>
-                            <li>手套接口（glove ports）</li>
-                            <li>Alpha-port 對接口</li>
-                            <li>艙門密封（door-hatch seals）</li>
+                            <li>（utility penetrations）— 、、</li>
+                            <li>（glove ports）</li>
+                            <li>Alpha-port </li>
+                            <li>（door-hatch seals）</li>
                         </ul>
-                        <p>所有這些位置必須納入定期檢查計畫，且 alpha/beta port 的「ring of concern」需在每次使用前後確認消毒狀態。</p>
+                        <p>， alpha/beta port 「ring of concern」。</p>
                     </div>
                     <div class="practice-box" style="border-style:solid; background:linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-color:#22c55e;">
-                        <h4>CDMO 應用思考</h4>
-                        <p>您的充填線若使用 E-Beam 預滅菌的一次性耗材（single-use tubing sets, filters），這些物品透過 RTP 對接進入 Isolator 的設計，就比每次都要拆包、傳入後再跑 H₂O₂ 循環的傳統方式更安全、更快速。這正是選擇 RTP 的商業理由（Business #3），但前提是 RTP 設計本身能確保無菌保證（Sterility Assurance #1）。</p>
+                        <h4>CDMO </h4>
+                        <p> E-Beam （single-use tubing sets, filters）， RTP  Isolator ，、 H₂O₂ 、。 RTP （Business #3）， RTP （Sterility Assurance #1）。</p>
                     </div>
                 </div>
             </div>
@@ -1391,7 +1391,7 @@ tr:nth-child(even) {
             <div class="chapter-badge">11.0</div>
             <div class="chapter-info">
                 <h2>Sterile Filtration and Filling System Considerations (Introduction)</h2>
-                <p>無菌過濾與充填系統考量（引言）</p>
+                <p>（）</p>
             </div>
         </div>
         <div class="chapter-body">
@@ -1414,32 +1414,32 @@ tr:nth-child(even) {
                     </ul>
                 </div>
                 <div class="right-column">
-                    <h3>中文解析</h3>
+                    <h3></h3>
                     <div class="concept-box">
-                        <h4>第 11.0 節前瞻：「沒有萬用充填路徑」</h4>
-                        <p>PDA 開門見山說：<strong>不存在適合所有產品的單一流體路徑設計</strong>。每個製程都必須根據 11 個維度獨立評估：</p>
+                        <h4> 11.0 ：「」</h4>
+                        <p>PDA ：<strong></strong>。 11 ：</p>
                         <ul>
-                            <li><strong>產品屬性</strong>（黏度、pH、對材質的相容性）</li>
-                            <li><strong>傳送方式</strong>（氮氣加壓輸送 vs. 幫浦）</li>
-                            <li><strong>過濾器類型</strong>（膠囊型 capsule vs. 筒型 cartridge）</li>
-                            <li><strong>冗餘設計</strong>（並聯過濾器以防單點失效）</li>
-                            <li><strong>充填時間 vs. 無菌保持時間</strong>（bioburden 的累積風險）</li>
-                            <li><strong>滅菌方式</strong>（伽瑪預滅菌一次性 vs. 高壓釜 vs. SIP）</li>
+                            <li><strong></strong>（、pH、）</li>
+                            <li><strong></strong>（ vs. ）</li>
+                            <li><strong></strong>（ capsule vs.  cartridge）</li>
+                            <li><strong></strong>（）</li>
+                            <li><strong> vs. </strong>（bioburden ）</li>
+                            <li><strong></strong>（ vs.  vs. SIP）</li>
                         </ul>
                     </div>
                     <div class="formula-box">
-                        <h4>PUPSIT — 關鍵監管要求</h4>
-                        <p><strong>PUPSIT（Pre-Use Post-Sterilization Integrity Test，使用前滅菌後完整性測試）</strong>：</p>
+                        <h4>PUPSIT — </h4>
+                        <p><strong>PUPSIT（Pre-Use Post-Sterilization Integrity Test，）</strong>：</p>
                         <ul>
-                            <li>EMA 已強制要求</li>
-                            <li>FDA 在 Annex 1 更新後也越來越重視</li>
-                            <li>目的：確認過濾器在滅菌後、充填前仍完整，排除滅菌過程造成的隱性破損</li>
-                            <li>設計含義：過濾器位置和管路設計必須能支援 PUPSIT 操作，而不破壞無菌完整性</li>
+                            <li>EMA </li>
+                            <li>FDA  Annex 1 </li>
+                            <li>：、，</li>
+                            <li>： PUPSIT ，</li>
                         </ul>
                     </div>
                     <div class="practice-box">
-                        <h4>理解確認問題</h4>
-                        <p>若您的產品是高黏度生物製劑（例如 100 cP 以上），為什麼「加壓輸送（overpressure）」可能不適合，而應選擇幫浦輸送？這個選擇如何影響後續的流體路徑設計和過濾器選型？</p>
+                        <h4></h4>
+                        <p>（ 100 cP ），「（overpressure）」，？？</p>
                     </div>
                 </div>
             </div>
@@ -1450,33 +1450,33 @@ tr:nth-child(even) {
          SECTION SUMMARY
          ================================================================ -->
     <div class="section-summary">
-        <h2>Section 10 總結 — 物料傳送系統設計的核心原則</h2>
+        <h2>Section 10  — </h2>
         <div class="summary-grid">
             <div class="summary-card">
-                <h4>兩大傳送類別</h4>
+                <h4></h4>
                 <ul>
-                    <li>Conveyance（輸送）：輸送帶、NTT 系統，適合零組件連續傳送</li>
-                    <li>Docking（對接）：RTP、設備排放門直接對接，適合已滅菌批次傳送</li>
-                    <li>兩者各有應用場景，現代充填線常混合使用</li>
+                    <li>Conveyance（）：、NTT ，</li>
+                    <li>Docking（）：RTP、，</li>
+                    <li>，</li>
                 </ul>
             </div>
             <div class="summary-card">
-                <h4>關鍵風險點</h4>
+                <h4></h4>
                 <ul>
-                    <li>Alpha-beta port 的「Ring of Concern」必須定期消毒</li>
-                    <li>H₂O₂ 殘留可能氧化降解藥品</li>
-                    <li>玻璃散裝輸送的倒瓶與刮傷風險</li>
-                    <li>所有穿牆點都是汙染進入的潛在路徑</li>
-                    <li>供應商接口規格不相容（早期協調至關重要）</li>
+                    <li>Alpha-beta port 「Ring of Concern」</li>
+                    <li>H₂O₂ </li>
+                    <li></li>
+                    <li></li>
+                    <li>（）</li>
                 </ul>
             </div>
             <div class="summary-card">
-                <h4>決策優先順序應用</h4>
+                <h4></h4>
                 <ul>
-                    <li>#1 無菌保證：所有傳送設計以最小化汙染為首要</li>
-                    <li>#2 產品 CQA：H₂O₂ 殘留管理、防玻屑微粒、PUPSIT</li>
-                    <li>#3 商業彈性：靈活的 RTP 設計、換線效率、設備共用</li>
-                    <li>乾熱箱選項：直接對接 &gt; 耐熱罐 &gt; 金屬托盤（安全性排序）</li>
+                    <li>#1 ：</li>
+                    <li>#2  CQA：H₂O₂ 、、PUPSIT</li>
+                    <li>#3 ： RTP 、、</li>
+                    <li>： &gt;  &gt; （）</li>
                 </ul>
             </div>
         </div>

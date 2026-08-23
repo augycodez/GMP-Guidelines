@@ -439,7 +439,7 @@ body {
     font-size: 0.92rem !important;
 }
 
-/* ===== ANALOGY BOX (Yellow) - 比喻說明 ===== */
+/* ===== ANALOGY BOX (Yellow) -  ===== */
 .analogy-box,
 .concept-box[class*="analogy"],
 .concept-box.analogy,
@@ -453,7 +453,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #856404 !important;
 }
 
-/* ===== TERM/CONCEPT BOX (Green) - 核心概念 ===== */
+/* ===== TERM/CONCEPT BOX (Green) -  ===== */
 .term-box,
 .key-term-box,
 .concept-box:not([class*="analogy"]):not([class*="note"]):not([class*="formula"]):not([class*="practice"]):not([class*="highlight"]):not(.analogy):not(.application) {
@@ -468,7 +468,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #2e7d32 !important;
 }
 
-/* ===== NOTE/HIGHLIGHT BOX (Orange) - 重點提示 ===== */
+/* ===== NOTE/HIGHLIGHT BOX (Orange) -  ===== */
 .note-box,
 .key-note,
 .key-point-box,
@@ -487,7 +487,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #c65102 !important;
 }
 
-/* ===== FORMULA BOX (Purple) - 公式計算 ===== */
+/* ===== FORMULA BOX (Purple) -  ===== */
 .formula-box,
 .concept-box[class*="formula"] {
     background: var(--purple-bg) !important;
@@ -522,7 +522,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #1565c0 !important;
 }
 
-/* ===== PRACTICE BOX (Blue dashed) - 練習思考 ===== */
+/* ===== PRACTICE BOX (Blue dashed) -  ===== */
 .practice-box {
     background: linear-gradient(135deg, #e8f4fd 0%, #d1e9ff 100%) !important;
     border: 2px dashed #3182ce !important;
@@ -934,7 +934,7 @@ tr:nth-child(even) {
 <!-- ===== PAGE HEADER ===== -->
 <div class="header">
     <h1>Section 4: DI Controls — Specific Areas</h1>
-    <div class="subtitle">DI 控制：具體管控領域詳解</div>
+    <div class="subtitle">DI ：</div>
     <div class="page-info">PDA Technical Report No. 84 | p25 – p39</div>
 </div>
 
@@ -943,18 +943,18 @@ tr:nth-child(even) {
 
     <!-- ===== LEARNING OBJECTIVES ===== -->
     <div class="learning-objectives">
-        <h3>學習目標 Learning Objectives</h3>
+        <h3> Learning Objectives</h3>
         <ol>
-            <li>理解紙本轉電子的 True Copy（真實副本）要求，包括 High / Medium / Low 三級關鍵性下的審查標準、原件銷毀條件，以及品質單位的監督職責。</li>
-            <li>掌握電子系統 Access Control（使用者存取控制）的分級策略，包括密碼政策、帳戶鎖定、週期性審查頻率等差異化管控措施，並理解 CDMO 多客戶環境下的特殊挑戰。</li>
-            <li>學會運用 Audit Trail Review Assessment (ATRA) 工具，透過 Detectability / Severity / Probability 三維度評分，判定 Audit Trail（稽核軌跡）的審查頻率與範圍。</li>
-            <li>理解 Data Backup（資料備份）、Data Export（資料匯出）、Data Transfer/Migration（資料傳輸與遷移）等電子資料管控的風險分級邏輯及實務應用。</li>
+            <li> True Copy（）， High / Medium / Low 、，。</li>
+            <li> Access Control（），、、， CDMO 。</li>
+            <li> Audit Trail Review Assessment (ATRA) ， Detectability / Severity / Probability ， Audit Trail（）。</li>
+            <li> Data Backup（）、Data Export（）、Data Transfer/Migration（）。</li>
         </ol>
     </div>
 
     <!-- ===== TABLE OF CONTENTS ===== -->
     <div class="toc">
-        <h3>本節子目錄 Contents</h3>
+        <h3> Contents</h3>
         <div class="toc-grid">
             <a href="#sec-5-3-3-3">5.3.3.3 True Copy</a>
             <a href="#sec-5-3-4">5.3.4 Access Controls</a>
@@ -977,7 +977,7 @@ tr:nth-child(even) {
             <div class="chapter-badge">5.3</div>
             <div class="chapter-info">
                 <h2>5.3.3.3 True Copy (Paper to Electronic)</h2>
-                <p>真實副本（紙本轉電子）：掃描、審查與原件銷毀</p>
+                <p>（）：、</p>
             </div>
         </div>
         <div class="chapter-body">
@@ -1003,53 +1003,53 @@ tr:nth-child(even) {
 
                 <!-- RIGHT: Chinese Commentary -->
                 <div class="right-column">
-                    <div class="column-header">解析與導讀（繁體中文）</div>
+                    <div class="column-header">（）</div>
 
                     <div class="concept-box">
-                        <h4>核心概念：True Copy（真實副本）</h4>
-                        <p><strong>True Copy（真實副本）</strong>是指能夠完整保留原始記錄所有資訊的副本，其管控等級必須等同於原件。TR84 在此聚焦「紙本轉電子」的情境，即透過掃描將紙本記錄數位化。</p>
-                        <p>關鍵判斷要素：</p>
+                        <h4>：True Copy（）</h4>
+                        <p><strong>True Copy（）</strong>，。TR84 「」，。</p>
+                        <p>：</p>
                         <ul>
-                            <li><strong>可讀性 (Legibility)</strong>：掃描後文字與數據清晰可辨</li>
-                            <li><strong>準確性 (Accuracy)</strong>：內容與原件完全一致，包括色碼、螢光標記等</li>
-                            <li><strong>完整性 (Completeness)</strong>：所有頁面、所有欄位均已掃描</li>
+                            <li><strong> (Legibility)</strong>：</li>
+                            <li><strong> (Accuracy)</strong>：，、</li>
+                            <li><strong> (Completeness)</strong>：、</li>
                         </ul>
                     </div>
 
                     <div class="analogy-box">
-                        <h4>生活化比喻：掃描就像翻拍古籍</h4>
-                        <p>想像你要將一本珍貴的古籍翻拍成數位檔案：</p>
+                        <h4>：</h4>
+                        <p>：</p>
                         <ul>
-                            <li><strong>High</strong>：博物館級古籍 → 專業攝影師翻拍，館長親自逐頁核對，若原件有浮水印或鋼印則必須保留原件</li>
-                            <li><strong>Medium</strong>：圖書館藏書 → 訓練過的工作人員翻拍，另一位同事覆核</li>
-                            <li><strong>Low</strong>：一般借閱登記表 → 自行翻拍並確認清晰即可</li>
+                            <li><strong>High</strong>： → ，，</li>
+                            <li><strong>Medium</strong>： → ，</li>
+                            <li><strong>Low</strong>： → </li>
                         </ul>
                     </div>
 
                     <div class="note-box">
-                        <h4>法規重點：原件銷毀的三大前提</h4>
-                        <p>TR84 明確指出，即便是 High 級別的記錄，只要滿足以下條件，原件可以銷毀：</p>
+                        <h4>：</h4>
+                        <p>TR84 ， High ，，：</p>
                         <ol>
-                            <li>True Copy 經品質單位 (Quality Unit) 審查確認通過</li>
-                            <li>原件無法以電子方式準確重現的特徵（印章、浮水印等）不存在</li>
-                            <li>銷毀過程有記錄（何時、何人銷毀）</li>
+                            <li>True Copy  (Quality Unit) </li>
+                            <li>（、）</li>
+                            <li>（、）</li>
                         </ol>
-                        <p>但若原件帶有印章、浮水印或其他無法電子化的識別標記，則<strong>不得銷毀原件</strong>。</p>
+                        <p>、，<strong></strong>。</p>
                     </div>
 
                     <div class="practice-box" style="border-style:solid; background:linear-gradient(135deg,#f0fdf4,#dcfce7); border-color:#22c55e">
-                        <h4>CDMO 實務應用</h4>
-                        <p>在 CDMO 環境中，True Copy 管理尤其重要：</p>
+                        <h4>CDMO </h4>
+                        <p> CDMO ，True Copy ：</p>
                         <ul>
-                            <li><strong>客戶批次記錄</strong>：客戶提供的紙本 Master Batch Record 掃描後，屬 High 級別，需品質單位逐頁覆核</li>
-                            <li><strong>技術移轉文件</strong>：來自客戶的驗證方案書 (Validation Protocol) 屬 Medium 級別，需第二人覆核</li>
-                            <li><strong>多客戶管理</strong>：確保不同客戶的 True Copy 檔案有明確的存取權限區隔，避免交叉存取</li>
+                            <li><strong></strong>： Master Batch Record ， High ，</li>
+                            <li><strong></strong>： (Validation Protocol)  Medium ，</li>
+                            <li><strong></strong>： True Copy ，</li>
                         </ul>
                     </div>
 
                     <div class="practice-box">
-                        <h4>思考題</h4>
-                        <p>你的工廠有一份客戶提供的紙本批次記錄，上面蓋有該公司的鋼印。掃描後，品質單位覆核通過。請問：可以銷毀原件嗎？為什麼？</p>
+                        <h4></h4>
+                        <p>，。，。：？？</p>
                     </div>
                 </div>
             </div>
@@ -1064,7 +1064,7 @@ tr:nth-child(even) {
             <div class="chapter-badge">5.3</div>
             <div class="chapter-info">
                 <h2>5.3.4 Access Controls for Electronic Systems</h2>
-                <p>電子系統使用者存取控制：帳號、密碼與權限分級</p>
+                <p>：、</p>
             </div>
         </div>
         <div class="chapter-body">
@@ -1092,53 +1092,53 @@ tr:nth-child(even) {
 
                 <!-- RIGHT: Chinese Commentary -->
                 <div class="right-column">
-                    <div class="column-header">解析與導讀（繁體中文）</div>
+                    <div class="column-header">（）</div>
 
                     <div class="concept-box">
-                        <h4>核心概念：User Access Control（使用者存取控制）</h4>
-                        <p><strong>Access Control（存取控制）</strong>是 Data Integrity 的第一道防線。TR84 將其定義為「預防性管控」(Prevention Control)，核心目的是確保：</p>
+                        <h4>：User Access Control（）</h4>
+                        <p><strong>Access Control（）</strong> Data Integrity 。TR84 「」(Prevention Control)，：</p>
                         <ul>
-                            <li><strong>身分識別 (Identification)</strong>：每個使用者有唯一帳號</li>
-                            <li><strong>身分驗證 (Authentication)</strong>：透過密碼確認為本人操作</li>
-                            <li><strong>職責分離 (Segregation of Duties)</strong>：不同角色有不同權限</li>
+                            <li><strong> (Identification)</strong>：</li>
+                            <li><strong> (Authentication)</strong>：</li>
+                            <li><strong> (Segregation of Duties)</strong>：</li>
                         </ul>
-                        <p>High 與 Medium 級別均要求個人帳號 (User ID + Password)；Low 級別允許群組帳號 (Group Account)，但仍需區分操作者與管理者權限。</p>
+                        <p>High  Medium  (User ID + Password)；Low  (Group Account)，。</p>
                     </div>
 
                     <div class="analogy-box">
-                        <h4>生活化比喻：門禁卡與鑰匙</h4>
-                        <p>把電子系統的存取控制想像成大樓門禁：</p>
+                        <h4>：</h4>
+                        <p>：</p>
                         <ul>
-                            <li><strong>High</strong>（如 MES、製程歷史資料庫）：指紋+感應卡雙重認證，90 天換一次密碼，輸錯 5 次鎖定</li>
-                            <li><strong>Medium</strong>（如洗瓶機參數設定）：感應卡認證，180 天換密碼，輸錯 10 次鎖定</li>
-                            <li><strong>Low</strong>（如包裝線 HMI 速度控制）：共用門禁密碼即可，一年換一次</li>
+                            <li><strong>High</strong>（ MES、）：+，90 ， 5 </li>
+                            <li><strong>Medium</strong>（）：，180 ， 10 </li>
+                            <li><strong>Low</strong>（ HMI ）：，</li>
                         </ul>
                     </div>
 
                     <div class="note-box">
-                        <h4>法規重點：自動登出 (Automatic Log-out)</h4>
-                        <p>TR84 特別強調，雖然自動登出不屬於差異化管控項目，但它是一項<strong>整體性的管控要素</strong>。閒置多久後自動登出應與風險相稱。</p>
-                        <p>實務上，無菌充填區的 MES 終端通常設定 5-10 分鐘自動登出；而辦公區域的系統可以設定 15-30 分鐘。</p>
+                        <h4>： (Automatic Log-out)</h4>
+                        <p>TR84 ，，<strong></strong>。。</p>
+                        <p>， MES  5-10 ； 15-30 。</p>
                     </div>
 
                     <div class="practice-box" style="border-style:solid; background:linear-gradient(135deg,#f0fdf4,#dcfce7); border-color:#22c55e">
-                        <h4>CDMO 實務應用：多客戶環境的存取控制挑戰</h4>
-                        <p>CDMO 的最大挑戰在於：<strong>同一套電子系統上可能儲存多個客戶的製程資料</strong>。這帶來額外的管控需求：</p>
+                        <h4>CDMO ：</h4>
+                        <p>CDMO ：<strong></strong>。：</p>
                         <ul>
-                            <li><strong>專案隔離</strong>：不同客戶的操作人員只能存取該客戶的批次資料，不得跨客戶查看</li>
-                            <li><strong>權限矩陣</strong>：需建立「客戶 x 角色 x 系統」的三維權限矩陣</li>
-                            <li><strong>帳號審查</strong>：人員輪調頻繁，年度帳號審查需特別確認離職或轉調人員的權限是否已移除</li>
-                            <li><strong>保密協定</strong>：存取控制是履行客戶保密協定 (CDA) 的技術手段之一</li>
+                            <li><strong></strong>：，</li>
+                            <li><strong></strong>：「 x  x 」</li>
+                            <li><strong></strong>：，</li>
+                            <li><strong></strong>： (CDA) </li>
                         </ul>
                     </div>
 
                     <div class="practice-box">
-                        <h4>思考題</h4>
-                        <p>你的工廠的濾膜完整性測試儀 (Filter Integrity Tester) 用於無菌充填線。該設備同時儲存多個客戶的批次測試資料。請問：</p>
+                        <h4></h4>
+                        <p> (Filter Integrity Tester) 。。：</p>
                         <ol>
-                            <li>此設備的資料屬於哪一個關鍵性等級？</li>
-                            <li>密碼變更頻率應設定為多少天？</li>
-                            <li>除了 TR84 列出的標準管控外，CDMO 還需要增加哪些額外管控？</li>
+                            <li>？</li>
+                            <li>？</li>
+                            <li> TR84 ，CDMO ？</li>
                         </ol>
                     </div>
                 </div>
@@ -1154,7 +1154,7 @@ tr:nth-child(even) {
             <div class="chapter-badge">5.3</div>
             <div class="chapter-info">
                 <h2>5.3.5 Electronic Audit Trail Review</h2>
-                <p>電子稽核軌跡審查：基本概念與審查範圍</p>
+                <p>：</p>
             </div>
         </div>
         <div class="chapter-body">
@@ -1185,47 +1185,47 @@ tr:nth-child(even) {
 
                 <!-- RIGHT: Chinese Commentary -->
                 <div class="right-column">
-                    <div class="column-header">解析與導讀（繁體中文）</div>
+                    <div class="column-header">（）</div>
 
                     <div class="concept-box">
-                        <h4>核心概念：Audit Trail（稽核軌跡）</h4>
-                        <p><strong>Audit Trail（稽核軌跡）</strong>是一種 metadata（元資料），自動記錄資料生命週期中的所有關鍵事件：建立、新增、刪除、修改。其核心要求是 <strong>"Who, What, When, Why"</strong>（何人、何事、何時、為何）。</p>
-                        <p>TR84 特別強調：</p>
+                        <h4>：Audit Trail（）</h4>
+                        <p><strong>Audit Trail（）</strong> metadata（），：、、、。 <strong>"Who, What, When, Why"</strong>（、、、）。</p>
+                        <p>TR84 ：</p>
                         <ul>
-                            <li>Audit Trail 不一定叫做 "Audit Trail"，可能以 Event Log、Alarm Log、System Log 等名稱存在</li>
-                            <li>需在作業系統 (OS) 層級與應用程式 (Application) 層級分別理解 Audit Trail 的存放位置</li>
-                            <li>並非每批都要審查所有 Audit Trail，而是採取<strong>風險導向方法</strong></li>
+                            <li>Audit Trail  "Audit Trail"， Event Log、Alarm Log、System Log </li>
+                            <li> (OS)  (Application)  Audit Trail </li>
+                            <li> Audit Trail，<strong></strong></li>
                         </ul>
                     </div>
 
                     <div class="concept-box">
-                        <h4>三類 Audit Trail 資料</h4>
-                        <p>TR84 將 Audit Trail 涵蓋的資料分為三大類：</p>
+                        <h4> Audit Trail </h4>
+                        <p>TR84  Audit Trail ：</p>
                         <ol>
-                            <li><strong>Batch Setup Data（批次設定資料）</strong>：配方 (Recipe)、設定值 (Set-points)、計畫時間等</li>
-                            <li><strong>Batch Run Data（批次執行資料）</strong>：溫度、操作時間、操作者身分等製程數據</li>
-                            <li><strong>System Configuration Data（系統組態資料）</strong>：帳號管理、權限設定、資料儲存位置等</li>
+                            <li><strong>Batch Setup Data（）</strong>： (Recipe)、 (Set-points)、</li>
+                            <li><strong>Batch Run Data（）</strong>：、、</li>
+                            <li><strong>System Configuration Data（）</strong>：、、</li>
                         </ol>
-                        <p>這三類資料的審查方式與頻率各不相同，需透過 ATRA 工具分別評估。</p>
+                        <p>， ATRA 。</p>
                     </div>
 
                     <div class="note-box">
-                        <h4>法規重點：審查者的獨立性</h4>
-                        <p>執行 Audit Trail Review 的人員必須具備兩個條件：</p>
+                        <h4>：</h4>
+                        <p> Audit Trail Review ：</p>
                         <ul>
-                            <li><strong>獨立性</strong>：不得參與該批資料的建立或驗證</li>
-                            <li><strong>技術能力</strong>：能理解 Audit Trail 的內容與意義</li>
+                            <li><strong></strong>：</li>
+                            <li><strong></strong>： Audit Trail </li>
                         </ul>
-                        <p>這意味著不能由操作者自己審查自己的操作紀錄，也不能由完全不懂系統的人來審查。</p>
+                        <p>，。</p>
                     </div>
 
                     <div class="analogy-box">
-                        <h4>生活化比喻：銀行交易明細</h4>
-                        <p>Audit Trail 就像你的銀行帳戶交易明細：</p>
+                        <h4>：</h4>
+                        <p>Audit Trail ：</p>
                         <ul>
-                            <li>每筆交易都記錄了<strong>誰</strong>（帳戶持有人）、<strong>做了什麼</strong>（存款/提款/轉帳）、<strong>何時</strong>（時間戳記）、<strong>為何</strong>（備註用途）</li>
-                            <li>你不需要每天逐筆核對，但可以定期抽查異常交易</li>
-                            <li>核對的人不應該是你自己，而是獨立的稽核人員</li>
+                            <li><strong></strong>（）、<strong></strong>（//）、<strong></strong>（）、<strong></strong>（）</li>
+                            <li>，</li>
+                            <li>，</li>
                         </ul>
                     </div>
                 </div>
@@ -1241,7 +1241,7 @@ tr:nth-child(even) {
             <div class="chapter-badge">5.3</div>
             <div class="chapter-info">
                 <h2>5.3.5.1 Audit Trail Review Assessment (ATRA)</h2>
-                <p>稽核軌跡審查評估：ATRA 三維度評分工具</p>
+                <p>：ATRA </p>
             </div>
         </div>
         <div class="chapter-body">
@@ -1287,61 +1287,61 @@ tr:nth-child(even) {
 
                 <!-- RIGHT: Chinese Commentary -->
                 <div class="right-column">
-                    <div class="column-header">解析與導讀（繁體中文）</div>
+                    <div class="column-header">（）</div>
 
                     <div class="concept-box">
-                        <h4>核心概念：ATRA 三維度評分</h4>
-                        <p><strong>Audit Trail Review Assessment (ATRA)</strong> 是 TR84 提出的風險評估工具，用於決定 Audit Trail 中每個元素的審查頻率。其邏輯類似 FMEA 的風險優先數 (RPN)，以三個維度相乘：</p>
+                        <h4>：ATRA </h4>
+                        <p><strong>Audit Trail Review Assessment (ATRA)</strong>  TR84 ， Audit Trail 。 FMEA  (RPN)，：</p>
                         <ul>
-                            <li><strong>Detectability（可偵測性）</strong>：修改或刪除是否會被其他現有審查流程發現？<br>分數：0（已有審查涵蓋）或 1（尚未被審查涵蓋）</li>
-                            <li><strong>Severity（嚴重度）</strong>：若資料被修改或刪除，對病人安全/產品品質的影響？<br>分數：10（直接影響）、4（間接影響）、1（可忽略影響）</li>
-                            <li><strong>Probability（發生機率）</strong>：資料被修改或刪除的可能性？<br>分數：10（一般使用者可修改）、2（僅獨立管理員可修改）、1（無人可修改）</li>
+                            <li><strong>Detectability（）</strong>：？<br>：0（） 1（）</li>
+                            <li><strong>Severity（）</strong>：，/？<br>：10（）、4（）、1（）</li>
+                            <li><strong>Probability（）</strong>：？<br>：10（）、2（）、1（）</li>
                         </ul>
                     </div>
 
                     <div class="formula-box">
-                        <h4>ATRA 計算公式</h4>
+                        <h4>ATRA </h4>
                         <pre>ATRA Final Score = Detectability x Severity x Probability
 
-分數範圍：0（最低風險）~ 100（最高風險）
+：0（）~ 100（）
 
-常見結果：
-  0 = 已有審查涵蓋 → 無需額外 Audit Trail 審查
-  1-10 = 低風險 → Event-based（事件觸發時審查）
-  11-20 = 中風險 → 每半年至每年
-  40 = 高風險 → 每週至每月
-  100 = 最高風險 → 每批審查 (Batch-wise)</pre>
+：
+  0 =  →  Audit Trail 
+  1-10 =  → Event-based（）
+  11-20 =  → 
+  40 =  → 
+  100 =  →  (Batch-wise)</pre>
                     </div>
 
                     <div class="analogy-box">
-                        <h4>生活化比喻：居家保全系統</h4>
-                        <p>ATRA 就像決定「多久巡邏一次」的邏輯：</p>
+                        <h4>：</h4>
+                        <p>ATRA 「」：</p>
                         <ul>
-                            <li><strong>Detectability</strong>：有沒有監視器已經在拍？（有 = 0，沒有 = 1）</li>
-                            <li><strong>Severity</strong>：這個區域放的是金庫 (10)、辦公設備 (4)、還是花園雜物 (1)？</li>
-                            <li><strong>Probability</strong>：外人容易進入 (10)、只有管理員有鑰匙 (2)、還是密封區域 (1)？</li>
+                            <li><strong>Detectability</strong>：？（ = 0， = 1）</li>
+                            <li><strong>Severity</strong>： (10)、 (4)、 (1)？</li>
+                            <li><strong>Probability</strong>： (10)、 (2)、 (1)？</li>
                         </ul>
-                        <p>金庫 + 無監視器 + 外人可進入 = 1 x 10 x 10 = 100 → 每次都要巡邏（每批審查）</p>
+                        <p> +  +  = 1 x 10 x 10 = 100 → （）</p>
                     </div>
 
                     <div class="note-box">
-                        <h4>法規重點：ATRA 不是一勞永逸</h4>
-                        <p>TR84 明確指出：若在 Periodic Review（定期審查）中發現多起 DI 違規事件，必須重新評估：</p>
+                        <h4>：ATRA </h4>
+                        <p>TR84 ： Periodic Review（） DI ，：</p>
                         <ul>
-                            <li>現有管控措施是否足夠？</li>
-                            <li>審查頻率是否需要提高？</li>
+                            <li>？</li>
+                            <li>？</li>
                         </ul>
-                        <p>這代表 ATRA 是一個<strong>動態工具</strong>，需隨系統風險狀態持續更新。</p>
+                        <p> ATRA <strong></strong>，。</p>
                     </div>
 
                     <div class="practice-box" style="border-style:solid; background:linear-gradient(135deg,#f0fdf4,#dcfce7); border-color:#22c55e">
-                        <h4>CDMO 實務應用：跨功能 ATRA 團隊</h4>
-                        <p>TR84 建議組建跨功能團隊執行 ATRA。在 CDMO 環境中，團隊應包含：</p>
+                        <h4>CDMO ： ATRA </h4>
+                        <p>TR84  ATRA。 CDMO ，：</p>
                         <ul>
-                            <li><strong>IT/自動化</strong>：了解系統技術限制與 Audit Trail 儲存架構</li>
-                            <li><strong>品保 (QA)</strong>：定義資料關鍵性等級</li>
-                            <li><strong>製造</strong>：了解日常操作流程與潛在風險</li>
-                            <li><strong>CSV 專員</strong>：確保 ATRA 與電腦系統驗證 (CSV) 文件一致</li>
+                            <li><strong>IT/</strong>： Audit Trail </li>
+                            <li><strong> (QA)</strong>：</li>
+                            <li><strong></strong>：</li>
+                            <li><strong>CSV </strong>： ATRA  (CSV) </li>
                         </ul>
                     </div>
                 </div>
@@ -1357,7 +1357,7 @@ tr:nth-child(even) {
             <div class="chapter-badge">5.3</div>
             <div class="chapter-info">
                 <h2>5.3.5.2 Practical Examples of ATRA</h2>
-                <p>ATRA 實務案例：濾膜完整性測試儀的評分範例</p>
+                <p>ATRA ：</p>
             </div>
         </div>
         <div class="chapter-body">
@@ -1409,68 +1409,68 @@ tr:nth-child(even) {
 
                 <!-- RIGHT: Chinese Commentary -->
                 <div class="right-column">
-                    <div class="column-header">解析與導讀（繁體中文）</div>
+                    <div class="column-header">（）</div>
 
                     <div class="concept-box">
-                        <h4>核心概念：ATRA 審查問題清單</h4>
-                        <p>TR84 列出了 Audit Trail 審查時應關注的具體問題，可分為兩大類：</p>
-                        <p><strong>批次相關（Batch Setup + Run Data）：</strong></p>
+                        <h4>：ATRA </h4>
+                        <p>TR84  Audit Trail ，：</p>
+                        <p><strong>（Batch Setup + Run Data）：</strong></p>
                         <ul>
-                            <li>配方參數是否在批次執行中被修改至驗證範圍外？</li>
-                            <li>CPP（關鍵製程參數）的設定值或容許範圍是否被變更？</li>
-                            <li>計算參數是否被編輯或修改？</li>
-                            <li>時間修改是否影響時間敏感製程的持續時間？</li>
-                            <li>職責分離是否落實？操作者是否有授權？</li>
+                            <li>？</li>
+                            <li>CPP（）？</li>
+                            <li>？</li>
+                            <li>？</li>
+                            <li>？？</li>
                         </ul>
-                        <p><strong>系統組態（System Configuration）：</strong></p>
+                        <p><strong>（System Configuration）：</strong></p>
                         <ul>
-                            <li>系統日期或時間是否被變更？</li>
-                            <li>報告範本是否被修改、刪除或更名？</li>
-                            <li>使用者帳號或權限是否有異動？</li>
-                            <li>是否有 Audit Trail 本身被修改或刪除的紀錄？</li>
+                            <li>？</li>
+                            <li>、？</li>
+                            <li>？</li>
+                            <li> Audit Trail ？</li>
                         </ul>
                     </div>
 
                     <div class="note-box">
-                        <h4>法規重點：濾膜完整性測試儀的 ATRA 關鍵發現</h4>
-                        <p>TR84 透過 Filter Integrity Tester 的範例，展現了 ATRA 的威力：</p>
+                        <h4>： ATRA </h4>
+                        <p>TR84  Filter Integrity Tester ， ATRA ：</p>
                         <ul>
-                            <li><strong>重複/中止測試 (Score=100)</strong>：操作員可能隱藏不合格的列印報告，這是最高風險，<strong>每批都要審查</strong></li>
-                            <li><strong>配方變更 (Score=20)</strong>：操作員無法變更配方（僅管理員可），但無其他審查涵蓋，<strong>每半年審查一次</strong></li>
-                            <li><strong>測試結果 (Score=0)</strong>：結果自動生成且不可修改，已在批次報告中審查，<strong>無需額外 Audit Trail 審查</strong></li>
+                            <li><strong>/ (Score=100)</strong>：，，<strong></strong></li>
+                            <li><strong> (Score=20)</strong>：（），，<strong></strong></li>
+                            <li><strong> (Score=0)</strong>：，，<strong> Audit Trail </strong></li>
                         </ul>
-                        <p>核心啟示：<strong>技術管控越強的系統，Audit Trail 審查頻率越低。</strong></p>
+                        <p>：<strong>，Audit Trail 。</strong></p>
                     </div>
 
                     <div class="analogy-box">
-                        <h4>生活化比喻：考試防弊系統</h4>
-                        <p>ATRA 的邏輯就像評估「考場需要多少監考人員」：</p>
+                        <h4>：</h4>
+                        <p>ATRA 「」：</p>
                         <ul>
-                            <li><strong>重複/中止測試</strong>就像學生可以偷偷重新考一次 → 必須每場都監考（每批審查）</li>
-                            <li><strong>配方變更</strong>就像修改考題答案 → 只有老師能改，但仍需定期檢查（每半年）</li>
-                            <li><strong>測試結果</strong>就像電腦自動閱卷，不可竄改 → 無需額外監督</li>
+                            <li><strong>/</strong> → （）</li>
+                            <li><strong></strong> → ，（）</li>
+                            <li><strong></strong>， → </li>
                         </ul>
                     </div>
 
                     <div class="practice-box" style="border-style:solid; background:linear-gradient(135deg,#f0fdf4,#dcfce7); border-color:#22c55e">
-                        <h4>CDMO 實務應用：建立 ATRA 標準模板</h4>
-                        <p>建議 CDMO 為常見設備建立 ATRA 標準模板：</p>
+                        <h4>CDMO ： ATRA </h4>
+                        <p> CDMO  ATRA ：</p>
                         <ul>
-                            <li><strong>Filter Integrity Tester</strong>：如上述範例，重點關注重複測試與配方變更</li>
-                            <li><strong>MES / Historian</strong>：重點關注批次參數修改、使用者權限異動</li>
-                            <li><strong>BMS（建築管理系統）</strong>：重點關注溫濕度數據修改、警報確認紀錄</li>
-                            <li><strong>秤重系統</strong>：重點關注校正參數修改、Tare 值變更</li>
+                            <li><strong>Filter Integrity Tester</strong>：，</li>
+                            <li><strong>MES / Historian</strong>：、</li>
+                            <li><strong>BMS（）</strong>：、</li>
+                            <li><strong></strong>：、Tare </li>
                         </ul>
-                        <p>模板化可大幅減少每個客戶專案的 ATRA 工作量。</p>
+                        <p> ATRA 。</p>
                     </div>
 
                     <div class="practice-box">
-                        <h4>思考題</h4>
-                        <p>你的無菌充填線使用某品牌的 Filter Integrity Tester。該設備的 Audit Trail 中記錄了「操作員 A 在 14:30 開始測試，14:32 中止測試，14:35 重新開始測試並於 14:40 通過」。</p>
+                        <h4></h4>
+                        <p> Filter Integrity Tester。 Audit Trail 「 A  14:30 ，14:32 ，14:35  14:40 」。</p>
                         <ol>
-                            <li>這筆紀錄屬於 ATRA 的哪一個元素？其 Final Score 為何？</li>
-                            <li>若 Batch Review 流程中未包含此 Audit Trail 的審查，可能有什麼風險？</li>
-                            <li>你會建議將此項的審查頻率定為多少？</li>
+                            <li> ATRA ？ Final Score ？</li>
+                            <li> Batch Review  Audit Trail ，？</li>
+                            <li>？</li>
                         </ol>
                     </div>
                 </div>
@@ -1486,7 +1486,7 @@ tr:nth-child(even) {
             <div class="chapter-badge">5.3</div>
             <div class="chapter-info">
                 <h2>5.3.6 Backup of Electronic Data</h2>
-                <p>電子資料備份：頻率策略與迴圈記憶體管控</p>
+                <p>：</p>
             </div>
         </div>
         <div class="chapter-body">
@@ -1514,55 +1514,55 @@ tr:nth-child(even) {
 
                 <!-- RIGHT: Chinese Commentary -->
                 <div class="right-column">
-                    <div class="column-header">解析與導讀（繁體中文）</div>
+                    <div class="column-header">（）</div>
 
                     <div class="concept-box">
-                        <h4>核心概念：Data Backup（資料備份）策略</h4>
-                        <p>TR84 將 Data Backup（資料備份）的管控分為兩個情境：</p>
+                        <h4>：Data Backup（）</h4>
+                        <p>TR84  Data Backup（）：</p>
                         <ol>
-                            <li><strong>備份頻率策略</strong>：根據「若資料遺失，製造活動能否透過其他方式重建？」來決定備份頻率</li>
-                            <li><strong>迴圈記憶體 (Looped Memory) 管控</strong>：針對儲存容量有限、新資料自動覆蓋舊資料的設備</li>
+                            <li><strong></strong>：「，？」</li>
+                            <li><strong> (Looped Memory) </strong>：、</li>
                         </ol>
-                        <p>核心原則：<strong>備份頻率應與資料生成頻率相稱</strong>。若設備每天產生新資料（如 MES），則需每日備份。</p>
+                        <p>：<strong></strong>。（ MES），。</p>
                     </div>
 
                     <div class="analogy-box">
-                        <h4>生活化比喻：行車紀錄器</h4>
-                        <p>Looped Memory（迴圈記憶體）就像行車紀錄器的記憶卡：</p>
+                        <h4>：</h4>
+                        <p>Looped Memory（）：</p>
                         <ul>
-                            <li>記憶卡滿了之後，新的影像會自動覆蓋最舊的影像</li>
-                            <li>如果你發生交通事故但忘了備份，關鍵證據可能已被覆蓋</li>
-                            <li><strong>High</strong>：像計程車的行車紀錄器，每天下班前必須備份（因為是營業用途的法律證據）</li>
-                            <li><strong>Low</strong>：像自家轎車的行車紀錄器，只要在需要調閱前不被覆蓋即可</li>
+                            <li>，</li>
+                            <li>，</li>
+                            <li><strong>High</strong>：，（）</li>
+                            <li><strong>Low</strong>：，</li>
                         </ul>
                     </div>
 
                     <div class="note-box">
-                        <h4>法規重點：資料遺失 = 批次拒放</h4>
-                        <p>TR84 提出一個非常實際的警告：</p>
-                        <p><strong>若影響產品安全/品質的活動唯一證據是電子資料，而該資料因未備份而遺失，企業必須準備拒放該批次。</strong></p>
-                        <p>這是備份策略的最佳風險論述：「不備份的成本 = 整批產品報廢的損失」。</p>
+                        <h4>： = </h4>
+                        <p>TR84 ：</p>
+                        <p><strong>/，，。</strong></p>
+                        <p>：「 = 」。</p>
                     </div>
 
                     <div class="practice-box" style="border-style:solid; background:linear-gradient(135deg,#f0fdf4,#dcfce7); border-color:#22c55e">
-                        <h4>CDMO 實務應用：常見迴圈記憶體設備</h4>
-                        <p>CDMO 環境中常見的迴圈記憶體設備：</p>
+                        <h4>CDMO ：</h4>
+                        <p>CDMO ：</p>
                         <ul>
-                            <li><strong>Filter Integrity Tester</strong>（High）：某些型號僅能儲存 10-50 組測試結果，必須在覆蓋前備份</li>
-                            <li><strong>pH Meter / 導電度計</strong>（Medium）：生產現場使用的手持式設備，儲存容量有限</li>
-                            <li><strong>壓錠機 (Compression Machine)</strong>：可能僅儲存固定批次數的資料</li>
-                            <li><strong>自動秤重系統</strong>：某些型號的內部記憶體有限</li>
+                            <li><strong>Filter Integrity Tester</strong>（High）： 10-50 ，</li>
+                            <li><strong>pH Meter / </strong>（Medium）：，</li>
+                            <li><strong> (Compression Machine)</strong>：</li>
+                            <li><strong></strong>：</li>
                         </ul>
-                        <p>建議：建立「設備儲存容量清單」，標註各設備的最大儲存批次數及建議備份週期。</p>
+                        <p>：「」，。</p>
                     </div>
 
                     <div class="practice-box">
-                        <h4>思考題</h4>
-                        <p>你的無菌充填線有一台 Filter Integrity Tester，最多可儲存 20 組測試結果。該充填線每天執行 2-3 批，每批測試 2 個濾膜。請問：</p>
+                        <h4></h4>
+                        <p> Filter Integrity Tester， 20 。 2-3 ， 2 。：</p>
                         <ol>
-                            <li>大約幾天後舊資料會開始被覆蓋？</li>
-                            <li>你會建議什麼樣的備份頻率？</li>
-                            <li>若某批測試資料因未及時備份而遺失，對批次放行有何影響？</li>
+                            <li>？</li>
+                            <li>？</li>
+                            <li>，？</li>
                         </ol>
                     </div>
                 </div>
@@ -1578,7 +1578,7 @@ tr:nth-child(even) {
             <div class="chapter-badge">5.3</div>
             <div class="chapter-info">
                 <h2>5.3.7 Use of Electronic Data</h2>
-                <p>電子資料的使用：報告產出與資料傳輸</p>
+                <p>：</p>
             </div>
         </div>
         <div class="chapter-body">
@@ -1594,16 +1594,16 @@ tr:nth-child(even) {
 
                 <!-- RIGHT: Chinese Commentary -->
                 <div class="right-column">
-                    <div class="column-header">解析與導讀（繁體中文）</div>
+                    <div class="column-header">（）</div>
 
                     <div class="concept-box">
-                        <h4>核心概念：電子資料的後端處理</h4>
-                        <p>電子資料生成後，後續處理可能帶來 DI 風險。TR84 在此聚焦兩個關鍵場景：</p>
+                        <h4>：</h4>
+                        <p>， DI 。TR84 ：</p>
                         <ol>
-                            <li><strong>資料匯出產生報告/記錄</strong>（Section 5.3.7.1）：如從 MES 匯出批次記錄</li>
-                            <li><strong>系統間資料傳輸或遷移</strong>（Section 5.3.7.2）：如從獨立設備傳輸至中央系統</li>
+                            <li><strong>/</strong>（Section 5.3.7.1）： MES </li>
+                            <li><strong></strong>（Section 5.3.7.2）：</li>
                         </ol>
-                        <p>兩者的管控核心都在於：確保資料在處理過程中<strong>不被改變、不會遺失</strong>。</p>
+                        <p>：<strong>、</strong>。</p>
                     </div>
                 </div>
             </div>
@@ -1618,7 +1618,7 @@ tr:nth-child(even) {
             <div class="chapter-badge">5.3</div>
             <div class="chapter-info">
                 <h2>5.3.7.1 Exporting Electronic Data to Generate Reports and Records</h2>
-                <p>資料匯出與報告產出：驗證、變更管控與範本管理</p>
+                <p>：、</p>
             </div>
         </div>
         <div class="chapter-body">
@@ -1642,42 +1642,42 @@ tr:nth-child(even) {
 
                 <!-- RIGHT: Chinese Commentary -->
                 <div class="right-column">
-                    <div class="column-header">解析與導讀（繁體中文）</div>
+                    <div class="column-header">（）</div>
 
                     <div class="concept-box">
-                        <h4>核心概念：報告範本管控的三級差異</h4>
-                        <p>TR84 將報告/記錄產出的管控從四個面向分級：</p>
+                        <h4>：</h4>
+                        <p>TR84 /：</p>
                         <ul>
-                            <li><strong>驗證層級</strong>：High 需要完整驗證 + 變更後重新驗證；Medium 僅需初始驗證；Low 僅需確認 (Verification)</li>
-                            <li><strong>變更管控</strong>：High 需要 Change Control + Test Plan；Medium 需要程序管控；Low 僅需作業指導書</li>
-                            <li><strong>修改權限</strong>：High 與 Medium 由 IT/自動化單位執行；Low 可由業務單位自行執行</li>
-                            <li><strong>內容彈性</strong>：High 為靜態固定；Medium 有限彈性（下拉選單）；Low 可彈性調整</li>
+                            <li><strong></strong>：High  + ；Medium ；Low  (Verification)</li>
+                            <li><strong></strong>：High  Change Control + Test Plan；Medium ；Low </li>
+                            <li><strong></strong>：High  Medium  IT/；Low </li>
+                            <li><strong></strong>：High ；Medium （）；Low </li>
                         </ul>
                     </div>
 
                     <div class="analogy-box">
-                        <h4>生活化比喻：Excel 報表模板管理</h4>
-                        <p>想像你的工廠有三類 Excel 報表模板：</p>
+                        <h4>：Excel </h4>
+                        <p> Excel ：</p>
                         <ul>
-                            <li><strong>High</strong>（批次放行報告）：像銀行對帳單模板 → IT 鎖定格式，任何修改需要完整驗證 + 變更管控</li>
-                            <li><strong>Medium</strong>（環境監測報告）：像預設的月報模板 → 有固定的篩選條件，使用者可選擇日期範圍</li>
-                            <li><strong>Low</strong>（趨勢分析匯出）：像分析用的 Pivot Table → 使用者可自由調整欄位和篩選</li>
+                            <li><strong>High</strong>（）： → IT ， + </li>
+                            <li><strong>Medium</strong>（）： → ，</li>
+                            <li><strong>Low</strong>（）： Pivot Table → </li>
                         </ul>
                     </div>
 
                     <div class="note-box">
-                        <h4>法規重點：品質單位的跨級監督</h4>
-                        <p>TR84 強調一個重要原則：<strong>無論資料關鍵性等級高低，品質單位 (Quality Unit) 都應審查和核准報告範本的變更</strong>，特別是可能影響資訊呈現方式的變更。</p>
-                        <p>這代表即使是 Low 級別的報告，若範本變更會改變所顯示的資訊內容，品質單位仍需介入。</p>
+                        <h4>：</h4>
+                        <p>TR84 ：<strong>， (Quality Unit) </strong>，。</p>
+                        <p> Low ，，。</p>
                     </div>
 
                     <div class="practice-box" style="border-style:solid; background:linear-gradient(135deg,#f0fdf4,#dcfce7); border-color:#22c55e">
-                        <h4>CDMO 實務應用：多客戶報告範本管理</h4>
-                        <p>CDMO 面臨的報告管理挑戰：</p>
+                        <h4>CDMO ：</h4>
+                        <p>CDMO ：</p>
                         <ul>
-                            <li><strong>客戶專屬報告格式</strong>：不同客戶可能要求不同的批次報告格式，每個格式都需獨立驗證</li>
-                            <li><strong>範本版本控制</strong>：同一系統上可能有 5-10 個客戶的報告範本，版本管控複雜度倍增</li>
-                            <li><strong>Raw Data 不可變原則</strong>：報告範本的修改僅影響呈現方式，底層原始資料 (Raw Data) 不得因範本變更而被改變</li>
+                            <li><strong></strong>：，</li>
+                            <li><strong></strong>： 5-10 ，</li>
+                            <li><strong>Raw Data </strong>：， (Raw Data) </li>
                         </ul>
                     </div>
                 </div>
@@ -1693,7 +1693,7 @@ tr:nth-child(even) {
             <div class="chapter-badge">5.3</div>
             <div class="chapter-info">
                 <h2>5.3.7.2 Data Transfer and Migration Between Electronic Systems</h2>
-                <p>電子系統間資料傳輸與遷移：確保資料完整傳遞</p>
+                <p>：</p>
             </div>
         </div>
         <div class="chapter-body">
@@ -1719,58 +1719,58 @@ tr:nth-child(even) {
 
                 <!-- RIGHT: Chinese Commentary -->
                 <div class="right-column">
-                    <div class="column-header">解析與導讀（繁體中文）</div>
+                    <div class="column-header">（）</div>
 
                     <div class="concept-box">
-                        <h4>核心概念：Data Transfer vs. Data Migration</h4>
-                        <p>TR84 討論了兩種電子資料傳輸情境：</p>
+                        <h4>：Data Transfer vs. Data Migration</h4>
+                        <p>TR84 ：</p>
                         <ul>
-                            <li><strong>Data Migration（資料遷移）</strong>：一次性的平台轉換，如軟體升級、伺服器更換、上雲端。通常伴隨 CSV（電腦系統驗證）活動。</li>
-                            <li><strong>Data Transfer（資料傳輸）</strong>：週期性的資料傳送，如從獨立設備定期將批次資料上傳至 MES 或 Historian。</li>
+                            <li><strong>Data Migration（）</strong>：，、、。 CSV（）。</li>
+                            <li><strong>Data Transfer（）</strong>：， MES  Historian。</li>
                         </ul>
-                        <p>兩者的共同管控要求（High/Medium）：<strong>Change Control + Test Plan + Checksum 驗證</strong></p>
+                        <p>（High/Medium）：<strong>Change Control + Test Plan + Checksum </strong></p>
                     </div>
 
                     <div class="concept-box">
-                        <h4>關鍵術語：Checksum（校驗碼）</h4>
-                        <p><strong>Checksum（校驗碼）</strong>是一種資料完整性驗證工具，透過數學演算法計算出一個固定長度的代碼。若傳輸前後的 Checksum 相同，代表資料完整無誤。</p>
-                        <p>常見類型：MD5、SHA-256 等。在 GMP 環境中，Checksum 是確認「所有發出的資料都已被接收」的技術手段。</p>
+                        <h4>：Checksum（）</h4>
+                        <p><strong>Checksum（）</strong>，。 Checksum ，。</p>
+                        <p>：MD5、SHA-256 。 GMP ，Checksum 「」。</p>
                     </div>
 
                     <div class="analogy-box">
-                        <h4>生活化比喻：搬家時的物品清單</h4>
-                        <p>資料傳輸就像搬家：</p>
+                        <h4>：</h4>
+                        <p>：</p>
                         <ul>
-                            <li><strong>High/Medium</strong>（重要物品搬遷）：搬家前列清單 (Test Plan)，搬家公司簽約 (Change Control)，搬到新家後逐一核對清單 (Checksum)</li>
-                            <li><strong>Low</strong>（雜物轉移到儲藏室）：按照步驟搬過去即可 (Procedural Control)，不需要逐件核對</li>
+                            <li><strong>High/Medium</strong>（）： (Test Plan)， (Change Control)， (Checksum)</li>
+                            <li><strong>Low</strong>（）： (Procedural Control)，</li>
                         </ul>
                     </div>
 
                     <div class="note-box">
-                        <h4>法規重點：High 與 Medium 的管控一致性</h4>
-                        <p>值得注意的是，在資料傳輸/遷移的管控上，<strong>High 與 Medium 的要求完全相同</strong>。這反映了 TR84 的立場：即使是間接影響產品品質的資料（Medium），在系統間傳輸時也不容許任何遺失或變更。</p>
-                        <p>唯有 Low 級別（如傳輸至 Data Lake 做趨勢分析）可以採用較簡化的程序管控。</p>
+                        <h4>：High  Medium </h4>
+                        <p>，/，<strong>High  Medium </strong>。 TR84 ：（Medium），。</p>
+                        <p> Low （ Data Lake ）。</p>
                     </div>
 
                     <div class="practice-box" style="border-style:solid; background:linear-gradient(135deg,#f0fdf4,#dcfce7); border-color:#22c55e">
-                        <h4>CDMO 實務應用：資料傳輸的常見場景</h4>
-                        <p>CDMO 中常見的資料傳輸/遷移場景：</p>
+                        <h4>CDMO ：</h4>
+                        <p>CDMO /：</p>
                         <ul>
-                            <li><strong>Filter Integrity Tester → MES</strong>（High）：每批測試資料上傳至 MES，需 Checksum 驗證</li>
-                            <li><strong>EM 系統 → LIMS</strong>（Medium）：環境監測資料定期傳輸至 LIMS，需 Change Control</li>
-                            <li><strong>MES 升級</strong>（High）：從舊版 MES 遷移至新版，屬一次性活動，需完整驗證計畫</li>
-                            <li><strong>製程數據 → Data Lake</strong>（Low）：用於 CPV（持續製程確效）分析，程序管控即可</li>
+                            <li><strong>Filter Integrity Tester → MES</strong>（High）： MES， Checksum </li>
+                            <li><strong>EM  → LIMS</strong>（Medium）： LIMS， Change Control</li>
+                            <li><strong>MES </strong>（High）： MES ，，</li>
+                            <li><strong> → Data Lake</strong>（Low）： CPV（），</li>
                         </ul>
-                        <p>特別注意：CDMO 在系統升級時，需確認所有客戶的歷史批次資料均完整遷移。</p>
+                        <p>：CDMO ，。</p>
                     </div>
 
                     <div class="practice-box">
-                        <h4>思考題</h4>
-                        <p>你的工廠正在將 MES 從 Version 3.0 升級至 Version 4.0。系統中儲存了 5 個客戶、共 200 批的歷史批次記錄。請問：</p>
+                        <h4></h4>
+                        <p> MES  Version 3.0  Version 4.0。 5 、 200 。：</p>
                         <ol>
-                            <li>此次資料遷移屬於哪一個關鍵性等級？</li>
-                            <li>你會使用什麼驗證工具確認資料完整遷移？</li>
-                            <li>遷移完成後，需要通知客戶嗎？為什麼？</li>
+                            <li>？</li>
+                            <li>？</li>
+                            <li>，？？</li>
                         </ol>
                     </div>
                 </div>
@@ -1786,35 +1786,35 @@ tr:nth-child(even) {
             <div class="chapter-badge">S</div>
             <div class="chapter-info">
                 <h2>Section Summary</h2>
-                <p>本節重點總結</p>
+                <p></p>
             </div>
         </div>
         <div class="chapter-body">
             <div class="concept-box">
-                <h4>Section 4 核心要點回顧</h4>
-                <p>本節涵蓋 TR84 第 5.3.3.3 至 5.3.7.2 的具體管控領域，為 Data Integrity 管控體系的實務操作核心。以下為各領域的關鍵管控摘要：</p>
+                <h4>Section 4 </h4>
+                <p> TR84  5.3.3.3  5.3.7.2 ， Data Integrity 。：</p>
             </div>
 
             <div class="note-box">
-                <h4>CDMO 從業者的三大行動重點</h4>
+                <h4>CDMO </h4>
                 <ol>
-                    <li><strong>建立跨客戶的 Access Control 矩陣</strong>：確保同一系統上不同客戶的資料隔離，每年審查帳號權限</li>
-                    <li><strong>為關鍵設備完成 ATRA 評估</strong>：優先針對 Filter Integrity Tester、MES、Historian 等設備，建立 Audit Trail 審查 SOP</li>
-                    <li><strong>建立迴圈記憶體設備清單</strong>：盤點所有具有限儲存容量的設備，制定預防性備份計畫，避免資料覆蓋導致批次拒放</li>
+                    <li><strong> Access Control </strong>：，</li>
+                    <li><strong> ATRA </strong>： Filter Integrity Tester、MES、Historian ， Audit Trail  SOP</li>
+                    <li><strong></strong>：，，</li>
                 </ol>
             </div>
 
             <div class="practice-box">
-                <h4>綜合思考題</h4>
-                <p>假設你是一家 CDMO 的品保經理，即將接受客戶的 Data Integrity Audit。稽核員要求你展示以下內容：</p>
+                <h4></h4>
+                <p> CDMO ， Data Integrity Audit。：</p>
                 <ol>
-                    <li>你的工廠如何管理紙本記錄轉電子化 (True Copy) 的流程？</li>
-                    <li>你的 MES 系統的存取控制策略為何？如何確保不同客戶的資料隔離？</li>
-                    <li>你的 Filter Integrity Tester 的 Audit Trail Review 頻率是如何決定的？請出示 ATRA 文件。</li>
-                    <li>你的備份策略如何確保迴圈記憶體設備的資料不會遺失？</li>
-                    <li>你的批次報告範本的變更管控流程為何？</li>
+                    <li> (True Copy) ？</li>
+                    <li> MES ？？</li>
+                    <li> Filter Integrity Tester  Audit Trail Review ？ ATRA 。</li>
+                    <li>？</li>
+                    <li>？</li>
                 </ol>
-                <p>針對上述每一點，你能否清楚說明現有管控措施？若有不足之處，你的改善計畫是什麼？</p>
+                <p>，？，？</p>
             </div>
         </div>
     </div>

@@ -439,7 +439,7 @@ body {
     font-size: 0.92rem !important;
 }
 
-/* ===== ANALOGY BOX (Yellow) - 比喻說明 ===== */
+/* ===== ANALOGY BOX (Yellow) -  ===== */
 .analogy-box,
 .concept-box[class*="analogy"],
 .concept-box.analogy,
@@ -453,7 +453,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #856404 !important;
 }
 
-/* ===== TERM/CONCEPT BOX (Green) - 核心概念 ===== */
+/* ===== TERM/CONCEPT BOX (Green) -  ===== */
 .term-box,
 .key-term-box,
 .concept-box:not([class*="analogy"]):not([class*="note"]):not([class*="formula"]):not([class*="practice"]):not([class*="highlight"]):not(.analogy):not(.application) {
@@ -468,7 +468,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #2e7d32 !important;
 }
 
-/* ===== NOTE/HIGHLIGHT BOX (Orange) - 重點提示 ===== */
+/* ===== NOTE/HIGHLIGHT BOX (Orange) -  ===== */
 .note-box,
 .key-note,
 .key-point-box,
@@ -487,7 +487,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #c65102 !important;
 }
 
-/* ===== FORMULA BOX (Purple) - 公式計算 ===== */
+/* ===== FORMULA BOX (Purple) -  ===== */
 .formula-box,
 .concept-box[class*="formula"] {
     background: var(--purple-bg) !important;
@@ -522,7 +522,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #1565c0 !important;
 }
 
-/* ===== PRACTICE BOX (Blue dashed) - 練習思考 ===== */
+/* ===== PRACTICE BOX (Blue dashed) -  ===== */
 .practice-box {
     background: linear-gradient(135deg, #e8f4fd 0%, #d1e9ff 100%) !important;
     border: 2px dashed #3182ce !important;
@@ -971,29 +971,29 @@ tr:nth-child(even) {
 <!-- SECTION HEADER -->
 <div class="header">
     <h1>Chapter 3: Risk Management <span class="ispe-source-bar">ISPE</span></h1>
-    <div class="subtitle">第三章：風險管理 — 生物製藥設施設計的科學基礎</div>
+    <div class="subtitle">： — </div>
     <div class="page-info">ISPE Baseline Guide Vol.6 (2nd Ed.): Biopharmaceutical Manufacturing Facilities | p25 – p31</div>
 </div>
 
 <!-- LEARNING OBJECTIVES -->
 <div class="main-content">
 <div class="learning-objectives">
-    <h3>本章學習目標</h3>
+    <h3></h3>
     <ul>
-        <li>理解風險管理 (Risk Management) 在生物製藥製造中的核心地位，以及為何它是設施設計的基礎而非附屬工具</li>
-        <li>掌握風險的定義：風險 = 概率 (Probability) × 影響嚴重性 (Severity) × 可偵測性 (Detectability)，並能應用於設施設計決策</li>
-        <li>理解 FDA 2004 年「21世紀 cGMP 風險管理方法」報告的核心理念，及其對現代生物製藥設施設計的影響</li>
-        <li>深入了解五種主要的風險評估工具（PHA、FMEA、FTA、HAZOPS、HACCP），能夠判斷在不同情境下各方法的適用性</li>
-        <li>掌握 HACCP 七大原則在生物製藥製程中的應用邏輯，並能與第四章（製程密閉）和第六章（cGMP 佈局）的設計決策建立連結</li>
+        <li> (Risk Management) ，</li>
+        <li>： =  (Probability) ×  (Severity) ×  (Detectability)，</li>
+        <li> FDA 2004 「21 cGMP 」，</li>
+        <li>（PHA、FMEA、FTA、HAZOPS、HACCP），</li>
+        <li> HACCP ，（）（cGMP ）</li>
     </ul>
 </div>
 
 <!-- ==================== SECTION 3.1 ==================== -->
-<div class="section-title">3.1 Introduction 導論</div>
+<div class="section-title">3.1 Introduction </div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p>The goal of this chapter is to provide a method for evaluating the <span class="key-term">risks of cross contamination and contamination from the environment</span> during manufacturing of bulk drug substance, specifically during bioprocessing. For further information see the ISPE Guide: Biopharmaceutical Process Development and Manufacturing [8].</p>
 
@@ -1001,50 +1001,50 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 — 本章的雙重目標</h4>
-            <p>第3章的導論段落雖然簡短，但明確了兩個關鍵訊息：</p>
-            <p><strong>目標1：聚焦兩種污染來源</strong></p>
+            <h4> — </h4>
+            <p>3，：</p>
+            <p><strong>1：</strong></p>
             <ul>
-                <li><strong>交叉污染 (Cross contamination)：</strong>來自其他產品、批次或步驟的污染物進入當前製程</li>
-                <li><strong>環境污染 (Contamination from environment)：</strong>來自周圍廠房環境（空氣、表面、人員）的污染</li>
+                <li><strong> (Cross contamination)：</strong>、</li>
+                <li><strong> (Contamination from environment)：</strong>（、、）</li>
             </ul>
-            <p>這兩種污染源直接決定了你對設施的設計要求：如果你能密閉製程，環境污染風險就大幅降低；如果你在多產品廠房中，交叉污染就是首要關注點。</p>
-            <p><strong>目標2：科學導向的設計決策</strong></p>
-            <p>控制措施的程度應與風險「相稱 (commensurate)」——這是 ICH Q9 品質風險管理 (Quality Risk Management, QRM) 的核心原則。不要過度設計（浪費資源），也不要設計不足（危及品質）。</p>
+            <p>：，；，。</p>
+            <p><strong>2：</strong></p>
+            <p>「 (commensurate)」—— ICH Q9  (Quality Risk Management, QRM) 。（），（）。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 — GDP 與製程理解的「版本控制」</h4>
-            <p>指南提到良好文件管理規範 (Good Documentation Practice, GDP) 中的「版本控制 (versioning)」概念，這比表面看起來更有深度：</p>
-            <p>生物製程的理解是隨時間積累的——臨床一期的理解遠少於商業化階段。指南建議隨著製程理解的深化，風險評估文件也應隨之更新和版本化。這個原則直接對應 ICH Q10 藥品品質體系中的「持續改進 (Continual Improvement)」概念。</p>
-            <p>對於 CDMO 而言，這意味著：接手新客戶的技術轉移時，早期的風險評估可能需要在製程充分理解後重新評估和更新。</p>
+            <h4> — GDP 「」</h4>
+            <p> (Good Documentation Practice, GDP) 「 (versioning)」，：</p>
+            <p>——。，。 ICH Q10 「 (Continual Improvement)」。</p>
+            <p> CDMO ，：，。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 — 風險管理就像飛行前的安全檢查</h4>
-            <p>飛行員在每次飛行前都必須進行系統性的安全檢查（preflight checklist），即使是同一架飛機飛了一千次也不例外。這不是因為他們認為會出問題，而是因為<strong>系統性的風險識別是防止意外的唯一可靠方法</strong>。</p>
-            <p>生物製藥的風險管理也是如此：不能依靠「我們以前都這樣做沒出問題」的經驗法則，而必須有系統性的方法來識別、評估和控制每一個風險點。這是 FDA 2004 年報告的核心精神。</p>
+            <h4> — </h4>
+            <p>（preflight checklist），。，<strong></strong>。</p>
+            <p>：「」，、。 FDA 2004 。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考</h4>
+            <h4></h4>
             <ol>
-                <li>「控制措施應與風險相稱」這個原則如何防止設計過度？舉一個生物製藥廠房設計中可能「過度設計」的例子，以及如何用風險評估工具避免它。</li>
-                <li>本節提到兩種污染類型。在密閉系統的製程中，哪種污染類型依然需要關注？為什麼密閉不能消除所有污染風險？</li>
+                <li>「」？「」，。</li>
+                <li>。，？？</li>
             </ol>
         </div>
     </div>
 </div>
 
 <!-- ==================== SECTION 3.2 ==================== -->
-<div class="section-title">3.2 Risk Management 風險管理</div>
+<div class="section-title">3.2 Risk Management </div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p><span class="key-term">High risk is associated with changes to drug manufacturing.</span> Any changes in drug composition or quality could result in changes in efficacy or safety. Good product and process understanding is required to fully evaluate the impact of any manufacturing deviation.</p>
 
@@ -1052,47 +1052,47 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 — FDA 2004 年報告的歷史意義</h4>
-            <p>FDA 2004 年的「21世紀 cGMP：風險管理方法」報告是製藥監管史上的一個重要轉折點。在此之前，FDA 的稽查方式更偏向「規範性」（prescriptive）——嚴格按照法規條文逐條核查合規性。</p>
-            <p>這份報告開啟了「科學與風險導向」（science and risk-based）稽查的新時代，其核心主張是：</p>
+            <h4> — FDA 2004 </h4>
+            <p>FDA 2004 「21 cGMP：」。，FDA 「」（prescriptive）——。</p>
+            <p>「」（science and risk-based），：</p>
             <ul>
-                <li>製藥廠應該理解自己的製程，而不只是遵守規定</li>
-                <li>FDA 稽查員應聚焦於真正的品質風險，而非僅僅文件格式</li>
-                <li>新技術（如 PAT — 製程分析技術）應被鼓勵，而非因「改變」而受到阻礙</li>
-                <li>持續改進（continuous improvement）應是正常的製造文化</li>
+                <li>，</li>
+                <li>FDA ，</li>
+                <li>（ PAT — ），「」</li>
+                <li>（continuous improvement）</li>
             </ul>
-            <p>這份報告直接促成了後來 ICH Q8、Q9、Q10（質量三部曲）的誕生，也奠定了現代 QbD 方法論的基礎。</p>
+            <p> ICH Q8、Q9、Q10（）， QbD 。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 — 藥品製造的變更為何如此高風險</h4>
-            <p>指南開頭強調「製造變更伴隨高風險」，這對生物製藥尤其重要，因為：</p>
+            <h4> — </h4>
+            <p>「」，，：</p>
             <ul>
-                <li><strong>製程即產品：</strong>對小分子藥物，你可以通過分析確認結構不變；但對生物製藥，蛋白質的折疊方式、糖基化模式可能因製程微小變化而改變，而這些變化可能影響安全性或療效</li>
-                <li><strong>「結構」難以完整表徵：</strong>一個 150 kDa 的 MAb 分子遠比一個 500 Da 的小分子複雜，無法用簡單的化學分析完整表徵</li>
-                <li><strong>CAPA 的重要性：</strong>當任何偏差發生時，CAPA（矯正與預防措施）必須包含風險評估，評估該偏差是否可能影響產品品質</li>
+                <li><strong>：</strong>，；，、，</li>
+                <li><strong>「」：</strong> 150 kDa  MAb  500 Da ，</li>
+                <li><strong>CAPA ：</strong>，CAPA（），</li>
             </ul>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考</h4>
+            <h4></h4>
             <ol>
-                <li>FDA 的「科學導向稽查」和傳統「規範性稽查」在實際操作中有什麼不同？哪種方式對創新更有利？</li>
-                <li>如果一個 CDMO 想要更換一個生物反應器供應商（相同規格但不同品牌），這屬於「製造變更」嗎？需要進行什麼層級的風險評估？</li>
+                <li>FDA 「」「」？？</li>
+                <li> CDMO （），「」？？</li>
             </ol>
         </div>
     </div>
 </div>
 
 <!-- ==================== SECTION 3.2.1 ==================== -->
-<div class="section-title">3.2.1 Purpose of Risk Management 風險管理的目的</div>
+<div class="section-title">3.2.1 Purpose of Risk Management </div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p><span class="key-term">Risk is a product of the probability (likelihood) and impact (severity) of a potential hazard.</span> The ability to detect a hazard, failure or risk is also an aspect of risk management. Sound process understanding, including understanding of critical control and CQAs of products, processes, raw materials, equipment, facilities, personnel and services is required.</p>
 
@@ -1100,83 +1100,83 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 — 風險的三個維度</h4>
-            <p>指南定義的風險概念與 ICH Q9 一致，但隱含了三個維度（FMEA 的基礎）：</p>
-            <p><strong>風險 (Risk) = 概率 (Probability) × 嚴重性 (Severity) × 可偵測性 (Detectability) 的函數</strong></p>
+            <h4> — </h4>
+            <p> ICH Q9 ，（FMEA ）：</p>
+            <p><strong> (Risk) =  (Probability) ×  (Severity) ×  (Detectability) </strong></p>
             <ul>
-                <li><strong>概率 (Probability/Likelihood)：</strong>該危害發生的可能性有多大？（頻率、歷史數據）</li>
-                <li><strong>嚴重性 (Severity/Impact)：</strong>如果發生了，對患者或產品品質的影響有多嚴重？</li>
-                <li><strong>可偵測性 (Detectability)：</strong>如果發生了，我們能在造成傷害之前偵測到嗎？</li>
+                <li><strong> (Probability/Likelihood)：</strong>？（、）</li>
+                <li><strong> (Severity/Impact)：</strong>，？</li>
+                <li><strong> (Detectability)：</strong>，？</li>
             </ul>
-            <p>這三個維度共同構成 FMEA 中的 <strong>Risk Priority Number (RPN) = S × O × D</strong>（嚴重性 × 發生率 × 可偵測性）。</p>
+            <p> FMEA  <strong>Risk Priority Number (RPN) = S × O × D</strong>（ ×  × ）。</p>
         </div>
 
         <div class="formula-box">
-            <h4>公式與框架 — 風險優先數 (Risk Priority Number, RPN)</h4>
+            <h4> —  (Risk Priority Number, RPN)</h4>
             <pre>
-FMEA 風險評估公式：
+FMEA ：
 RPN = Severity (S) × Occurrence (O) × Detection (D)
 
-評分範例（各維度 1-10 分）：
-S：嚴重性 1=可忽略, 10=致命
-O：發生率 1=極少, 10=常見
-D：可偵測性 1=容易偵測, 10=幾乎無法偵測
+（ 1-10 ）：
+S： 1=, 10=
+O： 1=, 10=
+D： 1=, 10=
 
-舉例：細胞培養污染風險
-S = 9 (污染導致批次報廢, 嚴重影響患者供應)
-O = 3 (有密閉系統保護, 發生率低)
-D = 4 (有線上監測可快速偵測)
+：
+S = 9 (, )
+O = 3 (, )
+D = 4 ()
 RPN = 9 × 3 × 4 = 108
 
-高 RPN → 需要額外的控制措施
-低 RPN → 現有控制措施已足夠
+ RPN → 
+ RPN → 
 
-設施設計如何影響 RPN：
-- 採用密閉系統 → 降低 O（發生率）
-- 安裝線上 pH/DO 監測 → 降低 D（可偵測性分數）
-- 使用多重屏障 → 同時降低 O 和 D
+ RPN：
+-  →  O（）
+-  pH/DO  →  D（）
+-  →  O  D
             </pre>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 — 「風險最終歸結於患者」是設計的最高原則</h4>
-            <p>指南強調風險管理的最終目標是「pro-actively mitigate the risk... to patient（主動降低對患者的風險）」。這句話應該被所有生物製藥設施設計者銘記在心。</p>
-            <p>這對應了我們在 PROMPT.md 中提到的設計決策階層：</p>
+            <h4> — 「」</h4>
+            <p>「pro-actively mitigate the risk... to patient（）」。。</p>
+            <p> PROMPT.md ：</p>
             <div class="hierarchy-diagram">
                 <div class="hierarchy-level">
-                    <span class="hierarchy-box level-1">1. 無菌保證 / 患者安全</span>
+                    <span class="hierarchy-box level-1">1.  / </span>
                 </div>
                 <div class="arrow-down">▼</div>
                 <div class="hierarchy-level">
-                    <span class="hierarchy-box level-2">2. 產品 CQA（品質屬性）</span>
+                    <span class="hierarchy-box level-2">2.  CQA（）</span>
                 </div>
                 <div class="arrow-down">▼</div>
                 <div class="hierarchy-level">
-                    <span class="hierarchy-box level-3">3. 商業彈性與成本效益</span>
+                    <span class="hierarchy-box level-3">3. </span>
                 </div>
             </div>
-            <p>當設計選擇與患者安全衝突時，安全永遠優先。風險管理工具的作用是讓這個優先順序有科學依據，而不是主觀判斷。</p>
+            <p>，。，。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考</h4>
+            <h4></h4>
             <ol>
-                <li>如果一個細胞培養步驟發生污染，RPN 極高。有兩個改善方案：A) 將環境升級到更高潔淨等級；B) 將開放製程改為密閉系統。從「降低 RPN 哪個維度」的角度分析兩個方案的差異。</li>
-                <li>「可偵測性」是 RPN 中常被忽略的維度。設施設計上，有哪些具體措施可以提高對潛在污染的「可偵測性」？（提示：監測系統、取樣點設計）</li>
+                <li>，RPN 。：A) ；B) 。「 RPN 」。</li>
+                <li>「」 RPN 。，「」？（：、）</li>
             </ol>
         </div>
     </div>
 </div>
 
 <!-- ==================== SECTION 3.2.2 ==================== -->
-<div class="section-title"><strong>3.2.2 Complying with the FDA's Commitment to Process Improvement and Science-Based Compliance 3.2.2 遵循 FDA 對製程改善與科學導向法規遵循的承諾</strong></div>
+<div class="section-title"><strong>3.2.2 Complying with the FDA's Commitment to Process Improvement and Science-Based Compliance 3.2.2  FDA </strong></div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p>In the FDA report, "Pharmaceutical cGMPs for the 21st Century — A Risk Based Approach," dated September 2004 [41], the FDA states its commitment to process improvement and science based compliance:</p>
 
@@ -1192,65 +1192,65 @@ RPN = 9 × 3 × 4 = 108
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 — FDA 聲明的四個關鍵訊息</h4>
-            <p>仔細解讀 FDA 這段聲明，可以提取出四個對生物製藥設施設計至關重要的訊息：</p>
+            <h4> — FDA </h4>
+            <p> FDA ，：</p>
             <ol>
-                <li><strong>「鼓勵新技術」：</strong>FDA 明確支持 PAT（製程分析技術）和持續改進。這意味著設施設計應為未來的技術升級預留彈性（例如，為 PAT 感測器設計安裝介面）</li>
-                <li><strong>「製造是科學，不是藝術」：</strong>傳統上，製藥被認為是「按照配方操作」的藝術。FDA 要求轉型為基於科學理解的工程活動。這要求更深入的製程表徵和文件化</li>
-                <li><strong>「降低變異性是品質與生產力的共同目標」：</strong>過去常被視為對立的「品質」和「效率」，在風險管理框架下找到了共同語言——降低製程變異性既能提升品質，又能減少廢品和返工，降低成本</li>
-                <li><strong>「品質系統方法」：</strong>不是孤立的 SOP，而是整合性的品質管理系統（ICH Q10）</li>
+                <li><strong>「」：</strong>FDA  PAT（）。（， PAT ）</li>
+                <li><strong>「，」：</strong>，「」。FDA 。</li>
+                <li><strong>「」：</strong>「」「」，——，，</li>
+                <li><strong>「」：</strong> SOP，（ICH Q10）</li>
             </ol>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 — 依照食材敏感度選擇廚房設計</h4>
-            <p>想像你是一位米其林主廚，需要設計一個能同時處理生魚片（高度敏感，需嚴格溫度控制、分隔砧板）和烤肉（可以在高溫環境中作業）的廚房。</p>
-            <p>你不會讓整個廚房都達到生魚片處理的最高衛生標準——那太昂貴了。你也不會讓生魚片和烤肉共用同一個砧板——那太危險了。</p>
-            <p>正確的做法是：<strong>根據每種食材的敏感度（風險等級），設計對應的操作區域和控制措施</strong>。這正是生物製藥設施設計的邏輯：根據每個製程步驟的風險評估結果，決定對應的環境等級和控制策略。</p>
-            <p>密閉系統 = 把食材完全密封在真空包裝中，不管外部廚房環境如何，食材都不受影響。</p>
+            <h4> — </h4>
+            <p>，（，、）（）。</p>
+            <p>——。——。</p>
+            <p>：<strong>（），</strong>。：，。</p>
+            <p> = ，，。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 — 密閉製程的三個驗證要求</h4>
-            <p>指南的結論段落非常重要，指出密閉製程成功實施的關鍵是三個層次的確認：</p>
+            <h4> — </h4>
+            <p>，：</p>
             <ol>
-                <li><strong>Demonstration（展示）：</strong>在設計/研發階段，用實驗或工程分析證明系統在概念上是密閉的</li>
-                <li><strong>Validation（驗證）：</strong>正式驗證程序，證明密閉系統在規定的操作條件下能持續維持密閉性</li>
-                <li><strong>Confirmation（確認）：</strong>持續的日常監測和定期再確認，確保系統未發生退化</li>
+                <li><strong>Demonstration（）：</strong>/，</li>
+                <li><strong>Validation（）：</strong>，</li>
+                <li><strong>Confirmation（）：</strong>，</li>
             </ol>
-            <p>這三個層次對應到設施生命週期的三個階段：設計→建設/調試→日常運營。每個階段都需要風險管理文件的支持。</p>
+            <p>：→/→。。</p>
         </div>
 
         <div class="practice-box" style="border-style:solid; background:linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-color:#22c55e;">
-            <h4>實務應用 — PAT 在生物製藥廠房設計中的具體意義</h4>
-            <p>FDA 在 2004 年報告中提到的 PAT（製程分析技術）在今天已經相當成熟。對於生物製藥 CDMO，設施設計中應考慮：</p>
+            <h4> — PAT </h4>
+            <p>FDA  2004  PAT（）。 CDMO，：</p>
             <ul>
-                <li><strong>線上監測點：</strong>在細胞培養生物反應器中安裝 pH、溶氧 (DO)、二氧化碳、生物量（Biomass）等線上感測器</li>
-                <li><strong>實時放行（RTRT）：</strong>用持續的製程數據代替批次終點的抽樣檢驗，這需要設施設計預留數據採集和分析系統的介面</li>
-                <li><strong>自動化和數位化：</strong>設施設計應考慮未來系統整合（例如 MES 製程執行系統、DCS 分散控制系統）的佈線和網路基礎設施</li>
+                <li><strong>：</strong> pH、 (DO)、、（Biomass）</li>
+                <li><strong>（RTRT）：</strong>，</li>
+                <li><strong>：</strong>（ MES 、DCS ）</li>
             </ul>
-            <p>PAT 不只是分析技術，它要求設施設計從一開始就考慮「如何監測、如何傳輸數據、如何做決策」的全鏈路設計。</p>
+            <p>PAT ，「、、」。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考</h4>
+            <h4></h4>
             <ol>
-                <li>FDA 說「降低變異性是品質和生產力的共同目標」。請舉一個設施設計決策的例子，說明它如何同時降低品質風險和提升生產效率。</li>
-                <li>密閉製程需要「驗證」才算成立。如果你的密閉系統包含一個單次使用生物袋（single-use bag），驗證應該包含哪些測試？（提示：完整性測試、萃取物/析出物）</li>
+                <li>FDA 「」。，。</li>
+                <li>「」。（single-use bag），？（：、/）</li>
             </ol>
         </div>
     </div>
 </div>
 
 <!-- ==================== SECTION 3.2.3 ==================== -->
-<div class="section-title">3.2.3 Methods and Approaches to Assessing Risk 風險評估的方法與工具</div>
+<div class="section-title">3.2.3 Methods and Approaches to Assessing Risk </div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p>Methods and approaches have been developed and used for assessing risks in a biopharmaceutical manufacturing program include:</p>
         <ul>
@@ -1327,110 +1327,110 @@ RPN = 9 × 3 × 4 = 108
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="analogy-box">
-            <h4>比喻說明 — 風險工具就像不同功能的工具箱</h4>
-            <p>如果設施設計是建造一棟房子，這五種風險工具就像工具箱裡的不同工具：</p>
+            <h4> — </h4>
+            <p>，：</p>
             <ul>
-                <li><strong>PHA = 勘地工具：</strong>開工前快速評估地塊有什麼問題（土質、日照、排水），決定哪些需要深入調查</li>
-                <li><strong>FMEA = 建材質量清單：</strong>逐一評估每種建材可能的故障模式（鋼筋會生鏽嗎？混凝土強度足夠嗎？），計算每個問題的嚴重性</li>
-                <li><strong>FTA = 出了問題後的根因分析：</strong>如果牆壁出現裂縫，倒過來追溯所有可能導致裂縫的原因</li>
-                <li><strong>HAZOPS = 水電配管審查：</strong>逐一審查每段管線，問「如果壓力太高/太低/流向反了，會怎樣？」</li>
-                <li><strong>HACCP = 廚房食品安全計畫：</strong>找出關鍵控制點（例如肉類烹調溫度），設定標準，制定監控程序</li>
+                <li><strong>PHA = ：</strong>（、、），</li>
+                <li><strong>FMEA = ：</strong>（？？），</li>
+                <li><strong>FTA = ：</strong>，</li>
+                <li><strong>HAZOPS = ：</strong>，「//，？」</li>
+                <li><strong>HACCP = ：</strong>（），，</li>
             </ul>
         </div>
 
         <div class="concept-box">
-            <h4>深度解析 — HACCP 在生物製藥設施設計中的應用</h4>
-            <p>HACCP 來自食品工業，但其邏輯與生物製藥製程高度契合。讓我們用一個生物反應器培養步驟來說明 7 個原則的應用：</p>
+            <h4> — HACCP </h4>
+            <p>HACCP ，。 7 ：</p>
             <ul>
-                <li><strong>原則1 危害分析：</strong>識別細胞培養中的潛在危害（微生物污染、病毒污染、代謝副產物累積等），使用 PFD 逐步分析每個輸入和輸出</li>
-                <li><strong>原則2 確定 CCP：</strong>例如，生物反應器接種點是 CCP（接種必須在無菌條件下進行，任何失誤都可能導致整批報廢）</li>
-                <li><strong>原則3 建立關鍵限值：</strong>例如，接種環境必須在 ISO 5 或密閉系統條件下進行；接種前生物反應器 pH 必須在 6.8-7.2 範圍</li>
-                <li><strong>原則4 監控程序：</strong>建立線上 pH/DO/生物量監測，定期取樣進行微生物限度測試</li>
-                <li><strong>原則5 矯正措施：</strong>如果 pH 超出範圍，立即觸發酸/鹼添加；如果發現微生物污染，終止批次並啟動根因調查</li>
-                <li><strong>原則6 驗證程序：</strong>定期驗證監測系統的準確性，審核 HACCP 計畫的有效性</li>
-                <li><strong>原則7 文件記錄：</strong>所有監控數據、偏差、矯正措施都必須在批次記錄中完整記錄</li>
+                <li><strong>1 ：</strong>（、、）， PFD </li>
+                <li><strong>2  CCP：</strong>， CCP（，）</li>
+                <li><strong>3 ：</strong>， ISO 5 ； pH  6.8-7.2 </li>
+                <li><strong>4 ：</strong> pH/DO/，</li>
+                <li><strong>5 ：</strong> pH ，/；，</li>
+                <li><strong>6 ：</strong>， HACCP </li>
+                <li><strong>7 ：</strong>、、</li>
             </ul>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 — 本章與第4章和第6章的連結</h4>
-            <p>第3章的風險評估工具是後續章節設計決策的「驅動引擎」：</p>
+            <h4> — 46</h4>
+            <p>3「」：</p>
             <ul>
-                <li><strong>連接第4章（製程密閉）：</strong>FMEA/HACCP 的結果告訴你哪些製程步驟的環境污染風險高 → 這些步驟需要密閉或更嚴格的環境控制。反之，已密閉的步驟可以降低對環境等級的要求。</li>
-                <li><strong>連接第6章（cGMP 廠房佈局）：</strong>HAZOPS 通常以 P&amp;ID 為基礎 → 要做 HAZOPS 就需要先有製程設計。廠房佈局必須支持 HACCP 中識別的 CCP 的監控要求（例如，CCP 附近需要設計取樣口）。</li>
+                <li><strong>4（）：</strong>FMEA/HACCP  → 。，。</li>
+                <li><strong>6（cGMP ）：</strong>HAZOPS  P&amp;ID  →  HAZOPS 。 HACCP  CCP （，CCP ）。</li>
             </ul>
-            <p>理解這個鏈結關係，才能理解為何 ISPE Vol.6 的章節順序是：法規 → 風險管理 → 製程密閉 → 設施佈局。這是一個由分析到設計的邏輯流程，而非隨意排列。</p>
+            <p>， ISPE Vol.6 ： →  →  → 。，。</p>
         </div>
 
         <div class="formula-box">
-            <h4>比較框架 — FMEA vs. HACCP 在設施設計中的角色</h4>
+            <h4> — FMEA vs. HACCP </h4>
             <pre>
-FMEA — 最適用於設備和系統設計評估
-輸入：設備清單 + 製程步驟
-輸出：RPN 排序表 + 需改善的高風險點
+FMEA — 
+： + 
+：RPN  + 
 
-應用範例：
-- 評估無菌過濾膜的故障模式
-- 評估生物反應器攪拌系統的失效風險
-- 評估 CIP/SIP 系統的設計充分性
+：
+- 
+- 
+-  CIP/SIP 
 
-HACCP — 最適用於製程控制策略設計
-輸入：PFD (製程流程圖) + 危害識別
-輸出：CCP 清單 + 關鍵限值 + 監控計畫
+HACCP — 
+：PFD () + 
+：CCP  +  + 
 
-應用範例：
-- 確定接種點為 CCP，設定無菌條件要求
-- 確定病毒不活化步驟為 CCP，設定 pH/溫度限值
-- 確定最終過濾為 CCP，設定過濾前生物負荷限值
+：
+-  CCP，
+-  CCP， pH/
+-  CCP，
 
-組合使用：先用 PHA 快速掃描 → 再用 FMEA 詳細分析
-設備 → 再用 HACCP 建立製程控制體系
+： PHA  →  FMEA 
+ →  HACCP 
             </pre>
         </div>
 
         <div class="practice-box" style="border-style:solid; background:linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-color:#22c55e;">
-            <h4>實務應用 — CDMO 承接新品種的風險評估流程</h4>
-            <p>當一個 CDMO 承接一個新客戶的單株抗體 (MAb) 生產技術轉移時，風險評估的實際流程建議：</p>
+            <h4> — CDMO </h4>
+            <p> CDMO  (MAb) ，：</p>
             <ol>
-                <li><strong>第1步 — PHA（項目啟動階段）：</strong>與客戶技術團隊開腦力激盪會議，快速識別這個特定分子的主要風險（例如：聚合體形成傾向高？對剪切力特別敏感？特殊的病毒清除要求？）</li>
-                <li><strong>第2步 — FMEA（詳細設計階段）：</strong>針對計畫使用的設備（生物反應器、層析設備、過濾系統），逐一評估設備故障的風險，計算 RPN，決定是否需要升級設備或增加備援設計</li>
-                <li><strong>第3步 — HAZOPS（P&amp;ID 審查階段）：</strong>對設計好的管線系統進行系統性審查，確保所有可能的操作偏差都已被考慮並有對應的安全設計</li>
-                <li><strong>第4步 — HACCP（製程鎖定後）：</strong>建立完整的 HACCP 計畫，識別所有 CCP，設定關鍵限值，建立監控和矯正程序，作為批次記錄設計的基礎</li>
+                <li><strong>1 — PHA（）：</strong>，（：？？？）</li>
+                <li><strong>2 — FMEA（）：</strong>（、、），， RPN，</li>
+                <li><strong>3 — HAZOPS（P&amp;ID ）：</strong>，</li>
+                <li><strong>4 — HACCP（）：</strong> HACCP ， CCP，，，</li>
             </ol>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考</h4>
+            <h4></h4>
             <ol>
-                <li>FMEA 「不考慮系統間的交互作用」。在多產品生物製藥廠房中，這個局限性可能導致什麼風險被低估？需要配合哪種工具才能補充這個不足？</li>
-                <li>HACCP 的第5步是「建立矯正措施」。如果一個生物反應器的 pH 超出關鍵限值，矯正措施應包含哪些步驟？（考慮：立即行動、批次處置、根因調查、預防措施）</li>
-                <li>本指南鼓勵使用「混合平台 (hybrid platform)」進行風險評估。你認為 FMEA + HACCP 的組合在什麼情況下特別有效？舉一個具體的設施設計應用場景。</li>
+                <li>FMEA 「」。，？？</li>
+                <li>HACCP 5「」。 pH ，？（：、、、）</li>
+                <li>「 (hybrid platform)」。 FMEA + HACCP ？。</li>
             </ol>
         </div>
     </div>
 </div>
 
 <div class="concept-box">
-            <h4>核心概念解析 — 五種風險評估工具的特性對比</h4>
-            <p>這五種工具各有其最適用的場景，選擇正確的工具至關重要：</p>
+            <h4> — </h4>
+            <p>，：</p>
             <div style="overflow-x:auto;">
             </div>
         </div>
 
         <!-- SECTION SUMMARY -->
 <div class="learning-objectives" style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);">
-    <h3>本章重點回顧 Chapter Summary</h3>
+    <h3> Chapter Summary</h3>
     <ul>
-        <li><strong>風險管理是設施設計的科學基礎：</strong>品質風險管理 (QRM) 確保控制措施與風險相稱，避免過度設計或設計不足，所有設計決策都需要科學依據</li>
-        <li><strong>風險三維度框架：</strong>風險 = 概率 × 嚴重性 × 可偵測性（對應 FMEA 的 O × S × D = RPN）；設施設計措施可以降低這三個維度中的一個或多個</li>
-        <li><strong>FDA 2004 年報告奠定現代監管基礎：</strong>科學導向稽查、鼓勵新技術（PAT）、製程理解驅動合規、降低變異性是品質和生產力的共同目標</li>
-        <li><strong>密閉製程的合規要求包含三層：</strong>Demonstration（展示）→ Validation（驗證）→ Confirmation（確認），需要文件化的風險評估支持</li>
-        <li><strong>五種風險工具各有所長：</strong>PHA（早期掃描）→ FMEA（設備設計）→ FTA（根因分析）→ HAZOPS（P&amp;ID 審查）→ HACCP（製程控制策略）；可混合使用</li>
-        <li><strong>HACCP 七大原則在生物製藥中完全適用：</strong>識別危害 → 確定 CCP → 設定限值 → 建立監控 → 制定矯正措施 → 驗證 → 文件化，這個框架構成批次記錄和製程管控 SOP 的骨架</li>
-        <li><strong>本章連結第4章和第6章：</strong>風險評估結果 → 決定製程密閉策略（第4章）→ 決定廠房環境分級和佈局（第6章）；三章形成完整的設計決策邏輯鏈</li>
+        <li><strong>：</strong> (QRM) ，，</li>
+        <li><strong>：</strong> =  ×  × （ FMEA  O × S × D = RPN）；</li>
+        <li><strong>FDA 2004 ：</strong>、（PAT）、、</li>
+        <li><strong>：</strong>Demonstration（）→ Validation（）→ Confirmation（），</li>
+        <li><strong>：</strong>PHA（）→ FMEA（）→ FTA（）→ HAZOPS（P&amp;ID ）→ HACCP（）；</li>
+        <li><strong>HACCP ：</strong> →  CCP →  →  →  →  → ， SOP </li>
+        <li><strong>46：</strong> → （4）→ （6）；</li>
     </ul>
 </div>
 </div>

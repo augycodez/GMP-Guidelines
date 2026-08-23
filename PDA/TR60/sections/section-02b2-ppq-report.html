@@ -930,24 +930,24 @@ tr:nth-child(even) {
 <!-- SECTION HEADER -->
 <div class="header">
 <h1>Section 4.4.2: PPQ Protocol &amp; Report — Enhanced Sampling, Batch Justification &amp; Study Design</h1>
-<div class="subtitle">PPQ 方案與報告 — 加強取樣計畫、批次數量論證與研究設計</div>
+<div class="subtitle">PPQ  — 、</div>
 <div class="page-info">PDA Technical Report No. 60 (Revised 2026) — Process Validation: A Lifecycle Approach | p49 - p57</div>
 </div>
 <div class="main-content">
 <!-- LEARNING OBJECTIVES -->
 <div class="learning-objectives">
-<h3>本章學習目標</h3>
+<h3></h3>
 <ul>
-<li>理解 PPQ 加強取樣計畫 (Enhanced Sampling Plan) 的設計邏輯，包括三大統計工具：Individual Value Plots、Tolerance Intervals、Variance Components</li>
-<li>掌握取樣數量如何依據 CQA 關鍵性等級 (criticality) 進行風險分層設定</li>
-<li>學習 PPQ 批次數量的風險評估決策樹方法，以及 N=3 基線的科學依據</li>
-<li>了解 PPQ 在正常操作條件下執行的原則，以及個別單元操作研究與分組 (bracketing/matrix/family) 策略</li>
-<li>認識 PPQ 數據分析報告的結構化呈現方式，以及無法執行統計分析時的替代策略</li>
+<li> PPQ  (Enhanced Sampling Plan) ，：Individual Value Plots、Tolerance Intervals、Variance Components</li>
+<li> CQA  (criticality) </li>
+<li> PPQ ， N=3 </li>
+<li> PPQ ， (bracketing/matrix/family) </li>
+<li> PPQ ，</li>
 </ul>
 </div>
 <!-- TABLE OF CONTENTS -->
 <div class="toc">
-<h3>本節目錄 Section Contents</h3>
+<h3> Section Contents</h3>
 <div class="toc-grid">
 <a href="#sec-4421">4.4.2.1 Enhanced Sampling Plans</a>
 <a href="#sec-44211">4.4.2.1.1 Sample-Size Selection</a>
@@ -964,7 +964,7 @@ tr:nth-child(even) {
 <!-- ================================================================== -->
 <!-- 4.4.2.1 Enhanced Sampling Plans & Statistical Tools                 -->
 <!-- ================================================================== -->
-<h2 class="section-title" id="sec-4421"><strong>4.4.2.1 Enhanced Sampling Plans &amp; Statistical Tools for PPQ 4.4.2.1 PPQ 之強化取樣計畫與統計工具</strong></h2>
+<h2 class="section-title" id="sec-4421"><strong>4.4.2.1 Enhanced Sampling Plans &amp; Statistical Tools for PPQ 4.4.2.1 PPQ </strong></h2>
 <div class="two-column">
 <div class="left-column">
 <h3>Original Text</h3>
@@ -989,55 +989,55 @@ tr:nth-child(even) {
 <p><strong>Table 4.4.2.1-2<a class="gallery-link" href="../../../figures-gallery.html?doc=TR60&amp;file=tbl-p59-1.png" target="_blank" title="View in Gallery">&#128269;</a> Confidence</strong></p>
 </div>
 <div class="right-column">
-<h3>導師解析 Tutorial Commentary</h3>
+<h3> Tutorial Commentary</h3>
 <div class="concept-box">
-<h4>核心概念：加強取樣計畫 Enhanced Sampling Plan</h4>
-<p><strong>Enhanced Sampling Plan (加強取樣計畫)</strong> 是 PPQ 階段的核心設計要素。與日常生產的常規取樣不同，PPQ 階段需要收集更多樣本，目的是建立對製程變異性的統計信心。</p>
-<p>PPQ 使用三大統計工具來分析數據：</p>
+<h4>： Enhanced Sampling Plan</h4>
+<p><strong>Enhanced Sampling Plan ()</strong>  PPQ 。，PPQ ，。</p>
+<p>PPQ ：</p>
 <ul>
-<li><strong>Individual Value Plots (個別值圖)：</strong>最直覺的視覺化工具，將每個數據點繪製在圖上，同時展示批內和批間的變異分布</li>
-<li><strong>Tolerance Intervals (容許區間)：</strong>PPQ 中最常用的統計工具，用來衡量製程的管控能力和能力指標，將觀察到的變異與規格進行客觀比較</li>
-<li><strong>Variance Components (變異成分分析)：</strong>將總變異拆解為「批內變異」和「批間變異」，幫助理解變異的來源</li>
+<li><strong>Individual Value Plots ()：</strong>，，</li>
+<li><strong>Tolerance Intervals ()：</strong>PPQ ，，</li>
+<li><strong>Variance Components ()：</strong>「」「」，</li>
 </ul>
 </div>
 <div class="analogy-box">
-<h4>比喻說明 Analogy</h4>
-<p>想像你是一位餐廳品管經理，要確認新廚師團隊的出品是否穩定。你不會只在開業當天嚐一道菜就下結論（常規取樣），而是會在開業前幾天，每天的早、中、晚各多嚐幾道菜（加強取樣），這樣才能判斷：</p>
+<h4> Analogy</h4>
+<p>，。（），，、、（），：</p>
 <ul>
-<li><strong>個別值圖</strong> = 把每道菜的評分畫在圖上，一眼看出整體分布</li>
-<li><strong>容許區間</strong> = 計算「95% 的菜品評分會落在哪個範圍」，看是否都在及格線以上</li>
-<li><strong>變異成分</strong> = 分析評分差異是來自「同一天不同時段」還是「不同天之間」</li>
+<li><strong></strong> = ，</li>
+<li><strong></strong> = 「95% 」，</li>
+<li><strong></strong> = 「」「」</li>
 </ul>
 </div>
 <div class="note-box">
-<h4>重點提示 Key Notes</h4>
-<p><strong>B/M/E 取樣策略：</strong>無菌充填產品的取樣必須對齊充填過程的三個時間點 — 開始 (Beginning)、中間 (Middle)、結束 (End)。這不是隨意設計的，而是為了捕捉充填過程中可能的時間相關變異（例如：設備磨損、溫度漂移、操作員疲勞等）。</p>
-<p><strong>最低取樣量：</strong>每個時間點最少 n=2（共 6 個樣本），才能進行變異成分計算。根據屬性的關鍵性，可增加到 n=5（共 15 個樣本）。</p>
+<h4> Key Notes</h4>
+<p><strong>B/M/E ：</strong> —  (Beginning)、 (Middle)、 (End)。，（：、、）。</p>
+<p><strong>：</strong> n=2（ 6 ），。， n=5（ 15 ）。</p>
 </div>
 <div class="formula-box">
-<h4>風險分層取樣邏輯</h4>
+<h4></h4>
 <pre>
-CQA 關鍵性     嚴重度     信心/涵蓋度     取樣需求
+CQA           /     
 ─────────────────────────────────────────────
-Potency        High       95/99          +++（最多樣本）
+Potency        High       95/99          +++（）
 Osmolality     Medium     95/95          ++
-pH             Low        95/90          +（最少樣本）
+pH             Low        95/90          +（）
 
-「95/99」意義：
-  95% 信心度下，至少 99% 的未來量測值
-  將落在規格範圍內
+「95/99」：
+  95% ， 99% 
+  
 
-最低取樣量公式：
+：
   n_min = 2 per timepoint × 3 timepoints = 6
   n_max = 5 per timepoint × 3 timepoints = 15
             </pre>
 </div>
 <div class="practice-box">
-<h4>練習思考 Practice Questions</h4>
+<h4> Practice Questions</h4>
 <ol>
-<li>為什麼加強取樣計畫要求每個時間點至少 n=2 的重複？如果只取 n=1 會有什麼統計限制？</li>
-<li>如果某個 CQA 被評為高關鍵性但歷史變異極小，你會如何調整取樣策略？</li>
-<li>95/99 與 95/90 容許區間在實務中的差異是什麼？對取樣數量有何影響？</li>
+<li> n=2 ？ n=1 ？</li>
+<li> CQA ，？</li>
+<li>95/99  95/90 ？？</li>
 </ol>
 </div>
 </div>
@@ -1045,7 +1045,7 @@ pH             Low        95/90          +（最少樣本）
 <!-- ================================================================== -->
 <!-- 4.4.2.1.1 Sample-Size Selection Considerations                     -->
 <!-- ================================================================== -->
-<h2 class="section-title" id="sec-44211"><strong>4.4.2.1.1 Sample-Size Selection Considerations 4.4.2.1.1 樣本量選擇考量</strong></h2>
+<h2 class="section-title" id="sec-44211"><strong>4.4.2.1.1 Sample-Size Selection Considerations 4.4.2.1.1 </strong></h2>
 <div class="two-column">
 <div class="left-column">
 <h3>Original Text</h3>
@@ -1054,36 +1054,36 @@ pH             Low        95/90          +（最少樣本）
 <p>Occasionally, due to a number of considerations, such as in a <span class="key-term">pandemic response</span>, prior knowledge is not available to construct these intervals. As such, each attribute selected for enhanced sampling can be sampled at the minimum, that is, n = 6 (2 each for B/M/E), at a calculated, uniform <span class="key-term">95/95 confidence level</span> and coverage. The minimum n = 6 sample size is appropriate as it will allow statements of confidence and of inter- and intra-batch variability using variance components for each attribute within the enhanced sampling plan.</p>
 </div>
 <div class="right-column">
-<h3>導師解析 Tutorial Commentary</h3>
+<h3> Tutorial Commentary</h3>
 <div class="concept-box">
-<h4>核心概念：取樣數量決定邏輯</h4>
-<p>取樣數量的決定不是拍腦袋，而是基於兩個輸入：</p>
+<h4>：</h4>
+<p>，：</p>
 <ul>
-<li><strong>Prior Knowledge (先驗知識)：</strong>來自 Stage 1 的開發數據，包括臨床批次、特性化研究或工程批次的歷史數據</li>
-<li><strong>CQA Criticality (CQA 關鍵性)：</strong>在 Stage 1 的風險評估中已確定的屬性關鍵性等級</li>
+<li><strong>Prior Knowledge ()：</strong> Stage 1 ，、</li>
+<li><strong>CQA Criticality (CQA )：</strong> Stage 1 </li>
 </ul>
-<p>核心方法是用 Stage 1 的數據來預估所需取樣量，使用與 PPQ 分析相同的工具 — Tolerance Interval (容許區間) — 來反推需要多少樣本才能達到目標信心水準。</p>
+<p> Stage 1 ， PPQ  — Tolerance Interval () — 。</p>
 </div>
 <div class="note-box">
-<h4>重點提示：緊急情境下的最低取樣策略</h4>
-<p>TR60 特別提到<strong>疫情緊急應變 (pandemic response)</strong> 等特殊情境。當沒有足夠的先驗知識時，可以採用統一的最低取樣策略：</p>
+<h4>：</h4>
+<p>TR60 <strong> (pandemic response)</strong> 。，：</p>
 <ul>
-<li>每個屬性均取 n=6（B/M/E 各 2 個）</li>
-<li>統一使用 95/95 信心/涵蓋度水準</li>
-<li>雖然取樣量最少，但仍足以進行變異成分分析和信心度聲明</li>
+<li> n=6（B/M/E  2 ）</li>
+<li> 95/95 /</li>
+<li>，</li>
 </ul>
-<p>這是一種「安全底線」設計 — 確保即使在最緊急的情況下，仍能獲得有意義的統計結論。</p>
+<p>「」 — ，。</p>
 </div>
 <div class="analogy-box">
-<h4>比喻說明 Analogy</h4>
-<p>就像醫生的體檢方案：如果你有完整的病歷（先驗知識），醫生可以針對你的風險因素設計客製化檢查項目（風險分層取樣）。但如果你是第一次來看診、沒有任何病歷（無先驗知識），醫生會安排一套標準的基本檢查套餐（95/95 統一最低取樣），確保至少能發現主要問題。</p>
+<h4> Analogy</h4>
+<p>：（），（）。、（），（95/95 ），。</p>
 </div>
 </div>
 </div>
 <!-- ================================================================== -->
 <!-- 4.4.2.1.2 Sample Size Methods                                      -->
 <!-- ================================================================== -->
-<h2 class="section-title" id="sec-44212"><strong>4.4.2.1.2 Sample Size Methods 4.4.2.1.2 樣本量方法</strong></h2>
+<h2 class="section-title" id="sec-44212"><strong>4.4.2.1.2 Sample Size Methods 4.4.2.1.2 </strong></h2>
 <div class="two-column">
 <div class="left-column">
 <h3>Original Text</h3>
@@ -1105,38 +1105,38 @@ pH             Low        95/90          +（最少樣本）
 </div>
 </div>
 <div class="right-column">
-<h3>導師解析 Tutorial Commentary</h3>
+<h3> Tutorial Commentary</h3>
 <div class="concept-box">
-<h4>核心概念：容許區間法的三個輸入</h4>
-<p>使用 <strong>Tolerance Interval Method (容許區間法)</strong> 決定取樣量需要三個來自 Stage 1 的資訊：</p>
+<h4>：</h4>
+<p> <strong>Tolerance Interval Method ()</strong>  Stage 1 ：</p>
 <ol>
-<li><strong>CQA 關鍵性等級</strong> — 決定目標信心/涵蓋度（如 95/99 vs 95/90）</li>
-<li><strong>Stage 1 開發數據</strong> — 提供平均值和標準差的點估計和信賴區間，這些數據可來自臨床批、特性化研究或工程批次</li>
-<li><strong>CQA 關鍵性與風險等級的對應程序</strong> — 一份正式的程序文件，將關鍵性分級對應到具體的取樣需求</li>
+<li><strong>CQA </strong> — /（ 95/99 vs 95/90）</li>
+<li><strong>Stage 1 </strong> — ，、</li>
+<li><strong>CQA </strong> — ，</li>
 </ol>
 </div>
 <div class="note-box">
-<h4>重點提示：技術轉移也是 Stage 1</h4>
-<p>TR60 明確指出：Stage 1 不限於新產品。對於 Technology Transfer (技術轉移, TT)，歷史商業批次的回顧性評估同樣可以作為 Stage 1 的數據基礎。這意味著接收 CDMO 可以利用原廠的歷史數據來設計 PPQ 取樣計畫，而不需要從零開始。</p>
+<h4>： Stage 1</h4>
+<p>TR60 ：Stage 1 。 Technology Transfer (, TT)， Stage 1 。 CDMO  PPQ ，。</p>
 </div>
 <div class="analogy-box">
-<h4>比喻說明 Analogy</h4>
-<p>取樣計畫表就像一份「體檢套餐菜單」：</p>
+<h4> Analogy</h4>
+<p>「」：</p>
 <ul>
-<li><strong>CCI</strong> 像心電圖 — 需要較多量測點 (n=12) 才能確認完整性</li>
-<li><strong>pH/Osmolality</strong> 像血壓 — B/M/E 各 3 次足以反映穩定性</li>
-<li><strong>Bioassay</strong> 像基因檢測 — 一次即可，因為方法本身已有高靈敏度且檢測成本高</li>
+<li><strong>CCI</strong>  —  (n=12) </li>
+<li><strong>pH/Osmolality</strong>  — B/M/E  3 </li>
+<li><strong>Bioassay</strong>  — ，</li>
 </ul>
-<p>每項檢查的次數不是越多越好，而是要根據該項目的臨床重要性和方法特性來合理設定。</p>
+<p>，。</p>
 </div>
 <div class="practice-box" style="border-style:solid; background:linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-color:#22c55e;">
-<h4>實務應用 Practical Application</h4>
-<p><strong>CDMO 情境：</strong>當你的公司承接一個生物製劑的技術轉移專案時，應該：</p>
+<h4> Practical Application</h4>
+<p><strong>CDMO ：</strong>，：</p>
 <ol>
-<li>向原廠索取完整的 Stage 1 數據包（臨床批/商業批的分析結果）</li>
-<li>利用原廠數據的平均值和標準差，反推每個 CQA 在目標信心水準下所需的最低取樣量</li>
-<li>如果原廠數據不足以計算，則採用 n=6 的最低標準</li>
-<li>將這些決策和依據記錄在 PVMP 中</li>
+<li> Stage 1 （/）</li>
+<li>， CQA </li>
+<li>， n=6 </li>
+<li> PVMP </li>
 </ol>
 </div>
 </div>
@@ -1144,7 +1144,7 @@ pH             Low        95/90          +（最少樣本）
 <!-- ================================================================== -->
 <!-- 4.4.2.1.3 DP PPQ Analysis of Enhanced Samples                      -->
 <!-- ================================================================== -->
-<h2 class="section-title" id="sec-44213"><strong>4.4.2.1.3 Drug Product PPQ Analysis of Enhanced Samples 4.4.2.1.3 藥品 PPQ 強化樣品分析</strong></h2>
+<h2 class="section-title" id="sec-44213"><strong>4.4.2.1.3 Drug Product PPQ Analysis of Enhanced Samples 4.4.2.1.3  PPQ </strong></h2>
 <div class="two-column">
 <div class="left-column">
 <h3>Original Text</h3>
@@ -1168,49 +1168,49 @@ pH             Low        95/90          +（最少樣本）
 <p>The samples must be tested and analyzed using statistical tools and graphing, as appropriate, to provide sufficient statistical confidence of quality within and between batches as well as evidence the product and process are ready for commercial manufacturing. Minimum acceptance requires that the test results are within release specification based on the release criteria.</p>
 </div>
 <div class="right-column">
-<h3>導師解析 Tutorial Commentary</h3>
+<h3> Tutorial Commentary</h3>
 <div class="concept-box">
-<h4>核心概念：PPQ 報告的結構化分析架構</h4>
-<p>TR60 建議 PPQ 報告應包含層次分明的分析結構：</p>
+<h4>：PPQ </h4>
+<p>TR60  PPQ ：</p>
 <ol>
-<li><strong>總覽摘要表：</strong>所有屬性的摘要統計量、容許區間和變異成分，按批次呈現</li>
-<li><strong>逐屬性詳細分析：</strong>
+<li><strong>：</strong>、，</li>
+<li><strong>：</strong>
 <ul>
-<li>個別值圖（所有批次繪製在同一圖上）</li>
-<li>容許區間圖表</li>
-<li>變異成分分析表</li>
-<li>每個屬性的管控與能力總結聲明</li>
+<li>（）</li>
+<li></li>
+<li></li>
+<li></li>
 </ul>
 </li>
 </ol>
-<p>這種結構化方法確保審查者能快速掌握整體狀況，同時也能深入檢視個別屬性。</p>
+<p>，。</p>
 </div>
 <div class="note-box">
-<h4>重點提示：無法執行統計分析的情境</h4>
-<p>實務上有兩種常見情況會導致無法執行統計分析：</p>
+<h4>：</h4>
+<p>：</p>
 <ul>
-<li><strong>低於偵測極限 (LOD)：</strong>所有數值都是「&lt;LOD」，沒有可報告的數值 — 此時圖形和統計分析都無法進行</li>
-<li><strong>不夠多的獨特值：</strong>由於數據四捨五入、方法精密度限制或製程變異極小，導致大多數結果相同 — 此時容許區間和變異成分無法計算，但圖形分析仍可提供有力的視覺證據</li>
+<li><strong> (LOD)：</strong>「&lt;LOD」， — </li>
+<li><strong>：</strong>、， — ，</li>
 </ul>
-<p><strong>實務建議：</strong>向分析實驗室索取未經截斷的原始分析數據 (raw analytical data)，而非四捨五入後的報告數據，可以大幅減少「不夠多獨特值」的問題。</p>
+<p><strong>：</strong> (raw analytical data)，，「」。</p>
 </div>
 <div class="analogy-box">
-<h4>比喻說明 Analogy</h4>
-<p>PPQ 報告的結構就像一份投資分析報告：</p>
+<h4> Analogy</h4>
+<p>PPQ ：</p>
 <ul>
-<li><strong>摘要表</strong> = 投資組合總覽頁，快速看到所有持股的績效</li>
-<li><strong>個別值圖</strong> = 各支股票的走勢圖</li>
-<li><strong>容許區間</strong> = 各股票的風險評估（波動率分析）</li>
-<li><strong>管控聲明</strong> = 各股票的投資建議總結</li>
+<li><strong></strong> = ，</li>
+<li><strong></strong> = </li>
+<li><strong></strong> = （）</li>
+<li><strong></strong> = </li>
 </ul>
-<p>審查者（如同投資委員會）需要同時看到全局和個別細節才能做出決策。</p>
+<p>（）。</p>
 </div>
 <div class="practice-box">
-<h4>練習思考 Practice Questions</h4>
+<h4> Practice Questions</h4>
 <ol>
-<li>在 PPQ 報告中，為什麼建議將所有批次的數據繪製在同一張個別值圖上？這對審查者的判斷有什麼幫助？</li>
-<li>如果某個 CQA 的測試結果全部為「&lt;LOD」，你會在 PPQ 報告中如何處理和說明？</li>
-<li>「管控與能力總結聲明」應該包含哪些要素？如何區分「受控」和「具能力」？</li>
+<li> PPQ ，？？</li>
+<li> CQA 「&lt;LOD」， PPQ ？</li>
+<li>「」？「」「」？</li>
 </ol>
 </div>
 </div>
@@ -1218,7 +1218,7 @@ pH             Low        95/90          +（最少樣本）
 <!-- ================================================================== -->
 <!-- 4.4.2.2 Risk-Based Justification for Number of PPQ Batches         -->
 <!-- ================================================================== -->
-<h2 class="section-title" id="sec-4422"><strong>4.4.2.2 Risk-Based Justification for Number of PPQ Batches 4.4.2.2 PPQ 批次數量之風險論證</strong></h2>
+<h2 class="section-title" id="sec-4422"><strong>4.4.2.2 Risk-Based Justification for Number of PPQ Batches 4.4.2.2 PPQ </strong></h2>
 <div class="two-column">
 <div class="left-column">
 <h3>Original Text</h3>
@@ -1269,73 +1269,73 @@ pH             Low        95/90          +（最少樣本）
 <p><strong>Table 4.4.2.2-1<a class="gallery-link" href="../../../figures-gallery.html?doc=TR60&amp;file=tbl-p64-1.png" target="_blank" title="View in Gallery">&#128269;</a> Generic Risk Evaluation Table</strong></p>
 </div>
 <div class="right-column">
-<h3>導師解析 Tutorial Commentary</h3>
+<h3> Tutorial Commentary</h3>
 <div class="concept-box">
-<h4>核心概念：PPQ 批次數量決定的三步驟法</h4>
-<p>PPQ 需要幾批？這是每個驗證專案最常被問到的問題。TR60 提供了一個系統化的三步驟決策框架：</p>
+<h4>：PPQ </h4>
+<p>PPQ ？。TR60 ：</p>
 <ol>
-<li><strong>Step 1 - 確定基線批次數：</strong>根據產品和製程知識水準，確定最低批次數（基線 N）。知識越多，起始批次數越少。</li>
-<li><strong>Step 2 - 評估是否需要追加：</strong>確認現場特定知識和控制措施，判斷是否需要追加研究或批次。</li>
-<li><strong>Step 3 - 考量非 GMP 因素：</strong>商業、技術和策略性的考量，可能增加或減少批次數。</li>
+<li><strong>Step 1 - ：</strong>，（ N）。，。</li>
+<li><strong>Step 2 - ：</strong>，。</li>
+<li><strong>Step 3 -  GMP ：</strong>、，。</li>
 </ol>
-<p>關鍵原則：<strong>知識與風險反向相關</strong> — 掌握的知識越多，風險越低，所需的 PPQ 批次數越少。</p>
+<p>：<strong></strong> — ，， PPQ 。</p>
 </div>
 <div class="analogy-box">
-<h4>比喻說明 Analogy</h4>
-<p>PPQ 批次數的決策就像駕照考試：</p>
+<h4> Analogy</h4>
+<p>PPQ ：</p>
 <ul>
-<li><strong>低知識/高風險</strong> = 第一次學開車的新手，需要更多路考練習（更多 PPQ 批次），甚至需要先去駕訓班（追加開發活動）</li>
-<li><strong>中等知識/中等風險</strong> = 有其他車款駕照的駕駛人，基本路考次數即可（N = Baseline）</li>
-<li><strong>高知識/低風險</strong> = 經驗豐富的職業駕駛，可能只需一次路考就能通過（N ≤ Baseline）</li>
+<li><strong>/</strong> = ，（ PPQ ），（）</li>
+<li><strong>/</strong> = ，（N = Baseline）</li>
+<li><strong>/</strong> = ，（N ≤ Baseline）</li>
 </ul>
 </div>
 <div class="note-box">
-<h4>重點提示：孤兒藥與昂貴產品的特殊考量</h4>
-<p>TR60 明確承認統計方法並非萬能。對於以下情境，傳統統計方法可能不可行：</p>
+<h4>：</h4>
+<p>TR60 。，：</p>
 <ul>
-<li><strong>Orphan Drug (孤兒藥)：</strong>生產頻率極低，無法累積足夠的統計數據</li>
-<li><strong>蛋白質 DS 製程：</strong>製程流的取樣增加對統計樣本量的貢獻有限</li>
-<li><strong>昂貴產品：</strong>需考慮產品獲批概率與效期之間的商業風險（晚批准可能浪費 PPQ 批次）</li>
+<li><strong>Orphan Drug ()：</strong>，</li>
+<li><strong> DS ：</strong></li>
+<li><strong>：</strong>（ PPQ ）</li>
 </ul>
-<p>此時可採用<strong>整體性科學方法 (holistic approach)</strong>，結合先驗知識、風險分析、Stage 1 數據和延伸到 CPV 的加強取樣，來支持批次數的選擇。</p>
+<p><strong> (holistic approach)</strong>，、、Stage 1  CPV ，。</p>
 </div>
 <div class="formula-box">
-<h4>知識-風險-批次數對應矩陣</h4>
+<h4>--</h4>
 <pre>
-知識水準         風險等級      PPQ 批次數策略
+               PPQ 
 ──────────────────────────────────────────
-低知識           高風險        N &gt; Baseline
-                              + 追加開發/準備活動
-                              + 高層核准才可啟動 PPQ
+                   N &gt; Baseline
+                              + /
+                              +  PPQ
 
-中等知識         中等風險      N = Baseline (通常 N=3)
-                              + 需提供 Baseline 論證
+               N = Baseline ( N=3)
+                              +  Baseline 
 
-高/極高知識      低風險        N ≤ Baseline
-                              可使用平台知識簡化
+/              N ≤ Baseline
+                              
 
-決策樹方法特點：
-  - 使用 Yes/No 問題引導
-  - 降低主觀偏差
-  - 三步驟依序執行
-  - 最終 N 為暫定值
+：
+  -  Yes/No 
+  - 
+  - 
+  -  N 
             </pre>
 </div>
 <div class="practice-box" style="border-style:solid; background:linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-color:#22c55e;">
-<h4>實務應用 Practical Application</h4>
-<p><strong>CDMO 情境：</strong>一家 CDMO 同時承接兩個技術轉移專案：</p>
+<h4> Practical Application</h4>
+<p><strong>CDMO ：</strong> CDMO ：</p>
 <ul>
-<li><strong>專案 A：</strong>已知平台技術的單株抗體，原廠提供了 50 批商業數據 → 高知識/低風險 → 可考慮 N ≤ 3</li>
-<li><strong>專案 B：</strong>新型 mRNA 疫苗，僅有 3 批臨床數據 → 低知識/高風險 → N &gt; 3，且需追加工程研究</li>
+<li><strong> A：</strong>， 50  → / →  N ≤ 3</li>
+<li><strong> B：</strong> mRNA ， 3  → / → N &gt; 3，</li>
 </ul>
-<p>兩個專案的 PPQ 策略可以完全不同，但都必須在 PVMP 中清楚記錄決策依據和支持數據來源。</p>
+<p> PPQ ， PVMP 。</p>
 </div>
 <div class="practice-box">
-<h4>練習思考 Practice Questions</h4>
+<h4> Practice Questions</h4>
 <ol>
-<li>為什麼 TR60 建議使用決策樹/檢查表方法而非開放式討論來決定 PPQ 批次數？</li>
-<li>Step 3 提到「非 GMP 相關風險」，請舉出三個可能導致增加或減少 PPQ 批次數的商業考量。</li>
-<li>如果你的 CDMO 同時為三個不同客戶生產相同的平台產品，這些知識如何影響後續客戶的 PPQ 設計？</li>
+<li> TR60 / PPQ ？</li>
+<li>Step 3 「 GMP 」， PPQ 。</li>
+<li> CDMO ， PPQ ？</li>
 </ol>
 </div>
 </div>
@@ -1343,7 +1343,7 @@ pH             Low        95/90          +（最少樣本）
 <!-- ================================================================== -->
 <!-- 4.4.2.2.1 Justification of Baseline                                -->
 <!-- ================================================================== -->
-<h2 class="section-title" id="sec-44221"><strong>4.4.2.2.1 Justification of Baseline 4.4.2.2.1 基準論證</strong></h2>
+<h2 class="section-title" id="sec-44221"><strong>4.4.2.2.1 Justification of Baseline 4.4.2.2.1 </strong></h2>
 <div class="two-column">
 <div class="left-column">
 <h3>Original Text</h3>
@@ -1357,33 +1357,33 @@ pH             Low        95/90          +（最少樣本）
 </ul>
 </div>
 <div class="right-column">
-<h3>導師解析 Tutorial Commentary</h3>
+<h3> Tutorial Commentary</h3>
 <div class="concept-box">
-<h4>核心概念：N=3 的法規依據</h4>
-<p><strong>N=3 基線</strong>是業界最常使用的 PPQ 批次數量起點。TR60 引用 EU GMP Annex 15 來提供科學與法規依據：</p>
+<h4>：N=3 </h4>
+<p><strong>N=3 </strong> PPQ 。TR60  EU GMP Annex 15 ：</p>
 <ul>
-<li>「一般認為，在例行條件下連續製造至少三批，可構成製程驗證」</li>
-<li>但 N=3 不是固定答案 — 可以根據標準方法的使用和現場類似產品/製程的經驗來調整</li>
+<li>「，，」</li>
+<li> N=3  — /</li>
 </ul>
-<p>關鍵訊息：N=3 是<strong>起點</strong>而非<strong>答案</strong>。你必須透過風險評估和知識累積來論證你的選擇是否合理。</p>
+<p>：N=3 <strong></strong><strong></strong>。。</p>
 </div>
 <div class="note-box">
-<h4>重點提示：法規機構的期望</h4>
-<p>FDA 和 EU 的法規指引都要求使用風險方法。但要注意：</p>
+<h4>：</h4>
+<p>FDA  EU 。：</p>
 <ul>
-<li>FDA 2011 Process Validation Guidance 未明確規定批次數量，強調的是「足夠的統計信心」</li>
-<li>EU GMP Annex 15 明確提到 N=3 為起點，但也允許替代方案</li>
-<li>無論選擇幾批，<strong>論證依據 (justification)</strong> 的品質比批次數量本身更重要</li>
+<li>FDA 2011 Process Validation Guidance ，「」</li>
+<li>EU GMP Annex 15  N=3 ，</li>
+<li>，<strong> (justification)</strong> </li>
 </ul>
-<p>查核員會問的不是「為什麼做三批」，而是「你的論證是否完整、科學、可追溯」。</p>
+<p>「」，「、、」。</p>
 </div>
 <div class="analogy-box">
-<h4>比喻說明 Analogy</h4>
-<p>N=3 就像學校的「及格分數 60 分」— 它是一個被廣泛接受的最低標準，但：</p>
+<h4> Analogy</h4>
+<p>N=3 「 60 」— ，：</p>
 <ul>
-<li>對於高風險科目（高關鍵性產品），老師可能要求 80 分才通過（N &gt; 3）</li>
-<li>對於已經有相關免修資格的學生（平台知識豐富），可以申請部分免考（N &lt; 3）</li>
-<li>無論如何，你都需要提供成績單和學習記錄（論證文件）</li>
+<li>（）， 80 （N &gt; 3）</li>
+<li>（），（N &lt; 3）</li>
+<li>，（）</li>
 </ul>
 </div>
 </div>
@@ -1391,7 +1391,7 @@ pH             Low        95/90          +（最少樣本）
 <!-- ================================================================== -->
 <!-- 4.4.2.2.2 High-Level Approach                                      -->
 <!-- ================================================================== -->
-<h2 class="section-title" id="sec-44222"><strong>4.4.2.2.2 High-Level Approach (Decision Tree) 4.4.2.2.2 高階方法（決策樹）</strong></h2>
+<h2 class="section-title" id="sec-44222"><strong>4.4.2.2.2 High-Level Approach (Decision Tree) 4.4.2.2.2 （）</strong></h2>
 <div class="two-column">
 <div class="left-column">
 <h3>Original Text</h3>
@@ -1400,31 +1400,31 @@ pH             Low        95/90          +（最少樣本）
 <p style="color:#4a5568; font-size:0.88rem;">[Refer to original document for full decision tree diagram]</p>
 </div>
 <div class="right-column">
-<h3>導師解析 Tutorial Commentary</h3>
+<h3> Tutorial Commentary</h3>
 <div class="concept-box">
-<h4>核心概念：決策樹的結構</h4>
-<p>TR60 建議的決策樹 (Decision Tree) 是一個結構化的問答流程，用 Yes/No 問題引導使用者逐步確定 PPQ 批次數。其核心設計理念是：</p>
+<h4>：</h4>
+<p>TR60  (Decision Tree) ， Yes/No  PPQ 。：</p>
 <ul>
-<li><strong>消除主觀性：</strong>透過預定義的問題和答案選項，避免「拍腦袋」式決策</li>
-<li><strong>可追溯性：</strong>每個決策節點都有明確的輸入和輸出，方便審查和追蹤</li>
-<li><strong>靈活性：</strong>高層次的決策樹可以細化為多頁的風險檢查表，適應不同產品和製程的需求</li>
+<li><strong>：</strong>，「」</li>
+<li><strong>：</strong>，</li>
+<li><strong>：</strong>，</li>
 </ul>
 </div>
 <div class="note-box">
-<h4>重點提示：決策樹的實施建議</h4>
-<p>在建立公司內部的 PPQ 批次數決策樹時，建議：</p>
+<h4>：</h4>
+<p> PPQ ，：</p>
 <ul>
-<li>將決策樹嵌入公司的 PVMP 模板或 SOP 中，確保一致性</li>
-<li>每個決策節點應有明確的評估標準和證據要求</li>
-<li>決策結果應經過跨功能團隊（品質、製造、法規）審查</li>
-<li>定期回顧和更新決策樹，納入新的平台知識和經驗教訓</li>
+<li> PVMP  SOP ，</li>
+<li></li>
+<li>（、、）</li>
+<li>，</li>
 </ul>
 </div>
 <div class="practice-box">
-<h4>練習思考 Practice Questions</h4>
+<h4> Practice Questions</h4>
 <ol>
-<li>設計一個簡化的 3 題決策樹，幫助判斷某個產品的 PPQ 批次數應該是 N=2、N=3 還是 N&gt;3。</li>
-<li>決策樹方法與開放式風險評估（如 FMEA）相比，各有什麼優缺點？</li>
+<li> 3 ， PPQ  N=2、N=3  N&gt;3。</li>
+<li>（ FMEA），？</li>
 </ol>
 </div>
 </div>
@@ -1432,77 +1432,77 @@ pH             Low        95/90          +（最少樣本）
 <!-- ================================================================== -->
 <!-- 4.4.2.3 PPQ at Normal Operating Conditions                         -->
 <!-- ================================================================== -->
-<h2 class="section-title" id="sec-4423"><strong>4.4.2.3 PPQ at Normal Operating Conditions 4.4.2.3 正常操作條件下之 PPQ</strong></h2>
+<h2 class="section-title" id="sec-4423"><strong>4.4.2.3 PPQ at Normal Operating Conditions 4.4.2.3  PPQ</strong></h2>
 <div class="two-column">
 <div class="left-column">
 <h3>Original Text</h3>
 <p>PPQ studies are typically conducted in a manner that demonstrates a <span class="key-term">state of control</span> under <span class="key-term">normal operating conditions</span> to assess the process variability expected during routine production. Process characterization (robustness) studies conducted during Stage 1 serve as the foundation for establishing <span class="key-term">NOR</span>, <span class="key-term">PAR</span>, and <span class="key-term">design space</span>, if appropriate. Effects-of-scale should also be considered if scaled-down models are suitably qualified, well-planned, and executed. Study data on robustness should support conducting commercial-scale PPQ under routine manufacturing conditions. Supplemental engineering studies at scale may be appropriate to evaluate extremes of the NOR (e.g., line speed or compression speed). In most cases, available Stage 1 data makes it unnecessary to execute PPQ over the entire operating range during the commercial manufacturing process. The PVMP should provide the justification for the approach used and reference all source data.</p>
 </div>
 <div class="right-column">
-<h3>導師解析 Tutorial Commentary</h3>
+<h3> Tutorial Commentary</h3>
 <div class="concept-box">
-<h4>核心概念：PPQ 在正常操作條件下執行</h4>
-<p>PPQ 通常在<strong>正常操作條件 (Normal Operating Conditions)</strong> 下執行，而非在極端條件下。這是因為：</p>
+<h4>：PPQ </h4>
+<p>PPQ <strong> (Normal Operating Conditions)</strong> ，。：</p>
 <ul>
-<li><strong>NOR (Normal Operating Range, 正常操作範圍)：</strong>日常生產實際使用的參數範圍</li>
-<li><strong>PAR (Proven Acceptable Range, 已證可接受範圍)：</strong>在 Stage 1 已證明可接受的更寬範圍</li>
-<li><strong>Design Space (設計空間)：</strong>ICH Q8 定義的多維度參數組合範圍</li>
+<li><strong>NOR (Normal Operating Range, )：</strong></li>
+<li><strong>PAR (Proven Acceptable Range, )：</strong> Stage 1 </li>
+<li><strong>Design Space ()：</strong>ICH Q8 </li>
 </ul>
-<p>Stage 1 的製程特性化/穩健性研究已經探索了參數的極端值，因此 PPQ 不需要重複這些工作。</p>
+<p>Stage 1 /， PPQ 。</p>
 </div>
 <div class="note-box">
-<h4>重點提示：何時需要補充工程研究</h4>
-<p>雖然 PPQ 在正常條件下執行，但在某些情況下可能需要<strong>補充性的工程研究 (supplemental engineering studies)</strong> 來評估 NOR 的極端值：</p>
+<h4>：</h4>
+<p> PPQ ，<strong> (supplemental engineering studies)</strong>  NOR ：</p>
 <ul>
-<li>充填線速度的最快和最慢設定</li>
-<li>壓錠速度的極端值</li>
-<li>規模效應的評估（如果縮小模型已適當確認）</li>
+<li></li>
+<li></li>
+<li>（）</li>
 </ul>
-<p>這些工程研究可以在 PPQ 之前或同時進行，但不需要作為正式 PPQ 的一部分。</p>
+<p> PPQ ， PPQ 。</p>
 </div>
 <div class="analogy-box">
-<h4>比喻說明 Analogy</h4>
-<p>PPQ 就像新飛機的認證試飛：試飛員在<strong>正常飛行條件</strong>下測試飛機的性能，而不是在颱風中試飛。極端條件的測試（失速、極端高度等）已經在之前的地面模擬和工程測試中完成了（Stage 1）。但如果有些地面模擬無法完全代表實際情況，可能需要在正式試飛前補充一些邊界條件的飛行測試（補充工程研究）。</p>
+<h4> Analogy</h4>
+<p>PPQ ：<strong></strong>，。（、）（Stage 1）。，（）。</p>
 </div>
 </div>
 </div>
 <!-- ================================================================== -->
 <!-- 4.4.2.4 PPQ Using Individual Operation Studies                     -->
 <!-- ================================================================== -->
-<h2 class="section-title" id="sec-4424"><strong>4.4.2.4 PPQ Using Individual Operation Studies 4.4.2.4 使用個別操作研究之 PPQ</strong></h2>
+<h2 class="section-title" id="sec-4424"><strong>4.4.2.4 PPQ Using Individual Operation Studies 4.4.2.4  PPQ</strong></h2>
 <div class="two-column">
 <div class="left-column">
 <h3>Original Text</h3>
 <p>The PPQ of a manufacturing process can be achieved by performing PPQ studies on each <span class="key-term">individual unit operation</span> (or related groups of operations). This approach calls for the writing of individual protocols that outline the studies to be conducted on each unit operation to achieve PPQ for the entire process. Protocols should define the testing performed and acceptance criteria for the output of the unit operation (intermediate) as prescribed by GMP. They may also require that the final DS or DP meets all specifications and predefined acceptance criteria.</p>
 </div>
 <div class="right-column">
-<h3>導師解析 Tutorial Commentary</h3>
+<h3> Tutorial Commentary</h3>
 <div class="concept-box">
-<h4>核心概念：逐單元操作 PPQ</h4>
-<p><strong>Individual Unit Operation PPQ (逐單元操作 PPQ)</strong> 是將整個製造流程拆分為個別的單元操作，分別撰寫 PPQ 方案並執行驗證。</p>
-<p>這種方法的優勢：</p>
+<h4>： PPQ</h4>
+<p><strong>Individual Unit Operation PPQ ( PPQ)</strong> ， PPQ 。</p>
+<p>：</p>
 <ul>
-<li>每個單元操作有獨立的測試和接受標準</li>
-<li>可以針對中間體 (intermediate) 設定 GMP 規定的品質標準</li>
-<li>出現偏差時更容易定位問題來源</li>
-<li>特別適合長流程或複雜的生物製劑 DS 製程</li>
+<li></li>
+<li> (intermediate)  GMP </li>
+<li></li>
+<li> DS </li>
 </ul>
 </div>
 <div class="note-box">
-<h4>重點提示 Key Notes</h4>
-<p>使用逐單元操作 PPQ 時，不要忽略<strong>整體製程</strong>的驗證。個別單元操作的 PPQ 通過，不代表整個製程一定符合要求。最終的 DS 或 DP 仍然必須符合所有規格和預定義的接受標準。</p>
-<p>這種方法常見於蛋白質藥物原料藥 (protein DS) 的製程，因為其製程步驟多且各有獨特的關鍵參數。</p>
+<h4> Key Notes</h4>
+<p> PPQ ，<strong></strong>。 PPQ ，。 DS  DP 。</p>
+<p> (protein DS) ，。</p>
 </div>
 <div class="analogy-box">
-<h4>比喻說明 Analogy</h4>
-<p>逐單元操作 PPQ 就像組裝一輛汽車：你可以分別測試引擎、變速箱、煞車系統各自的性能（單元操作 PPQ），但最終還是要做一次完整的路測（最終 DS/DP 規格確認），確保所有零件組裝在一起後的整體表現符合標準。</p>
+<h4> Analogy</h4>
+<p> PPQ ：、、（ PPQ），（ DS/DP ），。</p>
 </div>
 </div>
 </div>
 <!-- ================================================================== -->
 <!-- 4.4.2.5 PPQ Using Bracketing, Matrix & Family Approaches           -->
 <!-- ================================================================== -->
-<h2 class="section-title" id="sec-4425"><strong>4.4.2.5 PPQ Using Bracketing, Matrix, and Family Approaches 4.4.2.5 使用括弧法、矩陣法及系列法之 PPQ</strong></h2>
+<h2 class="section-title" id="sec-4425"><strong>4.4.2.5 PPQ Using Bracketing, Matrix, and Family Approaches 4.4.2.5 、 PPQ</strong></h2>
 <div class="two-column">
 <div class="left-column">
 <h3>Original Text</h3>
@@ -1519,52 +1519,52 @@ pH             Low        95/90          +（最少樣本）
 </ul>
 </div>
 <div class="right-column">
-<h3>導師解析 Tutorial Commentary</h3>
+<h3> Tutorial Commentary</h3>
 <div class="concept-box">
-<h4>核心概念：分組驗證策略</h4>
-<p>當多個產品或配置共用相似的製程和設備時，可以使用分組策略來減少 PPQ 的總工作量：</p>
+<h4>：</h4>
+<p>， PPQ ：</p>
 <ul>
-<li><strong>Bracketing (括弧法)：</strong>只驗證極端值（如最小和最大批量），假設中間值的表現也可接受。適用於連續變數（批量、線速度、充填量）。</li>
-<li><strong>Matrix (矩陣法)：</strong>在多個因子的所有組合中選擇代表性的子集進行驗證。適用於有多個獨立變數的情況。</li>
-<li><strong>Family Grouping (家族分組)：</strong>將使用相同製程/設備的產品歸為一族，選擇代表性成員進行驗證。適用於相同平台的多個產品。</li>
+<li><strong>Bracketing ()：</strong>（），。（、、）。</li>
+<li><strong>Matrix ()：</strong>。。</li>
+<li><strong>Family Grouping ()：</strong>/，。。</li>
 </ul>
 </div>
 <div class="analogy-box">
-<h4>比喻說明 Analogy</h4>
-<p>分組驗證就像買鞋試穿：</p>
+<h4> Analogy</h4>
+<p>：</p>
 <ul>
-<li><strong>Bracketing</strong> = 你只試穿最大號和最小號，確認都合腳後，就相信中間尺碼也沒問題</li>
-<li><strong>Matrix</strong> = 你有三種顏色和三種尺碼共九雙，但只挑幾雙有代表性的組合來試穿</li>
-<li><strong>Family</strong> = 同品牌同系列的不同款式，你知道它們的楦型一樣，只需試穿一款就能預測其他款的合腳程度</li>
+<li><strong>Bracketing</strong> = ，，</li>
+<li><strong>Matrix</strong> = ，</li>
+<li><strong>Family</strong> = ，，</li>
 </ul>
 </div>
 <div class="note-box">
-<h4>重點提示 Key Notes</h4>
-<p>使用分組策略時必須注意：</p>
+<h4> Key Notes</h4>
+<p>：</p>
 <ul>
-<li>必須有科學論證支持為什麼這些產品/條件可以被歸為同一組</li>
-<li>如果組內某個條件的結果不符合預期，可能需要擴大驗證範圍</li>
-<li>分組策略特別適合 CDMO，因為 CDMO 通常在相同設備上生產多個客戶的產品</li>
-<li>運輸驗證 (transport validation) 也可使用分組策略，特別適合有多條運輸路線的生物製品</li>
+<li>/</li>
+<li>，</li>
+<li> CDMO， CDMO </li>
+<li> (transport validation) ，</li>
 </ul>
 </div>
 <div class="practice-box" style="border-style:solid; background:linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-color:#22c55e;">
-<h4>實務應用 Practical Application</h4>
-<p><strong>CDMO 情境：</strong>你的充填線可以處理 2R 到 50R 的西林瓶。與其對每種瓶型都做完整 PPQ，你可以：</p>
+<h4> Practical Application</h4>
+<p><strong>CDMO ：</strong> 2R  50R 。 PPQ，：</p>
 <ol>
-<li>使用 <strong>Bracketing</strong>：只對最小 (2R) 和最大 (50R) 瓶型做完整 PPQ</li>
-<li>使用 <strong>Matrix</strong>：結合瓶型和充填量，選擇代表性組合</li>
-<li>論證中間瓶型的行為可以從極端值結果推斷</li>
-<li>在 PVMP 中記錄分組策略的科學依據</li>
+<li> <strong>Bracketing</strong>： (2R)  (50R)  PPQ</li>
+<li> <strong>Matrix</strong>：，</li>
+<li></li>
+<li> PVMP </li>
 </ol>
-<p>這可以將 PPQ 工作量從十幾批減少到數批，同時保持科學嚴謹性。</p>
+<p> PPQ ，。</p>
 </div>
 <div class="practice-box">
-<h4>練習思考 Practice Questions</h4>
+<h4> Practice Questions</h4>
 <ol>
-<li>在哪些情況下，Bracketing 策略不適用？請舉出至少兩個例子。</li>
-<li>如果你使用 Family Grouping 來驗證三個不同劑量強度的產品，但最低劑量強度的結果不符合預期，你會如何處理？</li>
-<li>Transport Validation 使用 Bracketing 時，「極端值」應該包含哪些因素？</li>
+<li>，Bracketing ？。</li>
+<li> Family Grouping ，，？</li>
+<li>Transport Validation  Bracketing ，「」？</li>
 </ol>
 </div>
 </div>
@@ -1573,15 +1573,15 @@ pH             Low        95/90          +（最少樣本）
 <!-- SECTION SUMMARY                                                     -->
 <!-- ================================================================== -->
 <div class="learning-objectives" style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);">
-<h3>本節重點回顧 Section Summary</h3>
+<h3> Section Summary</h3>
 <ul>
-<li><strong>加強取樣計畫 (Enhanced Sampling Plan)：</strong>PPQ 階段的取樣必須比日常生產更廣泛，使用三大統計工具 — Individual Value Plots（視覺化）、Tolerance Intervals（能力衡量）、Variance Components（變異來源分析）— 來提供批內和批間品質的統計信心。</li>
-<li><strong>風險分層取樣：</strong>取樣數量依 CQA 關鍵性分級（高/中/低），對應不同的信心/涵蓋度要求（95/99、95/95、95/90）。無菌充填產品使用 B/M/E 時間點取樣，最低 n=6（各 2），最高可達 n=15（各 5）。</li>
-<li><strong>取樣數量決定邏輯：</strong>基於先驗知識（Stage 1 數據）和 CQA 關鍵性的組合，使用容許區間法反推所需取樣量。無先驗知識時（如疫情緊急應變），可採用統一的 95/95 最低取樣標準。</li>
-<li><strong>PPQ 批次數的三步驟決策法：</strong>Step 1 確定基線批次數（知識越多，起始批次越少）；Step 2 評估是否需要追加控制或研究；Step 3 考量非 GMP 商業因素。N=3 依據 EU GMP Annex 15 為常用起點，但必須有完整的風險評估論證。</li>
-<li><strong>PPQ 報告結構：</strong>應包含所有屬性的摘要統計表、逐屬性的圖形分析（個別值圖）、容許區間圖表、變異成分表，以及每個屬性的管控與能力總結聲明。無法執行統計分析時（如低於 LOD 或獨特值不足），應說明原因並使用替代方法。</li>
-<li><strong>PPQ 執行策略的靈活性：</strong>PPQ 通常在正常操作條件下執行（極端條件已在 Stage 1 探索）；可按個別單元操作分別執行 PPQ；多產品/多配置可使用 Bracketing、Matrix 或 Family Grouping 策略來提升效率。</li>
-<li><strong>所有決策和論證必須記錄在 PVMP 中，</strong>包括取樣策略、批次數選擇依據、分組策略的科學依據，以及所有支持數據來源的引用。</li>
+<li><strong> (Enhanced Sampling Plan)：</strong>PPQ ， — Individual Value Plots（）、Tolerance Intervals（）、Variance Components（）— 。</li>
+<li><strong>：</strong> CQA （//），/（95/99、95/95、95/90）。 B/M/E ， n=6（ 2）， n=15（ 5）。</li>
+<li><strong>：</strong>（Stage 1 ） CQA ，。（）， 95/95 。</li>
+<li><strong>PPQ ：</strong>Step 1 （，）；Step 2 ；Step 3  GMP 。N=3  EU GMP Annex 15 ，。</li>
+<li><strong>PPQ ：</strong>、（）、、，。（ LOD ），。</li>
+<li><strong>PPQ ：</strong>PPQ （ Stage 1 ）； PPQ；/ Bracketing、Matrix  Family Grouping 。</li>
+<li><strong> PVMP ，</strong>、、，。</li>
 </ul>
 </div>
 </div> <!-- end main-content -->

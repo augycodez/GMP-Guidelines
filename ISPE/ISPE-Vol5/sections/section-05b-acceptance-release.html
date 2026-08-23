@@ -503,7 +503,7 @@ tr:nth-child(even) { background: #f7fafc; }
 <div class="header" id="top">
     <h1>ISPE Baseline® Guide: Commissioning and Qualification (2nd Ed.)</h1>
     <div class="subtitle">Chapter 7 (Part 2) + Chapter 8 — C&amp;Q Testing Continued &amp; Acceptance and Release</div>
-    <div class="page-info">Section 7.3.2.2 – 7.4  |  Chapter 8 (p56–p68)  |  雙語教學版</div>
+    <div class="page-info">Section 7.3.2.2 – 7.4  |  Chapter 8 (p56–p68)  |  </div>
 </div>
 
 <!-- ===== STICKY NAV ===== -->
@@ -567,32 +567,32 @@ tr:nth-child(even) { background: #f7fafc; }
 
     <!-- ===== LEARNING OBJECTIVES ===== -->
     <div class="learning-objectives">
-        <h3>本節學習目標 Learning Objectives</h3>
+        <h3> Learning Objectives</h3>
         <ol>
-            <li>理解 FAT、SAT 與到貨驗收 (RI) 的目的差異，以及三者在 C&amp;Q 流程中的順序關係。</li>
-            <li>掌握系統啟動 (System Start-Up) 的四步驟流程與安全先決條件。</li>
-            <li>區分操作/功能測試 (Operational/Functional Testing) 與性能確認 (PQ) 的適用時機與差異。</li>
-            <li>應用 Table 7.3 偏差管理矩陣，針對五類偏差情境採取正確處置行動。</li>
-            <li>說明 Chapter 8 驗收與放行 (Acceptance &amp; Release) 的四種總結報告模式，以及「確效狀態」啟動的法規意義。</li>
+            <li> FAT、SAT  (RI) ， C&amp;Q 。</li>
+            <li> (System Start-Up) 。</li>
+            <li>/ (Operational/Functional Testing)  (PQ) 。</li>
+            <li> Table 7.3 ，。</li>
+            <li> Chapter 8  (Acceptance &amp; Release) ，「」。</li>
         </ol>
     </div>
 
     <!-- ===== TOC ===== -->
     <div class="toc">
-        <h3>本節內容速覽</h3>
+        <h3></h3>
         <div class="toc-grid">
             <a href="#sec-fat">7.3.2.2 FAT</a>
             <a href="#sec-ri-sat">7.3.2.3 RI / 7.3.2.4 SAT</a>
             <a href="#sec-iv-startup">7.3.2.5 IV &amp; 7.3.3 Start-Up</a>
             <a href="#sec-functional">7.3.4 Functional Testing</a>
             <a href="#sec-pq">7.3.5 PQ Testing</a>
-            <a href="#sec-discrepancy">7.4 偏差管理 Table 7.3</a>
-            <a href="#sec-ch8-intro">Ch.8 簡介</a>
-            <a href="#sec-prereq">8.2 先決條件</a>
-            <a href="#sec-requirements">8.3 完成要求</a>
-            <a href="#sec-options">8.4 四種放行方式</a>
-            <a href="#sec-release">8.5 放行完成 / 8.6 追溯矩陣</a>
-            <a href="#sec-summary">本節總結</a>
+            <a href="#sec-discrepancy">7.4  Table 7.3</a>
+            <a href="#sec-ch8-intro">Ch.8 </a>
+            <a href="#sec-prereq">8.2 </a>
+            <a href="#sec-requirements">8.3 </a>
+            <a href="#sec-options">8.4 </a>
+            <a href="#sec-release">8.5  / 8.6 </a>
+            <a href="#sec-summary"></a>
         </div>
     </div>
 
@@ -621,24 +621,24 @@ tr:nth-child(even) { background: #f7fafc; }
                     </ul>
                 </div>
                 <div class="right-column">
-                    <div class="column-header">中文解說 Commentary</div>
+                    <div class="column-header"> Commentary</div>
                     <div class="concept-box">
-                        <h4>核心概念：FAT（工廠驗收測試）</h4>
-                        <p><strong>FAT（Factory Acceptance Test）</strong>是在廠商場所進行的安裝/功能測試，目的是「越早發現問題越好」。在設備出廠前發現缺失，修正成本最低、對工期衝擊最小。</p>
-                        <p>FAT 的法律意義：通過 FAT 代表廠商已履行合約責任，雙方共同簽署文件作為憑證。</p>
+                        <h4>：FAT（）</h4>
+                        <p><strong>FAT（Factory Acceptance Test）</strong>/，「」。，、。</p>
+                        <p>FAT ： FAT ，。</p>
                     </div>
                     <div class="analogy-box">
-                        <h4>比喻：FAT = 出廠品管</h4>
-                        <p>想像你訂製一台客製化設備，FAT 就是在工廠「出貨前」的驗收。如果你把設備運回公司才發現問題，不但要支付運費來回，還要等修復時間——這在製藥廠的專案時程裡可能代價極高。</p>
+                        <h4>：FAT = </h4>
+                        <p>，FAT 「」。，，——。</p>
                     </div>
                     <div class="note-box">
-                        <h4>關鍵：拆卸運輸決定 FAT vs SAT 的測試分工</h4>
-                        <p>若設備需要<strong>拆卸後運輸</strong>（如大型 WFI 系統），則在廠商已測試過的項目中，部分需要在 SAT 重新測試（因為重新組裝可能影響原有的校驗結果）。相反，不受拆卸影響的測試結果可沿用 FAT 數據。</p>
-                        <p>這個拆卸/重組計畫必須在 FAT 時就<strong>事先文件化</strong>，作為 SAT 測試範圍的依據。</p>
+                        <h4>： FAT vs SAT </h4>
+                        <p><strong></strong>（ WFI ），， SAT （）。， FAT 。</p>
+                        <p>/ FAT <strong></strong>， SAT 。</p>
                     </div>
                     <div class="application-box">
-                        <h4>CDMO 實務應用</h4>
-                        <p>CDMO 接受客戶委託時，若客戶要求見證 FAT（通常是 Phase 3 或商業製造設備），必須事先確認：觀察人員資格、NDA 保護、拍照/文件限制，以及 FAT punch list 的所有權歸屬。</p>
+                        <h4>CDMO </h4>
+                        <p>CDMO ， FAT（ Phase 3 ），：、NDA 、/， FAT punch list 。</p>
                     </div>
                 </div>
             </div>
@@ -671,24 +671,24 @@ tr:nth-child(even) { background: #f7fafc; }
                     <p>After completing SAT testing, the owner representative agrees with the vendor whether the system is ready to be turned over to the owner or on pre-conditions for system turnover. Agreements are documented and approved by the vendor and owner. <strong>Acceptance of a system with open discrepancies</strong> can be made with the approval of the Testing Coordinator and System Owner.</p>
                 </div>
                 <div class="right-column">
-                    <div class="column-header">中文解說 Commentary</div>
+                    <div class="column-header"> Commentary</div>
                     <div class="concept-box">
-                        <h4>RI（到貨驗收）的重點</h4>
-                        <p><strong>到貨驗收 (Receipt Inspection, RI)</strong> 是設備/材料抵達現場後的第一道查核，核對的是「對不對、完不完整、有沒有損壞」。</p>
+                        <h4>RI（）</h4>
+                        <p><strong> (Receipt Inspection, RI)</strong> /，「、、」。</p>
                         <ul>
-                            <li>確認廠牌、型號、序號符合採購規格</li>
-                            <li>確認隨附文件（材質證明、校驗報告等）齊全</li>
-                            <li>確認到貨狀況良好、標籤正確</li>
-                            <li>不合格品需<strong>隔離管制</strong>，不得進入安裝流程</li>
+                            <li>、、</li>
+                            <li>（、）</li>
+                            <li>、</li>
+                            <li><strong></strong>，</li>
                         </ul>
                     </div>
                     <div class="analogy-box">
-                        <h4>比喻：RI = 網購收貨拆箱</h4>
-                        <p>就像網購收到包裹要當場檢查，RI 必須在<strong>到貨時立即</strong>執行。等到設備裝到系統裡才發現是錯誤規格，要拆卸更換的代價就大得多了。</p>
+                        <h4>：RI = </h4>
+                        <p>，RI <strong></strong>。，。</p>
                     </div>
                     <div class="note-box">
-                        <h4>含未解偏差的系統仍可驗收</h4>
-                        <p>SAT 完成後，若有未關閉的偏差事項，在 <strong>Testing Coordinator 與 System Owner 共同批准</strong>的前提下，仍可先行驗收並移交。這是實務上常見的做法，但需要明確記錄未解項目及後續解決計畫。</p>
+                        <h4></h4>
+                        <p>SAT ，， <strong>Testing Coordinator  System Owner </strong>，。，。</p>
                     </div>
                 </div>
             </div>
@@ -732,29 +732,29 @@ tr:nth-child(even) { background: #f7fafc; }
                     <p>Any issues identified during system start-up activities should be verified to not impact future testing and addressed during the following testing steps.</p>
                 </div>
                 <div class="right-column">
-                    <div class="column-header">中文解說 Commentary</div>
+                    <div class="column-header"> Commentary</div>
                     <div class="concept-box">
-                        <h4>安裝驗證 (Installation Verification) 聚焦 CDE</h4>
-                        <p>Installation Verification 不是全面性的安裝查核——它特別針對<strong>系統風險評估中識別出的 CDEs（關鍵設計元素）</strong>。</p>
-                        <p>最重要的兩類查核：</p>
+                        <h4> (Installation Verification)  CDE</h4>
+                        <p>Installation Verification ——<strong> CDEs（）</strong>。</p>
+                        <p>：</p>
                         <ul>
-                            <li><strong>材質符合性</strong>：與產品/清潔劑接觸的部件，材質是否符合規格（例如：316L 不鏽鋼、電解拋光等）</li>
-                            <li><strong>關鍵儀器校驗</strong>：溫度計、壓力計、流量計等的 calibration 是否完成且有效</li>
+                            <li><strong></strong>：/，（：316L 、）</li>
+                            <li><strong></strong>：、、 calibration </li>
                         </ul>
                     </div>
                     <div class="note-box">
-                        <h4>供應商培訓是通電的前置條件</h4>
-                        <p>對於含廠商提供控制系統的設備（如 PLC、SCADA），<strong>操作員、工程師、維護人員的培訓必須在通電之前完成</strong>，且有文件記錄。這不僅是安全要求，更是 GEP 的基本原則。</p>
+                        <h4></h4>
+                        <p>（ PLC、SCADA），<strong>、、</strong>，。， GEP 。</p>
                     </div>
                     <div class="application-box">
-                        <h4>CDMO 應用：PSSR（啟動前安全審查）</h4>
-                        <p>製藥廠普遍使用 PSSR (Pre-Start-Up Safety Review) 作為正式清單。建議將 ISPE 的四步驟整合進 PSSR SOP，並要求：(1) 安全相關 punch list 全部關閉；(2) 消防/HSE 部門會簽；(3) 培訓記錄附件。</p>
+                        <h4>CDMO ：PSSR（）</h4>
+                        <p> PSSR (Pre-Start-Up Safety Review) 。 ISPE  PSSR SOP，：(1)  punch list ；(2) /HSE ；(3) 。</p>
                     </div>
                 </div>
             </div>
         <div class="concept-box">
-                        <h4>系統啟動四步驟（順序不可顛倒）</h4>
-                        <p>ISPE 明確規定啟動步驟必須依序執行，有強制前後依存關係：</p>
+                        <h4>（）</h4>
+                        <p>ISPE ，：</p>
                         </div>
                     </div>
     </div>
@@ -795,35 +795,35 @@ tr:nth-child(even) { background: #f7fafc; }
                     <p>Operational tests that demonstrate the ability of the system to meet the <strong>CAs/CDE functionalities</strong> are considered part of the <strong>qualification of the system</strong> and require <span class="key-term-red">Quality Unit oversight</span>. Complex or novel systems may require formal system integrated operational testing to document <strong>PQ/PPQ operational criteria/control strategy</strong>.</p>
                 </div>
                 <div class="right-column">
-                    <div class="column-header">中文解說 Commentary</div>
+                    <div class="column-header"> Commentary</div>
                     <div class="concept-box">
-                        <h4>功能測試的核心原則</h4>
-                        <p>功能測試的目標是驗證系統在<strong>整個預期操作範圍內</strong>——包括正常條件與最差情境（worst case）——皆符合規格。</p>
-                        <p>關鍵要素：</p>
+                        <h4></h4>
+                        <p><strong></strong>——（worst case）——。</p>
+                        <p>：</p>
                         <ul>
-                            <li>必須在安裝測試與校驗完成後才開始</li>
-                            <li>涵蓋機械、電氣、自動化（PLC/SCADA）、HSE 等面向</li>
-                            <li>最終步驟通常是<strong>全負載測試（Full Load Test）</strong></li>
+                            <li></li>
+                            <li>、、（PLC/SCADA）、HSE </li>
+                            <li><strong>（Full Load Test）</strong></li>
                         </ul>
                     </div>
                     <div class="analogy-box">
-                        <h4>比喻：worst case 測試 = 壓力測試</h4>
-                        <p>就像汽車要進行極端天氣路試，功能測試必須覆蓋上下限操作條件——例如 HVAC 在夏天最熱、冬天最冷時是否都能達到設計換氣次數。只在「平均值」條件下測試是不夠的。</p>
+                        <h4>：worst case  = </h4>
+                        <p>，—— HVAC 、。「」。</p>
                     </div>
                     <div class="note-box">
-                        <h4>7.3.4.2 QOT：需要 QA 介入的關鍵區分</h4>
-                        <p><strong>Qualification Operational Tests (QOT)</strong> 與一般功能測試的最大差異：</p>
+                        <h4>7.3.4.2 QOT： QA </h4>
+                        <p><strong>Qualification Operational Tests (QOT)</strong> ：</p>
                         <ul>
-                            <li>針對 CAs/CDEs 的功能測試 = 屬於<strong>確效活動</strong></li>
-                            <li>必須有 <strong>Quality Unit（QA）監督</strong></li>
-                            <li>測試結果的偏差需走 QA 核准流程</li>
+                            <li> CAs/CDEs  = <strong></strong></li>
+                            <li> <strong>Quality Unit（QA）</strong></li>
+                            <li> QA </li>
                         </ul>
-                        <p>換言之，同一台設備的功能測試，與 CA 相關的部分屬於 OQ（操作確效），QA 必須介入；與 CA 無關的部分只是 commissioning，工程師可自行完成。</p>
+                        <p>，， CA  OQ（），QA ； CA  commissioning，。</p>
                     </div>
                     <div class="practice-box">
-                        <h4>思考練習</h4>
-                        <p>製藥廠有一條蒸汽管路系統。蒸汽壓力是 CDE（影響滅菌效果）。問：測試「蒸汽管路自動切換閥門在異常壓力時的連鎖動作」屬於 QOT 還是一般功能測試？該如何處理？</p>
-                        <p><strong>答：</strong>蒸汽壓力是 CDE，與之相關的閥門連鎖動作直接影響滅菌安全性，因此屬於 <strong>QOT</strong>，需要 QA 監督，偏差需走確效偏差流程處理。</p>
+                        <h4></h4>
+                        <p>。 CDE（）。：「」 QOT ？？</p>
+                        <p><strong>：</strong> CDE，， <strong>QOT</strong>， QA ，。</p>
                     </div>
                 </div>
             </div>
@@ -856,25 +856,25 @@ tr:nth-child(even) { background: #f7fafc; }
                     </ul>
                 </div>
                 <div class="right-column">
-                    <div class="column-header">中文解說 Commentary</div>
+                    <div class="column-header"> Commentary</div>
                     <div class="concept-box">
-                        <h4>PQ（性能確認）的三大特徵</h4>
-                        <p><strong>PQ（Performance Qualification）</strong>是確效三步驟中最接近「真實使用」的最後一關：</p>
+                        <h4>PQ（）</h4>
+                        <p><strong>PQ（Performance Qualification）</strong>「」：</p>
                         <ol>
-                            <li><strong>使用真實產品或替代品（placebo）</strong>——不再只是用水或模擬介質</li>
-                            <li><strong>驗證重現性</strong>——通常需要多次重複（如滅菌確效三次）</li>
-                            <li><strong>在操作 SOP 下執行</strong>——驗證「人員按照 SOP 操作」也能達到規格</li>
+                            <li><strong>（placebo）</strong>——</li>
+                            <li><strong></strong>——（）</li>
+                            <li><strong> SOP </strong>——「 SOP 」</li>
                         </ol>
                     </div>
                     <div class="note-box">
-                        <h4>PQ 的先決條件鏈</h4>
-                        <p>ISPE 規定的順序非常嚴格：</p>
-                        <p style="font-weight:700;">IQ 完成 → OQ 完成 → 工程測試/週期開發 → 制定操作 SOP → 執行 PQ</p>
-                        <p>若跳過中間步驟（如未先完成週期開發就直接執行 PQ），稽核時將面臨重大問題。</p>
+                        <h4>PQ </h4>
+                        <p>ISPE ：</p>
+                        <p style="font-weight:700;">IQ  → OQ  → / →  SOP →  PQ</p>
+                        <p>（ PQ），。</p>
                     </div>
                     <div class="analogy-box">
-                        <h4>比喻：PQ = 考試的「上機實作」</h4>
-                        <p>IQ 是核對「工具有沒有裝好」，OQ 是「操作手冊說得到嗎」，而 PQ 是「真正考試時，考生按照 SOP 操作，結果符合規格嗎」。PQ 失敗了，表示真實操作條件下系統仍達不到要求，整個放行流程必須暫停。</p>
+                        <h4>：PQ = 「」</h4>
+                        <p>IQ 「」，OQ 「」， PQ 「， SOP ，」。PQ ，，。</p>
                     </div>
                 </div>
             </div>
@@ -910,24 +910,24 @@ tr:nth-child(even) { background: #f7fafc; }
                     <p style="margin-top:0.75rem; font-size:0.88rem; color:#555;"><strong>Notes:</strong> The Quality Unit has oversight of testing of direct impact systems and needs to approve any engineering change requests for direct impact systems. Critical discrepancies relate to CAs/CDEs.</p>
                 </div>
                 <div class="right-column">
-                    <div class="column-header">中文解說 Commentary</div>
+                    <div class="column-header"> Commentary</div>
                     <div class="critical-box">
-                        <h4>Type 4 vs Type 5 的關鍵差異</h4>
-                        <p><strong>Type 4（原因未知）</strong>：系統可能可以修復，但必須先調查根本原因。需要 QA 介入，發起調查，找到原因後修正並重測。</p>
-                        <p><strong>Type 5（根本無法達到）</strong>：這是最嚴重的情況。代表設計本身可能有缺陷，或規格設定不合理。必須有強力的科學論述（justification）說明為何在新的風險控制措施下系統仍可接受，或必須修改設計。</p>
+                        <h4>Type 4 vs Type 5 </h4>
+                        <p><strong>Type 4（）</strong>：，。 QA ，，。</p>
+                        <p><strong>Type 5（）</strong>：。，。（justification），。</p>
                     </div>
                     <div class="application-box">
-                        <h4>CDMO 稽核警示</h4>
-                        <p>FDA/EMA 稽核員最常聚焦的問題：「這個偏差是否需要走 Quality Unit 流程？」若您的團隊將 Type 4/5 偏差誤分類為 Type 3，自行以工程變更關閉，而未通知 QA，這在 483 觀察或 Warning Letter 中屬於重大發現。</p>
+                        <h4>CDMO </h4>
+                        <p>FDA/EMA ：「 Quality Unit ？」 Type 4/5  Type 3，， QA， 483  Warning Letter 。</p>
                     </div>
                     <div class="note-box">
-                        <h4>設計負責人的法律義務</h4>
-                        <p>即使是 Type 2（SME 接受預期結果未達），設計負責人（Design Authority）仍有<strong>法律責任確保系統符合相關規範</strong>。「SME 認為可以」並不等於「合法合規」——當涉及建築/消防/壓力容器等法規要求時，不能單純由 SME 蓋章了事。</p>
+                        <h4></h4>
+                        <p> Type 2（SME ），（Design Authority）<strong></strong>。「SME 」「」——//， SME 。</p>
                     </div>
                 </div>
             </div>
         <div class="concept-box">
-                        <h4>Table 7.3 五類偏差中文速查表</h4>
+                        <h4>Table 7.3 </h4>
                         </div>
                     </div>
     </div>
@@ -961,28 +961,28 @@ tr:nth-child(even) { background: #f7fafc; }
                     <p>The acceptance and release phase is <em>not intended</em> to be a catchall for closeout of all system or project documentation.</p>
                 </div>
                 <div class="right-column">
-                    <div class="column-header">中文解說 Commentary</div>
+                    <div class="column-header"> Commentary</div>
                     <div class="critical-box">
-                        <h4>「確效狀態」啟動的法規意義</h4>
-                        <p>QA 簽署驗收與放行文件的那一刻，正式宣告系統進入<strong>確效狀態（Qualified State）</strong>。這個時間點在法規上具有以下意義：</p>
+                        <h4>「」</h4>
+                        <p>QA ，<strong>（Qualified State）</strong>。：</p>
                         <ul>
-                            <li>系統的任何後續更改必須走 <strong>QA 管理的品質變更控制</strong></li>
-                            <li>啟動<strong>持續績效監測</strong>程序</li>
-                            <li>啟動<strong>定期審查</strong>週期（通常每年或每3年）</li>
-                            <li>系統所有權正式由<strong>專案團隊移交給操作/工程部門</strong></li>
+                            <li> <strong>QA </strong></li>
+                            <li><strong></strong></li>
+                            <li><strong></strong>（3）</li>
+                            <li><strong>/</strong></li>
                         </ul>
                     </div>
                     <div class="analogy-box">
-                        <h4>比喻：確效狀態 = 房屋完工驗收後的交屋</h4>
-                        <p>在驗收放行前，設備是「建造中」——工程師可以自由修改。一旦 QA 簽字放行，就像房屋交屋後，任何改動都需要「裝修許可」（變更控制）。沒有經過正式的 QA 核准變更控制就動到系統，等同於未申報裝修——稽核時這是重大缺失。</p>
+                        <h4>： = </h4>
+                        <p>，「」——。 QA ，，「」（）。 QA ，——。</p>
                     </div>
                     <div class="note-box">
-                        <h4>「非影響產品品質」偏差可帶著放行</h4>
-                        <p>不是所有偏差都必須在放行前關閉。若偏差<strong>不影響產品品質</strong>，可以在以下前提下暫時開放：</p>
+                        <h4>「」</h4>
+                        <p>。<strong></strong>，：</p>
                         <ul>
-                            <li>已有書面記錄的解決行動計畫</li>
-                            <li>指定負責人與完成期限</li>
-                            <li>QA 正式批准此例外</li>
+                            <li></li>
+                            <li></li>
+                            <li>QA </li>
                         </ul>
                     </div>
                 </div>
@@ -1016,21 +1016,21 @@ tr:nth-child(even) { background: #f7fafc; }
                     </ul>
                 </div>
                 <div class="right-column">
-                    <div class="column-header">中文解說 Commentary</div>
+                    <div class="column-header"> Commentary</div>
                     <div class="concept-box">
-                        <h4>進入 A&amp;R 階段的入場券（Gate Criteria）</h4>
-                        <p>驗收與放行不是自動發生的——需要確認以下五項：</p>
+                        <h4> A&amp;R （Gate Criteria）</h4>
+                        <p>——：</p>
                         <ol>
-                            <li>所有測試結果已被審查（不只是「有數據」，而是「有人看過並確認」）</li>
-                            <li>非預期結果已被調查（不能視而不見）</li>
-                            <li>偏差事項已被處理（不一定全部關閉，但都有行動計畫）</li>
-                            <li>工程變更已關閉（或有 QA 批准的例外）</li>
-                            <li>偏差已透過工程變更管理或重測方式解決</li>
+                            <li>（「」，「」）</li>
+                            <li>（）</li>
+                            <li>（，）</li>
+                            <li>（ QA ）</li>
+                            <li></li>
                         </ol>
                     </div>
                     <div class="application-box">
-                        <h4>CDMO 實務：A&amp;R 準備會議 (Readiness Review)</h4>
-                        <p>建議在正式驗收前一到兩週召開「A&amp;R Readiness Review」，以 checklist 逐一確認上述五個先決條件。這個會議的紀錄可作為後續稽核時「有履行前置審查」的證據。</p>
+                        <h4>CDMO ：A&amp;R  (Readiness Review)</h4>
+                        <p>「A&amp;R Readiness Review」， checklist 。「」。</p>
                     </div>
                 </div>
             </div>
@@ -1090,37 +1090,37 @@ tr:nth-child(even) { background: #f7fafc; }
                     <p>A statement that all required quality system elements are in place should be included in the summary report for systems with CAs/CDEs. If a system is released with outstanding items (requires Quality Unit approval), a quality system should be in place to track these items to closure with an appropriate level of Quality Unit oversight.</p>
                 </div>
                 <div class="right-column">
-                    <div class="column-header">中文解說 Commentary</div>
+                    <div class="column-header"> Commentary</div>
                     <div class="concept-box">
-                        <h4>8.3.1 測試文件的最低內容要求</h4>
-                        <p>ISPE 規定 Summary Report 必須包含五個最低要素：</p>
+                        <h4>8.3.1 </h4>
+                        <p>ISPE  Summary Report ：</p>
                         <ol>
-                            <li>測試描述（做了什麼）</li>
-                            <li>預期結果（預計要達到什麼）及是否達到</li>
-                            <li>驗收標準及是否達到</li>
-                            <li>對應的測試協議和原始數據的參照</li>
-                            <li>總結與結論</li>
+                            <li>（）</li>
+                            <li>（）</li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
                         </ol>
-                        <p>這五項是最低要求，不是選項——若報告缺少任何一項，稽核員將會提出觀察。</p>
+                        <p>，——，。</p>
                     </div>
                     <div class="concept-box">
-                        <h4>8.3.4 品質系統要素（Quality System Elements）</h4>
-                        <p>這是容易被忽略的一環——設備測試過了，但這些「支援系統」沒到位，系統仍無法放行：</p>
+                        <h4>8.3.4 （Quality System Elements）</h4>
+                        <p>——，「」，：</p>
                         <ul>
-                            <li><strong>SOP</strong>：操作程序書（版本正確、已批准）</li>
-                            <li><strong>校驗/維護系統</strong>：設備已納入校驗計畫</li>
-                            <li><strong>日誌本</strong>：設備使用、清潔、維護記錄機制</li>
-                            <li><strong>廠商文件</strong>：手冊、零件清單、維護要求</li>
-                            <li><strong>人員培訓</strong>：相關人員已完成培訓並記錄</li>
+                            <li><strong>SOP</strong>：（、）</li>
+                            <li><strong>/</strong>：</li>
+                            <li><strong></strong>：、、</li>
+                            <li><strong></strong>：、、</li>
+                            <li><strong></strong>：</li>
                         </ul>
                     </div>
                     <div class="application-box">
-                        <h4>CDMO 應用：Quality System Elements Checklist</h4>
-                        <p>建議建立一份設備放行前的「品質系統要素確認表」，在 A&amp;R 報告中以附件形式附上，逐項確認是否就位。特別注意：SOP 必須是<strong>批准後的最新版本</strong>，草稿版本不能算「到位」。</p>
+                        <h4>CDMO ：Quality System Elements Checklist</h4>
+                        <p>「」， A&amp;R ，。：SOP <strong></strong>，「」。</p>
                     </div>
                     <div class="note-box">
-                        <h4>工程變更 vs 品質變更控制的轉換點</h4>
-                        <p>在 A&amp;R 完成之前，系統的變更可走「工程變更管理」流程（較快速，工程師主導）。一旦 QA 簽署放行，系統進入確效狀態，<strong>所有後續變更必須走 QA 管理的品質變更控制</strong>（較嚴謹，需評估影響確效狀態）。這個轉換點必須被清楚認識。</p>
+                        <h4> vs </h4>
+                        <p> A&amp;R ，「」（，）。 QA ，，<strong> QA </strong>（，）。。</p>
                     </div>
                 </div>
             </div>
@@ -1175,55 +1175,55 @@ tr:nth-child(even) { background: #f7fafc; }
                     <p><strong>Note:</strong> The grouping strategy may complicate future changes. The grouping would also require presenting information from all systems during regulatory audits even when only a single system is requested. The advantages are that qualification would more closely reflect the grouping created by the process risk assessment as well as the batch record structure and eliminate potential gaps with the integration of systems.</p>
                 </div>
                 <div class="right-column">
-                    <div class="column-header">中文解說 Commentary</div>
+                    <div class="column-header"> Commentary</div>
                     <div class="concept-box">
-                        <h4>四種放行方式一覽表（快速選擇指南）</h4>
+                        <h4>（）</h4>
                         <div class="option-grid">
                             <div class="option-card opt1">
-                                <h4>Option 1 — 委託委託摘要報告</h4>
-                                <p><strong>適用：</strong>無 CA/CDE 系統（間接影響）</p>
-                                <p><strong>文件：</strong>Commissioning Summary Report（一份文件搞定）</p>
-                                <p><strong>QA：</strong>不需要</p>
+                                <h4>Option 1 — </h4>
+                                <p><strong>：</strong> CA/CDE （）</p>
+                                <p><strong>：</strong>Commissioning Summary Report（）</p>
+                                <p><strong>QA：</strong></p>
                             </div>
                             <div class="option-card opt2">
-                                <h4>Option 2 — 確效摘要報告</h4>
-                                <p><strong>適用：</strong>有 CA/CDE 的新系統，各項要求同時就緒</p>
-                                <p><strong>文件：</strong>C&amp;Q Summary Report（涵蓋所有要素）</p>
-                                <p><strong>QA：</strong>必要，需簽名</p>
+                                <h4>Option 2 — </h4>
+                                <p><strong>：</strong> CA/CDE ，</p>
+                                <p><strong>：</strong>C&amp;Q Summary Report（）</p>
+                                <p><strong>QA：</strong>，</p>
                             </div>
                             <div class="option-card opt3">
-                                <h4>Option 3 — 透過變更控制放行</h4>
-                                <p><strong>適用：</strong>已有確效狀態的現有廠房，新增或改造系統</p>
-                                <p><strong>文件：</strong>QSR + 變更控制記錄（品質系統要素在 CC 中記錄）</p>
-                                <p><strong>QA：</strong>必要（CC 核准等同放行）</p>
+                                <h4>Option 3 — </h4>
+                                <p><strong>：</strong>，</p>
+                                <p><strong>：</strong>QSR + （ CC ）</p>
+                                <p><strong>QA：</strong>（CC ）</p>
                             </div>
                             <div class="option-card opt4">
-                                <h4>Option 4 — 整體 A&amp;R 報告</h4>
-                                <p><strong>適用：</strong>大型互連系統（如新廠整體）</p>
-                                <p><strong>文件：</strong>各系統獨立 SR + 整體 A&amp;R Report</p>
-                                <p><strong>QA：</strong>必要，整體 A&amp;R Report 的 QA 簽名 = 全部系統放行</p>
+                                <h4>Option 4 —  A&amp;R </h4>
+                                <p><strong>：</strong>（）</p>
+                                <p><strong>：</strong> SR +  A&amp;R Report</p>
+                                <p><strong>QA：</strong>， A&amp;R Report  QA  = </p>
                             </div>
                         </div>
                     </div>
                     <div class="analogy-box">
-                        <h4>比喻：四個選項 = 四種房屋驗收模式</h4>
-                        <p>Option 1：工具間驗收（填個表格就好）<br>
-                        Option 2：單棟新建住宅驗收（一份完整驗收報告）<br>
-                        Option 3：現有大樓增建隔間（走建管申請/變更管理）<br>
-                        Option 4：整個新建社區驗收（各棟各自驗收 + 整體社區交屋文件）</p>
+                        <h4>： = </h4>
+                        <p>Option 1：（）<br>
+                        Option 2：（）<br>
+                        Option 3：（/）<br>
+                        Option 4：（ + ）</p>
                     </div>
                     <div class="note-box">
-                        <h4>Option 4 的兩面性</h4>
-                        <p><strong>優點：</strong>反映製程風險評估的系統分組邏輯，消除跨系統整合的落差，批次記錄結構較一致。</p>
-                        <p><strong>缺點：</strong>一旦 Group 化，未來任何一台設備變更時，整個 Group 的文件都可能需要更新。稽核時若查某一台設備，可能要提供整組所有設備的確效文件——文件量龐大。</p>
+                        <h4>Option 4 </h4>
+                        <p><strong>：</strong>，，。</p>
+                        <p><strong>：</strong> Group ，， Group 。，——。</p>
                     </div>
                     <div class="application-box">
-                        <h4>CDMO 決策樹：我應該用哪個 Option？</h4>
+                        <h4>CDMO ： Option？</h4>
                         <ol>
-                            <li>此系統有 CA/CDE 嗎？→ 否 → <strong>Option 1</strong></li>
-                            <li>此系統有 CA/CDE → 是否為現有廠已有 CC 流程？→ 是 → <strong>Option 3</strong></li>
-                            <li>新廠 / 所有要素能同時備齊？→ 是 → <strong>Option 2</strong></li>
-                            <li>大型互連系統 / 多系統需分批放行？→ <strong>Option 4</strong></li>
+                            <li> CA/CDE ？→  → <strong>Option 1</strong></li>
+                            <li> CA/CDE →  CC ？→  → <strong>Option 3</strong></li>
+                            <li> / ？→  → <strong>Option 2</strong></li>
+                            <li> / ？→ <strong>Option 4</strong></li>
                         </ol>
                     </div>
                 </div>
@@ -1256,24 +1256,24 @@ tr:nth-child(even) { background: #f7fafc; }
                     <p>For smaller projects, a Traceability Matrix may not be needed. It is considered a useful project management tool when testing is planned to be completed in several different documents or stages conducted by different companies. It is recommended to <strong>keep the amount of information managed in this document to a minimum</strong> to avoid an unmanageable document size when printed and to simplify tracking of changes.</p>
                 </div>
                 <div class="right-column">
-                    <div class="column-header">中文解說 Commentary</div>
+                    <div class="column-header"> Commentary</div>
                     <div class="critical-box">
-                        <h4>「QA 簽名 = 確效狀態啟動」的法規里程碑</h4>
-                        <p>這是整個 C&amp;Q 流程最重要的時間點：</p>
+                        <h4>「QA  = 」</h4>
+                        <p> C&amp;Q ：</p>
                         <ul>
-                            <li><strong>商業意義：</strong>CDMO 可以開始在此系統上生產商業批次，向客戶收費</li>
-                            <li><strong>法規意義：</strong>FDA/EMA 稽核時，確效狀態的起始日期 = QA 簽名日期</li>
-                            <li><strong>運營意義：</strong>系統進入維護/監測週期，責任移轉給操作部門</li>
-                            <li><strong>變更管理意義：</strong>任何後續修改都需要評估對確效狀態的影響</li>
+                            <li><strong>：</strong>CDMO ，</li>
+                            <li><strong>：</strong>FDA/EMA ， = QA </li>
+                            <li><strong>：</strong>/，</li>
+                            <li><strong>：</strong></li>
                         </ul>
                     </div>
                     <div class="analogy-box">
-                        <h4>比喻：追溯矩陣 = 施工管理清單</h4>
-                        <p>追溯矩陣就像蓋房子時的「施工進度追蹤表」——它幫助專案經理確認每個設計要求（URS）都有對應的設計（DR）和測試（C&amp;Q），沒有遺漏。但最後法規要求的「合格」憑證是「驗收報告」，而非這張追蹤表本身。</p>
+                        <h4>： = </h4>
+                        <p>「」——（URS）（DR）（C&amp;Q），。「」「」，。</p>
                     </div>
                     <div class="note-box">
-                        <h4>追溯矩陣「精簡原則」的實務意義</h4>
-                        <p>ISPE 特別強調要「最小化」追溯矩陣的資訊量。這是因為過於龐大的矩陣在稽核時反而成為負擔——每次有任何設計變更，追溯矩陣都要同步更新，若文件過大，維護工作量呈指數增加，且增加稽核員找到矛盾點的機會。<strong>夠用就好，精準追溯才是目標。</strong></p>
+                        <h4>「」</h4>
+                        <p>ISPE 「」。——，，，，。<strong>，。</strong></p>
                     </div>
                 </div>
             </div>
@@ -1287,22 +1287,22 @@ tr:nth-child(even) { background: #f7fafc; }
         <div class="chapter-divider">
             <div class="chapter-badge">✓</div>
             <div class="chapter-info">
-                <h2>本節總結 Section Summary</h2>
+                <h2> Section Summary</h2>
                 <p>Chapter 7 Part 2 + Chapter 8 — Key Takeaways</p>
             </div>
         </div>
         <div class="chapter-body">
             <div class="section-summary">
-                <h3>本節重點摘要</h3>
+                <h3></h3>
                 <ul>
-                    <li><strong>FAT（工廠驗收測試）</strong>在廠商場所執行，是最早期的驗證機會；拆卸運輸計畫決定哪些測試可沿用 FAT 結果，哪些需要在 SAT 重新執行。</li>
-                    <li><strong>RI（到貨驗收）</strong>必須在到貨時立即執行，不合格品需隔離；<strong>SAT（現場驗收測試）</strong>含 FAT punch list 審查，可附條件（有未決偏差）移交。</li>
-                    <li><strong>系統啟動四步驟</strong>必須依序執行（步驟 1+2 先於步驟 3，步驟 3 先於步驟 4）；控制系統培訓必須在通電前完成。</li>
-                    <li><strong>PQ（性能確認）</strong>使用真實產品/替代品，在操作 SOP 下執行，驗證重現性；高壓滅菌鍋、充填機、製藥用水系統等必須完成 PQ 才能放行。</li>
-                    <li><strong>Table 7.3 偏差管理</strong>：Type 4（標準未達、原因未知）與 Type 5（標準根本無法達到）為關鍵偏差，必須有 Quality Unit 介入。</li>
-                    <li><strong>QA 簽署 = 確效狀態啟動</strong>：這是 C&amp;Q 流程最重要的里程碑，系統所有後續變更必須走 QA 管理的品質變更控制。</li>
-                    <li><strong>四種放行報告選項</strong>：Option 1（無 CA/CDE 系統）→ Option 2（有 CA/CDE 新系統）→ Option 3（現有廠透過 CC）→ Option 4（大型互連系統）。</li>
-                    <li><strong>追溯矩陣</strong>是有用的專案管理工具，但不是必要的獨立文件；應保持精簡以維持可管理性。</li>
+                    <li><strong>FAT（）</strong>，； FAT ， SAT 。</li>
+                    <li><strong>RI（）</strong>，；<strong>SAT（）</strong> FAT punch list ，（）。</li>
+                    <li><strong></strong>（ 1+2  3， 3  4）；。</li>
+                    <li><strong>PQ（）</strong>/， SOP ，；、、 PQ 。</li>
+                    <li><strong>Table 7.3 </strong>：Type 4（、） Type 5（）， Quality Unit 。</li>
+                    <li><strong>QA  = </strong>： C&amp;Q ， QA 。</li>
+                    <li><strong></strong>：Option 1（ CA/CDE ）→ Option 2（ CA/CDE ）→ Option 3（ CC）→ Option 4（）。</li>
+                    <li><strong></strong>，；。</li>
                 </ul>
             </div>
 
@@ -1311,23 +1311,23 @@ tr:nth-child(even) { background: #f7fafc; }
                     <div class="column-header">Key Terms Glossary</div>
                     </div>
                 <div class="right-column">
-                    <div class="column-header">CDMO 應用總結</div>
+                    <div class="column-header">CDMO </div>
                     <div class="practice-box">
-                        <h4>稽核準備：最常被查的問題</h4>
+                        <h4>：</h4>
                         <ol>
-                            <li><strong>FAT/SAT 文件完整性</strong>：punch list 的每一項都有後續處理記錄嗎？</li>
-                            <li><strong>偏差分類正確性</strong>：所有 Type 4/5 偏差都有 QA 簽名嗎？沒有自行升級為 Type 3 處理？</li>
-                            <li><strong>確效狀態啟動日期</strong>：是否有明確的 QA 簽名日期，且之後的所有變更都走了 CC？</li>
-                            <li><strong>品質系統要素</strong>：放行前 SOP 版本是否正確？培訓記錄是否完整？</li>
-                            <li><strong>PQ 先決條件鏈</strong>：IQ→OQ→週期開發→SOP→PQ 的順序是否有書面記錄？</li>
+                            <li><strong>FAT/SAT </strong>：punch list ？</li>
+                            <li><strong></strong>： Type 4/5  QA ？ Type 3 ？</li>
+                            <li><strong></strong>： QA ， CC？</li>
+                            <li><strong></strong>： SOP ？？</li>
+                            <li><strong>PQ </strong>：IQ→OQ→→SOP→PQ ？</li>
                         </ol>
                     </div>
                     <div class="application-box">
-                        <h4>觸發新確效評估的三個情境</h4>
+                        <h4></h4>
                         <ul>
-                            <li><strong>定期審查</strong>：每年/每3年，評估系統是否持續維持確效狀態，無需重測只需文件審查</li>
-                            <li><strong>計畫性變更</strong>：走品質變更控制，評估是否影響 CA/CDE，決定是否需要部分或全部重新確效</li>
-                            <li><strong>意外偏差</strong>：在測試中發現 Type 4/5 偏差，或日常監測中發現 OOS 趨勢，需啟動 CAPA</li>
+                            <li><strong></strong>：/3，，</li>
+                            <li><strong></strong>：， CA/CDE，</li>
+                            <li><strong></strong>： Type 4/5 ， OOS ， CAPA</li>
                         </ul>
                     </div>
                 </div>

@@ -439,7 +439,7 @@ body {
     font-size: 0.92rem !important;
 }
 
-/* ===== ANALOGY BOX (Yellow) - 比喻說明 ===== */
+/* ===== ANALOGY BOX (Yellow) -  ===== */
 .analogy-box,
 .concept-box[class*="analogy"],
 .concept-box.analogy,
@@ -453,7 +453,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #856404 !important;
 }
 
-/* ===== TERM/CONCEPT BOX (Green) - 核心概念 ===== */
+/* ===== TERM/CONCEPT BOX (Green) -  ===== */
 .term-box,
 .key-term-box,
 .concept-box:not([class*="analogy"]):not([class*="note"]):not([class*="formula"]):not([class*="practice"]):not([class*="highlight"]):not(.analogy):not(.application) {
@@ -468,7 +468,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #2e7d32 !important;
 }
 
-/* ===== NOTE/HIGHLIGHT BOX (Orange) - 重點提示 ===== */
+/* ===== NOTE/HIGHLIGHT BOX (Orange) -  ===== */
 .note-box,
 .key-note,
 .key-point-box,
@@ -487,7 +487,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #c65102 !important;
 }
 
-/* ===== FORMULA BOX (Purple) - 公式計算 ===== */
+/* ===== FORMULA BOX (Purple) -  ===== */
 .formula-box,
 .concept-box[class*="formula"] {
     background: var(--purple-bg) !important;
@@ -522,7 +522,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #1565c0 !important;
 }
 
-/* ===== PRACTICE BOX (Blue dashed) - 練習思考 ===== */
+/* ===== PRACTICE BOX (Blue dashed) -  ===== */
 .practice-box {
     background: linear-gradient(135deg, #e8f4fd 0%, #d1e9ff 100%) !important;
     border: 2px dashed #3182ce !important;
@@ -932,7 +932,7 @@ tr:nth-child(even) {
 
 <div class="header">
     <h1>Section 8: Process Simulation (APS), Conclusion &amp; References</h1>
-    <div class="subtitle">製程模擬（APS）、結論與參考文獻</div>
+    <div class="subtitle">（APS）、</div>
     <div class="page-info">PDA Technical Report No. 62 (2013) | p16–p23</div>
 </div>
 
@@ -940,14 +940,14 @@ tr:nth-child(even) {
 
     <!-- Learning Objectives -->
     <div class="learning-objectives">
-        <h3>Learning Objectives / 學習目標</h3>
+        <h3>Learning Objectives / </h3>
         <ul>
-            <li>Explain why MAP requires a dedicated Aseptic Process Simulation (APS) program focused on individual operator qualification / 解釋為何 MAP 需要專屬的 APS 計畫，聚焦於個別操作者資格驗證</li>
-            <li>Describe the four categories of MAP activities that must be addressed in simulation design (8.1.1–8.1.4) / 描述模擬設計中須涵蓋的四類 MAP 活動</li>
-            <li>State TR62's requirements for APS run frequency, duration, and size (8.3) / 說明 TR62 對 APS 執行頻率、時間與規模的要求</li>
-            <li>Explain the incubation conditions and dual-phase rationale for MAP APS (8.10) / 解釋 MAP APS 培養條件及雙階段培養的理由</li>
-            <li>Articulate why TR62 mandates a zero-contamination acceptance criterion for MAP APS (8.13) / 闡述 TR62 要求 MAP APS 零污染接受標準的原因</li>
-            <li>Identify the five most critical references supporting TR62 / 識別支持 TR62 的五個最重要參考文獻</li>
+            <li>Explain why MAP requires a dedicated Aseptic Process Simulation (APS) program focused on individual operator qualification /  MAP  APS ，</li>
+            <li>Describe the four categories of MAP activities that must be addressed in simulation design (8.1.1–8.1.4) /  MAP </li>
+            <li>State TR62's requirements for APS run frequency, duration, and size (8.3) /  TR62  APS 、</li>
+            <li>Explain the incubation conditions and dual-phase rationale for MAP APS (8.10) /  MAP APS </li>
+            <li>Articulate why TR62 mandates a zero-contamination acceptance criterion for MAP APS (8.13) /  TR62  MAP APS </li>
+            <li>Identify the five most critical references supporting TR62 /  TR62 </li>
         </ul>
     </div>
 
@@ -957,7 +957,7 @@ tr:nth-child(even) {
             <div class="chapter-badge">8.0</div>
             <div class="chapter-info">
                 <h2>Evaluation of Manual Aseptic Processing — Process Simulation</h2>
-                <p>手動無菌製程評估——製程模擬</p>
+                <p>——</p>
             </div>
         </div>
         <div class="chapter-body">
@@ -970,25 +970,25 @@ tr:nth-child(even) {
                     <p>The simulation rationale should be kept current with changes to process, products, components, or equipment that could impact the acceptability of the process. MAP can encompass a variety of activities divided into <strong>4 major categories</strong>, each addressed in a different manner.</p>
                 </div>
                 <div class="right-column">
-                    <h3>核心概念：為何 MAP 需要專屬 APS？</h3>
+                    <h3>： MAP  APS？</h3>
 
                     <div class="concept-box">
-                        <h4>自動化 vs. 手動：資格驗證的對象不同</h4>
-                        <p>在自動化灌裝中，驗證的對象是<strong>製程</strong>——機器、環境、速度、參數。只要製程經過驗證且在管控範圍內運行，不需要每位操作機器的人員個別接受 APS。</p>
-                        <p>但在 MAP 中，<strong>操作者本身就是製程</strong>。每個人的手部動作、無菌技術、對污染的認識都不同。因此，資格驗證必須以<strong>個人</strong>為單位進行，而非以製程為單位。</p>
-                        <p>TR62 Section 8.0 的根本邏輯：<br>
-                        <strong>製程 APS = 驗證製程能力</strong><br>
-                        <strong>MAP APS = 驗證操作者能力</strong></p>
+                        <h4> vs. ：</h4>
+                        <p>，<strong></strong>——、、、。， APS。</p>
+                        <p> MAP ，<strong></strong>。、、。，<strong></strong>，。</p>
+                        <p>TR62 Section 8.0 ：<br>
+                        <strong> APS = </strong><br>
+                        <strong>MAP APS = </strong></p>
                     </div>
 
                     <div class="note-box">
-                        <h4>關鍵術語</h4>
+                        <h4></h4>
                         <ul>
-                            <li><strong>APS（Aseptic Process Simulation）</strong>：無菌製程模擬，又稱 media fill（培養基灌裝試驗）</li>
-                            <li><strong>MAP（Manual Aseptic Process）</strong>：手動無菌製程</li>
-                            <li><strong>TSB（Tryptic Soy Broth）</strong>：胰蛋白酶大豆液體培養基，最常用的模擬培養基</li>
-                            <li><strong>Turbidity（混濁度）</strong>：培養後的視覺陽性指標，代表微生物生長</li>
-                            <li><strong>Growth Promotion（生長促進試驗）</strong>：確認培養基確實能支持微生物生長的驗證試驗</li>
+                            <li><strong>APS（Aseptic Process Simulation）</strong>：， media fill（）</li>
+                            <li><strong>MAP（Manual Aseptic Process）</strong>：</li>
+                            <li><strong>TSB（Tryptic Soy Broth）</strong>：，</li>
+                            <li><strong>Turbidity（）</strong>：，</li>
+                            <li><strong>Growth Promotion（）</strong>：</li>
                         </ul>
                     </div>
                 </div>
@@ -1002,7 +1002,7 @@ tr:nth-child(even) {
             <div class="chapter-badge">8.1</div>
             <div class="chapter-info">
                 <h2>Simulation Design (8.1–8.1.4)</h2>
-                <p>模擬設計</p>
+                <p></p>
             </div>
         </div>
         <div class="chapter-body">
@@ -1029,25 +1029,25 @@ tr:nth-child(even) {
                     <p>Additional details on process-specific evaluation methods are to be provided in conjunction with each of the elements addressed within the overall process evaluation protocol/procedure.</p>
                 </div>
                 <div class="right-column">
-                    <h3>比喻：APS 設計如同消防演習</h3>
+                    <h3>：APS </h3>
 
                     <div class="analogy-box">
-                        <h4>消防演習比喻</h4>
-                        <p>想像一場消防演習：如果只模擬「從一樓走出去」這個最簡單的情境，你永遠不知道消防員面對「十樓火災、電梯故障、走廊充煙」時能否應對。</p>
-                        <p>MAP APS 的設計邏輯完全相同：模擬必須包含<strong>最複雜、最高風險</strong>的手動步驟。若只模擬簡單操作，無法確認操作者在最具挑戰性的情況下是否能維持無菌技術。</p>
-                        <p><strong>最差情境（Worst-case Simulation）原則</strong>：APS 應代表生產過程中最有可能引入污染的步驟，包括最長的操作時間、最多的人工介入次數、最複雜的容器組裝操作。</p>
+                        <h4></h4>
+                        <p>：「」，「、、」。</p>
+                        <p>MAP APS ：<strong>、</strong>。，。</p>
+                        <p><strong>（Worst-case Simulation）</strong>：APS ，、、。</p>
                     </div>
 
                     <div class="note-box">
-                        <h4>凍乾製程特別注意</h4>
-                        <p>當 MAP 包含凍乾步驟（lyophilization）時，灌裝/分裝模擬必須包含：</p>
+                        <h4></h4>
+                        <p> MAP （lyophilization），/：</p>
                         <ul>
-                            <li>半封口狀態（partially stoppered）的操作</li>
-                            <li>從灌裝間轉移至凍乾機的步驟</li>
-                            <li>凍乾機裝載/卸載的手動操作</li>
-                            <li>最終壓塞的步驟</li>
+                            <li>（partially stoppered）</li>
+                            <li></li>
+                            <li>/</li>
+                            <li></li>
                         </ul>
-                        <p>每個涉及開口容器的手動步驟都是潛在污染點，必須在 APS 中重現。</p>
+                        <p>， APS 。</p>
                     </div>
                 </div>
             </div>
@@ -1060,7 +1060,7 @@ tr:nth-child(even) {
             <div class="chapter-badge">8.2–8.6</div>
             <div class="chapter-info">
                 <h2>Media and Run Parameters</h2>
-                <p>培養基與執行參數</p>
+                <p></p>
             </div>
         </div>
         <div class="chapter-body">
@@ -1093,66 +1093,66 @@ tr:nth-child(even) {
                     <p>The methods utilized for automated, machine-based aseptic processing can be adopted without change. Air should be substituted for inert gases in all systems, except in those rare instances where an isolator providing true anaerobic conditions is utilized for the production process environment. In such situations, the usual inert gas would be utilized and the appropriate media would generally be fluid thioglycollate media (FTM) or alternative FTM (if filtration of the media is necessary).</p>
                 </div>
                 <div class="right-column">
-                    <h3>重點概念：執行頻率與規模</h3>
+                    <h3>：</h3>
 
                     <div class="note-box">
-                        <h4>TR62 Section 8.3 — APS 執行頻率要求</h4>
-                        <p><strong>初始資格驗證（Initial Qualification）：</strong></p>
+                        <h4>TR62 Section 8.3 — APS </h4>
+                        <p><strong>（Initial Qualification）：</strong></p>
                         <ul>
-                            <li>每位操作者（主操作者和替補操作者）需完成 <strong>3 次連續成功的 APS</strong></li>
-                            <li>3 次均需達到接受標準（零污染）</li>
+                            <li>（） <strong>3  APS</strong></li>
+                            <li>3 （）</li>
                         </ul>
-                        <p><strong>定期再資格驗證（Periodic Re-qualification）：</strong></p>
+                        <p><strong>（Periodic Re-qualification）：</strong></p>
                         <ul>
-                            <li>建議頻率：<strong>每半年一次（semi-annually）</strong></li>
-                            <li>或依適用的法規要求</li>
+                            <li>：<strong>（semi-annually）</strong></li>
+                            <li></li>
                         </ul>
-                        <p><strong>觸發額外 APS 的條件：</strong></p>
+                        <p><strong> APS ：</strong></p>
                         <ul>
-                            <li>超過 6 個月未執行 MAP</li>
-                            <li>製程、設備或環境發生重大變更</li>
-                            <li>前次 APS 結果失敗（出現污染單位）</li>
-                            <li>操作者長期缺席後返回崗位</li>
+                            <li> 6  MAP</li>
+                            <li>、</li>
+                            <li> APS （）</li>
+                            <li></li>
                         </ul>
                     </div>
 
                     <div class="formula-box">
-                        <h4>8.5 — 培養基填充量計算原則</h4>
-                        <p><strong>核心要求：</strong>培養基用量必須足以完全潤濕容器所有內部接觸面，並能夠偵測微生物生長。</p>
+                        <h4>8.5 — </h4>
+                        <p><strong>：</strong>，。</p>
                         <pre>
-最低填充量標準：
+：
 
-對於灌裝模擬：
-  V_fill ≥ 潤濕所有內表面所需的最低量
-  （通常為最大填充量的 1–3%，
-   或最低絕對體積，例如小瓶 ≥ 3 mL）
+：
+  V_fill ≥ 
+  （ 1–3%，
+   ， ≥ 3 mL）
 
-對於調配/合池模擬：
+/：
   V_media = V_production
-  （與實際生產操作體積相同，以確保
-   模擬製程時間的準確性）
+  （，
+   ）
 
-對於完整製程模擬：
-  所有液體均應以培養基替代
-  V_media ≥ V_process（等於或大於實際生產量）
+：
+  
+  V_media ≥ V_process（）
         </pre>
-                        <p><strong>目的：</strong>確保容器、封口件和培養基在 APS 中承受與實際生產相同的最長暴露時間，使模擬代表相應的污染風險。</p>
+                        <p><strong>：</strong>、 APS ，。</p>
                     </div>
 
                     <div class="concept-box">
-                        <h4>8.6 — 厭氧菌與惰性氣體</h4>
-                        <p>大多數 MAP 情況下，可直接以<strong>空氣代替惰性氣體</strong>（如氮氣、氬氣）進行 APS，因為：</p>
+                        <h4>8.6 — </h4>
+                        <p> MAP ，<strong></strong>（、） APS，：</p>
                         <ul>
-                            <li>一般環境微生物（需要偵測的主要污染源）大多為需氧菌</li>
-                            <li>空氣環境不影響主要污染風險的評估</li>
+                            <li>（）</li>
+                            <li></li>
                         </ul>
-                        <p><strong>例外情況：</strong>當生產製程在真正的厭氧隔離器中進行時，APS 應使用惰性氣體環境，並選用<strong>流體硫乙醇酸鹽培養基（FTM）</strong>，以同時支持需氧菌和厭氧菌的生長。</p>
+                        <p><strong>：</strong>，APS ，<strong>（FTM）</strong>，。</p>
                     </div>
                 </div>
             </div>
         <div class="concept-box">
-                        <h4>TR62 vs. TR22：APS 頻率比較</h4>
-                        <p>MAP 的 APS 管理遠比自動化複雜，因為人員流動本身就是額外的資格驗證需求。</p>
+                        <h4>TR62 vs. TR22：APS </h4>
+                        <p>MAP  APS ，。</p>
                     </div>
 
                     </div>
@@ -1164,7 +1164,7 @@ tr:nth-child(even) {
             <div class="chapter-badge">8.7–8.11</div>
             <div class="chapter-info">
                 <h2>Execution and Inspection</h2>
-                <p>執行與檢查</p>
+                <p></p>
             </div>
         </div>
         <div class="chapter-body">
@@ -1196,54 +1196,54 @@ tr:nth-child(even) {
                     <p>As the pre-incubation inspection is expected to remove any units with container/closure defects, if a positive unit is detected during the post-incubation inspection it must be appropriately investigated for cause and corrective action (Reference 6).</p>
                 </div>
                 <div class="right-column">
-                    <h3>執行與檢查的關鍵概念</h3>
+                    <h3></h3>
 
                     <div class="concept-box">
-                        <h4>8.7 — MAP 環境監測的挑戰</h4>
-                        <p>MAP 環境監測的核心矛盾：<strong>監測本身不應成為污染源</strong>。在小型 UDAF 工作站或隔離器中，傳統的主動式空氣取樣設備可能因：</p>
+                        <h4>8.7 — MAP </h4>
+                        <p>MAP ：<strong></strong>。 UDAF ，：</p>
                         <ul>
-                            <li>設備體積佔用有限操作空間</li>
-                            <li>氣流擾動影響 ISO 5 環境</li>
-                            <li>操作員移動設備時破壞無菌屏障</li>
+                            <li></li>
+                            <li> ISO 5 </li>
+                            <li></li>
                         </ul>
-                        <p>因此，MAP 的 EM 方法需特別評估其對環境的影響。沉降皿（settling plates）常作為被動式取樣方法，可最小化對工作區氣流的干擾。</p>
+                        <p>，MAP  EM 。（settling plates），。</p>
                     </div>
 
                     <div class="note-box">
-                        <h4>8.9 — 培養前檢查：關鍵決策點</h4>
-                        <p>培養前檢查（Pre-Incubation Inspection）的目的是：</p>
+                        <h4>8.9 — ：</h4>
+                        <p>（Pre-Incubation Inspection）：</p>
                         <ul>
-                            <li><strong>移除</strong>容器/封口缺陷的單位（密封不完整 → 排除在外）</li>
-                            <li><strong>保留</strong>外觀缺陷的單位（凹陷、刮痕等 → 視為完整，送入培養）</li>
+                            <li><strong></strong>/（ → ）</li>
+                            <li><strong></strong>（、 → ，）</li>
                         </ul>
-                        <p><strong>為什麼重要？</strong>一旦缺陷單位被排除，培養後若出現陽性結果，就必然代表 APS 期間有污染發生，必須展開根本原因調查（CAPA）。培養前檢查為後續結果判讀設立了明確的基線。</p>
-                        <p>MAP 容器通常為手動壓塞，密封一致性低於機器封口，因此培養前檢查的嚴格程度必須與正式產品放行檢查相當。</p>
+                        <p><strong>？</strong>，， APS ，（CAPA）。。</p>
+                        <p>MAP ，，。</p>
                     </div>
 
                     <div class="note-box">
-                        <h4>8.10 — 雙階段培養的理由</h4>
-                        <p>為何建議 14 天培養，且許多廠商採用「7+7 天雙溫度」方案？</p>
-                        <p><strong>不同微生物的最適生長溫度：</strong></p>
+                        <h4>8.10 — </h4>
+                        <p> 14 ，「7+7 」？</p>
+                        <p><strong>：</strong></p>
                         <ul>
-                            <li><strong>20–25°C</strong>：環境腐生菌（saprophytes）、黴菌、酵母菌 — 來自環境的主要污染菌群</li>
-                            <li><strong>30–35°C</strong>：人體共生菌（human flora）、葡萄球菌屬 — 來自操作者的主要污染菌群</li>
+                            <li><strong>20–25°C</strong>：（saprophytes）、、 — </li>
+                            <li><strong>30–35°C</strong>：（human flora）、 — </li>
                         </ul>
-                        <p><strong>7+7 雙階段培養方案：</strong><br>
-                        第 1–7 天：20–25°C（偵測環境腐生菌）<br>
-                        第 8–14 天：30–35°C（偵測人體菌群）</p>
-                        <p>TR62 允許單一溫度（20–35°C 範圍內），但需有數據支持所選溫度能充分支持微生物生長。雙階段方案能最大化偵測靈敏度。</p>
+                        <p><strong>7+7 ：</strong><br>
+                         1–7 ：20–25°C（）<br>
+                         8–14 ：30–35°C（）</p>
+                        <p>TR62 （20–35°C ），。。</p>
                     </div>
 
                     <div class="concept-box">
-                        <h4>培養後檢查流程</h4>
-                        <p>培養後視覺檢查（Post-Incubation Inspection）是 APS 最終結果的判定步驟：</p>
+                        <h4></h4>
+                        <p>（Post-Incubation Inspection） APS ：</p>
                         <ul>
-                            <li>由<strong>受訓且具資格的檢查員</strong>執行</li>
-                            <li>需能辨識<strong>低濃度和高濃度</strong>的微生物生長模式</li>
-                            <li>混濁（turbidity）= 陽性（positive） = 污染事件</li>
-                            <li>可選擇在培養期中途進行中期檢查</li>
+                            <li><strong></strong></li>
+                            <li><strong></strong></li>
+                            <li>（turbidity）= （positive） = </li>
+                            <li></li>
                         </ul>
-                        <p>任何陽性單位必須啟動正式 CAPA 調查，不得以任何理由直接排除陽性結果。</p>
+                        <p> CAPA ，。</p>
                     </div>
                 </div>
             </div>
@@ -1256,7 +1256,7 @@ tr:nth-child(even) {
             <div class="chapter-badge">8.12–8.13</div>
             <div class="chapter-info">
                 <h2>Microbiology: Growth Promotion and Interpretation</h2>
-                <p>微生物學：生長促進與結果判讀</p>
+                <p>：</p>
             </div>
         </div>
         <div class="chapter-body">
@@ -1278,41 +1278,41 @@ tr:nth-child(even) {
                     <p>Although Technical Report No. 22 makes provision for some low number other than zero, in the case of manual aseptic processing <strong>this criterion must be set to zero due to the manual nature of the operation. The assumptions used for low numerical acceptance are not applicable for manual aseptic processing operations.</strong></p>
                 </div>
                 <div class="right-column">
-                    <h3>微生物學的核心要求</h3>
+                    <h3></h3>
 
                     <div class="concept-box">
-                        <h4>8.12 — 生長促進試驗：為什麼必須做？</h4>
-                        <p>生長促進試驗（Growth Promotion Testing）是 APS 有效性的前提條件：</p>
-                        <p><strong>邏輯鏈：</strong></p>
+                        <h4>8.12 — ：？</h4>
+                        <p>（Growth Promotion Testing） APS ：</p>
+                        <p><strong>：</strong></p>
                         <ul>
-                            <li>如果培養基沒有陽性結果，有兩種可能：</li>
-                            <li>(A) 操作者的無菌技術完美，沒有引入污染</li>
-                            <li>(B) 培養基根本無法支持微生物生長，即使有污染也偵測不到</li>
+                            <li>，：</li>
+                            <li>(A) ，</li>
+                            <li>(B) ，</li>
                         </ul>
-                        <p>生長促進試驗排除可能性 (B)，確認培養基確實能支持微生物生長，從而使「無陽性」的結果具有真正的科學意義。</p>
-                        <p><strong>方法：</strong>培養 14 天後，向部分 APS 單位中接種已知微生物，確認培養基能夠偵測該微生物的生長。</p>
+                        <p> (B)，，「」。</p>
+                        <p><strong>：</strong> 14 ， APS ，。</p>
                     </div>
 
                     <div class="concept-box">
-                        <h4>8.13 — 零污染標準：MAP 與自動化的關鍵差異</h4>
-                        <p><strong>自動化 APS（TR22）：</strong><br>
-                        最低 5,000 單位，允許統計學接受標準（例如：5,000 單位中允許 0 個陽性，即污染率 &lt;0.1%）。這基於大量填充的統計推斷邏輯。</p>
+                        <h4>8.13 — ：MAP </h4>
+                        <p><strong> APS（TR22）：</strong><br>
+                         5,000 ，（：5,000  0 ， &lt;0.1%）。。</p>
                         <p><strong>MAP APS（TR62）：</strong><br>
-                        <strong>必須為零（0）污染單位</strong>，不論填充的單位數量多少。</p>
-                        <p><strong>為什麼標準更嚴格？</strong></p>
+                        <strong>（0）</strong>，。</p>
+                        <p><strong>？</strong></p>
                         <ul>
-                            <li>MAP 批量通常遠小於 5,000 單位（常見為數十至數百單位）</li>
-                            <li>統計學接受標準的前提（大樣本量）不適用</li>
-                            <li>任何污染對小批量產品的影響比例更高</li>
-                            <li>人工操作本質上要求更高的個人無菌技術標準</li>
+                            <li>MAP  5,000 （）</li>
+                            <li>（）</li>
+                            <li></li>
+                            <li></li>
                         </ul>
                     </div>
 
                     <div class="analogy-box">
-                        <h4>直覺理解：為何 MAP 不能用統計容忍？</h4>
-                        <p>想像一個 5,000 支注射劑的批次，其中 1 支受污染（0.02%）：統計上很低，可接受。</p>
-                        <p>但如果是一個只有 50 支的 MAP 批次，其中 1 支受污染（2%）：這意味著幾乎每 50 位接受治療的患者中，就有 1 位可能接受到受污染的藥品。對臨床患者而言，這是完全不可接受的風險。</p>
-                        <p>TR62 的零容忍標準反映了 MAP 通常用於臨床試驗、罕見病或個人化治療產品的現實——這些患者往往已非常脆弱，感染的後果可能是致命的。</p>
+                        <h4>： MAP ？</h4>
+                        <p> 5,000 ， 1 （0.02%）：，。</p>
+                        <p> 50  MAP ， 1 （2%）： 50 ， 1 。，。</p>
+                        <p>TR62  MAP 、——，。</p>
                     </div>
                 </div>
             </div>
@@ -1325,7 +1325,7 @@ tr:nth-child(even) {
             <div class="chapter-badge">9.0</div>
             <div class="chapter-info">
                 <h2>Conclusion</h2>
-                <p>結論</p>
+                <p></p>
             </div>
         </div>
         <div class="chapter-body">
@@ -1337,19 +1337,19 @@ tr:nth-child(even) {
                     <p>In new installations, we strongly encourage the use of isolation technology to minimize the risk of microbial contamination from personnel involved in the manufacturing operations.</p>
                 </div>
                 <div class="right-column">
-                    <h3>結論解析</h3>
+                    <h3></h3>
 
                     <div class="concept-box">
-                        <h4>TR62 結論的三個層次</h4>
-                        <p><strong>第一層（現實認知）：</strong>TR62 是業界第一份全面性處理 MAP 主題的文件。在許多監管指導原則中，MAP 仍是模糊地帶——TR62 的建議在缺乏明確法規指導的情況下，本身就成為業界實踐標準。</p>
-                        <p><strong>第二層（風險認知）：</strong>廠商必須清醒認識到，高度依賴人員表現的製程（MAP）本質上存在不確定性。這種不確定性無法完全消除，只能透過嚴格的訓練、資格驗證和 APS 計畫來管理。</p>
-                        <p><strong>第三層（技術方向）：</strong>隔離技術（Isolation Technology，即隔離器 Isolator）代表了最優先的技術發展方向，因為它能最大程度地將人員因素從無菌環境中移除。這是 TR62 對整個行業的明確建議。</p>
+                        <h4>TR62 </h4>
+                        <p><strong>（）：</strong>TR62  MAP 。，MAP ——TR62 ，。</p>
+                        <p><strong>（）：</strong>，（MAP）。，、 APS 。</p>
+                        <p><strong>（）：</strong>（Isolation Technology， Isolator），。 TR62 。</p>
                     </div>
 
                     <div class="note-box">
-                        <h4>監管定位</h4>
-                        <p>TR62 的獨特地位：它不是法規（regulation），也不是指導文件（guidance），而是業界共識（industry consensus）。然而在 FDA 查廠或歐盟 GMP 檢查中，TR62 的建議常被援引作為判斷 MAP 實踐是否符合「current best practices」的參考依據。</p>
-                        <p>這意味著：在缺乏明確法規要求的情況下，不遵循 TR62 的建議可能需要廠商提供充分的科學理由，否則在查廠時面臨觀察意見的風險。</p>
+                        <h4></h4>
+                        <p>TR62 ：（regulation），（guidance），（industry consensus）。 FDA  GMP ，TR62  MAP 「current best practices」。</p>
+                        <p>：， TR62 ，。</p>
                     </div>
                 </div>
             </div>
@@ -1362,7 +1362,7 @@ tr:nth-child(even) {
             <div class="chapter-badge">10.0</div>
             <div class="chapter-info">
                 <h2>References</h2>
-                <p>參考文獻</p>
+                <p></p>
             </div>
         </div>
         <div class="chapter-body">
@@ -1388,39 +1388,39 @@ tr:nth-child(even) {
                     </ol>
                 </div>
                 <div class="right-column">
-                    <h3>五個最重要的參考文獻解析</h3>
+                    <h3></h3>
 
                     <div class="concept-box">
-                        <h4>Reference 1 — FDA 2004 無菌製程指南（最高優先）</h4>
+                        <h4>Reference 1 — FDA 2004 （）</h4>
                         <p><strong>FDA Guideline on Sterile Drug Products Produced by Aseptic Processing (2004)</strong></p>
-                        <p>美國 FDA 無菌製程指導原則，是北美市場最具約束力的監管文件。TR62 多次引用此文件作為 MAP 操作標準的依據，尤其在環境監測、無菌技術和製程設計方面。</p>
-                        <p><strong>適用對象：</strong>所有在美國銷售的無菌製品製造商，CDMO 承接 FDA 監管市場的產品必須遵循。</p>
+                        <p> FDA ，。TR62  MAP ，、。</p>
+                        <p><strong>：</strong>，CDMO  FDA 。</p>
                     </div>
 
                     <div class="concept-box">
-                        <h4>Reference 2 — EU GMP Annex 1（歐盟監管基礎）</h4>
-                        <p><strong>EU GMP Annex 1 Manufacture of Sterile Medicinal Products (2008，已於 2022 更新)</strong></p>
-                        <p>歐盟無菌藥品製造附錄，為歐洲市場提供詳盡的技術要求。2022 年更新版本大幅強化了污染控制策略（CCS）要求，並明確了 MAP 在不同屏障技術下的設計原則。</p>
-                        <p><strong>注意：</strong>TR62 引用的是 2008 版，2022 年更新後部分要求已進一步強化，建議同時參考最新版本。</p>
+                        <h4>Reference 2 — EU GMP Annex 1（）</h4>
+                        <p><strong>EU GMP Annex 1 Manufacture of Sterile Medicinal Products (2008， 2022 )</strong></p>
+                        <p>，。2022 （CCS）， MAP 。</p>
+                        <p><strong>：</strong>TR62  2008 ，2022 ，。</p>
                     </div>
 
                     <div class="concept-box">
-                        <h4>Reference 4 — USP &lt;797&gt;（藥局調劑專用）</h4>
+                        <h4>Reference 4 — USP &lt;797&gt;（）</h4>
                         <p><strong>USP General Chapter &lt;797&gt; Pharmaceutical Compounding–Sterile Preparations</strong></p>
-                        <p>美國藥典無菌製劑調配章節，是醫院藥局和調配藥局最直接適用的 MAP 標準。&lt;797&gt; 包含了對調配人員（pharmacist/technician）APS 資格驗證的具體要求，與 TR62 的原則高度一致。</p>
+                        <p>， MAP 。&lt;797&gt; （pharmacist/technician）APS ， TR62 。</p>
                     </div>
 
                     <div class="concept-box">
-                        <h4>Reference 6 — PDA TR22（APS 技術核心）</h4>
+                        <h4>Reference 6 — PDA TR22（APS ）</h4>
                         <p><strong>PDA Technical Report No. 22: Process Simulation Testing for Aseptically Filled Products (Revised 2011)</strong></p>
-                        <p>TR62 的 APS 章節大量引用 TR22，幾乎所有技術性 APS 方法（培養基選擇、培養條件、生長促進等）都直接採用 TR22 的標準。理解 TR62 Section 8 必須同步參閱 TR22。</p>
+                        <p>TR62  APS  TR22， APS （、、） TR22 。 TR62 Section 8  TR22。</p>
                     </div>
 
                     <div class="concept-box">
-                        <h4>Reference 12 / ICH Q9（風險管理框架）</h4>
+                        <h4>Reference 12 / ICH Q9（）</h4>
                         <p><strong>PDA TR44: Quality Risk Management for Aseptic Processes (2008)</strong><br>
                         <strong>ICH Q9: Quality Risk Management (2005)</strong></p>
-                        <p>MAP 設計的複雜性需要系統性的風險評估工具（如 FMEA、HACCP）來識別最高風險的操作步驟，並據此設計 APS 的挑戰程度。ICH Q9/TR44 提供了這一框架。</p>
+                        <p>MAP （ FMEA、HACCP）， APS 。ICH Q9/TR44 。</p>
                     </div>
                 </div>
             </div>
@@ -1433,7 +1433,7 @@ tr:nth-child(even) {
             <div class="chapter-badge">11.0</div>
             <div class="chapter-info">
                 <h2>Additional Reading</h2>
-                <p>延伸閱讀</p>
+                <p></p>
             </div>
         </div>
         <div class="chapter-body">
@@ -1469,7 +1469,7 @@ tr:nth-child(even) {
                     </ol>
                 </div>
                 <div class="right-column">
-                    <h3>延伸閱讀導覽</h3>
+                    <h3></h3>
 
                     </div>
             </div>
@@ -1482,7 +1482,7 @@ tr:nth-child(even) {
             <div class="chapter-badge">APP</div>
             <div class="chapter-info">
                 <h2>Application Scenario: CDMO Clinical MAP Qualification</h2>
-                <p>應用情境：CDMO 臨床 MAP 資格驗證案例</p>
+                <p>：CDMO  MAP </p>
             </div>
         </div>
         <div class="chapter-body">
@@ -1505,37 +1505,37 @@ tr:nth-child(even) {
                     </ul>
                 </div>
                 <div class="right-column">
-                    <h3>CDMO 案例：臨床凍乾藥品手動再溶解的 APS 設計</h3>
+                    <h3>CDMO ： APS </h3>
 
                     <div class="application-box">
-                        <h4>案例背景</h4>
-                        <p>CDMO 承接一個 Phase I 臨床試驗的支援任務。醫院臨床藥師需在 ISO 5 UDAF 工作站內，手動對凍乾藥品小瓶進行再溶解（reconstitution），然後準備患者注射劑量。</p>
-                        <p>在首位患者接受治療前，CDMO 必須依照 TR62 完成藥師的 MAP APS 資格驗證。</p>
+                        <h4></h4>
+                        <p>CDMO  Phase I 。 ISO 5 UDAF ，（reconstitution），。</p>
+                        <p>，CDMO  TR62  MAP APS 。</p>
                     </div>
 
                     <div class="concept-box">
-                        <h4>TR62 APS 設計要點摘要</h4>
+                        <h4>TR62 APS </h4>
                         <ul>
-                            <li><strong>活動類別：</strong>8.1.3（分裝/再溶解）+ 8.1.2（調配確認）</li>
-                            <li><strong>模擬培養基：</strong>以 TSB 替代 WFI 重新溶解凍乾培養基餅</li>
-                            <li><strong>初始驗證：</strong>藥師需完成 <strong>3 次連續成功的 APS</strong></li>
-                            <li><strong>執行時間：</strong>每次 APS 時間 ≥ 實際最長操作時段（例如 ≥45 分鐘）</li>
-                            <li><strong>填充量：</strong>TSB 足以潤濕所有小瓶內壁（≥1–3 mL/瓶）</li>
-                            <li><strong>觀察記錄：</strong>合格觀察員全程記錄，建議錄影</li>
-                            <li><strong>培養條件：</strong>14 天，建議雙階段 7+7 天（20–25°C / 30–35°C）</li>
-                            <li><strong>接受標準：</strong>零污染小瓶（任何陽性均需 CAPA）</li>
-                            <li><strong>定期再驗證：</strong>每半年一次，或有重大變更/長期缺席後</li>
+                            <li><strong>：</strong>8.1.3（/）+ 8.1.2（）</li>
+                            <li><strong>：</strong> TSB  WFI </li>
+                            <li><strong>：</strong> <strong>3  APS</strong></li>
+                            <li><strong>：</strong> APS  ≥ （ ≥45 ）</li>
+                            <li><strong>：</strong>TSB （≥1–3 mL/）</li>
+                            <li><strong>：</strong>，</li>
+                            <li><strong>：</strong>14 ， 7+7 （20–25°C / 30–35°C）</li>
+                            <li><strong>：</strong>（ CAPA）</li>
+                            <li><strong>：</strong>，/</li>
                         </ul>
                     </div>
 
                     <div class="note-box">
-                        <h4>CDMO 的關鍵監管考量</h4>
-                        <p>在臨床試驗環境中，MAP APS 的文件記錄具有雙重意義：</p>
+                        <h4>CDMO </h4>
+                        <p>，MAP APS ：</p>
                         <ul>
-                            <li><strong>GMP 合規：</strong>向 FDA/EMA 證明臨床藥品的無菌性保障</li>
-                            <li><strong>患者安全：</strong>Phase I 患者往往是首次接受此新藥的人體試驗受試者，任何污染事件的後果無法容忍</li>
+                            <li><strong>GMP ：</strong> FDA/EMA </li>
+                            <li><strong>：</strong>Phase I ，</li>
                         </ul>
-                        <p>CDMO 應在臨床試驗協議（Clinical Trial Agreement）中明確 MAP APS 的責任歸屬，確保醫院藥局的操作符合 TR62 的要求，並保存所有 APS 記錄供監管查閱。</p>
+                        <p>CDMO （Clinical Trial Agreement） MAP APS ， TR62 ， APS 。</p>
                     </div>
                 </div>
             </div>
@@ -1547,30 +1547,30 @@ tr:nth-child(even) {
         <div class="chapter-divider">
             <div class="chapter-badge">Q&amp;A</div>
             <div class="chapter-info">
-                <h2>Practice Questions / 練習題</h2>
-                <p>自我評量</p>
+                <h2>Practice Questions / </h2>
+                <p></p>
             </div>
         </div>
         <div class="chapter-body">
             <div class="practice-box">
-                <h3>練習題 1：APS 設計（Section 8.1）</h3>
-                <p>一家 CDMO 需要對一個新操作進行 MAP APS 設計，該操作包含以下步驟：（a）將三種無菌原料藥液分別從獨立容器抽取並混合進入主容器；（b）手動調整 pH 值；（c）以手動注射器將混合液灌裝至 10 支西林瓶；（d）手動壓塞。</p>
-                <p><strong>問題：</strong>根據 TR62 Section 8.1，這些步驟應歸類為哪些 MAP 活動類別？APS 設計應如何確保涵蓋「最差情境」操作？</p>
-                <p><strong>參考答案方向：</strong>（a）屬 8.1.1 複合/組裝；（b）屬 8.1.2 調配；（c）（d）屬 8.1.3 灌裝/分裝。最差情境應包含最長操作時間、最多的手部介入次數、在三種原料的最大批量規模下執行。</p>
+                <h3> 1：APS （Section 8.1）</h3>
+                <p> CDMO  MAP APS ，：（a）；（b） pH ；（c） 10 ；（d）。</p>
+                <p><strong>：</strong> TR62 Section 8.1， MAP ？APS 「」？</p>
+                <p><strong>：</strong>（a） 8.1.1 /；（b） 8.1.2 ；（c）（d） 8.1.3 /。、、。</p>
             </div>
 
             <div class="practice-box">
-                <h3>練習題 2：執行頻率要求（Section 8.3）</h3>
-                <p>某家醫院藥局有 4 名藥師輪流執行 MAP（手動無菌調配）。其中藥師 A 已完成初始資格驗證（3 次成功 APS），上次 APS 執行日期為去年 5 月。藥師 B 是新加入的人員，尚未完成任何 APS。藥師 C 上次 APS 為 4 個月前，近期無重大變更。藥師 D 上次 APS 為 8 個月前。</p>
-                <p><strong>問題：</strong>根據 TR62，今天（11 月）哪些藥師可以立即執行 MAP？哪些需要先完成 APS 再執行？各需要幾次 APS？</p>
-                <p><strong>參考答案方向：</strong>藥師 A：距上次 APS 已達 6 個月（5 月至 11 月），需進行 1 次再資格驗證 APS 才能繼續執行。藥師 B：需完成初始 3 次連續成功 APS。藥師 C：距 4 個月，尚在半年期限內，可繼續執行。藥師 D：距 8 個月，已超過半年，需進行再資格驗證 APS。</p>
+                <h3> 2：（Section 8.3）</h3>
+                <p> 4  MAP（）。 A （3  APS）， APS  5 。 B ， APS。 C  APS  4 ，。 D  APS  8 。</p>
+                <p><strong>：</strong> TR62，（11 ） MAP？ APS ？ APS？</p>
+                <p><strong>：</strong> A： APS  6 （5  11 ）， 1  APS 。 B： 3  APS。 C： 4 ，，。 D： 8 ，， APS。</p>
             </div>
 
             <div class="practice-box">
-                <h3>練習題 3：接受標準（Section 8.13）</h3>
-                <p>一次 MAP APS 共灌裝了 150 支小瓶（TSB）。培養 14 天後，後培養檢查發現 1 支小瓶呈現混濁（turbidity）。查詢記錄發現，培養前檢查時已確認該小瓶密封完整（無缺陷），混濁在第 7 天中期檢查時即已可見。</p>
-                <p><strong>問題：</strong>（1）根據 TR62 Section 8.13，此次 APS 結果應如何判定？（2）如果這是自動化灌裝的 APS（150 單位），結果判定是否相同？（3）需要採取哪些後續行動？</p>
-                <p><strong>參考答案方向：</strong>（1）MAP APS：結果<strong>失敗（fail）</strong>。TR62 要求零污染，1 支陽性即構成失敗，因為混濁單位的密封已在培養前驗證完整，排除了容器問題，污染必來自操作。（2）自動化 APS：150 單位遠小於 TR22 的最低 5,000 單位標準；在 5,000 單位的情況下，理論上存在統計學接受窗口，但 150 單位不足以應用統計學接受標準。（3）需立即啟動 CAPA：偏差調查、根本原因分析、操作員再培訓、重新執行 3 次成功 APS 後方可恢復 MAP 操作。</p>
+                <h3> 3：（Section 8.13）</h3>
+                <p> MAP APS  150 （TSB）。 14 ， 1 （turbidity）。，（）， 7 。</p>
+                <p><strong>：</strong>（1） TR62 Section 8.13， APS ？（2） APS（150 ），？（3）？</p>
+                <p><strong>：</strong>（1）MAP APS：<strong>（fail）</strong>。TR62 ，1 ，，，。（2） APS：150  TR22  5,000 ； 5,000 ，， 150 。（3） CAPA：、、、 3  APS  MAP 。</p>
             </div>
         </div>
     </div>
@@ -1578,10 +1578,10 @@ tr:nth-child(even) {
     <!-- Section Summary -->
     <div class="chapter-section" id="sec-summary">
         <div class="chapter-divider">
-            <div class="chapter-badge">总結</div>
+            <div class="chapter-badge"></div>
             <div class="chapter-info">
                 <h2>Section Summary</h2>
-                <p>章節總結</p>
+                <p></p>
             </div>
         </div>
         <div class="chapter-body">
@@ -1599,7 +1599,7 @@ tr:nth-child(even) {
                     </ul>
                 </div>
                 <div class="right-column">
-                    <h3>重點關鍵詞彙表</h3>
+                    <h3></h3>
 
                     </div>
             </div>

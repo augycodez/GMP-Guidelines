@@ -420,7 +420,7 @@ body {
     font-size: 0.92rem !important;
 }
 
-/* ===== ANALOGY BOX (Yellow) - 比喻說明 ===== */
+/* ===== ANALOGY BOX (Yellow) -  ===== */
 .analogy-box,
 .concept-box[class*="analogy"],
 .concept-box.analogy,
@@ -434,7 +434,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #856404 !important;
 }
 
-/* ===== TERM/CONCEPT BOX (Green) - 核心概念 ===== */
+/* ===== TERM/CONCEPT BOX (Green) -  ===== */
 .term-box,
 .key-term-box,
 .concept-box:not([class*="analogy"]):not([class*="note"]):not([class*="formula"]):not([class*="practice"]):not([class*="highlight"]):not(.analogy):not(.application) {
@@ -449,7 +449,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #2e7d32 !important;
 }
 
-/* ===== NOTE/HIGHLIGHT BOX (Orange) - 重點提示 ===== */
+/* ===== NOTE/HIGHLIGHT BOX (Orange) -  ===== */
 .note-box,
 .key-note,
 .key-point-box,
@@ -468,7 +468,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #c65102 !important;
 }
 
-/* ===== FORMULA BOX (Purple) - 公式計算 ===== */
+/* ===== FORMULA BOX (Purple) -  ===== */
 .formula-box,
 .concept-box[class*="formula"] {
     background: var(--purple-bg) !important;
@@ -503,7 +503,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #1565c0 !important;
 }
 
-/* ===== PRACTICE BOX (Blue dashed) - 練習思考 ===== */
+/* ===== PRACTICE BOX (Blue dashed) -  ===== */
 .practice-box {
     background: linear-gradient(135deg, #e8f4fd 0%, #d1e9ff 100%) !important;
     border: 2px dashed #3182ce !important;
@@ -915,66 +915,66 @@ tr:nth-child(even) {
 <!-- SECTION HEADER -->
 <div class="header">
     <h1>Section 6.0 Product and Process-Specific Validation Testing (Part A: 6.0-6.5)</h1>
-    <div class="subtitle">產品與製程專屬驗證測試（上篇：6.0-6.5）</div>
+    <div class="subtitle">（：6.0-6.5）</div>
     <div class="page-info">PDA Technical Report No. 26 (Revised 2025) - Sterilizing Filtration of Liquids | p39 - p43</div>
 </div>
 
 <!-- LEARNING OBJECTIVES -->
 <div class="learning-objectives">
-    <h3>本章學習目標 (Section 6.0 完整章節)</h3>
+    <h3> (Section 6.0 )</h3>
     <ul>
-        <li>理解製程專屬濾膜驗證 (Process-Specific Filter Validation) 的目的、時機與範圍，以及其在上市許可申請中的角色</li>
-        <li>掌握 Quality by Design (QbD) 原則如何應用於選擇除菌過濾的最差條件 (Worst-Case) 測試參數</li>
-        <li>了解吸附 (Adsorption)、可萃取物/可溶出物 (Extractables/Leachables)、化學相容性 (Chemical Compatibility) 等驗證測試的設計考量</li>
-        <li>理解細菌截留試驗 (Bacterial Retention Study) 的方法學、挑戰條件與判定標準</li>
-        <li>認識產品濕潤完整性測試值 (Product Wet Integrity Test Value) 的可選性與其與細菌截留的關聯</li>
-        <li>學會將濾膜驗證決策連結至污染控制策略 (CCS) 與無菌濾液保證的最高優先原則</li>
+        <li> (Process-Specific Filter Validation) 、，</li>
+        <li> Quality by Design (QbD)  (Worst-Case) </li>
+        <li> (Adsorption)、/ (Extractables/Leachables)、 (Chemical Compatibility) </li>
+        <li> (Bacterial Retention Study) 、</li>
+        <li> (Product Wet Integrity Test Value) </li>
+        <li> (CCS) </li>
     </ul>
 </div>
 
 <!-- ============================================================= -->
 <!-- SECTION 6.0: OVERVIEW -->
 <!-- ============================================================= -->
-<div class="section-title"><strong>6.0 Product and Process-Specific Validation Testing for Sterilizing Filtration 6.0 滅菌過濾的產品及製程專屬驗證測試</strong></div>
+<div class="section-title"><strong>6.0 Product and Process-Specific Validation Testing for Sterilizing Filtration 6.0 </strong></div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p><span class="key-term">Process-specific filter validation studies</span>, to provide assurance that the filter will perform as expected under <span class="key-term">worst-case processing conditions</span>, are required prior to submission for <span class="key-term">marketing authorization</span>. However, filter validation studies may be conducted earlier based on <span class="key-term">risk assessment</span>. A risk assessment can be based on <span class="key-term">prior knowledge</span> from how the product, process and filter interact, leveraging successful filter validations of similar molecules. This risk assessment can be performed to evaluate whether a product operates within the <span class="key-term">design space</span>. <span class="key-term">Bacterial retention studies</span>, with the final sterilizing-grade filter, are required when a sterile claim is made and the product is not terminally sterilized (29). This section describes factors to consider when performing process-specific filter validation studies.</p>
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>Process-Specific Filter Validation (製程專屬濾膜驗證)：</strong>這是針對「你的產品 + 你的製程 + 你選的濾膜」這個特定組合所進行的驗證。濾膜供應商提供的是通用資格確認 (Generic Qualification) 數據，但法規要求終端使用者必須用自己的產品條件來驗證濾膜的表現。</p>
-            <p><strong>Design Space (設計空間)：</strong>經驗證的多維參數組合範圍，在此範圍內操作被認為能確保產品品質。這是 QbD 概念的核心，包含正常操作範圍 (NOR) 和已證可接受範圍 (PAR)。</p>
-            <p><strong>Marketing Authorization (上市許可)：</strong>濾膜驗證報告是 CMC 送審文件的一部分。沒有完成驗證，產品無法取得上市許可。</p>
+            <h4> Key Concepts</h4>
+            <p><strong>Process-Specific Filter Validation ()：</strong>「 +  + 」。 (Generic Qualification) ，。</p>
+            <p><strong>Design Space ()：</strong>，。 QbD ， (NOR)  (PAR)。</p>
+            <p><strong>Marketing Authorization ()：</strong> CMC 。，。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>想像濾膜供應商的資格確認資料就像一位員工的<strong>大學文憑</strong>——證明他通過了基本教育，具備一般能力。但你的公司還需要進行<strong>試用期評估</strong>（製程專屬驗證），確認這位員工在「你的團隊、你的專案、你的工作環境」下能否勝任。文憑是必要的，但不足以取代試用期。</p>
+            <h4> Analogy</h4>
+            <p><strong></strong>——，。<strong></strong>（），「、、」。，。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p><strong>時機關鍵：</strong>法規要求是「上市許可申請前」必須完成，但 TR26 建議可以基於風險評估提前進行。特別是在加速臨床開發 (Expedited Clinical Development) 的情境下，提前取得製程專屬數據可以避免後期的意外。</p>
-            <p><strong>Prior Knowledge 的價值：</strong>如果你的公司已經成功驗證過類似分子的除菌過濾，這些經驗可以作為風險評估的基礎。這對 CDMO 來說特別有利——多產品經驗就是你的競爭優勢。</p>
+            <h4> Key Notes</h4>
+            <p><strong>：</strong>「」， TR26 。 (Expedited Clinical Development) ，。</p>
+            <p><strong>Prior Knowledge ：</strong>，。 CDMO ——。</p>
         </div>
 
         <div class="practice-box" style="border-style:solid; background:linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-color:#22c55e;">
-            <h4>實務應用 Practical Application</h4>
-            <p><strong>CDMO 情境：</strong>一家 CDMO 接到客戶的加速開發專案（FDA Breakthrough Therapy Designation），需要在 Phase II 就開始準備商業製程。此時應該基於風險評估，提前進行濾膜驗證的初步研究，而非等到 Phase III 完成後才開始。這樣可以在 BLA 送審時，驗證報告已經完備。</p>
+            <h4> Practical Application</h4>
+            <p><strong>CDMO ：</strong> CDMO （FDA Breakthrough Therapy Designation）， Phase II 。，， Phase III 。 BLA ，。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>為什麼濾膜供應商的通用資格確認數據不能取代終端使用者的製程專屬驗證？兩者各自涵蓋什麼範圍？</li>
-                <li>在什麼情況下，你會建議客戶在臨床開發早期就進行濾膜驗證？這樣做的風險與效益分別是什麼？</li>
+                <li>？？</li>
+                <li>，？？</li>
             </ol>
         </div>
     </div>
@@ -983,54 +983,54 @@ tr:nth-child(even) {
 <!-- ============================================================= -->
 <!-- SECTION 6.1: PERFORMANCE OF PROCESS-SPECIFIC FILTER VALIDATION -->
 <!-- ============================================================= -->
-<div class="section-title"><strong>6.1 Performance of Process-Specific Filter Validation 6.1 製程專屬過濾器驗證的執行</strong></div>
+<div class="section-title"><strong>6.1 Performance of Process-Specific Filter Validation 6.1 </strong></div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p>The rationale for selection of a suitable filter for final <span class="key-term">sterilizing filtration</span> should be documented in an end user's <span class="key-term">CCS</span>. As described in Section 5.0, during <span class="key-term">PD</span>, end users will review generic information available from their supplier (i.e., <span class="key-term">qualification data</span>) to assess suitability of components for the intended process and identify any potential risks associated with <span class="key-term">compatibility</span>, <span class="key-term">adsorption</span>, and <span class="key-term">extractables</span> as part of their initial risk assessment. Consideration should also be given if the final sterilizing filter will be part of a <span class="key-term">SUS</span>, which could include tubing and bags, as this may impact the maximum processing parameters and potentially the design of the final process-specific filter validation studies. While it is recognized that process-specific filter validation studies must be performed prior to <span class="key-term">commercial manufacture</span> or release of product, there is no specific guidance that states precisely when such studies should be performed in the development/validation lifecycle. Consequently, the decision when to perform filter validation is determined largely by the end user. This usually coincides when the drug product is in <span class="key-term">late phase development</span>, as it is important that the proposed <span class="key-term">critical process parameters (CPPs)</span> and full-scale manufacturing conditions are well understood to ensure the testing performed validates the intended <span class="key-term">filtration design space</span>. If a specific risk is identified, it may be appropriate to conduct process-specific testing earlier during PD (e.g., if the drug is subject to <span class="key-term">expedited clinical development</span>). Generation of early process-specific data can also be considered for the purposes of risk assessment and not the final filter validation.</p>
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>CCS (Contamination Control Strategy, 污染控制策略)：</strong>這是 EU GMP Annex 1 (2022) 的核心要求。濾膜的選擇理由必須記錄在 CCS 中，說明為什麼選擇這個品牌、型號的濾膜，以及它如何支持整體無菌保證策略。</p>
-            <p><strong>SUS (Single-Use System, 一次性使用系統)：</strong>當除菌濾膜整合在 SUS 中時（例如帶有管路和袋子的組裝件），驗證的複雜度增加。因為 SUS 的最大操作參數（溫度、壓力、時間）可能比單獨濾膜更受限。</p>
-            <p><strong>Filtration Design Space (過濾設計空間)：</strong>CPP 的多維範圍，定義了過濾操作的可接受條件。驗證必須涵蓋這個設計空間的邊界（最差條件）。</p>
+            <h4> Key Concepts</h4>
+            <p><strong>CCS (Contamination Control Strategy, )：</strong> EU GMP Annex 1 (2022) 。 CCS ，、，。</p>
+            <p><strong>SUS (Single-Use System, )：</strong> SUS （），。 SUS （、、）。</p>
+            <p><strong>Filtration Design Space ()：</strong>CPP ，。（）。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>把濾膜驗證的時機想成<strong>蓋房子與裝潢的關係</strong>。你不會在還沒確定房屋格局（CPP 尚未確定）時就去訂做客製化家具（最終驗證）。但如果你已經大致知道客廳的大小（基本製程參數已知），可以先去看看家具市場（初步可行性測試）。等格局完全定案（Late Phase Development），再下訂單做最終驗證。</p>
+            <h4> Analogy</h4>
+            <p><strong></strong>。（CPP ）（）。（），（）。（Late Phase Development），。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p><strong>CCS 文件化的重要性：</strong>法規查核時，稽核員會查看你的 CCS，確認濾膜選擇是基於系統性的風險評估，而非隨意決定。這代表你需要記錄：(1) 評估了哪些替代方案、(2) 風險評估的結論、(3) 支持選擇的數據來源。</p>
-            <p><strong>SUS 整合的陷阱：</strong>許多終端使用者忽略了 SUS 組裝件的整體影響。例如，管路連接方式可能改變過濾壓力、袋子材料可能產生額外的可萃取物。驗證設計必須考慮「系統」而非僅僅「濾膜」。</p>
+            <h4> Key Notes</h4>
+            <p><strong>CCS ：</strong>， CCS，，。：(1) 、(2) 、(3) 。</p>
+            <p><strong>SUS ：</strong> SUS 。，、。「」「」。</p>
         </div>
 
         <div class="note-box">
-            <h4>決策階層提醒 Decision Hierarchy</h4>
+            <h4> Decision Hierarchy</h4>
             <div class="hierarchy-diagram">
-                <div class="hierarchy-level"><div class="hierarchy-box level-1">1. 無菌濾液保證 Sterile Filtrate Assurance</div></div>
+                <div class="hierarchy-level"><div class="hierarchy-box level-1">1.  Sterile Filtrate Assurance</div></div>
                 <div class="arrow-down">▼</div>
-                <div class="hierarchy-level"><div class="hierarchy-box level-2">2. 產品品質 / CQAs</div></div>
+                <div class="hierarchy-level"><div class="hierarchy-box level-2">2.  / CQAs</div></div>
                 <div class="arrow-down">▼</div>
-                <div class="hierarchy-level"><div class="hierarchy-box level-3">3. 製程穩健性 / 商業效率</div></div>
+                <div class="hierarchy-level"><div class="hierarchy-box level-3">3.  / </div></div>
             </div>
-            <p>驗證的優先順序永遠遵循此階層：先確保細菌截留能力（無菌保證），再確認產品品質不受影響（CQA），最後才考慮製程效率。</p>
+            <p>：（），（CQA），。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>如果你的除菌濾膜是 SUS 的一部分，在設計驗證方案時，需要額外考慮哪些因素？請列出至少三項。</li>
-                <li>一家 CDMO 同時服務多個客戶，各產品使用相同品牌的除菌濾膜。可以用一個驗證報告涵蓋所有產品嗎？為什麼？</li>
-                <li>為什麼 TR26 建議在 Late Phase Development 才進行最終驗證？如果太早做會有什麼風險？</li>
+                <li> SUS ，，？。</li>
+                <li> CDMO ，。？？</li>
+                <li> TR26  Late Phase Development ？？</li>
             </ol>
         </div>
     </div>
@@ -1039,11 +1039,11 @@ tr:nth-child(even) {
 <!-- ============================================================= -->
 <!-- SECTION 6.2: PURPOSE OF PROCESS-SPECIFIC FILTER VALIDATION TESTING -->
 <!-- ============================================================= -->
-<div class="section-title"><strong>6.2 Purpose of Process-Specific Filter Validation Testing 6.2 製程專屬過濾器驗證測試的目的</strong></div>
+<div class="section-title"><strong>6.2 Purpose of Process-Specific Filter Validation Testing 6.2 </strong></div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p>The purpose of performing <span class="key-term">process-specific validation testing</span> for final sterilizing filtration is twofold:</p>
         <ol>
@@ -1060,45 +1060,45 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>雙向影響評估的核心邏輯：</strong></p>
+            <h4> Key Concepts</h4>
+            <p><strong>：</strong></p>
             <ul>
-                <li><strong>濾膜對產品的影響：</strong>濾膜會不會「吃掉」你的有效成分（吸附）？會不會「吐出」不該有的東西（可萃取物/可溶出物）？</li>
-                <li><strong>產品對濾膜的影響：</strong>你的產品會不會「毒死」挑戰菌使試驗無法進行？會不會「腐蝕」濾膜材料導致完整性下降？會不會「堵塞」濾膜使過濾無法完成？</li>
+                <li><strong>：</strong>「」（）？「」（/）？</li>
+                <li><strong>：</strong>「」？「」？「」？</li>
             </ul>
-            <p><strong>Bacterial Retention Study (細菌截留試驗)：</strong>以 <em>B. diminuta</em> 短小單胞菌（或適當的製程分離菌株）挑戰濾膜，最低挑戰量 ≥ 1 x 10<sup>7</sup> CFU/cm<sup>2</sup>，在模擬最差條件下驗證濾膜的截留能力。</p>
+            <p><strong>Bacterial Retention Study ()：</strong> <em>B. diminuta</em> （）， ≥ 1 x 10<sup>7</sup> CFU/cm<sup>2</sup>，。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>想像你要在餐廳引進一台新的<strong>淨水設備</strong>（除菌濾膜）：</p>
+            <h4> Analogy</h4>
+            <p><strong></strong>（）：</p>
             <ul>
-                <li><strong>設備對水的影響：</strong>新設備會不會改變水的味道（吸附）？管路會不會溶出塑化劑（可萃取物）？</li>
-                <li><strong>水對設備的影響：</strong>你使用的水源（可能有高礦物質、高酸鹼值）會不會腐蝕設備管路（化學相容性）？會不會堵塞濾芯（細菌截留能力是否受影響）？</li>
+                <li><strong>：</strong>（）？（）？</li>
+                <li><strong>：</strong>（、）（）？（）？</li>
             </ul>
-            <p>你需要雙向驗證，才能確保「設備不傷水、水也不傷設備」。</p>
+            <p>，「、」。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p><strong>Product Wet Integrity Test Value 是可選的：</strong>表格明確標註這是 optional，不是法規要求。但在實務中，如果你的產品會影響標準完整性測試結果（例如蛋白質會降低泡點值），建立產品濕潤測試值可以避免假性失敗 (false failure)。</p>
-            <p><strong>Extractables 可以不重複測試：</strong>如果供應商的文件已充分記錄（參見 Section 4.6），extractables 測試不需要由終端使用者重複進行。但你需要評估供應商測試條件是否涵蓋你的操作條件。</p>
+            <h4> Key Notes</h4>
+            <p><strong>Product Wet Integrity Test Value ：</strong> optional，。，（）， (false failure)。</p>
+            <p><strong>Extractables ：</strong>（ Section 4.6），extractables 。。</p>
         </div>
 
         <div class="note-box">
-            <h4>表格解讀 Table Analysis</h4>
-            <p>Table 6.2-1<a class="gallery-link" href="../../../figures-gallery.html?doc=TR26&amp;file=tbl-p48-1.png" target="_blank" title="View in Gallery">&#128269;</a> 是整個 Section 6.0 的路線圖。它把所有驗證測試分為兩大類，每一類底下的各項測試在後續的 6.4-6.10 子章節中都有詳細說明。學習時，可以用這張表格作為「地圖」，隨時確認你正在閱讀的子章節屬於哪個大方向。</p>
+            <h4> Table Analysis</h4>
+            <p>Table 6.2-1<a class="gallery-link" href="../../../figures-gallery.html?doc=TR26&amp;file=tbl-p48-1.png" target="_blank" title="View in Gallery">&#128269;</a>  Section 6.0 。， 6.4-6.10 。，「」，。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>為什麼 Table 6.2-1<a class="gallery-link" href="../../../figures-gallery.html?doc=TR26&amp;file=tbl-p48-1.png" target="_blank" title="View in Gallery">&#128269;</a> 將驗證測試分為「濾膜對產品的影響」和「產品對濾膜的影響」兩個方向？如果只做單方向評估，可能遺漏什麼風險？</li>
-                <li>在什麼情況下，你會建議客戶建立 Product Wet Integrity Test Value，即使它不是法規要求？</li>
-                <li>如果供應商的 extractables 數據使用的溫度條件低於你的實際製程溫度，你是否可以接受這份數據而不重新測試？為什麼？</li>
+                <li> Table 6.2-1<a class="gallery-link" href="../../../figures-gallery.html?doc=TR26&amp;file=tbl-p48-1.png" target="_blank" title="View in Gallery">&#128269;</a> 「」「」？，？</li>
+                <li>， Product Wet Integrity Test Value，？</li>
+                <li> extractables ，？？</li>
             </ol>
         </div>
     </div>
@@ -1107,11 +1107,11 @@ tr:nth-child(even) {
 <!-- ============================================================= -->
 <!-- SECTION 6.3: SELECTION OF WORST-CASE TEST PARAMETERS (QbD) -->
 <!-- ============================================================= -->
-<div class="section-title"><strong>6.3 Selection of Worst-Case Test Parameters Following Quality-by-Design Principles 6.3 依循品質源於設計原則選擇最差狀況測試參數</strong></div>
+<div class="section-title"><strong>6.3 Selection of Worst-Case Test Parameters Following Quality-by-Design Principles 6.3 </strong></div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p>The principles of <span class="key-term">quality by design (QbD)</span> should be applied when considering the worst-case parameters and conditions in which the <span class="key-term">sterilizing-grade filter</span> should be validated. This includes a rationale for selection of worst-case parameters that must be based on a thorough understanding of the intended <span class="key-term">design space</span>, including the <span class="key-term">normal operating range (NOR)</span> and <span class="key-term">proven acceptable range (PAR)</span> (8, 31). While it is expected that an end user will apply a <span class="key-term">safety factor</span> to validate the use of the final sterilizing-grade filter in the given application, this should represent reasonable control of a process (based on <span class="key-term">manufacturing control limits</span>) and defines the PAR for use of the sterilizing-grade filter in the application as outlined in Section 5.0.</p>
 
@@ -1119,49 +1119,49 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>Quality by Design, QbD (品質源於設計)：</strong>ICH Q8 的核心理念。不是「測試品質」，而是「設計品質」。應用到濾膜驗證，意味著你必須先理解你的製程參數空間，然後有意識地選擇最差條件來驗證。</p>
-            <p><strong>NOR (Normal Operating Range, 正常操作範圍)：</strong>日常製造中參數實際波動的範圍。例如過濾溫度通常在 20-25°C。</p>
-            <p><strong>PAR (Proven Acceptable Range, 已證可接受範圍)：</strong>經驗證確認產品品質仍可接受的參數範圍，通常比 NOR 更寬。例如驗證溫度範圍為 15-30°C。</p>
-            <p><strong>Safety Factor (安全係數)：</strong>在 PAR 基礎上再往外推一點，確保即使在極端偏移的情況下，濾膜仍能正常運作。但 TR26 強調安全係數必須「合理」，不能無限制擴大。</p>
+            <h4> Key Concepts</h4>
+            <p><strong>Quality by Design, QbD ()：</strong>ICH Q8 。「」，「」。，，。</p>
+            <p><strong>NOR (Normal Operating Range, )：</strong>。 20-25°C。</p>
+            <p><strong>PAR (Proven Acceptable Range, )：</strong>， NOR 。 15-30°C。</p>
+            <p><strong>Safety Factor ()：</strong> PAR ，，。 TR26 「」，。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>想像你在設計一座<strong>橋樑</strong>：</p>
+            <h4> Analogy</h4>
+            <p><strong></strong>：</p>
             <ul>
-                <li><strong>NOR</strong> = 平日車流量（例如每天 5,000 輛）</li>
-                <li><strong>PAR</strong> = 經過壓力測試的最大承載量（例如 8,000 輛/天）</li>
-                <li><strong>Safety Factor</strong> = 設計時再加上一個安全餘量（例如設計承載 10,000 輛/天）</li>
+                <li><strong>NOR</strong> = （ 5,000 ）</li>
+                <li><strong>PAR</strong> = （ 8,000 /）</li>
+                <li><strong>Safety Factor</strong> = （ 10,000 /）</li>
             </ul>
-            <p>但你不會設計一座承載 100 萬輛車的橋——那是不合理的安全係數，既浪費資源又不切實際。濾膜驗證的安全係數也是同樣道理：要合理地反映製程控制能力。</p>
+            <p> 100 ——，。：。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p><strong>Worst-Case 不等於 Extreme Case：</strong>這是許多人容易混淆的概念。Worst-case 是基於你的設計空間邊界加上合理安全係數，而不是任意的極端條件。如果你的製程從未在 50°C 操作，就不應該在 50°C 做驗證——這不是 worst-case，而是 irrelevant case。</p>
-            <p><strong>文件化理由的必要性：</strong>對於每一個選定的最差條件參數，你必須提供書面理由（rationale），說明為什麼這個值代表最差條件。稽核員會問：「你怎麼知道這是最差條件？」你的答案必須追溯到設計空間的定義。</p>
+            <h4> Key Notes</h4>
+            <p><strong>Worst-Case  Extreme Case：</strong>。Worst-case ，。 50°C ， 50°C —— worst-case， irrelevant case。</p>
+            <p><strong>：</strong>，（rationale），。：「？」。</p>
         </div>
 
         <div class="formula-box">
-            <h4>公式與計算 Formula</h4>
+            <h4> Formula</h4>
             <pre>
-設計空間層次結構：
+：
 
-  設定值 (Set Point)
+   (Set Point)
      ↕
-  NOR (Normal Operating Range) — 正常操作範圍
+  NOR (Normal Operating Range) — 
      ↕
-  PAR (Proven Acceptable Range) — 已證可接受範圍
+  PAR (Proven Acceptable Range) — 
      ↕
   Worst-Case Test Condition = PAR + Safety Factor
      ↕
-  Design Space Boundary — 設計空間邊界
+  Design Space Boundary — 
 
-範例（過濾溫度）：
+（）：
   Set Point = 22°C
   NOR = 20-25°C
   PAR = 15-30°C
@@ -1170,16 +1170,16 @@ tr:nth-child(even) {
         </div>
 
         <div class="practice-box" style="border-style:solid; background:linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-color:#22c55e;">
-            <h4>實務應用 Practical Application</h4>
-            <p><strong>CDMO 實戰建議：</strong>在撰寫驗證方案時，建議製作一張「參數理由表」(Parameter Justification Table)：左欄列出每個驗證參數、中欄列出選定的最差條件值、右欄提供理由（連結到 NOR/PAR 數據）。這樣在法規稽核時，可以一目了然地展示你的 QbD 思維。</p>
+            <h4> Practical Application</h4>
+            <p><strong>CDMO ：</strong>，「」(Parameter Justification Table)：、、（ NOR/PAR ）。， QbD 。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>NOR、PAR 和 Worst-Case Test Condition 三者之間的關係是什麼？請用一個具體的製程參數（如過濾壓差）來說明。</li>
-                <li>為什麼 TR26 強調安全係數必須「合理」？過度保守的安全係數可能帶來什麼問題？</li>
-                <li>如果你的製程在開發過程中調整了 CPP（例如增加了最大過濾時間），這對已完成的濾膜驗證有什麼影響？</li>
+                <li>NOR、PAR  Worst-Case Test Condition ？（）。</li>
+                <li> TR26 「」？？</li>
+                <li> CPP（），？</li>
             </ol>
         </div>
     </div>
@@ -1188,11 +1188,11 @@ tr:nth-child(even) {
 <!-- ============================================================= -->
 <!-- SECTION 6.4: ADSORPTION -->
 <!-- ============================================================= -->
-<div class="section-title"><strong>6.4 Adsorption 6.4 吸附</strong></div>
+<div class="section-title"><strong>6.4 Adsorption 6.4 </strong></div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p>While <span class="key-term">adsorption</span> studies are typically performed during PD, as described in Section 5.0, some end users elect to have this performed as part of the filter validation package. Considerations for worst-case test conditions to assess potential adsorption are shown in Table 6.4-1<a class="gallery-link" href="../../../figures-gallery.html?doc=TR26&amp;file=tbl-p49-1.png" target="_blank" title="View in Gallery">&#128269;</a>, but the parameters selected for testing should be based on <span class="key-term">risk assessment</span>.</p>
 
@@ -1202,70 +1202,70 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>Adsorption (吸附)：</strong>產品成分（如蛋白質、防腐劑、界面活性劑、API）黏附在濾膜表面的現象。這不是「過濾」行為——濾膜「吃掉」了你的產品。如果吸附量顯著，可能導致最終產品的有效成分濃度低於規格。</p>
-            <p><strong>關鍵區別——吸附 vs 截留：</strong></p>
+            <h4> Key Concepts</h4>
+            <p><strong>Adsorption ()：</strong>（、、、API）。「」——「」。，。</p>
+            <p><strong>—— vs ：</strong></p>
             <ul>
-                <li><strong>截留 (Retention)：</strong>濾膜的設計功能，擋住細菌 = 好事</li>
-                <li><strong>吸附 (Adsorption)：</strong>濾膜的副作用，黏住產品 = 壞事（需要評估是否在可接受範圍內）</li>
+                <li><strong> (Retention)：</strong>， = </li>
+                <li><strong> (Adsorption)：</strong>， = （）</li>
             </ul>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>想像你用<strong>咖啡濾紙</strong>過濾自製蛋白質飲品：</p>
+            <h4> Analogy</h4>
+            <p><strong></strong>：</p>
             <ul>
-                <li>濾紙的功能是擋住咖啡渣（=細菌截留）</li>
-                <li>但濾紙也可能吸附一些蛋白質和風味成分（=吸附效應）</li>
-                <li>第一杯過濾後的飲品可能比較淡（因為濾紙還沒飽和），後面幾杯才恢復正常濃度</li>
+                <li>（=）</li>
+                <li>（=）</li>
+                <li>（），</li>
             </ul>
-            <p>同樣的道理，你需要確認濾膜吸附對產品品質的影響是否在可接受範圍內。</p>
+            <p>，。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p><strong>Contact Time 有兩個方向的最差條件：</strong>Table 6.4-1<a class="gallery-link" href="../../../figures-gallery.html?doc=TR26&amp;file=tbl-p49-1.png" target="_blank" title="View in Gallery">&#128269;</a> 列出了 Shortest 和 Longest 兩種，這是因為：</p>
+            <h4> Key Notes</h4>
+            <p><strong>Contact Time ：</strong>Table 6.4-1<a class="gallery-link" href="../../../figures-gallery.html?doc=TR26&amp;file=tbl-p49-1.png" target="_blank" title="View in Gallery">&#128269;</a>  Shortest  Longest ，：</p>
             <ul>
-                <li><strong>最短接觸時間：</strong>濾膜尚未飽和，前段產品的吸附比例最高</li>
-                <li><strong>最長接觸時間（靜態浸泡）：</strong>長時間浸泡可能使吸附達到新的平衡狀態</li>
+                <li><strong>：</strong>，</li>
+                <li><strong>（）：</strong></li>
             </ul>
-            <p>兩種情境都需要評估。</p>
-            <p><strong>溫度與吸附的反向關係：</strong>大多數吸附過程在低溫時更顯著。因此如果你的產品需要冷藏過濾（如 2-8°C），吸附風險可能更高。</p>
-            <p><strong>低濃度更危險：</strong>看起來反直覺，但當產品濃度低時，濾膜表面積相對於產品量的比例更高，因此吸附的比例效應更明顯。</p>
+            <p>。</p>
+            <p><strong>：</strong>。（ 2-8°C），。</p>
+            <p><strong>：</strong>，，，。</p>
         </div>
 
         <div class="formula-box">
-            <h4>公式與計算 Formula</h4>
+            <h4> Formula</h4>
             <pre>
-吸附率估算：
+：
 
-吸附率 (%) = (C_before - C_after) / C_before x 100%
+ (%) = (C_before - C_after) / C_before x 100%
 
-其中：
-  C_before = 過濾前產品濃度
-  C_after  = 過濾後產品濃度
+：
+  C_before = 
+  C_after  = 
 
-關鍵判斷：
-  - 吸附率 &lt; 規格容許範圍 → 可接受
-  - 需收集多個時間點的樣品（例如：前段 10%、中段、後段）
-  - 通常前段吸附最高，隨著濾膜飽和會逐漸下降
+：
+  -  &lt;  → 
+  - （： 10%、、）
+  - ，
             </pre>
         </div>
 
         <div class="practice-box" style="border-style:solid; background:linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-color:#22c55e;">
-            <h4>實務應用 Practical Application</h4>
-            <p><strong>高價值生物製劑情境：</strong>一支單抗藥品濃度為 10 mg/mL，如果濾膜吸附導致前段濾液濃度降低 5%（0.5 mg/mL），可能導致最終產品不符合含量規格（通常 95-105%）。解決方案包括：(1) 使用 pre-wetting（預濕）來減少吸附、(2) 丟棄前段濾液、(3) 選擇吸附性較低的濾膜材質。每一項都有成本和製程影響需要權衡。</p>
+            <h4> Practical Application</h4>
+            <p><strong>：</strong> 10 mg/mL， 5%（0.5 mg/mL），（ 95-105%）。：(1)  pre-wetting（）、(2) 、(3) 。。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>為什麼低流速可能增加吸附？這與濾膜表面的接觸時間有什麼關係？</li>
-                <li>如果你的產品含有界面活性劑 (Surfactant)，為什麼吸附測試特別重要？界面活性劑的吸附可能對產品功效產生什麼影響？</li>
-                <li>Table 6.4-1<a class="gallery-link" href="../../../figures-gallery.html?doc=TR26&amp;file=tbl-p49-1.png" target="_blank" title="View in Gallery">&#128269;</a> 中 pH 的最差條件是「Test Extremes」。請解釋為什麼 pH 極值可能影響吸附行為，以及它與濾膜表面電荷的關係。</li>
+                <li>？？</li>
+                <li> (Surfactant)，？？</li>
+                <li>Table 6.4-1<a class="gallery-link" href="../../../figures-gallery.html?doc=TR26&amp;file=tbl-p49-1.png" target="_blank" title="View in Gallery">&#128269;</a>  pH 「Test Extremes」。 pH ，。</li>
             </ol>
         </div>
     </div>
@@ -1274,11 +1274,11 @@ tr:nth-child(even) {
 <!-- ============================================================= -->
 <!-- SECTION 6.5: EXTRACTABLES AND LEACHABLES -->
 <!-- ============================================================= -->
-<div class="section-title"><strong>6.5 Extractables and Leachables 6.5 可葦出物與可溶出物</strong></div>
+<div class="section-title"><strong>6.5 Extractables and Leachables 6.5 </strong></div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p>During filter selection, <span class="key-term">extractables</span> (and potentially <span class="key-term">leachables</span>, based on a risk assessment of the extractables data) should be considered during early-PD. This is typically assessed based on the availability of supplier data using standardized conditions (e.g., <span class="key-term">model solvents</span> under specified test conditions) (22, 33, 34). As defined in Section 4.6, an <span class="key-term">extractable</span> is any chemical component that is removed from a material by the application of an artificial or exaggerated condition (e.g., solvent, temperature, time). A <span class="key-term">leachable</span> is typically a chemical component that migrates from a contact surface into a drug product or process fluid during storage or normal-use conditions. However, on occasion, interaction with product components may produce leachables not seen as extractables (20).</p>
 
@@ -1294,67 +1294,67 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>Extractables (可萃取物)：</strong>在人為加嚴條件下（高溫、強溶劑、長時間），從濾膜材料中被「萃取」出來的化學物質。代表「最大可能」釋出的物質總量。</p>
-            <p><strong>Leachables (可溶出物)：</strong>在正常使用條件下，從濾膜材料「溶出」到產品中的化學物質。代表「實際會」進入產品的物質量。</p>
-            <p><strong>兩者的關係：</strong>Extractables 通常是 Leachables 的超集合（superset）——leachables 通常是 extractables 的子集。但 TR26 特別提醒：「偶爾，產品成分與濾膜材料的交互作用可能產生 extractables 測試中未見的 leachables」。這意味著 extractables 測試不能100%預測所有 leachables。</p>
-            <p><strong>Model Solvent Approach (模型溶劑法)：</strong>使用標準化溶劑（而非實際產品）來進行 extractables 測試。常用溶劑包括水、酸性溶液、鹼性溶液、有機溶劑等，用來模擬不同產品特性。</p>
+            <h4> Key Concepts</h4>
+            <p><strong>Extractables ()：</strong>（、、），「」。「」。</p>
+            <p><strong>Leachables ()：</strong>，「」。「」。</p>
+            <p><strong>：</strong>Extractables  Leachables （superset）——leachables  extractables 。 TR26 ：「， extractables  leachables」。 extractables 100% leachables。</p>
+            <p><strong>Model Solvent Approach ()：</strong>（） extractables 。、、、，。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>Extractables vs Leachables 就像<strong>泡茶</strong>：</p>
+            <h4> Analogy</h4>
+            <p>Extractables vs Leachables <strong></strong>：</p>
             <ul>
-                <li><strong>Extractables</strong> = 把茶葉放在100°C的熱水中浸泡24小時——萃取出茶葉中「所有可能」釋出的物質（包括你正常泡茶時不會喝到的苦澀物質）</li>
-                <li><strong>Leachables</strong> = 按照正常方式泡茶（80°C、3分鐘）——你「實際」會喝到的東西</li>
+                <li><strong>Extractables</strong> = 100°C24——「」（）</li>
+                <li><strong>Leachables</strong> = （80°C、3）——「」</li>
             </ul>
-            <p>先做 extractables 測試（了解最差情況），再評估是否需要做 leachables 測試（了解實際情況）。如果極端條件下萃取出的物質都在安全範圍內，正常使用條件下的風險就更低。</p>
+            <p> extractables （）， leachables （）。，。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p><strong>滅菌方式影響 Extractables：</strong>Table 6.5-1<a class="gallery-link" href="../../../figures-gallery.html?doc=TR26&amp;file=tbl-p50-1.png" target="_blank" title="View in Gallery">&#128269;</a> 特別列出了 Filter Sterilization 作為影響因素。高壓蒸氣滅菌 (Autoclave) 的溫度/次數越高，或 Gamma 照射劑量越高，可能會加速濾膜材料的降解，產生更多可萃取物。因此驗證時必須使用最差條件的滅菌處理。</p>
-            <p><strong>萃取方法的選擇：</strong>Static soak（靜態浸泡）和 Recirculation（循環流動）各有適用場景。靜態浸泡模擬長時間儲存情境，循環流動模擬實際過濾操作。兩種方法可能產生不同的萃取物分布。</p>
-            <p><strong>毒理評估是必要步驟：</strong>光是知道有哪些可萃取物還不夠，還需要毒理學專家評估這些物質在預期劑量下對患者的安全風險。這通常涉及 AET (Analytical Evaluation Threshold) 的計算。</p>
+            <h4> Key Notes</h4>
+            <p><strong> Extractables：</strong>Table 6.5-1<a class="gallery-link" href="../../../figures-gallery.html?doc=TR26&amp;file=tbl-p50-1.png" target="_blank" title="View in Gallery">&#128269;</a>  Filter Sterilization 。 (Autoclave) /， Gamma ，，。。</p>
+            <p><strong>：</strong>Static soak（） Recirculation（）。，。。</p>
+            <p><strong>：</strong>，。 AET (Analytical Evaluation Threshold) 。</p>
         </div>
 
         <div class="note-box">
-            <h4>表格解讀 Table Analysis</h4>
-            <p><strong>Table 6.5-1<a class="gallery-link" href="../../../figures-gallery.html?doc=TR26&amp;file=tbl-p50-1.png" target="_blank" title="View in Gallery">&#128269;</a> 的邏輯：</strong>每個參數的最差條件都是朝著「增加萃取可能性」的方向設定——更強的溶劑、更極端的 pH、更高的溫度、更長的時間、更嚴苛的滅菌。這符合 E&amp;L 研究的基本原則：先在最差條件下評估，如果通過，則正常條件下更安全。</p>
+            <h4> Table Analysis</h4>
+            <p><strong>Table 6.5-1<a class="gallery-link" href="../../../figures-gallery.html?doc=TR26&amp;file=tbl-p50-1.png" target="_blank" title="View in Gallery">&#128269;</a> ：</strong>「」——、 pH、、、。 E&amp;L ：，，。</p>
         </div>
 
         <div class="concept-box">
-            <h4>Surrogate Solution 與 Bracketing Approach</h4>
-            <p><strong>Surrogate Solution (替代溶液)：</strong>當實際藥品因下列原因無法使用時，可以用替代溶液：</p>
+            <h4>Surrogate Solution  Bracketing Approach</h4>
+            <p><strong>Surrogate Solution ()：</strong>，：</p>
             <ul>
-                <li><strong>分析干擾：</strong>藥品成分干擾分析方法，無法檢測到微量 leachables</li>
-                <li><strong>成本過高：</strong>使用實際藥品進行 leachables 測試的成本不合理</li>
+                <li><strong>：</strong>， leachables</li>
+                <li><strong>：</strong> leachables </li>
             </ul>
-            <p><strong>Bracketing Approach (包夾法)：</strong>使用多種溶液來「包夾」實際產品的特性（pH、離子強度、有機成分含量），確保測試涵蓋產品的所有相關特性。</p>
-            <p><strong>文件化要求：</strong>無論使用 surrogate 或 bracketing，選擇理由和條件設定的合理性必須有書面記錄。</p>
+            <p><strong>Bracketing Approach ()：</strong>「」（pH、、），。</p>
+            <p><strong>：</strong> surrogate  bracketing，。</p>
         </div>
 
         <div class="practice-box" style="border-style:solid; background:linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-color:#22c55e;">
-            <h4>實務應用 Practical Application</h4>
-            <p><strong>CDMO 的 E&amp;L 策略：</strong>作為 CDMO，你可能服務多個使用相同濾膜型號的客戶。一個有效的策略是：</p>
+            <h4> Practical Application</h4>
+            <p><strong>CDMO  E&amp;L ：</strong> CDMO，。：</p>
             <ol>
-                <li>與濾膜供應商取得標準化條件的 extractables 數據（通常免費或已包含在技術文件中）</li>
-                <li>評估供應商數據是否涵蓋你的操作條件（溫度、pH、接觸時間、滅菌方式）</li>
-                <li>如果供應商數據充分，可以避免重複 extractables 測試（參見 Section 4.6），節省成本和時間</li>
-                <li>僅在特定產品的風險評估顯示需要時，才進行 leachables 測試</li>
+                <li> extractables （）</li>
+                <li>（、pH、、）</li>
+                <li>， extractables （ Section 4.6），</li>
+                <li>， leachables </li>
             </ol>
-            <p>這種分層策略可以在確保安全的前提下，大幅優化驗證的時間和成本。</p>
+            <p>，。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>為什麼 TR26 指出「leachables 有時會出現 extractables 測試中未檢測到的物質」？這對 E&amp;L 研究策略有什麼啟示？</li>
-                <li>在什麼情況下你會選擇 static soak 方法？在什麼情況下會選擇 recirculation 方法？各自模擬的是哪種使用情境？</li>
-                <li>你的客戶生產一支高價值的基因治療產品（每批價值 $500,000），leachables 測試需要使用實際藥品。你會建議使用 surrogate solution 嗎？如果是，你會如何設計替代方案並提供合理化理由？</li>
+                <li> TR26 「leachables  extractables 」？ E&amp;L ？</li>
+                <li> static soak ？ recirculation ？？</li>
+                <li>（ $500,000），leachables 。 surrogate solution ？，？</li>
             </ol>
         </div>
     </div>

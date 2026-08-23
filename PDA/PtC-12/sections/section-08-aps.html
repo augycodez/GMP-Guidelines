@@ -439,7 +439,7 @@ body {
     font-size: 0.92rem !important;
 }
 
-/* ===== ANALOGY BOX (Yellow) - 比喻說明 ===== */
+/* ===== ANALOGY BOX (Yellow) -  ===== */
 .analogy-box,
 .concept-box[class*="analogy"],
 .concept-box.analogy,
@@ -453,7 +453,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #856404 !important;
 }
 
-/* ===== TERM/CONCEPT BOX (Green) - 核心概念 ===== */
+/* ===== TERM/CONCEPT BOX (Green) -  ===== */
 .term-box,
 .key-term-box,
 .concept-box:not([class*="analogy"]):not([class*="note"]):not([class*="formula"]):not([class*="practice"]):not([class*="highlight"]):not(.analogy):not(.application) {
@@ -468,7 +468,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #2e7d32 !important;
 }
 
-/* ===== NOTE/HIGHLIGHT BOX (Orange) - 重點提示 ===== */
+/* ===== NOTE/HIGHLIGHT BOX (Orange) -  ===== */
 .note-box,
 .key-note,
 .key-point-box,
@@ -487,7 +487,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #c65102 !important;
 }
 
-/* ===== FORMULA BOX (Purple) - 公式計算 ===== */
+/* ===== FORMULA BOX (Purple) -  ===== */
 .formula-box,
 .concept-box[class*="formula"] {
     background: var(--purple-bg) !important;
@@ -522,7 +522,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #1565c0 !important;
 }
 
-/* ===== PRACTICE BOX (Blue dashed) - 練習思考 ===== */
+/* ===== PRACTICE BOX (Blue dashed) -  ===== */
 .practice-box {
     background: linear-gradient(135deg, #e8f4fd 0%, #d1e9ff 100%) !important;
     border: 2px dashed #3182ce !important;
@@ -933,7 +933,7 @@ tr:nth-child(even) {
 <!-- SECTION HEADER -->
 <div class="header">
     <h1>Topic 8: Aseptic Process Simulation</h1>
-    <div class="subtitle">無菌製程模擬 (APS) — RABS 環境之特殊考量</div>
+    <div class="subtitle"> (APS) — RABS </div>
     <div class="page-info">PDA Points to Consider No. 12 (2025) — RABS | p90 - p94 | Q8.1 - Q8.4</div>
 </div>
 
@@ -941,30 +941,30 @@ tr:nth-child(even) {
 
 <!-- LEARNING OBJECTIVES -->
 <div class="learning-objectives">
-    <h3>本章學習目標</h3>
+    <h3></h3>
     <ul>
-        <li>理解 RABS 環境中 Aseptic Process Simulation (APS) 的特殊設計考量與先決條件</li>
-        <li>掌握多班次與長期 campaign 生產模式下 APS 的關鍵模擬要素</li>
-        <li>學會如何以風險評估為基礎，定義 RABS APS 的 worst-case 條件</li>
-        <li>瞭解 RABS 充填線 setup 與 assembly 的最佳實務，以及 open-door 與 closed-door 階段的風險控制</li>
+        <li> RABS  Aseptic Process Simulation (APS) </li>
+        <li> campaign  APS </li>
+        <li>， RABS APS  worst-case </li>
+        <li> RABS  setup  assembly ， open-door  closed-door </li>
     </ul>
 </div>
 
 <!-- TABLE OF CONTENTS -->
 <div class="toc">
-    <h3>本章內容導覽</h3>
+    <h3></h3>
     <div class="toc-grid">
-        <a href="#q8-1">Q8.1 APS 特殊考量</a>
-        <a href="#q8-2">Q8.2 多班次/Campaign APS</a>
-        <a href="#q8-3">Q8.3 Worst-Case 條件</a>
-        <a href="#q8-4">Q8.4 Setup 與 Assembly 最佳實務</a>
+        <a href="#q8-1">Q8.1 APS </a>
+        <a href="#q8-2">Q8.2 /Campaign APS</a>
+        <a href="#q8-3">Q8.3 Worst-Case </a>
+        <a href="#q8-4">Q8.4 Setup  Assembly </a>
     </div>
 </div>
 
 <!-- ============================================================= -->
 <!-- Q8.1 -->
 <!-- ============================================================= -->
-<div class="section-title" id="q8-1"><strong>Q 8.1 — APS in RABS: Special Considerations Q 8.1 — RABS 中無菌製程模擬（APS）的特殊考量</strong></div>
+<div class="section-title" id="q8-1"><strong>Q 8.1 — APS in RABS: Special Considerations Q 8.1 — RABS （APS）</strong></div>
 
 <div class="two-column">
     <div class="left-column">
@@ -1004,56 +1004,56 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>Aseptic Process Simulation, APS (無菌製程模擬)：</strong>以培養基取代實際藥品，模擬整個無菌充填過程，驗證系統在正常與最差條件下，能否維持無菌保證 (Sterility Assurance)。APS 本質上是對「整個無菌製造系統」的一次綜合性能力測試。</p>
-            <p><strong>Risk-Based Analysis (基於風險的分析)：</strong>APS 的設計不是隨意的，而是以品質風險管理 (QRM) 為驅動。需先識別哪些步驟具有最高的污染風險，再據此設計模擬方案。這也呼應了 EU Annex 1 對 Contamination Control Strategy (CCS) 的核心要求。</p>
-            <p><strong>Piggyback APS (搭便車式 APS)：</strong>在常規生產批次結束後，緊接著執行一次 APS。優點是可驗證延長生產時間或 campaign 長度的能力。但其重大限制在於：它無法模擬 setup 階段的活動（因為 setup 只發生在 campaign 的第一批），所以不能單獨使用，必須搭配傳統 APS 一起構成完整的驗證方案。</p>
+            <h4> Key Concepts</h4>
+            <p><strong>Aseptic Process Simulation, APS ()：</strong>，，， (Sterility Assurance)。APS 「」。</p>
+            <p><strong>Risk-Based Analysis ()：</strong>APS ， (QRM) 。，。 EU Annex 1  Contamination Control Strategy (CCS) 。</p>
+            <p><strong>Piggyback APS ( APS)：</strong>， APS。 campaign 。： setup （ setup  campaign ），， APS 。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>想像你是一位飛行員，APS 就像是<strong>飛行模擬器測試</strong>。你必須在模擬器中重現所有可能遇到的情境：正常起降、惡劣天氣、引擎故障等。RABS 的 APS 也是如此 -- 你不僅要模擬正常充填，還要模擬 open-door intervention（相當於緊急降落程序）、setup（相當於起飛前檢查），以及所有可能的worst-case 情境。</p>
-            <p>而 Piggyback APS 就像是在一次正常飛行結束後，順便進行額外的模擬測試 -- 你可以測試「長時間飛行」的耐力，但你無法從中驗證「起飛前完整檢查程序」是否正確，因為你已經飛在空中了。</p>
+            <h4> Analogy</h4>
+            <p>，APS <strong></strong>。：、、。RABS  APS  -- ， open-door intervention（）、setup（），worst-case 。</p>
+            <p> Piggyback APS ， -- 「」，「」，。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p><strong>APS 的六大先決條件：</strong>在執行 APS 之前，以下所有項目都必須已完成確效/確認：</p>
+            <h4> Key Notes</h4>
+            <p><strong>APS ：</strong> APS ，/：</p>
             <ol>
-                <li><strong>潔淨室確效</strong> -- UDAF 設備符合環境要求</li>
-                <li><strong>RABS 確效</strong> -- HEPA 完整性、壓差、風速、AVS 全部合格</li>
-                <li><strong>人員訓練</strong> -- Grade A/B 無菌更衣與無菌行為訓練完成</li>
-                <li><strong>介入清單</strong> -- 固有/矯正介入已定義並納入 CCS</li>
-                <li><strong>物料傳遞方法</strong> -- 已確效且不會危及 Grade A 環境</li>
-                <li><strong>EM 計畫</strong> -- 基於風險評估建立完整的環境監控方案</li>
+                <li><strong></strong> -- UDAF </li>
+                <li><strong>RABS </strong> -- HEPA 、、、AVS </li>
+                <li><strong></strong> -- Grade A/B </li>
+                <li><strong></strong> -- / CCS</li>
+                <li><strong></strong> --  Grade A </li>
+                <li><strong>EM </strong> -- </li>
             </ol>
-            <p>特別注意原文的警語：<strong>"APS cannot be used to justify poor design of equipment and processes."</strong> -- APS 是用來驗證良好設計的有效性，而不是用來為不良設計找藉口。</p>
+            <p>：<strong>"APS cannot be used to justify poor design of equipment and processes."</strong> -- APS ，。</p>
         </div>
 
         <div class="note-box">
-            <h4>法規連結 Regulatory Link</h4>
-            <p>本節參考了 <strong>PDA TR No. 22 (Revised 2011)</strong>：<em>Process Simulation for Aseptically Filled Products</em>，這是 APS 設計的核心指引文件。此外，EU Annex 1 (2022) 第 9 章對 APS 有詳細要求，包括最少充填量、頻率、以及對 worst-case 條件的模擬要求。</p>
+            <h4> Regulatory Link</h4>
+            <p> <strong>PDA TR No. 22 (Revised 2011)</strong>：<em>Process Simulation for Aseptically Filled Products</em>， APS 。，EU Annex 1 (2022)  9  APS ，、、 worst-case 。</p>
         </div>
 
         <div class="practice-box" style="border-style:solid; background:linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-color:#22c55e;">
-            <h4>實務應用 Practical Application</h4>
-            <p>假設你是一家 CDMO 的驗證主管，客戶要求使用 RABS 充填線進行 3 天 campaign 生產。你的 APS 方案設計必須考慮：</p>
+            <h4> Practical Application</h4>
+            <p> CDMO ， RABS  3  campaign 。 APS ：</p>
             <ul>
-                <li>傳統 APS 至少一次，涵蓋完整 setup 與 closed-door intervention 模擬</li>
-                <li>可考慮增加 Piggyback APS，在實際生產結束後接續執行，以驗證延長生產時間的能力</li>
-                <li>兩種 APS 的搭配使用需有正式的風險評估文件支持</li>
+                <li> APS ， setup  closed-door intervention </li>
+                <li> Piggyback APS，，</li>
+                <li> APS </li>
             </ul>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>為什麼 RABS 比 Isolator 更需要關注 open-door intervention 的 APS 模擬？</li>
-                <li>如果一家公司只執行 Piggyback APS 而沒有傳統 APS，在稽核時可能會被提出什麼缺失？</li>
-                <li>AVS 為什麼被列為 APS 的先決條件之一？試從氣流與污染控制的角度說明。</li>
+                <li> RABS  Isolator  open-door intervention  APS ？</li>
+                <li> Piggyback APS  APS，？</li>
+                <li>AVS  APS ？。</li>
             </ol>
         </div>
     </div>
@@ -1062,7 +1062,7 @@ tr:nth-child(even) {
 <!-- ============================================================= -->
 <!-- Q8.2 -->
 <!-- ============================================================= -->
-<div class="section-title" id="q8-2"><strong>Q 8.2 — APS for Multiple Shifts and Campaign Production Q 8.2 — 多班次與連續生產的無菌製程模擬（APS）</strong></div>
+<div class="section-title" id="q8-2"><strong>Q 8.2 — APS for Multiple Shifts and Campaign Production Q 8.2 — （APS）</strong></div>
 
 <div class="two-column">
     <div class="left-column">
@@ -1101,62 +1101,62 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>Campaign Manufacturing (連續生產/戰役式生產)：</strong>指在不進行完整清潔和重新 setup 的情況下，連續生產多個批次的模式。在 RABS 中，這意味著某些零件（如間接接觸產品的零件）在整個 campaign 期間保持安裝狀態。</p>
-            <p><strong>"Events Rather Than Time" (事件而非時間)：</strong>這是本節最重要的觀念 -- 污染主要是由「事件」（如介入、物料傳遞、人員操作）造成的，而不是單純因為「時間長」就會污染。因此，APS 的時長不需要等於或超過最長生產時間，關鍵是要充分模擬所有可能引入污染的「事件」。</p>
+            <h4> Key Concepts</h4>
+            <p><strong>Campaign Manufacturing (/)：</strong> setup ，。 RABS ，（） campaign 。</p>
+            <p><strong>"Events Rather Than Time" ()：</strong> -- 「」（、、），「」。，APS ，「」。</p>
             <p><strong>Direct vs. Indirect Product-Contact Parts：</strong></p>
             <ul>
-                <li><strong>Direct (直接接觸產品零件)：</strong>如充填針頭 -- 在 campaign 中可能需要更換，APS 應模擬這種更換操作</li>
-                <li><strong>Indirect (間接接觸產品零件)：</strong>如導軌、stopper bowl -- 在整個 campaign 期間保持安裝，受 aseptic hold time 限制</li>
+                <li><strong>Direct ()：</strong> --  campaign ，APS </li>
+                <li><strong>Indirect ()：</strong>、stopper bowl --  campaign ， aseptic hold time </li>
             </ul>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>Campaign 生產的 APS 設計，就像規劃一次<strong>長途公路旅行的安全測試</strong>。你不需要實際開完全程 3,000 公里才能證明車子安全，但你需要模擬旅途中所有關鍵事件：加油停靠（相當於 batch 間的操作）、換輪胎（相當於更換充填針頭）、長時間駕駛後的疲勞管理（相當於操作員輪班和休息安排）。重點不是開了多少公里，而是有沒有把所有可能出問題的「事件」都測試到。</p>
+            <h4> Analogy</h4>
+            <p>Campaign  APS ，<strong></strong>。 3,000 ，：（ batch ）、（）、（）。，「」。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p><strong>Campaign APS 的必模擬項目清單：</strong></p>
+            <h4> Key Notes</h4>
+            <p><strong>Campaign APS ：</strong></p>
             <ol>
-                <li><strong>Setup 階段</strong> -- 包含初始 open-door 活動</li>
-                <li><strong>介入操作</strong> -- 類型、頻率、時長均須代表性</li>
-                <li><strong>間接接觸零件</strong> -- 模擬完整 campaign 期間的安裝狀態與 hold time</li>
-                <li><strong>直接接觸零件</strong> -- 模擬是否更換或保留（如充填針頭）</li>
-                <li><strong>RABS 手套</strong> -- 整個 campaign 期間保持安裝</li>
-                <li><strong>清潔/消毒</strong> -- 模擬批次間的常規清潔消毒操作</li>
-                <li><strong>生產暫停/中斷</strong> -- 模擬計畫性或非計畫性停頓</li>
-                <li><strong>無菌取樣</strong> -- 重大介入後的取樣程序</li>
+                <li><strong>Setup </strong> --  open-door </li>
+                <li><strong></strong> -- 、、</li>
+                <li><strong></strong> --  campaign  hold time</li>
+                <li><strong></strong> -- （）</li>
+                <li><strong>RABS </strong> --  campaign </li>
+                <li><strong>/</strong> -- </li>
+                <li><strong>/</strong> -- </li>
+                <li><strong></strong> -- </li>
             </ol>
         </div>
 
         <div class="note-box">
-            <h4>常見誤區 Common Misconception</h4>
-            <p>許多公司誤以為 APS 必須跑得和實際生產一樣長。原文明確指出：<strong>「there is no requirement that the APS should be equal to or longer than the maximum production duration」</strong>。APS 的目的是驗證「事件管控能力」，而非「時間耐受力」。時間相關的控制（如環境維持、手套完整性、人員疲勞）應由其他工具（如 EM、設備確效、人因評估）來保障。</p>
+            <h4> Common Misconception</h4>
+            <p> APS 。：<strong>「there is no requirement that the APS should be equal to or longer than the maximum production duration」</strong>。APS 「」，「」。（、、）（ EM、、）。</p>
         </div>
 
         <div class="practice-box" style="border-style:solid; background:linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-color:#22c55e;">
-            <h4>實務應用 Practical Application</h4>
-            <p>一家 CDMO 的 RABS 充填線進行 5 天 campaign（每天 2 班），共生產 10 個批次。APS 設計考量：</p>
+            <h4> Practical Application</h4>
+            <p> CDMO  RABS  5  campaign（ 2 ）， 10 。APS ：</p>
             <ul>
-                <li>APS 時長不需要 5 天，但需模擬所有關鍵事件</li>
-                <li>包含完整 setup + 至少模擬「批次間」的清潔消毒轉換</li>
-                <li>充填針頭若每 2 天更換一次，APS 需包含此更換操作</li>
-                <li>模擬操作員輪班交接的程序</li>
-                <li>在適當時機取 sterility sample（如重大介入後）</li>
+                <li>APS  5 ，</li>
+                <li> setup + 「」</li>
+                <li> 2 ，APS </li>
+                <li></li>
+                <li> sterility sample（）</li>
             </ul>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>原文說「contamination is primarily an outcome of events rather than time」，這句話對你設計 APS 時長有什麼啟示？</li>
-                <li>為什麼 Piggyback APS 在 campaign 模式下「不被視為最佳實務」？它具體缺少了什麼？</li>
-                <li>如果 campaign 期間 RABS 手套破損需更換，這個事件應該如何在 APS 中處理？</li>
+                <li>「contamination is primarily an outcome of events rather than time」， APS ？</li>
+                <li> Piggyback APS  campaign 「」？？</li>
+                <li> campaign  RABS ， APS ？</li>
             </ol>
         </div>
     </div>
@@ -1165,7 +1165,7 @@ tr:nth-child(even) {
 <!-- ============================================================= -->
 <!-- Q8.3 -->
 <!-- ============================================================= -->
-<div class="section-title" id="q8-3"><strong>Q 8.3 — Worst-Case Conditions in RABS APS Q 8.3 — RABS 無菌製程模擬（APS）中的最差狀況條件</strong></div>
+<div class="section-title" id="q8-3"><strong>Q 8.3 — Worst-Case Conditions in RABS APS Q 8.3 — RABS （APS）</strong></div>
 
 <div class="two-column">
     <div class="left-column">
@@ -1209,58 +1209,58 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>定義 worst-case 就像消防演習的情境設計。你會模擬<strong>「最困難但合理的逃生情境」</strong>，例如：電梯故障、某條走廊被煙霧阻擋。但你不會模擬「整棟大樓瞬間倒塌」，因為那超出了合理預期的範圍。</p>
-            <p>同樣地，RABS APS 的 worst-case 應該模擬「open-door intervention」（最高風險事件），但不應該人為創造一個不可能在正常操作中出現的極端條件（例如同時打開所有門並關閉所有氣流）。</p>
+            <h4> Analogy</h4>
+            <p> worst-case 。<strong>「」</strong>，：、。「」，。</p>
+            <p>，RABS APS  worst-case 「open-door intervention」（），（）。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p><strong>RABS 獨特優勢 -- 某些傳統 worst-case 參數影響較低：</strong></p>
-            <p>與傳統開放式無菌充填不同，RABS 的物理屏障將產品/關鍵表面與操作員和低等級環境隔開。因此，以下參數在 RABS 中的影響顯著降低：</p>
+            <h4> Key Notes</h4>
+            <p><strong>RABS  --  worst-case ：</strong></p>
+            <p>，RABS /。， RABS ：</p>
             <ul>
-                <li><strong>Hold time (保留時間)</strong> -- 滅菌物料在屏障內受保護</li>
-                <li><strong>充填時長</strong> -- 屏障關閉時環境控制穩定</li>
-                <li><strong>人員數量</strong> -- 操作員在屏障外，不直接暴露產品</li>
-                <li><strong>充填速度</strong> -- 雖仍需考慮（最慢/最快），但影響較傳統系統低</li>
+                <li><strong>Hold time ()</strong> -- </li>
+                <li><strong></strong> -- </li>
+                <li><strong></strong> -- ，</li>
+                <li><strong></strong> -- （/），</li>
             </ul>
-            <p>這是 RABS 相較於傳統無菌充填的一個重要風險降低優勢，也是選擇 RABS 技術的商業價值所在。</p>
+            <p> RABS ， RABS 。</p>
         </div>
 
         <div class="note-box">
-            <h4>兩句警語 Two Warnings</h4>
-            <p>原文重複強調了兩個關鍵原則：</p>
+            <h4> Two Warnings</h4>
+            <p>：</p>
             <ol>
-                <li><strong>"APS is not used to validate bad practices"</strong> -- APS 不是為不良操作背書的工具</li>
-                <li><strong>"Worst-case does not mean creation of artificial conditions...that can force a system failure"</strong> -- worst-case 不等於人為製造系統崩潰</li>
+                <li><strong>"APS is not used to validate bad practices"</strong> -- APS </li>
+                <li><strong>"Worst-case does not mean creation of artificial conditions...that can force a system failure"</strong> -- worst-case </li>
             </ol>
-            <p>這兩句話為 APS 設計劃定了明確的邊界：APS 驗證的是「在合理操作範圍內，系統能否維持無菌保證」。</p>
+            <p> APS ：APS 「，」。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>為什麼 open-door intervention 是 RABS APS 中「最高風險」的 worst-case 條件？試從屏障完整性的角度解釋。</li>
-                <li>某公司在 APS 設計中同時模擬「最慢充填速度 + 最多人員 + 最長 hold time」。根據本節內容，這種設計是否合理？為什麼？</li>
-                <li>「APS is not used to validate bad practices」這句話在實務上如何應用？請舉一個具體例子。</li>
+                <li> open-door intervention  RABS APS 「」 worst-case ？。</li>
+                <li> APS 「 +  +  hold time」。，？？</li>
+                <li>「APS is not used to validate bad practices」？。</li>
             </ol>
         </div>
     </div>
 </div>
 
 <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>Worst-Case Conditions (最差條件)：</strong>在 APS 中模擬的「最具挑戰性」的操作條件。但有一個非常重要的界限：worst-case 必須在<strong>允許的操作範圍內</strong>，不能人為創造超出正常操作邊界的條件來強制系統失敗。</p>
-            <p><strong>RABS 的 Worst-Case 分層：</strong></p>
+            <h4> Key Concepts</h4>
+            <p><strong>Worst-Case Conditions ()：</strong> APS 「」。：worst-case <strong></strong>，。</p>
+            <p><strong>RABS  Worst-Case ：</strong></p>
             </div>
 
         <!-- ============================================================= -->
 <!-- Q8.4 -->
 <!-- ============================================================= -->
-<div class="section-title" id="q8-4"><strong>Q 8.4 — Setup and Assembly Best Practices Q 8.4 — 設備設置與組裝最佳實務</strong></div>
+<div class="section-title" id="q8-4"><strong>Q 8.4 — Setup and Assembly Best Practices Q 8.4 — </strong></div>
 
 <div class="two-column">
     <div class="left-column">
@@ -1298,80 +1298,80 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p>RABS 的 setup 就像手術室的<strong>術前準備</strong>：</p>
+            <h4> Analogy</h4>
+            <p>RABS  setup <strong></strong>：</p>
             <ul>
-                <li><strong>Phase 1 (門開啟)</strong> = 將滅菌器械從運送車搬入手術室。此時手術室門開著，風險最高，必須快速且有紀律地完成。護理人員的位置不能阻擋層流氣流。</li>
-                <li><strong>Phase 2 (門關閉)</strong> = 手術室門關閉後，進行器械的精細擺放與最終確認。此時環境受控，但仍需穿戴無菌手套操作。</li>
-                <li><strong>First Air</strong> = 就像手術室天花板的層流罩，潔淨空氣必須從上方往下流過器械台，再向外排出，操作人員不能站在氣流的「上游」。</li>
+                <li><strong>Phase 1 ()</strong> = 。，，。。</li>
+                <li><strong>Phase 2 ()</strong> = ，。，。</li>
+                <li><strong>First Air</strong> = ，，，「」。</li>
             </ul>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Notes</h4>
-            <p><strong>Open-Door Setup 的最佳實務檢查清單：</strong></p>
+            <h4> Key Notes</h4>
+            <p><strong>Open-Door Setup ：</strong></p>
             <ol>
-                <li><strong>操作員定位</strong> -- 保護性氣流經過手/袖後流向潔淨室（不可阻擋 First Air）</li>
-                <li><strong>物料擺放</strong> -- 待傳遞物料放在工作高度的推車上</li>
-                <li><strong>副操作員</strong> -- 可協助定位，但不得影響保護性氣流</li>
-                <li><strong>無菌技術</strong> -- 使用雙袋法傳遞；操作範圍限於必要任務</li>
-                <li><strong>手部消毒</strong> -- 開門介入前，依合格程序進行手部消毒（參考 PDA TR-62）</li>
-                <li><strong>持續 EM</strong> -- 介入期間鄰近位置持續進行環境監控（viable + nonviable）</li>
-                <li><strong>手套安裝</strong> -- 開門 setup 的最後步驟才安裝滅菌 RABS 手套</li>
-                <li><strong>門內側消毒</strong> -- 關門前/關門時對門內側進行消毒</li>
+                <li><strong></strong> -- /（ First Air）</li>
+                <li><strong></strong> -- </li>
+                <li><strong></strong> -- ，</li>
+                <li><strong></strong> -- ；</li>
+                <li><strong></strong> -- ，（ PDA TR-62）</li>
+                <li><strong> EM</strong> -- （viable + nonviable）</li>
+                <li><strong></strong> --  setup  RABS </li>
+                <li><strong></strong> -- /</li>
             </ol>
         </div>
 
         <div class="note-box">
-            <h4>設計原則 Design Principle</h4>
-            <p>原文強調：<strong>「As much as possible, set-up should be performed with the doors closed」</strong>。這意味著 RABS 的設備設計應盡量讓操作人員能透過手套口或 RTP 完成大部分 setup 工作，將必須開門的操作降到最低。這是設備採購規格（URS）中應明確要求的設計理念。</p>
-            <p>對 CDMO 而言，選購 RABS 設備時，應評估「多少 setup 操作可在關門狀態下完成」作為重要的設備評選標準。能在關門狀態下完成更多 setup 的設備，代表更低的污染風險和更高的無菌保證水準。</p>
+            <h4> Design Principle</h4>
+            <p>：<strong>「As much as possible, set-up should be performed with the doors closed」</strong>。 RABS  RTP  setup ，。（URS）。</p>
+            <p> CDMO ， RABS ，「 setup 」。 setup ，。</p>
         </div>
 
         <div class="practice-box" style="border-style:solid; background:linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-color:#22c55e;">
-            <h4>實務應用 Practical Application</h4>
-            <p>你正在為一條新的 RABS 充填線撰寫 Setup SOP，以下是需要定義的關鍵項目：</p>
+            <h4> Practical Application</h4>
+            <p> RABS  Setup SOP，：</p>
             <ul>
-                <li><strong>開門操作清單</strong>：列出所有必須在開門狀態下完成的操作，並為每一項定義最大允許時間</li>
-                <li><strong>操作員站位圖</strong>：標示主操作員與副操作員的位置，確保不阻擋保護性氣流方向</li>
-                <li><strong>EM 取樣點</strong>：在開門介入區域周邊設置連續監控點</li>
-                <li><strong>關門檢查表</strong>：門內側消毒完成、手套安裝確認、完整 EM 啟動</li>
-                <li><strong>AVS 結果參考</strong>：附上 AVS 確效報告中的氣流方向示意圖，作為操作員訓練教材</li>
+                <li><strong></strong>：，</li>
+                <li><strong></strong>：，</li>
+                <li><strong>EM </strong>：</li>
+                <li><strong></strong>：、、 EM </li>
+                <li><strong>AVS </strong>： AVS ，</li>
             </ul>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>為什麼 RABS 手套的安裝是 open-door setup 的「最後步驟」？如果先安裝手套再傳入其他物料，會有什麼問題？</li>
-                <li>原文提到 AVS 應展示「RABS 內部到周圍區域的適當氣流」。在 open-door setup 時，理想的氣流方向應該是什麼？為什麼？</li>
-                <li>如果你是設備供應商，你會如何設計 RABS 來最大化「關門狀態下可完成的 setup 操作」比例？</li>
+                <li> RABS  open-door setup 「」？，？</li>
+                <li> AVS 「RABS 」。 open-door setup ，？？</li>
+                <li>， RABS 「 setup 」？</li>
             </ol>
         </div>
     </div>
 </div>
 
 <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>Two Setup Conditions (兩階段 Setup)：</strong>RABS 的 setup 分為兩個截然不同的階段，風險等級完全不同：</p>
-            <p><strong>First Air (第一氣流)：</strong>指從 HEPA 過濾器出來後，尚未接觸任何物體或人員的潔淨氣流。在 open-door setup 時，操作員必須確保 First Air 從 RABS 內部流向外部，經過操作員的手和袖子後排出。這是防止外部污染進入 Grade A 區域的第一道防線。</p>
-            <p><strong>Double-Bag Method (雙袋法)：</strong>將滅菌物品的外層包裝在 RABS 介面處移除，僅將內層（無菌）包裝傳入 Grade A 區域的技術。這是維持無菌傳遞的標準做法。</p>
+            <h4> Key Concepts</h4>
+            <p><strong>Two Setup Conditions ( Setup)：</strong>RABS  setup ，：</p>
+            <p><strong>First Air ()：</strong> HEPA ，。 open-door setup ， First Air  RABS ，。 Grade A 。</p>
+            <p><strong>Double-Bag Method ()：</strong> RABS ，（） Grade A 。。</p>
         </div>
 
         <!-- SECTION SUMMARY -->
 <div class="learning-objectives" style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);">
-    <h3>本節重點回顧 Section Summary</h3>
+    <h3> Section Summary</h3>
     <ul>
-        <li><strong>APS 先決條件：</strong>潔淨室確效、RABS 確效（HEPA/壓差/AVS）、人員訓練、介入清單、物料傳遞方法、EM 計畫 -- 六項缺一不可</li>
-        <li><strong>事件驅動原則：</strong>污染是「事件」的結果而非「時間」的結果 -- APS 時長不需等於最長生產時間，關鍵是模擬所有可能引入污染的事件</li>
-        <li><strong>Worst-Case 邊界：</strong>最差條件必須在合理操作範圍內；APS 不能用來驗證不良設計或操作實務</li>
-        <li><strong>RABS 獨特優勢：</strong>因物理屏障的存在，hold time、充填時長、人員數量、充填速度等傳統 worst-case 參數對 RABS 的影響較低</li>
-        <li><strong>Open-Door 最高風險：</strong>open-door intervention（包含 setup）是 RABS 中風險最高的操作，應是 APS worst-case 設計的焦點</li>
-        <li><strong>兩階段 Setup：</strong>開門階段（最高風險）與關門階段（受控環境）的操作要求截然不同，設備設計應盡量讓 setup 在關門狀態下完成</li>
-        <li><strong>Piggyback APS 的限制：</strong>可作為整體 APS 方案的補充，但不能單獨使用，因為它無法模擬 setup 階段</li>
+        <li><strong>APS ：</strong>、RABS （HEPA//AVS）、、、、EM  -- </li>
+        <li><strong>：</strong>「」「」 -- APS ，</li>
+        <li><strong>Worst-Case ：</strong>；APS </li>
+        <li><strong>RABS ：</strong>，hold time、、、 worst-case  RABS </li>
+        <li><strong>Open-Door ：</strong>open-door intervention（ setup） RABS ， APS worst-case </li>
+        <li><strong> Setup：</strong>（）（）， setup </li>
+        <li><strong>Piggyback APS ：</strong> APS ，， setup </li>
     </ul>
 </div>
 

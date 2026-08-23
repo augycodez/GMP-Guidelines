@@ -439,7 +439,7 @@ body {
     font-size: 0.92rem !important;
 }
 
-/* ===== ANALOGY BOX (Yellow) - 比喻說明 ===== */
+/* ===== ANALOGY BOX (Yellow) -  ===== */
 .analogy-box,
 .concept-box[class*="analogy"],
 .concept-box.analogy,
@@ -453,7 +453,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #856404 !important;
 }
 
-/* ===== TERM/CONCEPT BOX (Green) - 核心概念 ===== */
+/* ===== TERM/CONCEPT BOX (Green) -  ===== */
 .term-box,
 .key-term-box,
 .concept-box:not([class*="analogy"]):not([class*="note"]):not([class*="formula"]):not([class*="practice"]):not([class*="highlight"]):not(.analogy):not(.application) {
@@ -468,7 +468,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #2e7d32 !important;
 }
 
-/* ===== NOTE/HIGHLIGHT BOX (Orange) - 重點提示 ===== */
+/* ===== NOTE/HIGHLIGHT BOX (Orange) -  ===== */
 .note-box,
 .key-note,
 .key-point-box,
@@ -487,7 +487,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #c65102 !important;
 }
 
-/* ===== FORMULA BOX (Purple) - 公式計算 ===== */
+/* ===== FORMULA BOX (Purple) -  ===== */
 .formula-box,
 .concept-box[class*="formula"] {
     background: var(--purple-bg) !important;
@@ -522,7 +522,7 @@ div[class*="analogy"]:not(.content-grid):not(.two-column) {
     color: #1565c0 !important;
 }
 
-/* ===== PRACTICE BOX (Blue dashed) - 練習思考 ===== */
+/* ===== PRACTICE BOX (Blue dashed) -  ===== */
 .practice-box {
     background: linear-gradient(135deg, #e8f4fd 0%, #d1e9ff 100%) !important;
     border: 2px dashed #3182ce !important;
@@ -982,25 +982,25 @@ tr:nth-child(even) {
 <!-- SECTION HEADER -->
 <div class="header ispe-header">
     <h1><span class="ispe-source-bar">ISPE</span> Chapter 4 (Part A): Process Closure — Introduction &amp; Layers of Protection</h1>
-    <div class="subtitle">第四章（上篇）：製程密閉 — 導論、污染來源與保護層次</div>
+    <div class="subtitle">（）： — 、</div>
     <div class="page-info">ISPE Baseline Guide Vol.6 (2nd Ed.): Biopharmaceutical Manufacturing Facilities | p31 – p42 | Sections 4.1–4.4</div>
 </div>
 
 <!-- LEARNING OBJECTIVES -->
 <div class="learning-objectives">
-    <h3>本章學習目標 Learning Objectives</h3>
+    <h3> Learning Objectives</h3>
     <ul>
-        <li>理解製程密閉（Process Closure）為何是生物製藥設施設計中最核心的單一決策，以及其如何解耦製程與環境之間的風險關係。</li>
-        <li>識別生物製藥製程中的四大主要污染來源——環境、人員、設備、原料——並了解各類污染的傳播機制。</li>
-        <li>掌握「保護層次（Layers of Protection）」模型的洋蔥式邏輯：每增加一層有效保護，即可降低一個等級的潔淨室等級要求。</li>
-        <li>了解如何透過密閉分析（Closure Analysis）工作流程，包含 Phase 1–3 風險評估步驟，系統性地驗證製程單元是否真正達到密閉狀態。</li>
-        <li>區分開放式（Open）、功能性密閉（Functionally Closed）、完全密閉（Fully Closed）三種系統的操作方式及所需環境等級。</li>
+        <li>（Process Closure），。</li>
+        <li>——、、、——。</li>
+        <li>「（Layers of Protection）」：，。</li>
+        <li>（Closure Analysis）， Phase 1–3 ，。</li>
+        <li>（Open）、（Functionally Closed）、（Fully Closed）。</li>
     </ul>
 </div>
 
 <!-- TOC -->
 <div class="toc">
-    <h3>本節目錄 Table of Contents</h3>
+    <h3> Table of Contents</h3>
     <div class="toc-grid">
         <a href="#sec41">4.1 Introduction</a>
         <a href="#sec42">4.2 Contamination Sources</a>
@@ -1018,11 +1018,11 @@ tr:nth-child(even) {
 <!-- ============================================================ -->
 <!-- SECTION 4.1 -->
 <!-- ============================================================ -->
-<div id="sec41" class="section-title ispe-section-title">4.1 Introduction — 導論：製程密閉的根本邏輯</div>
+<div id="sec41" class="section-title ispe-section-title">4.1 Introduction — ：</div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p>The goal of this chapter is to provide a means to evaluate <span class="key-term">bioprocess unit operations</span> and to discuss opportunities for closing these operations; therefore, decoupling them from the environment.</p>
 
@@ -1034,31 +1034,31 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>製程密閉 (Process Closure):</strong> 將製程的產品接觸面與外部環境完全隔離，使環境成為對製程品質無關緊要的參數（non-critical parameter）。這是 ISPE Vol.6 的核心主張，也是現代生物製藥設施設計的根本邏輯。</p>
-            <p><strong>解耦（Decoupling）:</strong> 密閉製程的最大意義在於將製程與環境的風險「解耦」——即使周遭環境並非潔淨室，密閉系統的產品依然受到保護。</p>
-            <p><strong>外來因子 (Adventitious Agent):</strong> 在製程中非預期引入的微生物污染物，包含細菌、病毒、黴菌等。生物製藥製程因其水性介質特性，極易成為這類污染物的繁殖溫床。</p>
+            <h4> Key Concepts</h4>
+            <p><strong> (Process Closure):</strong> ，（non-critical parameter）。 ISPE Vol.6 ，。</p>
+            <p><strong>（Decoupling）:</strong> 「」——，。</p>
+            <p><strong> (Adventitious Agent):</strong> ，、、。，。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p><strong>密閉系統 = 密封保溫瓶：</strong> 想像你正在山上健行，隨身帶了一個密封保溫瓶裝了熱咖啡。無論外面氣溫多低、風多大、空氣多髒，保溫瓶裡的咖啡都不受影響。這就是「密閉製程」的核心概念——裝著寶貴生物藥液的系統，就像那個密封保溫瓶，與惡劣的外部環境完全隔絕。</p>
-            <p>相比之下，如果你用的是一個開口紙杯，那你就得在一個極度乾淨的空間（Grade 5 潔淨室）裡才能保護咖啡不受污染。開放式系統的代價，就是永遠需要昂貴的環境保護。</p>
+            <h4> Analogy</h4>
+            <p><strong> = ：</strong> ，。、、，。「」——，，。</p>
+            <p>，，（Grade 5 ）。，。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Note</h4>
-            <p><strong>微環境比宏環境更可控：</strong> Vol.6 的一個關鍵洞見是——控制一個生物反應器內部的無菌環境，遠比控制整個製程廠房的潔淨度容易且經濟。這個觀念顛覆了傳統無菌製造「全廠高等級潔淨室」的思維，導向「只需保護接觸面」的精準設計。</p>
+            <h4> Key Note</h4>
+            <p><strong>：</strong> Vol.6 ——，。「」，「」。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>為什麼一個密閉的生物反應器可以在 Grade 8（C 級）甚至非分類空間中運作，而傳統無菌充填線卻需要 Grade 5（A 級）環境？</li>
-                <li>「製程密閉」與「潔淨室等級提升」哪種方式對 CDMO 而言更具成本效益？請從設施建設與長期維運兩個面向分析。</li>
+                <li> Grade 8（C ）， Grade 5（A ）？</li>
+                <li>「」「」 CDMO ？。</li>
             </ol>
         </div>
     </div>
@@ -1067,11 +1067,11 @@ tr:nth-child(even) {
 <!-- ============================================================ -->
 <!-- SECTION 4.2 -->
 <!-- ============================================================ -->
-<div id="sec42" class="section-title ispe-section-title">4.2 Sources of Product and Process Contamination — 產品與製程的污染來源</div>
+<div id="sec42" class="section-title ispe-section-title">4.2 Sources of Product and Process Contamination — </div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p><span class="key-term">Particulates</span> in the environment can provide vehicles for <span class="key-term">adventitious agents</span>, representing a biological risk to a biopharmaceutical process and product. A <span class="key-term">risk management program</span> should be established to evaluate and address any potential impact of particulate contamination to process unit operations.</p>
 
@@ -1082,7 +1082,7 @@ tr:nth-child(even) {
         <p>Bioprocesses should be monitored for bioburden and particulates, which should be controlled. Most bioprocesses typically include multiple clarification steps that would effectively remove small levels of particulate contamination (in the form of suspended solids), mitigating the risk of physical damage to equipment, disruption of a bioprocess unit operation, or adulteration of the drug substance.</p>
 
         <p>Figure 4.1<a class="gallery-link" href="../../../figures-gallery.html?doc=ISPE-Vol6&amp;file=fig-p34-1.png" target="_blank" title="View in Gallery">&#128269;</a> depicts the sources of product and process contamination.</p>
-        <p><em>[Figure 4.1<a class="gallery-link" href="../../../figures-gallery.html?doc=ISPE-Vol6&amp;file=fig-p34-1.png" target="_blank" title="View in Gallery">&#128269;</a>: Sources of Product and Process Contamination — 圖示四大污染來源：原料/耗材、環境因素（設備/空氣/人員/公用系統）、交叉污染、殘留攜帶]</em></p>
+        <p><em>[Figure 4.1<a class="gallery-link" href="../../../figures-gallery.html?doc=ISPE-Vol6&amp;file=fig-p34-1.png" target="_blank" title="View in Gallery">&#128269;</a>: Sources of Product and Process Contamination — ：/、（///）、、]</em></p>
 
         <p><strong>A.</strong> The <span class="key-term">ingredients</span> used in media, buffers, and other bioprocess solutions can represent a significant potential source of microbial contamination. Consumables such as chromatography resins, filter media, and tubing also represent potential sources of contamination.</p>
 
@@ -1103,36 +1103,36 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>四大污染來源分類：</strong></p>
+            <h4> Key Concepts</h4>
+            <p><strong>：</strong></p>
             <ul>
-                <li><strong>A — 原料與耗材 (Ingredients &amp; Consumables):</strong> 培養基成分、緩衝液原料、層析樹脂、過濾膜、管路等——這些「進入製程的東西」本身可能帶菌。</li>
-                <li><strong>B — 環境因素 (Environment):</strong> 空氣中的微粒、設備表面、操作人員脫落的皮屑與微生物、公用系統（純水、潔淨蒸氣）的污染。</li>
-                <li><strong>C — 交叉污染 (Cross-Contamination):</strong> 相鄰製程、多產品或多批次同時操作時，一個系統的污染物進入另一個系統。CIP/SIP 管路若設計不當，可能成為交叉污染的載體。</li>
-                <li><strong>D — 殘留攜帶 (Carryover):</strong> 前一批次或前一步驟的殘留物（包括清潔劑殘留）未被有效清除而帶入下一批。這是 CIP 驗證的核心課題。</li>
+                <li><strong>A —  (Ingredients &amp; Consumables):</strong> 、、、、——「」。</li>
+                <li><strong>B —  (Environment):</strong> 、、、（、）。</li>
+                <li><strong>C —  (Cross-Contamination):</strong> 、，。CIP/SIP ，。</li>
+                <li><strong>D —  (Carryover):</strong> （）。 CIP 。</li>
             </ul>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p><strong>交叉污染 = 餐廳的砧板管理：</strong> 好的餐廳廚師用不同顏色的砧板分別處理生肉、蔬菜、魚類，就是在防止「交叉污染」。生物製藥廠的多產品環境中，若沒有嚴格的隔離設計（硬體隔離或製程密閉），就像所有食材都用同一張砧板——風險極高。</p>
-            <p><strong>殘留攜帶 = 杯子沒洗乾淨：</strong> 你用同一個杯子先裝橙汁，沒洗乾淨再裝牛奶——殘留的酸會讓牛奶結塊。生物製藥製程中，前批次殘留的蛋白質或清潔劑，可能對下一批產品的純化或效價造成嚴重干擾。</p>
+            <h4> Analogy</h4>
+            <p><strong> = ：</strong> 、、，「」。，（），——。</p>
+            <p><strong> = ：</strong> ，——。，，。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Note</h4>
-            <p><strong>水性介質的特殊脆弱性：</strong> 生物製藥製程幾乎全程在水溶液環境中進行（培養基、緩衝液、純化層析）。水性介質是細菌和酵母菌的天然繁殖溫床。一旦有少量污染引入，短時間內（37°C 培養條件下，大腸桿菌每 20 分鐘倍增一次）污染就會呈指數型擴散，整批廢棄損失極為慘重。</p>
-            <p><strong>CIP 的雙重風險：</strong> CIP 本是清潔工具，但集中式 CIP 系統（Centralized CIP）本身也可能成為污染的媒介——同一套 CIP 管路若清洗多個設備，管路殘留可能造成交叉污染。這也是近年來 CIP 設計傾向「單用途」（dedicated CIP）的原因之一。</p>
+            <h4> Key Note</h4>
+            <p><strong>：</strong> （、、）。。，（37°C ， 20 ），。</p>
+            <p><strong>CIP ：</strong> CIP ， CIP （Centralized CIP）—— CIP ，。 CIP 「」（dedicated CIP）。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>CDMO 承接多個客戶產品時，哪一類污染來源（A/B/C/D）的管控最困難？為什麼？</li>
-                <li>如果生物反應器內的培養基受到酵母菌污染，可能的污染入口有哪幾個？請根據 4.2.1 的清單推論。</li>
+                <li>CDMO ，（A/B/C/D）？？</li>
+                <li>，？ 4.2.1 。</li>
             </ol>
         </div>
     </div>
@@ -1141,11 +1141,11 @@ tr:nth-child(even) {
 <!-- ============================================================ -->
 <!-- SECTION 4.2.1 -->
 <!-- ============================================================ -->
-<div id="sec421" class="section-title ispe-section-title">4.2.1 Sources of Bioburden in Aseptic/Axenic Operations — 無菌/純粹培養操作中的生物負荷來源</div>
+<div id="sec421" class="section-title ispe-section-title">4.2.1 Sources of Bioburden in Aseptic/Axenic Operations — /</div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p>Cell culture and fermentation operations are by necessity <span class="key-term">aseptic/axenic operations</span>. Contamination of these processes can result in loss or rejection of batches. Prior to inoculation, the medium within a bioreactor should be free of measurable bioburden (effectively sterile). <span class="key-term">Single use bioreactors</span> and systems for cell culture operations should be discarded and replaced. <span class="key-term">Stainless steel systems</span> should be decontaminated, cleaned, and sterilized prior to subsequent use. The reason for contamination should be investigated and addressed to minimize risk of another contamination.</p>
 
@@ -1173,39 +1173,39 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>無菌操作 (Aseptic Operation) vs 純粹培養 (Axenic Operation):</strong></p>
+            <h4> Key Concepts</h4>
+            <p><strong> (Aseptic Operation) vs  (Axenic Operation):</strong></p>
             <ul>
-                <li><strong>Aseptic（無菌）:</strong> 指整個操作環境與系統排除所有微生物——適用於細胞培養的接種前準備、培養基製備等。</li>
-                <li><strong>Axenic（純粹培養）:</strong> 特指培養物中只含有特定的目標生物（如 CHO 細胞），不含任何其他微生物。細胞培養批次必須在全程 axenic 條件下維持。</li>
+                <li><strong>Aseptic（）:</strong> ——、。</li>
+                <li><strong>Axenic（）:</strong> （ CHO ），。 axenic 。</li>
             </ul>
-            <p><strong>接種前滅菌（Pre-inoculation Sterility）:</strong> 生物反應器在接種前，其中的培養基必須達到實質上的無菌狀態（effectively sterile）。這通常透過 SIP（就地蒸氣滅菌）達成。一旦 SIP 失效，後續接種的細胞將立即暴露於污染風險。</p>
+            <p><strong>（Pre-inoculation Sterility）:</strong> ，（effectively sterile）。 SIP（）。 SIP ，。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Note</h4>
-            <p><strong>密閉系統 18 個潛在污染入口的警示：</strong> 這份清單看似嚇人，但其實是一份「系統密閉設計查核表」。每一個列出的入口都代表一個需要被保護的介面（interface）。優秀的系統設計師在評估生物反應器密閉性時，必須逐一審視每個入口是否具備足夠的保護措施。</p>
-            <p><strong>動物源成分的特殊風險：</strong> 動物源原料（血清、水解物）可能含有病毒或 prion（普里昂蛋白，如 BSE 相關）。雖然現今無血清培養基已大幅降低此風險，但歷史上動物源成分的使用至今仍是 FDA 與 EMA 審查的重點。</p>
+            <h4> Key Note</h4>
+            <p><strong> 18 ：</strong> ，「」。（interface）。，。</p>
+            <p><strong>：</strong> （、） prion（， BSE ）。， FDA  EMA 。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p><strong>18 個污染入口 = 城堡的 18 道門：</strong> 想像一座中世紀城堡（生物反應器），它的價值在於城堡內部的安全。但如果城堡有 18 道門（取樣口、通氣口、加料口、攪拌器密封等），每一道門都可能成為敵人（污染）的入口。城堡的安全不取決於最強的那道門，而取決於最弱的那道門。這就是密閉性驗證必須全面覆蓋每個介面的原因。</p>
+            <h4> Analogy</h4>
+            <p><strong>18  =  18 ：</strong> （），。 18 （、、、），（）。，。。</p>
         </div>
 
         <div class="practice-box" style="border-style:solid; background:linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-color:#22c55e;">
-            <h4>實務應用 Practical Application</h4>
-            <p>作為一個 CDMO 的製程工程師，當你接收到一台全新的 1,000L 不鏽鋼生物反應器並進行首次 SIP 驗證時，你需要：</p>
+            <h4> Practical Application</h4>
+            <p> CDMO ， 1,000L  SIP ，：</p>
             <ol>
-                <li>識別所有探針插入口（pH、DO、溫度）是否完整安裝並經過灼燒滅菌</li>
-                <li>確認通氣過濾器（vent filter）完整性測試通過</li>
-                <li>驗證取樣系統的蒸汽消毒步驟有效</li>
-                <li>確認所有加料口均在 SIP 程序覆蓋範圍內</li>
+                <li>（pH、DO、）</li>
+                <li>（vent filter）</li>
+                <li></li>
+                <li> SIP </li>
             </ol>
-            <p>遺漏任何一項，都可能導致接種後數天内因污染而廢批，損失數十萬至百萬美元的原料物料成本。</p>
+            <p>，，。</p>
         </div>
     </div>
 </div>
@@ -1213,11 +1213,11 @@ tr:nth-child(even) {
 <!-- ============================================================ -->
 <!-- SECTION 4.2.2 -->
 <!-- ============================================================ -->
-<div id="sec422" class="section-title ispe-section-title">4.2.2 Mitigation of Risks from Sources of Potential Product and Process Contamination — 污染風險緩解策略</div>
+<div id="sec422" class="section-title ispe-section-title">4.2.2 Mitigation of Risks from Sources of Potential Product and Process Contamination — </div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p>The risk of contamination from <span class="key-term">raw materials</span> can be mitigated and monitored with established quality control strategies. Ingredient specifications including bioburden, impurities, properties, and recommended storage conditions, should be understood. Dry solids should be stored in environments with controlled humidity and temperature. Solutes used in media and buffer formulation are usually not sterile; the solutions using these ingredients should be:</p>
         <ul>
@@ -1243,43 +1243,43 @@ tr:nth-child(even) {
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>Hold Period（保存期限）的科學基礎：</strong> 培養基配製後並非立即使用，必須設定「最長保存時限」（hold period）。這個時限不是任意訂定的，而是基於微生物生長動力學研究——在特定溫度和 pH 條件下，從「零污染」到「污染超出可接受範圍」需要多少時間。Hold period 到期後，培養基必須廢棄或重新滅菌。</p>
-            <p><strong>培養基 vs 緩衝液的風險差異：</strong> 培養基（Media）含有碳源、氮源、維生素等豐富營養成分，是微生物的「五星級餐廳」，污染風險顯著高於緩衝液（Buffer）。化學限定培養基（defined chemical media）因組成明確、不含不確定的動物源成分，比複雜培養基（complex media）風險更低。</p>
+            <h4> Key Concepts</h4>
+            <p><strong>Hold Period（）：</strong> ，「」（hold period）。，—— pH ，「」「」。Hold period ，。</p>
+            <p><strong> vs ：</strong> （Media）、、，「」，（Buffer）。（defined chemical media）、，（complex media）。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Note</h4>
-            <p><strong>密閉系統的「多重失效」保護邏輯：</strong> Vol.6 明確指出，一個真正密閉的系統，要使環境污染進入，必須同時發生「多重機械失效」（multiple failures）——例如同時失效的閥門和過濾器。這種「多重失效才能污染」的設計，正是密閉系統比開放系統更安全的根本原因，也是為何密閉系統可以放置在較低等級環境中的監管依據。</p>
-            <p><strong>CIP 的 TACT 原則：</strong> 有效清洗需要同時滿足四個要素——<strong>T</strong>emperature（溫度）、<strong>A</strong>ction（機械衝擊力/湍流）、<strong>C</strong>hemical（清潔劑濃度）、<strong>T</strong>ime（接觸時間）。任何一個要素不足，整體清洗效果就會大打折扣。這也是 CIP 驗證的核心評估架構。</p>
+            <h4> Key Note</h4>
+            <p><strong>「」：</strong> Vol.6 ，，，「」（multiple failures）——。「」，，。</p>
+            <p><strong>CIP  TACT ：</strong> ——<strong>T</strong>emperature（）、<strong>A</strong>ction（/）、<strong>C</strong>hemical（）、<strong>T</strong>ime（）。，。 CIP 。</p>
         </div>
 
         <div class="formula-box">
-            <h4>公式與框架 Framework</h4>
+            <h4> Framework</h4>
             <pre>
-CIP 有效性 = f(溫度 × 作用力 × 化學濃度 × 時間 × 步驟順序)
+CIP  = f( ×  ×  ×  × )
 
-關鍵概念：
-- 提高溫度 → 可降低化學濃度需求
-- 增加機械衝擊力 → 可縮短清洗時間
-- 步驟順序錯誤（如鹼洗後未充分沖洗就進行酸洗）
-  → 中和反應產物可能堵塞管路或損傷設備
+：
+-  → 
+-  → 
+- （）
+  → 
 
-CIP 驗證三要素：
-1. 視覺清潔（visually clean）
-2. 微生物指標（bioburden limits）
-3. 殘留限度（residue limits, e.g., TOC, conductivity）
+CIP ：
+1. （visually clean）
+2. （bioburden limits）
+3. （residue limits, e.g., TOC, conductivity）
             </pre>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>如果一個 2,000L 生物反應器的 SIP 失效，但設備仍維持密閉狀態（閥門未打開），環境中的微生物是否會進入？為什麼？</li>
-                <li>CDMO 承接兩個相鄰批次的不同客戶產品時，CIP 驗證需要涵蓋哪些額外的考量？</li>
+                <li> 2,000L  SIP ，（），？？</li>
+                <li>CDMO ，CIP ？</li>
             </ol>
         </div>
     </div>
@@ -1288,11 +1288,11 @@ CIP 驗證三要素：
 <!-- ============================================================ -->
 <!-- SECTION 4.3 — THE INTELLECTUAL CORE -->
 <!-- ============================================================ -->
-<div id="sec43" class="section-title ispe-section-title">4.3 Providing Appropriate and Effective Layers of Protection to a Bioprocess Unit Operation — 保護層次：Vol.6 的知識核心</div>
+<div id="sec43" class="section-title ispe-section-title">4.3 Providing Appropriate and Effective Layers of Protection to a Bioprocess Unit Operation — ：Vol.6 </div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p>Different levels of bioburden and contamination control are needed for different unit operations. Different approaches and layers of protection are required to mitigate the risk of contamination from the environment for these different operations. The impact (or severity) of bioburden or particulate contamination will differ in different situations. The mitigation of risk from contamination present in the environment requires the implementation of sufficient <span class="key-term">layers of appropriate protection</span> to a process system. The purpose of this section is to discuss possible options for closing an operation by providing appropriate layers of protection to that operation.</p>
 
@@ -1300,42 +1300,42 @@ CIP 驗證三要素：
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts — 洋蔥式保護層次模型</h4>
-            <p>這是整本 Vol.6 最重要的概念。ISPE 的核心主張是：</p>
-            <p><strong>每一層有效的保護 = 可降低一個等級的潔淨室要求</strong></p>
-            <p>就像洋蔥一樣，越多層皮（保護層），核心（產品）越安全，外層環境的重要性也就越低。</p>
+            <h4> Key Concepts — </h4>
+            <p> Vol.6 。ISPE ：</p>
+            <p><strong> = </strong></p>
+            <p>，（），（），。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p><strong>洋蔥式防護（每一層洋蔥皮 = 一層保護）：</strong></p>
-            <p>想像產品是洋蔥的核心。每剝一層洋蔥皮（保護層），外界的「污染」都要先突破那一層才能到達核心。當洋蔥有足夠多的層（密閉設備 + 密閉傳輸管路 + 受控房間），即使最外層的環境（建築空間）並非嚴格潔淨室，產品依然安全。</p>
+            <h4> Analogy</h4>
+            <p><strong>（ = ）：</strong></p>
+            <p>。（），「」。（ +  + ），（），。</p>
         </div>
     </div>
 </div>
 
 <!-- Onion diagram visual -->
 <div class="onion-diagram">
-    <p style="font-weight:700; color:#1a3a2a; margin-bottom:0.75rem; font-size:0.95rem;">洋蔥式保護層次模型（由內至外）</p>
-    <div class="onion-layer layer-0">核心：Product (藥液)</div>
-    <div class="onion-layer layer-1">Layer 1 — Primary Containment (初級圍堵)<br><small>密閉設備本體：焊接接頭、SIP 接口、密閉生物反應器</small></div>
-    <div class="onion-layer layer-2">Layer 2 — Secondary Containment (二級圍堵)<br><small>密閉房間 / RABS / 隔離器</small></div>
-    <div class="onion-layer layer-3">Layer 3 — Building Segregation (建築隔離)<br><small>不同製程區域的物理分隔，獨立 HVAC</small></div>
-    <div class="onion-layer layer-4">Layer 4+ — Environmental Controls (環境管控)<br><small>潔淨室等級、更衣程序、環境監控</small></div>
-    <p style="font-size:0.82rem; color:#556; margin-top:0.75rem;">保護層次越多 → 外部環境等級要求越低 → 設施建設成本越低</p>
+    <p style="font-weight:700; color:#1a3a2a; margin-bottom:0.75rem; font-size:0.95rem;">（）</p>
+    <div class="onion-layer layer-0">：Product ()</div>
+    <div class="onion-layer layer-1">Layer 1 — Primary Containment ()<br><small>：、SIP 、</small></div>
+    <div class="onion-layer layer-2">Layer 2 — Secondary Containment ()<br><small> / RABS / </small></div>
+    <div class="onion-layer layer-3">Layer 3 — Building Segregation ()<br><small>， HVAC</small></div>
+    <div class="onion-layer layer-4">Layer 4+ — Environmental Controls ()<br><small>、、</small></div>
+    <p style="font-size:0.82rem; color:#556; margin-top:0.75rem;"> →  → </p>
 </div>
 
 <!-- ============================================================ -->
 <!-- SECTION 4.3.1 -->
 <!-- ============================================================ -->
-<div id="sec431" class="section-title ispe-section-title">4.3.1 Providing Appropriate Environments within Biosafety Cabinets — 生物安全櫃（BSC）的環境提供</div>
+<div id="sec431" class="section-title ispe-section-title">4.3.1 Providing Appropriate Environments within Biosafety Cabinets — （BSC）</div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p>Open aseptic operations require environments of <span class="key-term">extremely low bioburden</span>, where the probability of detecting bioburden within those environments during the open operation is essentially zero/probability less than 1. <span class="key-term">Grade 5 environments</span>, such as that found within properly managed <span class="key-term">Biosafety Cabinets (BSCs)</span>, are typically considered acceptable for open aseptic operations, as they meet this criterion. Even within BSCs, proper cleaning, operations, technique, preparation, gowning, staging, etc., and surrounding environment are required to maintain the Grade 5 condition.</p>
 
@@ -1360,25 +1360,25 @@ CIP 驗證三要素：
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>生物安全櫃 (Biosafety Cabinet, BSC):</strong> BSC 是細胞培養實驗室和種子準備的核心設備。它利用垂直層流（vertical laminar airflow）和 HEPA 過濾，在操作台面創造一個 Grade 5（ISO 5，等同 EU GMP A 級）的微環境。</p>
-            <p><strong>「Rogue」空氣流的危險：</strong> 如果 HVAC 設計不當，房間內存在未受控的渦流或亂流，可能破壞 BSC 操作面附近的層流，將外部環境的微粒/微生物帶入 BSC 的開口面——這就是所謂「流氓空氣流（rogue air currents）」的危害。</p>
+            <h4> Key Concepts</h4>
+            <p><strong> (Biosafety Cabinet, BSC):</strong> BSC 。（vertical laminar airflow） HEPA ， Grade 5（ISO 5， EU GMP A ）。</p>
+            <p><strong>「Rogue」：</strong>  HVAC ，， BSC ，/ BSC ——「（rogue air currents）」。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Note</h4>
-            <p><strong>BSC ≠ 無限等級 5 保護：</strong> 即使在 BSC 內操作，Grade 5 環境也並非自動達成——需要搭配正確的操作技術（aseptic technique）、適當更衣、定期清潔消毒，以及良好的周邊環境設計（HVAC、氣密門道）。BSC 只是提供了潛力，人員操作行為決定了實際效果。</p>
-            <p><strong>人員數量的重要性：</strong> 每增加一個人在 BSC 所在房間內，就增加額外的微粒和微生物負荷。這就是為什麼 BSC 操作房間通常嚴格限制人員進入數量，並且在使用中盡量排除非必要人員。</p>
+            <h4> Key Note</h4>
+            <p><strong>BSC ≠  5 ：</strong>  BSC ，Grade 5 ——（aseptic technique）、、，（HVAC、）。BSC ，。</p>
+            <p><strong>：</strong>  BSC ，。 BSC ，。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>如果一個 BSC 所在房間的 HVAC 回風口位置設計不當（例如位於 BSC 開口正對面），可能造成什麼問題？</li>
-                <li>在 CDMO 中，種子培養（seed train）通常在 BSC 中進行。若要從 BSC 升級到封閉式搖瓶培養系統，需要考慮哪些設計改變？</li>
+                <li> BSC  HVAC （ BSC ），？</li>
+                <li> CDMO ，（seed train） BSC 。 BSC ，？</li>
             </ol>
         </div>
     </div>
@@ -1387,11 +1387,11 @@ CIP 驗證三要素：
 <!-- ============================================================ -->
 <!-- SECTION 4.3.2 -->
 <!-- ============================================================ -->
-<div id="sec432" class="section-title ispe-section-title">4.3.2 Strategies for Closing Bioprocess Operations — 製程密閉策略</div>
+<div id="sec432" class="section-title ispe-section-title">4.3.2 Strategies for Closing Bioprocess Operations — </div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <p>The goal for closing systems is to <span class="key-term">isolate the system product contact surfaces</span> from the surrounding environment. Available technology allows systems to be closed or isolated from the environment and by default, from each other. Effective isolation can be achieved without the need for walls or segregation of the HVAC controlling the environment housing these operations. This strategy has previously been supported by regulatory agencies (e.g., process and utility piping have traditionally and typically been housed in uncontrolled interstitial spaces).</p>
 
@@ -1418,46 +1418,46 @@ CIP 驗證三要素：
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>Controlled Not Classified (CNC) 空間：</strong> 這是一種介於「完全潔淨室」和「未管控空間」之間的環境——有基本的環境監控和維護要求，但不需要符合特定的 ISO 潔淨室等級。密閉緩衝液儲存槽可以放置在 CNC 空間，就是因為其密閉性讓環境分類變得不關鍵。</p>
-            <p><strong>間隙空間（Interstitial Space）的監管接受：</strong> 生物製藥廠的管路系統穿越非分類的機械夾層（灰色空間）已是長期被監管機構接受的做法。理由是：這些管路是密閉的，環境對管路內的產品沒有影響。這個「灰色空間合理性」的原則，正是 Vol.6 的密閉策略之一。</p>
+            <h4> Key Concepts</h4>
+            <p><strong>Controlled Not Classified (CNC) ：</strong> 「」「」——， ISO 。 CNC ，。</p>
+            <p><strong>（Interstitial Space）：</strong> （）。：，。「」， Vol.6 。</p>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p><strong>密閉管路穿越灰色空間 = 自來水管穿越牆壁：</strong> 家裡的自來水管穿過牆壁、天花板，你不會要求整面牆達到食品衛生標準，因為水是在密閉管道內流動的。生物製藥廠的製程管路穿越非潔淨的機械夾層，道理完全相同——關鍵的是管道本身的密閉性，而不是周遭牆壁的潔淨程度。</p>
-            <p><strong>設備的「延伸」概念：</strong> 每段連接在生物反應器上的密閉管路，法規上視為生物反應器本身的延伸部分——享有與生物反應器相同的密閉保護。只要管路本身密閉，外部環境分類就無關緊要。</p>
+            <h4> Analogy</h4>
+            <p><strong> = ：</strong> 、，，。，——，。</p>
+            <p><strong>「」：</strong> ，——。，。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Note</h4>
-            <p><strong>「環境成為非關鍵參數」的革命性意義：</strong> Vol.6 最重要的一句話是：對於密閉操作，「環境成為品質風險管理中無關鍵性的參數」。這句話的監管意涵是：</p>
+            <h4> Key Note</h4>
+            <p><strong>「」：</strong> Vol.6 ：，「」。：</p>
             <ul>
-                <li>密閉設備不需要放在潔淨室 → 建設成本大幅降低</li>
-                <li>環境監控需求降低 → 運營成本降低</li>
-                <li>設施設計靈活性提高 → 可在更小的潔淨室中容納更多設備</li>
+                <li> → </li>
+                <li> → </li>
+                <li> → </li>
             </ul>
-            <p><strong>但前提是：</strong> 必須有充分的文件和驗證來「證明」密閉性——否則監管機構仍會要求潔淨室環境。</p>
+            <p><strong>：</strong> 「」——。</p>
         </div>
 
         <div class="practice-box" style="border-style:solid; background:linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-color:#22c55e;">
-            <h4>實務應用 Practical Application</h4>
-            <p><strong>CDMO 設施設計的商業意義：</strong> 如果一個 CDMO 計劃建造一個 5,000L 不鏽鋼生物反應器廠房，選擇是：</p>
+            <h4> Practical Application</h4>
+            <p><strong>CDMO ：</strong>  CDMO  5,000L ，：</p>
             <ul>
-                <li><strong>方案 A（傳統思維）:</strong> 把整個生物反應器廠房設計為 Grade 8（C 級）潔淨室。建設成本極高，HVAC 系統複雜，維運成本高。</li>
-                <li><strong>方案 B（Vol.6 策略）:</strong> 生物反應器系統經過完整的密閉驗證（SIP、壓力保持測試、過濾器完整性測試），放置在 CNC 空間。只有真正需要開放操作的區域（如取樣站、種子準備室）建設 Grade 8 潔淨室。</li>
+                <li><strong> A（）:</strong>  Grade 8（C ）。，HVAC ，。</li>
+                <li><strong> B（Vol.6 ）:</strong> （SIP、、）， CNC 。（、） Grade 8 。</li>
             </ul>
-            <p>方案 B 可節省數百萬至千萬美元的設施建設成本，這正是 Vol.6 的核心商業價值所在。</p>
+            <p> B ， Vol.6 。</p>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>一台已通過 SIP 驗證的 2,000L 生物反應器，若放置在 CNC 空間中，需要哪些持續性監控措施來維持其「密閉」狀態的監管合規性？</li>
-                <li>如果你是監管審查員，你會要求什麼樣的文件來確認一個「密閉系統」確實達到密閉標準？</li>
+                <li> SIP  2,000L ， CNC ，「」？</li>
+                <li>，「」？</li>
             </ol>
         </div>
     </div>
@@ -1466,11 +1466,11 @@ CIP 驗證三要素：
 <!-- ============================================================ -->
 <!-- SECTION 4.4 -->
 <!-- ============================================================ -->
-<div id="sec44" class="section-title ispe-section-title">4.4 Demonstrating that Processes are Closed — 密閉性的驗證與證明</div>
+<div id="sec44" class="section-title ispe-section-title">4.4 Demonstrating that Processes are Closed — </div>
 
 <div class="two-column">
     <div class="left-column">
-        <h2>原文內容 Original Text</h2>
+        <h2> Original Text</h2>
 
         <h3>4.4.1 Performing a Closure Analysis</h3>
 
@@ -1491,7 +1491,7 @@ CIP 驗證三要素：
 
         <p>For a process unit operation, all <span class="key-term">penetrations and operations</span> that can influence the integrity of the system should be considered. Figure 4.5<a class="gallery-link" href="../../../figures-gallery.html?doc=ISPE-Vol6&amp;file=fig-p40-1.png" target="_blank" title="View in Gallery">&#128269;</a> shows penetrations and operations that should be considered for a stainless steel bioreactor used in a cell culture operation.</p>
 
-        <p><em>[Figure 4.5<a class="gallery-link" href="../../../figures-gallery.html?doc=ISPE-Vol6&amp;file=fig-p40-1.png" target="_blank" title="View in Gallery">&#128269;</a>: Stainless Steel Bioreactor Used in a Cell Culture Operation — 圖示所有可能影響密閉性的穿透點與操作點]</em></p>
+        <p><em>[Figure 4.5<a class="gallery-link" href="../../../figures-gallery.html?doc=ISPE-Vol6&amp;file=fig-p40-1.png" target="_blank" title="View in Gallery">&#128269;</a>: Stainless Steel Bioreactor Used in a Cell Culture Operation — ]</em></p>
 
         <p>The steps listed in Figure 4.5<a class="gallery-link" href="../../../figures-gallery.html?doc=ISPE-Vol6&amp;file=fig-p40-1.png" target="_blank" title="View in Gallery">&#128269;</a> represent <span class="key-term">opportunities for breach of the closed integrity</span> of the bioreactor system. The closure analysis should consider these steps and determine whether the methodology used in the step or subsequent steps adequately protects the integrity of the closed system. Stainless steel bioreactor systems require significant manual intervention during setup. The insertion of instrumentation into lower probe belts and assembly of vent and sterile gas filters can result in particulate and bioburden contamination of the vessel and system. The risk may be adequately mitigated by performing <span class="key-term">SIP</span> on the system prior to use.</p>
 
@@ -1516,7 +1516,7 @@ CIP 驗證三要素：
 
         <p>Phase 3 of the closure analysis evaluates options for mitigation of unacceptable risk due to insufficient product protection or process closure.</p>
 
-        <p><em>[Figure 4.10<a class="gallery-link" href="../../../figures-gallery.html?doc=ISPE-Vol6&amp;file=fig-p43-1.png" target="_blank" title="View in Gallery">&#128269;</a>: Fault Tree Flow Diagram — 用於最終評估密閉完整性的故障樹]</em></p>
+        <p><em>[Figure 4.10<a class="gallery-link" href="../../../figures-gallery.html?doc=ISPE-Vol6&amp;file=fig-p43-1.png" target="_blank" title="View in Gallery">&#128269;</a>: Fault Tree Flow Diagram — ]</em></p>
 
         <p>At the end of this workflow, only those elements, steps, or operations representing a <span class="key-term">moderate or high risk</span> of contamination from the environment should be further evaluated in the final assessment. Should contamination from the environment be a possibility, the <span class="key-term">fault tree approach</span> shown in Figure 4.6<a class="gallery-link" href="../../../figures-gallery.html?doc=ISPE-Vol6&amp;file=fig-p41-2.png" target="_blank" title="View in Gallery">&#128269;</a> could be used for final assessment of adequate closure.</p>
 
@@ -1524,81 +1524,81 @@ CIP 驗證三要素：
     </div>
 
     <div class="right-column">
-        <h2>導師解析 Tutorial Commentary</h2>
+        <h2> Tutorial Commentary</h2>
 
         <div class="concept-box">
-            <h4>核心概念解析 Key Concepts</h4>
-            <p><strong>密閉分析（Closure Analysis）的本質：</strong> 密閉分析是一種聚焦於「環境與製程系統互動」的專項風險評估。它的獨特性在於：</p>
+            <h4> Key Concepts</h4>
+            <p><strong>（Closure Analysis）：</strong> 「」。：</p>
             <ul>
-                <li>範疇刻意限縮為「環境影響」——不涉及其他製程改善</li>
-                <li>目標是「移除環境的關鍵性」——降低潔淨室等級要求</li>
-                <li>結果是「是否可以從 Grade X 降至 CNC」的決策依據</li>
+                <li>「」——</li>
+                <li>「」——</li>
+                <li>「 Grade X  CNC」</li>
             </ul>
-            <p><strong>密閉分析三階段工作流程（Phase 1–3）：</strong></p>
+            <p><strong>（Phase 1–3）：</strong></p>
             <ul>
-                <li><strong>Phase 1 — 製程理解:</strong> 收集 PFD（製程流程圖）和 P&amp;ID（管道儀錶圖），定義系統邊界，識別所有穿透點。</li>
-                <li><strong>Phase 2 — 風險排序:</strong> 建立密閉評估標準，對每個穿透點/操作進行風險排序，與預設可接受標準比較。</li>
-                <li><strong>Phase 3 — 風險緩解:</strong> 針對「不可接受」的風險項目，評估升級選項（如改用密閉傳輸系統、增加 SIP 步驟等）。</li>
+                <li><strong>Phase 1 — :</strong>  PFD（） P&amp;ID（），，。</li>
+                <li><strong>Phase 2 — :</strong> ，/，。</li>
+                <li><strong>Phase 3 — :</strong> 「」，（、 SIP ）。</li>
             </ul>
         </div>
 
         <div class="analogy-box">
-            <h4>比喻說明 Analogy</h4>
-            <p><strong>SIP 驗證 = 用蒸汽消毒管路接頭——無須拆解，現場驗證密閉性：</strong></p>
-            <p>想像你家的天然氣管道接頭——你不會每次使用前都把接頭拆下來送去滅菌。你會在原位（in-place）用特殊方法（如壓力測試或洩漏偵測）確認接頭密封完好。SIP（就地蒸氣滅菌）的邏輯類似：生物反應器的整套管路系統，包含各個閥門、過濾器、取樣口，不需要拆解，直接在原位通入高壓蒸汽（121°C 以上，至少 15 分鐘），達到滅菌效果，同時也驗證了系統能承受蒸汽壓而不洩漏——這等於同時完成了密閉性確認。</p>
+            <h4> Analogy</h4>
+            <p><strong>SIP  = ——，：</strong></p>
+            <p>——。（in-place）（）。SIP（）：，、、，，（121°C ， 15 ），，——。</p>
         </div>
 
         <div class="note-box">
-            <h4>重點提示 Key Note</h4>
-            <p><strong>SIP 後正壓維持的邏輯：</strong> SIP 完成後，系統立即切換為「無菌過濾氣體正壓維持」。這一步驟的目的是：即使系統有微小洩漏，也是氣體從內向外洩漏（正壓外洩），而不是外部環境的微粒從外向內進入。這是密閉系統的最後一道防線，也是密閉性持續保持的機制。</p>
-            <p><strong>DO 和 pH 監測作為密閉確認的指標：</strong> 接種前的 DO（溶氧）和 pH 穩定性可以間接確認 SIP 的成功——如果培養基被微生物污染，DO 和 pH 的異常變化會在幾小時內出現。這是一個巧妙的「密閉性功能測試」，利用培養基的化學特性作為密閉成功的生物指示劑。</p>
-            <p><strong>例外情況：搖瓶和種子準備：</strong> Vol.6 坦承，有些操作天生無法完全密閉——搖瓶（shaker flask）用於種子培養擴增時，本質上是半開放系統，仍需要 Grade 5（BSC）環境的保護。這是密閉策略的例外，不是規則。</p>
+            <h4> Key Note</h4>
+            <p><strong>SIP ：</strong> SIP ，「」。：，（），。，。</p>
+            <p><strong>DO  pH ：</strong>  DO（） pH  SIP ——，DO  pH 。「」，。</p>
+            <p><strong>：：</strong> Vol.6 ，——（shaker flask），， Grade 5（BSC）。，。</p>
         </div>
 
         <div class="formula-box">
-            <h4>密閉分析風險矩陣框架 Risk Matrix Framework</h4>
+            <h4> Risk Matrix Framework</h4>
             <pre>
-密閉分析風險評估邏輯：
+：
 
-每個穿透點 / 操作步驟 → 評估兩個維度：
+ /  → ：
 
-1. 暴露機率 (Probability of Exposure)
-   - 操作頻率
-   - 操作持續時間
-   - 人員介入程度
+1.  (Probability of Exposure)
+   - 
+   - 
+   - 
 
-2. 暴露嚴重性 (Severity of Exposure)
-   - 污染對製程的影響
-   - 是否有後續去除步驟？
-   - 對患者安全的影響
+2.  (Severity of Exposure)
+   - 
+   - ？
+   - 
 
-風險排序：
-   高機率 × 高嚴重性 → 必須升級（密閉化）
-   低機率 × 低嚴重性 → 可接受（維持現狀）
-   中等風險 → Phase 3 評估緩解選項
+：
+    ×  → （）
+    ×  → （）
+    → Phase 3 
 
-最終決策：
-   密閉升級 OR 保留開放 + 潔淨室環境
+：
+    OR  + 
             </pre>
         </div>
 
         <div class="practice-box" style="border-style:solid; background:linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-color:#22c55e;">
-            <h4>實務應用 Practical Application</h4>
-            <p><strong>CDMO 密閉分析的實際步驟（以 2,000L SS 生物反應器為例）：</strong></p>
+            <h4> Practical Application</h4>
+            <p><strong>CDMO （ 2,000L SS ）：</strong></p>
             <ol>
-                <li><strong>Phase 1:</strong> 從工程部取得 P&amp;ID，標記所有穿透點（探針口 × 5、取樣口 × 3、加料口 × 4、通氣口 × 2、傳輸接口 × 6）共 20 個潛在暴露點。</li>
-                <li><strong>Phase 2:</strong> 對每個穿透點評估：是否有 SIP 覆蓋？是否有緊急切斷閥？是否有完整性測試記錄？</li>
-                <li><strong>Phase 3:</strong> 發現取樣口在取樣操作時（開放式取樣）為高風險 → 升級為密閉取樣系統（如 SureSampler® 或蒸汽阻障取樣閥）。</li>
-                <li><strong>文件輸出:</strong> 產出密閉分析報告，支持將生物反應器移至 CNC 空間的監管申請（如 CMC 模組更新）。</li>
+                <li><strong>Phase 1:</strong>  P&amp;ID，（ × 5、 × 3、 × 4、 × 2、 × 6） 20 。</li>
+                <li><strong>Phase 2:</strong> ： SIP ？？？</li>
+                <li><strong>Phase 3:</strong> （） → （ SureSampler® ）。</li>
+                <li><strong>:</strong> ， CNC （ CMC ）。</li>
             </ol>
         </div>
 
         <div class="practice-box">
-            <h4>練習思考 Practice Questions</h4>
+            <h4> Practice Questions</h4>
             <ol>
-                <li>Fault Tree Analysis（故障樹分析）用於密閉性評估的邏輯是什麼？它與傳統 FMEA 有何不同？</li>
-                <li>Vol.6 說「大多數無菌藥物原料製程應可證明是密閉的」——為什麼搖瓶種子培養是例外？有沒有技術解決方案可以消除這個例外？</li>
-                <li>一個生物反應器的「密閉分析」是否等同於 ICH Q9 的 QRM 工具應用？兩者有何異同？</li>
+                <li>Fault Tree Analysis（）？ FMEA ？</li>
+                <li>Vol.6 「」——？？</li>
+                <li>「」 ICH Q9  QRM ？？</li>
             </ol>
         </div>
     </div>
@@ -1607,21 +1607,21 @@ CIP 驗證三要素：
 <!-- Summary Table -->
 <div class="two-column">
     <div class="left-column">
-        <h3 style="color: #1a3a2a; margin-bottom:0.75rem;">4.3 操作系統開放程度與環境需求對照表</h3>
+        <h3 style="color: #1a3a2a; margin-bottom:0.75rem;">4.3 </h3>
         <div style="overflow-x:auto;">
             </div>
     </div>
 
     <div class="right-column">
-        <h3 style="color: #2c5282; margin-bottom:0.75rem;">表格解讀 Table Analysis</h3>
+        <h3 style="color: #2c5282; margin-bottom:0.75rem;"> Table Analysis</h3>
         <div class="concept-box">
-            <h4>關鍵規律 Key Pattern</h4>
-            <p>從表格中可以清楚看到 Vol.6 的核心邏輯：密閉程度越高 → 所需環境等級越低。</p>
-            <p>最高風險的開放式無菌操作需要 ISO 5（A 級）；而完全密閉的系統只需要 CNC 甚至非分類空間——這之間的「環境等級跨越」，就是密閉化的商業回報。</p>
+            <h4> Key Pattern</h4>
+            <p> Vol.6 ： → 。</p>
+            <p> ISO 5（A ）； CNC ——「」，。</p>
         </div>
         <div class="note-box">
-            <h4>監管一致性提示</h4>
-            <p>此表格的邏輯與 EU GMP Annex 1（2022 年修訂版）的 CCS（污染控制策略）框架高度一致，也呼應 FDA 的 Process Validation Guidance 中強調「工程控制優先於環境控制」的原則。ISPE Vol.6 的「密閉優先」策略，已成為現代生物製藥設施設計的國際主流規範。</p>
+            <h4></h4>
+            <p> EU GMP Annex 1（2022 ） CCS（）， FDA  Process Validation Guidance 「」。ISPE Vol.6 「」，。</p>
         </div>
     </div>
 </div>
@@ -1630,18 +1630,18 @@ CIP 驗證三要素：
 
 <!-- SECTION SUMMARY -->
 <div class="learning-objectives" style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);">
-    <h3>本節重點回顧 Section Summary — Chapter 4 Part A (4.1–4.4)</h3>
+    <h3> Section Summary — Chapter 4 Part A (4.1–4.4)</h3>
     <ul>
-        <li><strong>製程密閉（Process Closure）</strong>是 ISPE Vol.6 的核心策略：將產品接觸面與環境完全解耦，使環境分類成為非關鍵參數，從而降低設施建設和維運成本。</li>
-        <li><strong>四大污染來源</strong>為：原料/耗材、環境因素（設備/空氣/人員/公用系統）、交叉污染（多產品/多批次/CIP 管路）、殘留攜帶（清洗不完全）——每一類均有對應的風險緩解策略。</li>
-        <li><strong>洋蔥式保護層次模型</strong>是本章的知識核心：每增加一層有效保護（初級圍堵 → 二級圍堵 → 建築隔離 → 環境管控），就可以降低一個等級的潔淨室要求，最終實現在 CNC 或非分類空間中安全操作密閉製程。</li>
-        <li><strong>密閉分析（Closure Analysis）</strong>是一種三階段（製程理解 → 風險排序 → 緩解選項評估）的專項風險評估工具，其最終產出是「是否可將設備移至低等級環境」的科學決策依據——必須有完整文件和驗證支撐，監管機構才會接受。</li>
-        <li><strong>SIP + 正壓維持 + DO/pH 監測</strong>是確認密閉生物反應器密閉狀態的標準方法組合；密閉性驗證不能僅靠環境等級提升替代。</li>
-        <li><strong>例外情況</strong>：搖瓶種子培養等天生難以密閉的操作，仍需在 Grade 5（BSC）環境中進行——「密閉優先」是策略，但不是可以忽視科學現實的口號。</li>
+        <li><strong>（Process Closure）</strong> ISPE Vol.6 ：，，。</li>
+        <li><strong></strong>：/、（///）、（//CIP ）、（）——。</li>
+        <li><strong></strong>：（ →  →  → ），， CNC 。</li>
+        <li><strong>（Closure Analysis）</strong>（ →  → ），「」——，。</li>
+        <li><strong>SIP +  + DO/pH </strong>；。</li>
+        <li><strong></strong>：， Grade 5（BSC）——「」，。</li>
     </ul>
 </div>
 
-<button class="back-to-top" id="backToTop" title="回到頂部">⇧</button>
+<button class="back-to-top" id="backToTop" title="">⇧</button>
 
 <script>
 const btn = document.getElementById('backToTop');

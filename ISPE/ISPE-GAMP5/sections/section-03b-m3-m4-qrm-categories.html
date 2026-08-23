@@ -244,26 +244,26 @@ tr:nth-child(even) { background: #f7fafc; }
 <!-- SECTION HEADER -->
 <div class="header">
 <h1>Appendices M3 &amp; M4: Science-Based Quality Risk Management &amp; Software Categories</h1>
-<div class="subtitle">科學化品質風險管理與軟體分類</div>
+<div class="subtitle"></div>
 <div class="page-info">ISPE GAMP 5 Second Edition | Appendix M3 (p107–p126) &amp; Appendix M4 (p127–p134)</div>
 </div>
 <div class="main-content">
 <!-- LEARNING OBJECTIVES -->
 <div class="learning-objectives">
-<h3>Learning Objectives  |  學習目標</h3>
+<h3>Learning Objectives  |  </h3>
 <ol>
-<li>Explain the five-step QRM process from ICH Q9 as applied to computerized systems, including scope, roles, and scalability.  <em>（解釋ICH Q9五步驟QRM流程如何應用於電腦化系統）</em></li>
-<li>Distinguish the three levels of risk assessment — initial, functional, and change-control — and describe when each is required.  <em>（區分初始、功能性與變更控制三層次風險評估）</em></li>
-<li>Apply the GAMP risk assessment method (Severity × Likelihood → Risk Class; Risk Class × Detectability → Risk Priority) to pharma examples.  <em>（應用GAMP風險評估矩陣至製藥實例）</em></li>
-<li>Correctly assign GAMP software categories 1, 3, 4, and 5 to real computerized systems, and explain why accurate categorization prevents over- or under-validation.  <em>（正確分配GAMP軟體類別，並說明為何準確分類能避免過度或不足驗證）</em></li>
-<li>Describe the hardware category framework (Category 1 standard vs. Category 2 custom) and its documentation implications.  <em>（描述硬體類別框架及其文件要求）</em></li>
-<li>Construct a risk register concept for a CDMO computerized system and explain how it drives test planning and periodic review.  <em>（建立CDMO電腦化系統的風險登記冊概念，說明如何驅動測試計畫與定期審查）</em></li>
+<li>Explain the five-step QRM process from ICH Q9 as applied to computerized systems, including scope, roles, and scalability.  <em>（ICH Q9QRM）</em></li>
+<li>Distinguish the three levels of risk assessment — initial, functional, and change-control — and describe when each is required.  <em>（、）</em></li>
+<li>Apply the GAMP risk assessment method (Severity × Likelihood → Risk Class; Risk Class × Detectability → Risk Priority) to pharma examples.  <em>（GAMP）</em></li>
+<li>Correctly assign GAMP software categories 1, 3, 4, and 5 to real computerized systems, and explain why accurate categorization prevents over- or under-validation.  <em>（GAMP，）</em></li>
+<li>Describe the hardware category framework (Category 1 standard vs. Category 2 custom) and its documentation implications.  <em>（）</em></li>
+<li>Construct a risk register concept for a CDMO computerized system and explain how it drives test planning and periodic review.  <em>（CDMO，）</em></li>
 </ol>
 </div>
 <!-- ============================================================
      APPENDIX M3 — SECTION 1: INTRODUCTION, SCOPE, BENEFITS
      ============================================================ -->
-<h2 class="section-title" id="m3-intro"><strong>Appendix M3 — Science-Based Quality Risk Management Appendix M3 — 科學基礎品質風險管理</strong></h2>
+<h2 class="section-title" id="m3-intro"><strong>Appendix M3 — Science-Based Quality Risk Management Appendix M3 — </strong></h2>
 <div class="two-column">
 <div class="left-column">
 <h2>11.1 Introduction &amp; 11.2 Scope</h2>
@@ -296,27 +296,27 @@ tr:nth-child(even) { background: #f7fafc; }
 </ul>
 </div>
 <div class="right-column">
-<h2>中文解說：QRM 的本質與使用場景</h2>
+<h2>：QRM </h2>
 <div class="concept-box">
-<h4>QRM 是什麼？</h4>
-<p><span class="key-term">品質風險管理（QRM）</span> 是一套系統性的方法，核心在於「評估、控制、溝通、審查」四個動作，對象是會影響病患安全、產品品質與數據完整性的風險。</p>
-<p>在 GAMP 5 第二版中，QRM 不是一個獨立工具，而是整個電腦化系統生命週期的基礎架構。</p>
+<h4>QRM ？</h4>
+<p><span class="key-term">（QRM）</span> ，「、、、」，、。</p>
+<p> GAMP 5 ，QRM ，。</p>
 </div>
 <div class="analogy-box">
-<h4>類比：飛行前安全檢查</h4>
-<p>想像每次飛機起飛前的機師檢查清單——不是所有項目都同等重要，駕駛艙儀表盤比餐盤托架要嚴格得多。QRM 就是在問：「哪些系統功能相當於發動機啟動，哪些只是機艙燈？」</p>
+<h4>：</h4>
+<p>——，。QRM ：「，？」</p>
 </div>
 <div class="note-box">
-<h4>第二版新增重點：雲端風險外移</h4>
-<p>當一家 CDMO 使用 AWS/Azure 上的 SaaS LIMS 時，部分風險管理責任已移轉給供應商。但監管機構的立場清楚：<strong>責任不能外包</strong>，只有作業可以外包。因此供應商評估與持續監控成為核心 QRM 活動。</p>
+<h4>：</h4>
+<p> CDMO  AWS/Azure  SaaS LIMS ，。：<strong></strong>，。 QRM 。</p>
 </div>
 <div class="concept-box">
-<h4>QRM 的七大效益（製藥現場觀點）</h4>
+<h4>QRM （）</h4>
 <ul>
-<li><strong>省錢：</strong>低風險功能不需要高強度測試，節省驗證成本</li>
-<li><strong>合規：</strong>有文件支撐的風險決策，稽查員更容易接受</li>
-<li><strong>預防：</strong>及早識別風險比事後糾正便宜 10 倍以上</li>
-<li><strong>可辯護：</strong>決策有依據，不是「我們一直都這樣做」</li>
+<li><strong>：</strong>，</li>
+<li><strong>：</strong>，</li>
+<li><strong>：</strong> 10 </li>
+<li><strong>：</strong>，「」</li>
 </ul>
 </div>
 </div>
@@ -329,14 +329,14 @@ tr:nth-child(even) { background: #f7fafc; }
 <p><em>*SMEs may include Process Owner, System Owner, Quality Unit, Business or IT Application Support, IT or Engineering Operations Support, Infrastructure specialists, supplier, or any appropriate specialist.</em></p>
 </div>
 <div class="right-column">
-<h2>中文解說：誰在 QRM 中扮演哪個角色？</h2>
+<h2>： QRM ？</h2>
 <div class="note-box">
-<h4>常見誤區</h4>
-<p>很多公司讓 IT 單獨主導 QRM，但 <strong>IT 不等於系統擁有者</strong>。業務流程擁有者（生產或品質部門主管）才是最終負責人。IT 是支援者，不是決策者。</p>
+<h4></h4>
+<p> IT  QRM， <strong>IT </strong>。（）。IT ，。</p>
 </div>
 <div class="analogy-box">
-<h4>類比：建築工程的責任鏈</h4>
-<p>蓋廠房時，建商（供應商）知道材料特性，但業主（Process Owner）決定建什麼、為何建。QA 則像建築師事務所，確保設計符合建築法規。三方缺一不可。</p>
+<h4>：</h4>
+<p>，（），（Process Owner）、。QA ，。。</p>
 </div>
 </div>
 </div>
@@ -344,7 +344,7 @@ tr:nth-child(even) { background: #f7fafc; }
 <!-- ============================================================
      APPENDIX M3 — SECTION 2: RISK ASSESSMENT GUIDANCE
      ============================================================ -->
-<h2 class="section-title" id="m3-guidance"><strong>11.5 Guidance — QRM Process in Detail 11.5 指引 — QRM 流程詳述</strong></h2>
+<h2 class="section-title" id="m3-guidance"><strong>11.5 Guidance — QRM Process in Detail 11.5  — QRM </strong></h2>
 <div class="two-column">
 <div class="left-column">
 <h2>11.5.1 Scalability &amp; 11.5.2 Business Process Context</h2>
@@ -366,29 +366,29 @@ tr:nth-child(even) { background: #f7fafc; }
 <p>Risk tolerance is context dependent: risk tolerance related to product release is <strong>lower for a life-saving oncology drug</strong> than for an allergy cream, even though processes may be identical.</p>
 </div>
 <div class="right-column">
-<h2>中文解說：業務流程驅動風險評估</h2>
+<h2>：</h2>
 <div class="concept-box">
-<h4>五步驟 QRM 流程（ICH Q9 架構）</h4>
+<h4> QRM （ICH Q9 ）</h4>
 <ol>
-<li><strong>Step 1：</strong>初始風險評估 — GxP 範圍確定、系統影響評定</li>
-<li><strong>Step 2：</strong>識別功能風險 — 哪些功能會影響品質</li>
-<li><strong>Step 3：</strong>功能風險評估 — 嚴重性 × 可能性 × 可偵測性</li>
-<li><strong>Step 4：</strong>風險控制 — 設計或程序控制</li>
-<li><strong>Step 5：</strong>持續監控與審查 — 生命週期全程</li>
+<li><strong>Step 1：</strong> — GxP 、</li>
+<li><strong>Step 2：</strong> — </li>
+<li><strong>Step 3：</strong> —  ×  × </li>
+<li><strong>Step 4：</strong> — </li>
+<li><strong>Step 5：</strong> — </li>
 </ol>
 </div>
 <div class="analogy-box">
-<h4>風險容忍度的現實意義</h4>
-<p>同樣是 LIMS 系統，若用於放行生命維持藥物的品管，風險容忍度極低；若用於追蹤辦公室文具庫存，同樣的功能失效完全可以容忍。<strong>系統本身不決定風險高低，業務流程才是關鍵。</strong></p>
+<h4></h4>
+<p> LIMS ，，；，。<strong>，。</strong></p>
 </div>
 <div class="note-box">
-<h4>CDMO 無菌充填現場舉例</h4>
-<p>同一家公司的兩套系統：</p>
+<h4>CDMO </h4>
+<p>：</p>
 <ul>
-<li><strong>高風險：</strong>控制無菌腔室壓差的 DCS — 失效直接影響滅菌保證，可能造成產品污染</li>
-<li><strong>低風險：</strong>追蹤員工培訓記錄的 LMS — 失效影響合規記錄，不直接危及病患</li>
+<li><strong>：</strong> DCS — ，</li>
+<li><strong>：</strong> LMS — ，</li>
 </ul>
-<p>對 DCS 的驗證要求遠高於 LMS，即使兩者都是 Category 4 系統。</p>
+<p> DCS  LMS， Category 4 。</p>
 </div>
 </div>
 </div>
@@ -443,23 +443,23 @@ tr:nth-child(even) { background: #f7fafc; }
 <p>Risk-based decisions during operation include: system availability, backup/recovery frequency, disaster planning, security, change control, and periodic reviews. Risk management also applies to system retirement, including data/record retention, destruction, or migration.</p>
 </div>
 <div class="right-column">
-<h2>中文解說：生命週期各階段的風險管理</h2>
+<h2>：</h2>
 <div class="analogy-box">
-<h4>類比：蓋房子前先測地質</h4>
-<p>初始風險評估就像蓋房子前的地質調查——越早做越好，能影響設計決策。如果等到施工完成才發現地基不穩，代價將高出十倍。同理，初始風險評估應在需求規格制定之前或同步進行，而非事後補做。</p>
+<h4>：</h4>
+<p>——，。，。，，。</p>
 </div>
 <div class="highlight-box">
-<h4>EU Annex 11 的關鍵要求</h4>
-<p>電腦化系統取代人工操作時，<strong>不得讓整體風險升高</strong>。這個要求常被忽略的一個面向是：人工操作中偶然存在的品質控制（例如操作員目視察覺異常），電腦化後可能消失，必須用其他控制措施補回。</p>
+<h4>EU Annex 11 </h4>
+<p>，<strong></strong>。：（），，。</p>
 </div>
 <div class="practice-box">
-<h4>CDMO 實踐：無菌充填線自動化 QRM</h4>
-<p>假設要將手動記錄腔室壓差改為 DCS 自動採集：</p>
+<h4>CDMO ： QRM</h4>
+<p> DCS ：</p>
 <ul>
-<li><strong>初始評估：</strong>確認此為 GxP 系統，對無菌性有高影響</li>
-<li><strong>功能評估：</strong>FMEA 識別「感測器漂移」「通訊中斷」等失效模式</li>
-<li><strong>測試計畫：</strong>重點測試警報邏輯、感測器校驗，輕點測試 UI 外觀</li>
-<li><strong>持續監控：</strong>納入年度驗證狀態審查</li>
+<li><strong>：</strong> GxP ，</li>
+<li><strong>：</strong>FMEA 「」「」</li>
+<li><strong>：</strong>、， UI </li>
+<li><strong>：</strong></li>
 </ul>
 </div>
 </div>
@@ -478,25 +478,25 @@ tr:nth-child(even) { background: #f7fafc; }
 <p>Function impact is context sensitive. Failure of an instrument in a QC laboratory for <strong>chemical intermediates</strong> is far less likely to affect patient safety than the same instrument in a QC laboratory that <strong>releases drug product to market</strong> — because there are many additional controls between the intermediate and the patient in the former case.</p>
 </div>
 <div class="right-column">
-<h2>中文解說：GAMP 風險評估矩陣</h2>
+<h2>：GAMP </h2>
 <div class="analogy-box">
-<h4>類比：汽車安全評分</h4>
-<p>嚴重性 = 碰撞後車廂潰縮程度<br>
-            可能性 = 車型在該路段發生碰撞的機率<br>
-            可偵測性 = 是否有防碰撞警示系統<br><br>
-            三者組合決定這款車的整體安全風險優先級。</p>
+<h4>：</h4>
+<p> = <br>
+             = <br>
+             = <br><br>
+            。</p>
 </div>
 <div class="note-box">
-<h4>重要提醒：語境決定一切</h4>
-<p>「高」「中」「低」的定義在每個專案都必須重新協商。無菌充填廠的「低嚴重性」，可能等同於一般倉儲系統的「高嚴重性」。每個風險評估文件必須記錄這些定義。</p>
+<h4>：</h4>
+<p>「」「」「」。「」，「」。。</p>
 </div>
 </div>
 </div>
 <div class="concept-box">
-<h4>兩步驟評估法拆解</h4>
-<p><strong>第一步：確定 Risk Class</strong></p>
-<p style="margin-top:0.5rem"><strong>第二步：Risk Class × 可偵測性 → Risk Priority</strong></p>
-<p>若 Risk Class 高且偵測困難（低偵測性）→ 最高風險優先級，需要強力控制措施。</p>
+<h4></h4>
+<p><strong>： Risk Class</strong></p>
+<p style="margin-top:0.5rem"><strong>：Risk Class ×  → Risk Priority</strong></p>
+<p> Risk Class （）→ ，。</p>
 </div>
 <div class="two-column">
 <div class="left-column">
@@ -508,26 +508,26 @@ tr:nth-child(even) { background: #f7fafc; }
 <p>Residual risks after implementing controls should be considered. If residual risk remains above acceptable threshold, further controls should be implemented and the analysis repeated — until residual risk is acceptable.</p>
 </div>
 <div class="right-column">
-<h2>中文解說：控制措施的層次</h2>
+<h2>：</h2>
 <div class="concept-box">
-<h4>控制措施的三個層次（由強到弱）</h4>
+<h4>（）</h4>
 <ol>
-<li><strong>消除風險：</strong>重新設計流程或系統，讓危害不可能發生（最佳）</li>
-<li><strong>降低可能性：</strong>加強驗證、用成熟技術、冗餘設計</li>
-<li><strong>提高可偵測性：</strong>警報、下游檢測、QC 放行測試</li>
+<li><strong>：</strong>，（）</li>
+<li><strong>：</strong>、、</li>
+<li><strong>：</strong>、、QC </li>
 </ol>
 </div>
 <div class="analogy-box">
-<h4>類比：瑞士起司模型</h4>
-<p>每一層控制措施都像一片有洞的起司，沒有任何單一控制是完美的。但多層疊加後，失效路徑要穿透所有層的洞才能造成傷害——這就是深度防禦的概念，也是 QRM 的核心哲學。</p>
+<h4>：</h4>
+<p>，。，——， QRM 。</p>
 </div>
 <div class="note-box">
-<h4>殘餘風險的實務處理</h4>
-<p>驗證結束後，殘餘風險不會自動消失。對於 CDMO，常見的殘餘風險接受方式包括：</p>
+<h4></h4>
+<p>，。 CDMO，：</p>
 <ul>
-<li>寫入年度產品審查（APR）的監控計畫</li>
-<li>在 SOP 中明定操作員複核步驟</li>
-<li>在風險登記冊中標記並設定重新評估日期</li>
+<li>（APR）</li>
+<li> SOP </li>
+<li></li>
 </ul>
 </div>
 </div>
@@ -553,28 +553,28 @@ tr:nth-child(even) { background: #f7fafc; }
 <p>Cloud computing means direct control of risk-management processes must sometimes be delegated to a supplier. This <strong>does not absolve the regulated company of accountability</strong>. Supplier assessment and management processes become a critical part of the regulated company's QRM approach. Continuous monitoring of engaged IT service suppliers should be a contractually obligated aspect of the supplier relationship.</p>
 </div>
 <div class="right-column">
-<h2>中文解說：風險登記冊與外包管理</h2>
+<h2>：</h2>
 <div class="concept-box">
-<h4>風險登記冊（Risk Register）是什麼？</h4>
-<p>風險登記冊是一份動態文件，記錄：</p>
+<h4>（Risk Register）？</h4>
+<p>，：</p>
 <ul>
-<li>已識別的風險（危害 + 失效模式）</li>
-<li>每個風險的評級（嚴重性、可能性、可偵測性）</li>
-<li>採取的控制措施</li>
-<li>殘餘風險狀態</li>
-<li>責任人與複審日期</li>
+<li>（ + ）</li>
+<li>（、、）</li>
+<li></li>
+<li></li>
+<li></li>
 </ul>
-<p>它不只是一份驗證文件，而是系統整個生命週期的風險追蹤工具。</p>
+<p>，。</p>
 </div>
 <div class="note-box">
-<h4>雲端/SaaS 系統的 QRM 挑戰</h4>
-<p>若 CDMO 使用 AWS 上的雲端 LIMS：</p>
+<h4>/SaaS  QRM </h4>
+<p> CDMO  AWS  LIMS：</p>
 <ul>
-<li>雲端基礎設施的可用性風險 → 需要 AWS 提供 SLA 和 SOC 報告</li>
-<li>數據備份與恢復 → 必須合約規定 + 定期測試</li>
-<li>存取控制 → 跨地域的使用者管理要求更嚴格</li>
+<li> →  AWS  SLA  SOC </li>
+<li> →  + </li>
+<li> → </li>
 </ul>
-<p><strong>記住：監管機構不接受「這是供應商的問題」作為回應。</strong></p>
+<p><strong>：「」。</strong></p>
 </div>
 </div>
 </div>
@@ -613,17 +613,17 @@ tr:nth-child(even) { background: #f7fafc; }
 </ul>
 </div>
 <div class="right-column">
-<h2>中文解說：常見風險評估工具比較</h2>
+<h2>：</h2>
 <div class="practice-box">
-<h4>FMEA 驅動測試計畫的實務流程</h4>
+<h4>FMEA </h4>
 <ol>
-<li>列出系統所有 GxP 功能（來自 URS/FS）</li>
-<li>對每個功能識別失效模式（What can go wrong?）</li>
-<li>評分：S（嚴重性）× O（可能性）× D（偵測性）= RPN</li>
-<li>高 RPN 功能 → 轉化為測試案例（IQ/OQ/PQ）</li>
-<li>低 RPN 功能 → 較簡單的核查或文件審查即可</li>
+<li> GxP （ URS/FS）</li>
+<li>（What can go wrong?）</li>
+<li>：S（）× O（）× D（）= RPN</li>
+<li> RPN  → （IQ/OQ/PQ）</li>
+<li> RPN  → </li>
 </ol>
-<p>這個流程直接回答稽查員的問題：「你的測試案例是怎麼決定的？」</p>
+<p>：「？」</p>
 </div>
 </div>
 </div>
@@ -635,25 +635,25 @@ tr:nth-child(even) { background: #f7fafc; }
 <p><em>*Note: There is no implication that these functions should always be defined as high or medium impact; such assignment must be made within the context of the business process.</em></p>
 </div>
 <div class="right-column">
-<h2>中文解說：中高影響功能評估的差異</h2>
+<h2>：</h2>
 <div class="concept-box">
-<h4>為什麼要區分通用與具體危害？</h4>
-<p>對於<strong>中等影響</strong>的功能，我們只需要識別大方向的失效類型，這樣效率高、夠用。但對於<strong>高影響</strong>的功能，必須深入每一個具體失效情境，才能設計出針對性的測試案例。</p>
-<p>這就是為什麼無菌充填線的充填功能（高影響）需要特別列出「停電 &lt;30 分鐘」和「停電 &gt;30 分鐘」兩個不同情境，而不只是籠統的「電力問題」。</p>
+<h4>？</h4>
+<p><strong></strong>，，、。<strong></strong>，，。</p>
+<p>（）「 &lt;30 」「 &gt;30 」，「」。</p>
 </div>
 <div class="analogy-box">
-<h4>類比：飛機 vs 廉價航空的安全檢查</h4>
-<p>對於客艙娛樂系統（低/中影響）：「螢幕故障」的一般性評估就夠了。<br>
-            對於飛行控制系統（高影響）：必須列出每一種具體的感測器失效、軟體錯誤、備援切換情境，並逐一測試。<br>
-            製藥系統的邏輯完全相同。</p>
+<h4>： vs </h4>
+<p>（/）：「」。<br>
+            （）：、、，。<br>
+            。</p>
 </div>
 <div class="practice-box">
-<h4>CDMO 無菌充填線應用</h4>
-<p>以液體充填線為例，在 CDMO 無菌環境中：</p>
+<h4>CDMO </h4>
+<p>， CDMO ：</p>
 <ul>
-<li>停電情境下 UPS 維持時間必須根據最長的充填週期設定</li>
-<li>「停電 &gt;30 分鐘」情境的後果不只是充填不准確，還可能造成腔室失壓、污染風險</li>
-<li>這些具體情境必須在 OQ 測試中被逐一模擬驗證</li>
+<li> UPS </li>
+<li>「 &gt;30 」，、</li>
+<li> OQ </li>
 </ul>
 </div>
 </div>
@@ -662,7 +662,7 @@ tr:nth-child(even) { background: #f7fafc; }
 <!-- ============================================================
      APPENDIX M4 — SOFTWARE & HARDWARE CATEGORIES
      ============================================================ -->
-<h2 class="section-title" id="m4"><strong>Appendix M4 — Categories of Software and Hardware Appendix M4 — 軟體與硬體分類</strong></h2>
+<h2 class="section-title" id="m4"><strong>Appendix M4 — Categories of Software and Hardware Appendix M4 — </strong></h2>
 <div class="two-column">
 <div class="left-column">
 <h2>12.1 Introduction</h2>
@@ -683,23 +683,23 @@ tr:nth-child(even) { background: #f7fafc; }
 </ul>
 </div>
 <div class="right-column">
-<h2>中文解說：為什麼分類很重要？</h2>
+<h2>：？</h2>
 <div class="concept-box">
-<h4>GAMP 軟體分類的核心邏輯</h4>
-<p>分類系統的設計前提是：<strong>複雜度越高 → 殘餘缺陷的可能性越高 → 需要更嚴格的驗證。</strong></p>
-<p>類別不是用來簡化決策的標籤，而是一種結構化的思考框架，幫助團隊快速評估：「這個系統需要多深入的供應商審核？多完整的測試文件？」</p>
+<h4>GAMP </h4>
+<p>：<strong> →  → 。</strong></p>
+<p>，，：「？？」</p>
 </div>
 <div class="note-box">
-<h4>第二版的重要更新：類別是連續譜，不是方格</h4>
-<p>第一版有時被誤用為「貼標籤就好」。第二版明確強調：大多數系統是<strong>多類別混合體</strong>。例如一套商業 LIMS（主體 Cat 4），但其中的自訂批次報告模組是 Cat 5，底層 Oracle 資料庫是 Cat 1。<br>
-            每個組件都需要對應的生命週期處理方式。</p>
+<h4>：，</h4>
+<p>「」。：<strong></strong>。 LIMS（ Cat 4）， Cat 5， Oracle  Cat 1。<br>
+            。</p>
 </div>
 <div class="highlight-box">
-<h4>錯誤分類的代價</h4>
+<h4></h4>
 <ul>
-<li><strong>分類過低（應該是 Cat 4 但說是 Cat 3）：</strong>驗證不足 → 稽查發現 → 483 觀察項</li>
-<li><strong>分類過高（應該是 Cat 3 但說是 Cat 5）：</strong>驗證過度 → 浪費資源 → 影響上市時程</li>
-<li>兩種錯誤都有代價，正確分類是效率與合規的基礎。</li>
+<li><strong>（ Cat 4  Cat 3）：</strong> →  → 483 </li>
+<li><strong>（ Cat 3  Cat 5）：</strong> →  → </li>
+<li>，。</li>
 </ul>
 </div>
 </div>
@@ -724,10 +724,10 @@ tr:nth-child(even) { background: #f7fafc; }
         </div>
 </div>
 <div class="right-column">
-<h2>中文解說：如何用分類資訊做決策</h2>
+<h2>：</h2>
 <div class="analogy-box">
-<h4>類比：天平 vs 色譜數據系統（CDS）都是 Cat 4？</h4>
-<p>GAMP 文件明確指出這個例子：兩者都常被標示為 Cat 4，但一個是簡單的可配置輸出，另一個是複雜的資料採集與計算平台。<strong>分類相同，驗證深度截然不同。</strong>這正是為什麼 GxP 影響評估必須與分類結合使用。</p>
+<h4>： vs （CDS） Cat 4？</h4>
+<p>GAMP ： Cat 4，，。<strong>，。</strong> GxP 。</p>
 </div>
 </div>
 </div>
@@ -747,30 +747,30 @@ tr:nth-child(even) { background: #f7fafc; }
 <p>Category 2 has been removed from GAMP 5. It previously covered firmware but this is now addressed within other categories.</p>
 </div>
 <div class="right-column">
-<h2>中文解說：Category 1 — 基礎設施軟體</h2>
+<h2>：Category 1 — </h2>
 <div class="concept-box">
-<h4>Cat 1 的典型例子</h4>
+<h4>Cat 1 </h4>
 <ul>
-<li><strong>作業系統：</strong>Windows Server、Linux（RHEL）</li>
-<li><strong>資料庫引擎：</strong>Oracle Database、MS SQL Server</li>
-<li><strong>中介軟體：</strong>訊息佇列（MQ）、API 閘道</li>
-<li><strong>網路基礎設施：</strong>防火牆、VPN、AD（Active Directory）</li>
-<li><strong>安全工具：</strong>防毒軟體、密碼管理系統</li>
-<li><strong>SDLC 工具：</strong>需求管理工具（如 JIRA）、測試管理工具（如 Xray）</li>
+<li><strong>：</strong>Windows Server、Linux（RHEL）</li>
+<li><strong>：</strong>Oracle Database、MS SQL Server</li>
+<li><strong>：</strong>（MQ）、API </li>
+<li><strong>：</strong>、VPN、AD（Active Directory）</li>
+<li><strong>：</strong>、</li>
+<li><strong>SDLC ：</strong>（ JIRA）、（ Xray）</li>
 </ul>
 </div>
 <div class="note-box">
-<h4>Cat 1 不需要功能驗證，但需要什麼？</h4>
+<h4>Cat 1 ，？</h4>
 <ul>
-<li>安裝確認（IQ）：確認版本號、安裝程序符合核准的程序</li>
-<li>變更控制：每次版本升級都要走 GxP 評估流程</li>
-<li>高影響工具（如密碼管理系統）需額外風險評估</li>
+<li>（IQ）：、</li>
+<li>： GxP </li>
+<li>（）</li>
 </ul>
-<p>常見錯誤：把 Cat 1 理解為「免驗證」。正確理解是「免功能驗證，但仍需安裝確認與變更控制」。</p>
+<p>： Cat 1 「」。「，」。</p>
 </div>
 <div class="analogy-box">
-<h4>類比：廚房的電力系統</h4>
-<p>電力系統本身（Cat 1）不是廚房裡的廚具，但廚具必須在可靠電力下才能正常運作。你不會測試電力能否做出完美的舒芙蕾，但你一定要確認電力系統正確安裝、接地良好、過載保護正常。</p>
+<h4>：</h4>
+<p>（Cat 1），。，、、。</p>
 </div>
 </div>
 </div>
@@ -789,28 +789,28 @@ tr:nth-child(even) { background: #f7fafc; }
 </ul>
 </div>
 <div class="right-column">
-<h2>中文解說：Category 3 — 標準系統組件</h2>
+<h2>：Category 3 — </h2>
 <div class="concept-box">
-<h4>Cat 3 的特徵：可以設定參數，但不能重新配置業務流程</h4>
-<p>典型例子（CDMO 場景）：</p>
+<h4>Cat 3 ：，</h4>
+<p>（CDMO ）：</p>
 <ul>
-<li>簡單條碼掃描器固件（設定讀取格式，但不能改變邏輯）</li>
-<li>天平（設定小數位數、校正係數，但功能固定）</li>
-<li>pH 計控制器（設定緩衝液參數）</li>
-<li>某些儀器的資料擷取固件（如 Karl Fischer 水分測定儀）</li>
-<li>標準報表工具（只能選報表格式，不能改計算邏輯）</li>
+<li>（，）</li>
+<li>（、，）</li>
+<li>pH （）</li>
+<li>（ Karl Fischer ）</li>
+<li>（，）</li>
 </ul>
 </div>
 <div class="note-box">
-<h4>Cat 3 的「校驗很重要」意義</h4>
-<p>當軟體與硬體緊密結合時（例如天平的 ADC 轉換固件與機械秤盤），校驗就是驗證軟硬體整合功能的主要手段。<br>
-            這也是為什麼 OQ 有時可以被定期校驗計畫所取代的法規依據。</p>
+<h4>Cat 3 「」</h4>
+<p>（ ADC ），。<br>
+             OQ 。</p>
 </div>
 <div class="highlight-box">
-<h4>Cat 3 vs Cat 4 的邊界在哪？</h4>
-<p>關鍵問題是：<strong>使用者能否重新配置業務流程或工作流程？</strong><br>
-            如果答案是否（只能設參數）→ Cat 3<br>
-            如果答案是是（可以建立自訂工作流程）→ Cat 4</p>
+<h4>Cat 3 vs Cat 4 ？</h4>
+<p>：<strong>？</strong><br>
+            （）→ Cat 3<br>
+            （）→ Cat 4</p>
 </div>
 </div>
 </div>
@@ -828,14 +828,14 @@ tr:nth-child(even) { background: #f7fafc; }
 <p><strong>Important:</strong> Custom software components such as macros developed with internal scripting language, written or modified to satisfy specific user-business requirements, should be treated as <strong>Category 5</strong>.</p>
 </div>
 <div class="right-column">
-<h2>中文解說：Category 4 — 可配置商業系統</h2>
+<h2>：Category 4 — </h2>
 <div class="analogy-box">
-<h4>類比：積木玩具 vs 樂高</h4>
-<p>Cat 3 像普通積木——形狀固定，只能改顏色。Cat 4 像樂高——可以用相同的零件組裝成千百種不同的結構。你的配置決定了系統的行為，所以<strong>配置本身就是驗證的對象</strong>。</p>
+<h4>： vs </h4>
+<p>Cat 3 ——，。Cat 4 ——。，<strong></strong>。</p>
 </div>
 <div class="note-box">
-<h4>Cat 4 陷阱：自訂腳本 = Cat 5</h4>
-<p>很多 LIMS 或 ERP 系統允許使用者編寫 macro、腳本或客製化報告。這些腳本雖然跑在 Cat 4 平台上，但其本身必須以 Cat 5 的標準來管理（設計規格 + 程式碼審查 + 單元測試）。這是常見的合規漏洞。</p>
+<h4>Cat 4 ： = Cat 5</h4>
+<p> LIMS  ERP  macro、。 Cat 4 ， Cat 5 （ +  + ）。。</p>
 </div>
 </div>
 </div>
@@ -854,29 +854,29 @@ tr:nth-child(even) { background: #f7fafc; }
 <p><small><strong>Abbreviations:</strong> ADR: Adverse Drug Reaction | ERP: Enterprise Resource Planning | CDS: Chromatography Data System | HMI: Human Machine Interfaces | COTS: Commercial off the Shelf | LIMS: Laboratory Information Management System | CRM: Customer Relationship Management | QMS: Quality Management System | DCS: Distributed Control System | SCADA: Supervisory Control and Data Acquisition | EDMS: Electronic Document Management System</small></p>
 </div>
 <div class="right-column">
-<h2>中文解說：Category 5 與完整類別比較</h2>
+<h2>：Category 5 </h2>
 <div class="concept-box">
-<h4>Cat 5 的典型例子（CDMO 場景）</h4>
+<h4>Cat 5 （CDMO ）</h4>
 <ul>
-<li><strong>客製無菌充填線控制軟體：</strong>依充填線特定配置客製化開發的 PLC 邏輯</li>
-<li><strong>客製批次處置系統：</strong>公司自行開發的批次放行決策系統</li>
-<li><strong>系統整合介面：</strong>LIMS 與 MES 之間的客製化資料交換程式</li>
-<li><strong>客製計算電子表格：</strong>含有 VBA 巨集的 Excel 溶液配製計算表</li>
-<li><strong>客製 API 連接器：</strong>連接 ERP 與倉庫管理系統的自開發 middleware</li>
+<li><strong>：</strong> PLC </li>
+<li><strong>：</strong></li>
+<li><strong>：</strong>LIMS  MES </li>
+<li><strong>：</strong> VBA  Excel </li>
+<li><strong> API ：</strong> ERP  middleware</li>
 </ul>
 </div>
 <div class="note-box">
-<h4>Cat 5 為什麼風險最高？</h4>
-<p>Cat 5 的核心問題是<strong>缺乏歷史數據</strong>：</p>
+<h4>Cat 5 ？</h4>
+<p>Cat 5 <strong></strong>：</p>
 <ul>
-<li>Cat 1/3/4：有成千上萬的用戶，已知的缺陷已被修補，可信賴的版本歷史</li>
-<li>Cat 5：第一個版本，第一批使用者，計算邏輯錯誤可能潛伏數月甚至數年</li>
+<li>Cat 1/3/4：，，</li>
+<li>Cat 5：，，</li>
 </ul>
-<p>這就是為什麼 Cat 5 需要程式碼審查、編碼標準、單元測試——這些工具的目的是在系統「上線」前找出這些未知缺陷。</p>
+<p> Cat 5 、、——「」。</p>
 </div>
 <div class="analogy-box">
-<h4>類比：買房 vs 自建房</h4>
-<p>Cat 3 像買成屋（格局固定，只能換燈泡）。Cat 4 像買預售屋客變（格局可調整，但結構是建商蓋的）。Cat 5 像自建房（你決定一切，但你也要對所有結構問題負責）。自建房的安全驗證責任完全在業主，不能說「我的包商應該沒問題」。</p>
+<h4>： vs </h4>
+<p>Cat 3 （，）。Cat 4 （，）。Cat 5 （，）。，「」。</p>
 </div>
 </div>
 </div>
@@ -905,43 +905,43 @@ tr:nth-child(even) { background: #f7fafc; }
 </ul>
 </div>
 <div class="right-column">
-<h2>中文解說：硬體類別與驗證意涵</h2>
+<h2>：</h2>
 <div class="concept-box">
-<h4>硬體類別 1（標準硬體）典型例子</h4>
+<h4> 1（）</h4>
 <ul>
-<li>商業伺服器（Dell、HP）</li>
-<li>網路交換器、路由器</li>
-<li>標準 PLC 硬體模組（如 Siemens S7 系列）</li>
-<li>商業感測器（溫度、壓力、流量計）</li>
-<li>標準 HMI 面板</li>
-<li>UPS 電源系統</li>
+<li>（Dell、HP）</li>
+<li>、</li>
+<li> PLC （ Siemens S7 ）</li>
+<li>（、、）</li>
+<li> HMI </li>
+<li>UPS </li>
 </ul>
-<p>對這些設備的要求相對簡單：記錄清楚、安裝確認、納入變更控制。</p>
+<p>：、、。</p>
 </div>
 <div class="concept-box">
-<h4>硬體類別 2（客製硬體）典型例子</h4>
+<h4> 2（）</h4>
 <ul>
-<li>無菌充填線的客製夾持機構（客製機械設計）</li>
-<li>客製取樣裝置</li>
-<li>公司自行設計的感測器整合模組</li>
-<li>客製 I/O 介面卡</li>
+<li>（）</li>
+<li></li>
+<li></li>
+<li> I/O </li>
 </ul>
-<p>客製硬體因為沒有「市場使用歷史」，需要設計規格文件（DS）和接受測試（Acceptance Testing），類似 Cat 5 軟體的邏輯。</p>
+<p>「」，（DS）（Acceptance Testing）， Cat 5 。</p>
 </div>
 <div class="note-box">
-<h4>硬體類別的實務意義</h4>
-<p>硬體類別的核心目的是：決定需要多少<strong>供應商審計</strong>與<strong>安裝文件</strong>。</p>
+<h4></h4>
+<p>：<strong></strong><strong></strong>。</p>
 <ul>
-<li>標準硬體（Cat 1）：供應商審計通常不需要，文件從資料表取得即可</li>
-<li>客製硬體（Cat 2）：大多數情況下需要進行供應商實地審計</li>
+<li>（Cat 1）：，</li>
+<li>（Cat 2）：</li>
 </ul>
-<p>在 CDMO 場景中，大多數硬體屬於 Cat 1，只有高度客製化的設備整合模組才會進入 Cat 2。</p>
+<p> CDMO ， Cat 1， Cat 2。</p>
 </div>
 </div>
 </div>
 <!-- SECTION SUMMARY -->
 <div class="summary-box">
-<h2>Section Summary  |  本節重點摘要</h2>
+<h2>Section Summary  |  </h2>
 <div style="display:grid; grid-template-columns:1fr 1fr; gap:1.5rem;">
 <div>
 <h3 style="color:rgba(255,255,255,0.85); font-size:1rem; margin-bottom:0.75rem; border-bottom:1px solid rgba(255,255,255,0.3); padding-bottom:0.3rem;">Appendix M3 Key Takeaways</h3>
@@ -956,7 +956,7 @@ tr:nth-child(even) { background: #f7fafc; }
 </ul>
 </div>
 <div>
-<h3 style="color:rgba(255,255,255,0.85); font-size:1rem; margin-bottom:0.75rem; border-bottom:1px solid rgba(255,255,255,0.3); padding-bottom:0.3rem;">Appendix M4 Key Takeaways  |  軟體類別核心要點</h3>
+<h3 style="color:rgba(255,255,255,0.85); font-size:1rem; margin-bottom:0.75rem; border-bottom:1px solid rgba(255,255,255,0.3); padding-bottom:0.3rem;">Appendix M4 Key Takeaways  |  </h3>
 <ul>
 <li><span class="cat-badge cat-1" style="background:rgba(255,255,255,0.2); color:white;">Cat 1</span> Infrastructure (OS, DB engines, network tools): record version, verify installation, change control — no functional verification required.</li>
 <li><span class="cat-badge cat-3" style="background:rgba(255,255,255,0.2); color:white;">Cat 3</span> Standard COTS (fixed-function, parameter-only): simplified life cycle; calibration may substitute for OQ for simple instruments.</li>
